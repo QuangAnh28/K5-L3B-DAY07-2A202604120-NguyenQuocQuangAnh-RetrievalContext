@@ -1,0 +1,2 @@
+# Preserve exact experiment bytes: fingerprints include original line endings.
+* -text whitespace=cr-at-eol

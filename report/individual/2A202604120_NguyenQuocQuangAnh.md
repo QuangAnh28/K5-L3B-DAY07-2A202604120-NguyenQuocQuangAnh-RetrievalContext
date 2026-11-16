@@ -23,7 +23,7 @@ RRF lấy 20 candidate mỗi nhánh, sum(1/(60+rank)). Không cộng trực ti�
 
 Citation ID phải có trong context; renderer gắn bracket từ ID có cấu trúc và giữ raw arguments. Không chứng minh semantic grounding chỉ bằng membership. Abstain dùng lời từ chối chuẩn, không trả nguyên khẳng định tự do. Lỗi retrieval chẩn đoán trước agent cũng được lưu status:error rồi tiếp tục query khác. Provider chỉ đòi key khi gửi request, cho phép replay cache offline. Ba lỗi này được kiểm thử hồi quy, giữ kết quả trước sửa.
 
-Cải thiện 2 thay k/budget/max_searches cùng lúc, không quy lợi ích cho một yếu tố. Thực tế các lượt cơ bản cuối đều tìm một lần; không tuyên bố đã đo lợi ích multi-hop.
+Cải thiện 2 thay k/budget/max_searches cùng lúc, không quy lợi ích cho một yếu tố. Trên test hybrid_context, năm câu có đáp án tìm một lần; b2-u1 và b2-u2 tìm ba lần. Số lượt tìm này chưa chứng minh lợi ích multi-hop.
 
 ## Kết quả cơ bản
 

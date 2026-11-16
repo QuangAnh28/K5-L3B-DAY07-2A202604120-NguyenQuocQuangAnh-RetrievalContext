@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checkout_source": "Exact staged Git blobs in a fresh temporary directory",
+  "base_and_bonus_frozen_fingerprints_match": true,
+  "full_trace_and_review_audits_passed": true,
+  "unit_tests_passed": 29,
+  "original_page_images_hash_verified": 232,
+  "snapshot_restore_without_preexisting_tmp_passed": true,
+  "api_key_available": false,
+  "dependency_environment": "Existing Windows CPython 3.14 virtual environment; fresh pip installation not tested",
+  "source_pdf": "Exact original FPT PDF supplied locally; not bundled",
+  "semantic_labels": "Existing AI-assisted labels preserved; no student confirmation asserted"
+}

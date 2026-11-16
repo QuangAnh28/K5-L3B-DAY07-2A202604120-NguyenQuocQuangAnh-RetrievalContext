@@ -135,7 +135,7 @@ def reports(ledger):
       '| hybrid_context — cải thiện 2 | Cùng hybrid | 6 | 6000 | 3 | Giữ nhiều evidence hơn, cho phép tìm tiếp |','',
       'RRF lấy 20 candidate mỗi nhánh, sum(1/(60+rank)). Không cộng trực tiếp score khác thang. Các phương pháp dùng cùng corpus C/query/nhãn. Filter chương chỉ theo phạm vi được nêu trong query dev, không từ gold. Query đầu luôn là query gốc; trace ghi riêng model_query. Budget gồm ID/source URL/trang/separator; là ký tự, không phải token. Dedup ID và ưu tiên evidence lượt mới; chunk không vừa bị bỏ. Model có thể tìm tiếp hoặc finish; không có số lượt chung bắt buộc của đề.','',
       'Citation ID phải có trong context; renderer gắn bracket từ ID có cấu trúc và giữ raw arguments. Không chứng minh semantic grounding chỉ bằng membership. Abstain dùng lời từ chối chuẩn, không trả nguyên khẳng định tự do. Lỗi retrieval chẩn đoán trước agent cũng được lưu status:error rồi tiếp tục query khác. Provider chỉ đòi key khi gửi request, cho phép replay cache offline. Ba lỗi này được kiểm thử hồi quy, giữ kết quả trước sửa.','',
-      'Cải thiện 2 thay k/budget/max_searches cùng lúc, không quy lợi ích cho một yếu tố. Thực tế các lượt cơ bản cuối đều tìm một lần; không tuyên bố đã đo lợi ích multi-hop.','',
+      'Cải thiện 2 thay k/budget/max_searches cùng lúc, không quy lợi ích cho một yếu tố. Trên test hybrid_context, năm câu có đáp án tìm một lần; b2-u1 và b2-u2 tìm ba lần. Số lượt tìm này chưa chứng minh lợi ích multi-hop.','',
       '## Kết quả cơ bản','',
       '| Cấu hình / split | Hit@1 | Hit@3 | Context đủ quote cuối | Mean answer /2 | Citation hỗ trợ | Abstention đúng | Từ chối nhầm | Median ms | Chat USD |',
       '|---|---|---|---|---:|---|---|---|---:|---:|']

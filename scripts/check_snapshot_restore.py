@@ -11,6 +11,7 @@ import src.bonus as bonus
 import restore_bonus_assets as assets
 
 def main():
+    (ROOT/'tmp').mkdir(parents=True,exist_ok=True)
     with TemporaryDirectory(prefix='restore-',dir=ROOT/'tmp') as directory:
         target=Path(directory)
         assert target.resolve().is_relative_to((ROOT/'tmp').resolve())

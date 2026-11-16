@@ -11,7 +11,7 @@ from dotenv import dotenv_values
 def main():
     directories=['src','starter','tests','docs','assets','benchmark','data','report','results','scripts']
     files=[p for p in ROOT.glob('*.md')]
-    files += [ROOT/n for n in ['requirements.txt','requirements-lock.txt','.gitignore','.env.example']]
+    files += [ROOT/n for n in ['requirements.txt','requirements-lock.txt','.gitignore','.gitattributes','.env.example']]
     for name in directories:
         for p in (ROOT/name).rglob('*'):
             if not p.is_file():continue

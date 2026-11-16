@@ -18,6 +18,8 @@ ID citation phải có trong context cuối; server gắn `[chunk-id]` còn thi�
 
 ## Cài đặt
 
+`.gitattributes` giữ nguyên byte và xuống dòng của file để fingerprint code, corpus, benchmark và trace khớp với lần chạy đã chốt trên các hệ điều hành. Không tự chuẩn hóa hoặc ghi lại JSON bằng formatter trước khi kiểm tra hash. Thay đổi xuống dòng cũng làm SHA256 khác dù nội dung đọc được giống nhau.
+
 Python 3.11+ cho source; máy thực hiện dùng Windows CPython 3.14 và các dependency thực tế từ ZIP Day 6. Từ thư mục repo:
 
 ```powershell
