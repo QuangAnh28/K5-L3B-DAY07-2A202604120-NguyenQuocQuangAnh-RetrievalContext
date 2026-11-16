@@ -36,7 +36,7 @@ Cải thiện 2 thay k/budget/max_searches cùng lúc, không quy lợi ích cho
 | baseline/test | 3/5 (60.0%) | 4/5 (80.0%) | 4/5 (80.0%) | 1.600 | 4/5 (80.0%) | 2/2 (100.0%) | 0/5 (0.0%) | 3892.5 | 0.00534600 |
 | hybrid_context/test | 4/5 (80.0%) | 4/5 (80.0%) | 4/5 (80.0%) | 1.800 | 5/5 (100.0%) | 2/2 (100.0%) | 0/5 (0.0%) | 3828.5 | 0.01299480 |
 
-Chi tiết phân bố answer 0/1/2, context 0/1/2, tool use, số lượt gọi, số câu có citation, lỗi và mẫu số ở audit_summary.json/summary.json. Đã đọc toàn bộ 17 câu dev mỗi cấu hình và 7 câu test cho baseline/selected. Nhãn và lý do từng câu/citation ở reviews.json, giữ hash trace/benchmark. Retrieval metrics không tính câu thiếu evidence; lỗi cơ bản báo riêng. Median là thời gian agent gồm chat/search, không gồm mở index và pass ranking chẩn đoán; cache ấm và concurrency khiến không thể suy tốc độ API lạnh. Chi phí bảng chỉ chat; embedding dùng cache chia sẻ và được tính tổng riêng trong cost_summary.
+Chi tiết phân bố answer 0/1/2, context 0/1/2, tool use, số lượt gọi, số câu có citation, lỗi và mẫu số ở audit_summary.json/summary.json. Codex AI đã hỗ trợ rà toàn bộ 17 câu dev mỗi cấu hình và 7 câu test cho baseline/selected; học viên chưa xác nhận nhãn. Nhãn và lý do từng câu/citation ở reviews.json, giữ hash trace/benchmark. Retrieval metrics không tính câu thiếu evidence; lỗi cơ bản báo riêng. Median là thời gian agent gồm chat/search, không gồm mở index và pass ranking chẩn đoán; cache ấm và concurrency khiến không thể suy tốc độ API lạnh. Chi phí bảng chỉ chat; embedding dùng cache chia sẻ và được tính tổng riêng trong cost_summary.
 
 Chọn hybrid_context trên dev tại 2026-11-16T03:59:53.133664+00:00: ưu tiên mean answer đã đọc/chấm, sau đó Context Evidence Rate gốc, Hit@3, Hit@1, latency, tên cấu hình. Hash code/provider/corpus/benchmark lưu trong selection; test chỉ chạy sau chốt.
 
@@ -101,4 +101,4 @@ Lệnh setup/run/test/audit/freeze ở LAB_RUN.md và BONUS_RUN.md. requirements
 
 Giới hạn: corpus nhỏ và cùng tài liệu giữa dev/test, nhãn AI cùng người xây hệ thống, chưa có chấm độc lập/học viên xác nhận. Caption toàn trang tự sinh có thể sai; chỉ những evidence/citation khi chấm được đọc lại ảnh gốc, không tuyên bố mọi caption đều đúng. Chưa có red-team prompt injection riêng; chỉ có instruction tách tài liệu khỏi chỉ dẫn. Tái chạy API có thể khác dù temperature=0.
 
-Chưa push/nộp repo cá nhân. Học viên cần đọc lại nhãn/evidence, cấp quyền repo và nộp link theo SUBMISSION.md. Không thay student_confirmed thành true nếu chưa kiểm tra thực tế.
+Đã push code lên repo cá nhân; học viên cần tự đọc lại nhãn/evidence, bảo đảm người chấm có quyền xem và nộp link theo SUBMISSION.md. Không thay student_confirmed thành true nếu chưa tự kiểm tra thực tế.

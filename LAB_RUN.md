@@ -28,18 +28,19 @@ Copy-Item .env.example .env
 
 Điền `OPENROUTER_API_KEY` trong `.env`. Chạy thật gửi câu hỏi/context tới OpenRouter và phát sinh phí. Không commit `.env`.
 
-Nếu có đúng ZIP Day 6 đã cung cấp và dùng Windows CPython 3.14, có thể phục hồi dependencies offline cùng key cục bộ từ ZIP tin cậy thay cho pip:
+Nếu có ZIP Day 6 gốc và dùng Windows CPython 3.14, có thể phục hồi dependencies offline thay cho pip. Lệnh này chỉ phục hồi thư viện; không nhập API key từ ZIP:
 
 ```powershell
-python scripts/bootstrap.py --zip "C:\Users\Think Pad\K5-L3B-DAY06-2A202604120-DataIngestion.zip" --restore-deps --import-key
+$env:DAY6_ZIP = "<đường-dẫn-tới-ZIP-Day6-trên-máy-này>"
+python scripts/bootstrap.py --zip $env:DAY6_ZIP --restore-deps
 ```
 
-Bootstrap chỉ phục hồi `site-packages` vào venv cục bộ, không dùng executable cũ trong ZIP; giữ `.env` sẵn có. Người dùng đã đồng ý chạy qua OpenRouter trong phiên triển khai. Bản ZIP chứa credential phải được giữ riêng, không đưa vào bài nộp.
+Bootstrap chỉ phục hồi `site-packages` vào venv cục bộ, không dùng executable cũ trong ZIP và không sửa `.env`. Với repo clone để kiểm tra, dùng snapshot đã lọc credential ở `artifacts/day6-reuse.zip`; chỉ cần tự cấu hình key trong `.env` nếu chạy model thật.
 
 ## Chuẩn bị và kiểm thử
 
 ```powershell
-.venv\Scripts\python -m src.prepare --zip "C:\Users\Think Pad\K5-L3B-DAY06-2A202604120-DataIngestion.zip"
+.venv\Scripts\python -m src.prepare --zip $env:DAY6_ZIP
 .venv\Scripts\python -m unittest discover -s tests -v
 ```
 

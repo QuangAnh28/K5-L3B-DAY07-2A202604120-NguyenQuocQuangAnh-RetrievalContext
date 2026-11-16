@@ -44,7 +44,8 @@ Cài Python 3.11+ và `requirements.txt` (môi trường thực tế CPython 3.1
 Khôi phục ảnh và vector từ đúng PDF đã dùng:
 
 ```powershell
-.venv\Scripts\python scripts/restore_bonus_assets.py --pdf "C:\Users\Think Pad\Downloads\BCTN-2025.pdf" --snapshot artifacts/bonus-reuse.zip
+$env:FPT_PDF = "<đường-dẫn-tới-PDF-FPT-2025-trên-máy-này>"
+.venv\Scripts\python scripts/restore_bonus_assets.py --pdf $env:FPT_PDF --snapshot artifacts/bonus-reuse.zip
 .venv\Scripts\python -m unittest discover -s tests -v
 ```
 
@@ -55,7 +56,7 @@ Chỉ dùng `--snapshot` khi các file vector local chưa tồn tại. Nếu đ�
 Các lệnh dưới dùng cho thí nghiệm mới; cần lưu kết quả cũ riêng. Không dùng để ghi đè một corpus/selection đã chốt rồi gọi đó là cùng lượt đánh giá:
 
 ```powershell
-.venv\Scripts\python -m src.bonus_ingest render --pdf "C:\Users\Think Pad\Downloads\BCTN-2025.pdf"
+.venv\Scripts\python -m src.bonus_ingest render --pdf $env:FPT_PDF
 .venv\Scripts\python -m src.bonus_ingest caption --workers 6
 .venv\Scripts\python -m src.bonus_ingest embed
 ```
