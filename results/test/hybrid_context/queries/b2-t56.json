@@ -1,0 +1,419 @@
+{
+  "status": "answered",
+  "answer": "Bên mua có nghĩa vụ nhận hàng theo thỏa thuận và thực hiện những công việc hợp lý để giúp bên bán giao hàng (Điều 56). [luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_zUzSaGYRop057HVBLa9pAEEr",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801621-lzmheemKMjiJApMm3zvM"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng?",
+      "model_query": "Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "text": "2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 56"
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 43"
+          },
+          "score": 0.03177805800756621,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "hiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 49"
+          },
+          "score": 0.03128054740957967,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "text": "2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 44"
+          },
+          "score": 0.02946912242686891,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 11,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 11,
+          "text": "2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 11,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 2",
+            "article": "Điều 34"
+          },
+          "score": 0.027526395173453996,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "text": "3. Bên bán ph ải chịu trách nhi ệm về khiếm khuyết của hàng hóa phát sinh sau thời điểm chuyển rủi ro nếu khiếm khuyết đó do bên bán vi phạm hợp đồng.\n\nĐiều 41. Khắc phục trong trường hợp giao thiếu hàng, giao hàng không phù hợp với hợp đồng\n\n1. Trừ trường hợp có th ỏa thuận khác, nếu hợp đồng chỉ quy định thời hạn giao hàng và không xác định thời điểm giao hàng c ụ thể mà bên bán giao hàng trước khi h ết th ời h ạn giao hàng và giao thi ếu hàng ho ặc giao hàng không phù hợp với hợp đồng thì bên bán v ẫn có th ể giao ph ần hàng còn thi ếu hoặc thay th ế hàng hoá cho phù h ợp với hợp đồng hoặc khắc phục sự không phù h ợp của hàng hoá trong thời hạn còn lại.\n\n2. Khi bên bán th ực hiện việc khắc phục quy định tại khoản 1 Điều này mà gây b ất lợi ho ặc làm phát sinh chi phí b ất h ợp lý cho bên mua thì bên mua có quyền yêu cầu bên bán khắc phục bất lợi hoặc chịu chi phí đó.\n\nĐiều 42. Giao chứng từ liên quan đến hàng hoá",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 41"
+          },
+          "score": 0.027425373134328357,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 7
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\n2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nhiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một\n\n[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\n2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de",
+        "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+        "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+        "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+        "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_d7ZxyBsexLN65ZZ4wNbh9D6P",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Bên mua có nghĩa vụ nhận hàng theo thỏa thuận và thực hiện những công việc hợp lý để giúp bên bán giao hàng (Điều 56).\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801622-4GyuLaCuGNhhu4GGUMdv"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\n2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nhiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một\n\n[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\n2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de",
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+    "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801621-lzmheemKMjiJApMm3zvM",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 21,
+        "total_tokens": 310,
+        "cost": 0.0001492,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001492,
+          "upstream_inference_prompt_cost": 0.0001156,
+          "upstream_inference_completions_cost": 3.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1333.903899998404,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801622-4GyuLaCuGNhhu4GGUMdv",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2350,
+        "completion_tokens": 90,
+        "total_tokens": 2440,
+        "cost": 0.001084,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001084,
+          "upstream_inference_prompt_cost": 0.00094,
+          "upstream_inference_completions_cost": 0.000144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2399.7775000170805,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3741.2163999979384,
+  "searches": 1,
+  "query_id": "b2-t56",
+  "question": "Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng?",
+  "split": "test",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 16,
+      "text": "2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 56"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 13,
+      "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 43"
+      },
+      "score": 0.03177805800756621,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 5,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "hiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 49"
+      },
+      "score": 0.03128054740957967,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 6
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 13,
+      "text": "2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 44"
+      },
+      "score": 0.02946912242686891,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 11,
+        "tfidf": 5
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 11,
+      "text": "2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 11,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 2",
+        "article": "Điều 34"
+      },
+      "score": 0.027526395173453996,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 18,
+        "tfidf": 8
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 13,
+      "text": "3. Bên bán ph ải chịu trách nhi ệm về khiếm khuyết của hàng hóa phát sinh sau thời điểm chuyển rủi ro nếu khiếm khuyết đó do bên bán vi phạm hợp đồng.\n\nĐiều 41. Khắc phục trong trường hợp giao thiếu hàng, giao hàng không phù hợp với hợp đồng\n\n1. Trừ trường hợp có th ỏa thuận khác, nếu hợp đồng chỉ quy định thời hạn giao hàng và không xác định thời điểm giao hàng c ụ thể mà bên bán giao hàng trước khi h ết th ời h ạn giao hàng và giao thi ếu hàng ho ặc giao hàng không phù hợp với hợp đồng thì bên bán v ẫn có th ể giao ph ần hàng còn thi ếu hoặc thay th ế hàng hoá cho phù h ợp với hợp đồng hoặc khắc phục sự không phù h ợp của hàng hoá trong thời hạn còn lại.\n\n2. Khi bên bán th ực hiện việc khắc phục quy định tại khoản 1 Điều này mà gây b ất lợi ho ặc làm phát sinh chi phí b ất h ợp lý cho bên mua thì bên mua có quyền yêu cầu bên bán khắc phục bất lợi hoặc chịu chi phí đó.\n\nĐiều 42. Giao chứng từ liên quan đến hàng hoá",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 41"
+      },
+      "score": 0.027425373134328357,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 20,
+        "tfidf": 7
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\n2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nhiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một\n\n[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\n2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de",
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+    "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

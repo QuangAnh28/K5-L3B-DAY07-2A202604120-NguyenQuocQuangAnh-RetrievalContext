@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p018",
+  "image_sha256": "292c829c005f9ff8d09013e8aebaca50044eb5d3b7e75406ff5e5cfd1fede6ab",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về vai trò của FPT trong việc nâng tầm trải nghiệm cho người hâm mộ toàn cầu của Câu lạc bộ Chelsea và hợp đồng chuyển đổi số toàn diện ứng dụng AI trị giá 256 triệu USD.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Lễ ký kết hợp tác giữa FPT và Chelsea",
+        "location": "dưới bên trái",
+        "description": "Ảnh chụp nhóm người trong lễ ký kết hợp tác giữa FPT và Chelsea, thể hiện sự hợp tác chiến lược trong công nghệ và trải nghiệm người hâm mộ."
+      },
+      {
+        "type": "photo",
+        "title": "Nhóm nhân viên FPT làm việc với máy tính",
+        "location": "dưới bên phải",
+        "description": "Ảnh nhóm nhân viên FPT mặc áo cam làm việc cùng nhau trên máy tính, minh họa cho hợp đồng chuyển đổi số toàn diện ứng dụng AI quy mô lớn."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800700-HDJChj9Yan7fJeb0cMUI",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 194,
+        "total_tokens": 2756,
+        "cost": 0.0013352,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013352,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4754.211599996779,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

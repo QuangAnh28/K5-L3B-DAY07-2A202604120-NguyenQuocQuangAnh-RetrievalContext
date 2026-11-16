@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p035",
+  "image_sha256": "e321b88a3768cf5ef63a01072245f3f67f2bd40493eb32fbd62d79ccdc343111",
+  "caption": {
+    "summary": "Bảng thể hiện tình hình thay đổi vốn điều lệ của FPT qua các lần phát hành cổ phiếu từ năm 2015 đến năm 2022, kèm theo lý do tăng vốn.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tình hình thay đổi vốn điều lệ",
+        "location": "phải",
+        "description": "Bảng gồm các cột: Lần phát hành, Thời điểm phát hành, Vốn điều lệ sau khi phát hành (đơn vị VNĐ), Lý do tăng vốn điều lệ qua các năm từ 2015 đến 2022."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800716-Ze73kwg1hN9wieOEPhzi",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 125,
+        "total_tokens": 2687,
+        "cost": 0.0012248,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012248,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 11233.884699991904,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

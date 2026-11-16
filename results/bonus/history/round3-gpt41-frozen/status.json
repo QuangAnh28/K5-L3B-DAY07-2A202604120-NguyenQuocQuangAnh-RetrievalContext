@@ -1,0 +1,59 @@
+{
+  "stage": "dev_complete_test_pending",
+  "network_calls_stopped": true,
+  "reason": "Four explicitly requested dev queries completed; no further test API calls launched.",
+  "bonus_test_run": false,
+  "bonus_points_claimed": 0,
+  "benchmark_correction": "fd-i3: five actual labels; archived incorrect gold.",
+  "reused_successful_unchanged_dev_cases": {
+    "text": [
+      "fd-t1",
+      "fd-t2",
+      "fd-t3",
+      "fd-c1",
+      "fd-c2",
+      "fd-c3",
+      "fd-i1",
+      "fd-i2",
+      "fd-x1",
+      "fd-x2",
+      "fd-x3",
+      "fd-m1",
+      "fd-m2",
+      "fd-m3",
+      "fd-u1",
+      "fd-u2",
+      "fd-u3"
+    ],
+    "vision": [
+      "fd-t1",
+      "fd-t2",
+      "fd-t3",
+      "fd-c1",
+      "fd-c2",
+      "fd-c3",
+      "fd-i1",
+      "fd-i2",
+      "fd-x1",
+      "fd-x2",
+      "fd-x3",
+      "fd-m1",
+      "fd-m3",
+      "fd-u1",
+      "fd-u2"
+    ]
+  },
+  "pending_dev_queries": {
+    "text": [],
+    "vision": []
+  },
+  "pilot": "results/bonus/history/round2-billing-and-gold-errata",
+  "reviewer_kind": "AI",
+  "student_confirmed": false,
+  "next": "Frozen vision selected; 30 bonus test questions remain unrun. Do not rerun dev/freeze or change model under this selection.",
+  "resumed_dev": {
+    "queries": 4,
+    "successful_chat_requests": 10,
+    "provider_reported_chat_cost_usd": 0.16389
+  }
+}

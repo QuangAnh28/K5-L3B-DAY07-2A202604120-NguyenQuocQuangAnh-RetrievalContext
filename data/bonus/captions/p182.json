@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p182",
+  "image_sha256": "cff263caca039b4e3d2d9cf3d0b5d38ed38666eddb7658f3c222fab4719ee121",
+  "caption": {
+    "summary": "Trang trình bày phần thuyết minh báo cáo tài chính hợp nhất năm 2025, tập trung vào các chính sách kế toán chủ yếu liên quan đến tài sản cố định và thuê tài sản.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800815-GyQnhRjYPscisuNNTjAo",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 50,
+        "total_tokens": 2612,
+        "cost": 0.0011048,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011048,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4368.723699997645,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

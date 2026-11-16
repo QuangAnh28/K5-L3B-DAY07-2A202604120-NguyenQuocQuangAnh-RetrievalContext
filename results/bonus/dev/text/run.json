@@ -1,0 +1,32 @@
+{
+  "fingerprint": {
+    "src/bonus.py": "f90486c402297e84a3259d876f171e82eeb4260d8c900ad577362eb69a11376a",
+    "src/bonus_ingest.py": "994f7061a56d534abd5fd4878610964e4815974a87d035f5341ed06a4264d2a9",
+    "src/provider.py": "d3ed492e37448181a71eb1c10e4894fbc88335def7b91b4cc7f2feacf6ef16d1",
+    "data/bonus/chunks.json": "1819439d8220cfe7feb296f7433a541ab60a39f9643c525fced2c99f8b167d61",
+    "data/bonus/manifest.json": "91aa6b062cdf41a43cbe6af7219ee54e4f1b20361bcbef11a76abb90e3d25290",
+    "benchmark/bonus_cases.json": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad"
+  },
+  "configs": {
+    "text": {
+      "top_k": 4,
+      "max_searches": 2,
+      "max_context_pages": 6,
+      "images": false,
+      "model": "openai/gpt-4.1-mini",
+      "hypothesis": "Text + visual captions, hybrid retrieval; no original image in answer context."
+    },
+    "vision": {
+      "top_k": 8,
+      "max_searches": 3,
+      "max_context_pages": 12,
+      "images": true,
+      "model": "anthropic/claude-haiku-5.5",
+      "reasoning": {
+        "enabled": false
+      },
+      "hypothesis": "Lower-cost original-image reasoning with Haiku 5.5, thinking disabled; retain retrieval/context limits and evaluate anew on dev."
+    }
+  },
+  "selection_criterion": "Higher dev audited pass count; lower model cost; lower median latency; config name."
+}

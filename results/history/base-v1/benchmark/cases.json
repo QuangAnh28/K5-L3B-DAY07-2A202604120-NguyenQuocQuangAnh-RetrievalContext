@@ -1,0 +1,393 @@
+[
+  {
+    "id": "d7-q01",
+    "split": "dev",
+    "question": "Thương nhân chưa đăng ký kinh doanh có còn phải chịu trách nhiệm về hoạt động của mình không?",
+    "expected_answer": "Có, vẫn phải chịu trách nhiệm theo Luật này và quy định khác của pháp luật.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 4,
+        "evidence": "Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q02",
+    "split": "dev",
+    "question": "Nguyên tắc bình đẳng áp dụng thế nào với thương nhân thuộc các thành phần kinh tế?",
+    "expected_answer": "Mọi thành phần kinh tế bình đẳng trước pháp luật trong hoạt động thương mại.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 4,
+        "evidence": "Nguyên tắc bình đẳng trước pháp lu ật của th ương nhân trong hoạt động thương mại Thương nhân thuộc mọi thành phần kinh tế bình đẳng trước pháp luật trong hoạt động thương mại."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q03",
+    "split": "dev",
+    "question": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+    "expected_answer": "Khi đáp ứng các điều kiện và tiêu chuẩn kỹ thuật theo quy định pháp luật.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 5,
+        "evidence": "Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q04",
+    "split": "dev",
+    "question": "Văn phòng đại diện có được hoạt động sinh lợi trực tiếp tại Việt Nam không?",
+    "expected_answer": "Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 6,
+        "evidence": "1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q05",
+    "split": "dev",
+    "question": "Trong phạm vi Chương II, hợp đồng mua bán hàng hóa có những hình thức nào?",
+    "expected_answer": "Lời nói, văn bản hoặc hành vi cụ thể.",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chương Ii"
+    },
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 8,
+        "evidence": "1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q06",
+    "split": "dev",
+    "question": "Mua bán hàng hóa quốc tế phải dựa trên hợp đồng có hình thức nào?",
+    "expected_answer": "Văn bản hoặc hình thức khác có giá trị pháp lý tương đương.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 9,
+        "evidence": "2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q07",
+    "split": "dev",
+    "question": "Nếu đã thỏa thuận địa điểm giao hàng, bên bán phải giao ở đâu?",
+    "expected_answer": "Đúng địa điểm đã thỏa thuận.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 11,
+        "evidence": "1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q08",
+    "split": "dev",
+    "question": "Chỉ thỏa thuận thời hạn mà không chốt thời điểm giao hàng: bên bán được giao thế nào?",
+    "expected_answer": "Bất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 12,
+        "evidence": "2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q09",
+    "split": "dev",
+    "question": "Nghĩa vụ cơ bản của bên mua về thanh toán và nhận hàng là gì?",
+    "expected_answer": "Thanh toán tiền mua hàng và nhận hàng theo thỏa thuận.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 15,
+        "evidence": "1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q10",
+    "split": "dev",
+    "question": "Nếu không có thỏa thuận khác, khi nào bên mua phải thanh toán cho bên bán?",
+    "expected_answer": "Khi bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hóa.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 16,
+        "evidence": "Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;"
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q11",
+    "split": "dev",
+    "question": "Nếu không có thỏa thuận khác và đã chốt địa điểm giao, rủi ro được chuyển khi nào?",
+    "expected_answer": "Khi hàng đã giao cho bên mua hoặc người được ủy quyền nhận tại địa điểm đó, kể cả khi bên bán được ủy quyền giữ chứng từ sở hữu.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 16,
+        "evidence": "Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q12",
+    "split": "dev",
+    "question": "Nếu pháp luật và thỏa thuận không quy định khác, quyền sở hữu hàng hóa chuyển khi nào?",
+    "expected_answer": "Kể từ thời điểm hàng hóa được chuyển giao.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 17,
+        "evidence": "Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q13",
+    "split": "dev",
+    "question": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng những hình thức nào?",
+    "expected_answer": "Lời nói, văn bản hoặc hành vi cụ thể.",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chương Iii"
+    },
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 21,
+        "evidence": "1. Hợp đồng dịch vụ được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q14",
+    "split": "dev",
+    "question": "Không có thỏa thuận hay chỉ dẫn về giá dịch vụ thì xác định giá dựa trên căn cứ nào?",
+    "expected_answer": "Giá loại dịch vụ đó trong các điều kiện tương tự về cung ứng, thời điểm, thị trường địa lý, thanh toán và điều kiện khác ảnh hưởng giá.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 24,
+        "evidence": "Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q15",
+    "split": "dev",
+    "question": "Không có thỏa thuận và không có thói quen thanh toán dịch vụ thì thời hạn thanh toán là khi nào?",
+    "expected_answer": "Thời điểm việc cung ứng dịch vụ được hoàn thành.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 24,
+        "evidence": "Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-t53",
+    "split": "test",
+    "question": "Nếu không có thỏa thuận khác, giá hàng hóa tính theo trọng lượng dùng trọng lượng nào?",
+    "expected_answer": "Trọng lượng tịnh.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 16,
+        "evidence": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh."
+      }
+    ],
+    "origin": "New Day 7 test; different articles from Day 6 benchmark"
+  },
+  {
+    "id": "d7-t60",
+    "split": "test",
+    "question": "Không có thỏa thuận khác, rủi ro của hàng đang trên đường vận chuyển chuyển cho bên mua từ lúc nào?",
+    "expected_answer": "Từ thời điểm giao kết hợp đồng.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 17,
+        "evidence": "Điều 60. Chuyển rủi ro trong tr ường h ợp mua bán hàng hoá đang trên đường vận chuyển Trừ tr ường h ợp có th ỏa thuận khác, n ếu đối tượng c ủa h ợp đồng là hàng hoá đang trên đường v ận chuy ển thì r ủi ro v ề m ất mát ho ặc h ư hỏng hàng hoá được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng."
+      }
+    ],
+    "origin": "New Day 7 test; different articles from Day 6 benchmark"
+  },
+  {
+    "id": "d7-t129",
+    "split": "test",
+    "question": "Hội chợ, triển lãm thương mại được tổ chức để thương nhân làm gì và nhằm mục đích gì?",
+    "expected_answer": "Trưng bày, giới thiệu hàng hóa, dịch vụ nhằm thúc đẩy, tìm kiếm cơ hội giao kết hợp đồng mua bán hàng hóa, hợp đồng dịch vụ.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 35,
+        "evidence": "Điều 129. Hội chợ, triển lãm thương mại Hội ch ợ, tri ển lãm th ương m ại là ho ạt động xúc ti ến th ương m ại được thực hi ện t ập trung trong m ột th ời gian và t ại m ột địa điểm nh ất định để thương nhân tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ nh ằm m ục đích thúc đẩy, tìm ki ếm cơ hội giao k ết hợp đồng mua bán hàng hoá, hợp đồng dịch vụ."
+      }
+    ],
+    "origin": "New Day 7 test; different articles from Day 6 benchmark"
+  },
+  {
+    "id": "d7-t223",
+    "split": "test",
+    "question": "Bên mời thầu và người liên quan phải bảo mật những thông tin nào trong đấu thầu?",
+    "expected_answer": "Bên mời thầu bảo mật hồ sơ dự thầu; tổ chức, cá nhân liên quan tổ chức đấu thầu và xét chọn thầu phải giữ bí mật thông tin liên quan đấu thầu.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 58,
+        "evidence": "Điều 223. Bảo mật thông tin đấu thầu\n\n1. Bên mời thầu phải bảo mật hồ sơ dự thầu.\n\n2. T ổ ch ức, cá nhân có liên quan đến vi ệc t ổ ch ức đấu th ầu và xét ch ọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu."
+      }
+    ],
+    "origin": "New Day 7 test; different articles from Day 6 benchmark"
+  },
+  {
+    "id": "d7-t323",
+    "split": "test",
+    "question": "Theo bản tài liệu, Luật Thương mại 2005 có hiệu lực từ ngày nào và thay thế luật nào?",
+    "expected_answer": "Từ ngày 01/01/2006, thay thế Luật thương mại ngày 10/05/1997.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 83,
+        "evidence": "Điều 323. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006. Luật này thay thế Luật thương mại ngày 10 tháng 5 năm 1997."
+      }
+    ],
+    "origin": "New Day 7 test; different articles from Day 6 benchmark"
+  },
+  {
+    "id": "d7-u1",
+    "split": "dev",
+    "question": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus không có hồ sơ giao dịch của cửa hàng và khách hàng này.",
+    "absence_check": {
+      "pages_checked": 84,
+      "terms": {
+        "Sao Mai": [],
+        "Nguyễn Văn Bình": []
+      },
+      "reviewer": "Codex AI; full extracted text topic checked, no transaction/company records"
+    },
+    "filter": {}
+  },
+  {
+    "id": "d7-u2",
+    "split": "dev",
+    "question": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus là snapshot luật 2005, không có báo cáo doanh thu công ty năm 2025.",
+    "absence_check": {
+      "pages_checked": 84,
+      "terms": {
+        "Ánh Dương": [],
+        "2025": []
+      },
+      "reviewer": "Codex AI; full extracted text topic checked, no transaction/company records"
+    },
+    "filter": {}
+  },
+  {
+    "id": "d7-u3",
+    "split": "test",
+    "question": "Số tài khoản ngân hàng để thanh toán hợp đồng số HD-2026-071 là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có hợp đồng cụ thể HD-2026-071 hoặc thông tin tài khoản của hợp đồng.",
+    "absence_check": {
+      "pages_checked": 84,
+      "terms": {
+        "HD-2026-071": []
+      },
+      "reviewer": "Codex AI; full extracted text topic checked, no transaction/company records"
+    },
+    "filter": {}
+  },
+  {
+    "id": "d7-u4",
+    "split": "test",
+    "question": "Hội chợ thương mại của Công ty Sao Biển năm 2026 diễn ra tại địa chỉ nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có lịch sự kiện hay địa chỉ hội chợ công ty năm 2026.",
+    "absence_check": {
+      "pages_checked": 84,
+      "terms": {
+        "Sao Biển": [],
+        "2026": []
+      },
+      "reviewer": "Codex AI; full extracted text topic checked, no transaction/company records"
+    },
+    "filter": {}
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p046",
+  "image_sha256": "05994b7b95e90ec916d31f265ef9fc2c8e1ff63b20e397b72acb14a0bf9d0308",
+  "caption": {
+    "summary": "Trang trình bày chiến lược phát triển của FPT với bối cảnh chung về tăng trưởng chi tiêu dịch vụ công nghệ thông tin toàn cầu và vai trò của AI trong chu kỳ tạo giá trị và động lực tăng trưởng dài hạn.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Chi tiêu CNTT toàn cầu năm 2026",
+        "location": "trái",
+        "description": "Biểu đồ vòng thể hiện phân bổ chi tiêu CNTT toàn cầu theo các lĩnh vực: Dịch vụ CNTT, Phần mềm, Dịch vụ viễn thông, Trung tâm dữ liệu, Phần cứng; đơn vị tính tỷ USD; dữ liệu dự báo năm 2026 từ Gartner."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800720-2qSrPCuqWyngu53XRZDD",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 146,
+        "total_tokens": 2708,
+        "cost": 0.0012584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012584,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3469.563200022094,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

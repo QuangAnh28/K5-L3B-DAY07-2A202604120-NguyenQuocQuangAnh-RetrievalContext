@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p125",
+  "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a",
+  "caption": {
+    "summary": "Trang trình bày về xác định các vấn đề trọng yếu trong hoạt động ESG của FPT, vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững, cùng quy trình xác định các vấn đề trọng yếu.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững",
+        "location": "trái",
+        "description": "Bảng phân chia trách nhiệm của Hội đồng quản trị, Ban Điều hành và Công ty thành viên trong việc phê duyệt, triển khai và giám sát chiến lược phát triển bền vững."
+      },
+      {
+        "type": "diagram",
+        "title": "Quy trình xác định các vấn đề trọng yếu",
+        "location": "phải",
+        "description": "Quy trình gồm 3 bước: Bước 01 xác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh và lợi ích các bên liên quan; Bước 02 phân tích và xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03 phân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800768-6vgDUxMAlv6pjmMqbGxo",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 235,
+        "total_tokens": 2797,
+        "cost": 0.0014008,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014008,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000376
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3507.8164000296965,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

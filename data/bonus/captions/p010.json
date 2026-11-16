@@ -1,0 +1,66 @@
+{
+  "id": "FPT2025:p010",
+  "image_sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5",
+  "caption": {
+    "summary": "Trang báo cáo trình bày các con số nổi bật của FPT năm 2025 với các chỉ tiêu tài chính chính như tổng doanh thu, lợi nhuận sau thuế, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ và thu nhập trên cổ phiếu (EPS), đồng thời so sánh với các năm trước từ 2021 đến 2024.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Tổng doanh thu",
+        "location": "trái trên",
+        "description": "Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm."
+      },
+      {
+        "type": "chart",
+        "title": "Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ",
+        "location": "phải trên",
+        "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm."
+      },
+      {
+        "type": "chart",
+        "title": "Lợi nhuận sau thuế",
+        "location": "trái dưới",
+        "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm."
+      },
+      {
+        "type": "chart",
+        "title": "Thu nhập trên cổ phiếu (EPS)",
+        "location": "phải dưới",
+        "description": "Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800693-izwY5WSQVqaQqdjbxRtX",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 357,
+        "total_tokens": 2919,
+        "cost": 0.001596,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001596,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0005712
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4126.529400004074,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

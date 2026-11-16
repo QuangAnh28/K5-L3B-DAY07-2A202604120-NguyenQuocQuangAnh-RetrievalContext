@@ -1,0 +1,282 @@
+{
+  "status": "answered",
+  "answer": "Trường hợp không có thỏa thuận và giữa các bên không có bất kỳ thói quen nào về việc thanh toán thì thời hạn thanh toán là thời điểm việc cung ứng dịch vụ được hoàn thành. [luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_tyq9mICJ9MCuJaQ6j08pCb5x",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"thời hạn thanh toán khi không có thỏa thuận và không có thói quen thanh toán dịch vụ\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801350-XtW5hs6URcD0Gn0r8f1w"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Không có thỏa thuận và không có thói quen thanh toán dịch vụ thì thời hạn thanh toán là khi nào?",
+      "model_query": "thời hạn thanh toán khi không có thỏa thuận và không có thói quen thanh toán dịch vụ",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 24,
+          "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 24,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 86"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 53"
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "Điều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 51"
+          },
+          "score": 0.031024531024531024,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 3
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+        "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_gQjDMn7EJqNWI7LGrLZberV1",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trường hợp không có thỏa thuận và giữa các bên không có bất kỳ thói quen nào về việc thanh toán thì thời hạn thanh toán là thời điểm việc cung ứng dịch vụ được hoàn thành.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801373-yplaayCvjGSjp4YaCRJ7"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801350-XtW5hs6URcD0Gn0r8f1w",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 296,
+        "completion_tokens": 26,
+        "total_tokens": 322,
+        "cost": 0.00016,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00016,
+          "upstream_inference_prompt_cost": 0.0001184,
+          "upstream_inference_completions_cost": 4.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4732.320899958722,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801373-yplaayCvjGSjp4YaCRJ7",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1042,
+        "completion_tokens": 87,
+        "total_tokens": 1129,
+        "cost": 0.000556,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000556,
+          "upstream_inference_prompt_cost": 0.0004168,
+          "upstream_inference_completions_cost": 0.0001392
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 23014.367699972354,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 27761.690700019244,
+  "searches": 1,
+  "query_id": "d7-q15",
+  "question": "Không có thỏa thuận và không có thói quen thanh toán dịch vụ thì thời hạn thanh toán là khi nào?",
+  "split": "dev",
+  "config": "hybrid",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 24,
+      "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 24,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 86"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 16,
+      "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 53"
+      },
+      "score": 0.03225806451612903,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "Điều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 51"
+      },
+      "score": 0.031024531024531024,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 3
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

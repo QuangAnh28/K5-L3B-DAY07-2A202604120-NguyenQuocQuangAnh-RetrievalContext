@@ -1,0 +1,15 @@
+{
+  "pages": 232,
+  "indexed": 232,
+  "captioned": 232,
+  "unprocessed_pages": [],
+  "caption_failures": 0,
+  "all_original_images_available": true,
+  "visual_type_counts": {
+    "table": 108,
+    "chart": 15,
+    "diagram": 16,
+    "map": 2,
+    "photo": 57
+  }
+}

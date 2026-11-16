@@ -1,0 +1,455 @@
+{
+  "status": "answered",
+  "answer": "Theo sơ đồ tổ chức (trang 31, trang PDF 31), Khối Viễn thông được nối bằng đường nét đứt tới 3 đơn vị: FPT Online (vốn điều lệ 184.712.750.000 VNĐ, tỷ lệ sở hữu 49,52%), FPT Telecom (vốn điều lệ 7.387.634.630.000 VNĐ, tỷ lệ sở hữu 45,66%). Lưu ý: FPT Retail và Synnex FPT nằm ở nhánh công ty liên kết/nối với Tập đoàn, không thuộc Khối Viễn thông theo sơ đồ. Hai đơn vị Khối Viễn thông là FPT Online và FPT Telecom.\n[FPT2025:p031 — Sơ đồ tổ chức (vùng phải trang), nhánh nối từ nhãn KHỐI VIỄN THÔNG bằng đường nét đứt tới các ô FPT Online và FPT Telecom, kèm thông tin vốn điều lệ và tỷ lệ sở hữu]",
+  "citations": [
+    {
+      "id": "FPT2025:p031",
+      "region": "Sơ đồ tổ chức (vùng phải trang), nhánh nối từ nhãn KHỐI VIỄN THÔNG bằng đường nét đứt tới các ô FPT Online và FPT Telecom, kèm thông tin vốn điều lệ và tỷ lệ sở hữu"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805187-kgnJf9CtiXSYAAsjaR1f",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01MD8g42hZbCpHtJJY224JxY",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"sơ đồ tổ chức Khối Viễn thông FPT 2025\",\"Khối Viễn thông đơn vị trực thuộc sơ đồ tổ chức\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo các đường nối trong sơ đồ tổ chức, Khối Viễn thông gồm những đơn vị nào?",
+      "model_queries": [
+        "sơ đồ tổ chức Khối Viễn thông FPT 2025",
+        "Khối Viễn thông đơn vị trực thuộc sơ đồ tổ chức"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "score": 0.03131881575727918,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p127",
+          "page": 127,
+          "score": 0.03131881575727918,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "score": 0.03076923076923077,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "score": 0.02928692699490662,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p099",
+          "page": 99,
+          "score": 0.029116045245077504,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 17
+          }
+        },
+        {
+          "id": "FPT2025:p026",
+          "page": 26,
+          "score": 0.027526395173453996,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p188",
+          "page": 188,
+          "score": 0.02424331472230385,
+          "component_ranks": {
+            "dense": 22,
+            "tfidf": 23
+          }
+        },
+        {
+          "id": "FPT2025:p055",
+          "page": 55,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "tfidf": 3
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo các đường nối trong sơ đồ tổ chức, Khối Viễn thông gồm những đơn vị nào?"
+      ],
+      "context_ids": [
+        "FPT2025:p060",
+        "FPT2025:p127",
+        "FPT2025:p031",
+        "FPT2025:p159",
+        "FPT2025:p099",
+        "FPT2025:p026",
+        "FPT2025:p188",
+        "FPT2025:p055"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Cơ cấu lợi nhuận trước thuế theo khối\n13.044\n17,8%\n5.907 45,3%\n12,9%\n2.773 21,2%\n23,1%\n4.364 33,5%\n21,6%\nPhân tích kết quả kinh doanh theo khối\nĐể phản ánh đúng mô hình hoạt động của Tập đoàn, kết quả kinh doanh được phân tích theo từng khối và phân tách theo từng lĩnh vực cụ thể. Cách tiếp cận này giúp đánh giá \nchính xác, hiệu quả vận hành và đóng góp của từng lĩnh vực hoạt động vào tăng trưởng chung của Tập đoàn. Cụ thể, hoạt động kinh doanh của Tập đoàn được chia thành \nba khối chính, bao gồm: khối Công nghệ với hai lĩnh vực là Dịch vụ CNTT cho thị trường nước ngoài và Dịch vụ CNTT cho thị trường trong nước; khối Viễn thông với \nhai lĩnh vực Dịch vụ Viễn thông và Dịch vụ Nội dung số; khối Giáo dục, Đầu tư và Khác.\nCơ cấu doanh thu theo khối\nKhối Công nghệ Khối Viễn thông Khối Giáo dục, Đầu tư và Khác\n70.113\n11,6%\n19.507 27,8% 44.475 63,4%\n10,8%\n6.132 8,8%\n0,05%\n13,7%\nĐơn vị: Tỷ VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nPhân tích kết quả kinh doanh theo khối của Tập đoàn FPT năm 2025, bao gồm cơ cấu doanh thu và cơ cấu lợi nhuận trước thuế theo từng khối chính: Công nghệ, Viễn thông, Giáo dục, Đầu tư và Khác.\nchart: Cơ cấu doanh thu theo khối (trái) — Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.\nchart: Cơ cấu lợi nhuận trước thuế theo khối (phải) — Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cơ cấu doanh thu theo khối",
+              "location": "trái",
+              "description": "Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            },
+            {
+              "type": "chart",
+              "title": "Cơ cấu lợi nhuận trước thuế theo khối",
+              "location": "phải",
+              "description": "Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p127",
+          "page": 127,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Chứng chỉ/Chứng nhận Khối\nKinh doanh STT\n1 Tập đoàn • ISO 9001:2015: Tiêu chuẩn Hệ thống quản lý chất lượng; • OKRs: Bộ tiêu chuẩn đánh giá chất lượng theo mục tiêu và kết quả \nthen chốt.\nKhối\nCông nghệ\n2 • ISO 9001:2015: Tiêu chuẩn Hệ thống quản lý chất lượng;\n• ISO/IEC 27001:2022 Hệ thống Quản lý an ninh thông tin;\n• ISO 22301: Tiêu chuẩn về Hệ thống quản lý liên tục trong kinh doanh;\n• ISO/IEC 27017: Quy tắc thực hành về kiểm soát an toàn thông tin cho các \ndịch vụ đám mây dựa trên ISO/IEC 27002;\n• HIPAA: Đạo luật về Trách nhiệm giải trình và cung cấp thông tin bảo hiểm \ny tế 1996 của Mỹ; \n• CMMiDEV/5: Mô hình năng lực thuần thục tích hợp cấp độ 5;\n• ISO/IEC 20000-1:2018: Tiêu chuẩn Quản lý dịch vụ công nghệ thông tin; \n• TMMi Certitiec level 5: Tích hợp mô hình trưởng thành kiểm thử cấp độ 5;\n• A-SPICE: Tiêu chuẩn đánh giá quy trình phát triển phần mềm trong ngành ô tô;\n• TISAX-Level 3: Hệ thống trao đổi đánh giá bảo mật thông tin;\n• ISO 14001:2015: Hệ thống quản lý môi trường;\n• ISO 13485: Hệ thống quản lý an toàn trang thiết bị y tế;\n• ISO/IEC 30107-3:2017: Tiêu chuẩn Chống giả mạo sinh trắc; \n• CREST-Council of Registered Ethical Security Testers cho dịch vụ \nSOC (Giám sát và ứng cứu sự cố ANTT);\n• PCI DSS: Tiêu chuẩn bảo mật dành cho các tổ chức trong quá trình \nxử lý thẻ thanh toán quốc tế;\n• SOC 2 type 1, SOC 2 type 2, SOC 3: bộ tiêu chí để đánh giá độ tin cậy \nvề dịch vụ quản lý dữ liệu khách hàng được phát triển bởi Viện Kế toán \nCông chứng Mỹ (AICPA);\n• ISO/IEC 27018:2019: Thực hành bảo vệ thông tin định danh cá nhân \ntrên dịch vụ điện toán đám mây;\n• ISO/IEC 27701:2019: Hệ thống quản lý thông tin cá nhân;\n• HITRUST r2: HITRUST CSF® v9.3 Risk-based, 2-year;\n• ISO 45001:2018: Hệ thống quản lý sức khỏe và an toàn lao động;\n• ISO 14064-1:2018: Chứng nhận về báo cáo kiểm kê khí nhà kính;\n• IEC 62304: Tiêu chuẩn quốc tế quy định các yêu cầu về quy trình vòng \nđời phần mềm thiết bị y tế và phần mềm nhúng trong thiết bị y tế;\n• ISO/SAE 21434:2021: Tiêu chuẩn toàn cầu do ISO phát triển cung cấp \nhướng dẫn về cách bảo vệ phương tiện khỏi các cuộc tấn công mạng.\nKhối \nViễn thông \n3 • ISO/IEC 27001: Tiêu chuẩn Hệ thống Quản lý an toàn thông tin;\n• ISO/IEC 27017: Quy tắc thực hành về kiểm soát an toàn thông tin cho các \ndịch vụ đám mây dựa trên ISO/IEC 27002;\n• Uptime Design Tier III: Tiêu chuẩn về thiết kế hạ tầng Trung tâm dữ liệu – hạ tầng \nđược thiết kế đảm bảo tính dự phòng, không gián đoạn dịch vụ khi thực hiện \nbảo trì;\n• PCI DSS: Tiêu chuẩn bảo mật dành cho các tổ chức trong quá trình \nxử lý thẻ thanh toán quốc tế;\n• TIA 942B Constructed Facility Rated 3: Tiêu chuẩn về thiết lập và \nvận hành hạ tầng Trung tâm dữ liệu – hạ tầng đã được thiết lập và \nvận hành đảm bảo tính dự phòng, không gián đoạn dịch vụ khi thực \nhiện bảo trì;\n• ISO 22301: Tiêu chuẩn về Hệ thống quản lý liên tục trong kinh doanh.\n• ISO 21001:2018: Chứng chỉ quốc tế dành cho Hệ thống quản lý tổ chức giáo dục;\n• Tiêu chuẩn kiểm định chất lượng cơ sở giáo dục của Bộ Giáo dục và Đào tạo;\n• Chứng nhận kiểm định chất lượng của ACBSP (Mỹ), một trong các tổ chức \nchứng nhận kiểm định khối ngành kinh tế hàng đầu trên thế giới;\n• Chứng nhận kiểm định chất lượng Chương trình đà",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chứng chỉ/Chứng nhận theo Khối Kinh doanh",
+              "location": "trên",
+              "description": "Bảng liệt kê các chứng chỉ và chứng nhận tương ứng với từng khối kinh doanh như Tập đoàn, Khối Công nghệ, Khối Viễn thông và Lĩnh vực Giáo dục, bao gồm các tiêu chuẩn ISO, IEC, PCI DSS, HITRUST, và các chứng nhận kiểm định chất lượng giáo dục."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CƠ CẤU QUẢN TRỊ VÀ BỘ MÁY QUẢN LÝ\nFPT hoạt động theo mô hình được quy \nđịnh tại Mục a, Khoản 1, Điều 137 của \nLuật Doanh nghiệp bao gồm: Đại hội \nđồng cổ đông (ĐHĐCĐ), Hội đồng \nquản trị (HĐQT), Ban Kiểm soát (BKS) \nvà Tổng giám đốc. \nTheo Báo cáo tài chính hợp nhất, tính \nđến thời điểm 31/12/2025, mô hình \nhoạt động của Tập đoàn gồm 08 công \nty con trực tiếp và 02 công ty liên kết \nchính. Xem thông tin chi tiết về các \ncông ty con, công ty liên kết chính tại \nmục Báo cáo tài chính hợp nhất.\nSơ đồ tổ chức\nHỘI ĐỒNG QUẢN TRỊ\nTỔNG GIÁM ĐỐC \nVÀ BAN ĐIỀU HÀNH\nỦY BAN NHÂN SỰ VÀ \nLƯƠNG THƯỞNG\nỦY BAN CHÍNH SÁCH \nPHÁT TRIỂN\nVĂN PHÒNG \nCHỦ TỊCH HĐQT\nBỘ PHẬN KIỂM \nTOÁN NỘI BỘ\nĐẠI HỘI ĐỒNG CỔ ĐÔNG\nBAN KIỂM SOÁT\nCÔNG TY LIÊN KẾT\nKHỐI CÔNG NGHỆ\nKHỐI VIỄN THÔNG\nCÔNG TY CON\nTẬP ĐOÀN\nFPT Smart Cloud\nFPT Telecom\nFPT Education\nFPT Digital\nFPT Online\nFPT Investment\nFPT Software FPT IS\nChi nhánh Tp.HCM\nBan Công nghệ\nBan Công nghệ thông tin\nVăn phòng Chuyển đổi số\nBan Nhân sự\nBan Đảm bảo chất lượng\nBan Tài chính Kế hoạch\nBan Giám sát Tuân thủ\nBan Truyền thông\nBan Mua sắm \nBan Văn hóa Đoàn thể\nVăn phòng\nBộ phận phát triển\ncác dự án chiến lược \nSynnex FPT\nFPT Retail\nKHỐI GIÁO DỤC,\nĐẦU TƯ VÀ KHÁC \nVốn điều lệ \n7.750.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n60.000.000.000 VNĐ \nTỷ lệ sở hữu: 100%\nVốn điều lệ \n184.712.750.000 VNĐ\nTỷ lệ sở hữu: 49,52%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n4.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n7.387.634.630.000 VNĐ\nTỷ lệ sở hữu: 45,66%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.188.400.000.000 VNĐ\nTỷ lệ sở hữu: 48,00%\nVốn điều lệ \n1.703.017.850.000 VNĐ\nTỷ lệ sở hữu: 46,54%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày sơ đồ tổ chức và cơ cấu quản trị của Tập đoàn FPT, bao gồm các cấp quản lý từ Đại hội đồng cổ đông đến các công ty con và công ty liên kết, cùng các ban và bộ phận chức năng.\ndiagram: Sơ đồ tổ chức quản trị và bộ máy quản lý FPT (phải) — Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Sơ đồ tổ chức quản trị và bộ máy quản lý FPT",
+              "location": "phải",
+              "description": "Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.\ndiagram: Biểu tượng tài chính và biểu đồ (phải) — Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Biểu tượng tài chính và biểu đồ",
+              "location": "phải",
+              "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p099",
+          "page": 99,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Song song với việc đảm bảo tăng trưởng ổn định trước tình hình địa chính trị phức tạp và nền kinh tế trì trệ, các \nhoạt động kinh doanh của Tập đoàn đều được thực hiện trên nguyên tắc đảm bảo lợi ích cao nhất cho các bên \nliên quan. Đồng thời, để các bên liên quan có thể lên tiếng và/hoặc khiếu kiện về những vi phạm có thể xảy ra đối với\nquyền lợi của họ, FPT công khai thông tin liên hệ theo từng lĩnh vực trên website của Tập đoàn tại địa chỉ: \nhttps://fpt.com/vi/lien-he.\nHĐQT cũng đã ban hành Nghị quyết Quản lý giao dịch với các bên liên quan đối với các giao dịch nhỏ hơn 35% \ntổng giá trị tài sản của Tập đoàn được ghi trong Báo cáo tài chính tại thời điểm gần nhất. Trong năm 2025, FPT \nkhông phát hiện bất kỳ giao dịch nào có xung đột lợi ích với Tập đoàn. Chính sách chống tham nhũng và \nchống hối lộ cũng được Tập đoàn thực hiện nghiêm ngặt.\n• Đầu tư phát triển các nền tảng, giải pháp, sản phẩm, dịch vụ công nghệ, viễn thông,\ngiáo dục đáp ứng nhu cầu của khách hàng;\n• Không ngừng nâng cao uy tín thương hiệu, chất lượng nguồn nhân lực nhằm \nđảm bảo uy tín với khách hàng. \n• Minh bạch hóa thông tin và nỗ lực mang lại lợi ích cao nhất cho cổ đông, \nnhà đầu tư. \n• Tạo điều kiện tốt nhất để CBNV phát huy thế mạnh, thành công. \n• Ứng dụng công nghệ kết nối cộng đồng, mang lại những giá trị tốt đẹp hơn cho \ncuộc sống và trở thành điểm tựa tin cậy, kịp thời cho sự phát triển của cộng đồng. \n• Luôn đồng hành với các chương trình, đề án lớn của quốc gia hướng đến mục tiêu\nvì một Việt Nam hùng cường, thịnh vượng. \n• Nỗ lực thiết lập quan hệ với các đối tác trên cơ sở thấu hiểu sâu sắc, phát huy \ntối đa sức mạnh hợp tác, gắn bó lâu dài, cùng thành công và phát triển bền vững. \n• Cung cấp kịp thời và minh bạch các thông tin liên quan đến hoạt động của FPT \ncũng như công ty thành viên. \nKhách hàng\nCổ đông, nhà đầu tư\nCán bộ nhân viên\nCộng đồng\nChính phủ, bộ ban ngành,\ntỉnh thành\nĐối tác, nhà cung cấp\nBáo chí và cơ quan\ntruyền thông\nBên liên quan Cam kết của FPT \n• Nguyên tắc 10: Tăng cường tham gia hiệu quả của các bên có \nquyền lợi liên quan\nQuan hệ với các bên có quyền lợi liên quan\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về quan hệ với các bên có quyền lợi liên quan, nêu nguyên tắc tăng cường tham gia hiệu quả của các bên liên quan và cam kết của FPT với từng nhóm bên liên quan.\ntable: Cam kết của FPT với các bên liên quan (trái) — Bảng liệt kê các bên liên quan gồm khách hàng, cổ đông, nhà đầu tư, cán bộ nhân viên, cộng đồng, chính phủ, bộ ban ngành, tỉnh thành, đối tác, nhà cung cấp, báo chí và cơ quan truyền thông cùng các cam kết tương ứng của FPT đối với từng nhóm.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Cam kết của FPT với các bên liên quan",
+              "location": "trái",
+              "description": "Bảng liệt kê các bên liên quan gồm khách hàng, cổ đông, nhà đầu tư, cán bộ nhân viên, cộng đồng, chính phủ, bộ ban ngành, tỉnh thành, đối tác, nhà cung cấp, báo chí và cơ quan truyền thông cùng các cam kết tương ứng của FPT đối với từng nhóm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p026",
+          "page": 26,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Viễn thông Giáo dục\n• Cung cấp hạ tầng dịch vụ viễn thông như: dịch vụ Internet, kênh thuê riêng, \ntrung tâm dữ liệu, điện thoại VoIP, dịch vụ viễn thông giá trị gia tăng, kết nối \nliên tỉnh và quốc tế, dịch vụ IoT…;\n• Dịch vụ truyền hình FPT như: dịch vụ truyền hình, phim ảnh, âm nhạc, trò chơi \ntrực tuyến trên mạng Internet, diện thoại di động; sản xuất phim điện ảnh, \nchương trình truyền hình...; \n• Hệ thống sản phẩm FPT Smart Home gồm: giải pháp camera an ninh đồng bộ \nứng dụng AI – FPT Camera AI; nền tảng nhà thông minh điều khiển bằng giọng \nnói tiếng Việt hàng đầu Việt Nam;\n• Hệ sinh thái truyền thông marketing số như: sản phẩm nội dung số, nền tảng \nthể thao trực tuyến (VRace), nền tảng truyền hình trực tuyến chia sẻ kinh \nnghiệm thực chiến (eBox), nền tảng Hybrid Event (eLive), giải pháp xuất bản \nđiện tử (AI Newsroom), giải pháp marketing truyền thông (Smart Ads) tiếp cận \nhàng chục triệu người dùng, hàng trăm nghìn đối tác, khách hàng.\n• Giáo dục Phổ thông; \n• Giáo dục Nghề nghiệp; \n• Giáo dục Đại học.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày tổng quan về hai lĩnh vực kinh doanh chính của FPT là Viễn thông và Giáo dục, mô tả các dịch vụ và sản phẩm trong từng lĩnh vực.\nphoto: Hình ảnh trung tâm dữ liệu viễn thông (dưới bên trái) — Ảnh chụp hành lang trung tâm dữ liệu với các tủ máy chủ và một người đi bộ giữa các tủ.\nphoto: Hình ảnh sinh viên trong lĩnh vực giáo dục (dưới bên phải) — Ảnh chụp hai sinh viên mặc áo cam cầm sách, đứng ngoài trời trong khuôn viên trường học.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Hình ảnh trung tâm dữ liệu viễn thông",
+              "location": "dưới bên trái",
+              "description": "Ảnh chụp hành lang trung tâm dữ liệu với các tủ máy chủ và một người đi bộ giữa các tủ."
+            },
+            {
+              "type": "photo",
+              "title": "Hình ảnh sinh viên trong lĩnh vực giáo dục",
+              "location": "dưới bên phải",
+              "description": "Ảnh chụp hai sinh viên mặc áo cam cầm sách, đứng ngoài trời trong khuôn viên trường học."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p188",
+          "page": 188,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n2.32. Báo cáo bộ phận\nMột bộ phận là một hợp phần có thể xác định riêng biệt của Tập đoàn tham gia vào \nviệc bán hàng hoặc cung cấp dịch vụ liên quan (bộ phận chia theo hoạt động kinh \ndoanh), hoặc bán hàng hoặc cung cấp dịch vụ trong một môi trường kinh tế cụ thể\n(bộ phận chia theo khu vực địa lý). Mỗi bộ phận này chịu rủi ro và thu được lợi ích khác \nbiệt với các bộ phận khác. Báo cáo bộ phận chính yếu của Tập đoàn là dựa theo \nbộ phận chia theo hoạt động kinh doanh.\nCông nghệ thông tin (“CNTT”) và viễn thông\nSản phẩm và Dịch vụ CNTT nước ngoài: bao gồm hoạt động sản xuất phần mềm; thực \nhiện tư vấn, cung cấp triển khai dịch vụ dựa trên công nghệ S.M.A.C/IoT, giải pháp \nchuyển đổi số, hệ thống CNTT cho doanh nghiệp; thử nghiệm đảm bảo chất lượng, \nthiết kế sản phẩm phần mềm nhúng, cung cấp dịch vụ triển khai và quản lý hệ thống \nquản trị nguồn lực doanh nghiệp (ERP) cho các khách hàng ngoài lãnh thổ Việt Nam;\nSản phẩm và Dịch vụ CNTT trong nước: cung cấp giải pháp phần mềm ứng dụng; \ncung cấp dịch vụ và giải pháp tích hợp hệ thống thông tin; cung cấp thiết bị công \nnghệ CNTT; dịch vụ trung tâm dữ liệu; thiết kế xây dựng hệ thống mạng và bảo mật; \nbảo hành và bảo trì các thiết bị tin học cho hãng theo ủy quyền cho các khách hàng \ntại Việt Nam; \nViễn thông: bao gồm các dịch vụ internet cá nhân và hộ gia đình, dịch vụ internet cho \ndoanh nghiệp như cho thuê kênh internet riêng, viễn thông trong nước, viễn thông \nquốc tế, tên miền, hosting, cổng dữ liệu web, IPTV,…; và\nNội dung số: bao gồm các dịch vụ trực tuyến cho doanh nghiệp và khách hàng cá \nnhân như hệ thống báo điện tử (VnExpress.net, Ngoisao.net, iOne.net,...); quảng \ncáo trực tuyến; hệ thống mạng quảng cáo (AdNetwork), nhạc trực tuyến, thanh \ntoán trực tuyến,…\n2.33. Ước tính kế toán trọng yếu\nViệc lập báo cáo tài chính hợp nhất tuân thủ theo các Chuẩn mực Kế toán Việt \nNam, Chế độ Kế toán Doanh nghiệp Việt Nam và các quy định pháp lý có liên \nquan đến việc lập và trình bày báo cáo tài chính hợp nhất yêu cầu Ban Tổng \nGiám đốc phải có những ước tính và giả định ảnh hưởng đến số liệu về tài sản, nợ \nphải trả và việc trình bày các khoản nợ và tài sản tiềm tàng tại ngày kết thúc năm \ntài chính cũng như các số liệu về doanh thu và chi phí trong suốt năm tài chính.\nCác ước tính và giả định ảnh hưởng trọng yếu trong báo cáo tài chính hợp nhất \nbao gồm:\n• Dự phòng phải thu khó đòi (Thuyết minh 10);\n• Dự phòng giảm giá hàng tồn kho (Thuyết minh 11);\n• Dự phòng các khoản đầu tư tài chính (Thuyết minh 5); \n• Thời gian sử dụng hữu ích ước tính của TSCĐ (Thuyết minh 2.13 và 2.14);\n• Dự phòng phải trả (Thuyết minh 2.19);\n• Ước tính tỷ lệ phần trăm hoàn thành của doanh thu (Thuyết minh 2.23); và\n• Ước tính thuế TNDN hiện hành và TNDN hoãn lại (Thuyết minh 2.29, 2.30 và 32).\nCác ước tính và giả định thường xuyên được đánh giá dựa trên kinh nghiệm trong quá \nkhứ và các yếu tố khác, bao gồm các giả định trong tương lai có ảnh hưởng trọng yếu \ntới báo cáo tài chính hợp nhất của Tập đoàn và được Ban Tổng Giám đốc đánh giá là \nhợp lý.\nĐầu tư, giáo dục",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p055",
+          "page": 55,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đơn vị: Tỷ VNĐ\nKẾ HOẠCH NĂM 2026\nCác mục tiêu chủ yếu\nKhối Ngân sách\nđầu tư\nChú thích\nKhối Công nghệ\nTổng cộng 7.200\nKhối Giáo dục, \nĐầu tư và Khác\nĐầu tư mở rộng các khu tổ hợp văn phòng tại các thành phố lớn như: Hà Nội, Tp.Hồ Chí Minh, Bình Định.\nĐầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại \ncác tỉnh, thành trên toàn quốc.\n(Đối với số liệu năm 2026, Tập đoàn hợp nhất Công ty Cổ phần Viễn thông FPT (FPT Telecom) theo phương pháp vốn chủ sở hữu, số liệu năm 2025 đã được điều chỉnh theo \ncùng phương pháp nhằm đảm bảo tính nhất quán và khả năng so sánh.)\nKế hoạch đầu tư dự kiến\n4.200\n3.000\nso với 15,8% cùng kỳ\nDoanh thu\n58.580Tỷ VNĐ\nKhối Công nghệ\n44.475\n52.650\n6.132\n5.930\nKhối Giáo dục, \nĐầu tư và Khác Đơn vị: Tỷ VNĐ\nNăm 2026\nNăm 2025\n60.000\n50.000\n40.000\n30.000\n20.000\n10.000\n0\n18,4%\n3,3%\nso với 15,0% cùng kỳ\nLợi nhuận trước thuế\nTỷ VNĐ 11.629\nKhối Công nghệ\n5.907\n7.350\n4.206\n4.279\nKhối Giáo dục, \nĐầu tư và Khác Đơn vị: Tỷ VNĐ\nNăm 2026\nNăm 2025\n8000\n7000\n6000\n5000\n4000\n3000\n2000\n1000\n0\n24,4%\n1,7%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày kế hoạch năm 2026 của FPT với các mục tiêu doanh thu, lợi nhuận trước thuế và kế hoạch đầu tư dự kiến cho các khối Công nghệ và Giáo dục, Đầu tư và Khác.\nchart: Doanh thu năm 2026 so với năm 2025 (trên trái) — Trục tung thể hiện doanh thu (đơn vị: Tỷ VNĐ), so sánh doanh thu năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng.\nchart: Lợi nhuận trước thuế năm 2026 so với năm 2025 (trên phải) — Trục tung thể hiện lợi nhuận trước thuế (đơn vị: Tỷ VNĐ), so sánh lợi nhuận năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng.\ntable: Kế hoạch đầu tư dự kiến năm 2026 (dưới) — Bảng kế hoạch đầu tư dự kiến theo khối, ngân sách đầu tư (đơn vị: Tỷ VNĐ) và chú thích chi tiết về mục đích đầu tư mở rộng các khu tổ hợp văn phòng và khuôn viên Đại học tại các thành phố lớn.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu năm 2026 so với năm 2025",
+              "location": "trên trái",
+              "description": "Trục tung thể hiện doanh thu (đơn vị: Tỷ VNĐ), so sánh doanh thu năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận trước thuế năm 2026 so với năm 2025",
+              "location": "trên phải",
+              "description": "Trục tung thể hiện lợi nhuận trước thuế (đơn vị: Tỷ VNĐ), so sánh lợi nhuận năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng."
+            },
+            {
+              "type": "table",
+              "title": "Kế hoạch đầu tư dự kiến năm 2026",
+              "location": "dưới",
+              "description": "Bảng kế hoạch đầu tư dự kiến theo khối, ngân sách đầu tư (đơn vị: Tỷ VNĐ) và chú thích chi tiết về mục đích đầu tư mở rộng các khu tổ hợp văn phòng và khuôn viên Đại học tại các thành phố lớn."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p060",
+          "path": ".bonus/pages/p060.jpg",
+          "sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+        },
+        {
+          "id": "FPT2025:p127",
+          "path": ".bonus/pages/p127.jpg",
+          "sha256": "43a22d64e586b8a6a489bc1a55b0e9511536904a8d2894139c9cf11ae983531a"
+        },
+        {
+          "id": "FPT2025:p031",
+          "path": ".bonus/pages/p031.jpg",
+          "sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+        },
+        {
+          "id": "FPT2025:p159",
+          "path": ".bonus/pages/p159.jpg",
+          "sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+        },
+        {
+          "id": "FPT2025:p099",
+          "path": ".bonus/pages/p099.jpg",
+          "sha256": "04127111ec96cf6230c1157b5aeb604b98c2c337512b598f532431075c4bd6d2"
+        },
+        {
+          "id": "FPT2025:p026",
+          "path": ".bonus/pages/p026.jpg",
+          "sha256": "f281bb693cecc7d02f33edafe0683c5615f7acd312ac146b1a480872e03b1b56"
+        },
+        {
+          "id": "FPT2025:p188",
+          "path": ".bonus/pages/p188.jpg",
+          "sha256": "152b721b8eabfc7ce5ee243f48c30623eff319e9522b4a05363d79cc703c5777"
+        },
+        {
+          "id": "FPT2025:p055",
+          "path": ".bonus/pages/p055.jpg",
+          "sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805195-bxtXwSWZ3o8QkSRqY06d",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01P8exVR5V75hF7xUW2A1cpZ",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo sơ đồ tổ chức (trang 31, trang PDF 31), Khối Viễn thông được nối bằng đường nét đứt tới 3 đơn vị: FPT Online (vốn điều lệ 184.712.750.000 VNĐ, tỷ lệ sở hữu 49,52%), FPT Telecom (vốn điều lệ 7.387.634.630.000 VNĐ, tỷ lệ sở hữu 45,66%). Lưu ý: FPT Retail và Synnex FPT nằm ở nhánh công ty liên kết/nối với Tập đoàn, không thuộc Khối Viễn thông theo sơ đồ. Hai đơn vị Khối Viễn thông là FPT Online và FPT Telecom.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p031\",\"region\":\"Sơ đồ tổ chức (vùng phải trang), nhánh nối từ nhãn KHỐI VIỄN THÔNG bằng đường nét đứt tới các ô FPT Online và FPT Telecom, kèm thông tin vốn điều lệ và tỷ lệ sở hữu\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p060",
+    "FPT2025:p127",
+    "FPT2025:p031",
+    "FPT2025:p159",
+    "FPT2025:p099",
+    "FPT2025:p026",
+    "FPT2025:p188",
+    "FPT2025:p055"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p060",
+      "page": 60,
+      "image": ".bonus/pages/p060.jpg",
+      "image_sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+    },
+    {
+      "id": "FPT2025:p127",
+      "page": 127,
+      "image": ".bonus/pages/p127.jpg",
+      "image_sha256": "43a22d64e586b8a6a489bc1a55b0e9511536904a8d2894139c9cf11ae983531a"
+    },
+    {
+      "id": "FPT2025:p031",
+      "page": 31,
+      "image": ".bonus/pages/p031.jpg",
+      "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+    },
+    {
+      "id": "FPT2025:p159",
+      "page": 159,
+      "image": ".bonus/pages/p159.jpg",
+      "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+    },
+    {
+      "id": "FPT2025:p099",
+      "page": 99,
+      "image": ".bonus/pages/p099.jpg",
+      "image_sha256": "04127111ec96cf6230c1157b5aeb604b98c2c337512b598f532431075c4bd6d2"
+    },
+    {
+      "id": "FPT2025:p026",
+      "page": 26,
+      "image": ".bonus/pages/p026.jpg",
+      "image_sha256": "f281bb693cecc7d02f33edafe0683c5615f7acd312ac146b1a480872e03b1b56"
+    },
+    {
+      "id": "FPT2025:p188",
+      "page": 188,
+      "image": ".bonus/pages/p188.jpg",
+      "image_sha256": "152b721b8eabfc7ce5ee243f48c30623eff319e9522b4a05363d79cc703c5777"
+    },
+    {
+      "id": "FPT2025:p055",
+      "page": 55,
+      "image": ".bonus/pages/p055.jpg",
+      "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805187-kgnJf9CtiXSYAAsjaR1f",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1802,
+        "completion_tokens": 92,
+        "total_tokens": 1894,
+        "cost": 0.0002262,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002262,
+          "upstream_inference_prompt_cost": 0.0001802,
+          "upstream_inference_completions_cost": 4.6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4384.627800027374,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805195-bxtXwSWZ3o8QkSRqY06d",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 30911,
+        "completion_tokens": 468,
+        "total_tokens": 31379,
+        "cost": 0.0033251,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0033251,
+          "upstream_inference_prompt_cost": 0.0030911,
+          "upstream_inference_completions_cost": 0.000234
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 10706.23109996086,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 16435.842800012324,
+  "query_id": "ft-i2",
+  "question": "Theo các đường nối trong sơ đồ tổ chức, Khối Viễn thông gồm những đơn vị nào?",
+  "split": "test",
+  "config": "vision"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p210",
+  "image_sha256": "8c2f86f1318fd59bc2b806bc3a7cf1d2d4fc9db8516549668032a8939bce2377",
+  "caption": {
+    "summary": "Thuyết minh các khoản chi phí bán hàng, chi phí quản lý doanh nghiệp và thuế thu nhập doanh nghiệp năm 2025 và 2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Chi phí bán hàng",
+        "location": "trái trên",
+        "description": "So sánh chi phí nhân viên và các khoản chi phí khác năm 2025 và 2024, đơn vị VNĐ"
+      },
+      {
+        "type": "table",
+        "title": "Chi phí quản lý doanh nghiệp",
+        "location": "trái dưới",
+        "description": "So sánh chi phí nhân viên và các khoản chi phí khác năm 2025 và 2024, đơn vị VNĐ"
+      },
+      {
+        "type": "table",
+        "title": "Thuế thu nhập doanh nghiệp (TNDN)",
+        "location": "phải trên",
+        "description": "Chi tiết chi phí thuế TNDN hiện hành và thu nhập thuế TNDN hoãn lại năm 2025 và 2024, đơn vị VNĐ"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800838-KFrmE45SfHgCYmlm6R7K",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 198,
+        "total_tokens": 2760,
+        "cost": 0.0013416,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013416,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003168
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3669.166999985464,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

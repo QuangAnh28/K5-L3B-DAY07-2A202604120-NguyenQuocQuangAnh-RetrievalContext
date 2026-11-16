@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p094",
+  "image_sha256": "43e2ddb3dff3cba5f9ca10e5c614231e9b0178aa339dc3b2d3856e88667963fa",
+  "caption": {
+    "summary": "Bảng tổng hợp các hợp đồng hoặc giao dịch giữa công ty FPT với các cổ đông nội bộ trong năm 2025, bao gồm thông tin về tổ chức, mối quan hệ, giấy phép, địa chỉ, thời điểm giao dịch, số nghị quyết và nội dung giao dịch cùng tổng giá trị.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Hợp đồng hoặc giao dịch với cổ đông nội bộ",
+        "location": "phải",
+        "description": "Bảng liệt kê các giao dịch giữa công ty FPT và các công ty con trong cùng tập đoàn, gồm các cột: STT, Tên tổ chức, Mối quan hệ liên quan với công ty, Số giấy NSH và ngày cấp, Địa chỉ trụ sở chính, Thời điểm giao dịch, Số nghị quyết/quyết định thông qua, Nội dung và tổng giá trị giao dịch (VNĐ), Ghi chú."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800749-znQYUz5af8VEAgPs5dZS",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 195,
+        "total_tokens": 2757,
+        "cost": 0.0013368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013368,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3517.2123000374995,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

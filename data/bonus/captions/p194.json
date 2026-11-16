@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p194",
+  "image_sha256": "416790ef5af63580b554ea23cc16b15eb0753b660fb6dbd1657d363c6884d7be",
+  "caption": {
+    "summary": "Trang trình bày thuyết minh báo cáo tài chính hợp nhất về các khoản phải thu khác và nợ khó đòi tính đến ngày 31/12/2025 và 31/12/2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Phải thu khác",
+        "location": "trên",
+        "description": "Các khoản phải thu khác ngắn hạn và dài hạn, đơn vị VNĐ, so sánh giữa 31/12/2025 và 31/12/2024"
+      },
+      {
+        "type": "table",
+        "title": "Nợ khó đòi",
+        "location": "dưới",
+        "description": "Tổng giá trị các khoản phải thu, cho vay quá hạn hoặc chưa quá hạn nhưng khó có khả năng thu hồi, gồm giá gốc, giá trị có thể thu hồi và dự phòng, đơn vị VNĐ, so sánh giữa 31/12/2025 và 31/12/2024"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800826-SKW4UsLOr5VdQVWtNOZV",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 196,
+        "total_tokens": 2758,
+        "cost": 0.0013384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013384,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4766.286700032651,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

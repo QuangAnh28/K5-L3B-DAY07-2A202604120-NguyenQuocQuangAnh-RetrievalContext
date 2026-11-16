@@ -1,0 +1,262 @@
+{
+  "status": "answered",
+  "answer": "Trừ trường hợp pháp luật có quy định khác hoặc các bên có thỏa thuận khác, quyền sở hữu hàng hóa được chuyển từ bên bán sang bên mua kể từ thời điểm hàng hóa được chuyển giao. [luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_gVgD96y0phb9qS7LFmFjhsvl",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"quyền sở hữu hàng hóa chuyển khi nào\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797571-bUMeHz1CG3GQVOKKayes"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nếu pháp luật và thỏa thuận không quy định khác, quyền sở hữu hàng hóa chuyển khi nào?",
+      "model_query": "quyền sở hữu hàng hóa chuyển khi nào",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 3",
+            "article": "Điều 62"
+          },
+          "score": 0.6180014359488326,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 75,
+          "text": "2. Đầu tư đủ cơ sở vật chất, nguồn tài chính và nhân l ực để tiếp nhận các quyền và bí quyết kinh doanh mà bên nhượng quyền chuyển giao;\n\n3. Chấp nhận sự kiểm soát, giám sát và h ướng dẫn của bên nh ượng quyền; tuân thủ các yêu c ầu về thiết kế, sắp x ếp địa điểm bán hàng, cung ứng d ịch v ụ của thương nhân nhượng quyền;\n\n4. Giữ bí mật về bí quyết kinh doanh đã được nhượng quyền, kể cả sau khi hợp đồng nhượng quyền thương mại kết thúc hoặc chấm dứt;\n\n5. Ng ừng s ử d ụng nhãn hi ệu hàng hoá, tên th ương m ại, kh ẩu hi ệu kinh doanh, bi ểu tượng kinh doanh và các quy ền sở hữu trí tuệ khác (n ếu có) ho ặc hệ thống của bên nhượng quyền khi kết thúc hoặc chấm dứt hợp đồng nhượng quyền thương mại;\n\n6. Điều hành hoạt động phù hợp với hệ thống nhượng quyền thương mại;\n\n7. Không được nhượng quyền lại trong trường hợp không có sự chấp thuận của bên nhượng quyền.\n\nĐiều 290. Nhượng quyền lại cho bên thứ ba",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 75,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 290"
+          },
+          "score": 0.5755886435762088,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 74,
+          "text": "thuê trong thời hạn thuê thuộc về bên thuê.\n\nĐiều 283. Thay đổi quyền sở hữu trong thời hạn thuê Mọi thay đổi về quyền sở hữu đối với hàng hóa cho thuê không ảnh hưởng đến hiệu lực của hợp đồng cho thuê.\n\nMục 8 NHƯỢNG QUYỀN THƯƠNG MẠI\n\nĐiều 284. Nhượng quyền thương mại Nhượng quyền thương m ại là ho ạt động thương m ại, theo đó bên nh ượng quyền cho phép và yêu c ầu bên nhận quyền tự mình tiến hành việc mua bán hàng hoá, cung ứng dịch vụ theo các điều kiện sau đây:\n\n1. Việc mua bán hàng hoá, cung ứng dịch vụ được tiến hành theo cách thức tổ ch ức kinh doanh do bên nh ượng quy ền quy định và được g ắn v ới nhãn hi ệu hàng hoá, tên thương mại, bí quyết kinh doanh, khẩu hiệu kinh doanh, bi ểu tượng kinh doanh, quảng cáo của bên nhượng quyền;\n\n2. Bên nh ượng quyền có quyền kiểm soát và tr ợ giúp cho bên nh ận quyền trong việc điều hành công việc kinh doanh.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 74,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "section": "Mục 8",
+            "article": "Điều 283"
+          },
+          "score": 0.5744473654670625,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa\n\n[luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 75]\n2. Đầu tư đủ cơ sở vật chất, nguồn tài chính và nhân l ực để tiếp nhận các quyền và bí quyết kinh doanh mà bên nhượng quyền chuyển giao;\n\n3. Chấp nhận sự kiểm soát, giám sát và h ướng dẫn của bên nh ượng quyền; tuân thủ các yêu c ầu về thiết kế, sắp x ếp địa điểm bán hàng, cung ứng d ịch v ụ của thương nhân nhượng quyền;\n\n4. Giữ bí mật về bí quyết kinh doanh đã được nhượng quyền, kể cả sau khi hợp đồng nhượng quyền thương mại kết thúc hoặc chấm dứt;\n\n5. Ng ừng s ử d ụng nhãn hi ệu hàng hoá, tên th ương m ại, kh ẩu hi ệu kinh doanh, bi ểu tượng kinh doanh và các quy ền sở hữu trí tuệ khác (n ếu có) ho ặc hệ thống của bên nhượng quyền khi kết thúc hoặc chấm dứt hợp đồng nhượng quyền thương mại;\n\n6. Điều hành hoạt động phù hợp với hệ thống nhượng quyền thương mại;\n\n7. Không được nhượng quyền lại trong trường hợp không có sự chấp thuận của bên nhượng quyền.\n\nĐiều 290. Nhượng quyền lại cho bên thứ ba",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+        "luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_NZiRN7RFrearc4L5ucPt4Nkg",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trừ trường hợp pháp luật có quy định khác hoặc các bên có thỏa thuận khác, quyền sở hữu hàng hóa được chuyển từ bên bán sang bên mua kể từ thời điểm hàng hóa được chuyển giao.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797572-7XJs1Px2ZTWsBaEwk0Pw"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa\n\n[luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 75]\n2. Đầu tư đủ cơ sở vật chất, nguồn tài chính và nhân l ực để tiếp nhận các quyền và bí quyết kinh doanh mà bên nhượng quyền chuyển giao;\n\n3. Chấp nhận sự kiểm soát, giám sát và h ướng dẫn của bên nh ượng quyền; tuân thủ các yêu c ầu về thiết kế, sắp x ếp địa điểm bán hàng, cung ứng d ịch v ụ của thương nhân nhượng quyền;\n\n4. Giữ bí mật về bí quyết kinh doanh đã được nhượng quyền, kể cả sau khi hợp đồng nhượng quyền thương mại kết thúc hoặc chấm dứt;\n\n5. Ng ừng s ử d ụng nhãn hi ệu hàng hoá, tên th ương m ại, kh ẩu hi ệu kinh doanh, bi ểu tượng kinh doanh và các quy ền sở hữu trí tuệ khác (n ếu có) ho ặc hệ thống của bên nhượng quyền khi kết thúc hoặc chấm dứt hợp đồng nhượng quyền thương mại;\n\n6. Điều hành hoạt động phù hợp với hệ thống nhượng quyền thương mại;\n\n7. Không được nhượng quyền lại trong trường hợp không có sự chấp thuận của bên nhượng quyền.\n\nĐiều 290. Nhượng quyền lại cho bên thứ ba",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+    "luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797571-bUMeHz1CG3GQVOKKayes",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 15,
+        "total_tokens": 308,
+        "cost": 0.0001412,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001412,
+          "upstream_inference_prompt_cost": 0.0001172,
+          "upstream_inference_completions_cost": 2.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1263.3003999944776,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797572-7XJs1Px2ZTWsBaEwk0Pw",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1153,
+        "completion_tokens": 87,
+        "total_tokens": 1240,
+        "cost": 0.0002932,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002932,
+          "upstream_inference_prompt_cost": 0.000154,
+          "upstream_inference_completions_cost": 0.0001392
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1862.6993999932893,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3141.4399999775924,
+  "searches": 1,
+  "query_id": "d7-q12",
+  "question": "Nếu pháp luật và thỏa thuận không quy định khác, quyền sở hữu hàng hóa chuyển khi nào?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 3",
+        "article": "Điều 62"
+      },
+      "score": 0.6180014359488326,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 75,
+      "text": "2. Đầu tư đủ cơ sở vật chất, nguồn tài chính và nhân l ực để tiếp nhận các quyền và bí quyết kinh doanh mà bên nhượng quyền chuyển giao;\n\n3. Chấp nhận sự kiểm soát, giám sát và h ướng dẫn của bên nh ượng quyền; tuân thủ các yêu c ầu về thiết kế, sắp x ếp địa điểm bán hàng, cung ứng d ịch v ụ của thương nhân nhượng quyền;\n\n4. Giữ bí mật về bí quyết kinh doanh đã được nhượng quyền, kể cả sau khi hợp đồng nhượng quyền thương mại kết thúc hoặc chấm dứt;\n\n5. Ng ừng s ử d ụng nhãn hi ệu hàng hoá, tên th ương m ại, kh ẩu hi ệu kinh doanh, bi ểu tượng kinh doanh và các quy ền sở hữu trí tuệ khác (n ếu có) ho ặc hệ thống của bên nhượng quyền khi kết thúc hoặc chấm dứt hợp đồng nhượng quyền thương mại;\n\n6. Điều hành hoạt động phù hợp với hệ thống nhượng quyền thương mại;\n\n7. Không được nhượng quyền lại trong trường hợp không có sự chấp thuận của bên nhượng quyền.\n\nĐiều 290. Nhượng quyền lại cho bên thứ ba",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 75,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 290"
+      },
+      "score": 0.5755886435762088,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 74,
+      "text": "thuê trong thời hạn thuê thuộc về bên thuê.\n\nĐiều 283. Thay đổi quyền sở hữu trong thời hạn thuê Mọi thay đổi về quyền sở hữu đối với hàng hóa cho thuê không ảnh hưởng đến hiệu lực của hợp đồng cho thuê.\n\nMục 8 NHƯỢNG QUYỀN THƯƠNG MẠI\n\nĐiều 284. Nhượng quyền thương mại Nhượng quyền thương m ại là ho ạt động thương m ại, theo đó bên nh ượng quyền cho phép và yêu c ầu bên nhận quyền tự mình tiến hành việc mua bán hàng hoá, cung ứng dịch vụ theo các điều kiện sau đây:\n\n1. Việc mua bán hàng hoá, cung ứng dịch vụ được tiến hành theo cách thức tổ ch ức kinh doanh do bên nh ượng quy ền quy định và được g ắn v ới nhãn hi ệu hàng hoá, tên thương mại, bí quyết kinh doanh, khẩu hiệu kinh doanh, bi ểu tượng kinh doanh, quảng cáo của bên nhượng quyền;\n\n2. Bên nh ượng quyền có quyền kiểm soát và tr ợ giúp cho bên nh ận quyền trong việc điều hành công việc kinh doanh.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 74,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "section": "Mục 8",
+        "article": "Điều 283"
+      },
+      "score": 0.5744473654670625,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa\n\n[luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 75]\n2. Đầu tư đủ cơ sở vật chất, nguồn tài chính và nhân l ực để tiếp nhận các quyền và bí quyết kinh doanh mà bên nhượng quyền chuyển giao;\n\n3. Chấp nhận sự kiểm soát, giám sát và h ướng dẫn của bên nh ượng quyền; tuân thủ các yêu c ầu về thiết kế, sắp x ếp địa điểm bán hàng, cung ứng d ịch v ụ của thương nhân nhượng quyền;\n\n4. Giữ bí mật về bí quyết kinh doanh đã được nhượng quyền, kể cả sau khi hợp đồng nhượng quyền thương mại kết thúc hoặc chấm dứt;\n\n5. Ng ừng s ử d ụng nhãn hi ệu hàng hoá, tên th ương m ại, kh ẩu hi ệu kinh doanh, bi ểu tượng kinh doanh và các quy ền sở hữu trí tuệ khác (n ếu có) ho ặc hệ thống của bên nhượng quyền khi kết thúc hoặc chấm dứt hợp đồng nhượng quyền thương mại;\n\n6. Điều hành hoạt động phù hợp với hệ thống nhượng quyền thương mại;\n\n7. Không được nhượng quyền lại trong trường hợp không có sự chấp thuận của bên nhượng quyền.\n\nĐiều 290. Nhượng quyền lại cho bên thứ ba",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+    "luat-thuong-mai-36-2005-qh11-p75-paragraph-1000-95735999306358d6"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

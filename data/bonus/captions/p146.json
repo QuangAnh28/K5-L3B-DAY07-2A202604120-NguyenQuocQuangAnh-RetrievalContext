@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p146",
+  "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về quản lý hiệu quả tiêu thụ năng lượng và kiểm kê khí nhà kính của FPT, bao gồm phạm vi và phương pháp thu thập dữ liệu, kết quả kiểm kê khí nhà kính năm 2025 và tổng hợp lượng phát thải khí nhà kính của FPT qua các năm 2023, 2024 và 2025.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025",
+        "location": "phải",
+        "description": "Bảng tổng hợp lượng phát thải khí nhà kính theo các phạm vi (Phạm vi 1, Phạm vi 2, Phạm vi 3) qua các năm 2023, 2024 và 2025, đơn vị tính là tấn CO2 tương đương."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800786-32B8B4Bage4drZjBpwSs",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 180,
+        "total_tokens": 2742,
+        "cost": 0.0013128,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013128,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000288
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4826.360600010958,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

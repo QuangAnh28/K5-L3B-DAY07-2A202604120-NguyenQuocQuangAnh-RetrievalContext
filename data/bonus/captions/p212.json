@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p212",
+  "image_sha256": "fad91222bd880e28cb019649a4126182957db16f259076cb7b2b43c439c9eadb",
+  "caption": {
+    "summary": "Báo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn FPT cho năm tài chính kết thúc ngày 31/12/2025, trình bày doanh thu, chi phí, kết quả kinh doanh, tài sản và nợ phải trả của các bộ phận.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Báo cáo bộ phận theo lĩnh vực kinh doanh",
+        "location": "giữa trang",
+        "description": "Các bộ phận gồm Sản phẩm và Dịch vụ CNTT nước ngoài, Sản phẩm và Dịch vụ CNTT trong nước, Viễn thông, Nội dung số, Đầu tư giáo dục và khác; các chỉ tiêu gồm Doanh thu thuần, Chi phí, Kết quả HĐKD, Lợi nhuận trước thuế, Tài sản và Nợ phải trả tại ngày 31/12/2025; đơn vị tính Triệu VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800842-meT1NdYhCiv5U74PJGCb",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 196,
+        "total_tokens": 2758,
+        "cost": 0.0013384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013384,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4863.0059999995865,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

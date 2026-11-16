@@ -1,0 +1,259 @@
+{
+  "status": "abstain",
+  "answer": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng các hình thức không được nêu cụ thể trong đoạn trích dẫn hiện có. Tài liệu không cung cấp thông tin về các hình thức thể hiện hợp đồng dịch vụ trong Chương III.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_gexmcJqjKQKWBoNfw2tcAFMc",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"hợp đồng dịch vụ thể hiện bằng những hình thức nào trong Chương III\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797322-UwHgKwNQWLavf4lZFyta"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng những hình thức nào?",
+      "model_query": "hợp đồng dịch vụ thể hiện bằng những hình thức nào trong Chương III",
+      "filter": {
+        "chapter": "Chương Iii"
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 20,
+          "text": "Chương III CUNG ỨNG DỊCH VỤ",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 20,
+            "year": 2005,
+            "chapter": "Chương Iii"
+          },
+          "score": 0.5532291772436118,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 24,
+          "text": "Điều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 24,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 85"
+          },
+          "score": 0.1866161726234929,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 23,
+          "text": "cung ứng yêu cầu bên cung ứng dịch vụ phải nỗ lực cao nhất để đạt được kết quả mong muốn thì bên cung ứng dịch vụ phải thực hiện nghĩa vụ cung ứng dịch vụ đó với nỗ lực và khả năng cao nhất.\n\nĐiều 81. Hợp tác giữa các bên cung ứng dịch vụ Trường hợp theo th ỏa thuận hoặc dựa vào tình hình c ụ thể, một dịch vụ do nhiều bên cung ứng dịch vụ cùng tiến hành hoặc phối hợp với bên cung ứng dịch vụ khác thì mỗi bên cung ứng dịch vụ có các nghĩa vụ sau đây:\n\n1. Trao đổi, thông tin cho nhau v ề tiến độ công vi ệc và yêu c ầu của mình có liên quan đến việc cung ứng dịch vụ, đồng thời phải cung ứng dịch vụ vào thời gian và theo ph ương thức phù h ợp để không gây c ản trở đến hoạt động của bên cung ứng dịch vụ đó;\n\n2. Tiến hành b ất kỳ hoạt động hợp tác c ần thiết nào v ới các bên cung ứng dịch vụ khác.\n\nĐiều 82. Thời hạn hoàn thành dịch vụ\n\n1. Bên cung ứng d ịch v ụ ph ải hoàn thành d ịch v ụ đúng th ời h ạn đã tho ả thuận trong hợp đồng.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 23,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 81"
+          },
+          "score": 0.17071784730173256,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nChương III CUNG ỨNG DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.\n\n[luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 23]\ncung ứng yêu cầu bên cung ứng dịch vụ phải nỗ lực cao nhất để đạt được kết quả mong muốn thì bên cung ứng dịch vụ phải thực hiện nghĩa vụ cung ứng dịch vụ đó với nỗ lực và khả năng cao nhất.\n\nĐiều 81. Hợp tác giữa các bên cung ứng dịch vụ Trường hợp theo th ỏa thuận hoặc dựa vào tình hình c ụ thể, một dịch vụ do nhiều bên cung ứng dịch vụ cùng tiến hành hoặc phối hợp với bên cung ứng dịch vụ khác thì mỗi bên cung ứng dịch vụ có các nghĩa vụ sau đây:\n\n1. Trao đổi, thông tin cho nhau v ề tiến độ công vi ệc và yêu c ầu của mình có liên quan đến việc cung ứng dịch vụ, đồng thời phải cung ứng dịch vụ vào thời gian và theo ph ương thức phù h ợp để không gây c ản trở đến hoạt động của bên cung ứng dịch vụ đó;\n\n2. Tiến hành b ất kỳ hoạt động hợp tác c ần thiết nào v ới các bên cung ứng dịch vụ khác.\n\nĐiều 82. Thời hạn hoàn thành dịch vụ\n\n1. Bên cung ứng d ịch v ụ ph ải hoàn thành d ịch v ụ đúng th ời h ạn đã tho ả thuận trong hợp đồng.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31",
+        "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+        "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_GMMd1unjAqR1dDreQPlGcEHW",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng các hình thức không được nêu cụ thể trong đoạn trích dẫn hiện có. Tài liệu không cung cấp thông tin về các hình thức thể hiện hợp đồng dịch vụ trong Chương III.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797323-l14nrL9HZV7Te0TWkpVq"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nChương III CUNG ỨNG DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.\n\n[luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 23]\ncung ứng yêu cầu bên cung ứng dịch vụ phải nỗ lực cao nhất để đạt được kết quả mong muốn thì bên cung ứng dịch vụ phải thực hiện nghĩa vụ cung ứng dịch vụ đó với nỗ lực và khả năng cao nhất.\n\nĐiều 81. Hợp tác giữa các bên cung ứng dịch vụ Trường hợp theo th ỏa thuận hoặc dựa vào tình hình c ụ thể, một dịch vụ do nhiều bên cung ứng dịch vụ cùng tiến hành hoặc phối hợp với bên cung ứng dịch vụ khác thì mỗi bên cung ứng dịch vụ có các nghĩa vụ sau đây:\n\n1. Trao đổi, thông tin cho nhau v ề tiến độ công vi ệc và yêu c ầu của mình có liên quan đến việc cung ứng dịch vụ, đồng thời phải cung ứng dịch vụ vào thời gian và theo ph ương thức phù h ợp để không gây c ản trở đến hoạt động của bên cung ứng dịch vụ đó;\n\n2. Tiến hành b ất kỳ hoạt động hợp tác c ần thiết nào v ới các bên cung ứng dịch vụ khác.\n\nĐiều 82. Thời hạn hoàn thành dịch vụ\n\n1. Bên cung ứng d ịch v ụ ph ải hoàn thành d ịch v ụ đúng th ời h ạn đã tho ả thuận trong hợp đồng.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+    "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797322-UwHgKwNQWLavf4lZFyta",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 294,
+        "completion_tokens": 21,
+        "total_tokens": 315,
+        "cost": 0.0001512,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001512,
+          "upstream_inference_prompt_cost": 0.0001176,
+          "upstream_inference_completions_cost": 3.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1440.027899981942,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797323-l14nrL9HZV7Te0TWkpVq",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1213,
+        "completion_tokens": 71,
+        "total_tokens": 1284,
+        "cost": 0.0005988,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005988,
+          "upstream_inference_prompt_cost": 0.0004852,
+          "upstream_inference_completions_cost": 0.0001136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1718.1043999735266,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3163.5120999999344,
+  "searches": 1,
+  "query_id": "d7-q13",
+  "question": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng những hình thức nào?",
+  "split": "dev",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 20,
+      "text": "Chương III CUNG ỨNG DỊCH VỤ",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 20,
+        "year": 2005,
+        "chapter": "Chương Iii"
+      },
+      "score": 0.5532291772436118,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 24,
+      "text": "Điều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 24,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 85"
+      },
+      "score": 0.1866161726234929,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 23,
+      "text": "cung ứng yêu cầu bên cung ứng dịch vụ phải nỗ lực cao nhất để đạt được kết quả mong muốn thì bên cung ứng dịch vụ phải thực hiện nghĩa vụ cung ứng dịch vụ đó với nỗ lực và khả năng cao nhất.\n\nĐiều 81. Hợp tác giữa các bên cung ứng dịch vụ Trường hợp theo th ỏa thuận hoặc dựa vào tình hình c ụ thể, một dịch vụ do nhiều bên cung ứng dịch vụ cùng tiến hành hoặc phối hợp với bên cung ứng dịch vụ khác thì mỗi bên cung ứng dịch vụ có các nghĩa vụ sau đây:\n\n1. Trao đổi, thông tin cho nhau v ề tiến độ công vi ệc và yêu c ầu của mình có liên quan đến việc cung ứng dịch vụ, đồng thời phải cung ứng dịch vụ vào thời gian và theo ph ương thức phù h ợp để không gây c ản trở đến hoạt động của bên cung ứng dịch vụ đó;\n\n2. Tiến hành b ất kỳ hoạt động hợp tác c ần thiết nào v ới các bên cung ứng dịch vụ khác.\n\nĐiều 82. Thời hạn hoàn thành dịch vụ\n\n1. Bên cung ứng d ịch v ụ ph ải hoàn thành d ịch v ụ đúng th ời h ạn đã tho ả thuận trong hợp đồng.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 23,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 81"
+      },
+      "score": 0.17071784730173256,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nChương III CUNG ỨNG DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.\n\n[luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 23]\ncung ứng yêu cầu bên cung ứng dịch vụ phải nỗ lực cao nhất để đạt được kết quả mong muốn thì bên cung ứng dịch vụ phải thực hiện nghĩa vụ cung ứng dịch vụ đó với nỗ lực và khả năng cao nhất.\n\nĐiều 81. Hợp tác giữa các bên cung ứng dịch vụ Trường hợp theo th ỏa thuận hoặc dựa vào tình hình c ụ thể, một dịch vụ do nhiều bên cung ứng dịch vụ cùng tiến hành hoặc phối hợp với bên cung ứng dịch vụ khác thì mỗi bên cung ứng dịch vụ có các nghĩa vụ sau đây:\n\n1. Trao đổi, thông tin cho nhau v ề tiến độ công vi ệc và yêu c ầu của mình có liên quan đến việc cung ứng dịch vụ, đồng thời phải cung ứng dịch vụ vào thời gian và theo ph ương thức phù h ợp để không gây c ản trở đến hoạt động của bên cung ứng dịch vụ đó;\n\n2. Tiến hành b ất kỳ hoạt động hợp tác c ần thiết nào v ới các bên cung ứng dịch vụ khác.\n\nĐiều 82. Thời hạn hoàn thành dịch vụ\n\n1. Bên cung ứng d ịch v ụ ph ải hoàn thành d ịch v ụ đúng th ời h ạn đã tho ả thuận trong hợp đồng.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-19c1069eb8136f31",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+    "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-28a3561200178dfa"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

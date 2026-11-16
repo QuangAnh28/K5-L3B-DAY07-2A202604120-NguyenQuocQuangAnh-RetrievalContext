@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p130",
+  "image_sha256": "7e99b64046f5fecf666305c8b8268c7c3566b1e6b8134782948cc8d0fa11a055",
+  "caption": {
+    "summary": "Trang trình bày về quyền riêng tư và bảo mật dữ liệu khách hàng cùng phạm vi chính sách và kế hoạch ứng phó sự cố của FPT trong năm 2025.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ảnh minh họa bảo mật dữ liệu trên máy tính",
+        "location": "phải",
+        "description": "Hình ảnh minh họa bảo mật dữ liệu với biểu tượng khóa và các biểu tượng dữ liệu kỹ thuật số trên màn hình laptop."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800771-bdmBpspr2IOpj4UGde2w",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 101,
+        "total_tokens": 2663,
+        "cost": 0.0011864,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011864,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001616
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3365.041100012604,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,274 @@
+{
+  "status": "abstain",
+  "answer": "Không có thông tin về doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_V8w25etfj7w83XWXQrtQDpTN",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Doanh thu bán hàng năm 2025 của Công ty Ánh Dương\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797593-t18yJwlNWiJbgObh5iXk"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+      "model_query": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 25,
+          "text": "2. Tặng hàng hoá cho khách hàng, cung ứng dịch vụ không thu tiền.\n\n3. Bán hàng, cung ứng dịch vụ với giá thấp hơn giá bán hàng, giá cung ứng dịch v ụ tr ước đó, được áp d ụng trong th ời gian khuy ến m ại đã đăng ký ho ặc thông báo. Tr ường h ợp hàng hóa, d ịch v ụ thu ộc di ện Nhà n ước qu ản lý giá thì việc khuyến mại theo hình thức này được thực hiện theo quy định của Chính phủ.\n\n4. Bán hàng, cung ứng dịch vụ có kèm theo phiếu mua hàng, phiếu sử dụng dịch vụ để khách hàng được hưởng một hay một số lợi ích nhất định.\n\n5. Bán hàng, cung ứng d ịch v ụ có kèm phi ếu d ự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố.\n\n6. Bán hàng, cung ứng d ịch v ụ kèm theo vi ệc tham d ự các ch ương trình mang tính may r ủi mà vi ệc tham gia ch ương trình g ắn li ền v ới vi ệc mua hàng hóa, dịch vụ và việc trúng th ưởng dựa trên sự may m ắn của người tham gia theo thể lệ và giải thưởng đã công bố.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 25,
+            "year": 2005,
+            "chapter": "Chương Iv"
+          },
+          "score": 0.028665028665028666,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 14
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 47,
+          "text": "Chương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 47,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "section": "Mục 1",
+            "article": "Điều 178"
+          },
+          "score": 0.01639344262295082,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 62,
+          "text": "5. Th ương nhân kinh doanh d ịch v ụ logistics được s ử d ụng s ố ti ền thu được từ việc định đoạt hàng hoá để thanh toán các khoản mà khách hàng nợ mình và các chi phí có liên quan; n ếu số tiền thu được từ việc định đoạt vượt quá giá trị các kho ản n ợ thì s ố tiền vượt quá ph ải được trả lại cho khách hàng. K ể từ thời điểm đó, thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm đối với hàng hoá hoặc chứng từ đã được định đoạt.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 62,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.01639344262295082,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 25]\n2. Tặng hàng hoá cho khách hàng, cung ứng dịch vụ không thu tiền.\n\n3. Bán hàng, cung ứng dịch vụ với giá thấp hơn giá bán hàng, giá cung ứng dịch v ụ tr ước đó, được áp d ụng trong th ời gian khuy ến m ại đã đăng ký ho ặc thông báo. Tr ường h ợp hàng hóa, d ịch v ụ thu ộc di ện Nhà n ước qu ản lý giá thì việc khuyến mại theo hình thức này được thực hiện theo quy định của Chính phủ.\n\n4. Bán hàng, cung ứng dịch vụ có kèm theo phiếu mua hàng, phiếu sử dụng dịch vụ để khách hàng được hưởng một hay một số lợi ích nhất định.\n\n5. Bán hàng, cung ứng d ịch v ụ có kèm phi ếu d ự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố.\n\n6. Bán hàng, cung ứng d ịch v ụ kèm theo vi ệc tham d ự các ch ương trình mang tính may r ủi mà vi ệc tham gia ch ương trình g ắn li ền v ới vi ệc mua hàng hóa, dịch vụ và việc trúng th ưởng dựa trên sự may m ắn của người tham gia theo thể lệ và giải thưởng đã công bố.\n\n[luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 47]\nChương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370",
+        "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_lMHlGFgQ8YN2rnu3QxrXyfly",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không có thông tin về doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797594-UoczoAkYRrJZAF9b8Du4"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 25]\n2. Tặng hàng hoá cho khách hàng, cung ứng dịch vụ không thu tiền.\n\n3. Bán hàng, cung ứng dịch vụ với giá thấp hơn giá bán hàng, giá cung ứng dịch v ụ tr ước đó, được áp d ụng trong th ời gian khuy ến m ại đã đăng ký ho ặc thông báo. Tr ường h ợp hàng hóa, d ịch v ụ thu ộc di ện Nhà n ước qu ản lý giá thì việc khuyến mại theo hình thức này được thực hiện theo quy định của Chính phủ.\n\n4. Bán hàng, cung ứng dịch vụ có kèm theo phiếu mua hàng, phiếu sử dụng dịch vụ để khách hàng được hưởng một hay một số lợi ích nhất định.\n\n5. Bán hàng, cung ứng d ịch v ụ có kèm phi ếu d ự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố.\n\n6. Bán hàng, cung ứng d ịch v ụ kèm theo vi ệc tham d ự các ch ương trình mang tính may r ủi mà vi ệc tham gia ch ương trình g ắn li ền v ới vi ệc mua hàng hóa, dịch vụ và việc trúng th ưởng dựa trên sự may m ắn của người tham gia theo thể lệ và giải thưởng đã công bố.\n\n[luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 47]\nChương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370",
+    "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797593-t18yJwlNWiJbgObh5iXk",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 296,
+        "completion_tokens": 21,
+        "total_tokens": 317,
+        "cost": 0.000152,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000152,
+          "upstream_inference_prompt_cost": 0.0001184,
+          "upstream_inference_completions_cost": 3.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1289.1517999814823,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797594-UoczoAkYRrJZAF9b8Du4",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1202,
+        "completion_tokens": 38,
+        "total_tokens": 1240,
+        "cost": 0.0002344,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002344,
+          "upstream_inference_prompt_cost": 0.0001736,
+          "upstream_inference_completions_cost": 6.08e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1556.2609000480734,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 2855.475699994713,
+  "searches": 1,
+  "query_id": "d7-u2",
+  "question": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+  "split": "dev",
+  "config": "hybrid",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 25,
+      "text": "2. Tặng hàng hoá cho khách hàng, cung ứng dịch vụ không thu tiền.\n\n3. Bán hàng, cung ứng dịch vụ với giá thấp hơn giá bán hàng, giá cung ứng dịch v ụ tr ước đó, được áp d ụng trong th ời gian khuy ến m ại đã đăng ký ho ặc thông báo. Tr ường h ợp hàng hóa, d ịch v ụ thu ộc di ện Nhà n ước qu ản lý giá thì việc khuyến mại theo hình thức này được thực hiện theo quy định của Chính phủ.\n\n4. Bán hàng, cung ứng dịch vụ có kèm theo phiếu mua hàng, phiếu sử dụng dịch vụ để khách hàng được hưởng một hay một số lợi ích nhất định.\n\n5. Bán hàng, cung ứng d ịch v ụ có kèm phi ếu d ự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố.\n\n6. Bán hàng, cung ứng d ịch v ụ kèm theo vi ệc tham d ự các ch ương trình mang tính may r ủi mà vi ệc tham gia ch ương trình g ắn li ền v ới vi ệc mua hàng hóa, dịch vụ và việc trúng th ưởng dựa trên sự may m ắn của người tham gia theo thể lệ và giải thưởng đã công bố.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 25,
+        "year": 2005,
+        "chapter": "Chương Iv"
+      },
+      "score": 0.028665028665028666,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 14
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 47,
+      "text": "Chương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 47,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "section": "Mục 1",
+        "article": "Điều 178"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 62,
+      "text": "5. Th ương nhân kinh doanh d ịch v ụ logistics được s ử d ụng s ố ti ền thu được từ việc định đoạt hàng hoá để thanh toán các khoản mà khách hàng nợ mình và các chi phí có liên quan; n ếu số tiền thu được từ việc định đoạt vượt quá giá trị các kho ản n ợ thì s ố tiền vượt quá ph ải được trả lại cho khách hàng. K ể từ thời điểm đó, thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm đối với hàng hoá hoặc chứng từ đã được định đoạt.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 62,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 25]\n2. Tặng hàng hoá cho khách hàng, cung ứng dịch vụ không thu tiền.\n\n3. Bán hàng, cung ứng dịch vụ với giá thấp hơn giá bán hàng, giá cung ứng dịch v ụ tr ước đó, được áp d ụng trong th ời gian khuy ến m ại đã đăng ký ho ặc thông báo. Tr ường h ợp hàng hóa, d ịch v ụ thu ộc di ện Nhà n ước qu ản lý giá thì việc khuyến mại theo hình thức này được thực hiện theo quy định của Chính phủ.\n\n4. Bán hàng, cung ứng dịch vụ có kèm theo phiếu mua hàng, phiếu sử dụng dịch vụ để khách hàng được hưởng một hay một số lợi ích nhất định.\n\n5. Bán hàng, cung ứng d ịch v ụ có kèm phi ếu d ự thi cho khách hàng để chọn người trao thưởng theo thể lệ và giải thưởng đã công bố.\n\n6. Bán hàng, cung ứng d ịch v ụ kèm theo vi ệc tham d ự các ch ương trình mang tính may r ủi mà vi ệc tham gia ch ương trình g ắn li ền v ới vi ệc mua hàng hóa, dịch vụ và việc trúng th ưởng dựa trên sự may m ắn của người tham gia theo thể lệ và giải thưởng đã công bố.\n\n[luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 47]\nChương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p25-paragraph-1000-a430d8b2b9e97370",
+    "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "query_id": "d7-t129",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.051219+00:00",
+    "trace_sha256": "9f39d0c6b43a4ebe045b7698c083881cd23a9ff1cf3897c8f4c1a2293760272e",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 129 trang 35: trưng bày/giới thiệu hàng hóa dịch vụ để thúc đẩy, tìm cơ hội giao kết hợp đồng mua bán/dịch vụ."
+  },
+  {
+    "query_id": "d7-t223",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.079940+00:00",
+    "trace_sha256": "aeb6885f0caea98ac12b46b74fad792421d3cda41183057b676196cab2796ca6",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm. Context chỉ có Điều 215–219 về hình thức, phương thức và hồ sơ mời thầu, không có nội dung bảo mật Điều 223; đoạn gold ở top-3 bị bỏ bởi budget 2400 ký tự."
+  },
+  {
+    "query_id": "d7-t323",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.113518+00:00",
+    "trace_sha256": "e49804682cbc39dad93027db062382a135a7497428f7ba4e2be3842af478d42b",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 323 trang 83 xác nhận đủ hai mốc 01/01/2006 và thay thế luật 10/05/1997."
+  },
+  {
+    "query_id": "d7-t53",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.141973+00:00",
+    "trace_sha256": "0c23cc5c22f3137d64063c6317c4659a4897a93d35e7c41e5f231db4b687d688",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 53 trang 16: trọng lượng tịnh, giữ điều kiện trừ thỏa thuận khác."
+  },
+  {
+    "query_id": "d7-t60",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.167762+00:00",
+    "trace_sha256": "8b27de9c29a90cef2fcfbc2de49e7e0772fd4644843bc1cf3a7c67ff12235627",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 60 trang 17: hàng đang vận chuyển, chuyển rủi ro kể từ giao kết, trừ thỏa thuận khác."
+  },
+  {
+    "query_id": "d7-u3",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.194510+00:00",
+    "trace_sha256": "b4e4e8a145c25d7f7d04dd6ab93605576b372a9e8e8cd74a1ec54325dc375d70",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đọc lời từ chối: không nêu số tài khoản/địa chỉ hay thông tin suy đoán. Corpus toàn bộ đã kiểm tra không có mã hợp đồng hoặc công ty/sự kiện cụ thể như absence_check trong benchmark."
+  },
+  {
+    "query_id": "d7-u4",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.218249+00:00",
+    "trace_sha256": "dd1ea3c055893508c775c82c3df7f8db0d0c8552a163322df3d65ffcf5b4fc9b",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đọc lời từ chối: không nêu số tài khoản/địa chỉ hay thông tin suy đoán. Corpus toàn bộ đã kiểm tra không có mã hợp đồng hoặc công ty/sự kiện cụ thể như absence_check trong benchmark."
+  }
+]

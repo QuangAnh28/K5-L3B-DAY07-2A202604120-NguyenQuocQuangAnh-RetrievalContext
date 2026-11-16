@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p157",
+  "image_sha256": "d5fe3a28347bf09fd8cd94baa8a0af4a07be8c6e4115072f89f2dd4fd0ac0e62",
+  "caption": {
+    "summary": "Trang báo cáo trình bày các hoạt động kết nối cộng đồng hạnh phúc của FPT, tập trung vào các chương trình hỗ trợ cộng đồng và phát triển bền vững.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Cùng đồng bào vượt lũ tái thiết 26 điểm trường thiệt hại nặng",
+        "location": "dưới bên trái",
+        "description": "Ảnh người trao quà cho học sinh, minh họa chiến dịch hỗ trợ tái thiết các điểm trường bị thiệt hại do bão năm 2025."
+      },
+      {
+        "type": "photo",
+        "title": "Đồng hành triển khai Dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam",
+        "location": "dưới giữa",
+        "description": "Ảnh nhóm người trong phòng họp, minh họa dự án hỗ trợ cộng đồng về y tế với máy khử rung tim tự động."
+      },
+      {
+        "type": "photo",
+        "title": "Chương trình Nâng bước em đến trường",
+        "location": "dưới bên phải",
+        "description": "Ảnh nhóm người đứng ngoài trời bên bảng hiệu chương trình, minh họa chương trình xây dựng cơ sở vật chất và hỗ trợ học sinh vùng Đồng bằng sông Cửu Long."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800796-8weVyoUqD944h03GTzQJ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 259,
+        "total_tokens": 2821,
+        "cost": 0.0014392,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014392,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4263.286700006574,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

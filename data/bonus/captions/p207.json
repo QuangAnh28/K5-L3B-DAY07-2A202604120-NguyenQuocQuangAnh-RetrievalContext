@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p207",
+  "image_sha256": "f6267080a2f47583309d9e044d343647a347e5990a4d167506f74252c98378a8",
+  "caption": {
+    "summary": "Báo cáo tình hình tăng giảm nguồn vốn chủ sở hữu của cổ đông không kiểm soát tại các công ty con trong năm tài chính 2025 và 2024, bao gồm bảng số liệu chi tiết và giải thích các biến động vốn.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tình hình tăng giảm nguồn vốn chủ sở hữu",
+        "location": "trên giữa",
+        "description": "Bảng số liệu vốn góp, thặng dư vốn cổ phần, vốn khác của chủ sở hữu, chênh lệch tỷ giá hối đoái, quỹ đầu tư phát triển, quỹ khác thuộc vốn chủ sở hữu, LNST chưa phân phối và tổng cộng tại ngày 31/12/2024 và 31/12/2025, đơn vị VNĐ."
+      },
+      {
+        "type": "table",
+        "title": "Biến động lợi ích cổ đông không kiểm soát năm 2025 và 2024",
+        "location": "giữa bên trái",
+        "description": "Bảng số liệu chi tiết biến động lợi ích cổ đông không kiểm soát gồm số dư đầu năm, tăng vốn trong năm, lợi nhuận thuần trong năm, trích lập quỹ khen thưởng, phúc lợi, chia cổ tức bằng tiền, các khoản khác và số dư cuối năm, đơn vị VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800837-OsEdSJGorId1SgPLD41g",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 271,
+        "total_tokens": 2833,
+        "cost": 0.0014584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014584,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4807.620300038252,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

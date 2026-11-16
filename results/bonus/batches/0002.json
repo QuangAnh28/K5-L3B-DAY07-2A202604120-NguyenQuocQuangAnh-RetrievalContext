@@ -1,0 +1,45 @@
+{
+  "started_at": "2026-11-16T04:51:32.685708+00:00",
+  "finished_at": "2026-11-16T04:52:45.927629+00:00",
+  "split": "dev",
+  "config": "vision",
+  "model": "anthropic/claude-haiku-5.5",
+  "query_ids": [
+    "fd-t2",
+    "fd-t3",
+    "fd-c1",
+    "fd-c2",
+    "fd-c3"
+  ],
+  "statuses": {
+    "fd-t2": "answered",
+    "fd-t3": "answered",
+    "fd-c1": "answered",
+    "fd-c2": "answered",
+    "fd-c3": "abstain"
+  },
+  "provider_reported_cost_usd": 0.0180954,
+  "successful_request_ids": [
+    "gen-1794804691-TLyf6MIAFc9N1HrTaFaB",
+    "gen-1794804702-Mw0GhytP4Xzezu5bwWR4",
+    "gen-1794804706-y9okwjxX9abpGFFOApRD",
+    "gen-1794804715-9VU8KMt3WMC0qQdxV6qh",
+    "gen-1794804719-5SFRs3W4jW80rAXPN5ht",
+    "gen-1794804725-AB3QVH8ZES7Bi7w6mwft",
+    "gen-1794804730-ScnHR9i0uU0kob33WLBo",
+    "gen-1794804737-FE1UbxJoDQdaXcieWRGv",
+    "gen-1794804757-Y8p8aQ8PGH8B1KT4YmfQ",
+    "gen-1794804760-t8u3NBlI8QCmrdeSyfw6"
+  ],
+  "trace_hashes": {
+    "fd-t2": "7cca45d9db5e849092ac42756178e6fb0d9682b8ec1e6405fbe598e324dd4ca5",
+    "fd-t3": "a0774c8909320470ea45739b2c192fea4851c2c5f80972af3758a8fde6b4dff1",
+    "fd-c1": "bb812d1e4ce3d3d843d2017b537e6963dcb6041165f3873a2c201624c40672bb",
+    "fd-c2": "ef301d14d6f9c7ef85bb24e45c77f22bdb48b5cfcb29da2fb8684c99efb14c41",
+    "fd-c3": "529c247eaa822ee09e55700537d57084d9d57d26804f50dbd9cb8fed28138f4e"
+  },
+  "unknown_failure_cost": false,
+  "stopped_on_error": false,
+  "between_question_cost_stop_usd": 0.1,
+  "cost_stop_note": "Checked after each question; current question can exceed this amount."
+}

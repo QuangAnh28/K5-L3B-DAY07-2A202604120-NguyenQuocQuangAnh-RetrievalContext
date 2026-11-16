@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p033",
+  "image_sha256": "cc314ef8907f529880b3a463796d68c070cf6e188289739abf71fde429abefce",
+  "caption": {
+    "summary": "Trang trình bày thông tin về cơ cấu cổ đông theo quốc tịch, danh sách 10 cổ đông lớn nhất và tình hình thay đổi vốn điều lệ của FPT.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Cơ cấu cổ đông theo quốc tịch",
+        "location": "trái trên",
+        "description": "Bảng thể hiện số lượng cổ đông, tỷ lệ trên tổng số cổ đông, số lượng cổ phiếu sở hữu và tỷ lệ trên tổng số cổ phiếu đã phát hành phân theo cổ đông Việt Nam và nước ngoài, cá nhân và tổ chức."
+      },
+      {
+        "type": "table",
+        "title": "Top 10 cổ đông lớn",
+        "location": "phải trên",
+        "description": "Danh sách 10 cổ đông lớn nhất của FPT, gồm tên đối tượng, số cổ phần và tỷ lệ sở hữu."
+      },
+      {
+        "type": "table",
+        "title": "Tình hình thay đổi vốn điều lệ",
+        "location": "dưới",
+        "description": "Bảng thể hiện các lần phát hành cổ phiếu, thời điểm phát hành, vốn điều lệ sau phát hành và lý do thay đổi vốn điều lệ từ năm 2002 đến 2005."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800708-XPrR31KAUFtH9GTco2Sc",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 287,
+        "total_tokens": 2849,
+        "cost": 0.001484,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001484,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004592
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5147.263300023042,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

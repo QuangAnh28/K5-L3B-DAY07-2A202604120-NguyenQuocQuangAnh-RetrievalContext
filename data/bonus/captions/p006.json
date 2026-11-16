@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p006",
+  "image_sha256": "048905b229e13c579ed10f6e053831f2160dc80c89095b378bda348b8443b037",
+  "caption": {
+    "summary": "Trang báo cáo chứa thông điệp của Tổng Giám đốc FPT về tình hình kinh tế năm 2025 và các thách thức cũng như cơ hội đối với công ty.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800690-BQFJXEmj65RSlihwOSgU",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 46,
+        "total_tokens": 2608,
+        "cost": 0.0010984,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010984,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 7.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2699.371000053361,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p110",
+  "image_sha256": "0814fb504f94bbaaf159dad5e25db5a05043afaca173ba969520060b4c44e797",
+  "caption": {
+    "summary": "Trang báo cáo ESG với thông điệp và định hướng ESG từ Phó tổng giám đốc Nguyễn Thế Phương, nhấn mạnh tiềm năng và cam kết phát triển bền vững của FPT.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ảnh Phó tổng giám đốc Nguyễn Thế Phương",
+        "location": "trái",
+        "description": "Ảnh chân dung Phó tổng giám đốc với trang phục vest, tay khoanh trước ngực."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800759-Lp6cClTDqX4vpR5qYZ8Z",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 106,
+        "total_tokens": 2668,
+        "cost": 0.0011944,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011944,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001696
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3217.4378999625333,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

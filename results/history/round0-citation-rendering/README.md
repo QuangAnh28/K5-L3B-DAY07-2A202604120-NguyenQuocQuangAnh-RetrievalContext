@@ -1,0 +1,1 @@
+Initial dev run preserved. Model returned structured citation IDs without inline brackets; strict display validation caused abstention. Fix: render validated IDs into answer while preserving raw tool arguments. No test was run before this dev-only change. Costs remain in these traces.

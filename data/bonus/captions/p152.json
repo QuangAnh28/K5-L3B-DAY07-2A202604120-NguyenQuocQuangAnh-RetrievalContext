@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p152",
+  "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90",
+  "caption": {
+    "summary": "Trang báo cáo trình bày chiến lược văn phòng không giấy tờ của FPT năm 2025, tập trung vào chuyển đổi số nội bộ, sử dụng văn bản điện tử và tăng tỷ lệ họp trực tuyến nhằm giảm tác động môi trường và nâng cao hiệu quả công việc.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Tỷ lệ số hóa tài liệu giai đoạn 2022-2025",
+        "location": "dưới bên trái",
+        "description": "Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm."
+      },
+      {
+        "type": "chart",
+        "title": "Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025",
+        "location": "dưới bên phải",
+        "description": "Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800792-93uG5PPwuK1c6V4xc9tp",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 254,
+        "total_tokens": 2816,
+        "cost": 0.0014312,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014312,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004064
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4721.019799995702,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

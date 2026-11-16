@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p031",
+  "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3",
+  "caption": {
+    "summary": "Trang trình bày sơ đồ tổ chức và cơ cấu quản trị của Tập đoàn FPT, bao gồm các cấp quản lý từ Đại hội đồng cổ đông đến các công ty con và công ty liên kết, cùng các ban và bộ phận chức năng.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Sơ đồ tổ chức quản trị và bộ máy quản lý FPT",
+        "location": "phải",
+        "description": "Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800707-PJCasrS7N3myTVcMBG04",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 179,
+        "total_tokens": 2741,
+        "cost": 0.0013112,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013112,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002864
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3402.4436000036076,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

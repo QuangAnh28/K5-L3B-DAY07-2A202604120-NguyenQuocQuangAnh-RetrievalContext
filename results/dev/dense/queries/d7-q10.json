@@ -1,0 +1,257 @@
+{
+  "status": "answered",
+  "answer": "Nếu không có thỏa thuận khác, bên mua phải thanh toán theo giá thỏa thuận trong hợp đồng khi chấp nhận số hàng thừa. Việc ngừng thanh toán chỉ được thực hiện trong các trường hợp có bằng chứng về lừa dối, tranh chấp hàng hóa, hoặc hàng hóa không phù hợp với hợp đồng, và phải tuân theo quy định của Luật Thương mại 2005. [luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41] [luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_I6qtDbpXa8HaT3O2O7hD0VWa",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"khi nào bên mua phải thanh toán cho bên bán nếu không có thỏa thuận khác\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801188-HssRD1X8gfct0x7aPWt2"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nếu không có thỏa thuận khác, khi nào bên mua phải thanh toán cho bên bán?",
+      "model_query": "khi nào bên mua phải thanh toán cho bên bán nếu không có thỏa thuận khác",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "text": "2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 44"
+          },
+          "score": 0.6330722952956936,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "Điều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 51"
+          },
+          "score": 0.6166058999308482,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-9a2d63d15fb4f38e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 18,
+          "text": "2. Bên gi ữ quyền chọn mua có quy ền mua nh ưng không có ngh ĩa vụ phải mua hàng hoá đã giao k ết trong h ợp đồng. Trường hợp bên gi ữ quyền chọn mua quyết định th ực hi ện h ợp đồng thì bên bán có ngh ĩa v ụ ph ải bán hàng hoá cho bên gi ữ quy ền ch ọn mua. Tr ường h ợp bên bán không có hàng hoá để giao thì phải thanh toán cho bên gi ữ quy ền ch ọn mua m ột kho ản ti ền b ằng m ức chênh lệch giữa giá tho ả thuận trong h ợp đồng và giá th ị trường do S ở giao d ịch hàng hoá công bố tại thời điểm hợp đồng được thực hiện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 18,
+            "year": 2005,
+            "chapter": "Chương Ii"
+          },
+          "score": 0.5921141880531032,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+        "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_0yl3uA9LoOznbrkzRYQ6JLTP",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Nếu không có thỏa thuận khác, bên mua phải thanh toán theo giá thỏa thuận trong hợp đồng khi chấp nhận số hàng thừa. Việc ngừng thanh toán chỉ được thực hiện trong các trường hợp có bằng chứng về lừa dối, tranh chấp hàng hóa, hoặc hàng hóa không phù hợp với hợp đồng, và phải tuân theo quy định của Luật Thương mại 2005.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41\",\"luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801193-vzBUNS2yjgC7Qe5JT5vy"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801188-HssRD1X8gfct0x7aPWt2",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 23,
+        "total_tokens": 314,
+        "cost": 0.0001532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001532,
+          "upstream_inference_prompt_cost": 0.0001164,
+          "upstream_inference_completions_cost": 3.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4496.743600000627,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801193-vzBUNS2yjgC7Qe5JT5vy",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1037,
+        "completion_tokens": 167,
+        "total_tokens": 1204,
+        "cost": 0.000682,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000682,
+          "upstream_inference_prompt_cost": 0.0004148,
+          "upstream_inference_completions_cost": 0.0002672
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5358.724899997469,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 9864.95630000718,
+  "searches": 1,
+  "query_id": "d7-q10",
+  "question": "Nếu không có thỏa thuận khác, khi nào bên mua phải thanh toán cho bên bán?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 13,
+      "text": "2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 44"
+      },
+      "score": 0.6330722952956936,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "Điều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 51"
+      },
+      "score": 0.6166058999308482,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-9a2d63d15fb4f38e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 18,
+      "text": "2. Bên gi ữ quyền chọn mua có quy ền mua nh ưng không có ngh ĩa vụ phải mua hàng hoá đã giao k ết trong h ợp đồng. Trường hợp bên gi ữ quyền chọn mua quyết định th ực hi ện h ợp đồng thì bên bán có ngh ĩa v ụ ph ải bán hàng hoá cho bên gi ữ quy ền ch ọn mua. Tr ường h ợp bên bán không có hàng hoá để giao thì phải thanh toán cho bên gi ữ quy ền ch ọn mua m ột kho ản ti ền b ằng m ức chênh lệch giữa giá tho ả thuận trong h ợp đồng và giá th ị trường do S ở giao d ịch hàng hoá công bố tại thời điểm hợp đồng được thực hiện.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 18,
+        "year": 2005,
+        "chapter": "Chương Ii"
+      },
+      "score": 0.5921141880531032,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n2. Tr ường hợp bên mua ch ấp nh ận số hàng th ừa thì ph ải thanh toán theo giá thoả thuận trong hợp đồng nếu các bên không có thoả thuận khác.\n\nĐiều 44. Kiểm tra hàng hoá trước khi giao hàng\n\n1. Tr ường h ợp các bên có tho ả thu ận để bên mua ho ặc đại di ện c ủa bên mua tiến hành ki ểm tra hàng hoá tr ước khi giao hàng thì bên bán ph ải bảo đảm cho bên mua hoặc đại diện của bên mua có điều kiện tiến hành việc kiểm tra.\n\n2. Trừ trường hợp có thỏa thuận khác, bên mua ho ặc đại diện của bên mua trong trường hợp quy định tại khoản 1 Điều này phải kiểm tra hàng hóa trong một\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-0e0c82dbfcab7f41",
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

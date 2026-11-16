@@ -1,0 +1,11 @@
+{
+  "requests": 309,
+  "chat_requests": 300,
+  "embedding_requests": 9,
+  "cost_usd": 0.12458372,
+  "missing_cost": 0,
+  "prompt_tokens": 267793,
+  "completion_tokens": 18170,
+  "includes": "All Day 7 dev history, final dev and test, deduplicated by provider request ID. Excludes preexisting Day 6 usage.",
+  "model_metadata_GET": "Read-only model availability probe has no token usage ledger."
+}

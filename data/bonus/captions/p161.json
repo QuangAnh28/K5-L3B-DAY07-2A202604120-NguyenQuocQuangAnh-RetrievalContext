@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p161",
+  "image_sha256": "9b262f0181eb3be6a9b762abb54af515b36a1aebc398b3baddb744887a2f494b",
+  "caption": {
+    "summary": "Trang cung cấp thông tin về doanh nghiệp FPT, bao gồm giấy chứng nhận đăng ký doanh nghiệp, danh sách hội đồng quản trị, ban tổng giám đốc, ban kiểm soát, người đại diện theo pháp luật, trụ sở chính và công ty kiểm toán.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800801-fNLRecjtT7l4r2zV0YBc",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 65,
+        "total_tokens": 2627,
+        "cost": 0.0011288,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011288,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3208.820100000594,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

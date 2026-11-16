@@ -1,0 +1,476 @@
+{
+  "status": "answered",
+  "answer": "Theo bảng \"Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\" trên trang 12, lợi nhuận thuần từ hoạt động kinh doanh năm 2025 là 12.952 tỷ VNĐ, tăng 17,5% so với năm 2024 (11.025 tỷ VNĐ).\n[FPT2025:p012 — Bảng tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025, cột năm 2025 và cột +/- năm 2025 so với 2024, hàng lợi nhuận thuần từ hoạt động kinh doanh]",
+  "citations": [
+    {
+      "id": "FPT2025:p012",
+      "region": "Bảng tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025, cột năm 2025 và cột +/- năm 2025 so với 2024, hàng lợi nhuận thuần từ hoạt động kinh doanh"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801953-xjFLgDzmdQXKVFF8OdOI",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_2a9y1SnrVjfCl74om3pX5FUn",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"lợi nhuận thuần từ hoạt động kinh doanh năm 2025\",\"bảng tình hình tài chính 2021 2025\",\"lợi nhuận thuần 2025 tăng so với 2024\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo bảng tình hình tài chính giai đoạn 2021–2025, lợi nhuận thuần từ hoạt động kinh doanh năm 2025 và mức tăng so với năm 2024 là bao nhiêu?",
+      "model_queries": [
+        "lợi nhuận thuần từ hoạt động kinh doanh năm 2025",
+        "bảng tình hình tài chính 2021 2025",
+        "lợi nhuận thuần 2025 tăng so với 2024"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p012",
+          "page": 12,
+          "score": 0.03225806451612903,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p169",
+          "page": 169,
+          "score": 0.03177805800756621,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "score": 0.03131881575727918,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "score": 0.03057889822595705,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "score": 0.030117753623188408,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p170",
+          "page": 170,
+          "score": 0.030090497737556562,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "score": 0.029236022193768675,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "score": 0.028373015873015873,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 20
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo bảng tình hình tài chính giai đoạn 2021–2025, lợi nhuận thuần từ hoạt động kinh doanh năm 2025 và mức tăng so với năm 2024 là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p012",
+        "FPT2025:p169",
+        "FPT2025:p010",
+        "FPT2025:p058",
+        "FPT2025:p057",
+        "FPT2025:p170",
+        "FPT2025:p209",
+        "FPT2025:p171"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p012",
+          "page": 12,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Số liệu tài chính trong Báo cáo này được trích xuất từ Báo cáo tài chính hợp nhất đã kiểm toán bao gồm Báo cáo tài chính Công ty mẹ, Báo cáo tài chính của các công ty \ndo Tập đoàn nắm quyền kiểm soát (Công ty con) và kết quả kinh doanh hợp nhất của các công ty liên kết theo phương pháp vốn chủ.\n(*): Tiền mặt chi trả trong năm bao gồm cổ tức tiền mặt còn lại của năm liền trước và tạm ứng cổ tức tiền mặt của năm hiện tại nếu có.\nSTT Chỉ tiêu 2021 +/- 2022 +/- 2023 +/- 2024 +/- 2025 +/-\n21.418\n53.698\n35.657\n6.228\n7.981\n6.337\n6.337\n5.349\n4.337\n1.697\n25.356\n51.650\n44.010\n7.589\n9.495\n7.662\n7.662\n6.491\n5.310\n2.011\n15,1%\n28,7%\n19,5%\n20,0%\n18,2%\n20,4%\n20,4%\n20,9%\n22,6%\n15,8%\n18,4%\n-3,8%\n23,4%\n21,8%\n19,0%\n20,9%\n20,9%\n21,3%\n22,4%\n18,5%\n18,1%\n16,7%\n19,6%\n20,1%\n21,0%\n20,1%\n20,1%\n20,0%\n21,8%\n18,1%\n29.933\n60.283\n52.618\n9.112\n11.490\n9.203\n9.203\n7.788\n6.465\n2.374\n35.728\n72.000\n62.849\n11.025\n13.605\n11.070\n11.070\n9.427\n7.857\n2.741\n19,4%\n19,4%\n19,4%\n21,0%\n18,4%\n20,3%\n20,3%\n21,0%\n21,5%\n15,4%\n43.748\n88.142\n70.113\n12.952\n15.958\n13.044\n13.044\n11.232\n9.376\n3.185\n22,4%\n22,4%\n11,6%\n17,5%\n17,3%\n17,8%\n17,8%\n19,1%\n19,3%\n16,2%\nVốn chủ sở hữu\nTổng tài sản\nTổng doanh thu \nLợi nhuận thuần từ hoạt động kinh doanh\nLợi nhuận trước thuế, lãi vay và khấu hao\nLợi nhuận trước thuế và lãi vay\nLợi nhuận trước thuế\nLợi nhuận sau thuế\nLợi nhuận sau thuế thuộc về cổ đông công ty mẹ\nChi trả cổ tức bằng tiền mặt (*)\nTình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\nĐơn vị: Tỷ VNĐ\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng tổng hợp tình hình tài chính và kết quả kinh doanh nổi bật của FPT giai đoạn 2021-2025, thể hiện các chỉ tiêu tài chính chính và tỷ lệ tăng trưởng hàng năm.\ntable: Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025 (phải) — Bảng gồm các chỉ tiêu tài chính như vốn chủ sở hữu, tổng tài sản, tổng doanh thu, lợi nhuận các loại, chi trả cổ tức bằng tiền mặt; dữ liệu theo năm từ 2021 đến 2025 với tỷ lệ tăng trưởng phần trăm từng năm; đơn vị tính là tỷ VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025",
+              "location": "phải",
+              "description": "Bảng gồm các chỉ tiêu tài chính như vốn chủ sở hữu, tổng tài sản, tổng doanh thu, lợi nhuận các loại, chi trả cổ tức bằng tiền mặt; dữ liệu theo năm từ 2021 đến 2025 với tỷ lệ tăng trưởng phần trăm từng năm; đơn vị tính là tỷ VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p169",
+          "page": 169,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Mã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\n01\n02\n10\n11\n20\n21\n22\n23\n24\n25\n26\n30\n31\n32\n40\n50\n51\n52\n70.207.688.944.553\n94.863.843.843 \n70.112.825.100.710\n44.224.295.588.297\n25.888.529.512.413\n2.977.156.356.773\n1.672.048.701.466\n809.759.601.156 \n658.024.835.314\n7.562.660.640.454\n7.337.325.397.804\n12.951.675.964.776\n142.892.570.480\n50.935.701.459 \n91.956.869.021\n13.043.632.833.797\n1.916.998.192.442\n(105.704.809.379)\n26\n27\n28\n29\n5(b)\n30\n31\n32(a)\n32(b)\n62.962.652.134.635\n113.857.783.268\n62.848.794.351.367\n39.150.445.981.451\n23.698.348.369.916\n1.935.749.115.305\n1.811.547.381.981\n551.639.361.786\n392.531.256.272\n6.115.961.971.783\n7.074.038.614.774\n11.025.080.772.955\n175.450.599.740\n130.864.954.876\n44.585.644.864\n11.069.666.417.819\n1.922.927.614.658\n(280.683.727.283\nDoanh thu bán hàng và cung cấp dịch vụ\nCác khoản giảm trừ doanh thu\nDoanh thu thuần về bán hàng và cung cấp dịch vụ (10 = 01 – 02)\nGiá vốn hàng bán và dịch vụ cung cấp\nLợi nhuận gộp về bán hàng và cung cấp dịch vụ (20 = 10 – 11)\nDoanh thu hoạt động tài chính\nChi phí tài chính\n• Trong đó: Chi phí lãi vay \nPhần lãi trong công ty liên doanh, liên kết\nChi phí bán hàng\nChi phí quản lý doanh nghiệp\nLợi nhuận thuần từ hoạt động kinh doanh\n(30 = 20 + 21 – 22 + 24 – 25 – 26)\nThu nhập khác\nChi phí khác\nLợi nhuận khác (40 = 31 – 32)\nTổng lợi nhuận kế toán trước thuế (50 = 30 + 40)\nChi phí thuế thu nhập doanh nghiệp (“TNDN”) hiện hành\nThu nhập thuế TNDN hoãn lại\nBÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH HỢP NHẤT Mẫu số B 02 – DN/HN\nĐơn vị: VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo kết quả hoạt động kinh doanh hợp nhất của FPT năm 2025 và 2024, trình bày các chỉ tiêu doanh thu, chi phí và lợi nhuận chính.\ntable: Báo cáo kết quả hoạt động kinh doanh hợp nhất (giữa trang) — Các chỉ tiêu tài chính gồm doanh thu bán hàng và cung cấp dịch vụ, giá vốn hàng bán, lợi nhuận gộp, chi phí tài chính, chi phí bán hàng, chi phí quản lý doanh nghiệp, lợi nhuận thuần từ hoạt động kinh doanh, lợi nhuận khác, tổng lợi nhuận kế toán trước thuế, chi phí thuế thu nhập doanh nghiệp, thu nhập thuế TNDN hoãn lại; đơn vị tính: VNĐ; so sánh giữa năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo kết quả hoạt động kinh doanh hợp nhất",
+              "location": "giữa trang",
+              "description": "Các chỉ tiêu tài chính gồm doanh thu bán hàng và cung cấp dịch vụ, giá vốn hàng bán, lợi nhuận gộp, chi phí tài chính, chi phí bán hàng, chi phí quản lý doanh nghiệp, lợi nhuận thuần từ hoạt động kinh doanh, lợi nhuận khác, tổng lợi nhuận kế toán trước thuế, chi phí thuế thu nhập doanh nghiệp, thu nhập thuế TNDN hoãn lại; đơn vị tính: VNĐ; so sánh giữa năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CON SỐ NỔI BẬT\nDẤU ẤN 2025\nĐảm bảo tăng trưởng ổn định\n35.657 44.010 52.618 62.849 70.113\n2021 2022 2023 2024 2025\n75.000\n60.000\n45.000\n30.000\n15.000\n0\n11,6% so với cùng kỳ\nTổng doanh thu\nTỷ VNĐ 70.113\nĐơn vị: Tỷ VNĐ\n5.349 6.491 7.788 9.427 11.232\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,1% so với cùng kỳ\nLợi nhuận sau thuế\nTỷ VNĐ 11.232\nĐơn vị: Tỷ VNĐ\n4.337 5.310 6.465 7.857 9.376\n2021 2022 2023 2024 2025\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,3% so với cùng kỳ\nLợi nhuận sau thuế thuộc về\ncổ đông công ty mẹ\n9.376 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n2.367 2.910 3.518 4.292 5.216\n2021 2022 2023 2024 2025\n5.500\n4.500\n3.500\n2.500\n1.500\n0\n21,5% so với cùng kỳ (*)\nThu nhập trên cổ phiếu (EPS)\n5.216 VNĐ\nĐơn vị: VNĐ\n(*) EPS từ năm 2021-2024 được điều \nchỉnh hồi tố theo tỷ lệ chi trả cổ tức \nbằng cổ phiếu 15% trong năm 2025 và \nquy định về cách tính EPS theo thông \ntư 200/2014/TT-BTC.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các con số nổi bật của FPT năm 2025 với các chỉ tiêu tài chính chính như tổng doanh thu, lợi nhuận sau thuế, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ và thu nhập trên cổ phiếu (EPS), đồng thời so sánh với các năm trước từ 2021 đến 2024.\nchart: Tổng doanh thu (trái trên) — Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm.\nchart: Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ (phải trên) — Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm.\nchart: Lợi nhuận sau thuế (trái dưới) — Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm.\nchart: Thu nhập trên cổ phiếu (EPS) (phải dưới) — Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tổng doanh thu",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế",
+              "location": "trái dưới",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Thu nhập trên cổ phiếu (EPS)",
+              "location": "phải dưới",
+              "description": "Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Kết quả kinh doanh\n• Các chỉ tiêu tài chính chủ yếu\n(Tiếp theo)\nLĩnh vực Dịch vụ CNTT cho thị trường nước ngoài, động lực tăng trưởng chính của \nTập đoàn, tiếp tục duy trì mức tăng trưởng cao so với mặt bằng chung của ngành, \ntăng 14,3% so với năm trước. Kết quả này đến từ nhu cầu chuyển đổi số và ứng \ndụng AI ngày càng rõ nét tại thị trường Nhật Bản (tăng trưởng 25,4% so với năm \ntrước). Việc tập trung vào các hợp đồng quy mô lớn, dài hạn, có hàm lượng công \nnghệ cao giúp FPT không chỉ mở rộng doanh thu mà còn từng bước nâng cao chất \nlượng tăng trưởng và hiệu quả kinh doanh. Trong bối cảnh ngành dịch vụ CNTT \ntoàn cầu còn thận trọng, nhiều doanh nghiệp Dịch vụ CNTT lớn trên thế giới, bao \ngồm các công ty tại Ấn Độ, chỉ ghi nhận mức tăng trưởng ở mức khiêm tốn, kết quả \ncủa FPT phần nào cho thấy những nỗ lực không ngừng của Tập đoàn trong việc mở \nrộng thị trường, đa dạng hóa danh mục dịch vụ và duy trì đà phát triển ổn định.\nTrong đó, mảng Dịch vụ Chuyển đổi số tiếp tục ghi nhận tăng trưởng nổi bật đạt \n16,8% so với năm trước, chiếm tỷ trọng ngày càng cao trong tổng doanh thu\nDịch vụ CNTT cho thị trường nước ngoài (47,3%). Các giải pháp liên quan đến dữ \nliệu, điện toán đám mây, AI và tự động hóa được khách hàng đẩy mạnh triển khai \nnhằm nâng cao hiệu quả vận hành và năng lực cạnh tranh. Kết quả này không chỉ \nphản ánh xu hướng chuyển dịch mạnh mẽ sang chuyển đổi số thế hệ mới, mà còn \nkhẳng định vị thế và năng lực cung cấp các dịch vụ công nghệ tiên tiến của FPT \ntrên thị trường quốc tế.\nSong song với hoạt động kinh doanh, FPT tiếp tục đẩy mạnh theo cả chiều rộng và \nchiều sâu quan hệ hợp tác chiến lược với các đối tác lớn trên toàn cầu. Việc hợp tác \nkhông chỉ dừng ở cung cấp dịch vụ, mà từng bước mở rộng sang đồng phát triển \ngiải pháp, chuyển giao công nghệ và xây dựng năng lực dài hạn, giúp FPT nâng cao \nkhả năng tham gia sâu hơn vào chuỗi giá trị công nghệ toàn cầu.\nNhờ chủ động ứng dụng công nghệ, đặc biệt là AI, trong tối ưu hóa vận hành và \nquản trị, các khối Viễn thông và khối Giáo dục, Đầu tư và Khác tiếp tục duy trì \ntăng trưởng ổn định. Khối Viễn thông (tăng trưởng doanh thu đạt 10,8%) tập trung \nnâng cao chất lượng dịch vụ và trải nghiệm khách hàng, đồng thời mở rộng độ phủ \nhạ tầng và danh mục sản phẩm, qua đó từng bước gia tăng hiện diện trên thị trường \nvà cải thiện thị phần ở các phân khúc trọng điểm. Trong khi đó, lĩnh vực Giáo dục \nchú trọng nâng cao chất lượng đào tạo, gắn kết chặt chẽ hơn với nhu cầu nhân lực \ncủa các lĩnh vực công nghệ chiến lược được Đảng và Nhà nước ưu tiên như: AI, \nbán dẫn, dữ liệu, điện toán đám mây, an toàn, an ninh thông tin và các công nghệ \nphục vụ chuyển đổi số, chuyển đổi xanh. Định hướng này góp phần củng cố vai trò \ncủa FPT trong cung cấp nguồn nhân lực chất lượng cao cho nền kinh tế số.\nMột số chỉ tiêu hoạt động kinh doanh chính trong năm 2025\nĐơn vị: Tỷ VNĐ\nChỉ tiêu 2024 2025 Tăng/Giảm\nTổng tài sản\nDoanh thu\nLợi nhuận từ hoạt động kinh doanh\nLNTT, lãi vay và khấu hao (EBITDA)\nLNTT\nLNST\nLãi cơ bản trên cổ phiếu (*)\nCổ tức tiền mặt trả trong năm\nTỷ lệ lợi nhuận trả cổ tức\n72.000\n62.849\n11.025\n13.605\n11.070\n9.427\n4.292\n2.741\n34,9%\n88.142\n70.113\n12.952\n15.958\n13.044\n11.232\n5.216\n3.185\n34,",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+              "location": "phải",
+              "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, đơn vị tỷ VNĐ, gồm tổng tài sản, doanh thu, lợi nhuận từ hoạt động kinh doanh, EBITDA, LNTT, LNST, lãi cơ bản trên cổ phiếu, cổ tức tiền mặt trả trong năm và tỷ lệ lợi nhuận trả cổ tức cùng với mức tăng/giảm phần trăm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "PHÂN TÍCH HOẠT ĐỘNG KINH DOANH\nBÁO CÁO CỦA BAN ĐIỀU HÀNH VỀ KẾT QUẢ KINH DOANH 2025 VÀ NHẬN ĐỊNH 2026\nĐánh giá chung\n• Bối cảnh • Kết quả kinh doanh\nNăm 2025, kinh tế thế giới tiếp tục vận động trong trạng thái thận trọng khi phải \nđối mặt với nhiều thách thức đan xen, bao gồm biến động địa chính trị, áp lực lạm \nphát kéo dài tại một số nền kinh tế lớn, xu hướng tái cấu trúc chuỗi cung ứng toàn \ncầu và chính sách tiền tệ thắt chặt. Trong bối cảnh đó, các doanh nghiệp và tổ chức\ntrên toàn cầu có xu hướng kiểm soát chặt chẽ hơn quyết định đầu tư, ưu tiên hiệu \nquả, khả năng sinh lời và tính bền vững dài hạn. Tuy nhiên, song hành với những khó \nkhăn là cơ hội mới khi làn sóng chuyển đổi số, ứng dụng AI, tự động hóa và dữ liệu \nlớn tiếp tục được đẩy mạnh nhằm nâng cao năng suất, tối ưu chi phí và tăng cường \nnăng lực cạnh tranh. Công nghệ, đặc biệt là AI, chuyển dịch từ giai đoạn thử nghiệm\nsang triển khai thực tiễn, tạo ra nhu cầu ngày càng rõ nét đối với các giải pháp có\nkhả năng tạo giá trị thực tiễn cho hoạt động sản xuất kinh doanh.\nKinh tế Việt Nam tiếp tục duy trì đà tăng trưởng tích cực nhờ sự ổn định vĩ mô,\nchính sách điều hành linh hoạt và sự phục hồi của các hoạt động sản xuất, xuất khẩu \nvà tiêu dùng trong nước. Chính phủ đẩy mạnh triển khai các chính sách hỗ trợ\ndoanh nghiệp, cải thiện môi trường đầu tư, đồng thời thúc đẩy phát triển khu vực\nkinh tế tư nhân như một động lực quan trọng của tăng trưởng. Đặc biệt, Nghị quyết \n57-NQ/TW về phát triển khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số\nquốc gia tạo hành lang chính sách thuận lợi cho việc ứng dụng công nghệ, AI và\ndữ liệu trong cả khu vực công và khu vực tư nhân. Đây là nền tảng quan trọng thúc đẩy \nnhu cầu về các giải pháp công nghệ toàn diện, mở ra cơ hội tăng trưởng dài hạn cho \ncác doanh nghiệp có năng lực công nghệ và uy tín trên thị trường.\nTrong bối cảnh đó, FPT tiếp tục khẳng định vai trò là doanh nghiệp công nghệ \nhàng đầu, chủ động thích ứng với những thay đổi của môi trường kinh doanh toàn \ncầu và trong nước. Tập đoàn tập trung nguồn lực vào các lĩnh vực công nghệ cốt lõi, \nbao gồm: AI, chuyển đổi số, bán dẫn, công nghệ ô tô số và hạ tầng số, đồng thời \ntừng bước tối ưu hóa danh mục hoạt động theo hướng nâng cao hiệu quả và chất \nlượng tăng trưởng. Việc đẩy mạnh ứng dụng AI không chỉ giới hạn ở việc phát triển\nsản phẩm và dịch vụ mới, mà còn được Tập đoàn triển khai sâu rộng trong vận hành \nnội bộ, quản trị dự án và tối ưu quy trình, qua đó nâng cao năng suất lao động và \nnăng lực cạnh tranh tổng thể. FPT kiên định chiến lược phát triển bền vững, cân bằng \ngiữa mở rộng quy mô và nâng cao hiệu quả sử dụng vốn, từng bước xây dựng lợi thế \ncạnh tranh dài hạn trong bối cảnh cạnh tranh ngày càng gay gắt.\nNăm 2025, trong bối cảnh kinh tế toàn cầu xuất hiện thêm nhiều biến động khó \nlường so với thời điểm xây dựng kế hoạch kinh doanh đầu năm, đặc biệt là những\ntác động từ căng thẳng thương mại và chính sách thuế quan của Mỹ, FPT vẫn duy\ntrì đà tăng trưởng hai chữ số và bám sát kế hoạch kinh doanh được đặt ra từ đầu\nnăm với doanh thu đạt 93%, lợi nhuận trước thuế đạt 97% kế hoạch. Lợi nhuận sau\nthuế thuộc về cổ đông công ty mẹ và thu nhập trên mỗi cổ phiếu (EPS) đạt tư",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Kết quả kinh doanh năm 2025",
+              "location": "phải",
+              "description": "Các chỉ số tài chính gồm doanh thu, lợi nhuận trước thuế, lợi nhuận sau thuế thuộc cổ đông công ty mẹ, thu nhập trên mỗi cổ phiếu; đơn vị tính tỷ VNĐ hoặc VNĐ; tỷ lệ tăng trưởng phần trăm so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p170",
+          "page": 170,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lợi nhuận sau thuế TNDN (60 = 50 – 51 – 52)\nPhân bổ cho:\nCổ đông của công ty mẹ\nCổ đông không kiểm soát\nLãi cơ bản trên cổ phiếu\nLãi suy giảm trên cổ phiếu\nBÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH HỢP NHẤT Mẫu số B 02 – DN/HN\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\n60\n61\n62\n70\n71\n11.232.339.450.734\n9.376.127.629.501\n1.856.211.821.233\n5.216\n5.216\n9.427.422.530.444\n7.856.767.812.178\n1.570.654.718.266\n4.292\n4.292\n25(a)\n25(b)\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nNgày 18 tháng 3 năm 2026\nĐơn vị: VNĐ\n(Tiếp theo)\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo kết quả hoạt động kinh doanh hợp nhất năm 2025 và 2024 của FPT, thể hiện lợi nhuận sau thuế và phân bổ lợi nhuận cho cổ đông.\ntable: Báo cáo kết quả hoạt động kinh doanh hợp nhất (trên) — Các chỉ tiêu tài chính gồm lợi nhuận sau thuế TNDN, cổ đông công ty mẹ, cổ đông không kiểm soát, lãi cơ bản và lãi suy giảm trên cổ phiếu; đơn vị tính VNĐ; so sánh năm tài chính kết thúc ngày 31/12/2025 và 2024.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo kết quả hoạt động kinh doanh hợp nhất",
+              "location": "trên",
+              "description": "Các chỉ tiêu tài chính gồm lợi nhuận sau thuế TNDN, cổ đông công ty mẹ, cổ đông không kiểm soát, lãi cơ bản và lãi suy giảm trên cổ phiếu; đơn vị tính VNĐ; so sánh năm tài chính kết thúc ngày 31/12/2025 và 2024."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "26. Doanh thu thuần về bán hàng và\ncung cấp dịch vụ 28. Doanh thu hoạt động tài chính\nĐơn vị: VNĐ\nĐơn vị: VNĐ\n27. Giá vốn hàng bán và dịch vụ cung cấp\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nDoanh thu \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nCác khoản giảm trừ \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nDoanh thu thuần về bán hàng và cung cấp dịch vụ\nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nGiá vốn của hàng hóa đã bán\nGiá vốn của dịch vụ đã cung cấp\n(Hoàn nhập)/dự phòng giảm giá \nhàng tồn kho\n4.936.911.674.294 39.289.180.693.984 (1.796.779.981)\n44.224.295.588.297 \n4.416.467.377.102 \n34.732.056.916.304 \n1.921.688.045\n39.150.445.981.451 \n \n 5.801.884.142.851 64.405.804.801.702\n70.207.688.944.553\n(732.143.441) \n(94.131.700.402) \n(94.863.843.843) \n5.801.151.999.410 \n64.311.673.101.300\n70.112.825.100.710\n5.162.729.425.317 \n57.799.922.709.318\n62.962.652.134.635 \n(12.000.960.744) \n(101.856.822.524) \n(113.857.783.268) \n5.150.728.464.573 \n57.698.065.886.794\n62.848.794.351.367 \n2025 2024\nLãi tiền gửi, cho vay\nLãi chênh lệch tỷ giá hối đoái\nCổ tức, lợi nhuận được chia\nKhác \n 1.717.721.035.751 952.791.248.844 209.162.913.500 \n97.481.158.678 \n2.977.156.356.773\n1.207.207.618.564 \n575.306.141.560\n103.356.885.500 \n49.878.469.681\n1.935.749.115.305 \n2025 2024\n29. Chi phí tài chính Đơn vị: VNĐ\nLãi tiền vay\nLỗ chênh lệch tỷ giá\nDự phòng giảm giá các khoản \nđầu tư và tổn thất đầu tư tài chính\nKhác\n809.759.601.156 \n474.800.589.595\n384.631.609.873 \n2.856.900.842 \n1.672.048.701.466\n551.639.361.786 \n506.839.495.688 \n738.729.747.218 \n14.338.777.289 \n1.811.547.381.981 \n2025 2024\nĐơn vị: VNĐ\n2025 2024\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng số liệu chi tiết về doanh thu thuần, giá vốn hàng bán và dịch vụ cung cấp, doanh thu hoạt động tài chính và chi phí tài chính của FPT năm 2025 và 2024.\ntable: Doanh thu thuần về bán hàng và cung cấp dịch vụ (trái trên) — Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần\ntable: Giá vốn hàng bán và dịch vụ cung cấp (trái dưới) — Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND\ntable: Doanh thu hoạt động tài chính (phải trên) — Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND\ntable: Chi phí tài chính (phải dưới) — Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+              "location": "trái trên",
+              "description": "Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần"
+            },
+            {
+              "type": "table",
+              "title": "Giá vốn hàng bán và dịch vụ cung cấp",
+              "location": "trái dưới",
+              "description": "Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Doanh thu hoạt động tài chính",
+              "location": "phải trên",
+              "description": "Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Chi phí tài chính",
+              "location": "phải dưới",
+              "description": "Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG KINH DOANH\n01\n02\n03\n04\n05\n06\n08\n09\n10\n11\n12\n14\n15\n17\n20\nLợi nhuận kế toán trước thuế\nĐiều chỉnh cho các khoản:\nKhấu hao tài sản cố định (“TSCĐ”) và phân bổ lợi thế thương mại\nCác khoản dự phòng\n(Lãi)/lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục\ntiền tệ có gốc ngoại tệ\nLãi từ hoạt động đầu tư\nChi phí lãi vay\nLợi nhuận từ hoạt động kinh doanh trước những thay đổi vốn lưu động\nTăng các khoản phải thu\nTăng hàng tồn kho\nTăng các khoản phải trả\nTăng chi phí trả trước\nTiền lãi vay đã trả\nThuế TNDN đã nộp\nTiền chi khác từ hoạt động kinh doanh\nLưu chuyển tiền thuần từ hoạt động kinh doanh\n13.043.632.833.797\n2.914.178.360.732 \n651.406.282.654\n(27.776.460.391)\n(2.575.840.046.010) \n809.759.601.156 \n14.815.360.571.938 \n(2.874.821.969.471)\n(335.071.616.492)\n2.556.427.255.416\n(595.604.484.389)\n(812.474.254.533)\n(2.238.070.257.305)\n(379.701.329.253)\n10.136.043.915.911\n11.069.666.417.819\n2.535.298.475.665\n1.148.951.390.915\n46.311.803.197\n(1.725.022.480.893)\n551.639.361.786\n13.626.844.968.489\n(1.913.663.012.505)\n(265.267.561.842)\n2.875.571.263.689\n(393.964.502.357)\n(607.154.747.076)\n(1.209.921.507.569)\n(408.667.711.961)\n11.703.777.188.868\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nĐơn vị: VNĐ\n21\n22\n23\n24\nTiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác\nTiền thu từ thanh lý, nhượng bán TSCĐ và tài sản dài hạn khác \nTiền chi cho vay, mua các công cụ nợ của đơn vị khác\nTiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác\n(5.097.919.349.856)\n7.314.216.719\n(57.012.522.823.806)\n49.164.792.969.282\n(3.275.312.325.702)\n14.227.383.215\n(41.956.569.113.369)\n36.283.758.374.630\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và hoạt động đầu tư trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p012",
+          "path": ".bonus/pages/p012.jpg",
+          "sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+        },
+        {
+          "id": "FPT2025:p169",
+          "path": ".bonus/pages/p169.jpg",
+          "sha256": "df66bf15419362fccf294a42b88e9de6757435c39c12b21755ec928f4a90d744"
+        },
+        {
+          "id": "FPT2025:p010",
+          "path": ".bonus/pages/p010.jpg",
+          "sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+        },
+        {
+          "id": "FPT2025:p058",
+          "path": ".bonus/pages/p058.jpg",
+          "sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+        },
+        {
+          "id": "FPT2025:p057",
+          "path": ".bonus/pages/p057.jpg",
+          "sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+        },
+        {
+          "id": "FPT2025:p170",
+          "path": ".bonus/pages/p170.jpg",
+          "sha256": "464a6e7afa86b2a17435297338fe9fd002c9f26c89a7975934cb6dcc3afe941a"
+        },
+        {
+          "id": "FPT2025:p209",
+          "path": ".bonus/pages/p209.jpg",
+          "sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+        },
+        {
+          "id": "FPT2025:p171",
+          "path": ".bonus/pages/p171.jpg",
+          "sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801956-ttk3DzMq3jPMXioUNes0",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_uxNqNSUVDKLfSA3K69RsVIjK",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo bảng \\\"Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\\\" trên trang 12, lợi nhuận thuần từ hoạt động kinh doanh năm 2025 là 12.952 tỷ VNĐ, tăng 17,5% so với năm 2024 (11.025 tỷ VNĐ).\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p012\",\"region\":\"Bảng tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025, cột năm 2025 và cột +/- năm 2025 so với 2024, hàng lợi nhuận thuần từ hoạt động kinh doanh\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p012",
+    "FPT2025:p169",
+    "FPT2025:p010",
+    "FPT2025:p058",
+    "FPT2025:p057",
+    "FPT2025:p170",
+    "FPT2025:p209",
+    "FPT2025:p171"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p012",
+      "page": 12,
+      "image": ".bonus/pages/p012.jpg",
+      "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+    },
+    {
+      "id": "FPT2025:p169",
+      "page": 169,
+      "image": ".bonus/pages/p169.jpg",
+      "image_sha256": "df66bf15419362fccf294a42b88e9de6757435c39c12b21755ec928f4a90d744"
+    },
+    {
+      "id": "FPT2025:p010",
+      "page": 10,
+      "image": ".bonus/pages/p010.jpg",
+      "image_sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+    },
+    {
+      "id": "FPT2025:p058",
+      "page": 58,
+      "image": ".bonus/pages/p058.jpg",
+      "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+    },
+    {
+      "id": "FPT2025:p057",
+      "page": 57,
+      "image": ".bonus/pages/p057.jpg",
+      "image_sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+    },
+    {
+      "id": "FPT2025:p170",
+      "page": 170,
+      "image": ".bonus/pages/p170.jpg",
+      "image_sha256": "464a6e7afa86b2a17435297338fe9fd002c9f26c89a7975934cb6dcc3afe941a"
+    },
+    {
+      "id": "FPT2025:p209",
+      "page": 209,
+      "image": ".bonus/pages/p209.jpg",
+      "image_sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+    },
+    {
+      "id": "FPT2025:p171",
+      "page": 171,
+      "image": ".bonus/pages/p171.jpg",
+      "image_sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801953-xjFLgDzmdQXKVFF8OdOI",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 475,
+        "completion_tokens": 50,
+        "total_tokens": 525,
+        "cost": 0.00027,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00027,
+          "upstream_inference_prompt_cost": 0.00019,
+          "upstream_inference_completions_cost": 8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 38363.24999999488,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801956-ttk3DzMq3jPMXioUNes0",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 28407,
+        "completion_tokens": 163,
+        "total_tokens": 28570,
+        "cost": 0.0116236,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0116236,
+          "upstream_inference_prompt_cost": 0.0113628,
+          "upstream_inference_completions_cost": 0.0002608
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 6486.50749999797,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 44884.384700038936,
+  "query_id": "fd-t1",
+  "question": "Theo bảng tình hình tài chính giai đoạn 2021–2025, lợi nhuận thuần từ hoạt động kinh doanh năm 2025 và mức tăng so với năm 2024 là bao nhiêu?",
+  "split": "dev",
+  "config": "vision"
+}

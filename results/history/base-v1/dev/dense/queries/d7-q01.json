@@ -1,0 +1,258 @@
+{
+  "status": "answered",
+  "answer": "Theo Điều 7 Luật Thương mại 2005, thương nhân có nghĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, thương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác của pháp luật. [luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_Hjp2bz2ZpyfJr0YvhApn3ea1",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Thương nhân chưa đăng ký kinh doanh có phải chịu trách nhiệm về hoạt động của mình không\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797564-5X9XR75cXeuwG5DzcP8R"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Thương nhân chưa đăng ký kinh doanh có còn phải chịu trách nhiệm về hoạt động của mình không?",
+      "model_query": "Thương nhân chưa đăng ký kinh doanh có phải chịu trách nhiệm về hoạt động của mình không",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 4,
+          "text": "bảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 4,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 7"
+          },
+          "score": 0.5619137523021542,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 67,
+          "text": "bao bì, giá tr ị hàng hoá, xu ất x ứ hàng hoá, t ổn th ất, độ an toàn, tiêu chu ẩn v ệ sinh, phòng d ịch, kết qu ả thực hiện dịch vụ, ph ương pháp cung ứng d ịch v ụ và các nội dung khác theo yêu cầu của khách hàng.\n\nĐiều 256. Thương nhân kinh doanh dịch vụ giám định thương mại Chỉ các th ương nhân có đủ điều kiện theo quy định của pháp lu ật và được cấp gi ấy ch ứng nh ận đăng ký kinh doanh d ịch v ụ giám định th ương m ại m ới được phép thực hiện dịch vụ giám định và cấp chứng thư giám định.\n\nĐiều 257. Điều kiện kinh doanh dịch vụ giám định thương mại Thương nhân kinh doanh d ịch v ụ giám định th ương m ại ph ải có đủ các điều kiện sau đây:\n\n1. Là doanh nghiệp được thành lập theo quy định của pháp luật;\n\n2. Có giám định viên đủ tiêu chuẩn theo quy định tại Điều 259 của Luật này;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 67,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 256"
+          },
+          "score": 0.5376924614440852,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 36,
+          "text": "1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 36,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 134"
+          },
+          "score": 0.537258763063005,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 4]\nbảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 67]\nbao bì, giá tr ị hàng hoá, xu ất x ứ hàng hoá, t ổn th ất, độ an toàn, tiêu chu ẩn v ệ sinh, phòng d ịch, kết qu ả thực hiện dịch vụ, ph ương pháp cung ứng d ịch v ụ và các nội dung khác theo yêu cầu của khách hàng.\n\nĐiều 256. Thương nhân kinh doanh dịch vụ giám định thương mại Chỉ các th ương nhân có đủ điều kiện theo quy định của pháp lu ật và được cấp gi ấy ch ứng nh ận đăng ký kinh doanh d ịch v ụ giám định th ương m ại m ới được phép thực hiện dịch vụ giám định và cấp chứng thư giám định.\n\nĐiều 257. Điều kiện kinh doanh dịch vụ giám định thương mại Thương nhân kinh doanh d ịch v ụ giám định th ương m ại ph ải có đủ các điều kiện sau đây:\n\n1. Là doanh nghiệp được thành lập theo quy định của pháp luật;\n\n2. Có giám định viên đủ tiêu chuẩn theo quy định tại Điều 259 của Luật này;",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+        "luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_T0aXi2aZequefJbSSER3lTvT",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo Điều 7 Luật Thương mại 2005, thương nhân có nghĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, thương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác của pháp luật.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797565-XqHSrfdmyA2H6ymzhoCf"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 4]\nbảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 67]\nbao bì, giá tr ị hàng hoá, xu ất x ứ hàng hoá, t ổn th ất, độ an toàn, tiêu chu ẩn v ệ sinh, phòng d ịch, kết qu ả thực hiện dịch vụ, ph ương pháp cung ứng d ịch v ụ và các nội dung khác theo yêu cầu của khách hàng.\n\nĐiều 256. Thương nhân kinh doanh dịch vụ giám định thương mại Chỉ các th ương nhân có đủ điều kiện theo quy định của pháp lu ật và được cấp gi ấy ch ứng nh ận đăng ký kinh doanh d ịch v ụ giám định th ương m ại m ới được phép thực hiện dịch vụ giám định và cấp chứng thư giám định.\n\nĐiều 257. Điều kiện kinh doanh dịch vụ giám định thương mại Thương nhân kinh doanh d ịch v ụ giám định th ương m ại ph ải có đủ các điều kiện sau đây:\n\n1. Là doanh nghiệp được thành lập theo quy định của pháp luật;\n\n2. Có giám định viên đủ tiêu chuẩn theo quy định tại Điều 259 của Luật này;",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+    "luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797564-5X9XR75cXeuwG5DzcP8R",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 24,
+        "total_tokens": 317,
+        "cost": 0.0001556,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001556,
+          "upstream_inference_prompt_cost": 0.0001172,
+          "upstream_inference_completions_cost": 3.84e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1376.6111999866553,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797565-XqHSrfdmyA2H6ymzhoCf",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1105,
+        "completion_tokens": 113,
+        "total_tokens": 1218,
+        "cost": 0.0006228,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006228,
+          "upstream_inference_prompt_cost": 0.000442,
+          "upstream_inference_completions_cost": 0.0001808
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1995.0256000156514,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3381.2332000234164,
+  "searches": 1,
+  "query_id": "d7-q01",
+  "question": "Thương nhân chưa đăng ký kinh doanh có còn phải chịu trách nhiệm về hoạt động của mình không?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 4,
+      "text": "bảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 4,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 7"
+      },
+      "score": 0.5619137523021542,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 67,
+      "text": "bao bì, giá tr ị hàng hoá, xu ất x ứ hàng hoá, t ổn th ất, độ an toàn, tiêu chu ẩn v ệ sinh, phòng d ịch, kết qu ả thực hiện dịch vụ, ph ương pháp cung ứng d ịch v ụ và các nội dung khác theo yêu cầu của khách hàng.\n\nĐiều 256. Thương nhân kinh doanh dịch vụ giám định thương mại Chỉ các th ương nhân có đủ điều kiện theo quy định của pháp lu ật và được cấp gi ấy ch ứng nh ận đăng ký kinh doanh d ịch v ụ giám định th ương m ại m ới được phép thực hiện dịch vụ giám định và cấp chứng thư giám định.\n\nĐiều 257. Điều kiện kinh doanh dịch vụ giám định thương mại Thương nhân kinh doanh d ịch v ụ giám định th ương m ại ph ải có đủ các điều kiện sau đây:\n\n1. Là doanh nghiệp được thành lập theo quy định của pháp luật;\n\n2. Có giám định viên đủ tiêu chuẩn theo quy định tại Điều 259 của Luật này;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 67,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 256"
+      },
+      "score": 0.5376924614440852,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 36,
+      "text": "1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 36,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 134"
+      },
+      "score": 0.537258763063005,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 4]\nbảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 67]\nbao bì, giá tr ị hàng hoá, xu ất x ứ hàng hoá, t ổn th ất, độ an toàn, tiêu chu ẩn v ệ sinh, phòng d ịch, kết qu ả thực hiện dịch vụ, ph ương pháp cung ứng d ịch v ụ và các nội dung khác theo yêu cầu của khách hàng.\n\nĐiều 256. Thương nhân kinh doanh dịch vụ giám định thương mại Chỉ các th ương nhân có đủ điều kiện theo quy định của pháp lu ật và được cấp gi ấy ch ứng nh ận đăng ký kinh doanh d ịch v ụ giám định th ương m ại m ới được phép thực hiện dịch vụ giám định và cấp chứng thư giám định.\n\nĐiều 257. Điều kiện kinh doanh dịch vụ giám định thương mại Thương nhân kinh doanh d ịch v ụ giám định th ương m ại ph ải có đủ các điều kiện sau đây:\n\n1. Là doanh nghiệp được thành lập theo quy định của pháp luật;\n\n2. Có giám định viên đủ tiêu chuẩn theo quy định tại Điều 259 của Luật này;",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+    "luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

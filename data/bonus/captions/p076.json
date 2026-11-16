@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p076",
+  "image_sha256": "e995248051045a506062ad77c26942838a7425dfa6c6e7c6d6b88407669e4edd",
+  "caption": {
+    "summary": "Đánh giá của Hội đồng Quản trị về kết quả kinh doanh năm 2025 của Tập đoàn FPT, nhấn mạnh tăng trưởng doanh thu và lợi nhuận, vai trò chủ chốt của khối Công nghệ, Dịch vụ Viễn thông và Giáo dục, cùng chiến lược phát triển bền vững và đổi mới sáng tạo.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Gian hàng triển lãm của FPT tại sự kiện công nghệ",
+        "location": "phải",
+        "description": "Ảnh chụp gian hàng trưng bày sản phẩm và dịch vụ công nghệ của FPT với đội ngũ nhân viên tại sự kiện, minh họa vị thế công ty công nghệ tỷ USD."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800738-niFu9Do3ETPhkZ34GtdQ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 156,
+        "total_tokens": 2718,
+        "cost": 0.0012744,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012744,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002496
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3225.667999999132,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

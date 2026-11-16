@@ -1,0 +1,66 @@
+{
+  "id": "FPT2025:p209",
+  "image_sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1",
+  "caption": {
+    "summary": "Bảng số liệu chi tiết về doanh thu thuần, giá vốn hàng bán và dịch vụ cung cấp, doanh thu hoạt động tài chính và chi phí tài chính của FPT năm 2025 và 2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+        "location": "trái trên",
+        "description": "Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần"
+      },
+      {
+        "type": "table",
+        "title": "Giá vốn hàng bán và dịch vụ cung cấp",
+        "location": "trái dưới",
+        "description": "Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND"
+      },
+      {
+        "type": "table",
+        "title": "Doanh thu hoạt động tài chính",
+        "location": "phải trên",
+        "description": "Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND"
+      },
+      {
+        "type": "table",
+        "title": "Chi phí tài chính",
+        "location": "phải dưới",
+        "description": "Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800838-uOV6TEO6rovcFFvY2d2k",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 420,
+        "total_tokens": 2982,
+        "cost": 0.0016968,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0016968,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000672
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5534.554600017145,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

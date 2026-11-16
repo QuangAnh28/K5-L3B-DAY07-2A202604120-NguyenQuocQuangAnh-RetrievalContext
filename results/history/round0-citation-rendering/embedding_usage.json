@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gen-emb-1794797367-F7b5lJQlAR75sGoU3hO7",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 30,
+      "total_tokens": 30,
+      "cost": 6e-07,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6e-07,
+        "upstream_inference_prompt_cost": 6e-07,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 960.4518000269309,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794797370-1xcvqvbyBrfeJPoVqEbb",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 31,
+      "total_tokens": 31,
+      "cost": 6.2e-07,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.2e-07,
+        "upstream_inference_prompt_cost": 6.2e-07,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 877.7311000158079,
+    "attempt": 1
+  }
+]

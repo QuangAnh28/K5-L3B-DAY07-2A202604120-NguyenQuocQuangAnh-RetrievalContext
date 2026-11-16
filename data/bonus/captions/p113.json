@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p113",
+  "image_sha256": "a56b04fa3663a99995c5bccd1ba4ba365c453ba946a3678f681985e95462ee19",
+  "caption": {
+    "summary": "Trang trình bày định hướng và cam kết về ESG của Tập đoàn FPT, nêu rõ các vấn đề trọng yếu, tiêu chuẩn GRI áp dụng và cam kết cụ thể của FPT trong các lĩnh vực quản trị, môi trường làm việc, môi trường xanh và phát triển cộng đồng.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Định hướng và cam kết ESG của Tập đoàn",
+        "location": "giữa trang",
+        "description": "Bảng thể hiện các vấn đề trọng yếu gồm Quản trị xuất sắc, Tạo môi trường làm việc đẳng cấp, hạnh phúc, Hoạt động vì môi trường xanh và Vì sự phát triển của cộng đồng; kèm theo tiêu chuẩn GRI tương ứng (GRI 103, 200, 300, 400) và các cam kết cụ thể của FPT cho từng lĩnh vực."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800761-UKdM5iBXXORvuxidFzdZ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 205,
+        "total_tokens": 2767,
+        "cost": 0.0013528,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013528,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3258.1522000255063,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p047",
+  "image_sha256": "b0a13ca0d4df8e603e23565c41ed7eb3f3f2e62d368eb348a30ccc641e98945e",
+  "caption": {
+    "summary": "Trang báo cáo trình bày xu hướng sử dụng mô hình AI mã nguồn mở và dự báo chi tiêu cho AI giai đoạn 2025-2027, cùng phân tích rủi ro và cơ hội mới từ AI trong ngành dịch vụ CNTT.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Chi tiêu cho AI giai đoạn 2025-2027",
+        "location": "dưới bên trái",
+        "description": "Bảng chi tiêu dự kiến cho các lĩnh vực AI (Dịch vụ AI, An ninh mạng AI, Phần mềm AI, Mô hình AI, Nền tảng AI cho khoa học dữ liệu và học máy, Nền tảng phát triển ứng dụng AI, Dữ liệu AI, Hạ tầng AI) theo đơn vị tỷ USD cho các năm 2025, 2026, 2027."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800720-mTxj1ykjPzsk0HwzCeHh",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 180,
+        "total_tokens": 2742,
+        "cost": 0.0013128,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013128,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000288
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3848.675200017169,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

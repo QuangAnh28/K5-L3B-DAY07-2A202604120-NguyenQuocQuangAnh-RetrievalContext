@@ -1,0 +1,101 @@
+[
+  {
+    "query_id": "b2-t23",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.669475+00:00",
+    "trace_sha256": "b186bcb8eaf492236188570bc6f32c7fdc6b3ff449e6b5b383b460c3b3e24971",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 23 khoản 2 trang 8: thanh toán nợ và các nghĩa vụ khác trước chấm dứt hoạt động."
+  },
+  {
+    "query_id": "b2-t26",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.681664+00:00",
+    "trace_sha256": "9a18fb4f7344b59639aaea1a7addccad706dc3a51370d22d79707683b3b38cc0",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 26 trang 9: nguồn/phương tiện lây truyền dịch bệnh hoặc xảy ra khẩn cấp."
+  },
+  {
+    "query_id": "b2-t28",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.691698+00:00",
+    "trace_sha256": "3e06af5554c776b8afa7e714bf7764e426673c2e563668e6607bccfc5d280d43",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 0,
+    "context_grade": 2,
+    "citation_support": [
+      false
+    ],
+    "reason": "Nguồn có định nghĩa xuất khẩu bao gồm vào khu vực hải quan riêng, nhưng câu trả lời tự phủ định điều này. Context đủ ngữ nghĩa dù quote containment bảo thủ không hit."
+  },
+  {
+    "query_id": "b2-t309",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.703672+00:00",
+    "trace_sha256": "c76f770374c729eac89ff16ef70595ee202a65c91af37d8cfe38900a8a55aa58",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 309 trang 80: hợp đồng vẫn có hiệu lực, bên bị vi phạm có quyền yêu cầu bồi thường."
+  },
+  {
+    "query_id": "b2-t56",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.714055+00:00",
+    "trace_sha256": "272c3ca18170bedeaa756e7e947322ac849379c7b3a72b4aa54b4e7b7af7878b",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 56 trang 16: nhận hàng theo thỏa thuận và làm công việc hợp lý giúp bên bán giao hàng."
+  },
+  {
+    "query_id": "b2-u1",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.724517+00:00",
+    "trace_sha256": "f3b65f501d6cd4ff9b784d9b1c5b2be6838f8fb5c95ee153648e188cf471a653",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc lời từ chối chuẩn; nguồn không có mức phí cấp phép/mức tiền phạt cụ thể. Điều 322 giao Chính phủ quy định, không dùng con số ngoài snapshot."
+  },
+  {
+    "query_id": "b2-u2",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.735108+00:00",
+    "trace_sha256": "2752a6243bec111276e754384edb9830927af433ce1f3061dacda1f918636bcb",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc lời từ chối chuẩn; nguồn không có mức phí cấp phép/mức tiền phạt cụ thể. Điều 322 giao Chính phủ quy định, không dùng con số ngoài snapshot."
+  }
+]

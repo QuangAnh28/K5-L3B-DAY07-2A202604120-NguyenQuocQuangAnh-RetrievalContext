@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p189",
+  "image_sha256": "a90d34562e46d573e7bcb4b3c6ec48ff3c71c75b6baf5cb975f6b8d48441f36f",
+  "caption": {
+    "summary": "Trang trình bày phần thuyết minh báo cáo tài chính hợp nhất năm 2025, bao gồm hợp nhất kinh doanh và bảng số liệu tiền và các khoản tương đương tiền.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tiền và các khoản tương đương tiền",
+        "location": "dưới",
+        "description": "Bảng số liệu so sánh các khoản tiền mặt, tiền gửi ngân hàng không kỳ hạn, tiền đang chuyển và các khoản tương đương tiền tính đến ngày 31/12/2025 và 31/12/2024, đơn vị tính là VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800822-fnp3vFONBGWddo15wHFr",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 129,
+        "total_tokens": 2691,
+        "cost": 0.0012312,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012312,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002064
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3907.40669996012,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

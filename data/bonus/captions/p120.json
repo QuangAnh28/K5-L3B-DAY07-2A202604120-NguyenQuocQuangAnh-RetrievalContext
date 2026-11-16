@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p120",
+  "image_sha256": "4c380e5bd7b058bc15319522cdba836df2eec41458484ddca57bbeef2bdc5846",
+  "caption": {
+    "summary": "Trang trình bày về việc gắn kết với các bên liên quan của FPT, tập trung vào khách hàng với các chương trình hành động nổi bật và kết quả đạt được năm 2025.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800766-qHtiQFFQ5GxmDzWBNGvC",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 49,
+        "total_tokens": 2611,
+        "cost": 0.0011032,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011032,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 7.84e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2377.0137000246905,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

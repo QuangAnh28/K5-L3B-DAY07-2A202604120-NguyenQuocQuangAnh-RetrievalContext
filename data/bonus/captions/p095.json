@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p095",
+  "image_sha256": "b4ba9762cb9b2aea71d2e7a230e0fe2eeb8710d4e86c3a55f8dbdb904c83c815",
+  "caption": {
+    "summary": "Bảng thông tin chi tiết về các giao dịch giữa công ty FPT với các công ty con trong tập đoàn năm 2025, bao gồm tên tổ chức, mối quan hệ, giấy phép, địa chỉ, thời điểm giao dịch, nội dung giao dịch và tổng giá trị giao dịch.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thông tin giao dịch giữa công ty FPT và các công ty con trong tập đoàn năm 2025",
+        "location": "phải",
+        "description": "Bảng gồm các cột: STT, Tên tổ chức, Mối quan hệ liên quan với công ty, Số giấy NSH, ngày cấp, nơi cấp, Địa chỉ trụ sở chính, Thời điểm giao dịch, Số nghị quyết/quyết định của ĐHĐCĐ/HĐQT thông qua, Nội dung và tổng giá trị giao dịch (VNĐ), Ghi chú. Nội dung giao dịch gồm các loại dịch vụ cung cấp, mua hàng hóa, dịch vụ quảng cáo, lãi đi vay, vay và trả nợ vay. Thời điểm giao dịch là năm 2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800751-4FbCqh59on6ghDoMMkpc",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 237,
+        "total_tokens": 2799,
+        "cost": 0.001404,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001404,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3975.2417000127025,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

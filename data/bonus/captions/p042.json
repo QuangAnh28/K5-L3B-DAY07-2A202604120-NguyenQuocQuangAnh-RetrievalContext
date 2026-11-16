@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p042",
+  "image_sha256": "bcb83974a6775c82cb722dbdc493ec1c17d08590794a64da4a58a9011612f6a7",
+  "caption": {
+    "summary": "Trang giới thiệu các thành viên chủ chốt trong Ban Lãnh đạo FPT, bao gồm các vị trí Giám đốc Công nghệ, Giám đốc Công nghệ Thông tin và Kế toán trưởng, cùng mô tả ngắn gọn về quá trình công tác và đóng góp của từng người.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ông Vũ Anh Tú - Giám đốc Công nghệ",
+        "location": "phải trên",
+        "description": "Ảnh chân dung ông Vũ Anh Tú, kèm thông tin chức vụ và thời gian công tác."
+      },
+      {
+        "type": "photo",
+        "title": "Ông Nguyễn Xuân Việt - Giám đốc Công nghệ Thông tin",
+        "location": "giữa trái",
+        "description": "Ảnh chân dung ông Nguyễn Xuân Việt, kèm thông tin chức vụ và mô tả công việc."
+      },
+      {
+        "type": "photo",
+        "title": "Ông Hoàng Hữu Chiến - Kế toán trưởng",
+        "location": "phải dưới",
+        "description": "Ảnh chân dung ông Hoàng Hữu Chiến, kèm thông tin chức vụ và mô tả công việc."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800715-jOtKBrkUHv48BGmoD90u",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 234,
+        "total_tokens": 2796,
+        "cost": 0.0013992,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013992,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003744
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4551.193999999668,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

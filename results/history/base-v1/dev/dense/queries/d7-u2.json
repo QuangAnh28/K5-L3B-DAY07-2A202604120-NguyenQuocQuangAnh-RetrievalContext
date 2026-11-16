@@ -1,0 +1,252 @@
+{
+  "status": "abstain",
+  "answer": "Không có thông tin về doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_OPbxIrEBbl9HeA0TsU5MtIrg",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Doanh thu bán hàng năm 2025 của Công ty Ánh Dương\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797577-lMJCAvxRylFzAillaO0I"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+      "model_query": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 62,
+          "text": "5. Th ương nhân kinh doanh d ịch v ụ logistics được s ử d ụng s ố ti ền thu được từ việc định đoạt hàng hoá để thanh toán các khoản mà khách hàng nợ mình và các chi phí có liên quan; n ếu số tiền thu được từ việc định đoạt vượt quá giá trị các kho ản n ợ thì s ố tiền vượt quá ph ải được trả lại cho khách hàng. K ể từ thời điểm đó, thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm đối với hàng hoá hoặc chứng từ đã được định đoạt.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 62,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.4031050868115321,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 62,
+          "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 62,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.3660393578221287,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 67,
+          "text": "bao bì, giá tr ị hàng hoá, xu ất x ứ hàng hoá, t ổn th ất, độ an toàn, tiêu chu ẩn v ệ sinh, phòng d ịch, kết qu ả thực hiện dịch vụ, ph ương pháp cung ứng d ịch v ụ và các nội dung khác theo yêu cầu của khách hàng.\n\nĐiều 256. Thương nhân kinh doanh dịch vụ giám định thương mại Chỉ các th ương nhân có đủ điều kiện theo quy định của pháp lu ật và được cấp gi ấy ch ứng nh ận đăng ký kinh doanh d ịch v ụ giám định th ương m ại m ới được phép thực hiện dịch vụ giám định và cấp chứng thư giám định.\n\nĐiều 257. Điều kiện kinh doanh dịch vụ giám định thương mại Thương nhân kinh doanh d ịch v ụ giám định th ương m ại ph ải có đủ các điều kiện sau đây:\n\n1. Là doanh nghiệp được thành lập theo quy định của pháp luật;\n\n2. Có giám định viên đủ tiêu chuẩn theo quy định tại Điều 259 của Luật này;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 67,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 256"
+          },
+          "score": 0.3567826813322226,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n5. Th ương nhân kinh doanh d ịch v ụ logistics được s ử d ụng s ố ti ền thu được từ việc định đoạt hàng hoá để thanh toán các khoản mà khách hàng nợ mình và các chi phí có liên quan; n ếu số tiền thu được từ việc định đoạt vượt quá giá trị các kho ản n ợ thì s ố tiền vượt quá ph ải được trả lại cho khách hàng. K ể từ thời điểm đó, thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm đối với hàng hoá hoặc chứng từ đã được định đoạt.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c",
+        "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_OHWWPLleAHWfgl2rQ1xjdpIn",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không có thông tin về doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797578-ToEFow13Jf1xI4XB6Syu"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n5. Th ương nhân kinh doanh d ịch v ụ logistics được s ử d ụng s ố ti ền thu được từ việc định đoạt hàng hoá để thanh toán các khoản mà khách hàng nợ mình và các chi phí có liên quan; n ếu số tiền thu được từ việc định đoạt vượt quá giá trị các kho ản n ợ thì s ố tiền vượt quá ph ải được trả lại cho khách hàng. K ể từ thời điểm đó, thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm đối với hàng hoá hoặc chứng từ đã được định đoạt.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797577-lMJCAvxRylFzAillaO0I",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 296,
+        "completion_tokens": 21,
+        "total_tokens": 317,
+        "cost": 0.000152,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000152,
+          "upstream_inference_prompt_cost": 0.0001184,
+          "upstream_inference_completions_cost": 3.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1300.9909000247717,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797578-ToEFow13Jf1xI4XB6Syu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 926,
+        "completion_tokens": 38,
+        "total_tokens": 964,
+        "cost": 0.0004312,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004312,
+          "upstream_inference_prompt_cost": 0.0003704,
+          "upstream_inference_completions_cost": 6.08e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1418.6905000242405,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 2729.217600019183,
+  "searches": 1,
+  "query_id": "d7-u2",
+  "question": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 62,
+      "text": "5. Th ương nhân kinh doanh d ịch v ụ logistics được s ử d ụng s ố ti ền thu được từ việc định đoạt hàng hoá để thanh toán các khoản mà khách hàng nợ mình và các chi phí có liên quan; n ếu số tiền thu được từ việc định đoạt vượt quá giá trị các kho ản n ợ thì s ố tiền vượt quá ph ải được trả lại cho khách hàng. K ể từ thời điểm đó, thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm đối với hàng hoá hoặc chứng từ đã được định đoạt.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 62,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.4031050868115321,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 62,
+      "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 62,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.3660393578221287,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p67-paragraph-1000-dd04662b7eb6e746",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 67,
+      "text": "bao bì, giá tr ị hàng hoá, xu ất x ứ hàng hoá, t ổn th ất, độ an toàn, tiêu chu ẩn v ệ sinh, phòng d ịch, kết qu ả thực hiện dịch vụ, ph ương pháp cung ứng d ịch v ụ và các nội dung khác theo yêu cầu của khách hàng.\n\nĐiều 256. Thương nhân kinh doanh dịch vụ giám định thương mại Chỉ các th ương nhân có đủ điều kiện theo quy định của pháp lu ật và được cấp gi ấy ch ứng nh ận đăng ký kinh doanh d ịch v ụ giám định th ương m ại m ới được phép thực hiện dịch vụ giám định và cấp chứng thư giám định.\n\nĐiều 257. Điều kiện kinh doanh dịch vụ giám định thương mại Thương nhân kinh doanh d ịch v ụ giám định th ương m ại ph ải có đủ các điều kiện sau đây:\n\n1. Là doanh nghiệp được thành lập theo quy định của pháp luật;\n\n2. Có giám định viên đủ tiêu chuẩn theo quy định tại Điều 259 của Luật này;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 67,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 256"
+      },
+      "score": 0.3567826813322226,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n5. Th ương nhân kinh doanh d ịch v ụ logistics được s ử d ụng s ố ti ền thu được từ việc định đoạt hàng hoá để thanh toán các khoản mà khách hàng nợ mình và các chi phí có liên quan; n ếu số tiền thu được từ việc định đoạt vượt quá giá trị các kho ản n ợ thì s ố tiền vượt quá ph ải được trả lại cho khách hàng. K ể từ thời điểm đó, thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm đối với hàng hoá hoặc chứng từ đã được định đoạt.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-d5a190852634d70c",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

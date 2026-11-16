@@ -1,0 +1,425 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801624-QdZ8xEzGdTxf1LaV6u7Q",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_9xlXVhwPNiKmQt0xg5rgQ1wX",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"sơ đồ tổ chức FPT\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong sơ đồ tổ chức FPT, nút nào nằm trên cùng và đường chính dẫn xuống cấp quản trị nào?",
+      "model_queries": [
+        "sơ đồ tổ chức FPT"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "score": 0.03177805800756621,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p024",
+          "page": 24,
+          "score": 0.03057889822595705,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p080",
+          "page": 80,
+          "score": 0.029211087420042643,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p098",
+          "page": 98,
+          "score": 0.028205128205128206,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "FPT2025:p101",
+          "page": 101,
+          "score": 0.027417840375586856,
+          "component_ranks": {
+            "dense": 15,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p025",
+          "page": 25,
+          "score": 0.02506265664160401,
+          "component_ranks": {
+            "dense": 24,
+            "tfidf": 16
+          }
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "score": 0.01639344262295082,
+          "component_ranks": {
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p089",
+          "page": 89,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong sơ đồ tổ chức FPT, nút nào nằm trên cùng và đường chính dẫn xuống cấp quản trị nào?"
+      ],
+      "context_ids": [
+        "FPT2025:p031",
+        "FPT2025:p024",
+        "FPT2025:p080",
+        "FPT2025:p098",
+        "FPT2025:p101",
+        "FPT2025:p025",
+        "FPT2025:p159",
+        "FPT2025:p089"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CƠ CẤU QUẢN TRỊ VÀ BỘ MÁY QUẢN LÝ\nFPT hoạt động theo mô hình được quy \nđịnh tại Mục a, Khoản 1, Điều 137 của \nLuật Doanh nghiệp bao gồm: Đại hội \nđồng cổ đông (ĐHĐCĐ), Hội đồng \nquản trị (HĐQT), Ban Kiểm soát (BKS) \nvà Tổng giám đốc. \nTheo Báo cáo tài chính hợp nhất, tính \nđến thời điểm 31/12/2025, mô hình \nhoạt động của Tập đoàn gồm 08 công \nty con trực tiếp và 02 công ty liên kết \nchính. Xem thông tin chi tiết về các \ncông ty con, công ty liên kết chính tại \nmục Báo cáo tài chính hợp nhất.\nSơ đồ tổ chức\nHỘI ĐỒNG QUẢN TRỊ\nTỔNG GIÁM ĐỐC \nVÀ BAN ĐIỀU HÀNH\nỦY BAN NHÂN SỰ VÀ \nLƯƠNG THƯỞNG\nỦY BAN CHÍNH SÁCH \nPHÁT TRIỂN\nVĂN PHÒNG \nCHỦ TỊCH HĐQT\nBỘ PHẬN KIỂM \nTOÁN NỘI BỘ\nĐẠI HỘI ĐỒNG CỔ ĐÔNG\nBAN KIỂM SOÁT\nCÔNG TY LIÊN KẾT\nKHỐI CÔNG NGHỆ\nKHỐI VIỄN THÔNG\nCÔNG TY CON\nTẬP ĐOÀN\nFPT Smart Cloud\nFPT Telecom\nFPT Education\nFPT Digital\nFPT Online\nFPT Investment\nFPT Software FPT IS\nChi nhánh Tp.HCM\nBan Công nghệ\nBan Công nghệ thông tin\nVăn phòng Chuyển đổi số\nBan Nhân sự\nBan Đảm bảo chất lượng\nBan Tài chính Kế hoạch\nBan Giám sát Tuân thủ\nBan Truyền thông\nBan Mua sắm \nBan Văn hóa Đoàn thể\nVăn phòng\nBộ phận phát triển\ncác dự án chiến lược \nSynnex FPT\nFPT Retail\nKHỐI GIÁO DỤC,\nĐẦU TƯ VÀ KHÁC \nVốn điều lệ \n7.750.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n60.000.000.000 VNĐ \nTỷ lệ sở hữu: 100%\nVốn điều lệ \n184.712.750.000 VNĐ\nTỷ lệ sở hữu: 49,52%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n4.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n7.387.634.630.000 VNĐ\nTỷ lệ sở hữu: 45,66%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.188.400.000.000 VNĐ\nTỷ lệ sở hữu: 48,00%\nVốn điều lệ \n1.703.017.850.000 VNĐ\nTỷ lệ sở hữu: 46,54%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày sơ đồ tổ chức và cơ cấu quản trị của Tập đoàn FPT, bao gồm các cấp quản lý từ Đại hội đồng cổ đông đến các công ty con và công ty liên kết, cùng các ban và bộ phận chức năng.\ndiagram: Sơ đồ tổ chức quản trị và bộ máy quản lý FPT (phải) — Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Sơ đồ tổ chức quản trị và bộ máy quản lý FPT",
+              "location": "phải",
+              "description": "Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p024",
+          "page": 24,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "TÔN TRỌNG \nFPT chấp nhận mọi người như họ vốn có, \nkhông phân biệt vị trí cao thấp, quan hệ \nthân sơ. Mỗi thành viên được tạo điều kiện \ntối đa để phát triển tài năng và được là \nchính mình.\nĐỔI MỚI \nMọi thành viên được tạo điều kiện tốt \nnhất để học tập suốt đời, đồng thời, FPT \nkhông ngừng học hỏi, tiếp thu phương \nthức quản trị/kinh doanh mới và luôn nỗ \nlực, chủ động đầu tư nghiên cứu, phát \ntriển để dẫn đầu trong sáng tạo, đổi mới \ncông nghệ, sản phẩm, giải pháp, dịch vụ.\nĐỒNG ĐỘI\nLà sự tôn trọng, tình bằng hữu, sự đoàn kết. FPT \nnhư một đại gia đình, yêu thương, che chở, bảo \nvệ lẫn nhau. Người FPT ở bất cứ vị trí nào đều \nthấm nhuần tinh thần đồng cam cộng khổ, sát \ncánh vì mục tiêu chung.\nCHÍ CÔNG \nMọi quyết định không thiên vị, không phụ \nthuộc thân sơ. Quyền lợi của FPT được đặt \nlên trên quyền lợi cá nhân.\nGƯƠNG MẪU \nMỗi lãnh đạo FPT phải là người thể hiện rõ \nnét nhất về Tinh thần FPT, giá trị của ba \nchữ “Tôn trọng - Đổi mới - Đồng đội”.\nSÁNG SUỐT \nFPT luôn yêu cầu người lãnh đạo phải có \ntầm nhìn xa và tính quyết đoán.\nFPT mong muốn trở thành một tổ chức kiểu mới, hùng mạnh bằng nỗ lực lao động, sáng tạo trong khoa học kỹ thuật và công nghệ, làm khách hàng hài lòng, góp phần \nhưng thịnh quốc gia, đem lại cho mỗi thành viên của mình điều kiện phát triển tài năng tốt nhất và một cuộc sống đầy đủ về vật chất, phong phú về tinh thần. \n06 GIÁ TRỊ CỐT LÕI\nSỨ MỆNH, GIÁ TRỊ CỐT LÕI\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về sứ mệnh và 6 giá trị cốt lõi của FPT, bao gồm Tôn trọng, Đổi mới, Đồng đội, Chí công, Gương mẫu và Sáng suốt, với mục tiêu phát triển tổ chức và con người theo hướng sáng tạo và bền vững.\nphoto: Ảnh tượng trưng giá trị cốt lõi FPT (giữa) — Ảnh chụp tượng trưng với hình cầu và cấu trúc xoắn ốc, biểu tượng cho sự phát triển và sáng tạo.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh tượng trưng giá trị cốt lõi FPT",
+              "location": "giữa",
+              "description": "Ảnh chụp tượng trưng với hình cầu và cấu trúc xoắn ốc, biểu tượng cho sự phát triển và sáng tạo."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p080",
+          "page": 80,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Tiểu ban thuộc HĐQT có chức năng chỉ đạo \nxây dựng khung chính sách và quy trình nhân sự \ncho Tập đoàn và công ty thành viên; hỗ trợ \nHĐQT trong việc lựa chọn, đề xuất, bổ nhiệm, \nbãi nhiệm, đãi ngộ và đánh giá hiệu quả hoạt động \ncủa các thành viên HĐQT, BĐH, người đại diện \nvà các chức danh quản lý cao cấp khác của \nTập đoàn và công ty thành viên. \nQUẢN TRỊ CÔNG TY\nMÔ HÌNH QUẢN TRỊ VÀ VAI TRÒ CỦA CÁC BÊN\nĐẠI HỘI ĐỒNG CỔ ĐÔNG\nBAN KIỂM SOÁT\nHỘI ĐỒNG QUẢN TRỊ\nCHỦ TỊCH\nHỘI ĐỒNG QUẢN TRỊ\nTỔNG GIÁM ĐỐC VÀ\nBAN ĐIỀU HÀNH\nUỶ BAN NHÂN SỰ\nVÀ LƯƠNG THƯỞNG\nVĂN PHÒNG\nCHỦ TỊCH HĐQT\nKIỂM TOÁN NỘI BỘ\nĐại hội đồng Cổ đông: Cơ quan có thẩm quyền cao \nnhất thực hiện các chức năng cùng các quyền và \nnghĩa vụ theo quy định tại Điều lệ Công ty và pháp luật \ncó liên quan.\nCơ quan quản trị cao nhất có quyền nhân danh Tập đoàn \nđể quyết định, thực hiện các quyền và nghĩa vụ của \nTập đoàn không thuộc thẩm quyền của ĐHĐCĐ theo \nquy định của Điều lệ Công ty và pháp luật có liên quan. \nTGĐ là người đại diện theo pháp luật của Tập đoàn. \nVới sự trợ giúp của Ban Điều hành, TGĐ chịu trách \nnhiệm điều hành hoạt động kinh doanh hàng ngày \ncủa Tập đoàn trên cơ sở tuân thủ quyết định, nghị quyết\ncủa ĐHĐCĐ, HĐQT và Chủ tịch HĐQT. \nThực hiện giám sát HĐQT, TGĐ trong \nviệc quản lý, điều hành Tập đoàn và \nchịu trách nhiệm trước ĐHĐCĐ trong \nviệc thực hiện các nhiệm vụ được giao. \nNgười đại diện theo pháp luật của Tập đoàn chịu \ntrách nhiệm điều hành các công tác của HĐQT, xem xét\nvà quyết định các công tác quản trị của Tập đoàn \ntheo các quy định của pháp luật có liên quan và Điều lệ \ncông ty, quy chế nội bộ. \nUỶ BAN CHÍNH\nSÁCH PHÁT TRIỂN\nTiểu ban thuộc HĐQT chịu trách nhiệm đề xuất \nđịnh hướng phát triển lên HĐQT; xây dựng chiến lược\nđệ trình HĐQT, chỉ đạo và giám sát các vấn đề \nliên quan đến chiến lược phát triển của Tập đoàn \nvà công ty thành viên. \nĐóng vai trò là Thư ký Tập đoàn và là cơ quan hỗ trợ \ntrực thuộc HĐQT; trợ giúp HĐQT, Chủ tịch HĐQT \ntrong việc thực hiện các chức năng và nhiệm vụ \ncủa HĐQT, Chủ tịch HĐQT. \nĐược thành lập và chịu sự quản lý trực tiếp của \nHĐQT và đóng vai trò kiểm tra và đánh giá tính \nđầy đủ và hiệu quả của quản trị, quản lý rủi ro và \nkiểm soát nội bộ cũng như chất lượng hiệu suất \ntrong việc thực thi trách nhiệm được giao và đưa ra \ncác kiến nghị để đạt được mục tiêu và mục đích \ncủa doanh nghiệp.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nMô hình quản trị công ty và vai trò của các bên liên quan trong hệ thống quản trị của FPT.\ndiagram: Mô hình quản trị và vai trò của các bên (phải) — Các thành phần gồm Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Chủ tịch Hội đồng quản trị, Tổng giám đốc và Ban điều hành, Ủy ban nhân sự và lương thưởng, Ủy ban chính sách phát triển, Văn phòng Chủ tịch HĐQT, Kiểm toán nội bộ; mô tả chức năng và trách nhiệm của từng bộ phận.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Mô hình quản trị và vai trò của các bên",
+              "location": "phải",
+              "description": "Các thành phần gồm Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Chủ tịch Hội đồng quản trị, Tổng giám đốc và Ban điều hành, Ủy ban nhân sự và lương thưởng, Ủy ban chính sách phát triển, Văn phòng Chủ tịch HĐQT, Kiểm toán nội bộ; mô tả chức năng và trách nhiệm của từng bộ phận."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p098",
+          "page": 98,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "1\n2\nCông ty Cổ phần \nViễn thông FPT\n(Công ty con trong \ncùng Tập đoàn)\n• 0101778163\n• 28/07/2005\n• Sở Kế hoạch\nvà Đầu tư\nTp.Hà Nội\nÔng Trương Gia Bình, \nChủ tịch HĐQT FPT\nÔng Nguyễn Văn Khoa, \nTổng giám đốc FPT\nBà Trần Thị Hồng Lĩnh, \nthành viên HĐQT FPT\nThành viên HĐQT \nFPT Telecom\nThành viên HĐQT \nFPT Telecom\nThành viên HĐQT \nFPT Telecom\n(Miễn nhiệm từ ngày \n24/12/2025)\nSố 10 phố Phạm \nVăn Bạch, \nphường Cầu \nGiấy, Tp.Hà Nội\nTừ năm 2014 \n– năm 2025\n• FPT cho thuê văn phòng, phí\nquản lý và dịch vụ tiện ích;\n• FPT mua dịch vụ Internet và\nData Center.\nCông ty TNHH\nGiáo dục FPT\n(Công ty con trong \ncùng Tập đoàn)\n• 0104900076\n• 07/09/2010\n• Sở Kế hoạch\nvà Đầu tư\nTp.Hà Nội\nÔng Trương Gia Bình, \nChủ tịch HĐQT FPT\n• Chủ tịch Hội đồng\nthành viên\nFPT Education\nKhu công nghệ \ncao Hòa Lạc, \nKm 29, Đại lộ \nThăng Long, \nphường Thạch \nThất, Tp.Hà Nội\nTừ năm 2014 \n– năm 2025\n• FPT cung cấp dịch vụ, chia sẻ \nchi phí và tiện ích dùng chung;\n• FPT mua dịch vụ đào tạo;\n• Vay và trả nợ vay.\nGiao dịch giữa công ty với công ty mà thành viên HĐQT, thành viên BKS, Tổng giám đốc đã và đang là thành viên sáng lập hoặc thành viên HĐQT, Giám đốc (Tổng giám đốc) \nđiều hành trong thời gian ba năm trở lại đây (Tính tại thời điểm lập Báo cáo).\nSTT Tên tổ chức Số giấy NSH, \nngày cấp, nơi cấp\nNgười có \nliên quan \nVị trí của người có liên \nquan tại công ty\nĐịa chỉ\ntrụ sở chính\nThời điểm\ngiao dịch\nGhi chú\nGiao dịch giữa công ty với các đối tượng khác\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng giao dịch giữa công ty với các đối tượng khác, bao gồm thông tin về tổ chức, người có liên quan, vị trí, địa chỉ trụ sở chính, thời điểm giao dịch và ghi chú liên quan.\ntable: Giao dịch giữa công ty với các đối tượng khác (giữa trang) — Bảng gồm các cột: STT, Tên tổ chức, Số giấy NSH, ngày cấp, nơi cấp, Người có liên quan, Vị trí của người có liên quan tại công ty, Địa chỉ trụ sở chính, Thời điểm giao dịch, Ghi chú. Thông tin về hai công ty con trong cùng tập đoàn FPT với các chi tiết liên quan.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Giao dịch giữa công ty với các đối tượng khác",
+              "location": "giữa trang",
+              "description": "Bảng gồm các cột: STT, Tên tổ chức, Số giấy NSH, ngày cấp, nơi cấp, Người có liên quan, Vị trí của người có liên quan tại công ty, Địa chỉ trụ sở chính, Thời điểm giao dịch, Ghi chú. Thông tin về hai công ty con trong cùng tập đoàn FPT với các chi tiết liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p101",
+          "page": 101,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Ủy ban Chính sách phát triển\nTrong bối cảnh kinh tế thế giới và trong nước tiếp tục chịu tác động từ biến động \nđịa chính trị, dịch chuyển thương mại toàn cầu, áp lực lạm phát và xu hướng thận \ntrọng trong chi tiêu công nghệ thông tin, Ủy ban Chính sách phát triển đã tập trung \nthực hiện tốt vai trò tham mưu chiến lược cho HĐQT và Ban Điều hành. Các định \nhướng chính sách được xây dựng theo hướng ưu tiên phát triển công nghệ lõi, gia \ntăng vùng an toàn chiến lược về thị trường, đối tác và công nghệ, đồng thời gắn \nmục tiêu tăng trưởng của Tập đoàn với các chương trình, nghị quyết lớn của \nĐảng và Nhà nước.\nTrên cơ sở đó, Ủy ban đã tham mưu để Tập đoàn chủ động tham gia, đồng hành \nsâu trong việc triển khai các chương trình, kế hoạch trọng điểm của Chính phủ về \nchuyển đổi số, dữ liệu và chính quyền số; phối hợp hỗ trợ các bộ, ngành, địa phương \ntrong xây dựng chiến lược, phát triển các hệ thống thông tin và cơ sở dữ liệu trọng \nđiểm. Việc tham gia các chương trình này không chỉ mang lại hiệu quả kinh tế mà \ncòn góp phần nâng cao vị thế, uy tín và vai trò của FPT trong hệ sinh thái quốc gia \nvề khoa học – công nghệ và chuyển đổi số.\nỦy ban cũng tham mưu lồng ghép các nghị quyết đột phá của Đảng và Nhà nước \nvề khoa học – công nghệ, giáo dục – đào tạo và kinh tế tư nhân vào chiến lược phát \ntriển của Tập đoàn. Theo định hướng đó, FPT đã triển khai và tham gia các sáng \nkiến nền tảng như hình thành các liên minh công nghệ và nhân lực, tham gia các \ndiễn đàn chính sách, đóng góp xây dựng hệ sinh thái công nghệ lõi, AI và bán dẫn, \nqua đó thể hiện cách tiếp cận chủ động, dài hạn và gắn kết chặt chẽ giữa chiến lược \ndoanh nghiệp với định hướng phát triển quốc gia.\nTrong lĩnh vực hợp tác quốc tế, Ủy ban đã tham mưu điều chỉnh chiến lược theo \nhướng ưu tiên ổn định, đa dạng hóa rủi ro và tập trung vào các khu vực tăng trưởng \nbền vững như Nhật Bản, ASEAN và châu Âu. Đồng thời, định hướng đầu tư có trọng \ntâm vào hạ tầng AI, công nghệ lõi và các mô hình hợp tác chiến lược dài hạn đã \ngóp phần nâng tầm vai trò của FPT từ nhà cung cấp dịch vụ sang đối tác chiến lược \ntrong các dự án chuyển đổi số quy mô lớn.\nBên cạnh đó, Ủy ban đã chủ động nghiên cứu, tham mưu các hướng chiến lược mới \nnhằm mở rộng động lực tăng trưởng trung và dài hạn, trong đó nổi bật là định hướng\nphát triển lĩnh vực Kinh tế tầm thấp. Việc tiếp cận lĩnh vực này được định hướng \ntheo lộ trình thận trọng, bám sát năng lực cốt lõi của FPT, tập trung vào vai trò \ncung cấp nền tảng số, AI, phân tích dữ liệu và hệ thống điều hành, đồng thời tham gia\ncác mô hình thí điểm, thử nghiệm chính sách và đóng góp xây dựng khung pháp lý, \ntiêu chuẩn kỹ thuật. Việc đồng sáng lập Liên minh Kinh tế tầm thấp thể hiện vai trò \ntiên phong của FPT trong kết nối nguồn lực, thúc đẩy hợp tác và kiến tạo hệ sinh thái \ncho lĩnh vực mới.\nThông qua các hoạt động tham mưu, Ủy ban Chính sách phát triển đánh giá công tác\nquản trị nội bộ của Tập đoàn tiếp tục được hoàn thiện theo hướng hiện đại, \nminh bạch và hiệu quả, tăng cường liên thông giữa quản trị chiến lược, quản trị \nvận hành và quản trị nhân sự. Các công cụ quản trị theo mục tiêu, phát triển đội ngũ \nlãnh đạo kế cận, chuyển đổi số và ứng dụng AI trong quả",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p025",
+          "page": 25,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Trong suốt 38 năm qua, FPT luôn khẳng định vị thế tiên phong, dẫn đầu trong các lĩnh vực Công nghệ, Viễn thông và Giáo dục. Đón đầu xu hướng công nghệ, thị trường, FPT \ntạo dựng Hệ sinh thái dịch vụ, sản phẩm, giải pháp, nền tảng Made by FPT thúc đẩy phát triển, tăng trưởng bền vững của các tổ chức, doanh nghiệp cũng như mang đến \nnhững trải nghiệm mới, khác biệt cho người dùng. \nNGÀNH NGHỀ KINH DOANH\nCông nghệ\n• Tư vấn, triển khai Chuyển đổi số, Chuyển đổi xanh và Chuyển đổi AI;\n• Tư vấn, phát triển, xây dựng các hệ thống chuyển đổi số cấp quốc gia, bộ ngành, \ntỉnh thành theo định hướng Nghị quyết 57-NQ/TW;\n• Cung cấp hệ sinh thái tích hợp đồng bộ hạ tầng, công cụ và dịch vụ phục vụ \ntoàn bộ vòng đời phát triển AI, từ xử lý dữ liệu, huấn luyện mô hình đến triển khai, \nsuy luận và giám sát (FPT AI Factory);\n• Dịch vụ an ninh mạng;\n• Cung cấp giải pháp dựa trên các nền tảng công nghệ như: NVIDIA, Landing AI, \nSAP, Oracle, Microsoft, ESRI…;\n• Thiết kế, kiểm thử, đóng gói tiên tiến chip bán dẫn;\n• Thiết kế, triển khai, tích hợp, vận hành, bảo trì, kiểm thử... các hệ thống \nCông nghệ thông tin.\n• Cung cấp các nền tảng tiên tiến như: nền tảng FPT.AI, nền tảng AI linh hoạt \nFleziPT, nền tảng FPT Cloud, nền tảng quản trị doanh nghiệp Base.vn;\n• Phát triển chip nguồn và chip IoT Make in Vietnam;\n• Sản phẩm, giải pháp chuyển đổi số tích hợp công nghệ AI, AI tạo sinh (Generative AI), \ntự động hóa (RPA), kết nối vạn vật (IoT)… chuyên sâu cho các lĩnh vực như: \nChính phủ, Viễn thông, Ngân hàng, Tài chính, Bảo hiểm, Y tế, Giao thông vận tải,\nSản xuất, Tài chính công, Năng lượng, Doanh nghiệp, Ô tô…;\n• Hệ sinh thái toàn diện sản phẩm, giải pháp tiên tiến Made by FPT phục vụ các \nbài toán nền tảng số cấp quốc gia, bộ ngành và các bài toán nghiệp vụ chuyên \nsâu phục vụ lĩnh vực trọng yếu; giải quyết bài toán kinh doanh và tăng trưởng \ncủa doanh nghiệp, tổ chức như: quản trị sản xuất, quản trị bán hàng, quản lý \nchuỗi cung ứng, quản lý tài chính, quản lý nguồn nhân lực, quản lý quan hệ \nkhách hàng và trải nghiệm người dùng, quản lý phát triển bền vững, chuyển đổi \nquy trình kinh doanh, chuyển đổi xanh, chuyển đổi AI….\nNhóm dịch vụ Nhóm sản phẩm, giải pháp\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về ngành nghề kinh doanh của FPT trong lĩnh vực công nghệ, bao gồm nhóm dịch vụ và nhóm sản phẩm, giải pháp. Nội dung nhấn mạnh vai trò tiên phong của FPT trong chuyển đổi số, AI, và hệ sinh thái sản phẩm dịch vụ đa dạng.\nphoto: Nhân viên vận hành hệ thống máy chủ (dưới bên trái) — Ảnh một người mặc áo cam đang thao tác với hệ thống máy chủ trong trung tâm dữ liệu.\nphoto: Linh kiện chip điện tử (dưới bên phải) — Ảnh cận cảnh hai bàn tay đang cầm một linh kiện chip điện tử nhỏ màu xanh.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Nhân viên vận hành hệ thống máy chủ",
+              "location": "dưới bên trái",
+              "description": "Ảnh một người mặc áo cam đang thao tác với hệ thống máy chủ trong trung tâm dữ liệu."
+            },
+            {
+              "type": "photo",
+              "title": "Linh kiện chip điện tử",
+              "location": "dưới bên phải",
+              "description": "Ảnh cận cảnh hai bàn tay đang cầm một linh kiện chip điện tử nhỏ màu xanh."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.\ndiagram: Biểu tượng tài chính và biểu đồ (phải) — Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Biểu tượng tài chính và biểu đồ",
+              "location": "phải",
+              "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p089",
+          "page": 89,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HĐQT của FPT hiện có ba thành viên độc lập, chiếm tỷ lệ gần 1/2 tổng số thành \nviên HĐQT. Các thành viên độc lập gồm: ông Jean-Charles Belliol, ông Hiroshi \nYokotsuka và ông Hampapur Rangadore Binod. Thành viên HĐQT độc lập của FPT \nđủ năng lực, kinh nghiệm chuyên môn và đáp ứng đúng các tiêu chí của IFC về định \nnghĩa “thành viên HĐQT độc lập góp phần đảm bảo để việc ra quyết định được \nkhách quan hơn, đặc biệt trong các tình huống có xung đột lợi ích”.\nCác thành viên HĐQT độc lập đã tích cực đóng góp ý kiến vào chiến lược phát triển \nvà hoạt động của Tập đoàn cũng như chủ động trao đổi về các chỉ tiêu kinh doanh, \ncác định hướng phát triển trong từng lĩnh vực hoạt động và đưa ra các đề xuất, giải pháp \nphù hợp. Bên cạnh đó, với kiến thức, kinh nghiệm chuyên môn đa dạng, các thành \nviên HĐQT độc lập cũng đóng vai trò quan trọng trong hoạt động quản trị của FPT.\n• Ông Jean-Charles Belliol: Với kinh nghiệm phong phú trong lĩnh vực tài chính, tại \ncác phiên họp HĐQT của Tập đoàn, ông đã đưa ra các quan điểm toàn diện về \nhoạt động tài chính, đầu tư cũng như một số chỉ tiêu kinh doanh, định hướng \nchiến lược trong năm 2025 và giai đoạn 2025-2027 của Tập đoàn và công ty \nthành viên.\n• Ông Hampapur Rangadore Binod: Với bề dày kinh nghiệm trong phát triển \nnguồn lực chất lượng cao và đào tạo chuyên gia, quản lý CNTT tầm cỡ quốc tế, \nông đóng góp rất nhiều ý tưởng cho chính sách nhân sự quan trọng của Tập đoàn. \nBên cạnh đó, ông cũng đóng vai trò quan trọng trong việc hỗ trợ tư vấn cho \nchương trình phát triển năng lực của lãnh đạo Tập đoàn và các chương trình góp \nphần gia tăng kinh nghiệm, năng lực của CBNV.\n• Ông Hiroshi Yokotsuka: Những tư vấn của ông đối với tình hình kinh tế cũng như \ncác định hướng của doanh nghiệp ở Nhật Bản đã giúp ích rất nhiều cho chiến \nlược kinh doanh và sự tăng trưởng mạnh mẽ của FPT tại Nhật Bản. Ông cũng \nđưa ra những ý kiến đóng góp cho các hoạt động đầu tư và cơ hội phát triển của \nTập đoàn tại thị trường Nhật Bản.\nTừ năm 2013, FPT đã tách bạch vai trò của Chủ tịch HĐQT và Tổng giám đốc thể \nhiện sự độc lập và phân chia trách nhiệm rõ ràng giữa HĐQT và Ban Điều hành \nnhằm đảm bảo sự phân quyền trong việc ra quyết định và nâng cao tính độc lập \ntrong hoạt động của HĐQT.\n• Ủy ban Nhân sự và Lương thưởng: Có chức năng chỉ đạo xây dựng khung chính \nsách và quy trình nhân sự cho Tập đoàn và công ty thành viên; hỗ trợ HĐQT trong \nviệc lựa chọn, đề xuất, bổ nhiệm, bãi nhiệm, đãi ngộ và đánh giá hiệu quả hoạt \nđộng của thành viên Ban Điều hành, người đại diện và chức danh quản lý cao cấp \nkhác của Tập đoàn và công ty thành viên.\n• Ủy ban Chính sách phát triển: Chịu trách nhiệm đề xuất định hướng phát triển lên \nHĐQT; chỉ đạo và giám sát các vấn đề liên quan đến chiến lược phát triển của \nTập đoàn và công ty thành viên.\n• Văn phòng Chủ tịch HĐQT: Đóng vai trò là Thư ký Tập đoàn và là cơ quan hỗ trợ trực \nthuộc HĐQT; trợ giúp HĐQT, Chủ tịch HĐQT trong việc thực hiện các chức \nnăng và nhiệm vụ của HĐQT, Chủ tịch HĐQT.\nNgoài ra, trong năm 2022, HĐQT cũng đã thành lập bộ phận Kiểm toán nội bộ. \nBộ phận này có trách nhiệm kiểm tra, đánh giá tính đầy đủ và hiệu quả của quản trị,\nquản lý rủi ro, kiểm soát nội bộ cũng như chất lượn",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Danh sách các ủy ban thuộc HĐQT",
+              "location": "phải",
+              "description": "Bảng gồm các cột STT, Ủy ban, Họ và tên, Chức danh, liệt kê 3 ủy ban: Nhân sự và Lương thưởng, Chính sách phát triển, Văn phòng Chủ tịch HĐQT cùng tên và chức danh người phụ trách."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p031",
+          "path": ".bonus/pages/p031.jpg",
+          "sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+        },
+        {
+          "id": "FPT2025:p024",
+          "path": ".bonus/pages/p024.jpg",
+          "sha256": "8b49bf76f30258828abe09a58187c942dd30d9732b65e046ff0518a66ead9581"
+        },
+        {
+          "id": "FPT2025:p080",
+          "path": ".bonus/pages/p080.jpg",
+          "sha256": "7bc2e71fe735535cae71d4877e30e06fa50a66618a37495a35511a55ebd37dd4"
+        },
+        {
+          "id": "FPT2025:p098",
+          "path": ".bonus/pages/p098.jpg",
+          "sha256": "3836af6e3fca01702f456a1f496aabc3966bc3d3ec30c49a785bc6439cc80c49"
+        },
+        {
+          "id": "FPT2025:p101",
+          "path": ".bonus/pages/p101.jpg",
+          "sha256": "97a6a87e4b87b03be65afeda2988e8654c47ae27315abb26b60109e14daaed53"
+        },
+        {
+          "id": "FPT2025:p025",
+          "path": ".bonus/pages/p025.jpg",
+          "sha256": "dec6d2d361f2c85ddbb24d454e3b0e50c016347ede35794ee9b1e0a59fcea670"
+        },
+        {
+          "id": "FPT2025:p159",
+          "path": ".bonus/pages/p159.jpg",
+          "sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+        },
+        {
+          "id": "FPT2025:p089",
+          "path": ".bonus/pages/p089.jpg",
+          "sha256": "b906ca9db8a63dda6526bbd3e9d370fb52259e0dc8a2b0835e511f28235bcd01"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801669-Nc5WXyKmN7I1PfCgV5sI",
+      "message": {
+        "role": "assistant",
+        "content": "Nút nằm trên cùng trong sơ đồ tổ chức FPT là \"ĐẠI HỘI ĐỒNG CỔ ĐÔNG\".\n\nĐường chính dẫn xuống cấp quản trị như sau:\n- Từ \"ĐẠI HỘI ĐỒNG CỔ ĐÔNG\" dẫn xuống \"HỘI ĐỒNG QUẢN TRỊ\" và \"BAN KIỂM SOÁT\".\n- Từ \"HỘI ĐỒNG QUẢN TRỊ\" dẫn xuống \"TỔNG GIÁM ĐỐC VÀ BAN ĐIỀU HÀNH\".\n- Từ \"TỔNG GIÁM ĐỐC VÀ BAN ĐIỀU HÀNH\" dẫn xuống \"TẬP ĐOÀN\" và tiếp tục phân nhánh xuống các công ty con, công ty liên kết và các ban chức năng.\n\nTóm lại, cấp quản trị chính gồm các cấp: Đại hội đồng cổ đông → Hội đồng quản trị → Tổng giám đốc và Ban điều hành → Tập đoàn và các công ty con, công ty liên kết cùng các ban chức năng.\n\n(Nguồn: trang 31, Báo cáo thường niên FPT 2025, phần \"Cơ cấu quản trị và bộ máy quản lý\", sơ đồ tổ chức)",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "searches": 1,
+  "error": {
+    "type": "ValueError",
+    "message": "Exactly one function call required"
+  },
+  "context_ids": [
+    "FPT2025:p031",
+    "FPT2025:p024",
+    "FPT2025:p080",
+    "FPT2025:p098",
+    "FPT2025:p101",
+    "FPT2025:p025",
+    "FPT2025:p159",
+    "FPT2025:p089"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p031",
+      "page": 31,
+      "image": ".bonus/pages/p031.jpg",
+      "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+    },
+    {
+      "id": "FPT2025:p024",
+      "page": 24,
+      "image": ".bonus/pages/p024.jpg",
+      "image_sha256": "8b49bf76f30258828abe09a58187c942dd30d9732b65e046ff0518a66ead9581"
+    },
+    {
+      "id": "FPT2025:p080",
+      "page": 80,
+      "image": ".bonus/pages/p080.jpg",
+      "image_sha256": "7bc2e71fe735535cae71d4877e30e06fa50a66618a37495a35511a55ebd37dd4"
+    },
+    {
+      "id": "FPT2025:p098",
+      "page": 98,
+      "image": ".bonus/pages/p098.jpg",
+      "image_sha256": "3836af6e3fca01702f456a1f496aabc3966bc3d3ec30c49a785bc6439cc80c49"
+    },
+    {
+      "id": "FPT2025:p101",
+      "page": 101,
+      "image": ".bonus/pages/p101.jpg",
+      "image_sha256": "97a6a87e4b87b03be65afeda2988e8654c47ae27315abb26b60109e14daaed53"
+    },
+    {
+      "id": "FPT2025:p025",
+      "page": 25,
+      "image": ".bonus/pages/p025.jpg",
+      "image_sha256": "dec6d2d361f2c85ddbb24d454e3b0e50c016347ede35794ee9b1e0a59fcea670"
+    },
+    {
+      "id": "FPT2025:p159",
+      "page": 159,
+      "image": ".bonus/pages/p159.jpg",
+      "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+    },
+    {
+      "id": "FPT2025:p089",
+      "page": 89,
+      "image": ".bonus/pages/p089.jpg",
+      "image_sha256": "b906ca9db8a63dda6526bbd3e9d370fb52259e0dc8a2b0835e511f28235bcd01"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801624-QdZ8xEzGdTxf1LaV6u7Q",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 455,
+        "completion_tokens": 13,
+        "total_tokens": 468,
+        "cost": 0.0002028,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002028,
+          "upstream_inference_prompt_cost": 0.000182,
+          "upstream_inference_completions_cost": 2.08e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1255.6366000208072,
+      "attempt": 1
+    },
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801669-Nc5WXyKmN7I1PfCgV5sI",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 26837,
+        "completion_tokens": 271,
+        "total_tokens": 27108,
+        "cost": 0.0111684,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0111684,
+          "upstream_inference_prompt_cost": 0.0107348,
+          "upstream_inference_completions_cost": 0.0004336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 8200.664300005883,
+      "attempt": 2
+    }
+  ],
+  "elapsed_ms": 52627.13620002614,
+  "query_id": "fd-i1",
+  "question": "Trong sơ đồ tổ chức FPT, nút nào nằm trên cùng và đường chính dẫn xuống cấp quản trị nào?",
+  "split": "dev",
+  "config": "vision"
+}

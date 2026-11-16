@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p088",
+  "image_sha256": "e1d1ddf7115207a890002f9a724f32b4d1fb494ac623f673fe993fc3866723c5",
+  "caption": {
+    "summary": "Trang trình bày nguyên tắc thiết lập Hội đồng Quản trị (HĐQT) FPT nhiệm kỳ 2022-2027 với các thành viên có năng lực và chuyên nghiệp, cùng thông tin về đào tạo quản trị và thành phần HĐQT.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thành viên Hội đồng Quản trị nhiệm kỳ 2022-2027",
+        "location": "phải trên",
+        "description": "Số lượng thành viên HĐQT độc lập, nữ, có kinh nghiệm chuyên sâu trong lĩnh vực CNTT và tài chính, am hiểu sâu sắc lĩnh vực đầu tư và quản trị doanh nghiệp."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800745-sZ3Up1kp4lBSdF8KcU0r",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 137,
+        "total_tokens": 2699,
+        "cost": 0.001244,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001244,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002192
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3082.3826999985613,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

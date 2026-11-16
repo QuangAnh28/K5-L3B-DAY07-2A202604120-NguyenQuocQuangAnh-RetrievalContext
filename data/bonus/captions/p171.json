@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p171",
+  "image_sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01",
+  "caption": {
+    "summary": "Báo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và hoạt động đầu tư trong năm tài chính 2025 và 2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+        "location": "trên",
+        "description": "Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800808-83xMM4MGCrgffsQHXEHG",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 126,
+        "total_tokens": 2688,
+        "cost": 0.0012264,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012264,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002016
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4051.276999991387,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

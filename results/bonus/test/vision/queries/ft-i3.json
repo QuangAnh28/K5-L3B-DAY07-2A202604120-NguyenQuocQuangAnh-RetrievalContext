@@ -1,0 +1,446 @@
+{
+  "status": "answered",
+  "answer": "Trang 63 (ảnh gốc trang PDF 62) có sơ đồ tròn FleziPT. Ba lớp có tên viết hoa, từ tâm ra ngoài: FLEZI FOUNDATION (trung tâm), FLEZI CREW (lớp giữa), FLEZI VERSE (lớp ngoài cùng).\n[FPT2025:p063 — Sơ đồ vòng tròn \"Nền tảng AI linh hoạt FleziPT\" ở phía phải trang (trang PDF 63, hiển thị số trang 62): lớp trung tâm FLEZI FOUNDATION, lớp giữa FLEZI CREW, lớp ngoài cùng FLEZI VERSE]",
+  "citations": [
+    {
+      "id": "FPT2025:p063",
+      "region": "Sơ đồ vòng tròn \"Nền tảng AI linh hoạt FleziPT\" ở phía phải trang (trang PDF 63, hiển thị số trang 62): lớp trung tâm FLEZI FOUNDATION, lớp giữa FLEZI CREW, lớp ngoài cùng FLEZI VERSE"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805201-ZIUVI6ZoUDVaZodFcPyT",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01M1t1YDwsVo2ePb75iJVaaK",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"sơ đồ tròn FleziPT ba lớp\",\"FleziPT sơ đồ tròn các lớp từ tâm ra ngoài\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Đọc sơ đồ tròn FleziPT: ba lớp có tên viết hoa được xếp từ tâm ra ngoài theo thứ tự nào?",
+      "model_queries": [
+        "sơ đồ tròn FleziPT ba lớp",
+        "FleziPT sơ đồ tròn các lớp từ tâm ra ngoài"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "score": 0.03149801587301587,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p024",
+          "page": 24,
+          "score": 0.029551337359792925,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 16
+          }
+        },
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "score": 0.027271052146674038,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 21
+          }
+        },
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "score": 0.027205882352941177,
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p063",
+          "page": 63,
+          "score": 0.01639344262295082,
+          "component_ranks": {
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p073",
+          "page": 73,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p139",
+          "page": 139,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        },
+        {
+          "id": "FPT2025:p083",
+          "page": 83,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "dense": 3
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Đọc sơ đồ tròn FleziPT: ba lớp có tên viết hoa được xếp từ tâm ra ngoài theo thứ tự nào?"
+      ],
+      "context_ids": [
+        "FPT2025:p159",
+        "FPT2025:p024",
+        "FPT2025:p031",
+        "FPT2025:p060",
+        "FPT2025:p063",
+        "FPT2025:p073",
+        "FPT2025:p139",
+        "FPT2025:p083"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.\ndiagram: Biểu tượng tài chính và biểu đồ (phải) — Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Biểu tượng tài chính và biểu đồ",
+              "location": "phải",
+              "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p024",
+          "page": 24,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "TÔN TRỌNG \nFPT chấp nhận mọi người như họ vốn có, \nkhông phân biệt vị trí cao thấp, quan hệ \nthân sơ. Mỗi thành viên được tạo điều kiện \ntối đa để phát triển tài năng và được là \nchính mình.\nĐỔI MỚI \nMọi thành viên được tạo điều kiện tốt \nnhất để học tập suốt đời, đồng thời, FPT \nkhông ngừng học hỏi, tiếp thu phương \nthức quản trị/kinh doanh mới và luôn nỗ \nlực, chủ động đầu tư nghiên cứu, phát \ntriển để dẫn đầu trong sáng tạo, đổi mới \ncông nghệ, sản phẩm, giải pháp, dịch vụ.\nĐỒNG ĐỘI\nLà sự tôn trọng, tình bằng hữu, sự đoàn kết. FPT \nnhư một đại gia đình, yêu thương, che chở, bảo \nvệ lẫn nhau. Người FPT ở bất cứ vị trí nào đều \nthấm nhuần tinh thần đồng cam cộng khổ, sát \ncánh vì mục tiêu chung.\nCHÍ CÔNG \nMọi quyết định không thiên vị, không phụ \nthuộc thân sơ. Quyền lợi của FPT được đặt \nlên trên quyền lợi cá nhân.\nGƯƠNG MẪU \nMỗi lãnh đạo FPT phải là người thể hiện rõ \nnét nhất về Tinh thần FPT, giá trị của ba \nchữ “Tôn trọng - Đổi mới - Đồng đội”.\nSÁNG SUỐT \nFPT luôn yêu cầu người lãnh đạo phải có \ntầm nhìn xa và tính quyết đoán.\nFPT mong muốn trở thành một tổ chức kiểu mới, hùng mạnh bằng nỗ lực lao động, sáng tạo trong khoa học kỹ thuật và công nghệ, làm khách hàng hài lòng, góp phần \nhưng thịnh quốc gia, đem lại cho mỗi thành viên của mình điều kiện phát triển tài năng tốt nhất và một cuộc sống đầy đủ về vật chất, phong phú về tinh thần. \n06 GIÁ TRỊ CỐT LÕI\nSỨ MỆNH, GIÁ TRỊ CỐT LÕI\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về sứ mệnh và 6 giá trị cốt lõi của FPT, bao gồm Tôn trọng, Đổi mới, Đồng đội, Chí công, Gương mẫu và Sáng suốt, với mục tiêu phát triển tổ chức và con người theo hướng sáng tạo và bền vững.\nphoto: Ảnh tượng trưng giá trị cốt lõi FPT (giữa) — Ảnh chụp tượng trưng với hình cầu và cấu trúc xoắn ốc, biểu tượng cho sự phát triển và sáng tạo.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh tượng trưng giá trị cốt lõi FPT",
+              "location": "giữa",
+              "description": "Ảnh chụp tượng trưng với hình cầu và cấu trúc xoắn ốc, biểu tượng cho sự phát triển và sáng tạo."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CƠ CẤU QUẢN TRỊ VÀ BỘ MÁY QUẢN LÝ\nFPT hoạt động theo mô hình được quy \nđịnh tại Mục a, Khoản 1, Điều 137 của \nLuật Doanh nghiệp bao gồm: Đại hội \nđồng cổ đông (ĐHĐCĐ), Hội đồng \nquản trị (HĐQT), Ban Kiểm soát (BKS) \nvà Tổng giám đốc. \nTheo Báo cáo tài chính hợp nhất, tính \nđến thời điểm 31/12/2025, mô hình \nhoạt động của Tập đoàn gồm 08 công \nty con trực tiếp và 02 công ty liên kết \nchính. Xem thông tin chi tiết về các \ncông ty con, công ty liên kết chính tại \nmục Báo cáo tài chính hợp nhất.\nSơ đồ tổ chức\nHỘI ĐỒNG QUẢN TRỊ\nTỔNG GIÁM ĐỐC \nVÀ BAN ĐIỀU HÀNH\nỦY BAN NHÂN SỰ VÀ \nLƯƠNG THƯỞNG\nỦY BAN CHÍNH SÁCH \nPHÁT TRIỂN\nVĂN PHÒNG \nCHỦ TỊCH HĐQT\nBỘ PHẬN KIỂM \nTOÁN NỘI BỘ\nĐẠI HỘI ĐỒNG CỔ ĐÔNG\nBAN KIỂM SOÁT\nCÔNG TY LIÊN KẾT\nKHỐI CÔNG NGHỆ\nKHỐI VIỄN THÔNG\nCÔNG TY CON\nTẬP ĐOÀN\nFPT Smart Cloud\nFPT Telecom\nFPT Education\nFPT Digital\nFPT Online\nFPT Investment\nFPT Software FPT IS\nChi nhánh Tp.HCM\nBan Công nghệ\nBan Công nghệ thông tin\nVăn phòng Chuyển đổi số\nBan Nhân sự\nBan Đảm bảo chất lượng\nBan Tài chính Kế hoạch\nBan Giám sát Tuân thủ\nBan Truyền thông\nBan Mua sắm \nBan Văn hóa Đoàn thể\nVăn phòng\nBộ phận phát triển\ncác dự án chiến lược \nSynnex FPT\nFPT Retail\nKHỐI GIÁO DỤC,\nĐẦU TƯ VÀ KHÁC \nVốn điều lệ \n7.750.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n60.000.000.000 VNĐ \nTỷ lệ sở hữu: 100%\nVốn điều lệ \n184.712.750.000 VNĐ\nTỷ lệ sở hữu: 49,52%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n4.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n7.387.634.630.000 VNĐ\nTỷ lệ sở hữu: 45,66%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.188.400.000.000 VNĐ\nTỷ lệ sở hữu: 48,00%\nVốn điều lệ \n1.703.017.850.000 VNĐ\nTỷ lệ sở hữu: 46,54%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày sơ đồ tổ chức và cơ cấu quản trị của Tập đoàn FPT, bao gồm các cấp quản lý từ Đại hội đồng cổ đông đến các công ty con và công ty liên kết, cùng các ban và bộ phận chức năng.\ndiagram: Sơ đồ tổ chức quản trị và bộ máy quản lý FPT (phải) — Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Sơ đồ tổ chức quản trị và bộ máy quản lý FPT",
+              "location": "phải",
+              "description": "Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Cơ cấu lợi nhuận trước thuế theo khối\n13.044\n17,8%\n5.907 45,3%\n12,9%\n2.773 21,2%\n23,1%\n4.364 33,5%\n21,6%\nPhân tích kết quả kinh doanh theo khối\nĐể phản ánh đúng mô hình hoạt động của Tập đoàn, kết quả kinh doanh được phân tích theo từng khối và phân tách theo từng lĩnh vực cụ thể. Cách tiếp cận này giúp đánh giá \nchính xác, hiệu quả vận hành và đóng góp của từng lĩnh vực hoạt động vào tăng trưởng chung của Tập đoàn. Cụ thể, hoạt động kinh doanh của Tập đoàn được chia thành \nba khối chính, bao gồm: khối Công nghệ với hai lĩnh vực là Dịch vụ CNTT cho thị trường nước ngoài và Dịch vụ CNTT cho thị trường trong nước; khối Viễn thông với \nhai lĩnh vực Dịch vụ Viễn thông và Dịch vụ Nội dung số; khối Giáo dục, Đầu tư và Khác.\nCơ cấu doanh thu theo khối\nKhối Công nghệ Khối Viễn thông Khối Giáo dục, Đầu tư và Khác\n70.113\n11,6%\n19.507 27,8% 44.475 63,4%\n10,8%\n6.132 8,8%\n0,05%\n13,7%\nĐơn vị: Tỷ VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nPhân tích kết quả kinh doanh theo khối của Tập đoàn FPT năm 2025, bao gồm cơ cấu doanh thu và cơ cấu lợi nhuận trước thuế theo từng khối chính: Công nghệ, Viễn thông, Giáo dục, Đầu tư và Khác.\nchart: Cơ cấu doanh thu theo khối (trái) — Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.\nchart: Cơ cấu lợi nhuận trước thuế theo khối (phải) — Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cơ cấu doanh thu theo khối",
+              "location": "trái",
+              "description": "Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            },
+            {
+              "type": "chart",
+              "title": "Cơ cấu lợi nhuận trước thuế theo khối",
+              "location": "phải",
+              "description": "Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p063",
+          "page": 63,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Dịch chuyển danh mục dịch vụ lên phân khúc giá trị cao và dẫn dắt chuyển đổi AI\nTrong bối cảnh ngành dịch vụ CNTT toàn cầu chịu áp lực từ việc thắt chặt \nngân sách và cạnh tranh ngày càng gay gắt, mảng Dịch vụ Chuyển đổi số tiếp tục \nđóng vai trò là động lực tăng trưởng chất lượng của FPT. Doanh thu từ dịch vụ \nchuyển đổi số đạt 16.751 tỷ đồng, tăng 16,8% so với năm trước và chiếm 47,3% tổng \ndoanh thu Dịch vụ CNTT cho thị trường nước ngoài, phản ánh xu hướng khách hàng \nưu tiên các dự án mang tính chiến lược, có tác động trực tiếp đến hiệu quả vận \nhành và năng lực cạnh tranh dài hạn.\nDoanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025\n2021 2022 2023 2024 2025\n40.000\n35.000\n30.000\n25.000\n20.000\n15.000\n10.000\n5.000\n0\nDoanh thu dịch vụ CNTT \ncho thị trường nước ngoài\nDoanh thu dịch vụ \nChuyển đổi số\nĐơn vị: Tỷ VNĐ\nDanh mục dịch vụ chuyển đổi số của FPT tiếp tục được mở rộng, bám sát các xu \nhướng công nghệ chủ đạo trên toàn cầu. Trong đó, Điện toán đám mây tiếp tục \nchiếm tỷ trọng lớn nhất nhờ nhu cầu hiện đại hóa hạ tầng CNTT và tối ưu chi phí \nvận hành của doanh nghiệp, chiếm 36,6% doanh thu mảng Dịch vụ Chuyển đổi \nsố. AI và Phân tích Dữ liệu cũng ghi nhận tốc độ tăng trưởng cao đạt 41% so với \nnăm trước, trong bối cảnh các doanh nghiệp đẩy mạnh ứng dụng AI để nâng \ncao hiệu suất, ra quyết định dựa trên dữ liệu và tái thiết mô hình kinh doanh. \nTrong năm 2025, nhằm đáp ứng với những thay đổi nhanh chóng trong xu thế \ncông nghệ và nhu cầu ứng dụng AI ngày càng sâu rộng của doanh nghiệp toàn \ncầu, FPT đã ra mắt nền tảng FleziPT như một bước đi trọng yếu trong lộ trình \nchuyển đổi FPT thành “AI-First Company”. FleziPT không chỉ giúp nâng cao \nnăng suất và hiệu quả vận hành nội bộ thông qua việc tái định nghĩa các quy \ntrình phát triển và vận hành phần mềm, mà còn tạo nền tảng để FPT cung cấp \ncác giải pháp AI chuyên sâu, phù hợp với đặc thù từng ngành và từng nhóm \n14.541\n5.522\n18.915\n7.349\n24.288\n10.425\n30.953\n14.340\n35.382\n16.751\nkhách hàng. FleziPT đóng vai trò là nền tảng chiến lược giúp FPT hiện thực hóa \nđịnh hướng AI-First ở quy mô lớn, rút ngắn thời gian triển khai và tạo tiền đề gia tăng\ntỷ trọng doanh thu từ các dịch vụ AI-First trong những năm tới.\nViệc kết hợp hiệu quả giữa năng lực công nghệ, hiểu biết theo ngành và lực lượng \nkỹ sư được đào tạo bài bản giúp FPT từng bước khẳng định vai trò là đối tác chuyển \nđổi số chiến lược, đồng hành cùng khách hàng trong các chương trình chuyển đổi \ndài hạn. Trên nền tảng đó, Việt Nam và FPT ngày càng trở thành mắt xích quan trọng\ntrong chuỗi giá trị dịch vụ CNTT toàn cầu, có khả năng cạnh tranh với các tập đoàn \nlớn trong cùng ngành. \nNền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được \nkiểm chứng hiệu quả\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo phân tích hoạt động kinh doanh dịch vụ chuyển đổi số của FPT giai đoạn 2021-2025, tập trung vào doanh thu và nền tảng AI FleziPT.\nchart: Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025 (trái) — Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài (màu cam) và doanh thu dịch vụ chuyển đổi số (màu xanh dương) theo từng năm từ 2021 đến 2025, đơn vị tính tỷ VNĐ.\ndiagram: Nền tảng AI linh ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025",
+              "location": "trái",
+              "description": "Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài (màu cam) và doanh thu dịch vụ chuyển đổi số (màu xanh dương) theo từng năm từ 2021 đến 2025, đơn vị tính tỷ VNĐ."
+            },
+            {
+              "type": "diagram",
+              "title": "Nền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được kiểm chứng hiệu quả",
+              "location": "phải",
+              "description": "Sơ đồ vòng tròn thể hiện cấu trúc nền tảng AI FleziPT gồm các lớp: Flezi Foundation ở trung tâm, Flezi Crew, Flezi Verse và các dịch vụ AI toàn trình, với các thành phần như đội ngũ AI toàn cầu, chuyên gia AI, kỹ sư dữ liệu, phần mềm AI hỗ trợ, các sản phẩm và dịch vụ AI cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p073",
+          "page": 73,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Sinh viên chuyên ngành\nđào tạo AI, Thiết kế vi mạch\nbán dẫn \n3.700\nLĩnh vực Giáo dục\nNăm 2025, hệ thống giáo dục của FPT tập trung vào ba từ khóa \nquan trọng đó là: hệ thống rộng khắp, trải nghiệm vượt trội và \nthầy trò hạnh phúc nhằm tiếp tục đưa trí tuệ Việt Nam vươn xa, \nvươn cao trên toàn cầu.\nNăm 2026, hệ thống giáo dục FPT tiếp tục kiên định với ba từ \nkhóa quan trọng này, đồng thời tăng cường hơn nữa việc đưa AI \nvào học tập theo hướng thực tiễn, gắn với mô hình “học – ứng \ndụng – thử nghiệm” góp phần đổi mới phương pháp dạy và học \ntrong bối cảnh chuyển đổi số.\nTỉnh thành có cơ sở đào tạo\n19/34\n180 Đối tác \nquốc tế từ\n40\nQuốc gia\nHệ thống giáo dục có \ntầm ảnh hưởng khu vực \nchâu Á-Thái Bình Dương\nHọc sinh từ lớp 1 đến lớp 12\nđược tiếp cận AI\n100%\nÔng LÊ TRƯỜNG TÙNG\nTổng Giám đốc FPT Education\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTổng quan về lĩnh vực giáo dục của FPT với các số liệu về hệ thống giáo dục, đối tác quốc tế, sinh viên chuyên ngành và học sinh tiếp cận AI, cùng định hướng phát triển năm 2025 và 2026.\ntable: Thông tin chính về lĩnh vực giáo dục FPT (trái) — Các số liệu gồm: hệ thống giáo dục ảnh hưởng khu vực châu Á-Thái Bình Dương; 180 đối tác quốc tế từ 40 quốc gia; 3.700 sinh viên chuyên ngành đào tạo AI, thiết kế vi mạch bán dẫn; 19/34 tỉnh thành có cơ sở đào tạo; 100% học sinh từ lớp 1 đến lớp 12 được tiếp cận AI.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Thông tin chính về lĩnh vực giáo dục FPT",
+              "location": "trái",
+              "description": "Các số liệu gồm: hệ thống giáo dục ảnh hưởng khu vực châu Á-Thái Bình Dương; 180 đối tác quốc tế từ 40 quốc gia; 3.700 sinh viên chuyên ngành đào tạo AI, thiết kế vi mạch bán dẫn; 19/34 tỉnh thành có cơ sở đào tạo; 100% học sinh từ lớp 1 đến lớp 12 được tiếp cận AI."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p139",
+          "page": 139,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Luân chuyển, thăng tiến\nFPT luôn nỗ lực tạo môi trường tốt nhất để người lao động phát huy tài năng và có \ncơ hội thăng tiến sự nghiệp thông qua chương trình luân chuyển cán bộ và các \ncuộc thi trên toàn Tập đoàn.\nLuân chuyển nội bộ không chỉ là huyết mạch của sự phát triển mà còn là chìa khóa \nđể cán bộ lãnh đạo, quản lý có được những trải nghiệm phong phú, nâng cao năng \nlực lãnh đạo, điều hành. Qua đó, FPT có thể phát hiện, bồi dưỡng và xây dựng đội \nngũ cán bộ quản lý kế cận, tạo nền tảng vững chắc cho sự phát triển bền vững của \nTập đoàn. Năm 2025, hàng trăm cán bộ lãnh đạo, quản lý các cấp đã được luân \nchuyển và bổ nhiệm, thăng tiến. Các trường hợp tiêu biểu như: Phó giám đốc Công \nnghệ FPT, Trưởng ban Mua sắm FPT, Phó tổng giám đốc FPT Software, Giám đốc \nVận hành FPT IS....\n• Các cuộc thi tìm kiếm tài năng\nPhát triển và nuôi dưỡng đội ngũ lãnh đạo kế cận là một trong những trọng tâm trong \nchiến lược nguồn nhân lực của FPT. Trong đó, Trạng FPT – Cuộc thi lâu đời nhất của \nTập đoàn, đóng vai trò quan trọng trong việc phát hiện, vinh danh và quy hoạch \nnhân sự trẻ có tố chất lãnh đạo và năng lực quản lý. Các thí sinh xuất sắc sau cuộc \nthi được đào tạo, huấn luyện và phát triển theo lộ trình bài bản để trở thành đội ngũ \nlãnh đạo kế cận. Thực tế cho thấy, nhiều cá nhân đạt giải Trạng FPT qua các năm đã \nđảm nhiệm các vị trí quản lý, điều hành chủ chốt tại Tập đoàn và công ty thành viên. \nNăm 2025, cuộc thi tiếp tục được đổi mới với nhiều vòng thi và nội dung tranh biện \nchuyên sâu, giúp đánh giá toàn diện năng lực và bản lĩnh lãnh đạo của thí sinh. \nFPT 13 Under 35 là chương trình thường niên nhằm tôn vinh CBNV dưới 35 tuổi có \nthành tích nổi bật, đại diện cho thế hệ trẻ giàu tinh thần đổi mới, dám nghĩ dám làm và \nlan tỏa các giá trị cốt lõi của FPT gồm: Tôn trọng – Đổi mới – Đồng đội, Chí công – \nGương mẫu – Sáng suốt. Các cá nhân được lựa chọn không chỉ là hình mẫu truyền \ncảm hứng trong tổ chức mà còn nằm trong nhóm nhân sự nguồn, được xem xét tham \ngia hoạch định chiến lược và quy hoạch cán bộ. Năm 2025, chương trình được nâng \ncấp với hình thức thi theo nhóm và bổ sung thử thách ứng dụng AI, qua đó đánh giá \nnăng lực ứng dụng công nghệ, tư duy hợp tác và khả năng tối ưu hiệu quả công việc.\nFPT luôn nỗ lực tạo môi trường tốt nhất để người lao động phát huy tài năng. Trạng FPT – Cuộc thi lâu đời nhất của Tập đoàn, đóng vai trò quan trọng trong việc phát hiện, \nvinh danh và quy hoạch nhân sự trẻ.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về các chương trình luân chuyển, thăng tiến và các cuộc thi tìm kiếm tài năng trong Tập đoàn FPT nhằm phát triển và nuôi dưỡng đội ngũ lãnh đạo trẻ, nâng cao năng lực quản lý và phát huy tài năng người lao động.\nphoto: FPT luôn nỗ lực tạo môi trường tốt nhất để người lao động phát huy tài năng (trái) — Ảnh ba người đang trao đổi, dán giấy ghi chú với biểu tượng mặt cười, thể hiện môi trường làm việc sáng tạo và thân thiện.\nphoto: Top 6 Trạng FPT (phải) — Ảnh nhóm 6 người đứng trên sân khấu và ảnh chân dung trên màn hình, thể hiện cuộc thi tìm kiếm tài năng lãnh đạo trẻ của FPT.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "FPT luôn nỗ lực tạo môi trường tốt nhất để người lao động phát huy tài năng",
+              "location": "trái",
+              "description": "Ảnh ba người đang trao đổi, dán giấy ghi chú với biểu tượng mặt cười, thể hiện môi trường làm việc sáng tạo và thân thiện."
+            },
+            {
+              "type": "photo",
+              "title": "Top 6 Trạng FPT",
+              "location": "phải",
+              "description": "Ảnh nhóm 6 người đứng trên sân khấu và ảnh chân dung trên màn hình, thể hiện cuộc thi tìm kiếm tài năng lãnh đạo trẻ của FPT."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p083",
+          "page": 83,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Nội dung các phiên họp và Nghị quyết\nPhiên họp Thành phần tham dự Nội dung họp và Nghị quyết Ghi chú\nPhiên 01\nNgày 05/02/2025\nHĐQT: 06/07 thành viên.\nQuan sát viên:\n• BKS: 03/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành Nghị quyết số \n01.01-2025/NQ-HĐQTFPT ngày \n06/02/2025.\n• Thông qua Kết quả kinh doanh năm 2024;\n• Thông qua Kế hoạch kinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua Định hướng chiến lược 2025-2027, các chương trình \nchiến lược, kinh doanh trọng điểm và trình ĐHĐCĐ phê duyệt;\n• Thông qua ngày chốt danh sách và ngày họp ĐHĐCĐ.\nĐã công bố thông tin tại \nvăn bản số 24/FPT-FCC \nngày 06/02/2025.\nPhiên 02\nNgày 20/03/2025\nHĐQT: 07/07 thành viên.\nQuan sát viên:\n• BKS: 03/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành 02 Nghị quyết: \n• Nghị quyết số \n01.03-2025/NQ-HĐQTFPT ngày \n20/03/2025;\n• Nghị quyết số \n02.03-2025/NQ-HĐQTFPT ngày \n20/03/2025.\n• Thông qua Chương trình ĐHĐCĐ thường niên 2025 và trình ĐHĐCĐ \nphê duyệt;\n• Thông qua Quy chế tổ chức ĐHĐCĐ thường niên 2025;\n• Thông qua Báo cáo của HĐQT năm 2024, định hướng, kế hoạch \nkinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua Ngân sách thu nhập và thù lao của HĐQT năm 2025 và \ntrình ĐHĐCĐ phê duyệt;\n• Thông qua Báo cáo tài chính 2024 đã kiểm toán và trình ĐHĐCĐ \nphê duyệt;\n• Thông qua Phương án phân phối lợi nhuận năm 2024, Phương án \nphát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu \ncho cổ đông, Chính sách chi trả cổ tức tiền mặt năm 2025 và trình \nĐHĐCĐ phê duyệt;\n• Thông qua đề xuất ủy quyền cho HĐQT lựa chọn một trong bốn \ncông ty kiểm toán (Big4) thực hiện kiểm toán Báo cáo tài chính năm \n2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua đề xuất trình ĐHĐCĐ phê duyệt Phương án phát hành \ncổ phần cho cán bộ Quản lý cấp cao giai đoạn 2026-2030;\n• Thông qua việc tái bổ nhiệm Tổng giám đốc Nguyễn Văn Khoa \nnhiệm kỳ ba năm tiếp theo từ 29/03/2025 đến hết ngày \n28/03/2028;\nĐã công bố thông tin tại \nvăn bản số 60/FPT-FMC \nvà 62/FPT-FMC ngày \n21/03/2025.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nNội dung các phiên họp và nghị quyết của Hội đồng Quản trị FPT năm 2025, bao gồm thành phần tham dự, nội dung họp và các nghị quyết được thông qua.\n",
+          "visuals": []
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p159",
+          "path": ".bonus/pages/p159.jpg",
+          "sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+        },
+        {
+          "id": "FPT2025:p024",
+          "path": ".bonus/pages/p024.jpg",
+          "sha256": "8b49bf76f30258828abe09a58187c942dd30d9732b65e046ff0518a66ead9581"
+        },
+        {
+          "id": "FPT2025:p031",
+          "path": ".bonus/pages/p031.jpg",
+          "sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+        },
+        {
+          "id": "FPT2025:p060",
+          "path": ".bonus/pages/p060.jpg",
+          "sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+        },
+        {
+          "id": "FPT2025:p063",
+          "path": ".bonus/pages/p063.jpg",
+          "sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+        },
+        {
+          "id": "FPT2025:p073",
+          "path": ".bonus/pages/p073.jpg",
+          "sha256": "60868b8c54ce3c7d621c9ef4b47ae0cf0f9c9ec0cc905ab4c163af70333303f1"
+        },
+        {
+          "id": "FPT2025:p139",
+          "path": ".bonus/pages/p139.jpg",
+          "sha256": "ffb4495ec415fda3def066a90a3fe20bc3bf436724a66cd2d2d59412877fbdb1"
+        },
+        {
+          "id": "FPT2025:p083",
+          "path": ".bonus/pages/p083.jpg",
+          "sha256": "e3cc44958861ed1eb10a73b91bc9c54d3fc9a8c7f11afd9998908042636c2eed"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805207-Lkx2CUFrCquyV0N7kL9h",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01BGkcSozjqL1U1PLkaiV4ab",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Trang 63 (ảnh gốc trang PDF 62) có sơ đồ tròn FleziPT. Ba lớp có tên viết hoa, từ tâm ra ngoài: FLEZI FOUNDATION (trung tâm), FLEZI CREW (lớp giữa), FLEZI VERSE (lớp ngoài cùng).\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p063\",\"region\":\"Sơ đồ vòng tròn \\\"Nền tảng AI linh hoạt FleziPT\\\" ở phía phải trang (trang PDF 63, hiển thị số trang 62): lớp trung tâm FLEZI FOUNDATION, lớp giữa FLEZI CREW, lớp ngoài cùng FLEZI VERSE\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p159",
+    "FPT2025:p024",
+    "FPT2025:p031",
+    "FPT2025:p060",
+    "FPT2025:p063",
+    "FPT2025:p073",
+    "FPT2025:p139",
+    "FPT2025:p083"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p159",
+      "page": 159,
+      "image": ".bonus/pages/p159.jpg",
+      "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+    },
+    {
+      "id": "FPT2025:p024",
+      "page": 24,
+      "image": ".bonus/pages/p024.jpg",
+      "image_sha256": "8b49bf76f30258828abe09a58187c942dd30d9732b65e046ff0518a66ead9581"
+    },
+    {
+      "id": "FPT2025:p031",
+      "page": 31,
+      "image": ".bonus/pages/p031.jpg",
+      "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+    },
+    {
+      "id": "FPT2025:p060",
+      "page": 60,
+      "image": ".bonus/pages/p060.jpg",
+      "image_sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+    },
+    {
+      "id": "FPT2025:p063",
+      "page": 63,
+      "image": ".bonus/pages/p063.jpg",
+      "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+    },
+    {
+      "id": "FPT2025:p073",
+      "page": 73,
+      "image": ".bonus/pages/p073.jpg",
+      "image_sha256": "60868b8c54ce3c7d621c9ef4b47ae0cf0f9c9ec0cc905ab4c163af70333303f1"
+    },
+    {
+      "id": "FPT2025:p139",
+      "page": 139,
+      "image": ".bonus/pages/p139.jpg",
+      "image_sha256": "ffb4495ec415fda3def066a90a3fe20bc3bf436724a66cd2d2d59412877fbdb1"
+    },
+    {
+      "id": "FPT2025:p083",
+      "page": 83,
+      "image": ".bonus/pages/p083.jpg",
+      "image_sha256": "e3cc44958861ed1eb10a73b91bc9c54d3fc9a8c7f11afd9998908042636c2eed"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805201-ZIUVI6ZoUDVaZodFcPyT",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1816,
+        "completion_tokens": 83,
+        "total_tokens": 1899,
+        "cost": 0.0002231,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002231,
+          "upstream_inference_prompt_cost": 0.0001816,
+          "upstream_inference_completions_cost": 4.15e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1117.6381999976002,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805207-Lkx2CUFrCquyV0N7kL9h",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 30283,
+        "completion_tokens": 340,
+        "total_tokens": 30623,
+        "cost": 0.0031983,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0031983,
+          "upstream_inference_prompt_cost": 0.0030283,
+          "upstream_inference_completions_cost": 0.00017
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 8730.731900024693,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 11374.667899974156,
+  "query_id": "ft-i3",
+  "question": "Đọc sơ đồ tròn FleziPT: ba lớp có tên viết hoa được xếp từ tâm ra ngoài theo thứ tự nào?",
+  "split": "test",
+  "config": "vision"
+}

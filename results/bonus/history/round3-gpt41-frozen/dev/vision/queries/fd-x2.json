@@ -1,0 +1,438 @@
+{
+  "status": "answered",
+  "answer": "Nguyên tắc 3R trong quản lý chất thải được báo cáo giải thích là: Giảm thiểu (Reduce), Tái sử dụng (Reuse) và Tái chế (Recycle), nhằm ưu tiên giảm thiểu tác động môi trường và bảo đảm quản lý chất thải có trách nhiệm trong toàn bộ hoạt động vận hành.\n[FPT2025:p150 — phải, đoạn \"Quản lý chất thải\" – dòng \"FPT triển khai chương trình quản lý chất thải dựa trên nguyên tắc 3R – Giảm thiểu (Reduce), Tái sử dụng (Reuse) và Tái chế (Recycle)...\"]",
+  "citations": [
+    {
+      "id": "FPT2025:p150",
+      "region": "phải, đoạn \"Quản lý chất thải\" – dòng \"FPT triển khai chương trình quản lý chất thải dựa trên nguyên tắc 3R – Giảm thiểu (Reduce), Tái sử dụng (Reuse) và Tái chế (Recycle)...\""
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794802327-YuvLuH6v70Y4UCXkPUHr",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_Cf29PTwE9GAWoE5Tsa91vj5V",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"Nguyên tắc 3R trong quản lý chất thải\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Nguyên tắc 3R trong quản lý chất thải được báo cáo giải thích như thế nào?",
+      "model_queries": [
+        "Nguyên tắc 3R trong quản lý chất thải"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p150",
+          "page": 150,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p145",
+          "page": 145,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "score": 0.03057889822595705,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p144",
+          "page": 144,
+          "score": 0.0304147465437788,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "score": 0.02854251012145749,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p129",
+          "page": 129,
+          "score": 0.027651515151515153,
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p149",
+          "page": 149,
+          "score": 0.027526395173453996,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p079",
+          "page": 79,
+          "score": 0.02690501986276634,
+          "component_ranks": {
+            "dense": 11,
+            "tfidf": 18
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Nguyên tắc 3R trong quản lý chất thải được báo cáo giải thích như thế nào?"
+      ],
+      "context_ids": [
+        "FPT2025:p150",
+        "FPT2025:p145",
+        "FPT2025:p114",
+        "FPT2025:p144",
+        "FPT2025:p146",
+        "FPT2025:p129",
+        "FPT2025:p149",
+        "FPT2025:p079"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p150",
+          "page": 150,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Kết quả quan trắc môi trường nước thải tại FPT Tower \nKết quả\n2025\nQCVN \n14:2008/BTNMT\nTT Thông số Đơn vị\npH\nBOD5\n (20oC)\nTổng chất rắn lơ lửng (TSS) \nTổng chất rắn hòa tan (TDS)\nSunfua (tính theo H²S) \nAmoni (tính theo N)\nNitrat (NO³\n-\n) \nDầu mỡ động, thực vật\nTổng chất\nhoạt động bề mặt\nPhosphat (PO4\n3\n-)\nTổng Coliforms\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n-\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nMPN/100ml\n<0,03*\n8,31\n1.500\n10\n10\n5.000\n6,17\n20,1\n46\n515\n<0,03*\n3,97\n3,84\nKPH\n(MDL= 1,4)\n5 – 9\n50\n100\n1.000\n4,0\n10\n50\n20\nFPT triển khai chương trình quản lý chất thải dựa trên nguyên tắc 3R – Giảm thiểu \n(Reduce), Tái sử dụng (Reuse) và Tái chế (Recycle), nhằm ưu tiên giảm thiểu \ntác động môi trường và bảo đảm quản lý chất thải có trách nhiệm trong toàn bộ \nhoạt động vận hành.\nChất thải phát sinh chủ yếu là chất thải sinh hoạt từ hoạt động văn phòng và \nsinh hoạt hằng ngày, gồm các vật liệu không chứa yếu tố nguy hại như: giấy, bao \nbì, thực phẩm dư thừa, chai lọ và các vật tư tiêu hao tập trung chủ yếu tại các khu \nvực văn phòng làm việc, căng-tin, phòng họp, khu vệ sinh và không gian sinh hoạt \nchung trong các tòa nhà. \nBên cạnh đó, một lượng nhỏ chất thải nguy hại như pin, bóng đèn huỳnh quang, \nhộp mực in và dầu thải phát sinh từ hoạt động bảo trì, bảo dưỡng hệ thống kỹ thuật. \nCác loại chất thải này chiếm tỷ trọng thấp trong tổng lượng chất thải phát sinh và \nđược quản lý theo quy trình riêng, thu gom và xử lý bởi các đơn vị được cấp phép, \nbảo đảm tuân thủ đầy đủ các quy định hiện hành.\nNhằm nâng cao hiệu quả quản lý chất thải và bảo đảm tuân thủ các quy định pháp \nluật hiện hành, FPT triển khai đồng bộ nhiều giải pháp quản lý, bao gồm:\n• Bố trí hệ thống thùng chứa chất thải phân loại ngay tại nguồn;\n• Tổ chức thu gom chất thải sinh hoạt theo lịch trình cố định và vận chuyển về\nkhu vực trung chuyển của tòa nhà;\n• Thực hiện công tác vệ sinh thường xuyên tại các khu vực công cộng như: hành lang, \ncầu thang và khu vệ sinh nhằm hạn chế tình trạng phát sinh chất thải thứ cấp;\n• Hợp tác với các đơn vị có đủ năng lực và chức năng để thực hiện việc thu gom, \nvận chuyển và xử lý chất thải sinh hoạt theo đúng quy định pháp luật;\n• Thiết lập khu vực lưu giữ riêng cho chất thải nguy hại (như pin, bóng đèn, \nhộp mực in…) và gắn biển cảnh báo, tuân thủ đầy đủ các yêu cầu an toàn;\n• Đẩy mạnh công tác truyền thông nội bộ nhằm nâng cao nhận thức của CBNV về \nnhận diện, phân loại và quản lý các loại chất thải phát sinh trong môi trường làm việc;\n• Áp dụng các giải pháp công nghệ nhằm thay thế dần máy tính cá nhân và máy \ntính xách tay bằng các thiết bị có khả năng kéo dài vòng đời sử dụng, qua đó \ngiảm thiểu lượng chất thải công nghệ phát sinh hằng năm. Một trong \nnhững giải pháp trọng tâm là việc triển khai mô hình Thin Client (kiến trúc điện toán \ntập trung), trong đó nhiều thiết bị đầu cuối được kết nối và vận hành thông qua hệ \nthống máy chủ tập trung. Giải pháp này không chỉ giúp tối ưu hiệu suất vận hành, \ntiết kiệm năng lượng mà còn góp phần đáng kể trong việc giảm phát sinh rác thải \nđiện tử. \nKết quả phân tích môi trường nước thải tại vị trí quan trắc của Tập đoàn cho thấy các \nthông số đều nằm trong giới hạn cho phép theo tiêu chuẩn QCVN 14:2008/BTNMT.\n• Quả",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Kết quả quan trắc môi trường nước thải tại FPT Tower",
+              "location": "trái",
+              "description": "Bảng gồm các thông số môi trường nước thải, đơn vị đo, kết quả năm 2025 và giới hạn theo tiêu chuẩn QCVN 14:2008/BTNMT."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p145",
+          "page": 145,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Với đặc thù hoạt động chủ yếu trong lĩnh vực công nghệ và dịch vụ, FPT không sử dụng \nnguyên vật liệu đầu vào với quy mô lớn như các doanh nghiệp sản xuất truyền \nthống. Tuy nhiên, trong toàn bộ hoạt động vận hành và triển khai dịch vụ, FPT cam kết \nưu tiên sử dụng các nguyên vật liệu thân thiện với môi trường, có nguồn gốc bền vững, \nnhằm giảm thiểu các tác động tiêu cực đến môi trường và xã hội.\nSong song, FPT tăng cường hợp tác với các đối tác và các bên liên quan \ntrong chuỗi cung ứng để thúc đẩy thực hành phát triển bền vững, nâng cao \nnăng lực quản trị và khả năng chống chịu của chuỗi cung ứng. Trên cơ sở tính khả thi, \nQuản lý nguồn nguyên liệu\nFPT ưu tiên sử dụng nguyên vật liệu và vật liệu tái chế, qua đó giảm thiểu sự phụ \nthuộc vào nguồn nguyên liệu nguyên sinh. Bên cạnh đó, FPT không thực hiện mua \nnguyên vật liệu từ các khu vực có giá trị đa dạng sinh học quan trọng ở cấp quốc gia \nhoặc toàn cầu, góp phần bảo tồn hệ sinh thái và đa dạng sinh học.\nTrên nền tảng các nguyên tắc cốt lõi đã xác lập, FPT chủ động triển khai các cơ chế \ntrong lựa chọn và quản lý nguyên vật liệu bền vững, từng bước hoàn thiện công tác \nmua sắm có trách nhiệm, quản trị chuỗi cung ứng và sử dụng hiệu quả tài nguyên \ntrong toàn bộ hoạt động vận hành của Tập đoàn.\nBền vững là trọng tâm\nNguyên tắc Hành động\n• Ưu tiên sử dụng các vật liệu được chứng nhận bởi bên thứ ba hoặc đáp ứng các tiêu chuẩn phát triển bền vững được công nhận \nrộng rãi trên phạm vi quốc tế, nhằm giảm thiểu các tác động tiêu cực đến môi trường và xã hội;\n• Ưu tiên triển khai sử dụng các vật liệu thân thiện với môi trường trong toàn bộ hoạt động vận hành nội bộ. Theo đó, Tập đoàn \nthay thế nước đóng chai nhựa dùng một lần bằng chai thủy tinh và vật liệu tái chế tại 100% cuộc họp cấp Tập đoàn; \n• Lựa chọn và hợp tác với nhà cung cấp có trách nhiệm về môi trường.\nGiảm thiểu việc sử dụng các \nchất gây hại\n• Từng bước loại bỏ các chất có nguy cơ gây ảnh hưởng đến sức khỏe con người và môi trường thông qua việc ưu tiên áp dụng \ncác giải pháp và vật liệu thay thế an toàn hơn khi có thể. Cách tiếp cận này nhằm bảo đảm an toàn trong quá trình sử dụng, \nđồng thời tuân thủ đầy đủ các quy định pháp luật và yêu cầu quản lý tại tất cả các khu vực mà FPT đang hoạt động.\nThúc đẩy hiệu quả sử dụng\ntài nguyên\n• Cải tiến quy trình và tối ưu hóa vận hành nhằm nâng cao hiệu quả sử dụng vật liệu, hạn chế phát sinh chất thải và thúc đẩy \nviệc sử dụng bền vững các tài sản, góp phần kéo dài vòng đời sử dụng;\n• Triển khai các chương trình thu hồi, tái sử dụng và luân chuyển trang thiết bị văn phòng giữa các đơn vị theo quy trình quản lý \ntài sản nhằm hạn chế phát sinh chất thải. Các tài sản được thu hồi và tái phân bổ bao gồm bàn ghế, trang thiết bị văn phòng \nvà các vật dụng liên quan.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về quản lý nguồn nguyên liệu của FPT, tập trung vào cam kết sử dụng nguyên vật liệu thân thiện môi trường, bền vững và các nguyên tắc, hành động cụ thể để giảm thiểu tác động tiêu cực đến môi trường và xã hội.\ntable: Nguyên tắc và Hành động trong quản lý nguồn nguyên liệu (dưới) — Bảng liệt kê các nguyên tắc trọng tâm gồm Bền vững là trọng tâm, Giảm thiểu việc sử dụng các",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Nguyên tắc và Hành động trong quản lý nguồn nguyên liệu",
+              "location": "dưới",
+              "description": "Bảng liệt kê các nguyên tắc trọng tâm gồm Bền vững là trọng tâm, Giảm thiểu việc sử dụng các chất gây hại, Thúc đẩy hiệu quả sử dụng tài nguyên cùng các hành động tương ứng nhằm ưu tiên sử dụng vật liệu thân thiện môi trường, loại bỏ chất nguy hại, cải tiến quy trình và thu hồi tái sử dụng tài sản."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "01\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng, \nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần \nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới \nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải \nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam \nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển \nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý \nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận đường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm \ngiảm phát thải\n02\nXác định mục tiêu giảm phát \nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm \nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng \nlượng sạch, song song với triển \nkhai các giải pháp nâng cao \nhiệu quả năng lượng tại các cơ \nsở vận hành, bao gồm: Tòa nhà \nvăn phòng; Trung tâm dữ liệu.\n• Tối ưu hệ thống điện và ứng \ndụng các giải pháp quản lý \nnăng lượng thông minh;\n• Đẩy mạnh sử dụng điện từ \nnguồn năng lượng tái tạo \nnhư năng lượng mặt trời;\n• Cân nhắc mua chứng chỉ \nnăng lượng tái tạo (REC).\n• Tòa nhà văn phòng: Lắp đặt \nđèn LED, hệ thống cảm biến \nthông minh; tích hợp cảm biến \nnhiệt độ và độ ẩm để điều \nkhiển hệ thống điều hòa tự động;\n• Trung tâm dữ liệu: Tối ưu hệ \nthống làm mát thông qua các \ngiải pháp Liquid Cooling, \nAI-driven Thermal Management.\nSử dụng môi chất lạnh có chỉ số \nGWP thấp; áp dụng cơ chế \nvận hành tiết kiệm năng lượng \ncho hệ thống máy chủ, áp dụng \ntiêu chuẩn xanh cho hạ tầng.\n• Theo dõi các tiêu chuẩn và \nhạn mức phát thải của Việt Nam \nđể triển khai kiểm kê khí nhà kính;\n• Báo cáo, đo lường và xác nhận \nlượng khí nhà kính/khí thải \nđịnh kỳ;\n• Giám sát và theo dõi chặt chẽ các \nhoạt động để đảm bảo hiệu quả \ntrong việc giảm phát thải.\n•\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày lộ trình Net Zero 2040 của tập đoàn FPT, bao gồm các bước và mục tiêu giảm phát thải khí nhà kính đến năm 2030 và hướng tới mục tiêu Net Zero vào năm 2040.\ndiagram: Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040 (giữa trang) — 5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040",
+              "location": "giữa trang",
+              "description": "5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p144",
+          "page": 144,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Trước những thách thức toàn cầu về biến đổi khí hậu và suy giảm tài nguyên, FPT \nkhẳng định cam kết giảm thiểu tác động môi trường thông qua giám sát chặt chẽ, \nchủ động thích ứng và ứng dụng linh hoạt công nghệ trong quản lý năng lượng và \ntài nguyên. Các giải pháp môi trường được Tập đoàn triển khai đồng bộ, nhất quán \ntheo chính sách môi trường đã công bố và đóng vai trò kim chỉ nam cho toàn bộ \nhoạt động của Tập đoàn.\nVới đặc thù là doanh nghiệp công nghệ, FPT không sử dụng nguyên vật liệu đầu vào \ntrực tiếp trong quá trình nghiên cứu, phát triển sản phẩm và dịch vụ, qua đó góp \nphần giảm tiêu thụ tài nguyên hữu hạn và hạn chế tác động đến môi trường tự nhiên. \nTrên nền tảng đó, FPT xác định bảo vệ môi trường và phát triển bền vững là trọng \ntâm trong chiến lược dài hạn, tập trung vào các mục tiêu: (1) Duy trì và tăng cường \nthực thi chính sách môi trường; (2) Tuân thủ pháp luật; (3) Quản lý nguyên liệu; (4) \nQuản lý hiệu quả tiêu thụ năng lượng và kiểm kê khí nhà kính; (5) Quản lý nước thải, \nchất thải và các nguồn phát thải khác; (6) Xây dựng môi trường làm việc xanh.\nFPT tiếp tục kiên định triển khai chính sách môi trường, tập trung vào giảm tiêu thụ \nnăng lượng, hạn chế hóa chất độc hại, kiểm soát và xử lý chất thải, thúc đẩy tái chế, \nkiểm soát phát thải khí nhà kính và khuyến khích tiêu dùng bền vững. Song song với \ncác giải pháp kỹ thuật, Tập đoàn đẩy mạnh truyền thông và đào tạo nhằm hình thành \nvăn hóa trách nhiệm môi trường trên toàn hệ thống.\nChính sách môi trường của FPT được xây dựng với cam kết và lộ trình cụ thể, phù hợp \nvới mục tiêu môi trường quốc gia. Theo đó, Tập đoàn đặt mục tiêu đến năm 2026, \n2,5% điện năng tiêu thụ đến từ năng lượng tái tạo và 100% hệ thống chiếu sáng \nchuyển sang đèn LED; đến năm 2030, giảm 15,8% tổng lượng phát thải khí nhà kính.\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nDuy trì và tăng cường thực thi chính sách môi trường\nTuân thủ pháp luật\nThực hiện Báo cáo đánh giá tác động môi trường tất cả các dự án theo \nquy định Luật Bảo vệ môi trường 2020 và Nghị định 08/2022/NĐ-CP;\nTổ chức thu gom, phân loại, lưu giữ, vận chuyển và xử lý chất thải rắn \nsinh hoạt, chất thải rắn công nghiệp, chất thải nguy hại theo đúng quy định; \nQuản lý, vận hành hệ thống thu gom và xử lý nước thải, đảm bảo toàn \nbộ nước thải phát sinh đạt Quy chuẩn kỹ thuật quốc gia trước khi thải \nra môi trường;\nTriển khai các biện pháp phòng ngừa, giảm thiểu tác động tiêu cực và \nchủ động ứng phó với rủi ro, sự cố môi trường;\nThực hiện giám sát, báo cáo định kỳ các chỉ tiêu môi trường và gửi \ncơ quan quản lý nhà nước kiểm tra, giám sát theo quy định. \nFPT cụ thể hóa các cam kết thông qua việc tuân thủ nghiêm ngặt quy định pháp luật \nvề môi trường. Đây là yêu cầu nền tảng, bảo đảm mọi hoạt động của Tập đoàn được \ntriển khai minh bạch, nhất quán và phù hợp với các chuẩn mực phát triển bền vững.\nTrong nhiều năm qua, Tập đoàn không ghi nhận bất kỳ biên bản hay thông báo nào \nliên quan đến việc vi phạm quy định pháp luật về môi trường. Thông tin này được \nFPT khẳng định dựa trên các tài liệu, văn bản đến và đi được lưu trữ chặt chẽ trên \nhệ thống thông tin dữ liệu của Tập đoàn. \nMột số hoạt động quan trọng liên quan đến môi trường được FPT triển khai t",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Hình ảnh minh họa hoạt động vì môi trường xanh",
+              "location": "dưới bên trái",
+              "description": "Hình ảnh bàn tay nâng đỡ cây xanh với các biểu tượng liên quan đến môi trường xung quanh cây."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế \nđược công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của \nViện Tài nguyên thế giới (WRI) và tiêu chuẩn ISO 14040/14044.\nViệc nâng cao độ chính xác của dữ liệu phát thải được Tập đoàn xác định là một \nquá trình cải tiến liên tục. Trên cơ sở mở rộng nguồn dữ liệu, hoàn thiện phương \npháp tính toán và nâng cao năng lực phân tích, FPT định kỳ rà soát, cập nhật mô hình \nvà điều chỉnh lộ trình giảm phát thải phù hợp với từng giai đoạn phát triển và mức độ \nsẵn sàng của dữ liệu.\nFPT chủ động thực hiện kiểm kê phát thải khí nhà kính tại trụ sở chính, các toà nhà, \nđịa điểm kinh doanh tại Việt Nam của 08 công ty thành viên. Phạm vi xác định dấu \nchân carbon của FPT được xây dựng phù hợp với khuôn khổ GHG Protocol và các \nnguồn phát thải trọng yếu, có liên quan trực tiếp đến hoạt động của Tập đoàn, \ntrên cơ sở mức độ sẵn có và độ tin cậy của dữ liệu. \nCác nguồn phát thải khí nhà kính được FPT thực hiện kiểm kê trên 03 phạm vi bao gồm:\n• Phạm vi 1: Phát thải khí nhà kính trực tiếp phát sinh từ các nguồn do FPT sở hữu hoặc \nkiểm soát, bao gồm: tiêu thụ xăng dầu cho phương tiện đi lại thuộc sở hữu của \nTập đoàn, máy phát điện, thất thoát môi chất lạnh của hệ thống…; \n• Phạm vi 2: Phát thải khí nhà kính gián tiếp phát sinh từ việc sử dụng điện, nước được \nmua từ nhà cung cấp bên ngoài;\n• Phạm vi 3 (đang nghiên cứu): Phát thải khí nhà kính gián tiếp khác do các hoạt động \ncủa Tập đoàn nhưng từ các nguồn mà Tập đoàn không sở hữu.\nQuản lý hiệu quả tiêu thụ năng lượng và kiểm kê khí nhà kính\n• Phạm vi và phương pháp thu thập dữ liệu\nNăm 2025, lượng phát thải khí nhà kính của FPT là 127.952 tấn CO2. Hai nguồn \nphát thải khí nhà kính phát sinh chủ yếu là xăng dầu dùng cho xe, máy phát điện \n(Phạm vi 1) và điện năng phục vụ cho sản xuất, vận hành máy móc thiết bị (Phạm vi \n2) thuộc sở hữu của FPT.\nNăm 2025, lượng phát thải khí nhà kính của FPT giảm so với năm 2024, trong khi \nhoạt động kinh doanh tiếp tục duy trì tăng trưởng cho thấy các nỗ lực tối ưu vận hành, \nứng dụng công nghệ và quản lý năng lượng đã phát huy hiệu quả, ngay cả khi quy mô \nhoạt động không ngừng mở rộng.\nNguồn phát thải khí nhà kính chủ yếu của Tập đoàn phát sinh từ Phạm vi 2, chiếm \nkhoảng 96% tổng lượng phát thải của toàn Tập đoàn. Trong đó, tiêu thụ điện năng \ntại các trung tâm Dữ liệu và tòa nhà văn phòng/ký túc xá là nguồn phát thải chính, \nphản ánh đặc thù hoạt động của FPT trong lĩnh vực công nghệ và dịch vụ. \nTrên hành trình hướng tới mục tiêu Net Zero vào năm 2040, Tập đoàn kiên định \ntập trung đầu tư vào các giải pháp dài hạn, nâng cao hiệu quả vận hành hạ tầng \nvà mạng lưới, đồng hành cùng chuỗi cung ứng trong quá trình giảm phát thải và \nthúc đẩy đổi mới sáng tạo thông qua hợp tác với các đối tác, đặc biệt trong các \nlĩnh vực giảm phát thải. Cách tiếp cận này giúp FPT từng bước xây dựng nền tảng \ntăng trưởng bền vững song hành với trách nhiệm khí hậu.\n• Kết quả thực hiện kiểm kê khí nhà kính\nTổng hợp lượng phát thải khí nhà kính của FPT năm 2025\nPhạm vi Năm 2023 Năm 2024 Năm 2025\nPhạm vi 1 13.217 4.826 4.383\nPhạm vi 2 109.696 138.748 123.569\n122.913 143.574 127.952\nPhạm vi 3\nTổng\nChưa triển kh",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025",
+              "location": "phải",
+              "description": "Bảng tổng hợp lượng phát thải khí nhà kính theo các phạm vi (Phạm vi 1, Phạm vi 2, Phạm vi 3) qua các năm 2023, 2024 và 2025, đơn vị tính là tấn CO2 tương đương."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p129",
+          "page": 129,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Hoạt động thu thập, xử lý, lưu trữ và sử dụng dữ liệu của các bên liên quan trong \nquá trình quản trị dữ liệu được quy định thống nhất trong toàn Tập đoàn nhằm \nđảm bảo các yếu tố gồm: tính bảo mật; tính toàn vẹn; tính sẵn sàng; khả năng truy \ncập và chất lượng của dữ liệu.\nViệc thu thập, xử lý, lưu trữ và sử dụng dữ liệu của Tập đoàn được tuân thủ theo các \nnguyên tắc sau:\n• Nguyên tắc hợp pháp: tất cả các hành động diễn ra bên trong hệ thống quản trị \ndữ liệu phải tuân thủ theo quy định pháp luật;\n• Nguyên tắc mục đích: dữ liệu chỉ được sử dụng đúng theo mục đích hợp pháp đã \nđược phê duyệt bởi các cấp có thẩm quyền;\n• Nguyên tắc về chất lượng dữ liệu: dữ liệu phải đảm bảo được tính sẵn có, \ntoàn vẹn và phù hợp với mục đích sử dụng xuyên suốt vòng đời của dữ liệu;\n• Nguyên tắc an ninh: đảm bảo tính an toàn thông tin xuyên suốt trong quá trình \nthu thập, xử lý, lưu trữ và sử dụng dữ liệu. Không tiết lộ các thông tin bảo mật cho \nbất kỳ ai bên ngoài Công ty, trừ trường hợp do yêu cầu công việc cần phải thực \nhiện các biện pháp bảo vệ phù hợp như ký kết cam kết bảo mật thông tin với các \nbên liên quan trước khi tiết lộ;\n• Nguyên tắc quản trị: dữ liệu liên quan đến khách hàng của các công ty thành viên \nđược Tập đoàn thu thập, khai thác, sử dụng và quản lý, lưu trữ tập trung nhằm \nđiều chỉnh, cập nhật, bảo mật và cải tiến sản phẩm, dịch vụ, giải pháp, ứng dụng, \nthiết bị mà FPT đang và sẽ cung cấp tới khách hàng. \nHệ thống vận hành quản trị dữ liệu gồm các chức năng: thu thập dữ liệu từ các \nnguồn và lưu trữ; phân tích, bóc tách dữ liệu quan trọng, có giá trị; xử lý dữ liệu \ntương ứng với mục đích, ứng dụng. \nTập đoàn cũng đẩy mạnh việc ứng dụng công nghệ trong quản trị dữ liệu và thực hiện\nquản trị dữ liệu xuyên suốt đến công ty thành viên để đảm bảo việc cung cấp dữ \nliệu đúng mục đích và linh hoạt nhất. \nQuản trị dữ liệu và an toàn thông tin\n• Phương pháp quản trị và nguyên tắc chung\nMô hình quản trị dữ liệu của FPT được thiết lập để đảm bảo đồng thời các\nyếu tố sau:\n• Trách nhiệm lãnh đạo cam kết cao nhất trong việc thu thập, xử lý, lưu trữ và sử \ndụng dữ liệu;\n• Xác định tiêu chuẩn, thủ tục, quy trình để hướng dẫn việc quản lý, khai thác dữ liệu;\n• Xác định công nghệ, cơ sở hạ tầng được sử dụng thống nhất trong Tập đoàn để \nđảm bảo tính an toàn, bảo mật khi khai thác dữ liệu; \n• Thực thi nghiêm túc trong toàn Tập đoàn các chính sách liên quan đã ban hành;\n• Giám sát tuân thủ và xác định rủi ro trong trường hợp bị rò rỉ dữ liệu. \n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về quản trị dữ liệu và an toàn thông tin tại FPT, bao gồm phương pháp quản trị, nguyên tắc chung và mô hình quản trị dữ liệu nhằm đảm bảo các yếu tố bảo mật, toàn vẹn, sẵn sàng và chất lượng dữ liệu.\nphoto: Hình ảnh biểu tượng khóa bảo mật trên nền mạch điện tử (phải) — Hình ảnh minh họa về bảo mật thông tin, liên quan đến chủ đề quản trị dữ liệu và an toàn thông tin.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Hình ảnh biểu tượng khóa bảo mật trên nền mạch điện tử",
+              "location": "phải",
+              "description": "Hình ảnh minh họa về bảo mật thông tin, liên quan đến chủ đề quản trị dữ liệu và an toàn thông tin."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p149",
+          "page": 149,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng \nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô \nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các \nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau: \n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần \nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;\n• Tuyên truyền nâng cao nhận thức của CBNV về tiết kiệm nước, bảo vệ môi trường \nthông qua các bài viết, hình ảnh, video trên các kênh nội bộ, poster dán tại các \nkhu vực công cộng;\n• Tích cực sử dụng nguồn nước ngầm và nước mưa; \n• Định kỳ kiểm tra, bảo trì hệ thống đường ống nước để phát hiện, sửa chữa kịp thời các \nchỗ rò rỉ, tránh thất thoát, đồng thời điều chỉnh áp suất nước phù hợp về kỹ thuật.\nFPT luôn đảm bảo thực hiện các quy định thống nhất trong các tòa nhà.\n Đơn vị tính: m3\nLà doanh nghiệp hoạt động chủ yếu trong lĩnh vực công nghệ và cung cấp dịch vụ, \ncác hoạt động kinh doanh cốt lõi của FPT không phát sinh tác động đáng kể đến \nmôi trường như các doanh nghiệp sản xuất. Tuy nhiên, trong phạm vi hoạt động vận \nhành, đặc biệt tại các trụ sở làm việc và các tòa nhà do FPT sở hữu, FPT cam kết \ntuân thủ nghiêm ngặt các quy định pháp luật và chính sách liên quan đến tài nguyên \nnước, đồng thời triển khai các biện pháp nhằm nâng cao hiệu quả sử dụng nước và \ngiảm cường độ tiêu thụ nước.\nFPT không ghi nhận bất kỳ vi phạm pháp luật nào liên quan đến việc khai thác, \nsử dụng và xả thải nước. Ở cấp độ chính sách, cam kết quản lý tài nguyên nước của \nFPT được áp dụng thống nhất trên toàn bộ các đơn vị, trụ sở và cơ sở thuộc sở hữu \ncủa Tập đoàn, cũng như đối với CBNV, đối tác, nhà cung cấp, nhà thầu và các bên \nliên quan khác.\nKhi thiết kế các tòa nhà, FPT chú trọng xây dựng hệ thống lưu trữ nước mưa, hệ thống \nlọc nước thải để tận dụng tối đa nguồn nước này cho một số mục đích phù hợp như \ntưới cây, giúp tối ưu chi phí tiêu thụ nước, đặc biệt vào mùa khô. Ngoài ra, hệ thống \nhồng ngoại và máy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây \nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển \ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên. \nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo \nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và \nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không \nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên \ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về quản lý nước thải và các nguồn phát thải khác của FPT, tập trung vào quản lý nước và nước thải, các biện pháp tiết kiệ",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ nước",
+              "location": "dưới",
+              "description": "So sánh tiêu thụ nước theo đơn vị m3 trong các năm 2023, 2024, 2025 cùng chênh lệch về mức tiêu thụ và tỷ lệ tăng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p079",
+          "page": 79,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Mô hình quản trị và \nvai trò của các bên liên quan\n01\n02\n03\n04\nQuản trị công ty năm 2025\nBáo cáo của HĐQT\nBáo cáo của Ban Kiểm soát\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nMục lục phần Quản trị công ty trong báo cáo thường niên FPT 2025, liệt kê các nội dung chính của phần này.\nphoto: Biểu tượng quản trị công ty (phải) — Hình ảnh biểu tượng người và các bánh răng thể hiện quản trị và vận hành công ty.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Biểu tượng quản trị công ty",
+              "location": "phải",
+              "description": "Hình ảnh biểu tượng người và các bánh răng thể hiện quản trị và vận hành công ty."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p150",
+          "path": ".bonus/pages/p150.jpg",
+          "sha256": "04e39df8fdabcbc8347ac2f971b935e8d8a14e95ea06bd300a3c575c3f8a7a97"
+        },
+        {
+          "id": "FPT2025:p145",
+          "path": ".bonus/pages/p145.jpg",
+          "sha256": "256e49f46978c796aa3a0b63e4b6bac4c81d23783fe4766fe4db2471ef8949e3"
+        },
+        {
+          "id": "FPT2025:p114",
+          "path": ".bonus/pages/p114.jpg",
+          "sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+        },
+        {
+          "id": "FPT2025:p144",
+          "path": ".bonus/pages/p144.jpg",
+          "sha256": "b7c8b0e2d505a4dc32cc1edd6798400e12e409d3d732373f25d01444537b48a7"
+        },
+        {
+          "id": "FPT2025:p146",
+          "path": ".bonus/pages/p146.jpg",
+          "sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+        },
+        {
+          "id": "FPT2025:p129",
+          "path": ".bonus/pages/p129.jpg",
+          "sha256": "f2dc748fb6c972ec1416572ea92f85db8a905c2e8b4f19310f6881fa160df611"
+        },
+        {
+          "id": "FPT2025:p149",
+          "path": ".bonus/pages/p149.jpg",
+          "sha256": "b2c242eff4cc7a91e0f87a77340a7876ece4871c4d92effee0f193a61dc6db63"
+        },
+        {
+          "id": "FPT2025:p079",
+          "path": ".bonus/pages/p079.jpg",
+          "sha256": "8e91fe0b7062c0186cfe6793a9badf53539e34aa6121be1868914533b854895f"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794802341-vIYUqfvJgVkKzESkMOO2",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_ABPlCDfAW1nya7fxESzNbzM5",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Nguyên tắc 3R trong quản lý chất thải được báo cáo giải thích là: Giảm thiểu (Reduce), Tái sử dụng (Reuse) và Tái chế (Recycle), nhằm ưu tiên giảm thiểu tác động môi trường và bảo đảm quản lý chất thải có trách nhiệm trong toàn bộ hoạt động vận hành.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p150\",\"region\":\"phải, đoạn \\\"Quản lý chất thải\\\" – dòng \\\"FPT triển khai chương trình quản lý chất thải dựa trên nguyên tắc 3R – Giảm thiểu (Reduce), Tái sử dụng (Reuse) và Tái chế (Recycle)...\\\"\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p150",
+    "FPT2025:p145",
+    "FPT2025:p114",
+    "FPT2025:p144",
+    "FPT2025:p146",
+    "FPT2025:p129",
+    "FPT2025:p149",
+    "FPT2025:p079"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p150",
+      "page": 150,
+      "image": ".bonus/pages/p150.jpg",
+      "image_sha256": "04e39df8fdabcbc8347ac2f971b935e8d8a14e95ea06bd300a3c575c3f8a7a97"
+    },
+    {
+      "id": "FPT2025:p145",
+      "page": 145,
+      "image": ".bonus/pages/p145.jpg",
+      "image_sha256": "256e49f46978c796aa3a0b63e4b6bac4c81d23783fe4766fe4db2471ef8949e3"
+    },
+    {
+      "id": "FPT2025:p114",
+      "page": 114,
+      "image": ".bonus/pages/p114.jpg",
+      "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+    },
+    {
+      "id": "FPT2025:p144",
+      "page": 144,
+      "image": ".bonus/pages/p144.jpg",
+      "image_sha256": "b7c8b0e2d505a4dc32cc1edd6798400e12e409d3d732373f25d01444537b48a7"
+    },
+    {
+      "id": "FPT2025:p146",
+      "page": 146,
+      "image": ".bonus/pages/p146.jpg",
+      "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+    },
+    {
+      "id": "FPT2025:p129",
+      "page": 129,
+      "image": ".bonus/pages/p129.jpg",
+      "image_sha256": "f2dc748fb6c972ec1416572ea92f85db8a905c2e8b4f19310f6881fa160df611"
+    },
+    {
+      "id": "FPT2025:p149",
+      "page": 149,
+      "image": ".bonus/pages/p149.jpg",
+      "image_sha256": "b2c242eff4cc7a91e0f87a77340a7876ece4871c4d92effee0f193a61dc6db63"
+    },
+    {
+      "id": "FPT2025:p079",
+      "page": 79,
+      "image": ".bonus/pages/p079.jpg",
+      "image_sha256": "8e91fe0b7062c0186cfe6793a9badf53539e34aa6121be1868914533b854895f"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794802327-YuvLuH6v70Y4UCXkPUHr",
+      "model": "openai/gpt-4.1",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 625,
+        "completion_tokens": 19,
+        "total_tokens": 644,
+        "cost": 0.001402,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001402,
+          "upstream_inference_prompt_cost": 0.00125,
+          "upstream_inference_completions_cost": 0.000152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 8466.349399997853,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794802341-vIYUqfvJgVkKzESkMOO2",
+      "model": "openai/gpt-4.1",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 17750,
+        "completion_tokens": 163,
+        "total_tokens": 17913,
+        "cost": 0.036804,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.036804,
+          "upstream_inference_prompt_cost": 0.0355,
+          "upstream_inference_completions_cost": 0.001304
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 21198.68219998898,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 29709.039199980907,
+  "query_id": "fd-x2",
+  "question": "Nguyên tắc 3R trong quản lý chất thải được báo cáo giải thích như thế nào?",
+  "split": "dev",
+  "config": "vision"
+}

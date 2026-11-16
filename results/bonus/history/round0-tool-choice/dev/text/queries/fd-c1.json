@@ -1,0 +1,306 @@
+{
+  "status": "answered",
+  "answer": "Trên biểu đồ ROE giai đoạn 2021–2025, năm có ROE cao nhất là năm 2024 với 28,5%. ROE năm 2025 là 28,1%, thấp hơn đỉnh năm 2024 là 0,4 điểm phần trăm.\n[FPT2025:p011 — dưới, biểu đồ đường ROE 2021-2025, các giá trị phần trăm ROE từng năm]",
+  "citations": [
+    {
+      "id": "FPT2025:p011",
+      "region": "dưới, biểu đồ đường ROE 2021-2025, các giá trị phần trăm ROE từng năm"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801375-pRo1ZAsNoLfjTdmPlocA",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_BlXEuKh6eXpPGDj6btFw9SaG",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"ROE 2021 2025\",\"biểu đồ ROE 2021 2025\",\"ROE cao nhất 2021 2025\",\"ROE năm 2025 thấp hơn đỉnh bao nhiêu\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trên biểu đồ ROE giai đoạn 2021–2025, năm nào cao nhất và ROE năm 2025 thấp hơn đỉnh bao nhiêu điểm phần trăm?",
+      "model_queries": [
+        "ROE 2021 2025",
+        "biểu đồ ROE 2021 2025",
+        "ROE cao nhất 2021 2025",
+        "ROE năm 2025 thấp hơn đỉnh bao nhiêu"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "score": 0.03200204813108039,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p012",
+          "page": 12,
+          "score": 0.028594771241830064,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "score": 0.028258706467661692,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 15
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trên biểu đồ ROE giai đoạn 2021–2025, năm nào cao nhất và ROE năm 2025 thấp hơn đỉnh bao nhiêu điểm phần trăm?"
+      ],
+      "context_ids": [
+        "FPT2025:p011",
+        "FPT2025:p010",
+        "FPT2025:p012",
+        "FPT2025:p058"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2021 2022 2023 2024 2025\n30\n20\n10\n0\nTỷ suất sinh lời\ntrên vốn chủ sở hữu (ROE)\n28,1%\nTỷ suất sinh lời\ntrên tổng tài sản (ROA) \n14,1%\nROA (%)\nROE (%)\n26,7% 27,7% 27,9% 28,5% 28,1%\n11,4% 11,9% 13,6% 14,4% 14,1%\n1.697 2.011 2.374 2.741 3.185\n2021 2022 2023 2024 2025\n3.500\n3.000\n2.500\n2.000\n1.500\n1.000\n500\n0\n16,2% so với cùng kỳ\nCổ tức bằng tiền mặt\n3.185 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n5.750 7.112 8.167 10.117 11.078\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n9,5% so với cùng kỳ\nĐóng góp Ngân sách Nhà nước\nTỷ VNĐ 11.078\nĐơn vị: Tỷ VNĐ\nĐảm bảo tăng trưởng ổn định (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chỉ số tài chính quan trọng của FPT năm 2025, bao gồm cổ tức tiền mặt, đóng góp ngân sách nhà nước, và tỷ suất sinh lời trên vốn chủ sở hữu và tổng tài sản.\nchart: Cổ tức bằng tiền mặt (trái trên) — Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Đóng góp Ngân sách Nhà nước (phải trên) — Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA) (dưới) — Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cổ tức bằng tiền mặt",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Đóng góp Ngân sách Nhà nước",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA)",
+              "location": "dưới",
+              "description": "Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CON SỐ NỔI BẬT\nDẤU ẤN 2025\nĐảm bảo tăng trưởng ổn định\n35.657 44.010 52.618 62.849 70.113\n2021 2022 2023 2024 2025\n75.000\n60.000\n45.000\n30.000\n15.000\n0\n11,6% so với cùng kỳ\nTổng doanh thu\nTỷ VNĐ 70.113\nĐơn vị: Tỷ VNĐ\n5.349 6.491 7.788 9.427 11.232\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,1% so với cùng kỳ\nLợi nhuận sau thuế\nTỷ VNĐ 11.232\nĐơn vị: Tỷ VNĐ\n4.337 5.310 6.465 7.857 9.376\n2021 2022 2023 2024 2025\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,3% so với cùng kỳ\nLợi nhuận sau thuế thuộc về\ncổ đông công ty mẹ\n9.376 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n2.367 2.910 3.518 4.292 5.216\n2021 2022 2023 2024 2025\n5.500\n4.500\n3.500\n2.500\n1.500\n0\n21,5% so với cùng kỳ (*)\nThu nhập trên cổ phiếu (EPS)\n5.216 VNĐ\nĐơn vị: VNĐ\n(*) EPS từ năm 2021-2024 được điều \nchỉnh hồi tố theo tỷ lệ chi trả cổ tức \nbằng cổ phiếu 15% trong năm 2025 và \nquy định về cách tính EPS theo thông \ntư 200/2014/TT-BTC.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các con số nổi bật của FPT năm 2025 với các chỉ tiêu tài chính chính như tổng doanh thu, lợi nhuận sau thuế, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ và thu nhập trên cổ phiếu (EPS), đồng thời so sánh với các năm trước từ 2021 đến 2024.\nchart: Tổng doanh thu (trái trên) — Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm.\nchart: Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ (phải trên) — Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm.\nchart: Lợi nhuận sau thuế (trái dưới) — Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm.\nchart: Thu nhập trên cổ phiếu (EPS) (phải dưới) — Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tổng doanh thu",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế",
+              "location": "trái dưới",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Thu nhập trên cổ phiếu (EPS)",
+              "location": "phải dưới",
+              "description": "Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p012",
+          "page": 12,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Số liệu tài chính trong Báo cáo này được trích xuất từ Báo cáo tài chính hợp nhất đã kiểm toán bao gồm Báo cáo tài chính Công ty mẹ, Báo cáo tài chính của các công ty \ndo Tập đoàn nắm quyền kiểm soát (Công ty con) và kết quả kinh doanh hợp nhất của các công ty liên kết theo phương pháp vốn chủ.\n(*): Tiền mặt chi trả trong năm bao gồm cổ tức tiền mặt còn lại của năm liền trước và tạm ứng cổ tức tiền mặt của năm hiện tại nếu có.\nSTT Chỉ tiêu 2021 +/- 2022 +/- 2023 +/- 2024 +/- 2025 +/-\n21.418\n53.698\n35.657\n6.228\n7.981\n6.337\n6.337\n5.349\n4.337\n1.697\n25.356\n51.650\n44.010\n7.589\n9.495\n7.662\n7.662\n6.491\n5.310\n2.011\n15,1%\n28,7%\n19,5%\n20,0%\n18,2%\n20,4%\n20,4%\n20,9%\n22,6%\n15,8%\n18,4%\n-3,8%\n23,4%\n21,8%\n19,0%\n20,9%\n20,9%\n21,3%\n22,4%\n18,5%\n18,1%\n16,7%\n19,6%\n20,1%\n21,0%\n20,1%\n20,1%\n20,0%\n21,8%\n18,1%\n29.933\n60.283\n52.618\n9.112\n11.490\n9.203\n9.203\n7.788\n6.465\n2.374\n35.728\n72.000\n62.849\n11.025\n13.605\n11.070\n11.070\n9.427\n7.857\n2.741\n19,4%\n19,4%\n19,4%\n21,0%\n18,4%\n20,3%\n20,3%\n21,0%\n21,5%\n15,4%\n43.748\n88.142\n70.113\n12.952\n15.958\n13.044\n13.044\n11.232\n9.376\n3.185\n22,4%\n22,4%\n11,6%\n17,5%\n17,3%\n17,8%\n17,8%\n19,1%\n19,3%\n16,2%\nVốn chủ sở hữu\nTổng tài sản\nTổng doanh thu \nLợi nhuận thuần từ hoạt động kinh doanh\nLợi nhuận trước thuế, lãi vay và khấu hao\nLợi nhuận trước thuế và lãi vay\nLợi nhuận trước thuế\nLợi nhuận sau thuế\nLợi nhuận sau thuế thuộc về cổ đông công ty mẹ\nChi trả cổ tức bằng tiền mặt (*)\nTình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\nĐơn vị: Tỷ VNĐ\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng tổng hợp tình hình tài chính và kết quả kinh doanh nổi bật của FPT giai đoạn 2021-2025, thể hiện các chỉ tiêu tài chính chính và tỷ lệ tăng trưởng hàng năm.\ntable: Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025 (phải) — Bảng gồm các chỉ tiêu tài chính như vốn chủ sở hữu, tổng tài sản, tổng doanh thu, lợi nhuận các loại, chi trả cổ tức bằng tiền mặt; dữ liệu theo năm từ 2021 đến 2025 với tỷ lệ tăng trưởng phần trăm từng năm; đơn vị tính là tỷ VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025",
+              "location": "phải",
+              "description": "Bảng gồm các chỉ tiêu tài chính như vốn chủ sở hữu, tổng tài sản, tổng doanh thu, lợi nhuận các loại, chi trả cổ tức bằng tiền mặt; dữ liệu theo năm từ 2021 đến 2025 với tỷ lệ tăng trưởng phần trăm từng năm; đơn vị tính là tỷ VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Kết quả kinh doanh\n• Các chỉ tiêu tài chính chủ yếu\n(Tiếp theo)\nLĩnh vực Dịch vụ CNTT cho thị trường nước ngoài, động lực tăng trưởng chính của \nTập đoàn, tiếp tục duy trì mức tăng trưởng cao so với mặt bằng chung của ngành, \ntăng 14,3% so với năm trước. Kết quả này đến từ nhu cầu chuyển đổi số và ứng \ndụng AI ngày càng rõ nét tại thị trường Nhật Bản (tăng trưởng 25,4% so với năm \ntrước). Việc tập trung vào các hợp đồng quy mô lớn, dài hạn, có hàm lượng công \nnghệ cao giúp FPT không chỉ mở rộng doanh thu mà còn từng bước nâng cao chất \nlượng tăng trưởng và hiệu quả kinh doanh. Trong bối cảnh ngành dịch vụ CNTT \ntoàn cầu còn thận trọng, nhiều doanh nghiệp Dịch vụ CNTT lớn trên thế giới, bao \ngồm các công ty tại Ấn Độ, chỉ ghi nhận mức tăng trưởng ở mức khiêm tốn, kết quả \ncủa FPT phần nào cho thấy những nỗ lực không ngừng của Tập đoàn trong việc mở \nrộng thị trường, đa dạng hóa danh mục dịch vụ và duy trì đà phát triển ổn định.\nTrong đó, mảng Dịch vụ Chuyển đổi số tiếp tục ghi nhận tăng trưởng nổi bật đạt \n16,8% so với năm trước, chiếm tỷ trọng ngày càng cao trong tổng doanh thu\nDịch vụ CNTT cho thị trường nước ngoài (47,3%). Các giải pháp liên quan đến dữ \nliệu, điện toán đám mây, AI và tự động hóa được khách hàng đẩy mạnh triển khai \nnhằm nâng cao hiệu quả vận hành và năng lực cạnh tranh. Kết quả này không chỉ \nphản ánh xu hướng chuyển dịch mạnh mẽ sang chuyển đổi số thế hệ mới, mà còn \nkhẳng định vị thế và năng lực cung cấp các dịch vụ công nghệ tiên tiến của FPT \ntrên thị trường quốc tế.\nSong song với hoạt động kinh doanh, FPT tiếp tục đẩy mạnh theo cả chiều rộng và \nchiều sâu quan hệ hợp tác chiến lược với các đối tác lớn trên toàn cầu. Việc hợp tác \nkhông chỉ dừng ở cung cấp dịch vụ, mà từng bước mở rộng sang đồng phát triển \ngiải pháp, chuyển giao công nghệ và xây dựng năng lực dài hạn, giúp FPT nâng cao \nkhả năng tham gia sâu hơn vào chuỗi giá trị công nghệ toàn cầu.\nNhờ chủ động ứng dụng công nghệ, đặc biệt là AI, trong tối ưu hóa vận hành và \nquản trị, các khối Viễn thông và khối Giáo dục, Đầu tư và Khác tiếp tục duy trì \ntăng trưởng ổn định. Khối Viễn thông (tăng trưởng doanh thu đạt 10,8%) tập trung \nnâng cao chất lượng dịch vụ và trải nghiệm khách hàng, đồng thời mở rộng độ phủ \nhạ tầng và danh mục sản phẩm, qua đó từng bước gia tăng hiện diện trên thị trường \nvà cải thiện thị phần ở các phân khúc trọng điểm. Trong khi đó, lĩnh vực Giáo dục \nchú trọng nâng cao chất lượng đào tạo, gắn kết chặt chẽ hơn với nhu cầu nhân lực \ncủa các lĩnh vực công nghệ chiến lược được Đảng và Nhà nước ưu tiên như: AI, \nbán dẫn, dữ liệu, điện toán đám mây, an toàn, an ninh thông tin và các công nghệ \nphục vụ chuyển đổi số, chuyển đổi xanh. Định hướng này góp phần củng cố vai trò \ncủa FPT trong cung cấp nguồn nhân lực chất lượng cao cho nền kinh tế số.\nMột số chỉ tiêu hoạt động kinh doanh chính trong năm 2025\nĐơn vị: Tỷ VNĐ\nChỉ tiêu 2024 2025 Tăng/Giảm\nTổng tài sản\nDoanh thu\nLợi nhuận từ hoạt động kinh doanh\nLNTT, lãi vay và khấu hao (EBITDA)\nLNTT\nLNST\nLãi cơ bản trên cổ phiếu (*)\nCổ tức tiền mặt trả trong năm\nTỷ lệ lợi nhuận trả cổ tức\n72.000\n62.849\n11.025\n13.605\n11.070\n9.427\n4.292\n2.741\n34,9%\n88.142\n70.113\n12.952\n15.958\n13.044\n11.232\n5.216\n3.185\n34,",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+              "location": "phải",
+              "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, đơn vị tỷ VNĐ, gồm tổng tài sản, doanh thu, lợi nhuận từ hoạt động kinh doanh, EBITDA, LNTT, LNST, lãi cơ bản trên cổ phiếu, cổ tức tiền mặt trả trong năm và tỷ lệ lợi nhuận trả cổ tức cùng với mức tăng/giảm phần trăm."
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801378-6sgtDo8awwhIrf4ZEYji",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_859vQdzBDTbkvfH9uN6EyOdB",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trên biểu đồ ROE giai đoạn 2021–2025, năm có ROE cao nhất là năm 2024 với 28,5%. ROE năm 2025 là 28,1%, thấp hơn đỉnh năm 2024 là 0,4 điểm phần trăm.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p011\",\"region\":\"dưới, biểu đồ đường ROE 2021-2025, các giá trị phần trăm ROE từng năm\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p011",
+    "FPT2025:p010",
+    "FPT2025:p012",
+    "FPT2025:p058"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p011",
+      "page": 11,
+      "image": ".bonus/pages/p011.jpg",
+      "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+    },
+    {
+      "id": "FPT2025:p010",
+      "page": 10,
+      "image": ".bonus/pages/p010.jpg",
+      "image_sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+    },
+    {
+      "id": "FPT2025:p012",
+      "page": 12,
+      "image": ".bonus/pages/p012.jpg",
+      "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+    },
+    {
+      "id": "FPT2025:p058",
+      "page": 58,
+      "image": ".bonus/pages/p058.jpg",
+      "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801375-pRo1ZAsNoLfjTdmPlocA",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 470,
+        "completion_tokens": 51,
+        "total_tokens": 521,
+        "cost": 0.0002696,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002696,
+          "upstream_inference_prompt_cost": 0.000188,
+          "upstream_inference_completions_cost": 8.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1478.5526000196114,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801378-6sgtDo8awwhIrf4ZEYji",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 4781,
+        "completion_tokens": 124,
+        "total_tokens": 4905,
+        "cost": 0.0021108,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0021108,
+          "upstream_inference_prompt_cost": 0.0019124,
+          "upstream_inference_completions_cost": 0.0001984
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2242.990500002634,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 5161.233899998479,
+  "query_id": "fd-c1",
+  "question": "Trên biểu đồ ROE giai đoạn 2021–2025, năm nào cao nhất và ROE năm 2025 thấp hơn đỉnh bao nhiêu điểm phần trăm?",
+  "split": "dev",
+  "config": "text"
+}

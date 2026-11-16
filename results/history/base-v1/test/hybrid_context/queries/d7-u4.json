@@ -1,0 +1,418 @@
+{
+  "status": "abstain",
+  "answer": "Luật Thương mại 2005 không cung cấp thông tin về địa chỉ tổ chức hội chợ thương mại của Công ty Sao Biển năm 2026.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_5H2f3Kwi1Vfu47cAXIbHa0Lk",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Hội chợ thương mại của Công ty Sao Biển năm 2026 địa chỉ\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797911-RfFshFo36ShdR7hbqlPY"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Hội chợ thương mại của Công ty Sao Biển năm 2026 diễn ra tại địa chỉ nào?",
+      "model_query": "Hội chợ thương mại của Công ty Sao Biển năm 2026 địa chỉ",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 38,
+          "text": "Điều 140. Quyền và ngh ĩa vụ của thương nhân kinh doanh d ịch vụ hội chợ, triển lãm thương mại\n\n1. Niêm y ết chủ đề, thời gian ti ến hành h ội chợ, triển lãm th ương m ại tại nơi tổ chức hội chợ, triển lãm th ương mại đó trước ngày khai m ạc hội chợ, triển lãm thương mại.\n\n2. Yêu cầu bên thuê d ịch vụ cung c ấp hàng hoá để tham gia h ội chợ, triển lãm thương mại theo thời hạn đã thoả thuận trong hợp đồng.\n\n3. Yêu c ầu bên thuê d ịch v ụ cung c ấp thông tin v ề hàng hoá, d ịch v ụ để",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 38,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 140"
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 36,
+          "text": "tham gia hội chợ, triển lãm th ương mại tại Việt Nam. Trong tr ường hợp muốn tổ chức h ội ch ợ, tri ển lãm th ương m ại t ại Vi ệt Nam thì th ương nhân n ước ngoài phải thuê th ương nhân kinh doanh d ịch v ụ h ội ch ợ, triển lãm th ương m ại Việt Nam thực hiện.\n\nĐiều 132. Tổ chức hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hội chợ, triển lãm th ương mại tổ chức tại Việt Nam ph ải được đăng ký và ph ải được xác nh ận b ằng v ăn b ản c ủa cơ quan qu ản lý nhà n ước v ề th ương mại tỉnh, thành ph ố trực thuộc trung ương nơi tổ chức hội chợ, triển lãm th ương mại.\n\n2. Chính ph ủ quy định c ụ th ể trình t ự, th ủ t ục, n ội dung đăng ký và xác nhận việc tổ chức hội chợ, triển lãm thương mại tại Việt Nam quy định tại khoản 1 Điều này.\n\nĐiều 133. Tổ chức, tham gia hội chợ, triển lãm thương mại ở nước ngoài",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 36,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 132"
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 37,
+          "text": "3. Thời hạn tạm xuất khẩu hàng hóa để tham gia h ội chợ, triển lãm th ương mại ở nước ngoài là m ột năm kể từ ngày hàng hóa được tạm xuất khẩu; nếu quá thời hạn nói trên mà ch ưa được tái nh ập khẩu thì hàng hóa đó phải chịu thuế và các nghĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n4. Việc tạm xuất, tái nhập hàng hóa tham gia h ội chợ, triển lãm thương mại ở n ước ngoài ph ải tuân th ủ các quy định c ủa pháp lu ật v ề h ải quan và các quy định khác của pháp luật có liên quan.\n\nĐiều 136. Bán, t ặng hàng hoá, cung ứng dịch v ụ tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, dịch vụ trưng bày, giới thiệu tại hội chợ, triển lãm thương mại tại Vi ệt Nam được phép bán, t ặng, cung ứng tại hội ch ợ, triển lãm th ương m ại; đối với hàng hóa nh ập khẩu phải đăng ký v ới hải quan, tr ừ trường hợp quy định tại khoản 2 Điều này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 37,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 136"
+          },
+          "score": 0.030776515151515152,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 35,
+          "text": "Điều 129. Hội chợ, triển lãm thương mại Hội ch ợ, tri ển lãm th ương m ại là ho ạt động xúc ti ến th ương m ại được thực hi ện t ập trung trong m ột th ời gian và t ại m ột địa điểm nh ất định để thương nhân tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ nh ằm m ục đích thúc đẩy, tìm ki ếm cơ hội giao k ết hợp đồng mua bán hàng hoá, hợp đồng dịch vụ.\n\nĐiều 130. Kinh doanh dịch vụ hội chợ, triển lãm thương mại\n\n1. Kinh doanh d ịch vụ hội chợ, triển lãm th ương mại là ho ạt động thương mại, theo đó thương nhân kinh doanh d ịch vụ này cung ứng dịch vụ tổ chức hoặc tham gia h ội ch ợ, tri ển lãm th ương m ại cho th ương nhân khác để nh ận thù lao dịch vụ tổ chức hội chợ, triển lãm thương mại.\n\n2. Hợp đồng dịch vụ tổ chức, tham gia h ội chợ, triển lãm th ương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 131. Quyền tổ chức, tham gia hội chợ, triển lãm thương mại",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 35,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 129"
+          },
+          "score": 0.03028233151183971,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 12,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 37,
+          "text": "2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 37,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 137"
+          },
+          "score": 0.029857397504456328,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 36,
+          "text": "1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 36,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 134"
+          },
+          "score": 0.028991596638655463,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 8
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 38]\nĐiều 140. Quyền và ngh ĩa vụ của thương nhân kinh doanh d ịch vụ hội chợ, triển lãm thương mại\n\n1. Niêm y ết chủ đề, thời gian ti ến hành h ội chợ, triển lãm th ương m ại tại nơi tổ chức hội chợ, triển lãm th ương mại đó trước ngày khai m ạc hội chợ, triển lãm thương mại.\n\n2. Yêu cầu bên thuê d ịch vụ cung c ấp hàng hoá để tham gia h ội chợ, triển lãm thương mại theo thời hạn đã thoả thuận trong hợp đồng.\n\n3. Yêu c ầu bên thuê d ịch v ụ cung c ấp thông tin v ề hàng hoá, d ịch v ụ để\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\ntham gia hội chợ, triển lãm th ương mại tại Việt Nam. Trong tr ường hợp muốn tổ chức h ội ch ợ, tri ển lãm th ương m ại t ại Vi ệt Nam thì th ương nhân n ước ngoài phải thuê th ương nhân kinh doanh d ịch v ụ h ội ch ợ, triển lãm th ương m ại Việt Nam thực hiện.\n\nĐiều 132. Tổ chức hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hội chợ, triển lãm th ương mại tổ chức tại Việt Nam ph ải được đăng ký và ph ải được xác nh ận b ằng v ăn b ản c ủa cơ quan qu ản lý nhà n ước v ề th ương mại tỉnh, thành ph ố trực thuộc trung ương nơi tổ chức hội chợ, triển lãm th ương mại.\n\n2. Chính ph ủ quy định c ụ th ể trình t ự, th ủ t ục, n ội dung đăng ký và xác nhận việc tổ chức hội chợ, triển lãm thương mại tại Việt Nam quy định tại khoản 1 Điều này.\n\nĐiều 133. Tổ chức, tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n3. Thời hạn tạm xuất khẩu hàng hóa để tham gia h ội chợ, triển lãm th ương mại ở nước ngoài là m ột năm kể từ ngày hàng hóa được tạm xuất khẩu; nếu quá thời hạn nói trên mà ch ưa được tái nh ập khẩu thì hàng hóa đó phải chịu thuế và các nghĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n4. Việc tạm xuất, tái nhập hàng hóa tham gia h ội chợ, triển lãm thương mại ở n ước ngoài ph ải tuân th ủ các quy định c ủa pháp lu ật v ề h ải quan và các quy định khác của pháp luật có liên quan.\n\nĐiều 136. Bán, t ặng hàng hoá, cung ứng dịch v ụ tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, dịch vụ trưng bày, giới thiệu tại hội chợ, triển lãm thương mại tại Vi ệt Nam được phép bán, t ặng, cung ứng tại hội ch ợ, triển lãm th ương m ại; đối với hàng hóa nh ập khẩu phải đăng ký v ới hải quan, tr ừ trường hợp quy định tại khoản 2 Điều này.\n\n[luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 35]\nĐiều 129. Hội chợ, triển lãm thương mại Hội ch ợ, tri ển lãm th ương m ại là ho ạt động xúc ti ến th ương m ại được thực hi ện t ập trung trong m ột th ời gian và t ại m ột địa điểm nh ất định để thương nhân tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ nh ằm m ục đích thúc đẩy, tìm ki ếm cơ hội giao k ết hợp đồng mua bán hàng hoá, hợp đồng dịch vụ.\n\nĐiều 130. Kinh doanh dịch vụ hội chợ, triển lãm thương mại\n\n1. Kinh doanh d ịch vụ hội chợ, triển lãm th ương mại là ho ạt động thương mại, theo đó thương nhân kinh doanh d ịch vụ này cung ứng dịch vụ tổ chức hoặc tham gia h ội ch ợ, tri ển lãm th ương m ại cho th ương nhân khác để nh ận thù lao dịch vụ tổ chức hội chợ, triển lãm thương mại.\n\n2. Hợp đồng dịch vụ tổ chức, tham gia h ội chợ, triển lãm th ương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 131. Quyền tổ chức, tham gia hội chợ, triển lãm thương mại\n\n[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\n1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7",
+        "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b",
+        "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6",
+        "luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f",
+        "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+        "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_i5AV6NxpK9r46RwTNvqQZoAp",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Luật Thương mại 2005 không cung cấp thông tin về địa chỉ tổ chức hội chợ thương mại của Công ty Sao Biển năm 2026.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797913-OLys1Cx62h2O8Uglw8di"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 38]\nĐiều 140. Quyền và ngh ĩa vụ của thương nhân kinh doanh d ịch vụ hội chợ, triển lãm thương mại\n\n1. Niêm y ết chủ đề, thời gian ti ến hành h ội chợ, triển lãm th ương m ại tại nơi tổ chức hội chợ, triển lãm th ương mại đó trước ngày khai m ạc hội chợ, triển lãm thương mại.\n\n2. Yêu cầu bên thuê d ịch vụ cung c ấp hàng hoá để tham gia h ội chợ, triển lãm thương mại theo thời hạn đã thoả thuận trong hợp đồng.\n\n3. Yêu c ầu bên thuê d ịch v ụ cung c ấp thông tin v ề hàng hoá, d ịch v ụ để\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\ntham gia hội chợ, triển lãm th ương mại tại Việt Nam. Trong tr ường hợp muốn tổ chức h ội ch ợ, tri ển lãm th ương m ại t ại Vi ệt Nam thì th ương nhân n ước ngoài phải thuê th ương nhân kinh doanh d ịch v ụ h ội ch ợ, triển lãm th ương m ại Việt Nam thực hiện.\n\nĐiều 132. Tổ chức hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hội chợ, triển lãm th ương mại tổ chức tại Việt Nam ph ải được đăng ký và ph ải được xác nh ận b ằng v ăn b ản c ủa cơ quan qu ản lý nhà n ước v ề th ương mại tỉnh, thành ph ố trực thuộc trung ương nơi tổ chức hội chợ, triển lãm th ương mại.\n\n2. Chính ph ủ quy định c ụ th ể trình t ự, th ủ t ục, n ội dung đăng ký và xác nhận việc tổ chức hội chợ, triển lãm thương mại tại Việt Nam quy định tại khoản 1 Điều này.\n\nĐiều 133. Tổ chức, tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n3. Thời hạn tạm xuất khẩu hàng hóa để tham gia h ội chợ, triển lãm th ương mại ở nước ngoài là m ột năm kể từ ngày hàng hóa được tạm xuất khẩu; nếu quá thời hạn nói trên mà ch ưa được tái nh ập khẩu thì hàng hóa đó phải chịu thuế và các nghĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n4. Việc tạm xuất, tái nhập hàng hóa tham gia h ội chợ, triển lãm thương mại ở n ước ngoài ph ải tuân th ủ các quy định c ủa pháp lu ật v ề h ải quan và các quy định khác của pháp luật có liên quan.\n\nĐiều 136. Bán, t ặng hàng hoá, cung ứng dịch v ụ tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, dịch vụ trưng bày, giới thiệu tại hội chợ, triển lãm thương mại tại Vi ệt Nam được phép bán, t ặng, cung ứng tại hội ch ợ, triển lãm th ương m ại; đối với hàng hóa nh ập khẩu phải đăng ký v ới hải quan, tr ừ trường hợp quy định tại khoản 2 Điều này.\n\n[luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 35]\nĐiều 129. Hội chợ, triển lãm thương mại Hội ch ợ, tri ển lãm th ương m ại là ho ạt động xúc ti ến th ương m ại được thực hi ện t ập trung trong m ột th ời gian và t ại m ột địa điểm nh ất định để thương nhân tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ nh ằm m ục đích thúc đẩy, tìm ki ếm cơ hội giao k ết hợp đồng mua bán hàng hoá, hợp đồng dịch vụ.\n\nĐiều 130. Kinh doanh dịch vụ hội chợ, triển lãm thương mại\n\n1. Kinh doanh d ịch vụ hội chợ, triển lãm th ương mại là ho ạt động thương mại, theo đó thương nhân kinh doanh d ịch vụ này cung ứng dịch vụ tổ chức hoặc tham gia h ội ch ợ, tri ển lãm th ương m ại cho th ương nhân khác để nh ận thù lao dịch vụ tổ chức hội chợ, triển lãm thương mại.\n\n2. Hợp đồng dịch vụ tổ chức, tham gia h ội chợ, triển lãm th ương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 131. Quyền tổ chức, tham gia hội chợ, triển lãm thương mại\n\n[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\n1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b",
+    "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6",
+    "luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f",
+    "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797911-RfFshFo36ShdR7hbqlPY",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 295,
+        "completion_tokens": 23,
+        "total_tokens": 318,
+        "cost": 0.0001548,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001548,
+          "upstream_inference_prompt_cost": 0.000118,
+          "upstream_inference_completions_cost": 3.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1349.270600010641,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797913-OLys1Cx62h2O8Uglw8di",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2710,
+        "completion_tokens": 56,
+        "total_tokens": 2766,
+        "cost": 0.0011736,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011736,
+          "upstream_inference_prompt_cost": 0.001084,
+          "upstream_inference_completions_cost": 8.96e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2029.2927999980748,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3392.3941000248305,
+  "searches": 1,
+  "query_id": "d7-u4",
+  "question": "Hội chợ thương mại của Công ty Sao Biển năm 2026 diễn ra tại địa chỉ nào?",
+  "split": "test",
+  "config": "hybrid_context",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 38,
+      "text": "Điều 140. Quyền và ngh ĩa vụ của thương nhân kinh doanh d ịch vụ hội chợ, triển lãm thương mại\n\n1. Niêm y ết chủ đề, thời gian ti ến hành h ội chợ, triển lãm th ương m ại tại nơi tổ chức hội chợ, triển lãm th ương mại đó trước ngày khai m ạc hội chợ, triển lãm thương mại.\n\n2. Yêu cầu bên thuê d ịch vụ cung c ấp hàng hoá để tham gia h ội chợ, triển lãm thương mại theo thời hạn đã thoả thuận trong hợp đồng.\n\n3. Yêu c ầu bên thuê d ịch v ụ cung c ấp thông tin v ề hàng hoá, d ịch v ụ để",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 38,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 140"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 36,
+      "text": "tham gia hội chợ, triển lãm th ương mại tại Việt Nam. Trong tr ường hợp muốn tổ chức h ội ch ợ, tri ển lãm th ương m ại t ại Vi ệt Nam thì th ương nhân n ước ngoài phải thuê th ương nhân kinh doanh d ịch v ụ h ội ch ợ, triển lãm th ương m ại Việt Nam thực hiện.\n\nĐiều 132. Tổ chức hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hội chợ, triển lãm th ương mại tổ chức tại Việt Nam ph ải được đăng ký và ph ải được xác nh ận b ằng v ăn b ản c ủa cơ quan qu ản lý nhà n ước v ề th ương mại tỉnh, thành ph ố trực thuộc trung ương nơi tổ chức hội chợ, triển lãm th ương mại.\n\n2. Chính ph ủ quy định c ụ th ể trình t ự, th ủ t ục, n ội dung đăng ký và xác nhận việc tổ chức hội chợ, triển lãm thương mại tại Việt Nam quy định tại khoản 1 Điều này.\n\nĐiều 133. Tổ chức, tham gia hội chợ, triển lãm thương mại ở nước ngoài",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 36,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 132"
+      },
+      "score": 0.031009615384615385,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 4,
+        "tfidf": 5
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 37,
+      "text": "3. Thời hạn tạm xuất khẩu hàng hóa để tham gia h ội chợ, triển lãm th ương mại ở nước ngoài là m ột năm kể từ ngày hàng hóa được tạm xuất khẩu; nếu quá thời hạn nói trên mà ch ưa được tái nh ập khẩu thì hàng hóa đó phải chịu thuế và các nghĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n4. Việc tạm xuất, tái nhập hàng hóa tham gia h ội chợ, triển lãm thương mại ở n ước ngoài ph ải tuân th ủ các quy định c ủa pháp lu ật v ề h ải quan và các quy định khác của pháp luật có liên quan.\n\nĐiều 136. Bán, t ặng hàng hoá, cung ứng dịch v ụ tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, dịch vụ trưng bày, giới thiệu tại hội chợ, triển lãm thương mại tại Vi ệt Nam được phép bán, t ặng, cung ứng tại hội ch ợ, triển lãm th ương m ại; đối với hàng hóa nh ập khẩu phải đăng ký v ới hải quan, tr ừ trường hợp quy định tại khoản 2 Điều này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 37,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 136"
+      },
+      "score": 0.030776515151515152,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 4
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 35,
+      "text": "Điều 129. Hội chợ, triển lãm thương mại Hội ch ợ, tri ển lãm th ương m ại là ho ạt động xúc ti ến th ương m ại được thực hi ện t ập trung trong m ột th ời gian và t ại m ột địa điểm nh ất định để thương nhân tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ nh ằm m ục đích thúc đẩy, tìm ki ếm cơ hội giao k ết hợp đồng mua bán hàng hoá, hợp đồng dịch vụ.\n\nĐiều 130. Kinh doanh dịch vụ hội chợ, triển lãm thương mại\n\n1. Kinh doanh d ịch vụ hội chợ, triển lãm th ương mại là ho ạt động thương mại, theo đó thương nhân kinh doanh d ịch vụ này cung ứng dịch vụ tổ chức hoặc tham gia h ội ch ợ, tri ển lãm th ương m ại cho th ương nhân khác để nh ận thù lao dịch vụ tổ chức hội chợ, triển lãm thương mại.\n\n2. Hợp đồng dịch vụ tổ chức, tham gia h ội chợ, triển lãm th ương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 131. Quyền tổ chức, tham gia hội chợ, triển lãm thương mại",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 35,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 129"
+      },
+      "score": 0.03028233151183971,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 12,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 37,
+      "text": "2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 37,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 137"
+      },
+      "score": 0.029857397504456328,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 8,
+        "tfidf": 6
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 36,
+      "text": "1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 36,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 134"
+      },
+      "score": 0.028991596638655463,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 10,
+        "tfidf": 8
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 38]\nĐiều 140. Quyền và ngh ĩa vụ của thương nhân kinh doanh d ịch vụ hội chợ, triển lãm thương mại\n\n1. Niêm y ết chủ đề, thời gian ti ến hành h ội chợ, triển lãm th ương m ại tại nơi tổ chức hội chợ, triển lãm th ương mại đó trước ngày khai m ạc hội chợ, triển lãm thương mại.\n\n2. Yêu cầu bên thuê d ịch vụ cung c ấp hàng hoá để tham gia h ội chợ, triển lãm thương mại theo thời hạn đã thoả thuận trong hợp đồng.\n\n3. Yêu c ầu bên thuê d ịch v ụ cung c ấp thông tin v ề hàng hoá, d ịch v ụ để\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\ntham gia hội chợ, triển lãm th ương mại tại Việt Nam. Trong tr ường hợp muốn tổ chức h ội ch ợ, tri ển lãm th ương m ại t ại Vi ệt Nam thì th ương nhân n ước ngoài phải thuê th ương nhân kinh doanh d ịch v ụ h ội ch ợ, triển lãm th ương m ại Việt Nam thực hiện.\n\nĐiều 132. Tổ chức hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hội chợ, triển lãm th ương mại tổ chức tại Việt Nam ph ải được đăng ký và ph ải được xác nh ận b ằng v ăn b ản c ủa cơ quan qu ản lý nhà n ước v ề th ương mại tỉnh, thành ph ố trực thuộc trung ương nơi tổ chức hội chợ, triển lãm th ương mại.\n\n2. Chính ph ủ quy định c ụ th ể trình t ự, th ủ t ục, n ội dung đăng ký và xác nhận việc tổ chức hội chợ, triển lãm thương mại tại Việt Nam quy định tại khoản 1 Điều này.\n\nĐiều 133. Tổ chức, tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n3. Thời hạn tạm xuất khẩu hàng hóa để tham gia h ội chợ, triển lãm th ương mại ở nước ngoài là m ột năm kể từ ngày hàng hóa được tạm xuất khẩu; nếu quá thời hạn nói trên mà ch ưa được tái nh ập khẩu thì hàng hóa đó phải chịu thuế và các nghĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n4. Việc tạm xuất, tái nhập hàng hóa tham gia h ội chợ, triển lãm thương mại ở n ước ngoài ph ải tuân th ủ các quy định c ủa pháp lu ật v ề h ải quan và các quy định khác của pháp luật có liên quan.\n\nĐiều 136. Bán, t ặng hàng hoá, cung ứng dịch v ụ tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, dịch vụ trưng bày, giới thiệu tại hội chợ, triển lãm thương mại tại Vi ệt Nam được phép bán, t ặng, cung ứng tại hội ch ợ, triển lãm th ương m ại; đối với hàng hóa nh ập khẩu phải đăng ký v ới hải quan, tr ừ trường hợp quy định tại khoản 2 Điều này.\n\n[luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 35]\nĐiều 129. Hội chợ, triển lãm thương mại Hội ch ợ, tri ển lãm th ương m ại là ho ạt động xúc ti ến th ương m ại được thực hi ện t ập trung trong m ột th ời gian và t ại m ột địa điểm nh ất định để thương nhân tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ nh ằm m ục đích thúc đẩy, tìm ki ếm cơ hội giao k ết hợp đồng mua bán hàng hoá, hợp đồng dịch vụ.\n\nĐiều 130. Kinh doanh dịch vụ hội chợ, triển lãm thương mại\n\n1. Kinh doanh d ịch vụ hội chợ, triển lãm th ương mại là ho ạt động thương mại, theo đó thương nhân kinh doanh d ịch vụ này cung ứng dịch vụ tổ chức hoặc tham gia h ội ch ợ, tri ển lãm th ương m ại cho th ương nhân khác để nh ận thù lao dịch vụ tổ chức hội chợ, triển lãm thương mại.\n\n2. Hợp đồng dịch vụ tổ chức, tham gia h ội chợ, triển lãm th ương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 131. Quyền tổ chức, tham gia hội chợ, triển lãm thương mại\n\n[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\n1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p38-paragraph-1000-ce599ac0db0ec9d7",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-99e42ca3d9dde57b",
+    "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6",
+    "luat-thuong-mai-36-2005-qh11-p35-paragraph-1000-11141223e810161f",
+    "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

@@ -1,0 +1,39 @@
+{
+  "cases": 17,
+  "errors": 0,
+  "hit1": {
+    "n": 8,
+    "N": 15,
+    "rate": 0.5333333333333333
+  },
+  "hit3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.9333333333333333
+  },
+  "original_context_evidence": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "final_context_evidence": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "tool_use": {
+    "n": 17,
+    "N": 17,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "0": 0,
+    "1": 17,
+    "2": 0,
+    "3": 0
+  },
+  "median_ms": 24078.770700027235,
+  "model_cost_usd": 0.0109888,
+  "cost_missing_requests": 0,
+  "note": "Grounding/citation/abstention correctness require reading reviews; not inferred from IDs."
+}

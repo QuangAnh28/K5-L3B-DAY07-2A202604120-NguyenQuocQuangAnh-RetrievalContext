@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p074",
+  "image_sha256": "c6127fa1f65ffdec001b1ed671887846015d5656e804adfadafdfae61c0ca29c",
+  "caption": {
+    "summary": "Trang báo cáo trình bày chiến lược phát triển lĩnh vực Giáo dục của FPT năm 2025, tập trung vào chuyển đổi số, phát triển nguồn nhân lực quốc gia, mở rộng hiện diện trên toàn quốc và khẳng định vị thế giáo dục tầm quốc tế.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Lễ khởi công trường Phổ thông liên cấp FPT Vinh",
+        "location": "phải dưới",
+        "description": "Ảnh lễ khởi công dự án trường Phổ thông liên cấp FPT Vinh (Nghệ An) với diện tích hơn 27.000 m², dự kiến đào tạo khoảng 2.800 học sinh từ Tiểu học đến THPT."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800737-tAtLo5VKklZOFb49i3V2",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 153,
+        "total_tokens": 2715,
+        "cost": 0.0012696,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012696,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002448
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3689.8495000205003,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

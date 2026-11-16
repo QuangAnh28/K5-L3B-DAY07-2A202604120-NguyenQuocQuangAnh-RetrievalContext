@@ -1,0 +1,418 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_X8pcKhwrD770eOvrXeyAl2IF",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Thương nhân chưa đăng ký kinh doanh có phải chịu trách nhiệm về hoạt động của mình không\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797416-smXA29XwJc96CroWAL9p"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Thương nhân chưa đăng ký kinh doanh có còn phải chịu trách nhiệm về hoạt động của mình không?",
+      "model_query": "Thương nhân chưa đăng ký kinh doanh có phải chịu trách nhiệm về hoạt động của mình không",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 4,
+          "text": "bảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 4,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 7"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "year": 2005,
+            "chapter": "Chương I",
+            "section": "Mục 3",
+            "article": "Điều 15"
+          },
+          "score": 0.0304147465437788,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 62,
+          "text": "e) Sau khi b ị khi ếu n ại, th ương nhân kinh doanh d ịch v ụ logistics không nhận được thông báo về việc bị kiện tại Trọng tài hoặc Toà án trong thời hạn chín tháng, kể từ ngày giao hàng.\n\n2. Thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm về việc mất khoản lợi đáng lẽ được hưởng của khách hàng, v ề sự chậm trễ hoặc thực hiện dịch vụ logistics sai địa điểm không do lỗi của mình.\n\nĐiều 238. Giới hạn trách nhiệm\n\n1. Tr ừ tr ường h ợp có tho ả thu ận khác, toàn b ộ trách nhi ệm c ủa th ương nhân kinh doanh d ịch vụ logistics không v ượt quá gi ới hạn trách nhi ệm đối với tổn thất toàn bộ hàng hoá.\n\n2. Chính ph ủ quy định chi ti ết gi ới h ạn trách nhi ệm đối với th ương nhân kinh doanh d ịch vụ logistics phù h ợp với các quy định của pháp lu ật và tập quán quốc tế.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 62,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 238"
+          },
+          "score": 0.030303030303030304,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 7,
+          "text": "3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 7,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.030117753623188408,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 76,
+          "text": "Điều 291. Đăng ký nhượng quyền thương mại\n\n1. Tr ước khi nh ượng quy ền th ương m ại, bên d ự ki ến nh ượng quy ền ph ải đăng ký với Bộ Thương mại.\n\n2. Chính phủ quy định chi tiết điều kiện kinh doanh theo phương thức nhượng quyền thương mại và trình tự, thủ tục đăng ký nhượng quyền thương mại.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 76,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 291"
+          },
+          "score": 0.029850746268656716,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 36,
+          "text": "1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 36,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 134"
+          },
+          "score": 0.02976190476190476,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 12
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 4]\nbảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\ne) Sau khi b ị khi ếu n ại, th ương nhân kinh doanh d ịch v ụ logistics không nhận được thông báo về việc bị kiện tại Trọng tài hoặc Toà án trong thời hạn chín tháng, kể từ ngày giao hàng.\n\n2. Thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm về việc mất khoản lợi đáng lẽ được hưởng của khách hàng, v ề sự chậm trễ hoặc thực hiện dịch vụ logistics sai địa điểm không do lỗi của mình.\n\nĐiều 238. Giới hạn trách nhiệm\n\n1. Tr ừ tr ường h ợp có tho ả thu ận khác, toàn b ộ trách nhi ệm c ủa th ương nhân kinh doanh d ịch vụ logistics không v ượt quá gi ới hạn trách nhi ệm đối với tổn thất toàn bộ hàng hoá.\n\n2. Chính ph ủ quy định chi ti ết gi ới h ạn trách nhi ệm đối với th ương nhân kinh doanh d ịch vụ logistics phù h ợp với các quy định của pháp lu ật và tập quán quốc tế.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 76]\nĐiều 291. Đăng ký nhượng quyền thương mại\n\n1. Tr ước khi nh ượng quy ền th ương m ại, bên d ự ki ến nh ượng quy ền ph ải đăng ký với Bộ Thương mại.\n\n2. Chính phủ quy định chi tiết điều kiện kinh doanh theo phương thức nhượng quyền thương mại và trình tự, thủ tục đăng ký nhượng quyền thương mại.\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\n1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+        "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+        "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58",
+        "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+        "luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa",
+        "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_1xKMyaM1FhIk7nPkXZASWKdM",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo Điều 7 Luật Thương mại 2005, thương nhân có nghĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, thương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác của pháp luật.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797417-IYaeYhzdNvnYGIznSRtO"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 4]\nbảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\ne) Sau khi b ị khi ếu n ại, th ương nhân kinh doanh d ịch v ụ logistics không nhận được thông báo về việc bị kiện tại Trọng tài hoặc Toà án trong thời hạn chín tháng, kể từ ngày giao hàng.\n\n2. Thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm về việc mất khoản lợi đáng lẽ được hưởng của khách hàng, v ề sự chậm trễ hoặc thực hiện dịch vụ logistics sai địa điểm không do lỗi của mình.\n\nĐiều 238. Giới hạn trách nhiệm\n\n1. Tr ừ tr ường h ợp có tho ả thu ận khác, toàn b ộ trách nhi ệm c ủa th ương nhân kinh doanh d ịch vụ logistics không v ượt quá gi ới hạn trách nhi ệm đối với tổn thất toàn bộ hàng hoá.\n\n2. Chính ph ủ quy định chi ti ết gi ới h ạn trách nhi ệm đối với th ương nhân kinh doanh d ịch vụ logistics phù h ợp với các quy định của pháp lu ật và tập quán quốc tế.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 76]\nĐiều 291. Đăng ký nhượng quyền thương mại\n\n1. Tr ước khi nh ượng quy ền th ương m ại, bên d ự ki ến nh ượng quy ền ph ải đăng ký với Bộ Thương mại.\n\n2. Chính phủ quy định chi tiết điều kiện kinh doanh theo phương thức nhượng quyền thương mại và trình tự, thủ tục đăng ký nhượng quyền thương mại.\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\n1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58",
+    "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+    "luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797416-smXA29XwJc96CroWAL9p",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 24,
+        "total_tokens": 317,
+        "cost": 0.0001556,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001556,
+          "upstream_inference_prompt_cost": 0.0001172,
+          "upstream_inference_completions_cost": 3.84e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1319.426600006409,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797417-IYaeYhzdNvnYGIznSRtO",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2566,
+        "completion_tokens": 121,
+        "total_tokens": 2687,
+        "cost": 0.00122,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00122,
+          "upstream_inference_prompt_cost": 0.0010264,
+          "upstream_inference_completions_cost": 0.0001936
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2092.0616000075825,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3423.372899997048,
+  "searches": 1,
+  "query_id": "d7-q01",
+  "question": "Thương nhân chưa đăng ký kinh doanh có còn phải chịu trách nhiệm về hoạt động của mình không?",
+  "split": "dev",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 4,
+      "text": "bảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 4,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 7"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 5,
+      "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 5,
+        "year": 2005,
+        "chapter": "Chương I",
+        "section": "Mục 3",
+        "article": "Điều 15"
+      },
+      "score": 0.0304147465437788,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 10,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 62,
+      "text": "e) Sau khi b ị khi ếu n ại, th ương nhân kinh doanh d ịch v ụ logistics không nhận được thông báo về việc bị kiện tại Trọng tài hoặc Toà án trong thời hạn chín tháng, kể từ ngày giao hàng.\n\n2. Thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm về việc mất khoản lợi đáng lẽ được hưởng của khách hàng, v ề sự chậm trễ hoặc thực hiện dịch vụ logistics sai địa điểm không do lỗi của mình.\n\nĐiều 238. Giới hạn trách nhiệm\n\n1. Tr ừ tr ường h ợp có tho ả thu ận khác, toàn b ộ trách nhi ệm c ủa th ương nhân kinh doanh d ịch vụ logistics không v ượt quá gi ới hạn trách nhi ệm đối với tổn thất toàn bộ hàng hoá.\n\n2. Chính ph ủ quy định chi ti ết gi ới h ạn trách nhi ệm đối với th ương nhân kinh doanh d ịch vụ logistics phù h ợp với các quy định của pháp lu ật và tập quán quốc tế.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 62,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 238"
+      },
+      "score": 0.030303030303030304,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 6
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 7,
+      "text": "3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 7,
+        "year": 2005,
+        "chapter": "Chương I"
+      },
+      "score": 0.030117753623188408,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 4,
+        "tfidf": 9
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 76,
+      "text": "Điều 291. Đăng ký nhượng quyền thương mại\n\n1. Tr ước khi nh ượng quy ền th ương m ại, bên d ự ki ến nh ượng quy ền ph ải đăng ký với Bộ Thương mại.\n\n2. Chính phủ quy định chi tiết điều kiện kinh doanh theo phương thức nhượng quyền thương mại và trình tự, thủ tục đăng ký nhượng quyền thương mại.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 76,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 291"
+      },
+      "score": 0.029850746268656716,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 7,
+        "tfidf": 7
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 36,
+      "text": "1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 36,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 134"
+      },
+      "score": 0.02976190476190476,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 12
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 4]\nbảo hộ.\n\n4. Nhà n ước th ực hi ện độc quy ền Nhà n ước có th ời h ạn v ề ho ạt động thương mại đối với một số hàng hóa, d ịch vụ hoặc tại một số địa bàn để bảo đảm lợi ích quốc gia. Chính ph ủ quy định cụ thể danh m ục hàng hóa, d ịch vụ, địa bàn độc quyền Nhà nước.\n\nĐiều 7. Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật.\n\nĐiều 8. Cơ quan quản lý nhà nước về hoạt động thương mại\n\n1. Chính phủ thống nhất quản lý nhà nước về hoạt động thương mại.\n\n2. Bộ Thương mại chịu trách nhiệm trước Chính phủ thực hiện việc quản lý nhà n ước v ề ho ạt động mua bán hàng hóa và các ho ạt động thương m ại c ụ th ể được quy định tại Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\ne) Sau khi b ị khi ếu n ại, th ương nhân kinh doanh d ịch v ụ logistics không nhận được thông báo về việc bị kiện tại Trọng tài hoặc Toà án trong thời hạn chín tháng, kể từ ngày giao hàng.\n\n2. Thương nhân kinh doanh d ịch vụ logistics không ph ải chịu trách nhi ệm về việc mất khoản lợi đáng lẽ được hưởng của khách hàng, v ề sự chậm trễ hoặc thực hiện dịch vụ logistics sai địa điểm không do lỗi của mình.\n\nĐiều 238. Giới hạn trách nhiệm\n\n1. Tr ừ tr ường h ợp có tho ả thu ận khác, toàn b ộ trách nhi ệm c ủa th ương nhân kinh doanh d ịch vụ logistics không v ượt quá gi ới hạn trách nhi ệm đối với tổn thất toàn bộ hàng hoá.\n\n2. Chính ph ủ quy định chi ti ết gi ới h ạn trách nhi ệm đối với th ương nhân kinh doanh d ịch vụ logistics phù h ợp với các quy định của pháp lu ật và tập quán quốc tế.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 76]\nĐiều 291. Đăng ký nhượng quyền thương mại\n\n1. Tr ước khi nh ượng quy ền th ương m ại, bên d ự ki ến nh ượng quy ền ph ải đăng ký với Bộ Thương mại.\n\n2. Chính phủ quy định chi tiết điều kiện kinh doanh theo phương thức nhượng quyền thương mại và trình tự, thủ tục đăng ký nhượng quyền thương mại.\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\n1. Th ương nhân không kinh doanh d ịch vụ hội chợ, triển lãm th ương m ại khi trực tiếp tổ chức hoặc tham gia h ội chợ, triển lãm th ương m ại ở nước ngoài về hàng hoá, d ịch vụ mà mình kinh doanh ph ải tuân th eo các quy định về xu ất khẩu hàng hoá.\n\n2. Th ương nhân kinh doanh d ịch v ụ hội chợ, triển lãm th ương mại khi t ổ chức cho thương nhân khác tham gia h ội chợ, triển lãm thương mại phải đăng ký với Bộ Thương mại.\n\n3. Th ương nhân không đăng ký kinh doanh d ịch v ụ h ội ch ợ, tri ển lãm thương m ại không được t ổ ch ức cho th ương nhân khác tham gia h ội ch ợ, tri ển lãm thương mại ở nước ngoài.\n\n4. Chính ph ủ quy định cụ thể trình t ự, thủ tục, nội dung đăng ký t ổ chức, tham gia h ội ch ợ, tri ển lãm th ương m ại ở n ước ngoài quy định t ại kho ản 1 và khoản 2 Điều này.\n\nĐiều 134. Hàng hoá, d ịch vụ trưng bày, gi ới thiệu tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, d ịch vụ không được phép tham gia h ội chợ, triển lãm th ương mại bao gồm:",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p4-paragraph-1000-bd6f4fcc7fe6379b",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-1212d35e449e8e58",
+    "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+    "luat-thuong-mai-36-2005-qh11-p76-paragraph-1000-3e686bcb74955dfa",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-41e64b88ad36b8a1"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

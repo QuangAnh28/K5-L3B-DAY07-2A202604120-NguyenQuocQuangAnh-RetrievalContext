@@ -1,0 +1,15 @@
+{
+  "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+  "test_minimums": {
+    "table": 6,
+    "diagram": 5,
+    "chart": 5,
+    "multi_hop": 4,
+    "text": 4,
+    "unanswerable": 6
+  },
+  "pass_rule": "Answerable: fully correct, all units/conditions/calculations and necessary original evidence page/region citations. Unanswerable: explicit refusal without unsupported claims. Any system error counts fail; denominator all 30.",
+  "split_note": "Created before dev/test agent experiments. Same document, distinct dev/test requested facts; shared pages permitted.",
+  "threshold": "27/30, no rounding",
+  "review_note": "Original-page semantic review by Codex AI; student confirmation remains false."
+}

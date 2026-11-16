@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p034",
+  "image_sha256": "86fa2de9bec5db06198fd8529b5cf9377faeb6beb53f3639af3a4a80bf6d5abf",
+  "caption": {
+    "summary": "Bảng tổng hợp tình hình thay đổi vốn điều lệ của FPT qua các lần phát hành từ năm 2006 đến năm 2014, kèm theo lý do tăng vốn điều lệ.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tình hình thay đổi vốn điều lệ",
+        "location": "phải",
+        "description": "Bảng gồm các cột: Lần phát hành, Thời điểm phát hành, Vốn điều lệ sau khi phát hành (đơn vị VNĐ), Lý do tăng vốn điều lệ. Giai đoạn từ lần 7 (06/2006) đến lần 21 (05/2014)."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800709-AVgyzc41TkEx4X06cj1I",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 136,
+        "total_tokens": 2698,
+        "cost": 0.0012424,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012424,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002176
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3198.90730001498,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

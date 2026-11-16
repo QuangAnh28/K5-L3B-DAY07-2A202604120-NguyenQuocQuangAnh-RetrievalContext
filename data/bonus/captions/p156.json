@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p156",
+  "image_sha256": "a76cc7d64685f9b3118517deee6a418374db0dc7b519c3659d62f09ae0179d85",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về chương trình hỗ trợ giáo dục và phát triển trường học của FPT thông qua dự án Trường Hy Vọng, các chương trình cải thiện điều kiện học tập tại vùng khó khăn, và các chương trình xã hội như Ánh sáng học đường, Chắp cánh ước mơ, Thư viện điện tử.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Lễ khánh thành điểm trường đồng tấu Trường mầm non Lương Thiện",
+        "location": "dưới bên phải",
+        "description": "Ảnh chụp nhóm người lớn và trẻ em tại lễ khánh thành điểm trường mầm non"
+      },
+      {
+        "type": "photo",
+        "title": "Trường Hy Vọng - Hành trình nảy mầm",
+        "location": "trên giữa",
+        "description": "Ảnh chụp tập thể học sinh và giáo viên đứng trước trường học có cờ đỏ sao vàng"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800796-SrIKSGe3sWigYIubNgZQ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 191,
+        "total_tokens": 2753,
+        "cost": 0.0013304,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013304,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003056
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3371.717600035481,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

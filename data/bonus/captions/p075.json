@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p075",
+  "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e",
+  "caption": {
+    "summary": "Báo cáo tình hình thực hiện các dự án đầu tư năm 2025 và hoạt động ESG của FPT trong năm 2025.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tình hình thực hiện các dự án đầu tư",
+        "location": "trái trên",
+        "description": "Bảng so sánh kế hoạch và giải ngân năm 2025 theo khối Công nghệ, Viễn thông, Giáo dục, đơn vị tỷ VNĐ, tỷ lệ phần trăm so với kế hoạch"
+      },
+      {
+        "type": "photo",
+        "title": "Tổ hợp giáo dục FPT tại Huế",
+        "location": "trái dưới",
+        "description": "Ảnh minh họa tổ hợp giáo dục FPT tại Huế với chú thích về định hướng phát triển gắn kết đào tạo với các công nghệ mũi nhọn như STEM, AI, Robotics"
+      },
+      {
+        "type": "diagram",
+        "title": "Hoạt động ESG",
+        "location": "phải",
+        "description": "Mô tả các ưu tiên và chiến lược ESG của FPT năm 2025, bao gồm quản trị phát triển bền vững, môi trường làm việc, giảm phát thải khí nhà kính, trách nhiệm xã hội, quản trị minh bạch và bảo mật dữ liệu"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800737-HbPReIjTJiuo4eqPlREq",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 254,
+        "total_tokens": 2816,
+        "cost": 0.0014312,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014312,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004064
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4951.697900018189,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

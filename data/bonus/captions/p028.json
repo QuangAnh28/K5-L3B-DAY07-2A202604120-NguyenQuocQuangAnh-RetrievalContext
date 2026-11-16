@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p028",
+  "image_sha256": "deaa84b66973faea6593261d349d0f310773e65fcb242176db75b72d8eeab036",
+  "caption": {
+    "summary": "Trang trình bày hành trình khẳng định năng lực và vị thế của FPT qua các mốc thời gian quan trọng từ năm 1988 đến 2008.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Hành trình khẳng định năng lực và vị thế của FPT",
+        "location": "giữa trang",
+        "description": "Các mốc thời gian quan trọng từ 1988 đến 2008, mô tả các sự kiện nổi bật của FPT trong từng năm như thành lập tổ chức, phát triển hệ thống CNTT, cung cấp dịch vụ Internet, triển khai hệ thống quản lý thuế, và các dự án lớn trong nước và quốc tế."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800704-VH7PsTiO7pJh2eMLeGeR",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 143,
+        "total_tokens": 2705,
+        "cost": 0.0012536,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012536,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002288
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2984.2389000114053,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

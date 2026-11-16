@@ -1,0 +1,413 @@
+{
+  "status": "answered",
+  "answer": "Thông điệp dữ liệu được thừa nhận có giá trị pháp lý tương đương văn bản khi đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật. [luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_cglrCLqTinykWqQ5nttjrVcb",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797596-3aQBhU3aODWggODxASZZ"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+      "model_query": "khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 53,
+          "text": "6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 53,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 202"
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "year": 2005,
+            "chapter": "Chương I",
+            "section": "Mục 3",
+            "article": "Điều 15"
+          },
+          "score": 0.031544957774465976,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 53,
+          "text": "d) Tên, địa chỉ của người mua hàng;\n\nđ) Thời gian, địa điểm đấu giá;\n\ne) Hàng hoá bán đấu giá;\n\ng) Giá đã bán;\n\nh) Tên, địa chỉ của hai người chứng kiến.\n\n2. Văn bản bán đấu giá hàng hoá ph ải được gửi đến người bán hàng, người mua hàng và các bên có liên quan.\n\n3. Tr ường h ợp đấu giá không thành, trong v ăn b ản bán đấu giá hàng hoá phải nêu rõ k ết quả là đấu giá không thành và ph ải có các n ội dung quy định tại",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 53,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.02976190476190476,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 50,
+          "text": "Điều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 50,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 192"
+          },
+          "score": 0.02964426877470356,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 3,
+          "text": "15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 3,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 4"
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 54,
+          "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 54,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 207"
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\n6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\nd) Tên, địa chỉ của người mua hàng;\n\nđ) Thời gian, địa điểm đấu giá;\n\ne) Hàng hoá bán đấu giá;\n\ng) Giá đã bán;\n\nh) Tên, địa chỉ của hai người chứng kiến.\n\n2. Văn bản bán đấu giá hàng hoá ph ải được gửi đến người bán hàng, người mua hàng và các bên có liên quan.\n\n3. Tr ường h ợp đấu giá không thành, trong v ăn b ản bán đấu giá hàng hoá phải nêu rõ k ết quả là đấu giá không thành và ph ải có các n ội dung quy định tại\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\nĐiều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+        "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+        "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7",
+        "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb",
+        "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_CW7vA2UXAh9Af4CpsMLtCyRx",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Thông điệp dữ liệu được thừa nhận có giá trị pháp lý tương đương văn bản khi đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797597-xDZ3yY34m0zwdVAXYtLt"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\n6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\nd) Tên, địa chỉ của người mua hàng;\n\nđ) Thời gian, địa điểm đấu giá;\n\ne) Hàng hoá bán đấu giá;\n\ng) Giá đã bán;\n\nh) Tên, địa chỉ của hai người chứng kiến.\n\n2. Văn bản bán đấu giá hàng hoá ph ải được gửi đến người bán hàng, người mua hàng và các bên có liên quan.\n\n3. Tr ường h ợp đấu giá không thành, trong v ăn b ản bán đấu giá hàng hoá phải nêu rõ k ết quả là đấu giá không thành và ph ải có các n ội dung quy định tại\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\nĐiều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+    "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb",
+    "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797596-3aQBhU3aODWggODxASZZ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 23,
+        "total_tokens": 314,
+        "cost": 0.0001532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001532,
+          "upstream_inference_prompt_cost": 0.0001164,
+          "upstream_inference_completions_cost": 3.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1147.068400052376,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797597-xDZ3yY34m0zwdVAXYtLt",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2292,
+        "completion_tokens": 92,
+        "total_tokens": 2384,
+        "cost": 0.001064,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001064,
+          "upstream_inference_prompt_cost": 0.0009168,
+          "upstream_inference_completions_cost": 0.0001472
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2072.0814000233077,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3229.7385000274517,
+  "searches": 1,
+  "query_id": "d7-q03",
+  "question": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+  "split": "dev",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 53,
+      "text": "6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 53,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 202"
+      },
+      "score": 0.032266458495966696,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 5,
+      "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 5,
+        "year": 2005,
+        "chapter": "Chương I",
+        "section": "Mục 3",
+        "article": "Điều 15"
+      },
+      "score": 0.031544957774465976,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 53,
+      "text": "d) Tên, địa chỉ của người mua hàng;\n\nđ) Thời gian, địa điểm đấu giá;\n\ne) Hàng hoá bán đấu giá;\n\ng) Giá đã bán;\n\nh) Tên, địa chỉ của hai người chứng kiến.\n\n2. Văn bản bán đấu giá hàng hoá ph ải được gửi đến người bán hàng, người mua hàng và các bên có liên quan.\n\n3. Tr ường h ợp đấu giá không thành, trong v ăn b ản bán đấu giá hàng hoá phải nêu rõ k ết quả là đấu giá không thành và ph ải có các n ội dung quy định tại",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 53,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.02976190476190476,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 12
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 50,
+      "text": "Điều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 50,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 192"
+      },
+      "score": 0.02964426877470356,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 9,
+        "tfidf": 6
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 3,
+      "text": "15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 3,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 4"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 54,
+      "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 54,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 207"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\n6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\nd) Tên, địa chỉ của người mua hàng;\n\nđ) Thời gian, địa điểm đấu giá;\n\ne) Hàng hoá bán đấu giá;\n\ng) Giá đã bán;\n\nh) Tên, địa chỉ của hai người chứng kiến.\n\n2. Văn bản bán đấu giá hàng hoá ph ải được gửi đến người bán hàng, người mua hàng và các bên có liên quan.\n\n3. Tr ường h ợp đấu giá không thành, trong v ăn b ản bán đấu giá hàng hoá phải nêu rõ k ết quả là đấu giá không thành và ph ải có các n ội dung quy định tại\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\nĐiều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+    "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb",
+    "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

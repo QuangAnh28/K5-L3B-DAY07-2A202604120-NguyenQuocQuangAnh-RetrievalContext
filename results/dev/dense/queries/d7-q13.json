@@ -1,0 +1,262 @@
+{
+  "status": "answered",
+  "answer": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng lời nói, bằng văn bản hoặc được xác lập bằng hành vi cụ thể. Đối với các loại hợp đồng dịch vụ mà pháp luật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó. [luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_wFYLYSHRos0aLrJTmPB1Xvnf",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"hợp đồng dịch vụ thể hiện bằng hình thức nào trong Chương III\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801199-OHpOlD5wvjzjOwWaedYz"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng những hình thức nào?",
+      "model_query": "hợp đồng dịch vụ thể hiện bằng hình thức nào trong Chương III",
+      "filter": {
+        "chapter": "Chương Iii"
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 21,
+          "text": "Mục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG CUNG ỨNG DỊCH VỤ\n\nĐiều 74. Hình thức hợp đồng dịch vụ\n\n1. Hợp đồng dịch vụ được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các lo ại hợp đồng dịch vụ mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 75. Quyền cung ứng và sử dụng dịch vụ của thương nhân\n\n1. Trừ trường hợp pháp luật hoặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác, th ương nhân có các quy ền cung ứng dịch vụ sau đây:\n\na) Cung ứng dịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ Việt Nam;\n\nb) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ Việt Nam;\n\nc) Cung ứng d ịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ nước ngoài;\n\nd) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ nước ngoài.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 21,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "section": "Mục 1",
+            "article": "Điều 74"
+          },
+          "score": 0.5585526291746463,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 22,
+          "text": "thể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 22,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 77"
+          },
+          "score": 0.5304848302618239,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 23,
+          "text": "2. Trường hợp không có th ỏa thuận về thời hạn hoàn thành d ịch vụ thì bên cung ứng dịch vụ phải hoàn thành d ịch vụ trong m ột thời hạn hợp lý trên c ơ sở tính đến tất cả các điều kiện và hoàn cảnh mà bên cung ứng dịch vụ biết được vào thời điểm giao k ết hợp đồng, bao gồm bất kỳ nhu cầu cụ thể nào c ủa khách hàng có liên quan đến thời gian hoàn thành dịch vụ.\n\n3. Tr ường h ợp m ột d ịch v ụ ch ỉ có th ể được hoàn thành khi khách hàng hoặc bên cung ứng d ịch vụ khác đáp ứng các điều ki ện nh ất định thì bên cung ứng dịch vụ đó không có ngh ĩa vụ hoàn thành d ịch vụ của mình cho đến khi các điều kiện đó được đáp ứng.\n\nĐiều 83. Yêu c ầu c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ\n\n1. Trong quá trình cung ứng d ịch vụ, bên cung ứng dịch vụ ph ải tuân th ủ những yêu c ầu h ợp lý c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 23,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 83"
+          },
+          "score": 0.4815186751940156,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 21]\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG CUNG ỨNG DỊCH VỤ\n\nĐiều 74. Hình thức hợp đồng dịch vụ\n\n1. Hợp đồng dịch vụ được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các lo ại hợp đồng dịch vụ mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 75. Quyền cung ứng và sử dụng dịch vụ của thương nhân\n\n1. Trừ trường hợp pháp luật hoặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác, th ương nhân có các quy ền cung ứng dịch vụ sau đây:\n\na) Cung ứng dịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ Việt Nam;\n\nb) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ Việt Nam;\n\nc) Cung ứng d ịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ nước ngoài;\n\nd) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ nước ngoài.\n\n[luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 22]\nthể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd",
+        "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_aiYWWwqzqkqULl3uxw0iXohc",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng lời nói, bằng văn bản hoặc được xác lập bằng hành vi cụ thể. Đối với các loại hợp đồng dịch vụ mà pháp luật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801200-xUngkwPREq6OFGh8va56"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 21]\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG CUNG ỨNG DỊCH VỤ\n\nĐiều 74. Hình thức hợp đồng dịch vụ\n\n1. Hợp đồng dịch vụ được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các lo ại hợp đồng dịch vụ mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 75. Quyền cung ứng và sử dụng dịch vụ của thương nhân\n\n1. Trừ trường hợp pháp luật hoặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác, th ương nhân có các quy ền cung ứng dịch vụ sau đây:\n\na) Cung ứng dịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ Việt Nam;\n\nb) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ Việt Nam;\n\nc) Cung ứng d ịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ nước ngoài;\n\nd) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ nước ngoài.\n\n[luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 22]\nthể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd",
+    "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801199-OHpOlD5wvjzjOwWaedYz",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 294,
+        "completion_tokens": 20,
+        "total_tokens": 314,
+        "cost": 0.0001496,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001496,
+          "upstream_inference_prompt_cost": 0.0001176,
+          "upstream_inference_completions_cost": 3.2e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 8276.55120001873,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801200-xUngkwPREq6OFGh8va56",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1203,
+        "completion_tokens": 109,
+        "total_tokens": 1312,
+        "cost": 0.0003484,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003484,
+          "upstream_inference_prompt_cost": 0.000174,
+          "upstream_inference_completions_cost": 0.0001744
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1963.9726000023074,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 10254.808999947272,
+  "searches": 1,
+  "query_id": "d7-q13",
+  "question": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng những hình thức nào?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 21,
+      "text": "Mục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG CUNG ỨNG DỊCH VỤ\n\nĐiều 74. Hình thức hợp đồng dịch vụ\n\n1. Hợp đồng dịch vụ được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các lo ại hợp đồng dịch vụ mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 75. Quyền cung ứng và sử dụng dịch vụ của thương nhân\n\n1. Trừ trường hợp pháp luật hoặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác, th ương nhân có các quy ền cung ứng dịch vụ sau đây:\n\na) Cung ứng dịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ Việt Nam;\n\nb) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ Việt Nam;\n\nc) Cung ứng d ịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ nước ngoài;\n\nd) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ nước ngoài.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 21,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "section": "Mục 1",
+        "article": "Điều 74"
+      },
+      "score": 0.5585526291746463,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 22,
+      "text": "thể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 22,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 77"
+      },
+      "score": 0.5304848302618239,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 23,
+      "text": "2. Trường hợp không có th ỏa thuận về thời hạn hoàn thành d ịch vụ thì bên cung ứng dịch vụ phải hoàn thành d ịch vụ trong m ột thời hạn hợp lý trên c ơ sở tính đến tất cả các điều kiện và hoàn cảnh mà bên cung ứng dịch vụ biết được vào thời điểm giao k ết hợp đồng, bao gồm bất kỳ nhu cầu cụ thể nào c ủa khách hàng có liên quan đến thời gian hoàn thành dịch vụ.\n\n3. Tr ường h ợp m ột d ịch v ụ ch ỉ có th ể được hoàn thành khi khách hàng hoặc bên cung ứng d ịch vụ khác đáp ứng các điều ki ện nh ất định thì bên cung ứng dịch vụ đó không có ngh ĩa vụ hoàn thành d ịch vụ của mình cho đến khi các điều kiện đó được đáp ứng.\n\nĐiều 83. Yêu c ầu c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ\n\n1. Trong quá trình cung ứng d ịch vụ, bên cung ứng dịch vụ ph ải tuân th ủ những yêu c ầu h ợp lý c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 23,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 83"
+      },
+      "score": 0.4815186751940156,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 21]\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG CUNG ỨNG DỊCH VỤ\n\nĐiều 74. Hình thức hợp đồng dịch vụ\n\n1. Hợp đồng dịch vụ được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các lo ại hợp đồng dịch vụ mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 75. Quyền cung ứng và sử dụng dịch vụ của thương nhân\n\n1. Trừ trường hợp pháp luật hoặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác, th ương nhân có các quy ền cung ứng dịch vụ sau đây:\n\na) Cung ứng dịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ Việt Nam;\n\nb) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ Việt Nam;\n\nc) Cung ứng d ịch vụ cho ng ười cư trú t ại Việt Nam s ử dụng trên lãnh th ổ nước ngoài;\n\nd) Cung ứng d ịch v ụ cho ng ười không c ư trú t ại Vi ệt Nam s ử d ụng trên lãnh thổ nước ngoài.\n\n[luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 22]\nthể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p21-paragraph-1000-b6fb55be4c3964bd",
+    "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

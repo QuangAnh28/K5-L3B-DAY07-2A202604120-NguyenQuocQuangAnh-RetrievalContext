@@ -1,0 +1,418 @@
+{
+  "status": "abstain",
+  "answer": "Luật Thương mại 2005 không quy định số tài khoản ngân hàng để thanh toán hợp đồng số HD-2026-071.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_SmY2oHMu4XGqjmCvglu36Ixv",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Số tài khoản ngân hàng để thanh toán hợp đồng số HD-2026-071\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797911-kni023emTCimv2OejqqT"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Số tài khoản ngân hàng để thanh toán hợp đồng số HD-2026-071 là gì?",
+      "model_query": "Số tài khoản ngân hàng để thanh toán hợp đồng số HD-2026-071",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 53"
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 40,
+          "text": "Điều 148. Thanh toán chi phí phát sinh Trừ tr ường h ợp có tho ả thu ận khác, bên đại di ện có quy ền yêu c ầu được thanh toán các khoản chi phí phát sinh hợp lý để thực hiện hoạt động đại diện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 40,
+            "year": 2005,
+            "chapter": "Chương V",
+            "article": "Điều 148"
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 24,
+          "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 24,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 86"
+          },
+          "score": 0.029418126757516764,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 59,
+          "text": "Điều 231. Bảo đảm thực hiện hợp đồng\n\n1. Các bên có thể thỏa thuận bên trúng thầu phải đặt cọc, ký quỹ hoặc được bảo lãnh để bảo đảm thực hiện hợp đồng. Số tiền đặt cọc, ký quỹ do bên mời thầu",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 59,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 231"
+          },
+          "score": 0.02921395544346364,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 50,
+          "text": "8. Thanh toán cho ng ười bán hàng tiền hàng đã bán, kể cả khoản tiền chênh lệch thu được từ người rút l ại giá đã trả quy định tại khoản 3 Điều 204 c ủa Luật này hoặc trả lại hàng hoá không bán được cho ng ười bán hàng theo tho ả thuận. Trường h ợp không có tho ả thu ận thì ph ải thanh toán ti ền cho ng ười bán hàng chậm nhất là ba ngày làm vi ệc sau khi nh ận được tiền của người mua hàng ho ặc phải trả lại ngay hàng hoá trong thời hạn hợp lý sau cuộc đấu giá.\n\nĐiều 191. Quyền của người bán hàng không phải là người tổ chức đấu giá Trừ trường hợp có thoả thuận khác, người bán hàng có các quyền sau đây:\n\n1. Nhận tiền hàng đã bán đấu giá và khoản chênh lệch thu được trong trường hợp quy định t ại kho ản 3 Điều 204 c ủa Lu ật này ho ặc nh ận l ại hàng hoá trong trường hợp đấu giá không thành;\n\n2. Giám sát việc tổ chức bán đấu giá hàng hoá.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 50,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 191"
+          },
+          "score": 0.02904040404040404,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 18,
+          "text": "2. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên mua có th ể thanh toán bằng ti ền và không nh ận hàng thì bên mua ph ải thanh toán cho bên bán m ột khoản ti ền b ằng m ức chênh l ệch gi ữa giá tho ả thu ận trong h ợp đồng và giá th ị trường do Sở giao dịch hàng hoá công bố tại thời điểm hợp đồng được thực hiện.\n\n3. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên bán có th ể thanh toán bằng tiền và không giao hàng thì bên bán ph ải thanh toán cho bên mua m ột khoản tiền bằng mức chênh l ệch giữa giá thị trường do S ở giao d ịch hàng hoá công b ố tại thời điểm hợp đồng được thực hiện và giá thoả thuận trong hợp đồng.\n\nĐiều 66. Quyền và nghĩa vụ của các bên trong hợp đồng quyền chọn\n\n1. Bên mua quy ền chọn mua ho ặc quyền chọn bán phải trả tiền mua quy ền chọn để được tr ở thành bên gi ữ quy ền ch ọn mua ho ặc gi ữ quy ền ch ọn bán. Số tiền phải trả cho việc mua quyền chọn do các bên thoả thuận.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 18,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 66"
+          },
+          "score": 0.02871794871794872,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 15,
+            "tfidf": 5
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 40]\nĐiều 148. Thanh toán chi phí phát sinh Trừ tr ường h ợp có tho ả thu ận khác, bên đại di ện có quy ền yêu c ầu được thanh toán các khoản chi phí phát sinh hợp lý để thực hiện hoạt động đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 59]\nĐiều 231. Bảo đảm thực hiện hợp đồng\n\n1. Các bên có thể thỏa thuận bên trúng thầu phải đặt cọc, ký quỹ hoặc được bảo lãnh để bảo đảm thực hiện hợp đồng. Số tiền đặt cọc, ký quỹ do bên mời thầu\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\n8. Thanh toán cho ng ười bán hàng tiền hàng đã bán, kể cả khoản tiền chênh lệch thu được từ người rút l ại giá đã trả quy định tại khoản 3 Điều 204 c ủa Luật này hoặc trả lại hàng hoá không bán được cho ng ười bán hàng theo tho ả thuận. Trường h ợp không có tho ả thu ận thì ph ải thanh toán ti ền cho ng ười bán hàng chậm nhất là ba ngày làm vi ệc sau khi nh ận được tiền của người mua hàng ho ặc phải trả lại ngay hàng hoá trong thời hạn hợp lý sau cuộc đấu giá.\n\nĐiều 191. Quyền của người bán hàng không phải là người tổ chức đấu giá Trừ trường hợp có thoả thuận khác, người bán hàng có các quyền sau đây:\n\n1. Nhận tiền hàng đã bán đấu giá và khoản chênh lệch thu được trong trường hợp quy định t ại kho ản 3 Điều 204 c ủa Lu ật này ho ặc nh ận l ại hàng hoá trong trường hợp đấu giá không thành;\n\n2. Giám sát việc tổ chức bán đấu giá hàng hoá.\n\n[luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 18]\n2. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên mua có th ể thanh toán bằng ti ền và không nh ận hàng thì bên mua ph ải thanh toán cho bên bán m ột khoản ti ền b ằng m ức chênh l ệch gi ữa giá tho ả thu ận trong h ợp đồng và giá th ị trường do Sở giao dịch hàng hoá công bố tại thời điểm hợp đồng được thực hiện.\n\n3. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên bán có th ể thanh toán bằng tiền và không giao hàng thì bên bán ph ải thanh toán cho bên mua m ột khoản tiền bằng mức chênh l ệch giữa giá thị trường do S ở giao d ịch hàng hoá công b ố tại thời điểm hợp đồng được thực hiện và giá thoả thuận trong hợp đồng.\n\nĐiều 66. Quyền và nghĩa vụ của các bên trong hợp đồng quyền chọn\n\n1. Bên mua quy ền chọn mua ho ặc quyền chọn bán phải trả tiền mua quy ền chọn để được tr ở thành bên gi ữ quy ền ch ọn mua ho ặc gi ữ quy ền ch ọn bán. Số tiền phải trả cho việc mua quyền chọn do các bên thoả thuận.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+        "luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730",
+        "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+        "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002",
+        "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa",
+        "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_lJHvsE0jgWkAjZmjQxMGwekm",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Luật Thương mại 2005 không quy định số tài khoản ngân hàng để thanh toán hợp đồng số HD-2026-071.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797913-foHjP1Zvt8KOv8yR56Pz"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 40]\nĐiều 148. Thanh toán chi phí phát sinh Trừ tr ường h ợp có tho ả thu ận khác, bên đại di ện có quy ền yêu c ầu được thanh toán các khoản chi phí phát sinh hợp lý để thực hiện hoạt động đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 59]\nĐiều 231. Bảo đảm thực hiện hợp đồng\n\n1. Các bên có thể thỏa thuận bên trúng thầu phải đặt cọc, ký quỹ hoặc được bảo lãnh để bảo đảm thực hiện hợp đồng. Số tiền đặt cọc, ký quỹ do bên mời thầu\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\n8. Thanh toán cho ng ười bán hàng tiền hàng đã bán, kể cả khoản tiền chênh lệch thu được từ người rút l ại giá đã trả quy định tại khoản 3 Điều 204 c ủa Luật này hoặc trả lại hàng hoá không bán được cho ng ười bán hàng theo tho ả thuận. Trường h ợp không có tho ả thu ận thì ph ải thanh toán ti ền cho ng ười bán hàng chậm nhất là ba ngày làm vi ệc sau khi nh ận được tiền của người mua hàng ho ặc phải trả lại ngay hàng hoá trong thời hạn hợp lý sau cuộc đấu giá.\n\nĐiều 191. Quyền của người bán hàng không phải là người tổ chức đấu giá Trừ trường hợp có thoả thuận khác, người bán hàng có các quyền sau đây:\n\n1. Nhận tiền hàng đã bán đấu giá và khoản chênh lệch thu được trong trường hợp quy định t ại kho ản 3 Điều 204 c ủa Lu ật này ho ặc nh ận l ại hàng hoá trong trường hợp đấu giá không thành;\n\n2. Giám sát việc tổ chức bán đấu giá hàng hoá.\n\n[luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 18]\n2. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên mua có th ể thanh toán bằng ti ền và không nh ận hàng thì bên mua ph ải thanh toán cho bên bán m ột khoản ti ền b ằng m ức chênh l ệch gi ữa giá tho ả thu ận trong h ợp đồng và giá th ị trường do Sở giao dịch hàng hoá công bố tại thời điểm hợp đồng được thực hiện.\n\n3. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên bán có th ể thanh toán bằng tiền và không giao hàng thì bên bán ph ải thanh toán cho bên mua m ột khoản tiền bằng mức chênh l ệch giữa giá thị trường do S ở giao d ịch hàng hoá công b ố tại thời điểm hợp đồng được thực hiện và giá thoả thuận trong hợp đồng.\n\nĐiều 66. Quyền và nghĩa vụ của các bên trong hợp đồng quyền chọn\n\n1. Bên mua quy ền chọn mua ho ặc quyền chọn bán phải trả tiền mua quy ền chọn để được tr ở thành bên gi ữ quy ền ch ọn mua ho ặc gi ữ quy ền ch ọn bán. Số tiền phải trả cho việc mua quyền chọn do các bên thoả thuận.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa",
+    "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797911-kni023emTCimv2OejqqT",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 23,
+        "total_tokens": 316,
+        "cost": 0.000154,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000154,
+          "upstream_inference_prompt_cost": 0.0001172,
+          "upstream_inference_completions_cost": 3.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1494.377999973949,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797913-foHjP1Zvt8KOv8yR56Pz",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2219,
+        "completion_tokens": 51,
+        "total_tokens": 2270,
+        "cost": 0.0009692,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0009692,
+          "upstream_inference_prompt_cost": 0.0008876,
+          "upstream_inference_completions_cost": 8.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1704.4184999540448,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3229.0546000003815,
+  "searches": 1,
+  "query_id": "d7-u3",
+  "question": "Số tài khoản ngân hàng để thanh toán hợp đồng số HD-2026-071 là gì?",
+  "split": "test",
+  "config": "hybrid_context",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 16,
+      "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 53"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 40,
+      "text": "Điều 148. Thanh toán chi phí phát sinh Trừ tr ường h ợp có tho ả thu ận khác, bên đại di ện có quy ền yêu c ầu được thanh toán các khoản chi phí phát sinh hợp lý để thực hiện hoạt động đại diện.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 40,
+        "year": 2005,
+        "chapter": "Chương V",
+        "article": "Điều 148"
+      },
+      "score": 0.031009615384615385,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 5,
+        "tfidf": 4
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 24,
+      "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 24,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 86"
+      },
+      "score": 0.029418126757516764,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 7,
+        "tfidf": 9
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 59,
+      "text": "Điều 231. Bảo đảm thực hiện hợp đồng\n\n1. Các bên có thể thỏa thuận bên trúng thầu phải đặt cọc, ký quỹ hoặc được bảo lãnh để bảo đảm thực hiện hợp đồng. Số tiền đặt cọc, ký quỹ do bên mời thầu",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 59,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 231"
+      },
+      "score": 0.02921395544346364,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 18
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 50,
+      "text": "8. Thanh toán cho ng ười bán hàng tiền hàng đã bán, kể cả khoản tiền chênh lệch thu được từ người rút l ại giá đã trả quy định tại khoản 3 Điều 204 c ủa Luật này hoặc trả lại hàng hoá không bán được cho ng ười bán hàng theo tho ả thuận. Trường h ợp không có tho ả thu ận thì ph ải thanh toán ti ền cho ng ười bán hàng chậm nhất là ba ngày làm vi ệc sau khi nh ận được tiền của người mua hàng ho ặc phải trả lại ngay hàng hoá trong thời hạn hợp lý sau cuộc đấu giá.\n\nĐiều 191. Quyền của người bán hàng không phải là người tổ chức đấu giá Trừ trường hợp có thoả thuận khác, người bán hàng có các quyền sau đây:\n\n1. Nhận tiền hàng đã bán đấu giá và khoản chênh lệch thu được trong trường hợp quy định t ại kho ản 3 Điều 204 c ủa Lu ật này ho ặc nh ận l ại hàng hoá trong trường hợp đấu giá không thành;\n\n2. Giám sát việc tổ chức bán đấu giá hàng hoá.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 50,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 191"
+      },
+      "score": 0.02904040404040404,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 12
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 18,
+      "text": "2. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên mua có th ể thanh toán bằng ti ền và không nh ận hàng thì bên mua ph ải thanh toán cho bên bán m ột khoản ti ền b ằng m ức chênh l ệch gi ữa giá tho ả thu ận trong h ợp đồng và giá th ị trường do Sở giao dịch hàng hoá công bố tại thời điểm hợp đồng được thực hiện.\n\n3. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên bán có th ể thanh toán bằng tiền và không giao hàng thì bên bán ph ải thanh toán cho bên mua m ột khoản tiền bằng mức chênh l ệch giữa giá thị trường do S ở giao d ịch hàng hoá công b ố tại thời điểm hợp đồng được thực hiện và giá thoả thuận trong hợp đồng.\n\nĐiều 66. Quyền và nghĩa vụ của các bên trong hợp đồng quyền chọn\n\n1. Bên mua quy ền chọn mua ho ặc quyền chọn bán phải trả tiền mua quy ền chọn để được tr ở thành bên gi ữ quy ền ch ọn mua ho ặc gi ữ quy ền ch ọn bán. Số tiền phải trả cho việc mua quyền chọn do các bên thoả thuận.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 18,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 66"
+      },
+      "score": 0.02871794871794872,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 15,
+        "tfidf": 5
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 40]\nĐiều 148. Thanh toán chi phí phát sinh Trừ tr ường h ợp có tho ả thu ận khác, bên đại di ện có quy ền yêu c ầu được thanh toán các khoản chi phí phát sinh hợp lý để thực hiện hoạt động đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 59]\nĐiều 231. Bảo đảm thực hiện hợp đồng\n\n1. Các bên có thể thỏa thuận bên trúng thầu phải đặt cọc, ký quỹ hoặc được bảo lãnh để bảo đảm thực hiện hợp đồng. Số tiền đặt cọc, ký quỹ do bên mời thầu\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\n8. Thanh toán cho ng ười bán hàng tiền hàng đã bán, kể cả khoản tiền chênh lệch thu được từ người rút l ại giá đã trả quy định tại khoản 3 Điều 204 c ủa Luật này hoặc trả lại hàng hoá không bán được cho ng ười bán hàng theo tho ả thuận. Trường h ợp không có tho ả thu ận thì ph ải thanh toán ti ền cho ng ười bán hàng chậm nhất là ba ngày làm vi ệc sau khi nh ận được tiền của người mua hàng ho ặc phải trả lại ngay hàng hoá trong thời hạn hợp lý sau cuộc đấu giá.\n\nĐiều 191. Quyền của người bán hàng không phải là người tổ chức đấu giá Trừ trường hợp có thoả thuận khác, người bán hàng có các quyền sau đây:\n\n1. Nhận tiền hàng đã bán đấu giá và khoản chênh lệch thu được trong trường hợp quy định t ại kho ản 3 Điều 204 c ủa Lu ật này ho ặc nh ận l ại hàng hoá trong trường hợp đấu giá không thành;\n\n2. Giám sát việc tổ chức bán đấu giá hàng hoá.\n\n[luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 18]\n2. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên mua có th ể thanh toán bằng ti ền và không nh ận hàng thì bên mua ph ải thanh toán cho bên bán m ột khoản ti ền b ằng m ức chênh l ệch gi ữa giá tho ả thu ận trong h ợp đồng và giá th ị trường do Sở giao dịch hàng hoá công bố tại thời điểm hợp đồng được thực hiện.\n\n3. Tr ường h ợp các bên có tho ả thu ận v ề vi ệc bên bán có th ể thanh toán bằng tiền và không giao hàng thì bên bán ph ải thanh toán cho bên mua m ột khoản tiền bằng mức chênh l ệch giữa giá thị trường do S ở giao d ịch hàng hoá công b ố tại thời điểm hợp đồng được thực hiện và giá thoả thuận trong hợp đồng.\n\nĐiều 66. Quyền và nghĩa vụ của các bên trong hợp đồng quyền chọn\n\n1. Bên mua quy ền chọn mua ho ặc quyền chọn bán phải trả tiền mua quy ền chọn để được tr ở thành bên gi ữ quy ền ch ọn mua ho ặc gi ữ quy ền ch ọn bán. Số tiền phải trả cho việc mua quyền chọn do các bên thoả thuận.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-e57d00cc32c76730",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-64242a0c53ef9002",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa",
+    "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-031ee55720319560"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

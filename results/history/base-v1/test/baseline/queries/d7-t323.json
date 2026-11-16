@@ -1,0 +1,257 @@
+{
+  "status": "answered",
+  "answer": "Luật Thương mại 2005 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006 và thay thế Luật thương mại ngày 10 tháng 5 năm 1997. [luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_8erLeohxNYlNKxhiNOzXMTs2",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Luật Thương mại 2005 có hiệu lực từ ngày nào và thay thế luật nào?\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797881-svuAhsonICJ7Ayf82MOn"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Theo bản tài liệu, Luật Thương mại 2005 có hiệu lực từ ngày nào và thay thế luật nào?",
+      "model_query": "Luật Thương mại 2005 có hiệu lực từ ngày nào và thay thế luật nào?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 83,
+          "text": "Chương IX ĐIỀU KHOẢN THI HÀNH\n\nĐiều 323. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006. Luật này thay thế Luật thương mại ngày 10 tháng 5 năm 1997.\n\nĐiều 324. Quy định chi tiết và hướng dẫn thi hành Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này. Luật này đã được Quốc hội n ước Cộng hoà xã h ội chủ ngh ĩa Vi ệt Nam khoá XI, kỳ họp thứ 7 thông qua ngày 14 tháng 6 năm 2005. CHỦ TỊCH QUỐC HỘI",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 83,
+            "year": 2005,
+            "chapter": "Chương Ix",
+            "article": "Điều 323"
+          },
+          "score": 0.3078715819309252,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 82,
+          "text": "3. Chín tháng, k ể từ ngày bên vi ph ạm phải hoàn thành ngh ĩa vụ theo h ợp đồng hoặc trong trường hợp có bảo hành thì kể từ ngày hết thời hạn bảo hành đối với khiếu nại về các vi phạm khác.\n\nĐiều 319. Thời hiệu khởi kiện Thời hiệu khởi kiện áp dụng đối với các tranh chấp thương mại là hai năm, kể từ thời điểm quyền và lợi ích hợp pháp b ị xâm phạm, trừ trường hợp quy định tại điểm e khoản 1 Điều 237 của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 82,
+            "year": 2005,
+            "chapter": "Chương Vii",
+            "article": "Điều 319"
+          },
+          "score": 0.2049278444883811,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 1,
+          "text": "QUỐC HỘI Luật số: 36/2005/QH11 CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUỐC HỘI NƯỚC CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Khoá XI, kỳ họp thứ 7 (Từ ngày 05 tháng 5 đến ngày 14 tháng 6 năm 2005) LUẬT THƯƠNG MẠI Căn c ứ vào Hi ến pháp n ước C ộng hòa xã h ội ch ủ ngh ĩa Vi ệt Nam n ăm 1992 đã được sửa đổi, bổ sung theo Ngh ị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10; Luật này quy định về hoạt động thương mại.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 1,
+            "year": 2005
+          },
+          "score": 0.17726435081726416,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 83]\nChương IX ĐIỀU KHOẢN THI HÀNH\n\nĐiều 323. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006. Luật này thay thế Luật thương mại ngày 10 tháng 5 năm 1997.\n\nĐiều 324. Quy định chi tiết và hướng dẫn thi hành Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này. Luật này đã được Quốc hội n ước Cộng hoà xã h ội chủ ngh ĩa Vi ệt Nam khoá XI, kỳ họp thứ 7 thông qua ngày 14 tháng 6 năm 2005. CHỦ TỊCH QUỐC HỘI\n\n[luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 82]\n3. Chín tháng, k ể từ ngày bên vi ph ạm phải hoàn thành ngh ĩa vụ theo h ợp đồng hoặc trong trường hợp có bảo hành thì kể từ ngày hết thời hạn bảo hành đối với khiếu nại về các vi phạm khác.\n\nĐiều 319. Thời hiệu khởi kiện Thời hiệu khởi kiện áp dụng đối với các tranh chấp thương mại là hai năm, kể từ thời điểm quyền và lợi ích hợp pháp b ị xâm phạm, trừ trường hợp quy định tại điểm e khoản 1 Điều 237 của Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 1]\nQUỐC HỘI Luật số: 36/2005/QH11 CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUỐC HỘI NƯỚC CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Khoá XI, kỳ họp thứ 7 (Từ ngày 05 tháng 5 đến ngày 14 tháng 6 năm 2005) LUẬT THƯƠNG MẠI Căn c ứ vào Hi ến pháp n ước C ộng hòa xã h ội ch ủ ngh ĩa Vi ệt Nam n ăm 1992 đã được sửa đổi, bổ sung theo Ngh ị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10; Luật này quy định về hoạt động thương mại.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1",
+        "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb",
+        "luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_rVW1vDBZ8DzcVnHl5JotIjOb",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Luật Thương mại 2005 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006 và thay thế Luật thương mại ngày 10 tháng 5 năm 1997.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797882-34DO0qmjiFkj9x7VZIgi"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 83]\nChương IX ĐIỀU KHOẢN THI HÀNH\n\nĐiều 323. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006. Luật này thay thế Luật thương mại ngày 10 tháng 5 năm 1997.\n\nĐiều 324. Quy định chi tiết và hướng dẫn thi hành Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này. Luật này đã được Quốc hội n ước Cộng hoà xã h ội chủ ngh ĩa Vi ệt Nam khoá XI, kỳ họp thứ 7 thông qua ngày 14 tháng 6 năm 2005. CHỦ TỊCH QUỐC HỘI\n\n[luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 82]\n3. Chín tháng, k ể từ ngày bên vi ph ạm phải hoàn thành ngh ĩa vụ theo h ợp đồng hoặc trong trường hợp có bảo hành thì kể từ ngày hết thời hạn bảo hành đối với khiếu nại về các vi phạm khác.\n\nĐiều 319. Thời hiệu khởi kiện Thời hiệu khởi kiện áp dụng đối với các tranh chấp thương mại là hai năm, kể từ thời điểm quyền và lợi ích hợp pháp b ị xâm phạm, trừ trường hợp quy định tại điểm e khoản 1 Điều 237 của Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 1]\nQUỐC HỘI Luật số: 36/2005/QH11 CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUỐC HỘI NƯỚC CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Khoá XI, kỳ họp thứ 7 (Từ ngày 05 tháng 5 đến ngày 14 tháng 6 năm 2005) LUẬT THƯƠNG MẠI Căn c ứ vào Hi ến pháp n ước C ộng hòa xã h ội ch ủ ngh ĩa Vi ệt Nam n ăm 1992 đã được sửa đổi, bổ sung theo Ngh ị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10; Luật này quy định về hoạt động thương mại.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1",
+    "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb",
+    "luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797881-svuAhsonICJ7Ayf82MOn",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 297,
+        "completion_tokens": 25,
+        "total_tokens": 322,
+        "cost": 0.0001588,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001588,
+          "upstream_inference_prompt_cost": 0.0001188,
+          "upstream_inference_completions_cost": 4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 16398.47459999146,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797882-34DO0qmjiFkj9x7VZIgi",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 89,
+        "total_tokens": 1321,
+        "cost": 0.0006352,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006352,
+          "upstream_inference_prompt_cost": 0.0004928,
+          "upstream_inference_completions_cost": 0.0001424
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1705.4432000149973,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 18112.83999995794,
+  "searches": 1,
+  "query_id": "d7-t323",
+  "question": "Theo bản tài liệu, Luật Thương mại 2005 có hiệu lực từ ngày nào và thay thế luật nào?",
+  "split": "test",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 83,
+      "text": "Chương IX ĐIỀU KHOẢN THI HÀNH\n\nĐiều 323. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006. Luật này thay thế Luật thương mại ngày 10 tháng 5 năm 1997.\n\nĐiều 324. Quy định chi tiết và hướng dẫn thi hành Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này. Luật này đã được Quốc hội n ước Cộng hoà xã h ội chủ ngh ĩa Vi ệt Nam khoá XI, kỳ họp thứ 7 thông qua ngày 14 tháng 6 năm 2005. CHỦ TỊCH QUỐC HỘI",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 83,
+        "year": 2005,
+        "chapter": "Chương Ix",
+        "article": "Điều 323"
+      },
+      "score": 0.3078715819309252,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 82,
+      "text": "3. Chín tháng, k ể từ ngày bên vi ph ạm phải hoàn thành ngh ĩa vụ theo h ợp đồng hoặc trong trường hợp có bảo hành thì kể từ ngày hết thời hạn bảo hành đối với khiếu nại về các vi phạm khác.\n\nĐiều 319. Thời hiệu khởi kiện Thời hiệu khởi kiện áp dụng đối với các tranh chấp thương mại là hai năm, kể từ thời điểm quyền và lợi ích hợp pháp b ị xâm phạm, trừ trường hợp quy định tại điểm e khoản 1 Điều 237 của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 82,
+        "year": 2005,
+        "chapter": "Chương Vii",
+        "article": "Điều 319"
+      },
+      "score": 0.2049278444883811,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 1,
+      "text": "QUỐC HỘI Luật số: 36/2005/QH11 CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUỐC HỘI NƯỚC CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Khoá XI, kỳ họp thứ 7 (Từ ngày 05 tháng 5 đến ngày 14 tháng 6 năm 2005) LUẬT THƯƠNG MẠI Căn c ứ vào Hi ến pháp n ước C ộng hòa xã h ội ch ủ ngh ĩa Vi ệt Nam n ăm 1992 đã được sửa đổi, bổ sung theo Ngh ị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10; Luật này quy định về hoạt động thương mại.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 1,
+        "year": 2005
+      },
+      "score": 0.17726435081726416,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 83]\nChương IX ĐIỀU KHOẢN THI HÀNH\n\nĐiều 323. Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2006. Luật này thay thế Luật thương mại ngày 10 tháng 5 năm 1997.\n\nĐiều 324. Quy định chi tiết và hướng dẫn thi hành Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này. Luật này đã được Quốc hội n ước Cộng hoà xã h ội chủ ngh ĩa Vi ệt Nam khoá XI, kỳ họp thứ 7 thông qua ngày 14 tháng 6 năm 2005. CHỦ TỊCH QUỐC HỘI\n\n[luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 82]\n3. Chín tháng, k ể từ ngày bên vi ph ạm phải hoàn thành ngh ĩa vụ theo h ợp đồng hoặc trong trường hợp có bảo hành thì kể từ ngày hết thời hạn bảo hành đối với khiếu nại về các vi phạm khác.\n\nĐiều 319. Thời hiệu khởi kiện Thời hiệu khởi kiện áp dụng đối với các tranh chấp thương mại là hai năm, kể từ thời điểm quyền và lợi ích hợp pháp b ị xâm phạm, trừ trường hợp quy định tại điểm e khoản 1 Điều 237 của Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 1]\nQUỐC HỘI Luật số: 36/2005/QH11 CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUỐC HỘI NƯỚC CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM Khoá XI, kỳ họp thứ 7 (Từ ngày 05 tháng 5 đến ngày 14 tháng 6 năm 2005) LUẬT THƯƠNG MẠI Căn c ứ vào Hi ến pháp n ước C ộng hòa xã h ội ch ủ ngh ĩa Vi ệt Nam n ăm 1992 đã được sửa đổi, bổ sung theo Ngh ị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10; Luật này quy định về hoạt động thương mại.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p83-paragraph-1000-cc47e7ad2c485bd1",
+    "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-7c39d75d39d020fb",
+    "luat-thuong-mai-36-2005-qh11-p1-paragraph-1000-13f636b61fe05e7a"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

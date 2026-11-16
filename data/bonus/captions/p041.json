@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p041",
+  "image_sha256": "bb9132c7e13e2184e18bdebbb3ed309c92a077f9844399e14ec7586cc067799c",
+  "caption": {
+    "summary": "Trang giới thiệu hai Phó tổng giám đốc của FPT, ông Nguyễn Thế Phương và ông Phạm Minh Tuấn, cùng với tiểu sử và đóng góp của họ cho Tập đoàn.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ảnh ông Nguyễn Thế Phương",
+        "location": "phải trên",
+        "description": "Ảnh chân dung ông Nguyễn Thế Phương, Phó tổng giám đốc FPT"
+      },
+      {
+        "type": "photo",
+        "title": "Ảnh ông Phạm Minh Tuấn",
+        "location": "dưới trái",
+        "description": "Ảnh chân dung ông Phạm Minh Tuấn, Phó tổng giám đốc FPT"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800715-lhe53BATBzXmCGrLtGov",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 142,
+        "total_tokens": 2704,
+        "cost": 0.001252,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001252,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002272
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2952.916699985508,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

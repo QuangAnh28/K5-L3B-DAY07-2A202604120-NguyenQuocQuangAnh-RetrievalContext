@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p119",
+  "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469",
+  "caption": {
+    "summary": "Trang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800765-aI6XI2m16yB1bzt61P1v",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 81,
+        "total_tokens": 2643,
+        "cost": 0.0011544,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011544,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001296
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2601.8394000129774,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

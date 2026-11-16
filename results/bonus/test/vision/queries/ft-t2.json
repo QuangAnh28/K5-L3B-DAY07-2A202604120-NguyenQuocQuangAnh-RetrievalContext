@@ -1,0 +1,501 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805063-Jjw3n3FeRaDDRJd59E2S",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01AExvkFZo2HzMjaytp7wuDf",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Theo bảng chỉ tiêu kinh doanh, lãi cơ bản trên cổ phiếu năm 2024 và 2025 là bao nhiêu? Đơn vị của hàng này có giống đơn vị chung của bảng không?\",\"bảng chỉ tiêu kinh doanh lãi cơ bản trên cổ phiếu EPS 2025 2024\",\"đơn vị tính bảng chỉ tiêu kinh doanh chính\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo bảng chỉ tiêu kinh doanh, lãi cơ bản trên cổ phiếu năm 2024 và 2025 là bao nhiêu? Đơn vị của hàng này có giống đơn vị chung của bảng không?",
+      "model_queries": [
+        "Theo bảng chỉ tiêu kinh doanh, lãi cơ bản trên cổ phiếu năm 2024 và 2025 là bao nhiêu? Đơn vị của hàng này có giống đơn vị chung của bảng không?",
+        "bảng chỉ tiêu kinh doanh lãi cơ bản trên cổ phiếu EPS 2025 2024",
+        "đơn vị tính bảng chỉ tiêu kinh doanh chính"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p170",
+          "page": 170,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "score": 0.031024531024531024,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p204",
+          "page": 204,
+          "score": 0.031024531024531024,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "score": 0.030834914611005692,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p208",
+          "page": 208,
+          "score": 0.03047794966520434,
+          "component_ranks": {
+            "dense": 11,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p205",
+          "page": 205,
+          "score": 0.028814262023217248,
+          "component_ranks": {
+            "dense": 12,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p093",
+          "page": 93,
+          "score": 0.02758751902587519,
+          "component_ranks": {
+            "dense": 13,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "score": 0.02690501986276634,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 11
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo bảng chỉ tiêu kinh doanh, lãi cơ bản trên cổ phiếu năm 2024 và 2025 là bao nhiêu? Đơn vị của hàng này có giống đơn vị chung của bảng không?"
+      ],
+      "context_ids": [
+        "FPT2025:p170",
+        "FPT2025:p036",
+        "FPT2025:p204",
+        "FPT2025:p209",
+        "FPT2025:p208",
+        "FPT2025:p205",
+        "FPT2025:p093",
+        "FPT2025:p010"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p170",
+          "page": 170,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lợi nhuận sau thuế TNDN (60 = 50 – 51 – 52)\nPhân bổ cho:\nCổ đông của công ty mẹ\nCổ đông không kiểm soát\nLãi cơ bản trên cổ phiếu\nLãi suy giảm trên cổ phiếu\nBÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH HỢP NHẤT Mẫu số B 02 – DN/HN\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\n60\n61\n62\n70\n71\n11.232.339.450.734\n9.376.127.629.501\n1.856.211.821.233\n5.216\n5.216\n9.427.422.530.444\n7.856.767.812.178\n1.570.654.718.266\n4.292\n4.292\n25(a)\n25(b)\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nNgày 18 tháng 3 năm 2026\nĐơn vị: VNĐ\n(Tiếp theo)\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo kết quả hoạt động kinh doanh hợp nhất năm 2025 và 2024 của FPT, thể hiện lợi nhuận sau thuế và phân bổ lợi nhuận cho cổ đông.\ntable: Báo cáo kết quả hoạt động kinh doanh hợp nhất (trên) — Các chỉ tiêu tài chính gồm lợi nhuận sau thuế TNDN, cổ đông công ty mẹ, cổ đông không kiểm soát, lãi cơ bản và lãi suy giảm trên cổ phiếu; đơn vị tính VNĐ; so sánh năm tài chính kết thúc ngày 31/12/2025 và 2024.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo kết quả hoạt động kinh doanh hợp nhất",
+              "location": "trên",
+              "description": "Các chỉ tiêu tài chính gồm lợi nhuận sau thuế TNDN, cổ đông công ty mẹ, cổ đông không kiểm soát, lãi cơ bản và lãi suy giảm trên cổ phiếu; đơn vị tính VNĐ; so sánh năm tài chính kết thúc ngày 31/12/2025 và 2024."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lần Thời điểm\nphát hành\nVốn điều lệ\nsau khi phát hành\nLý do\nGiá cao nhất Giá thấp nhất Khối lượng giao dịch/Ngày Khối lượng giao dịch nhiều nhất Khối lượng giao dịch ít nhất\n38\n39\n40\n41\n42\n43\n05/2023\n07/2023\n06/2024\n10/2024\n05/2025\n07/2025\n11.043.316.220.000\n12.699.688.750.000\n14.604.480.660.000\n14.710.691.830.000\n14.813.301.220.000\n17.035.071.210.000\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có \nthành tích đóng góp trong năm 2022; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu \ncho đối tượng là cán bộ lãnh đạo cấp cao năm 2023.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2022.\nTăng vốn điều lệ sau phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu \ntheo tỷ lệ 15%.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV \ncó thành tích đóng góp trong năm 2023 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2024.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng CBNV có \nthành tích đóng góp trong năm 2024 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2025.\nTăng vốn điều lệ sau đợt phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông \nĐơn vị: VNĐ\n• Thống kê giao dịch và giá cổ phiếu năm 2025 Tính từ ngày 01/01/2025-31/12/2025\n131.708\nVNĐ/Cổ phiếu\n86.104\nVNĐ/Cổ phiếu\n7.594.874\nCổ phiếu\n23.514.300\nCổ phiếu\n1.005.400\nCổ phiếu\n• Tình hình thay đổi vốn điều lệ (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo về tình hình thay đổi vốn điều lệ của FPT từ năm 2023 đến 2025 và thống kê giao dịch, giá cổ phiếu năm 2025.\ntable: Tình hình thay đổi vốn điều lệ (trên) — Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ.\ntable: Thống kê giao dịch và giá cổ phiếu năm 2025 (dưới) — Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình thay đổi vốn điều lệ",
+              "location": "trên",
+              "description": "Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Thống kê giao dịch và giá cổ phiếu năm 2025",
+              "location": "dưới",
+              "description": "Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p204",
+          "page": 204,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "USD\nUSD\nJPY\n429.501.462,00\n90.199.097.690,00\nSố lượng cổ phiếu đăng ký\nSố lượng cổ phiếu đã phát hành\nCổ phiếu phổ thông\n• Trong đó: cổ phiếu bị hạn chế quyền \nchuyển giao quyền sở hữu\nSố lượng cổ phiếu đang lưu hành\nCổ phiếu phổ thông\n• Trong đó: cổ phiếu bị hạn chế quyền \nchuyển giao quyền sở hữu\n1.703.507.121 \n 1.703.507.121 \n \n1.703.507.121 \n \n 31.584.406 \n \n 1.703.507.121 \n \n 1.703.507.121 \n \n 31.584.406 \n1.471.069.183 \n1.471.069.183 \n1.471.069.183 \n25.943.108 \n1.471.069.183 \n1.471.069.183 \n25.943.108 \n433.771.845,17\n73.230.679.857,00\n 6.750.000,00\nNgoài ra, Tập đoàn có nguồn thu ngoại tệ thu được từ các hợp đồng cung cấp dịch \nvụ thu tiền bằng USD và JPY để có thể chi trả cho các khoản vay. Cụ thể, doanh thu \ncủa Tập đoàn thu về bằng USD và JPY trong năm như sau:\nMỗi cổ phiếu phổ thông tương ứng với một phiếu biểu quyết tại các cuộc họp \ncổ đông của Công ty. Các cổ đông được nhận cổ tức mà Công ty công bố vào \ntừng thời điểm. Tất cả cổ phiếu phổ thông đều có thứ tự ưu tiên như nhau đối \nvới tài sản còn lại của Công ty. Các quyền lợi của các cổ phiếu đã được Công \nty mua lại đều bị tạm ngừng cho tới khi được phát hành lại.\nCác cổ phiếu bị hạn chế quyền chuyển giao quyền sở hữu chủ yếu là cổ phiếu \ntrong các đợt phát hành cho cán bộ nhân viên có thành tích đóng góp và cán \nbộ lãnh đạo cấp cao phải chịu hạn chế mà theo đó cổ đông nắm giữ cổ phiếu \nkhông được bán lại các cổ phiếu mà họ nắm giữ trong một thời gian quy định \nkể từ ngày phát hành.\n 6.750.000,00 32.900.000,00 25.000.000,00\n31/12/2025\nTổng số dư\n ngoại tệ\nTổng số dư\n ngoại tệ\nNgoại tệ Số dư ngoại tệ \nđã được phòng \nngừa rủi ro\nSố dư ngoại tệ \nđã được phòng \nngừa rủi ro\n31/12/2024\n2025\nNgoại tệ\n2024\n22. Vay và nợ thuê tài chính (Tiếp theo)\nChi tiết số dư các khoản vay bằng ngoại tệ được Tập đoàn phòng ngừa rủi ro \ntỷ giá bằng cách sử dụng các giao dịch hoán đổi ngoại tệ và mua ngoại tệ \ntrong tương lai như sau:\n23. Vốn góp của chủ sở hữu\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nĐơn vị: VNĐ\nĐơn vị: VNĐ\nĐơn vị: VNĐ\n31/12/2025\nCổ phiếu phổ thông\n31/12/2024\nCổ phiếu phổ thông\n(a) Số lượng cổ phiếu\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thuyết minh báo cáo tài chính hợp nhất năm 2025, tập trung vào vay và nợ thuê tài chính, cũng như vốn góp của chủ sở hữu qua số lượng cổ phiếu.\ntable: Chi tiết vay và nợ thuê tài chính theo ngoại tệ (trái trên) — Bảng so sánh tổng số dư ngoại tệ và số dư ngoại tệ đã được phòng ngừa rủi ro của USD năm 2025 và 2024, đơn vị VND.\ntable: Doanh thu thu ngoại tệ từ hợp đồng cung cấp dịch vụ thu tiền bằng USD và JPY (trái dưới) — Bảng doanh thu thu ngoại tệ năm 2025 và 2024 theo USD và JPY, đơn vị VND.\ntable: Số lượng cổ phiếu phổ thông (phải trên) — Bảng số lượng cổ phiếu phổ thông đăng ký, phát hành, đang lưu hành và bị hạn chế quyền chuyển giao quyền sở hữu năm 2025 và 2024, đơn vị VND.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi tiết vay và nợ thuê tài chính theo ngoại tệ",
+              "location": "trái trên",
+              "description": "Bảng so sánh tổng số dư ngoại tệ và số dư ngoại tệ đã được phòng ngừa rủi ro của USD năm 2025 và 2024, đơn vị VND."
+            },
+            {
+              "type": "table",
+              "title": "Doanh thu thu ngoại tệ từ hợp đồng cung cấp dịch vụ thu tiền bằng USD và JPY",
+              "location": "trái dưới",
+              "description": "Bảng doanh thu thu ngoại tệ năm 2025 và 2024 theo USD và JPY, đơn vị VND."
+            },
+            {
+              "type": "table",
+              "title": "Số lượng cổ phiếu phổ thông",
+              "location": "phải trên",
+              "description": "Bảng số lượng cổ phiếu phổ thông đăng ký, phát hành, đang lưu hành và bị hạn chế quyền chuyển giao quyền sở hữu năm 2025 và 2024, đơn vị VND."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "26. Doanh thu thuần về bán hàng và\ncung cấp dịch vụ 28. Doanh thu hoạt động tài chính\nĐơn vị: VNĐ\nĐơn vị: VNĐ\n27. Giá vốn hàng bán và dịch vụ cung cấp\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nDoanh thu \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nCác khoản giảm trừ \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nDoanh thu thuần về bán hàng và cung cấp dịch vụ\nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nGiá vốn của hàng hóa đã bán\nGiá vốn của dịch vụ đã cung cấp\n(Hoàn nhập)/dự phòng giảm giá \nhàng tồn kho\n4.936.911.674.294 39.289.180.693.984 (1.796.779.981)\n44.224.295.588.297 \n4.416.467.377.102 \n34.732.056.916.304 \n1.921.688.045\n39.150.445.981.451 \n \n 5.801.884.142.851 64.405.804.801.702\n70.207.688.944.553\n(732.143.441) \n(94.131.700.402) \n(94.863.843.843) \n5.801.151.999.410 \n64.311.673.101.300\n70.112.825.100.710\n5.162.729.425.317 \n57.799.922.709.318\n62.962.652.134.635 \n(12.000.960.744) \n(101.856.822.524) \n(113.857.783.268) \n5.150.728.464.573 \n57.698.065.886.794\n62.848.794.351.367 \n2025 2024\nLãi tiền gửi, cho vay\nLãi chênh lệch tỷ giá hối đoái\nCổ tức, lợi nhuận được chia\nKhác \n 1.717.721.035.751 952.791.248.844 209.162.913.500 \n97.481.158.678 \n2.977.156.356.773\n1.207.207.618.564 \n575.306.141.560\n103.356.885.500 \n49.878.469.681\n1.935.749.115.305 \n2025 2024\n29. Chi phí tài chính Đơn vị: VNĐ\nLãi tiền vay\nLỗ chênh lệch tỷ giá\nDự phòng giảm giá các khoản \nđầu tư và tổn thất đầu tư tài chính\nKhác\n809.759.601.156 \n474.800.589.595\n384.631.609.873 \n2.856.900.842 \n1.672.048.701.466\n551.639.361.786 \n506.839.495.688 \n738.729.747.218 \n14.338.777.289 \n1.811.547.381.981 \n2025 2024\nĐơn vị: VNĐ\n2025 2024\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng số liệu chi tiết về doanh thu thuần, giá vốn hàng bán và dịch vụ cung cấp, doanh thu hoạt động tài chính và chi phí tài chính của FPT năm 2025 và 2024.\ntable: Doanh thu thuần về bán hàng và cung cấp dịch vụ (trái trên) — Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần\ntable: Giá vốn hàng bán và dịch vụ cung cấp (trái dưới) — Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND\ntable: Doanh thu hoạt động tài chính (phải trên) — Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND\ntable: Chi phí tài chính (phải dưới) — Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+              "location": "trái trên",
+              "description": "Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần"
+            },
+            {
+              "type": "table",
+              "title": "Giá vốn hàng bán và dịch vụ cung cấp",
+              "location": "trái dưới",
+              "description": "Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Doanh thu hoạt động tài chính",
+              "location": "phải trên",
+              "description": "Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Chi phí tài chính",
+              "location": "phải dưới",
+              "description": "Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p208",
+          "page": 208,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2025 2024\n(Điều chỉnh lại (*))\n25. Lãi trên cổ phiếu \nĐơn vị: VNĐ\nĐơn vị: VNĐ\nLãi cơ bản trên cổ phiếu được tính bằng hiệu của số lợi nhuận thuần phân bổ cho \ncác cổ đông và số trích quỹ khen thưởng, phúc lợi và cổ tức của cổ phiếu ưu đãi, \nchia cho số lượng bình quân gia quyền của số cổ phiếu phổ thông đang lưu hành \ntrong năm tài chính, điều chỉnh cho cổ phiếu thưởng phát hành trong năm trừ đi \ncổ phiếu quỹ. Chi tiết như sau:\n(*) Trong năm, Công ty đã thực hiện tăng vốn từ nguồn vốn chủ sở hữu cho cổ \nđông hiện hữu cho năm 2024, dẫn đến việc điều chỉnh lại số lượng cổ phiếu phổ \nthông bình quân đang lưu hành của năm tài chính kết thúc ngày 31 tháng 12 năm \n2024 như sau:\nLãi suy giảm trên cổ phiếu bằng lãi cơ bản trên cổ phiếu. Công ty không có cổ \nphiếu phổ thông tiềm tàng có tác động suy giảm trong năm tài chính và đến ngày \nlập báo cáo tài chính hợp nhất này. \n(a) Lãi cơ bản trên cổ phiếu\n(b) Lãi suy giảm trên cổ phiếu\nLợi nhuận thuần phân bổ cho \ncác cổ đông \nTrích quỹ khen thưởng, phúc lợi \nBình quân số cổ phiếu phổ \nthông đang lưu hành (cổ phiếu)\nLãi cơ bản trên mỗi cổ phiếu \n9.376.127.629.501\n(510.167.707.669)\n8.865.959.921.832\n1.699.740.091\n5.216\n7.856.767.812.178 \n(624.987.179.579)\n7.231.780.632.599 \n1.684.830.543\n4.292 \nSố liệu báo cáo\n trước đây\n Số liệu\nđiều chỉnh lại\nĐiều chỉnh\nLợi nhuận thuần phân \nbổ cho các cổ đông \nTrích quỹ khen thưởng, \nphúc lợi \nBình quân gia quyền \nsố cổ phiếu phổ thông \nđang lưu hành (cổ phiếu)\nLãi cơ bản trên mỗi \ncổ phiếu \n7.856.767.812.178 \n(624.987.179.579)\n7.231.780.632.599 \n1.462.653.544\n4.944 \n-\n-\n-\n222.176.999 \n(652) \n7.856.767.812.178 \n(624.987.179.579)\n7.231.780.632.599 \n1.684.830.543\n4.292 \nNăm tài chính kết thúc \nngày 31 tháng 12 năm 2024\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n“\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thuyết minh về lãi trên cổ phiếu trong báo cáo tài chính hợp nhất năm tài chính kết thúc ngày 31/12/2025 của FPT, bao gồm lãi cơ bản trên cổ phiếu và lãi suy giảm trên cổ phiếu.\ntable: Lãi cơ bản trên cổ phiếu năm 2025 và 2024 (giữa trang) — Bảng số liệu lãi thuần phân bổ cho cổ đông, trích quỹ khen thưởng, bình quân số cổ phiếu phổ thông đang lưu hành, và lãi cơ bản trên mỗi cổ phiếu cho các năm 2025 và 2024.\ntable: Điều chỉnh số lượng cổ phiếu phổ thông năm 2024 (phải trang) — Bảng số liệu điều chỉnh số lượng cổ phiếu phổ thông bình quân đang lưu hành năm 2024, gồm số liệu báo cáo trước đây, điều chỉnh và số liệu điều chỉnh lại cho các chỉ tiêu lợi nhuận thuần phân bổ, trích quỹ khen thưởng, bình quân cổ phiếu và lãi cơ bản trên mỗi cổ phiếu.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Lãi cơ bản trên cổ phiếu năm 2025 và 2024",
+              "location": "giữa trang",
+              "description": "Bảng số liệu lãi thuần phân bổ cho cổ đông, trích quỹ khen thưởng, bình quân số cổ phiếu phổ thông đang lưu hành, và lãi cơ bản trên mỗi cổ phiếu cho các năm 2025 và 2024."
+            },
+            {
+              "type": "table",
+              "title": "Điều chỉnh số lượng cổ phiếu phổ thông năm 2024",
+              "location": "phải trang",
+              "description": "Bảng số liệu điều chỉnh số lượng cổ phiếu phổ thông bình quân đang lưu hành năm 2024, gồm số liệu báo cáo trước đây, điều chỉnh và số liệu điều chỉnh lại cho các chỉ tiêu lợi nhuận thuần phân bổ, trích quỹ khen thưởng, bình quân cổ phiếu và lãi cơ bản trên mỗi cổ phiếu."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p205",
+          "page": 205,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "23. Vốn góp của chủ sở hữu (Tiếp theo)\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nĐơn vị: VNĐ\nĐơn vị: VNĐ\nTổng Công ty Đầu tư và Kinh doanh \nvốn Nhà nước\nÔng Trương Gia Bình\nCổ đông khác\nSố lượng cổ phiếu đang lưu hành\n96.585.637\n117.347.966\n1.489.573.518\n1.703.507.121\n83.987.511\n102.041.710\n1.285.039.962\n1.471.069.183\n5,71\n6,94\n87,35\n100\n5,67\n6,89\n87,44\n100\n31/12/2025\n(b) Chi tiết vốn góp của chủ sở hữu\nCổ phiếu phổ thông %\n31/12/2024\nCổ phiếu phổ thông %\nTại ngày 1 tháng 1 năm 2024\nPhát hành cổ phiếu mới\nTăng vốn từ nguồn vốn chủ sở hữu cho \ncổ đông hiện hữu \nTại ngày 31 tháng 12 năm 2024\nPhát hành cổ phiếu mới\nTăng vốn từ nguồn vốn chủ sở hữu cho \ncổ đông hiện hữu\nTại ngày 31 tháng 12 năm 2025\n1.269.968.875\n10.621.117 \n190.479.191 \n1.471.069.183 \n10.260.939\n222.176.999\n1.703.507.121\n12.699.688.750.000\n106.211.170.000\n1.904.791.910.000\n14.710.691.830.000\n102.609.390.000\n2.221.769.990.000\n17.035.071.210.000\n(c) Tình hình biến động của vốn cổ phần\nSố cổ phiếu Cổ phiếu phổ thông\n12.699.688.750.000\n106.211.170.000\n1.904.791.910.000\n14.710.691.830.000\n102.609.390.000\n2.221.769.990.000\n17.035.071.210.000\nTổng cộng\nMệnh giá cổ phiếu: 10.000 đồng trên một cổ phiếu.\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nChi tiết vốn góp của chủ sở hữu và tình hình biến động vốn cổ phần của FPT trong các năm tài chính 2024 và 2025.\ntable: Chi tiết vốn góp của chủ sở hữu (trên) — Bảng thể hiện số lượng cổ phiếu phổ thông và tỷ lệ phần trăm vốn góp của các nhóm cổ đông tại ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ.\ntable: Tình hình biến động của vốn cổ phần (dưới) — Bảng thể hiện số cổ phiếu, cổ phiếu phổ thông và tổng cộng vốn cổ phần tại các mốc thời gian: 01/01/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, 31/12/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, và 31/12/2025, đơn vị VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi tiết vốn góp của chủ sở hữu",
+              "location": "trên",
+              "description": "Bảng thể hiện số lượng cổ phiếu phổ thông và tỷ lệ phần trăm vốn góp của các nhóm cổ đông tại ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Tình hình biến động của vốn cổ phần",
+              "location": "dưới",
+              "description": "Bảng thể hiện số cổ phiếu, cổ phiếu phổ thông và tổng cộng vốn cổ phần tại các mốc thời gian: 01/01/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, 31/12/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, và 31/12/2025, đơn vị VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p093",
+          "page": 93,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Giao dịch cổ phiếu của cổ đông lớn và cổ đông nội bộ\nSTT Người thực hiện \ngiao dịch\nQuan hệ với \nngười nội bộ\nSố cổ phiếu \nsở hữu đầu kỳ\nSố cổ phiếu Tỷ lệ\nSố cổ phiếu sở\nhữu cuối kỳ\nLý do tăng, giảm \n(mua, bán, chuyển đổi, thưởng...)\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\nÔng Nguyễn Đức Thắng\nÔng Nguyễn Đức Tiến\nÔng Đỗ Hữu Binh\nÔng Bùi Quang Ngọc\nÔng Đỗ Cao Bảo\nBà Nguyễn Thị Dư\nBà Đỗ Thị Ngọc Mai\nÔng Nguyễn Việt Thắng\nÔng Nguyễn Khải Hoàn\nÔng Nguyễn Văn Khoa\nÔng Nguyễn Thế Phương\nÔng Phạm Minh Tuấn\nÔng Hoàng Hữu Chiến\nBà Mai Thị Lan Anh\nAnh rể thành viên \nHĐQT Đỗ Cao Bảo\nAnh rể Chủ tịch HĐQT \nTrương Gia Bình\nEm rể Kế toán trưởng \nHoàng Hữu Chiến\nPhó chủ tịch HĐQT\nThành viên HĐQT\nVợ thành viên HĐQT \nĐỗ Cao Bảo\nCon gái thành viên \nHĐQT Đỗ Cao Bảo\nTrưởng BKS\nThành viên BKS\nTổng giám đốc\nPhó tổng giám đốc\nPhó tổng giám đốc\nKế toán trưởng\nNgười được ủy quyền \nCBTT\nMua 200 cổ phiếu (Không thuộc diện CBTT).\nMua 14.500 cổ phiếu (Không thuộc diện CBTT) và \n7.100 cổ phiếu (Đã CBTT ngày 03/09/2025).\nMua 8.700 cổ phiếu (Đã CBTT ngày 22/08/2025), \nbán 9.843 cổ phiếu (Không thuộc diện CBTT).\nBán 2.000.000 cổ phiếu (Đã CBTT ngày \n24/01/2025).\nBán 35.200 cổ phiếu (Không thuộc diện CBTT).\nBán 11.700 cổ phiếu (Không thuộc diện CBTT), mua \n9.800 cổ phiếu (Không thuộc diện CBTT).\nNhận 79.296 cổ phiếu từ chương trình ESOP năm \n2025 (Đã CBTT 09/05/2025).\nNhận 10.204 cổ phiếu từ chương trình ESOP năm \n2025 (Đã CBTT 09/05/2025).\nNhận 1.045.448 cổ phiếu từ chương trình ESOP năm \n2025, bán 24.500 cổ phiếu (Không thuộc diện CBTT).\nNhận 385.556 cổ phiếu từ chương trình ESOP năm \n2025 (Đã CBTT 09/05/2025).\nNhận 340.336 cổ phiếu từ chương trình ESOP năm \n2025 (Đã CBTT 09/05/2025).\nNhận 853.514 cổ phiếu từ chương trình ESOP năm \n2025 (Đã CBTT 09/05/2025).\nNhận 72.188 cổ phiếu từ chương trình ESOP năm \n2025 (Đã CBTT 09/05/2025).\nNhận 4.948 cổ phiếu từ chương trình ESOP năm 2025 \n(Đã CBTT 09/05/2025).\n2.379\n2.147\n1.143\n23.961.492\n13.830.531\n1.037.833\n1.122.295\n125.841\n1.416.730\n4.322.801\n4.967.311\n1.718.528\n744.079\n3.061\n0,00%\n0,00%\n0,00%\n1,63%\n0,94%\n0,07%\n0,08%\n0,01%\n0,10%\n0,29%\n0,34%\n0,12%\n0,05%\n0,00%\nSố cổ phiếu Tỷ lệ\n2.965\n24.069\n0\n25.255.715\n15.868.500\n1.189.852\n1.381.829\n156.451\n2.807.004\n5.414.610\n6.103.794\n2.957.848\n938.707\n9.209\n0,00%\n0,00%\n0,00%\n1,48%\n0,93%\n0,07%\n0,08%\n0,01%\n0,17%\n0,32%\n0,36%\n0,17%\n0,06%\n0,00%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng giao dịch cổ phiếu của cổ đông lớn và cổ đông nội bộ FPT năm 2025, thể hiện số lượng cổ phiếu sở hữu đầu kỳ, cuối kỳ và lý do tăng giảm cổ phiếu.\ntable: Giao dịch cổ phiếu của cổ đông lớn và cổ đông nội bộ (phải) — Bảng gồm các cột: STT, Người thực hiện giao dịch, Quan hệ với người nội bộ, Số cổ phiếu sở hữu đầu kỳ (Số cổ phiếu, Tỷ lệ), Số cổ phiếu sở hữu cuối kỳ (Số cổ phiếu, Tỷ lệ), Lý do tăng giảm (mua, bán, chuyển đổi, thưởng...)",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Giao dịch cổ phiếu của cổ đông lớn và cổ đông nội bộ",
+              "location": "phải",
+              "description": "Bảng gồm các cột: STT, Người thực hiện giao dịch, Quan hệ với người nội bộ, Số cổ phiếu sở hữu đầu kỳ (Số cổ phiếu, Tỷ lệ), Số cổ phiếu sở hữu cuối kỳ (Số cổ phiếu, Tỷ lệ), Lý do tăng giảm (mua, bán, chuyển đổi, thưởng...)"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CON SỐ NỔI BẬT\nDẤU ẤN 2025\nĐảm bảo tăng trưởng ổn định\n35.657 44.010 52.618 62.849 70.113\n2021 2022 2023 2024 2025\n75.000\n60.000\n45.000\n30.000\n15.000\n0\n11,6% so với cùng kỳ\nTổng doanh thu\nTỷ VNĐ 70.113\nĐơn vị: Tỷ VNĐ\n5.349 6.491 7.788 9.427 11.232\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,1% so với cùng kỳ\nLợi nhuận sau thuế\nTỷ VNĐ 11.232\nĐơn vị: Tỷ VNĐ\n4.337 5.310 6.465 7.857 9.376\n2021 2022 2023 2024 2025\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,3% so với cùng kỳ\nLợi nhuận sau thuế thuộc về\ncổ đông công ty mẹ\n9.376 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n2.367 2.910 3.518 4.292 5.216\n2021 2022 2023 2024 2025\n5.500\n4.500\n3.500\n2.500\n1.500\n0\n21,5% so với cùng kỳ (*)\nThu nhập trên cổ phiếu (EPS)\n5.216 VNĐ\nĐơn vị: VNĐ\n(*) EPS từ năm 2021-2024 được điều \nchỉnh hồi tố theo tỷ lệ chi trả cổ tức \nbằng cổ phiếu 15% trong năm 2025 và \nquy định về cách tính EPS theo thông \ntư 200/2014/TT-BTC.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các con số nổi bật của FPT năm 2025 với các chỉ tiêu tài chính chính như tổng doanh thu, lợi nhuận sau thuế, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ và thu nhập trên cổ phiếu (EPS), đồng thời so sánh với các năm trước từ 2021 đến 2024.\nchart: Tổng doanh thu (trái trên) — Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm.\nchart: Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ (phải trên) — Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm.\nchart: Lợi nhuận sau thuế (trái dưới) — Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm.\nchart: Thu nhập trên cổ phiếu (EPS) (phải dưới) — Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tổng doanh thu",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế",
+              "location": "trái dưới",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Thu nhập trên cổ phiếu (EPS)",
+              "location": "phải dưới",
+              "description": "Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p170",
+          "path": ".bonus/pages/p170.jpg",
+          "sha256": "464a6e7afa86b2a17435297338fe9fd002c9f26c89a7975934cb6dcc3afe941a"
+        },
+        {
+          "id": "FPT2025:p036",
+          "path": ".bonus/pages/p036.jpg",
+          "sha256": "06aaab3a983a58eab3d6003f6c5d95c2adc17e82483aac6d719ed3fa7b7ee2f8"
+        },
+        {
+          "id": "FPT2025:p204",
+          "path": ".bonus/pages/p204.jpg",
+          "sha256": "9c0f7fe0f9be06fa86e83ce7663b9143613af53051ada976b676e9552455982d"
+        },
+        {
+          "id": "FPT2025:p209",
+          "path": ".bonus/pages/p209.jpg",
+          "sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+        },
+        {
+          "id": "FPT2025:p208",
+          "path": ".bonus/pages/p208.jpg",
+          "sha256": "c1830ebb10a788576ae6832286c74d7112c4a456649b580a6b24b89d1d9ca188"
+        },
+        {
+          "id": "FPT2025:p205",
+          "path": ".bonus/pages/p205.jpg",
+          "sha256": "667c9d370986a919d824daa2be125408928d15a3e64929845496ad1a3c2768be"
+        },
+        {
+          "id": "FPT2025:p093",
+          "path": ".bonus/pages/p093.jpg",
+          "sha256": "dfbc365ee368b0b9af67e933e4420b17d9eeac6bcc3e796f24b4038bc4443066"
+        },
+        {
+          "id": "FPT2025:p010",
+          "path": ".bonus/pages/p010.jpg",
+          "sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805070-t8REJY9A6wR75uxhYU8x",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_016rkdRWcJGQ7iaMrFpX7EX9",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo bảng kết quả hoạt động kinh doanh hợp nhất (trang 170), lãi cơ bản trên cổ phiếu là 5.216 VNĐ năm 2025 và 4.292 VNĐ năm 2024.\\n\\nĐơn vị: Bảng ghi \\\"Đơn vị: VNĐ\\\" ở góc phải, nên về mặt bảng thì đơn vị chung là VNĐ. Tuy nhiên, hàng lãi cơ bản trên cổ phiếu là VNĐ trên mỗi cổ phiếu (theo thuyết minh 25, trang 207), không phải VNĐ tổng. Vì vậy đơn vị của hàng này không giống đơn vị chung của bảng: hàng EPS tính theo đơn vị VNĐ/cổ phiếu, trong khi các chỉ tiêu khác là VNĐ tổng số.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p170\",\"region\":\"Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất (trang PDF 170), hàng 70 'Lãi cơ bản trên cổ phiếu', cột 2025 và 2024; góc phải trên ghi 'Đơn vị: VNĐ'\"},{\"id\":\"FPT2025:p207\",\"region\":\"Thuyết minh 25 Lãi trên cổ phiếu, phần (a), bảng bên trái, hàng 'Lãi cơ bản trên mỗi cổ phiếu' (5.216 và 4.292), đơn vị VNĐ/cổ phiếu\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "abstain"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p170",
+    "FPT2025:p036",
+    "FPT2025:p204",
+    "FPT2025:p209",
+    "FPT2025:p208",
+    "FPT2025:p205",
+    "FPT2025:p093",
+    "FPT2025:p010"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p170",
+      "page": 170,
+      "image": ".bonus/pages/p170.jpg",
+      "image_sha256": "464a6e7afa86b2a17435297338fe9fd002c9f26c89a7975934cb6dcc3afe941a"
+    },
+    {
+      "id": "FPT2025:p036",
+      "page": 36,
+      "image": ".bonus/pages/p036.jpg",
+      "image_sha256": "06aaab3a983a58eab3d6003f6c5d95c2adc17e82483aac6d719ed3fa7b7ee2f8"
+    },
+    {
+      "id": "FPT2025:p204",
+      "page": 204,
+      "image": ".bonus/pages/p204.jpg",
+      "image_sha256": "9c0f7fe0f9be06fa86e83ce7663b9143613af53051ada976b676e9552455982d"
+    },
+    {
+      "id": "FPT2025:p209",
+      "page": 209,
+      "image": ".bonus/pages/p209.jpg",
+      "image_sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+    },
+    {
+      "id": "FPT2025:p208",
+      "page": 208,
+      "image": ".bonus/pages/p208.jpg",
+      "image_sha256": "c1830ebb10a788576ae6832286c74d7112c4a456649b580a6b24b89d1d9ca188"
+    },
+    {
+      "id": "FPT2025:p205",
+      "page": 205,
+      "image": ".bonus/pages/p205.jpg",
+      "image_sha256": "667c9d370986a919d824daa2be125408928d15a3e64929845496ad1a3c2768be"
+    },
+    {
+      "id": "FPT2025:p093",
+      "page": 93,
+      "image": ".bonus/pages/p093.jpg",
+      "image_sha256": "dfbc365ee368b0b9af67e933e4420b17d9eeac6bcc3e796f24b4038bc4443066"
+    },
+    {
+      "id": "FPT2025:p010",
+      "page": 10,
+      "image": ".bonus/pages/p010.jpg",
+      "image_sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805063-Jjw3n3FeRaDDRJd59E2S",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1844,
+        "completion_tokens": 191,
+        "total_tokens": 2035,
+        "cost": 0.0002799,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002799,
+          "upstream_inference_prompt_cost": 0.0001844,
+          "upstream_inference_completions_cost": 9.55e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2381.572199985385,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805070-t8REJY9A6wR75uxhYU8x",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 33625,
+        "completion_tokens": 624,
+        "total_tokens": 34249,
+        "cost": 0.0036745,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0036745,
+          "upstream_inference_prompt_cost": 0.0033625,
+          "upstream_inference_completions_cost": 0.000312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 8711.792799993418,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 12481.272000004537,
+  "query_id": "ft-t2",
+  "question": "Theo bảng chỉ tiêu kinh doanh, lãi cơ bản trên cổ phiếu năm 2024 và 2025 là bao nhiêu? Đơn vị của hàng này có giống đơn vị chung của bảng không?",
+  "split": "test",
+  "config": "vision"
+}

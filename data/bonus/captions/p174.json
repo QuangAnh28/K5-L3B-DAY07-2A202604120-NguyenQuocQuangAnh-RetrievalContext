@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p174",
+  "image_sha256": "fce076dbbc0272c4aeff4edd3bd5ce35e2d8163e83212e53e620b934418fe19d",
+  "caption": {
+    "summary": "Bảng thông tin chi tiết về các công ty con trực tiếp của Tập đoàn FPT, bao gồm hoạt động chính, nơi thành lập và tỷ lệ sở hữu, quyền biểu quyết tính đến ngày 31/12/2025 và 31/12/2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thông tin công ty con trực tiếp của FPT",
+        "location": "phải",
+        "description": "Bảng gồm các cột: Công ty con, Hoạt động chính, Nơi thành lập, đăng ký hoạt động, Tỷ lệ sở hữu, Tỷ lệ quyền biểu quyết; dữ liệu cập nhật đến ngày 31/12/2025 và 31/12/2024."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800809-5kD1xR83ejwQpP8pgFwt",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 152,
+        "total_tokens": 2714,
+        "cost": 0.001268,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001268,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002432
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4199.160799966194,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

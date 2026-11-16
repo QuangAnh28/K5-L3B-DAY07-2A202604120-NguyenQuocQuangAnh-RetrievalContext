@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p135",
+  "image_sha256": "9ffaf5978426ea13add80e15b343c4d4555d0f1e137fe2816502b725440975e6",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về phòng chống xung đột lợi ích, gian lận và tham nhũng tại FPT, bao gồm quy tắc tránh xung đột lợi ích, chính sách chống tham nhũng và gian lận, cũng như tuân thủ các quy định về thuế.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Hình ảnh minh họa chủ đề thuế",
+        "location": "dưới giữa",
+        "description": "Hình ảnh biểu tượng chữ TAX cùng các biểu tượng liên quan đến tài chính và thuế xung quanh, minh họa cho nội dung tuân thủ quy định về thuế."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800789-8Q8zFqFZZ1zgyCrI3XMD",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 137,
+        "total_tokens": 2699,
+        "cost": 0.001244,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001244,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002192
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 18630.549699999392,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

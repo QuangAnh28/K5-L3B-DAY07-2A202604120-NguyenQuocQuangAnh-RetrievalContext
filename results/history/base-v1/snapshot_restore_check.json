@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "network_requests": 0,
+  "collection": "C",
+  "chunks": 245,
+  "cached_query_top1_page": 4,
+  "method": "Restore to temporary directory; open real Qdrant; fail if embedding API called."
+}

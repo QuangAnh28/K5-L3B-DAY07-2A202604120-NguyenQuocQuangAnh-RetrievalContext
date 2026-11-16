@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p072",
+  "image_sha256": "f55ae4e496738bb5739ebf9cad57dd8a81050d6bee985dfc05847c69fa3c2a27",
+  "caption": {
+    "summary": "Phân tích hoạt động kinh doanh của FPT trong lĩnh vực nội dung số và thể thao điện tử năm 2025, bao gồm tăng trưởng doanh thu, lợi nhuận, phát triển cộng đồng và hệ sinh thái nội dung, cũng như mở rộng thị trường thể thao điện tử.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Sự kiện chạy bộ cộng đồng VnExpress Marathon",
+        "location": "trên",
+        "description": "Hình ảnh nhiều người tham gia chạy bộ, thể hiện hoạt động cộng đồng và sự kiện thể thao lớn."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800737-ehHKiubeMPtKFs9tSqOO",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 117,
+        "total_tokens": 2679,
+        "cost": 0.001212,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001212,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001872
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4419.383600004949,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

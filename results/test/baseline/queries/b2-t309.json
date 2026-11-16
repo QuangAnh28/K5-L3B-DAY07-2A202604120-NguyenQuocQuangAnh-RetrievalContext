@@ -1,0 +1,258 @@
+{
+  "status": "answered",
+  "answer": "Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật Thương mại 2005. [luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_6l6zLUS3Sy4X5psnY5vbx7cd",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"hợp đồng bị tạm ngừng thực hiện hiệu lực hợp đồng quyền yêu cầu bồi thường\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801608-PC1z3k1g8LIZyzentgWg"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Khi hợp đồng bị tạm ngừng thực hiện thì hiệu lực hợp đồng và quyền yêu cầu bồi thường của bên bị vi phạm ra sao?",
+      "model_query": "hợp đồng bị tạm ngừng thực hiện hiệu lực hợp đồng quyền yêu cầu bồi thường",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 80,
+          "text": "1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 80,
+            "year": 2005,
+            "chapter": "Chương Vii",
+            "article": "Điều 309"
+          },
+          "score": 0.5296919944973897,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 79,
+          "text": "1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 79,
+            "year": 2005,
+            "chapter": "Chương Vii",
+            "article": "Điều 308"
+          },
+          "score": 0.44846355739954735,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p81-paragraph-1000-8c9c1ca01d9f8ab1",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 81,
+          "text": "2. Các bên có quy ền đòi lại lợi ích do vi ệc đã thực hiện phần nghĩa vụ của mình theo h ợp đồng; n ếu các bên đều có ngh ĩa vụ hoàn tr ả thì ngh ĩa v ụ của họ phải được thực hiện đồng thời; trường hợp không th ể hoàn tr ả bằng chính lợi ích đã nhận thì bên có nghĩa vụ phải hoàn trả bằng tiền.\n\n3. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 315. Thông báo tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng Bên tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng ph ải thông báo ngay cho bên kia bi ết về việc tạm ng ừng, đình ch ỉ hoặc huỷ bỏ hợp đồng. Trong trường hợp không thông báo ngay mà gây thi ệt hại cho bên kia thì bên t ạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng phải bồi thường thiệt hại.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 81,
+            "year": 2005,
+            "chapter": "Chương Vii",
+            "article": "Điều 315"
+          },
+          "score": 0.4242322109005279,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 80]\n1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng\n\n[luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 79]\n1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+        "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_93HOURqv4VV0YSh11c7fq3HY",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật Thương mại 2005.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801610-iVMq19FDw8pEH32DlDe4"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 80]\n1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng\n\n[luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 79]\n1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+    "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801608-PC1z3k1g8LIZyzentgWg",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 303,
+        "completion_tokens": 25,
+        "total_tokens": 328,
+        "cost": 0.0001612,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001612,
+          "upstream_inference_prompt_cost": 0.0001212,
+          "upstream_inference_completions_cost": 4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1430.4230000125244,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801610-iVMq19FDw8pEH32DlDe4",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1075,
+        "completion_tokens": 94,
+        "total_tokens": 1169,
+        "cost": 0.0005804,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005804,
+          "upstream_inference_prompt_cost": 0.00043,
+          "upstream_inference_completions_cost": 0.0001504
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1852.232399978675,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3288.3956999867223,
+  "searches": 1,
+  "query_id": "b2-t309",
+  "question": "Khi hợp đồng bị tạm ngừng thực hiện thì hiệu lực hợp đồng và quyền yêu cầu bồi thường của bên bị vi phạm ra sao?",
+  "split": "test",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 80,
+      "text": "1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 80,
+        "year": 2005,
+        "chapter": "Chương Vii",
+        "article": "Điều 309"
+      },
+      "score": 0.5296919944973897,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 79,
+      "text": "1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 79,
+        "year": 2005,
+        "chapter": "Chương Vii",
+        "article": "Điều 308"
+      },
+      "score": 0.44846355739954735,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p81-paragraph-1000-8c9c1ca01d9f8ab1",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 81,
+      "text": "2. Các bên có quy ền đòi lại lợi ích do vi ệc đã thực hiện phần nghĩa vụ của mình theo h ợp đồng; n ếu các bên đều có ngh ĩa vụ hoàn tr ả thì ngh ĩa v ụ của họ phải được thực hiện đồng thời; trường hợp không th ể hoàn tr ả bằng chính lợi ích đã nhận thì bên có nghĩa vụ phải hoàn trả bằng tiền.\n\n3. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 315. Thông báo tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng Bên tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng ph ải thông báo ngay cho bên kia bi ết về việc tạm ng ừng, đình ch ỉ hoặc huỷ bỏ hợp đồng. Trong trường hợp không thông báo ngay mà gây thi ệt hại cho bên kia thì bên t ạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng phải bồi thường thiệt hại.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 81,
+        "year": 2005,
+        "chapter": "Chương Vii",
+        "article": "Điều 315"
+      },
+      "score": 0.4242322109005279,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 80]\n1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng\n\n[luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 79]\n1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+    "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

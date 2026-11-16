@@ -1,0 +1,22 @@
+{
+  "archive_name": "K5-L3B-DAY06-2A202604120-DataIngestion.zip",
+  "archive_sha256": "9a483d7c30a80f659c90893b896d76f3195a06e1ab2ac814b75e692ebde2b7c3",
+  "chunks": 245,
+  "content_pages": 83,
+  "physical_pages": 84,
+  "collection": "C",
+  "dimensions": 1536,
+  "embedding_model": "openai/text-embedding-3-small",
+  "reused": "Unchanged Day 6 C chunks/vectors/IDs",
+  "excluded_test_ids": [
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20"
+  ],
+  "test_note": "Day 6 test/report already seen; new questions use different articles. Same-corpus test, AI-authored, not blind independent evaluation.",
+  "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+  "chunks_sha256": "83dafd94ea1813da227b8a929669c57217b24f3cbafc3eedb0875526c5dcf4a3",
+  "base_v2_note": "Source/Day 6 index unchanged; new Day 7 held-out questions after base-v1 review. Historical benchmark and source under results/history/base-v1."
+}

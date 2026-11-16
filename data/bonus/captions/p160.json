@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p160",
+  "image_sha256": "100ef222d9e762946588f0151ce439ee07dae86396d3b067ed6f49dc842181c4",
+  "caption": {
+    "summary": "Mục lục phần Báo cáo tài chính hợp nhất cho năm tài chính kết thúc ngày 31 tháng 12 năm 2025, liệt kê các nội dung và trang tương ứng.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Mục lục Báo cáo tài chính hợp nhất",
+        "location": "giữa",
+        "description": "Danh sách các nội dung báo cáo tài chính hợp nhất gồm thông tin doanh nghiệp, báo cáo Ban Tổng Giám đốc, báo cáo kiểm toán độc lập, bảng cân đối kế toán hợp nhất, báo cáo kết quả hoạt động kinh doanh hợp nhất, báo cáo lưu chuyển tiền tệ hợp nhất, thuyết minh báo cáo tài chính hợp nhất; kèm số trang tương ứng từ 160 đến 172."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800800-eSDFTnEfWl4kO2InJsLv",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 161,
+        "total_tokens": 2723,
+        "cost": 0.0012824,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012824,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002576
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4663.913699972909,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

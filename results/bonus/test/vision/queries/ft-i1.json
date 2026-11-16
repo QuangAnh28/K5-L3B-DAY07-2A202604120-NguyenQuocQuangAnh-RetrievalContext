@@ -1,0 +1,425 @@
+{
+  "status": "answered",
+  "answer": "Theo sơ đồ tổ chức (trang 31), nhánh \"CÔNG TY LIÊN KẾT\" được nối với hai đơn vị: Synnex FPT (vốn điều lệ 1.188.400.000.000 VNĐ, tỷ lệ sở hữu 48,00%) và FPT Retail (vốn điều lệ 1.703.017.850.000 VNĐ, tỷ lệ sở hữu 46,54%).\n[FPT2025:p031 — Sơ đồ tổ chức (trang 31): nhánh từ ô CÔNG TY LIÊN KẾT nối tới hai đơn vị ở cột bên phải dưới – Synnex FPT (48,00%) và FPT Retail (46,54%), kèm vốn điều lệ và tỷ lệ sở hữu tương ứng]",
+  "citations": [
+    {
+      "id": "FPT2025:p031",
+      "region": "Sơ đồ tổ chức (trang 31): nhánh từ ô CÔNG TY LIÊN KẾT nối tới hai đơn vị ở cột bên phải dưới – Synnex FPT (48,00%) và FPT Retail (46,54%), kèm vốn điều lệ và tỷ lệ sở hữu tương ứng"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805175-X3gjmg4hipRQbyYGm6BA",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01J6aMWdBSdFGMj1cr5n32jf",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Theo sơ đồ tổ chức, hai đơn vị nào nằm trong nhánh Công ty liên kết?\",\"sơ đồ tổ chức công ty liên kết\",\"cơ cấu tổ chức công ty con công ty liên kết FPT 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo sơ đồ tổ chức, hai đơn vị nào nằm trong nhánh Công ty liên kết?",
+      "model_queries": [
+        "Theo sơ đồ tổ chức, hai đơn vị nào nằm trong nhánh Công ty liên kết?",
+        "sơ đồ tổ chức công ty liên kết",
+        "cơ cấu tổ chức công ty con công ty liên kết FPT 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "score": 0.032266458495966696,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p098",
+          "page": 98,
+          "score": 0.032018442622950824,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p178",
+          "page": 178,
+          "score": 0.02821869488536155,
+          "component_ranks": {
+            "dense": 21,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p173",
+          "page": 173,
+          "score": 0.027972027972027972,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "FPT2025:p226",
+          "page": 226,
+          "score": 0.02782608695652174,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 15
+          }
+        },
+        {
+          "id": "FPT2025:p096",
+          "page": 96,
+          "score": 0.02690501986276634,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p094",
+          "page": 94,
+          "score": 0.0264301860545992,
+          "component_ranks": {
+            "dense": 11,
+            "tfidf": 21
+          }
+        },
+        {
+          "id": "FPT2025:p080",
+          "page": 80,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo sơ đồ tổ chức, hai đơn vị nào nằm trong nhánh Công ty liên kết?"
+      ],
+      "context_ids": [
+        "FPT2025:p031",
+        "FPT2025:p098",
+        "FPT2025:p178",
+        "FPT2025:p173",
+        "FPT2025:p226",
+        "FPT2025:p096",
+        "FPT2025:p094",
+        "FPT2025:p080"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CƠ CẤU QUẢN TRỊ VÀ BỘ MÁY QUẢN LÝ\nFPT hoạt động theo mô hình được quy \nđịnh tại Mục a, Khoản 1, Điều 137 của \nLuật Doanh nghiệp bao gồm: Đại hội \nđồng cổ đông (ĐHĐCĐ), Hội đồng \nquản trị (HĐQT), Ban Kiểm soát (BKS) \nvà Tổng giám đốc. \nTheo Báo cáo tài chính hợp nhất, tính \nđến thời điểm 31/12/2025, mô hình \nhoạt động của Tập đoàn gồm 08 công \nty con trực tiếp và 02 công ty liên kết \nchính. Xem thông tin chi tiết về các \ncông ty con, công ty liên kết chính tại \nmục Báo cáo tài chính hợp nhất.\nSơ đồ tổ chức\nHỘI ĐỒNG QUẢN TRỊ\nTỔNG GIÁM ĐỐC \nVÀ BAN ĐIỀU HÀNH\nỦY BAN NHÂN SỰ VÀ \nLƯƠNG THƯỞNG\nỦY BAN CHÍNH SÁCH \nPHÁT TRIỂN\nVĂN PHÒNG \nCHỦ TỊCH HĐQT\nBỘ PHẬN KIỂM \nTOÁN NỘI BỘ\nĐẠI HỘI ĐỒNG CỔ ĐÔNG\nBAN KIỂM SOÁT\nCÔNG TY LIÊN KẾT\nKHỐI CÔNG NGHỆ\nKHỐI VIỄN THÔNG\nCÔNG TY CON\nTẬP ĐOÀN\nFPT Smart Cloud\nFPT Telecom\nFPT Education\nFPT Digital\nFPT Online\nFPT Investment\nFPT Software FPT IS\nChi nhánh Tp.HCM\nBan Công nghệ\nBan Công nghệ thông tin\nVăn phòng Chuyển đổi số\nBan Nhân sự\nBan Đảm bảo chất lượng\nBan Tài chính Kế hoạch\nBan Giám sát Tuân thủ\nBan Truyền thông\nBan Mua sắm \nBan Văn hóa Đoàn thể\nVăn phòng\nBộ phận phát triển\ncác dự án chiến lược \nSynnex FPT\nFPT Retail\nKHỐI GIÁO DỤC,\nĐẦU TƯ VÀ KHÁC \nVốn điều lệ \n7.750.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n60.000.000.000 VNĐ \nTỷ lệ sở hữu: 100%\nVốn điều lệ \n184.712.750.000 VNĐ\nTỷ lệ sở hữu: 49,52%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n4.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n7.387.634.630.000 VNĐ\nTỷ lệ sở hữu: 45,66%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.188.400.000.000 VNĐ\nTỷ lệ sở hữu: 48,00%\nVốn điều lệ \n1.703.017.850.000 VNĐ\nTỷ lệ sở hữu: 46,54%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày sơ đồ tổ chức và cơ cấu quản trị của Tập đoàn FPT, bao gồm các cấp quản lý từ Đại hội đồng cổ đông đến các công ty con và công ty liên kết, cùng các ban và bộ phận chức năng.\ndiagram: Sơ đồ tổ chức quản trị và bộ máy quản lý FPT (phải) — Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Sơ đồ tổ chức quản trị và bộ máy quản lý FPT",
+              "location": "phải",
+              "description": "Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p098",
+          "page": 98,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "1\n2\nCông ty Cổ phần \nViễn thông FPT\n(Công ty con trong \ncùng Tập đoàn)\n• 0101778163\n• 28/07/2005\n• Sở Kế hoạch\nvà Đầu tư\nTp.Hà Nội\nÔng Trương Gia Bình, \nChủ tịch HĐQT FPT\nÔng Nguyễn Văn Khoa, \nTổng giám đốc FPT\nBà Trần Thị Hồng Lĩnh, \nthành viên HĐQT FPT\nThành viên HĐQT \nFPT Telecom\nThành viên HĐQT \nFPT Telecom\nThành viên HĐQT \nFPT Telecom\n(Miễn nhiệm từ ngày \n24/12/2025)\nSố 10 phố Phạm \nVăn Bạch, \nphường Cầu \nGiấy, Tp.Hà Nội\nTừ năm 2014 \n– năm 2025\n• FPT cho thuê văn phòng, phí\nquản lý và dịch vụ tiện ích;\n• FPT mua dịch vụ Internet và\nData Center.\nCông ty TNHH\nGiáo dục FPT\n(Công ty con trong \ncùng Tập đoàn)\n• 0104900076\n• 07/09/2010\n• Sở Kế hoạch\nvà Đầu tư\nTp.Hà Nội\nÔng Trương Gia Bình, \nChủ tịch HĐQT FPT\n• Chủ tịch Hội đồng\nthành viên\nFPT Education\nKhu công nghệ \ncao Hòa Lạc, \nKm 29, Đại lộ \nThăng Long, \nphường Thạch \nThất, Tp.Hà Nội\nTừ năm 2014 \n– năm 2025\n• FPT cung cấp dịch vụ, chia sẻ \nchi phí và tiện ích dùng chung;\n• FPT mua dịch vụ đào tạo;\n• Vay và trả nợ vay.\nGiao dịch giữa công ty với công ty mà thành viên HĐQT, thành viên BKS, Tổng giám đốc đã và đang là thành viên sáng lập hoặc thành viên HĐQT, Giám đốc (Tổng giám đốc) \nđiều hành trong thời gian ba năm trở lại đây (Tính tại thời điểm lập Báo cáo).\nSTT Tên tổ chức Số giấy NSH, \nngày cấp, nơi cấp\nNgười có \nliên quan \nVị trí của người có liên \nquan tại công ty\nĐịa chỉ\ntrụ sở chính\nThời điểm\ngiao dịch\nGhi chú\nGiao dịch giữa công ty với các đối tượng khác\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng giao dịch giữa công ty với các đối tượng khác, bao gồm thông tin về tổ chức, người có liên quan, vị trí, địa chỉ trụ sở chính, thời điểm giao dịch và ghi chú liên quan.\ntable: Giao dịch giữa công ty với các đối tượng khác (giữa trang) — Bảng gồm các cột: STT, Tên tổ chức, Số giấy NSH, ngày cấp, nơi cấp, Người có liên quan, Vị trí của người có liên quan tại công ty, Địa chỉ trụ sở chính, Thời điểm giao dịch, Ghi chú. Thông tin về hai công ty con trong cùng tập đoàn FPT với các chi tiết liên quan.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Giao dịch giữa công ty với các đối tượng khác",
+              "location": "giữa trang",
+              "description": "Bảng gồm các cột: STT, Tên tổ chức, Số giấy NSH, ngày cấp, nơi cấp, Người có liên quan, Vị trí của người có liên quan tại công ty, Địa chỉ trụ sở chính, Thời điểm giao dịch, Ghi chú. Thông tin về hai công ty con trong cùng tập đoàn FPT với các chi tiết liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p178",
+          "page": 178,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n2.5. Cơ sở hợp nhất báo cáo tài chính (Tiếp theo)\nNghiệp vụ và lợi ích của cổ đông không kiểm soát\nTập đoàn áp dụng chính sách cho các nghiệp vụ đối với cổ đông không kiểm soát \ngiống như nghiệp vụ với các bên không thuộc Tập đoàn. \nLợi ích của cổ đông không kiểm soát bao gồm giá trị các lợi ích của cổ đông không \nkiểm soát tại ngày hợp nhất kinh doanh ban đầu và phần lợi ích của cổ đông không \nkiểm soát trong sự biến động của tổng vốn chủ sở hữu kể từ ngày hợp nhất kinh \ndoanh. Các khoản lỗ phát sinh tại công ty con phải được phân bổ tương ứng với \nphần sở hữu của cổ đông không kiểm soát, kể cả trường hợp số lỗ đó lớn hơn phần \nsở hữu của cổ đông không kiểm soát trong tài sản thuần của công ty con.\nLợi ích của cổ đông không kiểm soát tại ngày hợp nhất kinh doanh ban đầu được \nxác định trên cơ sở tỷ lệ của cổ đông không kiểm soát trong tổng giá trị hợp lý của \ntài sản, công nợ và công nợ tiềm tàng được ghi nhận.\nNhững giao dịch làm thay đổi tỷ lệ sở hữu của Tập đoàn trong công ty con mà \nkhông dẫn đến mất quyền kiểm soát được kế toán tương tự như các giao dịch vốn \nchủ sở hữu. Chênh lệch giữa giá trị thay đổi phần sở hữu của Tập đoàn trong tài sản \nthuần của công ty con và số chi hoặc thu từ việc thoái vốn tại công ty con được ghi \nnhận vào LNST chưa phân phối thuộc vốn chủ sở hữu. Những giao dịch làm thay \nđổi tỷ lệ sở hữu của Tập đoàn trong công ty con dẫn đến việc mất quyền kiểm soát \nđối với công ty con, thì chênh lệch giữa giá trị thay đổi phần sở hữu của Tập đoàn \ntrong tài sản thuần của công ty con và số chi hoặc thu từ việc thoái vốn tại công ty \ncon được ghi nhận vào Báo cáo kết quả hoạt động kinh doanh hợp nhất. Phần sở \nhữu còn lại trong công ty này sẽ được hạch toán như một khoản đầu tư tài chính \nthông thường hoặc kế toán theo phương pháp vốn chủ sở hữu kể từ khi Tập đoàn \nkhông còn nắm quyền kiểm soát công ty con.\nCông ty liên kết và công ty liên doanh\nLiên doanh là thỏa thuận bằng hợp đồng của hai hoặc nhiều bên để cùng thực hiện \nhoạt động kinh tế, mà hoạt động này được đồng kiểm soát bởi các bên góp vốn liên \ndoanh. Công ty liên kết là tất cả các công ty trong đó Tập đoàn có ảnh hưởng đáng \nkể nhưng không phải kiểm soát, thường được thể hiện thông qua việc nắm giữ từ \n20% đến 50% quyền biểu quyết ở công ty đó. Các khoản đầu tư vào các công ty \nliên doanh, liên kết được hạch toán theo phương pháp vốn chủ sở hữu và được ghi \nnhận ban đầu theo giá gốc. \nCác khoản đầu tư vào các công ty liên kết được trình bày trong Bảng cân đối kế \ntoán hợp nhất theo giá gốc và sau đó được điều chỉnh theo những thay đổi trong \nphần vốn góp của Tập đoàn vào phần tài sản thuần của các công ty liên kết sau \nngày mua khoản đầu tư. \nKhoản đầu tư của Tập đoàn vào các công ty liên kết bao gồm lợi thế thương mại \nphát sinh khi đầu tư, trừ đi những khoản giảm giá tài sản lũy kế.\nLợi nhuận từ các công ty liên doanh, liên kết trên báo cáo kết quả hoạt động kinh \ndoanh hợp nhất được ghi nhận tương ứng với tỷ lệ sở hữu của Tập đoàn tại các \ncông ty liên doanh, liên kết đối với lợi nhuận của các công ty ",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p173",
+          "page": 173,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n1. Đặc điểm hoạt động của Tập đoàn\nCông ty Cổ phần FPT (“Công ty”) tiền thân là một \ncông ty Nhà nước được thành lập tại nước CHXHCN \nViệt Nam và sau này được cổ phần hóa thành công ty\ncổ phần theo Quyết định số 178/QĐ-TTg ngày 28 \ntháng 2 năm 2002 của Thủ tướng Chính phủ. Công ty\nhoạt động theo Giấy Chứng nhận Đăng ký \nDoanh nghiệp số 0101248141 do Sở Kế hoạch và \nĐầu tư Thành phố Hà Nội cấp lần đầu ngày 13 tháng \n5 năm 2002. Giấy Chứng nhận Đăng ký Doanh nghiệp\nthay đổi gần nhất (lần thứ 60) được cấp ngày 21 \ntháng 8 năm 2025.\nTừ ngày 13 tháng 12 năm 2006, cổ phiếu của \nCông ty được niêm yết tại Sở giao dịch Chứng khoán\nTP. Hồ Chí Minh với mã giao dịch cổ phiếu là “FPT”.\nHoạt động chính của Công ty và các công ty con \n(“Tập đoàn”) là cung cấp các sản phẩm và dịch vụ \ntrong lĩnh vực công nghệ thông tin và viễn thông. \nCác sản phẩm và dịch vụ được cung cấp chủ yếu: \n(i) Dịch vụ phát triển phần mềm gồm xuất khẩu \nphần mềm, cung cấp gói phần mềm và giải pháp, \ndịch vụ phần mềm và hệ thống quản trị nguồn lực ERP;\n(ii) Dịch vụ công nghệ thông tin gồm dịch vụ tư vấn \nchuyển đổi số và tư vấn công nghệ thông tin, dịch vụ \nquản trị hệ thống, dịch vụ BPO, dịch vụ trung tâm \ndữ liệu, dịch vụ điện toán đám mây, dịch vụ trên \nnền tảng công nghệ mới như trí tuệ nhân tạo, tự \nđộng hóa;\n(iii) Tích hợp hệ thống; \n(iv) Dịch vụ viễn thông bao gồm các dịch vụ internet, \ntruyền hình trả tiền và các dịch vụ giá trị gia tăng; \n(v) Dịch vụ nội dung số gồm các dịch vụ quảng cáo \ntrực tuyến;\n(vi) Dịch vụ đào tạo ở các cấp tiểu học, phổ thông, \ncao đẳng, đại học và sau đại học.\nChu kỳ sản xuất kinh doanh thông thường của Tập \nđoàn không quá 12 tháng, ngoại trừ một số dự án \ntích hợp hệ thống có thời gian triển khai trên 12 \ntháng. Hoạt động kinh doanh của Tập đoàn trong \nnăm không chịu ảnh hưởng bởi tính thời vụ.\nTại ngày 31 tháng 12 năm 2025, Tập đoàn có 54.110 \nnhân viên (tại ngày 31 tháng 12 năm 2024: 54.646 \nnhân viên).\nTại ngày 31 tháng 12 năm 2025, Công ty sở hữu trực \ntiếp 8 công ty con và 2 công ty liên kết. Chi tiết được \ntrình bày ở trang tiếp theo. \nNgoài ra, thông tin về các công ty con và công ty \nliên doanh, liên kết khác mà Công ty sở hữu gián \ntiếp được trình bày tại Phụ lục 1 của báo cáo tài \nchính hợp nhất. \n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nMô tả đặc điểm hoạt động của Tập đoàn FPT, bao gồm lịch sử thành lập, các lĩnh vực kinh doanh chính, chu kỳ sản xuất kinh doanh, số lượng nhân viên và thông tin về công ty con, công ty liên kết.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p226",
+          "page": 226,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "B. Công ty liên doanh, liên kết khác\nPhụ lục 1 - Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp\ntại ngày 31 tháng 12 năm 2025 (Tiếp theo)\nMẫu số B 09 – DN/HN\nCông ty Hoạt động chính Nơi thành lập,\nđăng ký hoạt động\nTại ngày 31/12/2025 Tại ngày 31/12/2024\nTỷ lệ sở hữu Tỷ lệ biểu quyết Tỷ lệ sở hữu Tỷ lệ biểu quyết\nSTT\nQuản lý quỹ đầu tư, quản lý \ndanh mục đầu tư và các \ndịch vụ khác\nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nKinh doanh bất động sản \nSản xuất thiết bị tự hành,\ntự động hóa\nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nTích hợp hệ thống, dịch vụ \nphần mềm\nSản xuất phần mềm \nSản xuất phần mềm \nViệt Nam\nViệt Nam\nNhật Bản\nViệt Nam\nViệt Nam\nViệt Nam\nHàn Quốc\nNhật Bản\nMalaysia\nNhật Bản\nIndonesia\nNhật Bản\nViệt Nam\n25%\n30%\n50%\n50%\n49%\n25,44%\n50%\n41%\n49%\n49%\n40%\n33,3%\n49%\n25%\n30%\n50%\n50%\n49%\n26,70%\n50%\n41%\n0%\n0%\n40%\n0%\n 0%\n25%\n30%\n50%\n50%\n49%\n26,70%\n50%\n41%\n0%\n0%\n40%\n0%\n0%\nCông ty Cổ phần Quản lý quỹ Đầu tư FPT\nCông ty TNHH SBI FPT\nCông ty TNHH MJS FPT\nCông ty TNHH FPT Smart Technologies\nCông ty TNHH Trí tuệ nhân tạo Quy Nhơn\nCông ty Cổ phần Next Robotics\nCông ty Dịch vụ Công nghệ Ackerton\nCông ty Konica Minolta FPT Solution Labs, Inc\nCông ty FSC – FPT Solutions & Consulting SDN.BHD\nCông ty FST Japan – FPT Smart Technologies Japan\nCông ty PT FPT Metrodata Indonesia\nCông ty Cobol Park Corporation\nCông ty TNHH P3 Group (Việt Nam)\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n25%\n30%\n50%\n50%\n49%\n25,44%\n50%\n41%\n49%\n49%\n40%\n33,3%\n49%\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nDanh sách công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp tại ngày 31 tháng 12 năm 2025, bao gồm tên công ty, hoạt động chính, nơi thành lập, tỷ lệ sở hữu và tỷ lệ biểu quyết tại các thời điểm 31/12/2025 và 31/12/2024.\ntable: Danh sách công ty liên doanh, liên kết khác (giữa trang) — Bảng liệt kê các công ty với các cột: STT, Công ty, Hoạt động chính, Nơi thành lập, đăng ký hoạt động, Tỷ lệ sở hữu và Tỷ lệ biểu quyết tại ngày 31/12/2025 và 31/12/2024.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Danh sách công ty liên doanh, liên kết khác",
+              "location": "giữa trang",
+              "description": "Bảng liệt kê các công ty với các cột: STT, Công ty, Hoạt động chính, Nơi thành lập, đăng ký hoạt động, Tỷ lệ sở hữu và Tỷ lệ biểu quyết tại ngày 31/12/2025 và 31/12/2024."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p096",
+          "page": 96,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Giao dịch giữa công ty với các \ndoanh nghiệp và người có liên \nquan thực hiện theo Nghị Quyết \nsố 02.03-2021/NQ-HĐQTFPT \nban hành ngày 12/03/2021 và \ncó hiệu lực đến khi có Nghị quyết \nkhác thay thế.\nChia sẻ chi phí và \ntiện ích dùng chung\nLãi cho vay\nLãi đi vay\nCho vay\nThu hồi khoản \ncho vay\nVay\nTrả nợ vay\n1.842.629.676 Giao dịch \nthường xuyên\nGiao dịch \ntheo tháng\nGiao dịch \ntheo tháng\nGiao dịch \nthường xuyên\n24/12/2025\nGiao dịch \nthường xuyên\nGiao dịch \nthường xuyên\n405.531.622\n4.661.483.820\n37.500.000.000\n10.900.000.000\n232.000.000.000\n264.000.000.000\nCông ty TNHH \nĐầu tư FPT \n6 Công ty con \ntrong cùng \nTập đoàn\n• 0105173948\n• 03/03/2011\n• Sở Kế hoạch\nvà Đầu tư\nTp.Hà Nội\nSố 10 phố \nPhạm Văn \nBạch, phường \nCầu Giấy, \nTp.Hà Nội\nNăm \n2025\nGiao dịch giữa công ty với các \ndoanh nghiệp và người có liên \nquan thực hiện theo Nghị Quyết \nsố 02.03-2021/NQ-HĐQTFPT \nban hành ngày 12/03/2021 và \ncó hiệu lực đến khi có Nghị quyết \nkhác thay thế.\nCung cấp dịch vụ, \nchia sẻ chi phí và \ntiện ích dùng chung\nMua hàng hóa, \ndịch vụ\n1.376.194.343\n1.387.680.263\nGiao dịch \nthường xuyên\nGiao dịch \nthường xuyên\nCông ty \nCổ phần \nSynnex FPT\n7 Công ty \nliên kết\n• 0103841131\n• 06/08/2009\n• Sở Kế hoạch\nvà Đầu tư\nTp.Hà Nội\nTòa nhà FPT \nCầu Giấy, \nphố Duy Tân, \nphường Cầu \nGiấy, Tp.Hà Nội\nNăm \n2025\nGiao dịch giữa công ty với các \ndoanh nghiệp và người có liên \nquan thực hiện theo Nghị Quyết \nsố 02.03-2021/NQ-HĐQTFPT \nban hành ngày 12/03/2021 và \ncó hiệu lực đến khi có Nghị quyết \nkhác thay thế.\nCung cấp dịch vụ, \nchia sẻ chi phí và \ntiện ích dùng chung\nMua hàng hóa, \ndịch vụ\n26.991.394.716\n2.520.072.788\nGiao dịch \nthường xuyên\nGiao dịch \nthường xuyên\nCông ty \nCổ phần \nBán lẻ \nKỹ thuật số \nFPT\n8 Công ty \nliên kết\n• 0311609355\n• 08/03/2012\n• Sở Kế hoạch\nvà Đầu tư\nTp.Hồ Chí Minh\nSố 261-263 \nKhánh Hội, \nphường \nVĩnh Hội, \nTp.Hồ Chí Minh\nNăm \n2025\nSTT Tên tổ chức Mối quan hệ \nliên quan \nvới công ty\nSố giấy NSH,\nngày cấp, \nnơi cấp\nĐịa chỉ \ntrụ sở chính\nThời \nđiểm \ngiao \ndịch\nSố nghị quyết/ quyết định của Ghi chú\nĐHĐCĐ/ HĐQT… thông qua\nNội dung và \ntổng giá trị giao dịch\nGiao dịch Tổng giá trị\n(VNĐ)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng thông tin chi tiết về các giao dịch giữa công ty FPT với các tổ chức liên quan trong năm 2025, bao gồm tên tổ chức, mối quan hệ, giấy phép, địa chỉ, thời điểm giao dịch, nội dung giao dịch và tổng giá trị giao dịch.\ntable: Thông tin giao dịch với các tổ chức liên quan năm 2025 (trái) — Bảng gồm các cột: STT, Tên tổ chức, Mối quan hệ liên quan với công ty, Số giấy NSH, ngày cấp, nơi cấp, Địa chỉ trụ sở chính, Thời điểm giao dịch, Số nghị quyết/quyết định của ĐHĐCĐ/HĐQT thông qua, Nội dung và tổng giá trị giao dịch (VNĐ), Ghi chú. Thông tin chi tiết về các giao dịch tài chính và dịch vụ giữa công ty FPT và các công ty con, công ty liên kết trong năm 2025.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Thông tin giao dịch với các tổ chức liên quan năm 2025",
+              "location": "trái",
+              "description": "Bảng gồm các cột: STT, Tên tổ chức, Mối quan hệ liên quan với công ty, Số giấy NSH, ngày cấp, nơi cấp, Địa chỉ trụ sở chính, Thời điểm giao dịch, Số nghị quyết/quyết định của ĐHĐCĐ/HĐQT thông qua, Nội dung và tổng giá trị giao dịch (VNĐ), Ghi chú. Thông tin chi tiết về các giao dịch tài chính và dịch vụ giữa công ty FPT và các công ty con, công ty liên kết trong năm 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p094",
+          "page": 94,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Hợp đồng hoặc giao dịch với cổ đông nội bộ \nGiao dịch giữa công ty với các \ndoanh nghiệp và người có liên \nquan thực hiện theo Nghị Quyết \nsố 02.03-2021/NQ-HĐQTFPT \nban hành ngày 12/03/2021 và \ncó hiệu lực đến khi có Nghị quyết \nkhác thay thế.\nCung cấp dịch vụ, \nchia sẻ chi phí và \ntiện ích dùng chung\nMua dịch vụ \nphần mềm\nLãi đi vay\nVay\nTrả nợ vay\n397.763.273.322 Giao dịch \nthường xuyên\nGiao dịch \nthường xuyên\nGiao dịch \ntheo tháng\nGiao dịch \nthường xuyên\nGiao dịch \nthường xuyên\n64.068.740.823\n24.095.488.172\n3.935.686.187.170\n3.791.286.187.170\nCông ty TNHH \nPhần mềm FPT\n1\n2\nCông ty con \ntrong cùng \nTập đoàn\n• 0101601092\n• 23/12/2004\n• Sở Kế hoạch \nvà Đầu tư \nTp.Hà Nội\nTầng 6-12, \ntòa nhà FPT \nCầu Giấy, \nphố Duy \nTân, phường \nCầu Giấy, \nTp.Hà Nội\nNăm \n2025\nGiao dịch giữa công ty với các \ndoanh nghiệp và người có liên \nquan thực hiện theo Nghị Quyết \nsố 02.03-2021/NQ-HĐQTFPT \nban hành ngày 12/03/2021 và \ncó hiệu lực đến khi có Nghị quyết \nkhác thay thế.\nCông ty TNHH \nFPT IS\nCông ty con \ntrong cùng \nTập đoàn\n• 0104128565\n• 13/08/2009\n• Sở Kế hoạch \nvà Đầu tư \nTp.Hà Nội\nSố 10 phố \nPhạm Văn \nBạch, \nphường \nCầu Giấy, \nTp.Hà Nội\nNăm \n2025\nVới mô hình công ty mẹ, công ty con, một số thành viên HĐQT và Tổng giám đốc của Tập đoàn, đồng thời kiêm nhiệm các vị trí trong HĐQT/HĐTV và BKS của công ty thành viên. \nTrong năm 2025, FPT thực hiện các giao dịch thường xuyên với công ty thành viên và công ty mà FPT nắm quyền kiểm soát như sau:\nCung cấp dịch vụ, \nchia sẻ chi phí và \ntiện ích dùng chung\nMua hàng hóa, \ndịch vụ\nLãi đi vay\nVay\nTrả nợ vay\n58.531.876.766 Giao dịch \nthường xuyên\nGiao dịch \nthường xuyên\nGiao dịch \ntheo tháng\nGiao dịch \nthường xuyên\nGiao dịch \nthường xuyên\n126.842.017.121\n53.695.883.577\n1.670.000.000.000\n1.760.000.000.000\nSTT Tên tổ chức Mối quan hệ \nliên quan \nvới công ty\nSố giấy NSH,\nngày cấp, \nnơi cấp\nĐịa chỉ \ntrụ sở chính\nThời \nđiểm \ngiao \ndịch\nSố nghị quyết/ quyết định của Ghi chú\nĐHĐCĐ/ HĐQT… thông qua\nNội dung và \ntổng giá trị giao dịch\nGiao dịch Tổng giá trị\n(VNĐ)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng tổng hợp các hợp đồng hoặc giao dịch giữa công ty FPT với các cổ đông nội bộ trong năm 2025, bao gồm thông tin về tổ chức, mối quan hệ, giấy phép, địa chỉ, thời điểm giao dịch, số nghị quyết và nội dung giao dịch cùng tổng giá trị.\ntable: Hợp đồng hoặc giao dịch với cổ đông nội bộ (phải) — Bảng liệt kê các giao dịch giữa công ty FPT và các công ty con trong cùng tập đoàn, gồm các cột: STT, Tên tổ chức, Mối quan hệ liên quan với công ty, Số giấy NSH và ngày cấp, Địa chỉ trụ sở chính, Thời điểm giao dịch, Số nghị quyết/quyết định thông qua, Nội dung và tổng giá trị giao dịch (VNĐ), Ghi chú.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Hợp đồng hoặc giao dịch với cổ đông nội bộ",
+              "location": "phải",
+              "description": "Bảng liệt kê các giao dịch giữa công ty FPT và các công ty con trong cùng tập đoàn, gồm các cột: STT, Tên tổ chức, Mối quan hệ liên quan với công ty, Số giấy NSH và ngày cấp, Địa chỉ trụ sở chính, Thời điểm giao dịch, Số nghị quyết/quyết định thông qua, Nội dung và tổng giá trị giao dịch (VNĐ), Ghi chú."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p080",
+          "page": 80,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Tiểu ban thuộc HĐQT có chức năng chỉ đạo \nxây dựng khung chính sách và quy trình nhân sự \ncho Tập đoàn và công ty thành viên; hỗ trợ \nHĐQT trong việc lựa chọn, đề xuất, bổ nhiệm, \nbãi nhiệm, đãi ngộ và đánh giá hiệu quả hoạt động \ncủa các thành viên HĐQT, BĐH, người đại diện \nvà các chức danh quản lý cao cấp khác của \nTập đoàn và công ty thành viên. \nQUẢN TRỊ CÔNG TY\nMÔ HÌNH QUẢN TRỊ VÀ VAI TRÒ CỦA CÁC BÊN\nĐẠI HỘI ĐỒNG CỔ ĐÔNG\nBAN KIỂM SOÁT\nHỘI ĐỒNG QUẢN TRỊ\nCHỦ TỊCH\nHỘI ĐỒNG QUẢN TRỊ\nTỔNG GIÁM ĐỐC VÀ\nBAN ĐIỀU HÀNH\nUỶ BAN NHÂN SỰ\nVÀ LƯƠNG THƯỞNG\nVĂN PHÒNG\nCHỦ TỊCH HĐQT\nKIỂM TOÁN NỘI BỘ\nĐại hội đồng Cổ đông: Cơ quan có thẩm quyền cao \nnhất thực hiện các chức năng cùng các quyền và \nnghĩa vụ theo quy định tại Điều lệ Công ty và pháp luật \ncó liên quan.\nCơ quan quản trị cao nhất có quyền nhân danh Tập đoàn \nđể quyết định, thực hiện các quyền và nghĩa vụ của \nTập đoàn không thuộc thẩm quyền của ĐHĐCĐ theo \nquy định của Điều lệ Công ty và pháp luật có liên quan. \nTGĐ là người đại diện theo pháp luật của Tập đoàn. \nVới sự trợ giúp của Ban Điều hành, TGĐ chịu trách \nnhiệm điều hành hoạt động kinh doanh hàng ngày \ncủa Tập đoàn trên cơ sở tuân thủ quyết định, nghị quyết\ncủa ĐHĐCĐ, HĐQT và Chủ tịch HĐQT. \nThực hiện giám sát HĐQT, TGĐ trong \nviệc quản lý, điều hành Tập đoàn và \nchịu trách nhiệm trước ĐHĐCĐ trong \nviệc thực hiện các nhiệm vụ được giao. \nNgười đại diện theo pháp luật của Tập đoàn chịu \ntrách nhiệm điều hành các công tác của HĐQT, xem xét\nvà quyết định các công tác quản trị của Tập đoàn \ntheo các quy định của pháp luật có liên quan và Điều lệ \ncông ty, quy chế nội bộ. \nUỶ BAN CHÍNH\nSÁCH PHÁT TRIỂN\nTiểu ban thuộc HĐQT chịu trách nhiệm đề xuất \nđịnh hướng phát triển lên HĐQT; xây dựng chiến lược\nđệ trình HĐQT, chỉ đạo và giám sát các vấn đề \nliên quan đến chiến lược phát triển của Tập đoàn \nvà công ty thành viên. \nĐóng vai trò là Thư ký Tập đoàn và là cơ quan hỗ trợ \ntrực thuộc HĐQT; trợ giúp HĐQT, Chủ tịch HĐQT \ntrong việc thực hiện các chức năng và nhiệm vụ \ncủa HĐQT, Chủ tịch HĐQT. \nĐược thành lập và chịu sự quản lý trực tiếp của \nHĐQT và đóng vai trò kiểm tra và đánh giá tính \nđầy đủ và hiệu quả của quản trị, quản lý rủi ro và \nkiểm soát nội bộ cũng như chất lượng hiệu suất \ntrong việc thực thi trách nhiệm được giao và đưa ra \ncác kiến nghị để đạt được mục tiêu và mục đích \ncủa doanh nghiệp.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nMô hình quản trị công ty và vai trò của các bên liên quan trong hệ thống quản trị của FPT.\ndiagram: Mô hình quản trị và vai trò của các bên (phải) — Các thành phần gồm Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Chủ tịch Hội đồng quản trị, Tổng giám đốc và Ban điều hành, Ủy ban nhân sự và lương thưởng, Ủy ban chính sách phát triển, Văn phòng Chủ tịch HĐQT, Kiểm toán nội bộ; mô tả chức năng và trách nhiệm của từng bộ phận.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Mô hình quản trị và vai trò của các bên",
+              "location": "phải",
+              "description": "Các thành phần gồm Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Chủ tịch Hội đồng quản trị, Tổng giám đốc và Ban điều hành, Ủy ban nhân sự và lương thưởng, Ủy ban chính sách phát triển, Văn phòng Chủ tịch HĐQT, Kiểm toán nội bộ; mô tả chức năng và trách nhiệm của từng bộ phận."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p031",
+          "path": ".bonus/pages/p031.jpg",
+          "sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+        },
+        {
+          "id": "FPT2025:p098",
+          "path": ".bonus/pages/p098.jpg",
+          "sha256": "3836af6e3fca01702f456a1f496aabc3966bc3d3ec30c49a785bc6439cc80c49"
+        },
+        {
+          "id": "FPT2025:p178",
+          "path": ".bonus/pages/p178.jpg",
+          "sha256": "b032ffc2e9a018a1e14eec4e8d3a7ec5341dc9533c7f1092ec19e0d0d1642c19"
+        },
+        {
+          "id": "FPT2025:p173",
+          "path": ".bonus/pages/p173.jpg",
+          "sha256": "34da9df2c8d9288a197d06d43b869aead15a08807dad76e542958b410e3432bb"
+        },
+        {
+          "id": "FPT2025:p226",
+          "path": ".bonus/pages/p226.jpg",
+          "sha256": "0411e9e7e4e75c5a6b21676701986c26d4c878d1ab22e241eaa35d70ea52a84c"
+        },
+        {
+          "id": "FPT2025:p096",
+          "path": ".bonus/pages/p096.jpg",
+          "sha256": "6f5d30addc6c5081af2f9e18baa6415ccd6db1ad9a12100f848992788b92f708"
+        },
+        {
+          "id": "FPT2025:p094",
+          "path": ".bonus/pages/p094.jpg",
+          "sha256": "43e2ddb3dff3cba5f9ca10e5c614231e9b0178aa339dc3b2d3856e88667963fa"
+        },
+        {
+          "id": "FPT2025:p080",
+          "path": ".bonus/pages/p080.jpg",
+          "sha256": "7bc2e71fe735535cae71d4877e30e06fa50a66618a37495a35511a55ebd37dd4"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805180-wSgPcubj1ryhHkNPkrDX",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_013i6mAa1fJfqv9r6hMjLJ2D",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo sơ đồ tổ chức (trang 31), nhánh \\\"CÔNG TY LIÊN KẾT\\\" được nối với hai đơn vị: Synnex FPT (vốn điều lệ 1.188.400.000.000 VNĐ, tỷ lệ sở hữu 48,00%) và FPT Retail (vốn điều lệ 1.703.017.850.000 VNĐ, tỷ lệ sở hữu 46,54%).\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p031\",\"region\":\"Sơ đồ tổ chức (trang 31): nhánh từ ô CÔNG TY LIÊN KẾT nối tới hai đơn vị ở cột bên phải dưới – Synnex FPT (48,00%) và FPT Retail (46,54%), kèm vốn điều lệ và tỷ lệ sở hữu tương ứng\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p031",
+    "FPT2025:p098",
+    "FPT2025:p178",
+    "FPT2025:p173",
+    "FPT2025:p226",
+    "FPT2025:p096",
+    "FPT2025:p094",
+    "FPT2025:p080"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p031",
+      "page": 31,
+      "image": ".bonus/pages/p031.jpg",
+      "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+    },
+    {
+      "id": "FPT2025:p098",
+      "page": 98,
+      "image": ".bonus/pages/p098.jpg",
+      "image_sha256": "3836af6e3fca01702f456a1f496aabc3966bc3d3ec30c49a785bc6439cc80c49"
+    },
+    {
+      "id": "FPT2025:p178",
+      "page": 178,
+      "image": ".bonus/pages/p178.jpg",
+      "image_sha256": "b032ffc2e9a018a1e14eec4e8d3a7ec5341dc9533c7f1092ec19e0d0d1642c19"
+    },
+    {
+      "id": "FPT2025:p173",
+      "page": 173,
+      "image": ".bonus/pages/p173.jpg",
+      "image_sha256": "34da9df2c8d9288a197d06d43b869aead15a08807dad76e542958b410e3432bb"
+    },
+    {
+      "id": "FPT2025:p226",
+      "page": 226,
+      "image": ".bonus/pages/p226.jpg",
+      "image_sha256": "0411e9e7e4e75c5a6b21676701986c26d4c878d1ab22e241eaa35d70ea52a84c"
+    },
+    {
+      "id": "FPT2025:p096",
+      "page": 96,
+      "image": ".bonus/pages/p096.jpg",
+      "image_sha256": "6f5d30addc6c5081af2f9e18baa6415ccd6db1ad9a12100f848992788b92f708"
+    },
+    {
+      "id": "FPT2025:p094",
+      "page": 94,
+      "image": ".bonus/pages/p094.jpg",
+      "image_sha256": "43e2ddb3dff3cba5f9ca10e5c614231e9b0178aa339dc3b2d3856e88667963fa"
+    },
+    {
+      "id": "FPT2025:p080",
+      "page": 80,
+      "image": ".bonus/pages/p080.jpg",
+      "image_sha256": "7bc2e71fe735535cae71d4877e30e06fa50a66618a37495a35511a55ebd37dd4"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805175-X3gjmg4hipRQbyYGm6BA",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1801,
+        "completion_tokens": 125,
+        "total_tokens": 1926,
+        "cost": 0.0002426,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002426,
+          "upstream_inference_prompt_cost": 0.0001801,
+          "upstream_inference_completions_cost": 6.25e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2133.2241999916732,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805180-wSgPcubj1ryhHkNPkrDX",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 33083,
+        "completion_tokens": 376,
+        "total_tokens": 33459,
+        "cost": 0.0034963,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0034963,
+          "upstream_inference_prompt_cost": 0.0033083,
+          "upstream_inference_completions_cost": 0.000188
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5966.211199993268,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 10562.570400012191,
+  "query_id": "ft-i1",
+  "question": "Theo sơ đồ tổ chức, hai đơn vị nào nằm trong nhánh Công ty liên kết?",
+  "split": "test",
+  "config": "vision"
+}

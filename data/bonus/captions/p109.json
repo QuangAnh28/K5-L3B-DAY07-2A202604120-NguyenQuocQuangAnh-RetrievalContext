@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p109",
+  "image_sha256": "4ae320b6aaa20a5d9b9f87cf384f7bcba749aaa55c3f65f8a023f21e07ee1146",
+  "caption": {
+    "summary": "Mục lục báo cáo ESG của FPT năm 2025, liệt kê các chủ đề chính trong báo cáo về môi trường, xã hội và quản trị.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Mục lục báo cáo ESG",
+        "location": "phải",
+        "description": "Danh sách 5 chủ đề chính trong báo cáo ESG gồm: Thông điệp và Định hướng ESG, Quản trị hướng đến phát triển bền vững, Môi trường làm việc đẳng cấp hạnh phúc, Hoạt động vì môi trường xanh, Song hành vì sự phát triển cộng đồng."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800760-2jLClWGdgglASWRxtflN",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 131,
+        "total_tokens": 2693,
+        "cost": 0.0012344,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012344,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002096
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3710.727199970279,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

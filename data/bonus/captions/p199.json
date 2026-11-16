@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p199",
+  "image_sha256": "813e1e3a3d1165fe600363ba9e3026c05b824783030a3c4345e3d3fbab10978c",
+  "caption": {
+    "summary": "Thuyết minh báo cáo tài chính hợp nhất năm 2025, trình bày chi tiết chi phí xây dựng cơ bản dở dang, biến động lợi thế thương mại và phải trả người bán ngắn hạn.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Chi phí xây dựng cơ bản dở dang",
+        "location": "trái",
+        "description": "Chi tiết số dư chi phí xây dựng cơ bản dở dang cuối năm tài chính 31/12/2025 và 31/12/2024, đơn vị VNĐ, gồm các hạng mục như Trung tâm dữ liệu Quận 9, FPT Complex 3, Tuyến cáp quang biển ALC, Khuôn viên Đại học FPT tại Đà Nẵng, các dự án AI Factory, F-Town 3 và khác."
+      },
+      {
+        "type": "table",
+        "title": "Lợi thế thương mại",
+        "location": "phải trên",
+        "description": "Biến động lợi thế thương mại trong năm 2025 và 2024, đơn vị VNĐ, gồm số dư đầu năm, tăng từ hợp nhất kinh doanh, phân bổ, giảm do đánh giá lại giá trị hợp lý và số dư cuối năm."
+      },
+      {
+        "type": "table",
+        "title": "Phải trả người bán ngắn hạn",
+        "location": "dưới",
+        "description": "Số liệu phải trả người bán ngắn hạn tại ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ, phân loại theo bên thứ ba và bên liên quan, gồm giá trị và số có khả năng trả nợ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800830-yFTmFrLAac14dmboloxu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 330,
+        "total_tokens": 2892,
+        "cost": 0.0015528,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0015528,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000528
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4607.6970000285655,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,256 @@
+{
+  "status": "answered",
+  "answer": "Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam không thuộc định nghĩa xuất khẩu. Xuất khẩu hàng hóa là việc hàng hóa được đưa ra khỏi lãnh thổ Việt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, không phải từ nội địa vào khu vực hải quan riêng. [luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_cieVTR9473tX1nz8iPdoFBcf",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801606-2USJH3k68IvbaprTcVCH"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không?",
+      "model_query": "đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 9,
+          "text": "1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 9,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 29"
+          },
+          "score": 0.60637227061173,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 9,
+          "text": "1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 9,
+            "year": 2005,
+            "chapter": "Chương Ii"
+          },
+          "score": 0.5977723797306909,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-f8a8ba804726f73e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 10,
+          "text": "Điều 30. Chuyển khẩu hàng hoá\n\n1. Chuy ển kh ẩu hàng hóa là vi ệc mua hàng t ừ một n ước, vùng lãnh th ổ để bán sang m ột n ước, vùng lãnh th ổ ngoài lãnh th ổ Vi ệt Nam mà không làm thủ tục nh ập kh ẩu vào Vi ệt Nam và không làm th ủ tục xu ất kh ẩu ra kh ỏi Vi ệt Nam.\n\n2. Chuyển khẩu hàng hóa được thực hiện theo các hình thức sau đây:\n\na) Hàng hóa được v ận chuy ển th ẳng t ừ n ước xu ất kh ẩu đến n ước nh ập khẩu không qua cửa khẩu Việt Nam;\n\nb) Hàng hóa được vận chuyển t ừ nước xuất kh ẩu đến nước nhập khẩu có qua c ửa kh ẩu Vi ệt Nam nh ưng không làm th ủ t ục nh ập kh ẩu vào Vi ệt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam;\n\nc) Hàng hóa được vận chuyển từ nước xuất kh ẩu đến nước nhập khẩu có qua cửa khẩu Việt Nam và đưa vào kho ngo ại quan, khu v ực trung chuy ển hàng hoá tại các cảng Việt Nam, không làm th ủ tục nhập khẩu vào Việt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam.\n\n3. Chính phủ quy định chi tiết về hoạt động chuyển khẩu hàng hóa.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 10,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 30"
+          },
+          "score": 0.32429198084222993,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+        "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_yyQAc76LGH9IfpJFJDwsckjL",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam không thuộc định nghĩa xuất khẩu. Xuất khẩu hàng hóa là việc hàng hóa được đưa ra khỏi lãnh thổ Việt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, không phải từ nội địa vào khu vực hải quan riêng.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801608-tmYZ4284BlW6RUtroaUm"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801606-2USJH3k68IvbaprTcVCH",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 307,
+        "completion_tokens": 36,
+        "total_tokens": 343,
+        "cost": 0.0001804,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001804,
+          "upstream_inference_prompt_cost": 0.0001228,
+          "upstream_inference_completions_cost": 5.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2709.6811999799684,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801608-tmYZ4284BlW6RUtroaUm",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1096,
+        "completion_tokens": 143,
+        "total_tokens": 1239,
+        "cost": 0.0006672,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006672,
+          "upstream_inference_prompt_cost": 0.0004384,
+          "upstream_inference_completions_cost": 0.0002288
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2424.028299981728,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 5137.616199965123,
+  "searches": 1,
+  "query_id": "b2-t28",
+  "question": "Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không?",
+  "split": "test",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 9,
+      "text": "1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 9,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 29"
+      },
+      "score": 0.60637227061173,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 9,
+      "text": "1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 9,
+        "year": 2005,
+        "chapter": "Chương Ii"
+      },
+      "score": 0.5977723797306909,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-f8a8ba804726f73e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 10,
+      "text": "Điều 30. Chuyển khẩu hàng hoá\n\n1. Chuy ển kh ẩu hàng hóa là vi ệc mua hàng t ừ một n ước, vùng lãnh th ổ để bán sang m ột n ước, vùng lãnh th ổ ngoài lãnh th ổ Vi ệt Nam mà không làm thủ tục nh ập kh ẩu vào Vi ệt Nam và không làm th ủ tục xu ất kh ẩu ra kh ỏi Vi ệt Nam.\n\n2. Chuyển khẩu hàng hóa được thực hiện theo các hình thức sau đây:\n\na) Hàng hóa được v ận chuy ển th ẳng t ừ n ước xu ất kh ẩu đến n ước nh ập khẩu không qua cửa khẩu Việt Nam;\n\nb) Hàng hóa được vận chuyển t ừ nước xuất kh ẩu đến nước nhập khẩu có qua c ửa kh ẩu Vi ệt Nam nh ưng không làm th ủ t ục nh ập kh ẩu vào Vi ệt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam;\n\nc) Hàng hóa được vận chuyển từ nước xuất kh ẩu đến nước nhập khẩu có qua cửa khẩu Việt Nam và đưa vào kho ngo ại quan, khu v ực trung chuy ển hàng hoá tại các cảng Việt Nam, không làm th ủ tục nhập khẩu vào Việt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam.\n\n3. Chính phủ quy định chi tiết về hoạt động chuyển khẩu hàng hóa.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 10,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 30"
+      },
+      "score": 0.32429198084222993,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

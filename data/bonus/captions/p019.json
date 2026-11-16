@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p019",
+  "image_sha256": "7812a7f4bd5b8536c0319873cab59ff7801ab817d64fffa861497860d42ba687",
+  "caption": {
+    "summary": "Trang báo cáo trình bày các dấu ấn nổi bật năm 2025 của FPT trong các lĩnh vực công nghệ, giáo dục và y tế cộng đồng.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Chiêu mộ Navisoft giải bài toán đặc thù của lĩnh vực chứng khoán, tài chính-ngân hàng",
+        "location": "trên",
+        "description": "Ảnh chụp nhóm người ký kết hợp tác, thể hiện sự hợp tác phát triển giải pháp công nghệ trong lĩnh vực chứng khoán, tài chính-ngân hàng."
+      },
+      {
+        "type": "photo",
+        "title": "Khánh thành Tổ hợp giáo dục tại Huế triển khai mô hình tổ hợp giáo dục đa bậc học",
+        "location": "trên",
+        "description": "Ảnh chụp sự kiện khánh thành tổ hợp giáo dục với nhiều người tham dự trên sân khấu, thể hiện quy mô và sự kiện quan trọng trong lĩnh vực giáo dục."
+      },
+      {
+        "type": "photo",
+        "title": "Triển khai Dự án máy khử rung tim tự động nâng cao hiệu quả cấp cứu tại cộng đồng",
+        "location": "trên",
+        "description": "Ảnh chụp lễ công bố dự án máy khử rung tim tự động (AED) với hai người trao đổi biểu tượng, thể hiện sự hỗ trợ cộng đồng trong y tế cấp cứu."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800700-mKwvGOE9Eslb4TasCun4",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 274,
+        "total_tokens": 2836,
+        "cost": 0.0014632,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014632,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004384
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3791.3391000474803,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

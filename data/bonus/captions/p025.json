@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p025",
+  "image_sha256": "dec6d2d361f2c85ddbb24d454e3b0e50c016347ede35794ee9b1e0a59fcea670",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về ngành nghề kinh doanh của FPT trong lĩnh vực công nghệ, bao gồm nhóm dịch vụ và nhóm sản phẩm, giải pháp. Nội dung nhấn mạnh vai trò tiên phong của FPT trong chuyển đổi số, AI, và hệ sinh thái sản phẩm dịch vụ đa dạng.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Nhân viên vận hành hệ thống máy chủ",
+        "location": "dưới bên trái",
+        "description": "Ảnh một người mặc áo cam đang thao tác với hệ thống máy chủ trong trung tâm dữ liệu."
+      },
+      {
+        "type": "photo",
+        "title": "Linh kiện chip điện tử",
+        "location": "dưới bên phải",
+        "description": "Ảnh cận cảnh hai bàn tay đang cầm một linh kiện chip điện tử nhỏ màu xanh."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800704-xkIkjmzd0H2UXBquXXEO",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 165,
+        "total_tokens": 2727,
+        "cost": 0.0012888,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012888,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000264
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3132.968300022185,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

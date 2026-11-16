@@ -1,0 +1,438 @@
+{
+  "status": "answered",
+  "answer": "Có, nhưng chỉ gắn nhãn Nhật Bản và Úc. Trên bản đồ hiện diện toàn cầu (trang 27), các nhãn \"Nhật Bản\" (gần Hàn Quốc, phía đông) và \"Úc\" (phía dưới bên trái bản đồ châu Á–Thái Bình Dương) đều có ghim vị trí. Ngoài ra, trang 27 có nhãn quốc gia \"Nhật Bản\" trong phần danh sách các quốc gia/vùng lãnh thổ được liệt kê.\n[FPT2025:p027 — Bản đồ phạm vi hoạt động toàn cầu ở giữa trang: ghim và nhãn \"Nhật Bản\" (phía đông, cạnh Hàn Quốc) và ghim, nhãn \"Úc\" (phía dưới bên phải, châu Úc)]",
+  "citations": [
+    {
+      "id": "FPT2025:p027",
+      "region": "Bản đồ phạm vi hoạt động toàn cầu ở giữa trang: ghim và nhãn \"Nhật Bản\" (phía đông, cạnh Hàn Quốc) và ghim, nhãn \"Úc\" (phía dưới bên phải, châu Úc)"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805265-799YM4ow523jk7DgUCEG",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01V7D8yEks2TCcc1JPN8PkgA",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"bản đồ hiện diện toàn cầu FPT\",\"FPT global presence map Japan Australia\",\"FPT hiện diện Nhật Bản Úc bản đồ\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trên bản đồ hiện diện toàn cầu của FPT, Nhật Bản và Úc có được gắn nhãn địa điểm hiện diện không?",
+      "model_queries": [
+        "bản đồ hiện diện toàn cầu FPT",
+        "FPT global presence map Japan Australia",
+        "FPT hiện diện Nhật Bản Úc bản đồ"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p027",
+          "page": 27,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p062",
+          "page": 62,
+          "score": 0.029857397504456328,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p030",
+          "page": 30,
+          "score": 0.027799227799227798,
+          "component_ranks": {
+            "dense": 14,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p068",
+          "page": 68,
+          "score": 0.026547116736990152,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "FPT2025:p218",
+          "page": 218,
+          "score": 0.02631578947368421,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 16
+          }
+        },
+        {
+          "id": "FPT2025:p070",
+          "page": 70,
+          "score": 0.025478740668614087,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 19
+          }
+        },
+        {
+          "id": "FPT2025:p053",
+          "page": 53,
+          "score": 0.024891774891774892,
+          "component_ranks": {
+            "dense": 24,
+            "tfidf": 17
+          }
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "tfidf": 2
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trên bản đồ hiện diện toàn cầu của FPT, Nhật Bản và Úc có được gắn nhãn địa điểm hiện diện không?"
+      ],
+      "context_ids": [
+        "FPT2025:p027",
+        "FPT2025:p062",
+        "FPT2025:p030",
+        "FPT2025:p068",
+        "FPT2025:p218",
+        "FPT2025:p070",
+        "FPT2025:p053",
+        "FPT2025:p159"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p027",
+          "page": 27,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "VỊ THẾ VÀ QUY MÔ\n34 30+ 04 Tỉnh thành \ntại Việt Nam\nQuốc gia và \nvùng lãnh thổ Châu lục\nCanada\nUSA\nMexico\nColombia\nAnh Cộng hòa Séc Đức\nẤn Độ\nẢ-rập-xê-út\nTiểu Vương quốc \nẢ rập thống nhất\nIsrael\nViệt Nam \nCampuchia\nThái Lan\nSingapore\nMalaysia Myanmar\nTrung Quốc Hàn Quốc\nCosta Rica\nPháp\nRomania\nSlovakia\nĐan Mạch\nThụy Điển\nĐài loan\nHong Kong\nNhật Bản\nPhilippines\n Indonesia\nÚc\n11,1%\n5,6%\n11,6%\n48,9%\n22,8%\nChâu Mỹ\nNhật Bản\nChâu Âu\nViệt Nam\nChâu Á-Thái Bình Dương\nDoanh thu theo khu vực địa lý\nViệt Nam\nNước ngoài\nFPT là tập đoàn công nghệ và dịch vụ CNTT toàn cầu, tiên phong cung cấp dịch vụ, \nsản phẩm, giải pháp dựa trên những công nghệ lõi như: AI, điện toán đám mây, dữ liệu \nvà tự động hóa. FPT không ngừng mở rộng quy mô với 54.110 CBNV và hiện diện tại \nhơn 30 quốc gia, vùng lãnh thổ. Là doanh nghiệp CNTT đầu tiên trên sàn chứng khoán \nViệt Nam, giá trị vốn hóa của FPT đã tăng gần 06 lần kể từ năm 2006 đến nay.\nTập đoàn cũng tiếp tục khẳng định vị thế trên bản đồ công nghệ thế giới khi đứng trong \nTop 40 Công ty Dịch vụ CNTT châu Á.\nSong song với hoạt động kinh doanh, FPT kiên định theo đuổi chiến lược ESG, \ntập trung phát triển công nghệ vì con người, đào tạo nguồn nhân lực số, thúc đẩy \nchuyển đổi xanh, quản trị minh bạch và tạo giá trị lâu dài cho cộng đồng, xã hội.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày vị thế và quy mô của tập đoàn FPT, bao gồm thông tin về phạm vi hoạt động toàn cầu, số lượng nhân sự, và phân bố doanh thu theo khu vực địa lý.\nmap: Bản đồ phạm vi hoạt động toàn cầu của FPT (giữa trang) — Bản đồ thế giới với các điểm đánh dấu vị trí các quốc gia và vùng lãnh thổ nơi FPT hoạt động, bao gồm Bắc Mỹ, châu Âu, châu Á và châu Úc.\nchart: Biểu đồ doanh thu theo khu vực địa lý (phải dưới) — Biểu đồ hình tròn thể hiện tỷ lệ phần trăm doanh thu của FPT theo các khu vực: Việt Nam (48,9%), Châu Mỹ (11,6%), Châu Âu (5,6%), Nhật Bản (22,8%), Châu Á - Thái Bình Dương (11,1%).",
+          "visuals": [
+            {
+              "type": "map",
+              "title": "Bản đồ phạm vi hoạt động toàn cầu của FPT",
+              "location": "giữa trang",
+              "description": "Bản đồ thế giới với các điểm đánh dấu vị trí các quốc gia và vùng lãnh thổ nơi FPT hoạt động, bao gồm Bắc Mỹ, châu Âu, châu Á và châu Úc."
+            },
+            {
+              "type": "chart",
+              "title": "Biểu đồ doanh thu theo khu vực địa lý",
+              "location": "phải dưới",
+              "description": "Biểu đồ hình tròn thể hiện tỷ lệ phần trăm doanh thu của FPT theo các khu vực: Việt Nam (48,9%), Châu Mỹ (11,6%), Châu Âu (5,6%), Nhật Bản (22,8%), Châu Á - Thái Bình Dương (11,1%)."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p062",
+          "page": 62,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài tiếp tục giữ vai trò trụ \ncột trong chiến lược tăng trưởng của Tập đoàn với doanh thu đạt 35.382 tỷ đồng, \ntăng 14,3%; lợi nhuận trước thuế đạt 5.467 tỷ đồng, tăng 14,6%. Kết quả này đạt \nđược trong bối cảnh ngành dịch vụ CNTT toàn cầu tiếp tục đối mặt với nhiều \nthách thức, bao gồm bất ổn địa chính trị kéo dài, chính sách tiền tệ thắt chặt tại \ncác nền kinh tế lớn, xu hướng doanh nghiệp kiểm soát chặt chẽ ngân sách CNTT \nvà kéo dài chu kỳ ra quyết định đầu tư.\nChất lượng tăng trưởng của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài của \nFPT được cải thiện rõ nét, thể hiện qua cơ cấu hợp đồng dài hạn, giá trị lớn và phạm vi\ndịch vụ ngày càng toàn diện. Việc duy trì đà tăng trưởng ổn định trong điều kiện thị \ntrường khó khăn cho thấy năng lực thích ứng, sức cạnh tranh và vị thế ngày càng \nvững chắc của FPT trong chuỗi giá trị CNTT toàn cầu.\nViệc liên tiếp ký kết các hợp đồng quy mô từ hàng chục đến hàng trăm triệu USD \ntại các thị trường trọng điểm, giúp FPT từng bước hình thành danh mục doanh thu \nổn định, có khả năng dự báo cao trong trung và dài hạn. Đồng thời, mô hình hợp tác \ndịch chuyển từ cung ứng dịch vụ theo thời gian và nguồn lực (Time & Materials) \nsang mô hình dịch vụ quản trị trọn gói (Managed Services) và các hợp đồng giải pháp\ntrọn gói đã góp phần nâng cao biên lợi nhuận, giảm thiểu rủi ro chu kỳ và gia tăng \ngiá trị mang lại cho khách hàng.\nDoanh thu ký mới lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài đạt 40.636 tỷ đồng,\ntăng 23,2% so với cùng kỳ, đồng thời thắng thầu 26 dự án lớn với quy mô trên \n10 triệu USD, tăng gấp đôi so với cùng kỳ năm trước.\nCủng cố hiện diện và vị thế tại các thị trường chiến lược\nFPT tiếp tục mở rộng quy mô hoạt động và nâng cao vị thế trong chuỗi giá trị CNTT \ntại các thị trường chiến lược. Tại Nhật Bản, thị trường trọng điểm của Tập đoàn và \ncũng là thị trường có yêu cầu cao về chất lượng dịch vụ, FPT ghi nhận bước tiến \nquan trọng khi ký kết hợp đồng trị giá trên 100 triệu USD đầu tiên. Cột mốc này \nphản ánh sự chuyển dịch rõ nét trong mô hình hợp tác, từ các hợp đồng ngắn hạn, \nquy mô nhỏ sang các quan hệ đối tác chiến lược dài hạn, gắn với phát triển sản phẩm \nvà công nghệ lõi của khách hàng.\nTrên nền tảng đó, FPT tiếp tục mở rộng các mô hình liên doanh và hợp tác chiến \nlược tại thị trường này, tập trung vào các lĩnh vực có nhu cầu dài hạn như: hiện đại\nhóa hệ thống CNTT, sản xuất thông minh và công nghệ ô tô, qua đó gia tăng mức\nđộ gắn kết với khách hàng và nâng cao rào cản cạnh tranh.\nTại khu vực châu Á-Thái Bình Dương, FPT gia tăng hiện diện trong các ngành \ncông nghiệp trọng điểm, đặc biệt là năng lượng và sản xuất. Hợp đồng chuyển đổi \nsố toàn diện và ứng dụng AI trị giá 256 triệu USD ký với một tập đoàn năng lượng \nhàng đầu châu Á không chỉ là hợp đồng lớn nhất trong lịch sử Tập đoàn, mà còn \nkhẳng định năng lực đảm nhận các dự án phức tạp, quy mô rất lớn và mang tính \nchiến lược. Hợp đồng này góp phần củng cố vai trò của khu vực Đông Nam Á và \nAPAC trong chiến lược tăng trưởng dài hạn của FPT, đồng thời mở ra cơ hội mở \nrộng sang các lĩnh vực liên quan trong chuỗi giá trị năng lượng và công nghiệp.\nTại châu Âu và Bắc Mỹ, FPT t",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài theo khu vực năm 2025",
+              "location": "phải",
+              "description": "Biểu đồ hình tròn thể hiện doanh thu theo tỷ lệ phần trăm và giá trị tuyệt đối (tỷ VNĐ) của các khu vực: Nhật Bản (43,7%), Châu Á-Thái Bình Dương (23,1%), Mỹ (23,1%), Châu Âu (10,2%) với tổng doanh thu 35.382 tỷ VNĐ, kèm theo tỷ lệ tăng trưởng phần trăm so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p030",
+          "page": 30,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2022 \nThành lập công ty FPT Semiconductor\nvà ra mắt chip bán dẫn đầu tiên của \nViệt Nam.\nĐồng hành cùng Bộ Công an nghiên \ncứu, triển khai Đề án 06 Phát triển ứng \ndụng dữ liệu về dân cư, định danh và \nxác thực điện tử phục vụ chuyển đổi số \nquốc gia giai đoạn 2022-2025, tầm nhìn\nđến năm 2030; tiên phong phát triển \ngiải pháp chống giả mạo căn cước \ncông dân gắn chip.\nĐược cấp bằng sáng chế tại Mỹ về \nMạng nơ-ron tích chập đẳng biến với \ncác phép biến đổi nhóm để xử lý đám \nmây điểm 3D.\nCán mốc 01 tỷ USD doanh thu dịch vụ\nCNTT từ thị trường nước ngoài, gia nhập \nnhóm doanh nghiệp CNTT tỷ USD.\nPhát triển 31 mô hình góp phần đưa \nĐề án Phát triển ứng dụng dữ liệu về \ndân cư, định danh và xác thực điện tử \nphục vụ chuyển đổi số quốc gia giai \nđoạn 2022-2025, tầm nhìn 2030 đi vào \nthực tiễn tại các lĩnh vực và tỉnh thành.\nVận hành Hệ thống thông tin giải quyết \nthủ tục hành chính cung cấp dịch vụ \ncông trực tuyến mức độ cao cho \nTp.Hà Nội với hơn 2,8 triệu hồ sơ được \ngiải quyết.\nThành lập FPT Automotive – Công ty \nchuyên về dịch vụ và sản phẩm phần\nmềm cho ngành công nghiệp ô tô.\nĐược cấp 02 bằng sáng chế liên quan \nđến công nghệ AI tại Nhật Bản và Mỹ.\nCông bố chiến lược tập trung vào 05 \nlĩnh vực cốt lõi gồm: AI, Bán dẫn, \nCông nghệ ô tô số, Chuyển đổi số và \nChuyển đổi xanh.\nHợp tác toàn diện với NVIDIA xây \ndựng 02 nhà máy AI tại Việt Nam, \nNhật Bản và trở thành đối tác phát \ntriển dịch vụ của NVIDIA.\nThực hiện thương vụ M&A đầu tiên tại \nNhật Bản thông qua việc mua Next \nAdvanced Communications NAC Co., \nLtd. (NAC).\nThành lập Ban Chỉ đạo Công nghệ chiến \nlược gồm 05 đơn vị: Viện Quantum AI và\nCybersecurity, FPT UAV, Công nghệ\nĐường sắt FPT, FPT Cybersecurity \nvà DC5.\nKhánh thành Trung tâm Dữ liệu FPT \nFornix HCM02 quy mô lớn nhất \nViệt Nam với 3.600 tủ rack.\nKhai trương Trung tâm R&D 3.000 m2\nvề công nghệ cao và chip bán dẫn tại \nCông viên phần mềm số 2 Tp. Đà Nẵng.\nKý hợp đồng chuyển đổi số toàn diện \nứng dụng AI quy mô 256 triệu USD với \ntập đoàn năng lượng hàng đầu châu Á.\nTop 40 Công ty Dịch vụ CNTT châu Á.\nHÀNH TRÌNH KHẲNG ĐỊNH NĂNG LỰC VÀ VỊ THẾ (Tiếp theo)\n2023 2024 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nHành trình khẳng định năng lực và vị thế của FPT qua các năm 2022 đến 2025 với các mốc phát triển công nghệ, thành lập công ty con, hợp tác chiến lược và mở rộng quy mô.\ndiagram: Hành trình khẳng định năng lực và vị thế (trên) — Các mốc thời gian 2022, 2023, 2024, 2025 với các sự kiện và thành tựu tương ứng của FPT trong từng năm.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Hành trình khẳng định năng lực và vị thế",
+              "location": "trên",
+              "description": "Các mốc thời gian 2022, 2023, 2024, 2025 với các sự kiện và thành tựu tương ứng của FPT trong từng năm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p068",
+          "page": 68,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Khẳng định vị thế dẫn đầu về AI – Bán dẫn, tạo động lực tăng trưởng dài hạn\nNhờ định hướng đúng đắn và những nỗ lực không ngừng của đội ngũ nghiên cứu và \nphát triển, FPT ghi nhận tăng trưởng vượt bậc trong các mảng công nghệ chiến lược, \nđặc biệt là AI và Cloud, qua đó đóng góp tích cực vào kết quả kinh doanh chung của \nTập đoàn. Doanh thu ký mới từ các giải pháp AI và Cloud đạt hơn 1.540 tỷ đồng, \ndoanh thu thực nhận đạt 913 tỷ đồng, tăng trưởng 48,4% so với năm 2024, phản ánh \nrõ nét nhu cầu ngày càng gia tăng của doanh nghiệp đối với các nền tảng công nghệ \ntiên tiến cũng như năng lực triển khai và thương mại hóa hiệu quả của FPT. \nTăng trưởng doanh thu đi kèm với biên lợi nhuận cải thiện, góp phần nâng cao chất \nlượng tăng trưởng và củng cố vai trò của AI, Cloud như các động lực dài hạn cho lợi \nnhuận của FPT trong giai đoạn tới.\nĐến nay, FPT đã sở hữu hơn 10 mô hình ngôn ngữ lớn và trên 70 mô hình AI \nđược tinh chỉnh theo đặc thù khách hàng, trong đó việc phát triển thành công \nLLM tiếng Nhật đã mở rộng năng lực phục vụ đa ngôn ngữ, tạo nền tảng cho \nviệc mở rộng thị trường quốc tế. Trên cơ sở đó, FPT tiếp tục đưa ra thị trường \nnhiều sản phẩm AI chiến lược như: FPT AI Voice Agents, AI Adjust và AI Camera Agent\n(Video Compliance). Các giải pháp AI của FPT đã hỗ trợ hơn 15 triệu phút gọi \nqua tổng đài, đảm nhiệm khối lượng công việc tương đương 3.500 nhân sự, trong \nkhi các AI Agents tiếp tục mở rộng khả năng tự động hóa nhiều nghiệp vụ chuyên \nsâu, từ chăm sóc khách hàng, tư vấn đến đào tạo. Hiện nay, các AI Agents của \nFPT đang phục vụ hơn 200 khách hàng doanh nghiệp và đảm nhiệm khối lượng \ncông việc tương đương 8.000 nhân sự, giúp khách hàng tối ưu chi phí vận hành \nvà nâng cao hiệu quả hoạt động.\nSong song với phát triển sản phẩm, FPT đưa vào vận hành hai Nhà máy AI tại \nNhật Bản và Việt Nam, lần lượt xếp hạng 36 và 38 trong Top 500 siêu máy tính \nhiệu năng cao toàn cầu. Chỉ sau 6 tháng vận hành, AI Factory đã tạo ra hơn 111 \ntỷ tokens, tích hợp trên 25 mô hình LLM và được tin tưởng sử dụng bởi hơn \n25.000 chuyên gia AI trên toàn cầu, qua đó khẳng định năng lực làm chủ hạ tầng \nAI quy mô lớn và từng bước nâng tầm công nghệ Việt trên bản đồ AI thế giới.\nTrong lĩnh vực bán dẫn, năm 2025 đánh dấu bước ngoặt quan trọng khi FPT bàn giao\nlô chip nguồn đầu tiên cho Restar, trở thành doanh nghiệp Việt Nam đầu tiên đưa\nchip thương mại vào thị trường Nhật Bản. Song song với hoạt động thương mại hóa,\nFPT tiếp tục đẩy mạnh hợp tác quốc tế, đầu tư trung tâm R&D và ươm tạo bán dẫn,\ntừng bước hình thành hệ sinh thái “FPT chip inside”, hướng tới mục tiêu xuất khẩu \n10 triệu chip sang thị trường châu Á-Thái Bình Dương trong ba năm tới, tạo động lực\ntăng trưởng mới trong trung và dài hạn.\nSong hành cùng Chính phủ và quốc gia dẫn dắt chuyển đổi số và xây dựng \nhạ tầng dữ liệu số\nVới tinh thần “Vì quốc gia số, FPT sẵn sàng”, năm 2025 FPT tiếp tục khẳng định vai trò \nđối tác chiến lược, đơn vị chủ lực trong nhiều chương trình chuyển đổi số cấp quốc gia, \nthực hiện đúng tinh thần chỉ đạo tại Nghị quyết 214/NQ-CP của Chính phủ.\nThông qua việc huy động đội ngũ chuyên gia cấp cao, FPT trực tiếp đồng hành cùng \nnhiều bộ, ngành và địa phương trong quá trình x",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p218",
+          "page": 218,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "A. Công ty con khác\nPhụ lục 1 - Danh sách công ty con và công ty liên doanh, liên kết khác mà công ty sở hữu gián tiếp\ntại ngày 31 tháng 12 năm 2025\nMẫu số B 09 – DN/HN\nCông ty Hoạt động chính Nơi thành lập,\nđăng ký hoạt động\nTại ngày 31/12/2025 Tại ngày 31/12/2024\nTỷ lệ sở hữu Tỷ lệ biểu quyết Tỷ lệ sở hữu Tỷ lệ biểu quyết\nSTT\nCông ty TNHH FPT Nhật Bản \nCông ty TNHH FPT Nearshore Nhật Bản\nCông ty TNHH Phần mềm FPT Thượng Hải \nCông ty TNHH FPT Techno Nhật Bản \nCông ty TNHH Phần mềm FPT Indonesia \nCông ty TNHH Phần mềm FPT Nhật Bản \nCông ty TNHH FPT Taiwan \nCông ty TNHH Tư vấn FPT Nhật Bản \nCông ty TNHH Phần mềm FPT Korea\nCông ty TNHH FPT OKI Thường Châu\nCông ty TNHH FPT OKI Đại Liên\nCông ty TNHH FPT USA\nCông ty TNHH FPT Canada \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nTư vấn công nghệ \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm \nSản xuất phần mềm\nSản xuất phần mềm\nNhật Bản\nNhật Bản\nTrung Quốc\nNhật Bản\nNhật Bản\nNhật Bản\nĐài Loan\nNhật Bản\nHàn Quốc\nTrung Quốc\nTrung Quốc\nHoa Kỳ\nCanada\n100%\n100%\n100%\n100%\n99,79%\n100%\n100%\n80%\n100%\n65%\n65%\n100%\n100%\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n100%\n100%\n100%\n100%\n99,79%\n100%\n100%\n80%\n100%\n65%\n65%\n100%\n100%\n100%\n100%\n100%\n100%\n99,79%\n100%\n100%\n80%\n100%\n0%\n0%\n100%\n100%\n100%\n100%\n100%\n100%\n99,79%\n100%\n100%\n80%\n100%\n0%\n0%\n100%\n100%\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nDanh sách các công ty con khác thuộc FPT tính đến ngày 31/12/2025, bao gồm thông tin về hoạt động chính, nơi thành lập và tỷ lệ sở hữu, tỷ lệ biểu quyết tại các thời điểm 31/12/2025 và 31/12/2024.\ntable: Danh sách công ty con khác (giữa) — Các cột gồm STT, tên công ty, hoạt động chính, nơi thành lập, tỷ lệ sở hữu và tỷ lệ biểu quyết tại ngày 31/12/2025 và 31/12/2024.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Danh sách công ty con khác",
+              "location": "giữa",
+              "description": "Các cột gồm STT, tên công ty, hoạt động chính, nơi thành lập, tỷ lệ sở hữu và tỷ lệ biểu quyết tại ngày 31/12/2025 và 31/12/2024."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p070",
+          "page": 70,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lĩnh vực Dịch vụ Viễn thông ghi nhận doanh thu đạt 18.702 tỷ đồng và lợi nhuận trước \nthuế đạt 4.167 tỷ đồng, tăng trưởng tương ứng 10,6% và 21,9% so với năm trước.\nKết quả này phản ánh hiệu quả của chiến lược mở rộng quy mô song song với tối ưu \nhóa vận hành, giúp biên lợi nhuận cải thiện rõ rệt. \nĐộng lực tăng trưởng chủ yếu đến từ mảng Dịch vụ Broadband, khi doanh nghiệp \ntiếp tục gia tăng thị phần trên cả thị trường đô thị và khu vực tỉnh thành, đồng thời \nnâng cao chất lượng hạ tầng và trải nghiệm khách hàng.\nBứt phá với Dịch vụ Broadband\nMảng Dịch vụ Broadband của FPT tiếp tục duy trì đà tăng trưởng tích cực, ghi nhận\ndoanh thu 10.007 tỷ đồng (tăng trưởng 13,7% so với năm trước), được dẫn dắt bởi \nchiến lược đầu tư hạ tầng và tiên phong công nghệ. FPT là doanh nghiệp đầu tiên \ntại Việt Nam triển khai Internet thế hệ mới XGS-PON kết hợp Wi-Fi 7, cung cấp \ntốc độ đối xứng lên tới 10 Gbps, giảm độ trễ 50%, mở rộng vùng phủ thêm 20% \nvà hỗ trợ gần 100 thiết bị kết nối đồng thời. Việc sớm thương mại hóa các công \nnghệ truy cập tiên tiến không chỉ nâng cao trải nghiệm người dùng, mà còn giúp \nFPT cải thiện khả năng giữ chân khách hàng, thúc đẩy nâng cấp gói dịch vụ và tối \nưu hóa giá trị doanh thu trên mỗi thuê bao, qua đó củng cố vững chắc vị thế trên \nthị trường băng thông rộng toàn quốc.\nDẫn đầu công nghệ truyền hình và nội dung số\nỞ mảng truyền hình và nội dung số, FPT tiếp tục gia tăng lợi thế cạnh tranh thông \nqua chiến lược đầu tư dài hạn vào nội dung bản quyền chất lượng cao. Việc FPT Play \nsở hữu bản quyền Giải Ngoại hạng Anh tại Việt Nam từ giữa mùa giải 2025-2026 \nđến hết mùa 2030-2031 đánh dấu bước ngoặt quan trọng, đưa FPT Play trở thành \nTop of Mind (Thương hiệu hàng đầu trong tâm trí khách hàng) trong lĩnh vực giải \ntrí và thể thao, đặc biệt là nội dung bóng đá. Các nội dung độc quyền có sức hút \nlớn tiếp tục đóng vai trò là động lực thúc đẩy tăng trưởng người dùng, gia tăng \nthời gian sử dụng dịch vụ và tạo hiệu ứng cộng hưởng tích cực cho hệ sinh thái \nviễn thông – giải trí của FPT.\nTrung tâm dữ liệu – Nền tảng cho tăng trưởng dài hạn\nFPT tiếp tục đẩy mạnh đầu tư hạ tầng dữ liệu nhằm đón đầu nhu cầu gia tăng \nnhanh chóng từ AI, Cloud và Chuyển đổi số. Trong năm 2025, FPT chính thức \nđưa vào vận hành Trung tâm Dữ liệu FPT Fornix HCM02 tại Khu Công nghệ cao\nTp. Hồ Chí Minh với diện tích gần 10.000 m² và sức chứa lên tới 3.600 racks, được \nthiết kế theo tiêu chuẩn quốc tế và kiến trúc dự phòng cao. Trung tâm dữ liệu này \nđóng vai trò hạ tầng trọng yếu cho các nền tảng công nghệ chiến lược của FPT, \nFPT chính thức đưa vào vận hành Trung tâm Dữ liệu FPT Fornix HCM02 tại \nKhu Công nghệ cao Tp. Hồ Chí Minh với diện tích gần 10.000 m².\ntạo điều kiện để doanh nghiệp mở rộng hệ sinh thái AI và Cloud, gia tăng tỷ trọng \ndoanh thu dịch vụ hạ tầng số có tính lặp lại, qua đó củng cố nền tảng tăng trưởng \ndoanh thu và lợi nhuận ổn định trong trung và dài hạn, đồng thời phù hợp với định \nhướng phát triển Việt Nam thành Digital Hub của khu vực.\nChuyển giao quyền đại diện vốn Nhà nước – Dấu mốc chiến lược cho giai đoạn \nphát triển mới\nViệc chuyển giao quyền đại diện chủ sở hữu phần vốn Nhà nước tại FPT Telecom \ntừ Tổng công ty Đầu tư và Kinh d",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ khai trương Trung tâm Dữ liệu FPT Fornix HCM02",
+              "location": "dưới bên phải",
+              "description": "Ảnh sự kiện khai trương Trung tâm Dữ liệu FPT Fornix HCM02 tại Khu Công nghệ cao Tp. Hồ Chí Minh với diện tích gần 10.000 m²."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p053",
+          "page": 53,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Chuyển đổi số khối Chính phủ và địa phương: \nThị trường trọng điểm\nLà doanh nghiệp dịch vụ công nghệ có mặt tại hơn 30 quốc gia, đồng thời là đối \ntác chiến lược và đối tác cao cấp của nhiều tập đoàn công nghệ hàng đầu thế giới \nvà khu vực, FPT sở hữu lợi thế kết nối hệ sinh thái công nghệ toàn cầu cùng đội ngũ \nnhân sự chuyên môn cao. Năng lực này cho phép FPT huy động hiệu quả nguồn lực, \ncông nghệ và kinh nghiệm quốc tế để phục vụ trực tiếp cho quá trình chuyển đổi số \nkhu vực công và phát triển đô thị thông minh tại Việt Nam, qua đó góp phần hiện thực \nhóa các mục tiêu xây dựng Chính phủ số, kinh tế số và nâng cao năng lực tự chủ \ncông nghệ quốc gia.\nChuyển đổi số khu vực công được xem là động lực tăng trưởng chiến lược cho FPT \ntrong giai đoạn 03-05 năm tới. \nChính phủ Việt Nam đã phê duyệt Chương trình Chuyển đổi số quốc gia giai đoạn \n2025-2030, đặt mục tiêu 100% dịch vụ công được cung cấp trực tuyến mức độ 04 \nvào năm 2030. Chính phủ chủ trương dành 2% ngân sách nhà nước hàng năm cho \nlĩnh vực công nghệ, công nghệ thông tin và đổi mới sáng tạo. \nNăm 2025, FPT đã đồng hành với nhiều bộ, ngành và địa phương hoàn thành các \nchiến lược dữ liệu, chiến lược chuyển đổi số, kiến trúc chính phủ số cho giai đoạn \n2026-2030.\nFPT tiếp tục đồng hành cùng Chính phủ, bộ, ngành và địa phương:\n• Xây dựng và đưa vào vận hành các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên \nngành, đảm bảo “Đúng – Đủ – Sạch – Sống” làm cơ sở cho dịch vụ số tiện dụng, \nhữu ích trong dịch vụ công đối với người dân;\n• Tích hợp AI và xử lý dữ liệu lớn để tự động hóa thủ tục hành chính, giảm thời gian \nxử lý và cải thiện trải nghiệm công dân;\n• Phát triển nền tảng số, sáng kiến số tích hợp công nghệ AI khai thác các cơ sở dữ \nliệu hiệu quả nâng cao năng lực quản lý nhà nước;\n• Đẩy mạnh ứng dụng IoT, AI và Big Data tại các đô thị lớn, tối ưu hóa giao thông, \nnăng lượng và an ninh hướng đến mô hình thành phố thông minh;\n• Đồng hành phát triển và vận hành các sáng kiến đổi mới sáng tạo trên nền tảng \ncông nghệ số, ứng dụng AI giúp phát triển kinh tế và nâng cao chất lượng cuộc \nsống cho người dân;\n• Đồng hành phát triển nguồn nhân lực mới, đào tạo bổ sung các kỹ năng đáp ứng \nviệc triển khai các nghị quyết đột phá về khoa học công nghệ, đổi mới sáng tạo \nvà công nghệ chiến lược tại địa phương. Thông qua trợ lý AI tại Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án \ndân sự (IOC THADS), lãnh đạo có thể theo dõi tiến độ xử lý ngay trên một màn hình điều \nhành tập trung.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược chuyển đổi số khối Chính phủ và địa phương của FPT, tập trung vào các thị trường trọng điểm và các hoạt động đồng hành cùng Chính phủ, bộ, ngành và địa phương trong giai đoạn 2026-2030.\nphoto: Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS) (phải) — Ảnh một người đang làm việc với hai màn hình máy tính hiển thị bản đồ và biểu đồ liên quan đến dữ liệu giám sát, thể hiện việc theo dõi tiến độ xử lý trên màn hình điều hành tập trung.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS)",
+              "location": "phải",
+              "description": "Ảnh một người đang làm việc với hai màn hình máy tính hiển thị bản đồ và biểu đồ liên quan đến dữ liệu giám sát, thể hiện việc theo dõi tiến độ xử lý trên màn hình điều hành tập trung."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.\ndiagram: Biểu tượng tài chính và biểu đồ (phải) — Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Biểu tượng tài chính và biểu đồ",
+              "location": "phải",
+              "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p027",
+          "path": ".bonus/pages/p027.jpg",
+          "sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+        },
+        {
+          "id": "FPT2025:p062",
+          "path": ".bonus/pages/p062.jpg",
+          "sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+        },
+        {
+          "id": "FPT2025:p030",
+          "path": ".bonus/pages/p030.jpg",
+          "sha256": "36acfc5f879bb16ee24b7da31e2bb9c110fc77f9be2d25af7f5d612b82fe3ce3"
+        },
+        {
+          "id": "FPT2025:p068",
+          "path": ".bonus/pages/p068.jpg",
+          "sha256": "0cf2ca80fe5c992a994cf2f8b4bdb644c89a15d0a0ed3a3f918caf024f1d003d"
+        },
+        {
+          "id": "FPT2025:p218",
+          "path": ".bonus/pages/p218.jpg",
+          "sha256": "cab73c3b5dd33fe6f9149326cb1812448de405d969f9e1589588d509055abed5"
+        },
+        {
+          "id": "FPT2025:p070",
+          "path": ".bonus/pages/p070.jpg",
+          "sha256": "a22f74a11737666b37662f252b3173b6d4a561e3b7e877006a2ae5fe50a21684"
+        },
+        {
+          "id": "FPT2025:p053",
+          "path": ".bonus/pages/p053.jpg",
+          "sha256": "781e078d581f673b1ab234e2f0a2ab2bf027c371b9584104866e78fe4bc8e76c"
+        },
+        {
+          "id": "FPT2025:p159",
+          "path": ".bonus/pages/p159.jpg",
+          "sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805274-RYefsQe9Ax9I8WQeFb6q",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_015DsQNLXbbq187yt9nDauyG",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Có, nhưng chỉ gắn nhãn Nhật Bản và Úc. Trên bản đồ hiện diện toàn cầu (trang 27), các nhãn \\\"Nhật Bản\\\" (gần Hàn Quốc, phía đông) và \\\"Úc\\\" (phía dưới bên trái bản đồ châu Á–Thái Bình Dương) đều có ghim vị trí. Ngoài ra, trang 27 có nhãn quốc gia \\\"Nhật Bản\\\" trong phần danh sách các quốc gia/vùng lãnh thổ được liệt kê.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p027\",\"region\":\"Bản đồ phạm vi hoạt động toàn cầu ở giữa trang: ghim và nhãn \\\"Nhật Bản\\\" (phía đông, cạnh Hàn Quốc) và ghim, nhãn \\\"Úc\\\" (phía dưới bên phải, châu Úc)\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p027",
+    "FPT2025:p062",
+    "FPT2025:p030",
+    "FPT2025:p068",
+    "FPT2025:p218",
+    "FPT2025:p070",
+    "FPT2025:p053",
+    "FPT2025:p159"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p027",
+      "page": 27,
+      "image": ".bonus/pages/p027.jpg",
+      "image_sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+    },
+    {
+      "id": "FPT2025:p062",
+      "page": 62,
+      "image": ".bonus/pages/p062.jpg",
+      "image_sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+    },
+    {
+      "id": "FPT2025:p030",
+      "page": 30,
+      "image": ".bonus/pages/p030.jpg",
+      "image_sha256": "36acfc5f879bb16ee24b7da31e2bb9c110fc77f9be2d25af7f5d612b82fe3ce3"
+    },
+    {
+      "id": "FPT2025:p068",
+      "page": 68,
+      "image": ".bonus/pages/p068.jpg",
+      "image_sha256": "0cf2ca80fe5c992a994cf2f8b4bdb644c89a15d0a0ed3a3f918caf024f1d003d"
+    },
+    {
+      "id": "FPT2025:p218",
+      "page": 218,
+      "image": ".bonus/pages/p218.jpg",
+      "image_sha256": "cab73c3b5dd33fe6f9149326cb1812448de405d969f9e1589588d509055abed5"
+    },
+    {
+      "id": "FPT2025:p070",
+      "page": 70,
+      "image": ".bonus/pages/p070.jpg",
+      "image_sha256": "a22f74a11737666b37662f252b3173b6d4a561e3b7e877006a2ae5fe50a21684"
+    },
+    {
+      "id": "FPT2025:p053",
+      "page": 53,
+      "image": ".bonus/pages/p053.jpg",
+      "image_sha256": "781e078d581f673b1ab234e2f0a2ab2bf027c371b9584104866e78fe4bc8e76c"
+    },
+    {
+      "id": "FPT2025:p159",
+      "page": 159,
+      "image": ".bonus/pages/p159.jpg",
+      "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805265-799YM4ow523jk7DgUCEG",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1815,
+        "completion_tokens": 92,
+        "total_tokens": 1907,
+        "cost": 0.0002275,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002275,
+          "upstream_inference_prompt_cost": 0.0001815,
+          "upstream_inference_completions_cost": 4.6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4343.291299999692,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805274-RYefsQe9Ax9I8WQeFb6q",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 31205,
+        "completion_tokens": 398,
+        "total_tokens": 31603,
+        "cost": 0.0033195,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0033195,
+          "upstream_inference_prompt_cost": 0.0031205,
+          "upstream_inference_completions_cost": 0.000199
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 11315.177000011317,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 17278.301499958616,
+  "query_id": "ft-i5",
+  "question": "Trên bản đồ hiện diện toàn cầu của FPT, Nhật Bản và Úc có được gắn nhãn địa điểm hiện diện không?",
+  "split": "test",
+  "config": "vision"
+}

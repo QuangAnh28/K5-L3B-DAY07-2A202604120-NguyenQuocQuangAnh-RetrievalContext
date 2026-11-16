@@ -1,0 +1,591 @@
+{
+  "status": "answered",
+  "answer": "Báo cáo thường niên FPT 2025 không cung cấp thông tin cụ thể về giá thuê niêm yết theo giờ của từng loại GPU tại FPT AI Factory trong năm 2025.\n[FPT2025:p050 — trang 50, đoạn văn về hệ sinh thái AI và hạ tầng tính toán AI Factory] [FPT2025:p005 — trang 5, đoạn văn về chiến lược phát triển công nghệ AI và nhà máy AI tại Việt Nam và Nhật Bản]",
+  "citations": [
+    {
+      "id": "FPT2025:p050",
+      "region": "trang 50, đoạn văn về hệ sinh thái AI và hạ tầng tính toán AI Factory"
+    },
+    {
+      "id": "FPT2025:p005",
+      "region": "trang 5, đoạn văn về chiến lược phát triển công nghệ AI và nhà máy AI tại Việt Nam và Nhật Bản"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801839-k3fDDSu277NC4ldSWqQc",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_gmio70O0QeRylMqXo7UzKD7X",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"giá thuê niêm yết theo giờ GPU FPT AI Factory 2025\",\"bảng giá thuê GPU FPT AI Factory 2025\",\"FPT AI Factory giá thuê GPU 2025\",\"giá thuê GPU theo giờ FPT AI Factory 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Giá thuê niêm yết theo giờ của từng loại GPU tại FPT AI Factory trong năm 2025 là bao nhiêu?",
+      "model_queries": [
+        "giá thuê niêm yết theo giờ GPU FPT AI Factory 2025",
+        "bảng giá thuê GPU FPT AI Factory 2025",
+        "FPT AI Factory giá thuê GPU 2025",
+        "giá thuê GPU theo giờ FPT AI Factory 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p202",
+          "page": 202,
+          "score": 0.029437229437229435,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p197",
+          "page": 197,
+          "score": 0.02803379416282642,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 24
+          }
+        },
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "score": 0.027212143650499815,
+          "component_ranks": {
+            "dense": 13,
+            "tfidf": 14
+          }
+        },
+        {
+          "id": "FPT2025:p216",
+          "page": 216,
+          "score": 0.026992753623188405,
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 9
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Giá thuê niêm yết theo giờ của từng loại GPU tại FPT AI Factory trong năm 2025 là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p202",
+        "FPT2025:p197",
+        "FPT2025:p050",
+        "FPT2025:p216"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p202",
+          "page": 202,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "(a) Ngắn hạn \nVay ngắn hạn\nVay ngân hàng (i)\nVay bên liên quan\n(Thuyết minh 35(a))\nVay và nợ thuê tài chính dài hạn đến hạn trả\nVay ngân hàng (ii)\nNợ thuê tài chính\n(b) Dài hạn \nVay ngân hàng (ii)\nNợ thuê tài chính \n14.317.135.323.689\n-\n128.186.966.341\n916.161.293\n14.446.238.451.323\n499.673.187.459\n1.442.349.616\n501.115.537.075\n14.317.135.323.689\n-\n128.186.966.341\n916.161.293\n14.446.238.451.323\n499.673.187.459\n1.442.349.616\n501.115.537.075\n40.158.119.595.353\n408.107.000.000\n1.024.575.254.125\n558.593.069\n41.591.360.442.547\n2.504.586.289.721\n-\n2.504.586.289.721\n(36.734.356.051.018)\n-\n(156.628.776.583)\n(986.795.056)\n(36.891.971.622.657)\n(1.024.575.254.125)\n(558.593.069)\n(1.025.133.847.194)\n26.894.931.848\n-\n(2.870.893.178)\n46.188.072\n24.070.226.742\n(76.852.563.017)\n74.571.599\n(76.777.991.418)\n17.767.793.799.872 \n408.107.000.000\n993.262.550.705\n534.147.378\n19.169.697.497.955\n1.902.831.660.038\n958.328.146\n1.903.789.988.184\n17.767.793.799.872\n408.107.000.000\n993.262.550.705\n534.147.378\n19.169.697.497.955\n1.902.831.660.038\n958.328.146\n1.903.789.988.184\nGiá trị Số có khả năng \ntrả nợ\nTại ngày 1/1/2025 Phát sinh trong năm Tại ngày 31/12/2025\nTăng Giảm Chênh lệch\ntỷ giá hối đoái\nGiá trị Số có khả\nnăng trả nợ\n22. Vay và nợ thuê tài chính\nĐơn vị: VNĐ\n(i) Bao gồm các khoản vay ngắn hạn ngân hàng không tài sản đảm bảo nhằm bổ sung vốn lưu động cho Tập đoàn. Lãi suất các khoản vay được quy định cụ thể cho từng \nlần rút vốn trong khoảng từ 0,5 %/năm đến 6,9%/năm theo từng loại nguyên tệ của khoản vay (năm 2024: 1,04%/năm đến 6,6%/năm).\n(ii) Bao gồm các khoản vay dài hạn ngân hàng không tài sản đảm bảo nhằm tài trợ mua sắm, xây dựng TSCĐ cho Tập đoàn. Lãi suất các khoản vay được quy định cụ thể \ncho từng lần rút vốn trong khoảng từ 0,5%/năm đến 6,9%/năm theo từng loại nguyên tệ của khoản vay (năm 2024: 0,28%/năm đến 6,9%/năm).\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng chi tiết vay và nợ thuê tài chính của FPT tính đến ngày 31/12/2025, phân loại theo ngắn hạn và dài hạn, thể hiện giá trị, số có khả năng trả nợ, các phát sinh tăng, giảm và chênh lệch tỷ giá hối đoái trong năm.\ntable: Bảng vay và nợ thuê tài chính (giữa trang) — Bảng gồm các cột: Giá trị, Số có khả năng trả nợ tại ngày 1/1/2025; Tăng, Giảm, Chênh lệch tỷ giá hối đoái trong năm; Giá trị, Số có khả năng trả nợ tại ngày 31/12/2025. Các dòng phân loại vay ngắn hạn (vay ngân hàng, vay bên liên quan), vay và nợ thuê tài chính dài hạn đến hạn trả (vay ngân hàng, nợ thuê tài chính), và vay dài hạn (vay ngân hàng, nợ thuê tài chính). Đơn vị tính: VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng vay và nợ thuê tài chính",
+              "location": "giữa trang",
+              "description": "Bảng gồm các cột: Giá trị, Số có khả năng trả nợ tại ngày 1/1/2025; Tăng, Giảm, Chênh lệch tỷ giá hối đoái trong năm; Giá trị, Số có khả năng trả nợ tại ngày 31/12/2025. Các dòng phân loại vay ngắn hạn (vay ngân hàng, vay bên liên quan), vay và nợ thuê tài chính dài hạn đến hạn trả (vay ngân hàng, nợ thuê tài chính), và vay dài hạn (vay ngân hàng, nợ thuê tài chính). Đơn vị tính: VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p197",
+          "page": 197,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Nguyên giá\nTại ngày 1 tháng 1 năm 2025\nTăng do mua sắm\nTăng do XDCB hoàn thành\nThanh lý, xóa sổ\nTăng/(giảm) khác\nTại ngày 31 tháng 12 năm 2025\nGiá trị khấu hao lũy kế\nTại ngày 1 tháng 1 năm 2025\nKhấu hao trong năm\nThanh lý, xóa sổ\nKhác\nTại ngày 31 tháng 12 năm 2025\nGiá trị còn lại\nTại ngày 1 tháng 1 năm 2025\nTại ngày 31 tháng 12 năm 2025\n8.265.939.787.012 119.067.059.843 1.224.183.255.879 (3.937.344.462) 3.690.681.274 9.608.943.439.546 \n(1.567.093.008.084) (387.496.756.736) 2.838.465.617 (2.116.254.818) \n(1.953.867.554.021) \n6.698.846.778.928\n7.655.075.885.525 \n15.156.680.967.209 707.329.941.448 2.841.168.287.490 (288.250.587.887)\n(57.874.868.179)\n18.359.053.740.081\n(9.438.763.122.818) (1.842.296.879.481) 242.855.644.566 7.850.012.695\n (11.030.354.345.038) \n5.717.917.844.391 7.328.699.395.043\n118.603.134.649 25.025.113.921 - (12.683.987.343) 486.431.758 131.430.692.985 \n(74.827.360.524) (13.341.770.988) 6.596.525.683 (924.654.210) (82.497.260.039) \n43.775.774.125 48.933.432.946 \n797.137.596.070\n89.666.718.493 1.477.140.590 (24.689.790.896) 40.558.987.412 \n904.150.651.669\n(556.069.538.066) (84.126.291.020) 24.281.895.523 (26.685.478.077) (642.599.411.640) \n241.068.058.004 261.551.240.029\n119.372.181.571 5.053.984.206 856.231.509 (7.683.166.634) 864.617.069 \n118.463.847.721 \n(46.412.675.301) (9.117.709.848) 2.506.361.816 (531.293.872) \n (53.555.317.205) \n72.959.506.270\n64.908.530.516 \n24.457.733.666.511 946.142.817.911 4.067.684.915.468 (337.244.877.222) (12.274.150.666) 29.122.042.372.002 \n(11.683.165.704.793) (2.336.379.408.073) 279.078.893.205 (22.407.668.282) \n(13.762.873.887.943) \n12.774.567.961.718\n15.359.168.484.059 \nNhà cửa, \nvật kiến trúc\nMáy móc, \nthiết bị \nPhương tiện \nvận tải\nThiết bị \nquản lý\nKhác Tổng cộng\n14. Tài sản cố định\nĐơn vị: VNĐ\nNguyên giá TSCĐ hữu hình của Tập đoàn đã khấu hao hết nhưng còn sử dụng tại ngày 31 tháng 12 năm 2025 là 6.815.954.018.495 Đồng\n(tại ngày 31 tháng 12 năm 2024: 5.591.901.368.382 Đồng).\n(a) Tài sản cố định hữu hình\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng thuyết minh tài sản cố định hữu hình của FPT cho năm tài chính kết thúc ngày 31/12/2025, bao gồm nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại theo các loại tài sản.\ntable: Tài sản cố định hữu hình (giữa trang) — Bảng liệt kê nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại của các loại tài sản cố định hữu hình gồm Nhà cửa, vật kiến trúc; Máy móc, thiết bị; Phương tiện vận tải; Thiết bị quản lý; Khác; Tổng cộng, đơn vị tính bằng VNĐ, dữ liệu cho các mốc thời gian 1/1/2025 và 31/12/2025 cùng các biến động trong năm.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tài sản cố định hữu hình",
+              "location": "giữa trang",
+              "description": "Bảng liệt kê nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại của các loại tài sản cố định hữu hình gồm Nhà cửa, vật kiến trúc; Máy móc, thiết bị; Phương tiện vận tải; Thiết bị quản lý; Khác; Tổng cộng, đơn vị tính bằng VNĐ, dữ liệu cho các mốc thời gian 1/1/2025 và 31/12/2025 cùng các biến động trong năm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Trong kỷ nguyên mới, AI-First là điều kiện tiên quyết \nđể doanh nghiệp tồn tại và bứt phá. Dữ liệu từ \nMcKinsey cho thấy các công ty dẫn đầu trong tích hợp\nAI toàn diện ghi nhận doanh thu cao hơn 15% và \nhiệu quả vận hành cải thiện 20-25% so với đối thủ. \nĐối với FPT, xu hướng này đòi hỏi sự chuyển dịch từ \nmô hình cung cấp dịch vụ CNTT truyền thống sang \nnền tảng AI-native, trong đó, AI được tích hợp xuyên \nsuốt vào toàn bộ giải pháp và quy trình vận hành. \nThị trường AI tự chủ dự kiến tăng từ 5,1 tỷ USD năm \n2024 lên 47,1 tỷ USD năm 2030, cho thấy sự chuyển \ndịch mạnh mẽ sang các hệ thống tự động thực thi \nnhiệm vụ phức tạp với sự can thiệp tối thiểu của \ncon người. Theo đó, FPT chú trọng phát triển AI Agents\nchuyên biệt cho các ngành như: tài chính, sản xuất, \ny tế và logistics, giúp khách hàng tự động hóa quy trình,\nhỗ trợ ra quyết định và tối ưu hóa nguồn lực vận hành. \nSong song, với lợi thế sở hữu hệ thống đào tạo nội bộ \nquy mô lớn, đa trình độ, FPT nhanh chóng chuyển đổi, \nmở rộng lực lượng kỹ sư AI đáp ứng đồng thời các yêu cầu \nvề nghiên cứu, phát triển và điềuphối vận hành AI Agents \nở quy mô lớn. \nChiến lược hợp tác mô hình mã nguồn mở là chìa \nkhóa để cân bằng chi phí và kiểm soát. 76% doanh \nnghiệp chọn mô hình mã nguồn mở, kết hợp với các \ngiải pháp độc quyền để tối ưu hiệu năng và kiểm soát \ndữ liệu. Đối với FPT, điều này có nghĩa là xây dựng \nnền tảng AI tích hợp các mô hình mã nguồn mở \n(như: LLaMA, Mistral) với các giải pháp công nghệ \ncủa FPT, tạo ra lợi thế cạnh tranh bền vững trong \nviệc cung cấp giải pháp AI tùy chỉnh cho thị trường \nViệt Nam và khu vực. \nNăm 2025, FPT đã đầu tư mạnh mẽ phát triển hệ sinh thái AI và ứng dụng AI trong hoạt động kinh doanh, \nsản xuất và dịch vụ. Hệ sinh thái AI của FPT dần định hình với nền tảng hạ tầng tính toán hiệu năng cao AI Factory \ntại Việt Nam và Nhật Bản như: FPT.AI, FPT AI Agents, FleziPT….\nTrước đó, FPT cũng đã khởi công Trung tâm Trí tuệ nhân tạo và Đô thị phụ trợ với tổng vốn hơn 4.300 tỷ đồng. \nĐây không chỉ là một trung tâm công nghệ, mà được thiết kế như một không gian tích hợp giữa nghiên cứu – đào tạo\n– triển khai – đô thị phụ trợ, phản ánh tư duy coi AI là một ngành công nghiệp hoàn chỉnh, gắn với phát triển nhân \nlực, thu hút chuyên gia và hình thành cộng đồng đổi mới sáng tạo.\nAI-First\nCHIẾN LƯỢC PHÁT TRIỂN GIAI ĐOẠN 2026-2028 \n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược phát triển giai đoạn 2026-2028 của FPT tập trung vào AI-First, đầu tư phát triển hệ sinh thái AI và ứng dụng AI trong kinh doanh, sản xuất và dịch vụ.\nphoto: Lễ khởi công Trung tâm nghiên cứu trí tuệ nhân tạo (phải) — Ảnh chụp sự kiện khởi công Trung tâm nghiên cứu trí tuệ nhân tạo với sự tham gia của nhiều đại biểu, nền sân khấu có dòng chữ liên quan đến dự án.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ khởi công Trung tâm nghiên cứu trí tuệ nhân tạo",
+              "location": "phải",
+              "description": "Ảnh chụp sự kiện khởi công Trung tâm nghiên cứu trí tuệ nhân tạo với sự tham gia của nhiều đại biểu, nền sân khấu có dòng chữ liên quan đến dự án."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p216",
+          "page": 216,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "35. Thuyết minh về các bên liên quan (Tiếp theo) 36. Các cam kết\nMẫu số B 09 – DN/HN\n(b) Số dư cuối năm tài chính với các bên liên quan (a) Cam kết thuê hoạt động\n(b) Cam kết vốn\nĐơn vị: VNĐ\n31/12/2025\n39.275.051.776\n54.839.728.652\n375.577.271\n55.215.305.923\n188.899.996.714\n6.654.649.292\n195.554.646.006\n408.107.000.000\n39.275.051.776\n45.188.852.981\n1.285.502.494\n46.474.355.475\n323.041.857.148\n6.228.628.104\n329.270.485.252\n-\n31/12/2024\nCác khoản ủy thác đầu tư \nCông ty Cổ phần Quản lý Quỹ đầu tư FPT\nPhải thu ngắn hạn của khách hàng (Thuyết minh 6)\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nCông ty Cổ phần Synnex FPT\nPhải trả người bán ngắn hạn (Thuyết minh 17)\nCông ty Cổ phần Synnex FPT\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nVay ngắn hạn (Thuyết minh 22)\nCông ty Cổ phần Synnex FPT\nĐơn vị: VNĐ\n31/12/2025\n 1.003.048.814.934\n 1.921.066.175.567\n770.608.131.792\n3.694.723.122.293\n872.479.124.331\n1.655.574.881.552\n771.175.004.322\n3.299.229.010.205\n31/12/2024\nDưới 1 năm\nTừ 1 năm đến 5 năm\nTrên 5 năm\nĐơn vị: VNĐ\n31/12/2025\n1.788.310.602.983 408.935.033.406\n31/12/2024\nCam kết vốn\ni) \nii) \niii) \niv) \nTập đoàn ký các hợp đồng thuê hoạt động (bao gồm: thuê văn phòng, đất, địa điểm \ngiảng dạy, nhà ở và thuê khác). Mức cam kết thanh toán trong tương lai theo hợp \nđồng như sau:\nCác cam kết về chi tiêu tạo lập TSCĐ (bao gồm: các dự án xây dựng trường học, trung \ntâm nghiên cứu, phát triển sản phẩm và mua các TSCĐ khác) đã ký hợp đồng tại ngày \nkết thúc năm tài chính nhưng chưa được hạch toán vào báo cáo tài chính hợp nhất \nnhư sau:\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nThuyết minh báo cáo tài chính hợp nhất năm 2025 về các bên liên quan và các cam kết tài chính của tập đoàn FPT.\ntable: Số dư cuối năm tài chính với các bên liên quan (trái) — Các khoản ủy thác đầu tư, phải thu ngắn hạn của khách hàng, phải trả người bán ngắn hạn, vay ngắn hạn; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024\ntable: Cam kết thuê hoạt động (phải) — Cam kết thuê hoạt động theo thời gian: dưới 1 năm, từ 1 năm đến 5 năm, trên 5 năm; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024\ntable: Cam kết vốn (phải dưới bảng cam kết thuê hoạt động) — Cam kết vốn cho các dự án xây dựng, nghiên cứu, phát triển sản phẩm và mua tài sản cố định; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Số dư cuối năm tài chính với các bên liên quan",
+              "location": "trái",
+              "description": "Các khoản ủy thác đầu tư, phải thu ngắn hạn của khách hàng, phải trả người bán ngắn hạn, vay ngắn hạn; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+            },
+            {
+              "type": "table",
+              "title": "Cam kết thuê hoạt động",
+              "location": "phải",
+              "description": "Cam kết thuê hoạt động theo thời gian: dưới 1 năm, từ 1 năm đến 5 năm, trên 5 năm; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+            },
+            {
+              "type": "table",
+              "title": "Cam kết vốn",
+              "location": "phải dưới bảng cam kết thuê hoạt động",
+              "description": "Cam kết vốn cho các dự án xây dựng, nghiên cứu, phát triển sản phẩm và mua tài sản cố định; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801841-0hVWfiqCocQNXdQ6j1j0",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_5lYsiD3LGglu2xg2AUHJSh09",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"giá thuê GPU theo giờ tại FPT AI Factory 2025\",\"bảng giá thuê GPU FPT AI Factory 2025\",\"giá thuê GPU theo giờ từng loại GPU FPT AI Factory 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "giá thuê GPU theo giờ tại FPT AI Factory 2025",
+      "model_queries": [
+        "giá thuê GPU theo giờ tại FPT AI Factory 2025",
+        "bảng giá thuê GPU FPT AI Factory 2025",
+        "giá thuê GPU theo giờ từng loại GPU FPT AI Factory 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "score": 0.030679156908665108,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "score": 0.02900988017658188,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p052",
+          "page": 52,
+          "score": 0.02782608695652174,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 15
+          }
+        },
+        {
+          "id": "FPT2025:p120",
+          "page": 120,
+          "score": 0.027650648360030512,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 9
+          }
+        }
+      ]
+    },
+    {
+      "event": "retrieval",
+      "query": "bảng giá thuê GPU FPT AI Factory 2025",
+      "model_queries": [
+        "giá thuê GPU theo giờ tại FPT AI Factory 2025",
+        "bảng giá thuê GPU FPT AI Factory 2025",
+        "giá thuê GPU theo giờ từng loại GPU FPT AI Factory 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "score": 0.028814262023217248,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "FPT2025:p102",
+          "page": 102,
+          "score": 0.0287391216352965,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 21
+          }
+        },
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "score": 0.02857142857142857,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p120",
+          "page": 120,
+          "score": 0.027583600982429624,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 7
+          }
+        }
+      ]
+    },
+    {
+      "event": "retrieval",
+      "query": "giá thuê GPU theo giờ từng loại GPU FPT AI Factory 2025",
+      "model_queries": [
+        "giá thuê GPU theo giờ tại FPT AI Factory 2025",
+        "bảng giá thuê GPU FPT AI Factory 2025",
+        "giá thuê GPU theo giờ từng loại GPU FPT AI Factory 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "score": 0.03028233151183971,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "FPT2025:p120",
+          "page": 120,
+          "score": 0.029083245521601686,
+          "component_ranks": {
+            "dense": 13,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "score": 0.02819138376017471,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 13
+          }
+        },
+        {
+          "id": "FPT2025:p052",
+          "page": 52,
+          "score": 0.02702702702702703,
+          "component_ranks": {
+            "dense": 14,
+            "tfidf": 14
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "giá thuê GPU theo giờ tại FPT AI Factory 2025",
+        "bảng giá thuê GPU FPT AI Factory 2025",
+        "giá thuê GPU theo giờ từng loại GPU FPT AI Factory 2025"
+      ],
+      "context_ids": [
+        "FPT2025:p050",
+        "FPT2025:p005",
+        "FPT2025:p052",
+        "FPT2025:p120",
+        "FPT2025:p209",
+        "FPT2025:p102"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Trong kỷ nguyên mới, AI-First là điều kiện tiên quyết \nđể doanh nghiệp tồn tại và bứt phá. Dữ liệu từ \nMcKinsey cho thấy các công ty dẫn đầu trong tích hợp\nAI toàn diện ghi nhận doanh thu cao hơn 15% và \nhiệu quả vận hành cải thiện 20-25% so với đối thủ. \nĐối với FPT, xu hướng này đòi hỏi sự chuyển dịch từ \nmô hình cung cấp dịch vụ CNTT truyền thống sang \nnền tảng AI-native, trong đó, AI được tích hợp xuyên \nsuốt vào toàn bộ giải pháp và quy trình vận hành. \nThị trường AI tự chủ dự kiến tăng từ 5,1 tỷ USD năm \n2024 lên 47,1 tỷ USD năm 2030, cho thấy sự chuyển \ndịch mạnh mẽ sang các hệ thống tự động thực thi \nnhiệm vụ phức tạp với sự can thiệp tối thiểu của \ncon người. Theo đó, FPT chú trọng phát triển AI Agents\nchuyên biệt cho các ngành như: tài chính, sản xuất, \ny tế và logistics, giúp khách hàng tự động hóa quy trình,\nhỗ trợ ra quyết định và tối ưu hóa nguồn lực vận hành. \nSong song, với lợi thế sở hữu hệ thống đào tạo nội bộ \nquy mô lớn, đa trình độ, FPT nhanh chóng chuyển đổi, \nmở rộng lực lượng kỹ sư AI đáp ứng đồng thời các yêu cầu \nvề nghiên cứu, phát triển và điềuphối vận hành AI Agents \nở quy mô lớn. \nChiến lược hợp tác mô hình mã nguồn mở là chìa \nkhóa để cân bằng chi phí và kiểm soát. 76% doanh \nnghiệp chọn mô hình mã nguồn mở, kết hợp với các \ngiải pháp độc quyền để tối ưu hiệu năng và kiểm soát \ndữ liệu. Đối với FPT, điều này có nghĩa là xây dựng \nnền tảng AI tích hợp các mô hình mã nguồn mở \n(như: LLaMA, Mistral) với các giải pháp công nghệ \ncủa FPT, tạo ra lợi thế cạnh tranh bền vững trong \nviệc cung cấp giải pháp AI tùy chỉnh cho thị trường \nViệt Nam và khu vực. \nNăm 2025, FPT đã đầu tư mạnh mẽ phát triển hệ sinh thái AI và ứng dụng AI trong hoạt động kinh doanh, \nsản xuất và dịch vụ. Hệ sinh thái AI của FPT dần định hình với nền tảng hạ tầng tính toán hiệu năng cao AI Factory \ntại Việt Nam và Nhật Bản như: FPT.AI, FPT AI Agents, FleziPT….\nTrước đó, FPT cũng đã khởi công Trung tâm Trí tuệ nhân tạo và Đô thị phụ trợ với tổng vốn hơn 4.300 tỷ đồng. \nĐây không chỉ là một trung tâm công nghệ, mà được thiết kế như một không gian tích hợp giữa nghiên cứu – đào tạo\n– triển khai – đô thị phụ trợ, phản ánh tư duy coi AI là một ngành công nghiệp hoàn chỉnh, gắn với phát triển nhân \nlực, thu hút chuyên gia và hình thành cộng đồng đổi mới sáng tạo.\nAI-First\nCHIẾN LƯỢC PHÁT TRIỂN GIAI ĐOẠN 2026-2028 \n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược phát triển giai đoạn 2026-2028 của FPT tập trung vào AI-First, đầu tư phát triển hệ sinh thái AI và ứng dụng AI trong kinh doanh, sản xuất và dịch vụ.\nphoto: Lễ khởi công Trung tâm nghiên cứu trí tuệ nhân tạo (phải) — Ảnh chụp sự kiện khởi công Trung tâm nghiên cứu trí tuệ nhân tạo với sự tham gia của nhiều đại biểu, nền sân khấu có dòng chữ liên quan đến dự án.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ khởi công Trung tâm nghiên cứu trí tuệ nhân tạo",
+              "location": "phải",
+              "description": "Ảnh chụp sự kiện khởi công Trung tâm nghiên cứu trí tuệ nhân tạo với sự tham gia của nhiều đại biểu, nền sân khấu có dòng chữ liên quan đến dự án."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Thông qua việc xây dựng hệ sinh thái công nghệ và nguồn nhân lực chất lượng cao, \nFPT khẳng định vị thế của một doanh nghiệp công nghệ có năng lực cạnh tranh \nquốc tế, tham gia và dẫn dắt các dự án công nghệ quy mô hàng trăm triệu đến \nhàng tỷ USD, trở thành đối tác chiến lược cấp cao trong các chương trình chuyển \nđổi số và AI dài hạn của các quốc gia và các tập đoàn lớn.\nTrước những biến động nhanh chóng của thế giới, con đường phía trước chắc chắn \ncòn nhiều thách thức. Nhưng với tinh thần tiên phong và khát vọng đổi mới, FPT sẽ \nchủ động nắm bắt cơ hội, phụng sự quốc gia, nâng tầm vị thế trên thị trường công \nnghệ toàn cầu để kiến tạo giá trị bền vững, lâu dài cho Tập đoàn, Quý Cổ đông. \nXin trân trọng cảm ơn!\nCHỦ TỊCH HĐQT\nTRƯƠNG GIA BÌNH\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí\ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh \ntrong dài hạn.\nLợi thế riêng có thứ hai của chúng tôi là hiện diện toàn cầu ở mọi múi giờ, \ncho phép đội ngũ nhân sự phối hợp làm việc liên tục 24/24 theo mô hình “follow \nthe sun”, từ đó rút ngắn đáng kể thời gian phát triển và triển khai các dự án \ncông nghệ cho khách hàng. Không chỉ dừng lại ở tốc độ, FPT đồng thời đầu tư \nmạnh vào năng lực công nghệ AI quy mô lớn, nhằm nâng cao năng suất, mở rộng \nquy mô triển khai và giải quyết những bài toán phức tạp mà trước đây không thể \nthực hiện được. Trong năm qua chúng tôi cũng đã đưa vào vận hành hai nhà máy \nAI tại Việt Nam và Nhật Bản, tạo nền tảng cho việc phát triển và triển khai \ncác giải pháp AI ở quy mô lớn. Chỉ sau một năm, các nhà máy này đã được khai thác \nkhoảng 70% công suất, xử lý hơn 1.100 tỷ token, tinh chỉnh 70 mô hình AI theo \nnhu cầu khách hàng và phát triển 10 mô hình ngôn ngữ lớn từ FPT AI Factory.\nThứ ba là hệ sinh thái hợp tác chiến lược với các tập đoàn công nghệ hàng đầu thế giới,\nđặc biệt là các nhà cung cấp dịch vụ lớn như: Microsoft, IBM…. Những quan hệ hợp tác \nnày giúp FPT tiếp cận những công nghệ tiên tiến nhất, đồng thời mang lại cho \nkhách hàng các giải pháp toàn diện, từ hạ tầng, nền tảng đến ứng dụng.\nSong song với phát triển công nghệ, FPT cũng đang thúc đẩy một cuộc cách mạng \ntrong giáo dục. FPT đã luôn tiên phong trong việc đưa công nghệ, AI vào giảng dạy \nvà sẽ chuyển đổi mạnh mẽ mô hình đào tạo truyền thống sang phương pháp \n“lớp học đảo ngược”, nơi mà nhờ AI, người học được chủ động tiếp cận trước kiến \nthức và dành thời gian trên lớp để giải quyết các bài toán thực tế. Trong mô hình \nđó, AI không chỉ là công cụ mà còn trở thành người phụ đạo, hỗ trợ cá nhân hóa \nquá trình học tập.\nLàm chủ công nghệ chiến lược\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí \ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh trong dài \nhạn. Nếu trước kia FPT chủ yếu được biết đến như một công ty cung cấp dịch vụ \ncông nghệ, thì từ năm 2026 và những năm tiếp theo, FPT sẽ chuyển mình thành \ndoanh nghiệp sáng tạo công nghệ, làm chủ các công nghệ chiến lược như AI, \nQuantum AI & Cybersecurity, UAV, công nghệ đường sắt, an ninh mạng và dữ liệu...\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nThông điệp của Chủ tịch Hội đồng Quản tr",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p052",
+          "page": 52,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CÁC LĨNH VỰC CÔNG NGHỆ CHIẾN LƯỢC VÀ MỤC TIÊU 2026-2030 CỦA FPT\nAI\nCông nghệ lượng tử\nViện Quantum AI & Cybersecurity đặt mục tiêu đào tạo 100 tiến sĩ, phát triển và bồi \ndưỡng 2.000 chuyên gia công nghệ trình độ cao, đồng thời công bố 500 công trình \nkhoa học, bằng sáng chế và tài sản sở hữu trí tuệ có giá trị.\nChip và thiết kế sản phẩm (phần cứng/phần mềm)\nLàm chủ thêm nhiều dòng sản phẩm ở các phân khúc cao hơn, tập trung vào các \nlĩnh vực có nhu cầu tăng trưởng cao và có lợi thế như: chip xử lý tín hiệu cho y tế, \ndrone, camera, robot hình người và các hệ thống thông minh khác. Hệ thống giáo dục \ncủa FPT hướng tới mục tiêu đào tạo 10.000 nhân sự chuyên ngành bán dẫn vào \nnăm 2030, đóng góp trực tiếp vào mục tiêu quốc gia về phát triển đội ngũ kỹ sư \nbán dẫn. \nAn ninh mạng\nXác lập vị thế đối tác số 1 tại Việt Nam trong lĩnh vực an ninh mạng với bộ giải pháp \nan ninh mạng tích hợp “Made by Vietnam”, phục vụ bảo vệ hạ tầng số, dữ liệu quốc gia\nvà các hệ thống có yêu cầu an ninh cao. \nUAV\nTiếp cận theo hướng lấy nền tảng làm trung tâm phù hợp với mô hình phát triển \nnhanh, linh hoạt trên nhiều nền tảng phần cứng trong giai đoạn đầu, đồng thời \ngiảm rủi ro phụ thuộc nhà cung cấp đơn lẻ. Mục tiêu ưu tiên đến năm 2028 hình \nthành năng lực vận hành UAV an toàn ở quy mô hệ thống gồm: thử nghiệm mô hình \nquản lý bay, đăng kiểm, cấp phép, giám sát; phát triển các lớp nền tảng số cốt lõi; \ntừng bước giảm phụ thuộc chuỗi cung ứng thông qua nội địa hóa có kiểm soát.\nBlockchain, một trong những trụ cột của nền kinh tế Web3\nLàm chủ và hoàn thiện các công nghệ lõi, đồng thời từng bước xây dựng bộ tiêu chuẩn \nWeb3 phù hợp với bối cảnh pháp lý, quản trị và nhu cầu phát triển của Việt Nam.\nSong song với phát triển công nghệ, FPT đặt mục tiêu đưa các nền tảng Blockchain \nvà Web3 “Make in Vietnam” vào triển khai thực tế tại nhiều địa phương và tổ chức \ntrong nước, đồng thời từng bước mở rộng ra thị trường quốc tế. Mục tiêu đến năm \n2030, các nền tảng do FPT phát triển sẽ được ứng dụng tại khoảng 10 tỉnh, thành \nphố và hơn 200 doanh nghiệp trong nước, đồng thời được xuất khẩu và triển khai \nthử nghiệm hoặc thương mại hóa tại ít nhất 05 quốc gia.\nĐiện toán đám mây và Điện toán biên\nXác lập vị thế dẫn đầu thị phần Cloud nội địa, trở thành trụ cột hạ tầng số của \nViệt Nam. Trên nền tảng năng lực đã được xây dựng và kiểm chứng, FPT mở rộng \ncung cấp hệ sinh thái dịch vụ FPT Cloud ra thị trường khu vực, trước hết là ASEAN, \ntừng bước đưa hạ tầng Cloud, AI “Make in Vietnam” tham gia sâu vào chuỗi giá trị \ncông nghệ khu vực. Về nhân lực, đặt mục tiêu đào tạo 1.500 kỹ sư Cloud và 200 \nkiến trúc sư Cloud cấp cao.\nLàm chủ đầy đủ chuỗi giá trị AI, từ mô hình, dữ liệu, hạ tầng tính toán đến ứng dụng \nvà nhân lực.\n• Về năng lực mô hình, dữ liệu: hướng tới sở hữu các mô hình nền tảng đa phương thức \nvà toàn diện hàng đầu tại Việt Nam, Nhật Bản và Đông Nam Á, đồng thời hình thành \ncác phòng thí nghiệm về an toàn và đánh giá AI nhằm đảm bảo vận hành AI có \ntrách nhiệm;\n• Về hạ tầng: vận hành AI Factory tại Việt Nam với tổng năng lực khoảng 10 \nEFLOPS FP8;\n• Về ứng dụng AI: phổ cập giáo dục AI đến tối thiểu 20 triệu người dùng, triển khai \nAI vào điều hành giao thông tại 03 đô ",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p120",
+          "page": 120,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xác định các bên liên quan là những bên có ảnh hưởng hoặc bị ảnh hưởng ở một mức độ nhất định từ hoạt động kinh doanh của Tập đoàn. Do đó, thông tin, ý kiến phản hồi, \nnhu cầu và mối quan tâm của các bên liên quan là những yếu tố quan trọng tác động đến tư duy, cách thức hành động của FPT trong việc quản lý và vận hành các hoạt động \ncũng như xây dựng chiến lược phát triển trong dài hạn. FPT cam kết song hành cùng các bên liên quan kiến tạo một môi trường sống, làm việc hạnh phúc dựa trên những \ngiải pháp, sản phẩm, dịch vụ công nghệ sáng tạo, đột phá.\n07 bên liên quan trọng yếu đối với FPT bao gồm: Khách hàng; Cổ đông và Nhà đầu tư; Cán bộ nhân viên (CBNV); Chính phủ, Ban ngành; Đối tác và Nhà cung cấp; \nCộng đồng; Báo chí.\nGắn kết với các bên liên quan\n• Khách hàng\nChương trình hành động nổi bật Kết quả năm 2025\nNâng cấp sản phẩm, dịch vụ, giải pháp dựa \ntrên các xu hướng công nghệ mới đem lại\nhiệu quả và năng suất cho khách hàng\nNâng cao uy tín thương hiệu của FPT\n• Đạt chứng nhận cao nhất về Generative AI từ Amazon Web Services khẳng định năng lực xây dựng các dịch vụ,\n công cụ và hạ tầng cốt lõi cho việc triển khai các công nghệ AI tạo sinh;\n• 06 sản phẩm, giải pháp thuộc hệ sinh thái Made by FPT đứng trong Top sản phẩm công nghiệp chủ lực của Hà Nội; \n• Ra mắt AI Notebook – Nền tảng nghiên cứu và phát triển AI trên hạ tầng NVIDIA GPU đáp ứng nhu cầu chuyên biệt \nvề nghiên cứu và đào tạo phát triển AI; \n• Hai nhà máy AI lọt TOP500 siêu máy tính mạnh nhất thế giới.\n• Tiếp tục khẳng định vị trí doanh nghiệp đầu ngành với những giải thưởng uy tín về quản trị, kinh doanh, công nghệ trên \ntoàn cầu như: Top 40 Công ty Dịch vụ CNTT châu Á; Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty\n tốt nhất ASEAN; Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn; Giá trị thương hiệu tăng 18%,\n đạt 1,2 tỷ USD; Top 10 Thương hiệu mạnh Việt Nam; Dẫn đầu Top 50 Công ty đại chúng uy tín nhất Việt Nam; Top 50 \nCông ty kinh doanh hiệu quả nhất Việt Nam….\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về việc gắn kết với các bên liên quan của FPT, tập trung vào khách hàng với các chương trình hành động nổi bật và kết quả đạt được năm 2025.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "26. Doanh thu thuần về bán hàng và\ncung cấp dịch vụ 28. Doanh thu hoạt động tài chính\nĐơn vị: VNĐ\nĐơn vị: VNĐ\n27. Giá vốn hàng bán và dịch vụ cung cấp\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nDoanh thu \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nCác khoản giảm trừ \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nDoanh thu thuần về bán hàng và cung cấp dịch vụ\nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nGiá vốn của hàng hóa đã bán\nGiá vốn của dịch vụ đã cung cấp\n(Hoàn nhập)/dự phòng giảm giá \nhàng tồn kho\n4.936.911.674.294 39.289.180.693.984 (1.796.779.981)\n44.224.295.588.297 \n4.416.467.377.102 \n34.732.056.916.304 \n1.921.688.045\n39.150.445.981.451 \n \n 5.801.884.142.851 64.405.804.801.702\n70.207.688.944.553\n(732.143.441) \n(94.131.700.402) \n(94.863.843.843) \n5.801.151.999.410 \n64.311.673.101.300\n70.112.825.100.710\n5.162.729.425.317 \n57.799.922.709.318\n62.962.652.134.635 \n(12.000.960.744) \n(101.856.822.524) \n(113.857.783.268) \n5.150.728.464.573 \n57.698.065.886.794\n62.848.794.351.367 \n2025 2024\nLãi tiền gửi, cho vay\nLãi chênh lệch tỷ giá hối đoái\nCổ tức, lợi nhuận được chia\nKhác \n 1.717.721.035.751 952.791.248.844 209.162.913.500 \n97.481.158.678 \n2.977.156.356.773\n1.207.207.618.564 \n575.306.141.560\n103.356.885.500 \n49.878.469.681\n1.935.749.115.305 \n2025 2024\n29. Chi phí tài chính Đơn vị: VNĐ\nLãi tiền vay\nLỗ chênh lệch tỷ giá\nDự phòng giảm giá các khoản \nđầu tư và tổn thất đầu tư tài chính\nKhác\n809.759.601.156 \n474.800.589.595\n384.631.609.873 \n2.856.900.842 \n1.672.048.701.466\n551.639.361.786 \n506.839.495.688 \n738.729.747.218 \n14.338.777.289 \n1.811.547.381.981 \n2025 2024\nĐơn vị: VNĐ\n2025 2024\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng số liệu chi tiết về doanh thu thuần, giá vốn hàng bán và dịch vụ cung cấp, doanh thu hoạt động tài chính và chi phí tài chính của FPT năm 2025 và 2024.\ntable: Doanh thu thuần về bán hàng và cung cấp dịch vụ (trái trên) — Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần\ntable: Giá vốn hàng bán và dịch vụ cung cấp (trái dưới) — Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND\ntable: Doanh thu hoạt động tài chính (phải trên) — Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND\ntable: Chi phí tài chính (phải dưới) — Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+              "location": "trái trên",
+              "description": "Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần"
+            },
+            {
+              "type": "table",
+              "title": "Giá vốn hàng bán và dịch vụ cung cấp",
+              "location": "trái dưới",
+              "description": "Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Doanh thu hoạt động tài chính",
+              "location": "phải trên",
+              "description": "Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Chi phí tài chính",
+              "location": "phải dưới",
+              "description": "Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p102",
+          "page": 102,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT đã bám sát kế hoạch kinh doanh năm 2025. \nMặc dù kinh tế toàn cầu chậm lại và đối mặt với các \nthách thức địa chính trị, FPT vẫn triển khai thành \ncông các chiến lược đã đề ra trong các lĩnh vực AI, \ncông nghệ ô tô, chuyển đổi số và chuyển đổi xanh, qua đó\ngiúp Tập đoàn đạt được mức tăng trưởng ổn định.\nFPT triển khai hiệu quả Nghị quyết ĐHĐCĐ thường \nniên 2025, thúc đẩy tăng trưởng và tạo giá trị bền vững\ncho cổ đông và các bên liên quan bất chấp thách thức \nkinh tế và địa chính trị. HĐQT, Ban Điều hành và đội ngũ \nGiám đốc nghiệp vụ đã thảo luận minh bạch, hiệu quả \nvề xu hướng kinh doanh, công nghệ, tài chính, nhân sự \nvà chiến lược M&A, đồng thời luôn sẵn sàng tiếp thu \ný kiến từ các thành viên HĐQT độc lập về hoạt động \ntài chính, đầu tư và định hướng kinh doanh trong \nngắn hạn cũng như trung và dài hạn.\nFPT đã phản ứng kịp thời và phù hợp trước sự suy \ngiảm của kinh tế toàn cầu cũng như các thách thức \nđịa chính trị, thể hiện tinh thần quyết tâm cao và bền bỉ.\nĐặc biệt, công nghệ AI của FPT đã đóng góp quan trọng\nvào quá trình chuyển đổi, phát triển không ngừng của \nnhiều doanh nghiệp trên quy mô toàn cầu. Chúng tôi \ncũng vô cùng tự hào về vai trò ngày càng quan trọng \ncủa FPT đối với các doanh nghiệp Nhật Bản sau \n20 năm có mặt tại thị trường này. Tôi tin tưởng, FPT \nsẽ tiếp tục tiến bước và đạt được nhiều thành tựu hơn nữa.\nÔng HAMPAPUR RANGADORE BINOD Ông JEAN-CHARLES BELLIOL Ông HIROSHI YOKOTSUKA\nĐánh giá của HĐQT độc lập về hoạt động của Tập đoàn\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nĐánh giá của Hội đồng Quản trị độc lập về hoạt động của Tập đoàn FPT năm 2025.\n",
+          "visuals": []
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801905-Sef8CgTi4EUxI3XSML0A",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_Nt8D5bewXNBiUeSKqF58LS65",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Báo cáo thường niên FPT 2025 không cung cấp thông tin cụ thể về giá thuê niêm yết theo giờ của từng loại GPU tại FPT AI Factory trong năm 2025.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p050\",\"region\":\"trang 50, đoạn văn về hệ sinh thái AI và hạ tầng tính toán AI Factory\"},{\"id\":\"FPT2025:p005\",\"region\":\"trang 5, đoạn văn về chiến lược phát triển công nghệ AI và nhà máy AI tại Việt Nam và Nhật Bản\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 2,
+  "context_ids": [
+    "FPT2025:p050",
+    "FPT2025:p005",
+    "FPT2025:p052",
+    "FPT2025:p120",
+    "FPT2025:p209",
+    "FPT2025:p102"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p050",
+      "page": 50,
+      "image": ".bonus/pages/p050.jpg",
+      "image_sha256": "3191eab840913a291ec7db04b15b5357712eff91623965778ff93d05765149a5"
+    },
+    {
+      "id": "FPT2025:p005",
+      "page": 5,
+      "image": ".bonus/pages/p005.jpg",
+      "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+    },
+    {
+      "id": "FPT2025:p052",
+      "page": 52,
+      "image": ".bonus/pages/p052.jpg",
+      "image_sha256": "b2201f8585b2657ca539a854f2b9b4141417da0c36d848983753bd0078e4ce43"
+    },
+    {
+      "id": "FPT2025:p120",
+      "page": 120,
+      "image": ".bonus/pages/p120.jpg",
+      "image_sha256": "4c380e5bd7b058bc15319522cdba836df2eec41458484ddca57bbeef2bdc5846"
+    },
+    {
+      "id": "FPT2025:p209",
+      "page": 209,
+      "image": ".bonus/pages/p209.jpg",
+      "image_sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+    },
+    {
+      "id": "FPT2025:p102",
+      "page": 102,
+      "image": ".bonus/pages/p102.jpg",
+      "image_sha256": "9c49718ef6b635efeab5ffa322d16595b4d59cb92d323b464e33ec590bc356ea"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801839-k3fDDSu277NC4ldSWqQc",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 459,
+        "completion_tokens": 61,
+        "total_tokens": 520,
+        "cost": 0.0002812,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002812,
+          "upstream_inference_prompt_cost": 0.0001836,
+          "upstream_inference_completions_cost": 9.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1564.2836999613792,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801841-0hVWfiqCocQNXdQ6j1j0",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 5694,
+        "completion_tokens": 58,
+        "total_tokens": 5752,
+        "cost": 0.0023704,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0023704,
+          "upstream_inference_prompt_cost": 0.0022776,
+          "upstream_inference_completions_cost": 9.28e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1625.811900012195,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801905-Sef8CgTi4EUxI3XSML0A",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 6482,
+        "completion_tokens": 129,
+        "total_tokens": 6611,
+        "cost": 0.0027992,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0027992,
+          "upstream_inference_prompt_cost": 0.0025928,
+          "upstream_inference_completions_cost": 0.0002064
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2281.875399989076,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 67618.69269999443,
+  "query_id": "fd-u2",
+  "question": "Giá thuê niêm yết theo giờ của từng loại GPU tại FPT AI Factory trong năm 2025 là bao nhiêu?",
+  "split": "dev",
+  "config": "text"
+}

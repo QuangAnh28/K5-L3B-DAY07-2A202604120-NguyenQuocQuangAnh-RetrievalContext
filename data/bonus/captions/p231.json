@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p231",
+  "image_sha256": "0614c9245807f55da81201f4404a3ca54c615b42f978c084449281cb51234737",
+  "caption": {
+    "summary": "Danh sách các văn phòng và địa chỉ liên hệ của FPT tại khu vực châu Âu và châu Đại Dương.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800856-Ky1fExww1d1Pjow7KoZE",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 35,
+        "total_tokens": 2597,
+        "cost": 0.0010808,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010808,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 5.6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3313.04259999888,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

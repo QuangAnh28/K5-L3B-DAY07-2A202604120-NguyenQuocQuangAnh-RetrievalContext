@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p121",
+  "image_sha256": "22e15841475eb7bf89b3744203867bf50476f1e7085d92c625b2ef7d473fa3ae",
+  "caption": {
+    "summary": "Trang trình bày các chương trình hành động nổi bật và kết quả năm 2025 liên quan đến cổ đông và nhà đầu tư của FPT, tập trung vào minh bạch thông tin, đối thoại với cộng đồng đầu tư và đảm bảo quyền lợi cổ đông.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Chương trình hành động nổi bật và Kết quả năm 2025",
+        "location": "phải",
+        "description": "Bảng gồm các mục: Minh bạch công bố và chia sẻ thông tin, Đối thoại và tương tác với cộng đồng đầu tư, Đảm bảo quyền lợi của cổ đông; mô tả các hoạt động và kết quả thực hiện trong năm 2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800766-BLkSlGzD65zFH8J8msIa",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 149,
+        "total_tokens": 2711,
+        "cost": 0.0012632,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012632,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002384
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3033.1627000123262,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

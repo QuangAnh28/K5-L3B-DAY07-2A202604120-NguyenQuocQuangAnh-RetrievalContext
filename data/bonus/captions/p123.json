@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p123",
+  "image_sha256": "2515e63589b0c39997b315c0712cacbe4dd1086d4b8ffa172531b0ccf7b42372",
+  "caption": {
+    "summary": "Trang trình bày các chương trình hành động nổi bật và kết quả năm 2025 của FPT liên quan đến Chính phủ, Bộ ban ngành và Đối tác, nhà cung cấp.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Chính phủ, Bộ ban ngành",
+        "location": "phải",
+        "description": "Bảng gồm các chương trình hành động nổi bật và kết quả thực hiện năm 2025 trong các lĩnh vực nghiên cứu phát triển công nghệ, trách nhiệm doanh nghiệp, nâng cao thương hiệu ngành CNTT."
+      },
+      {
+        "type": "table",
+        "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Đối tác và nhà cung cấp",
+        "location": "phải",
+        "description": "Bảng gồm các chương trình hành động nổi bật và kết quả thực hiện năm 2025 về xây dựng và áp dụng chuẩn mực làm việc, ứng xử với đối tác và nhà cung cấp, bao gồm ứng dụng AI và đánh giá CSR."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800767-pEJFqeDdxBbJCJSCNnSW",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 215,
+        "total_tokens": 2777,
+        "cost": 0.0013688,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013688,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000344
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3694.40040003974,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

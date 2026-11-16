@@ -1,0 +1,72 @@
+{
+  "id": "FPT2025:p148",
+  "image_sha256": "bf8ed39608221dd33f7c4267ba70c7a4d60efbc60ab69fa3bb9f94001daf3e68",
+  "caption": {
+    "summary": "Trang trình bày các biện pháp và hoạt động của FPT trong phạm vi 3 nhằm phát triển bền vững và giảm tác động môi trường.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Phương tiện công cộng/Phương tiện sử dụng điện",
+        "location": "dưới bên trái",
+        "description": "Ảnh minh họa các phương tiện giao thông điện và công cộng, kèm theo mô tả khuyến khích sử dụng xe điện và phương tiện công cộng."
+      },
+      {
+        "type": "photo",
+        "title": "Nghiên cứu Dự án tín chỉ carbon rừng",
+        "location": "dưới giữa bên trái",
+        "description": "Ảnh minh họa người dùng điện thoại với ứng dụng liên quan đến tín chỉ carbon, mô tả hoạt động nghiên cứu và khảo sát tín chỉ carbon tại các địa phương."
+      },
+      {
+        "type": "photo",
+        "title": "Giảm thiểu tác động từ các chuyến công tác",
+        "location": "dưới giữa bên phải",
+        "description": "Ảnh minh họa phòng điều hành với nhiều màn hình, mô tả việc hạn chế các chuyến đi không cần thiết và ưu tiên các giải pháp di chuyển xanh."
+      },
+      {
+        "type": "photo",
+        "title": "Trồng rừng",
+        "location": "dưới bên phải",
+        "description": "Ảnh minh họa nhóm người trồng rừng, mô tả các hoạt động trồng rừng tại các khu vực rừng ngập mặn nhằm bảo tồn thiên nhiên và chống biến đổi khí hậu."
+      },
+      {
+        "type": "photo",
+        "title": "Làm việc từ xa",
+        "location": "dưới bên phải",
+        "description": "Ảnh minh họa cuộc họp trực tuyến, mô tả việc triển khai và duy trì mô hình làm việc kết hợp từ xa để giảm phát thải khí nhà kính."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800787-Pyz1XwszXM4J9G9ER5hS",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 368,
+        "total_tokens": 2930,
+        "cost": 0.0016136,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0016136,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0005888
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4521.239300025627,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

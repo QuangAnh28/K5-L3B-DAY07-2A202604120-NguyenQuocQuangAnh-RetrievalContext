@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p043",
+  "image_sha256": "7d5eaa3ccc83805df2d283c557fa79459b7bb0f584301d5fd6d3ace5b356ec7f",
+  "caption": {
+    "summary": "Trang giới thiệu các thành viên Ban Lãnh đạo FPT gồm Giám đốc Nhân sự, Giám đốc Truyền thông và Giám đốc Chất lượng, cùng tóm tắt quá trình công tác và đóng góp của từng người.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ông Chu Quang Huy - Giám đốc Nhân sự",
+        "location": "phải trên",
+        "description": "Ảnh chân dung ông Chu Quang Huy, kèm mô tả quá trình công tác và các danh hiệu đạt được từ năm 2012 đến 2020."
+      },
+      {
+        "type": "photo",
+        "title": "Bà Mai Thị Lan Anh - Giám đốc Truyền thông",
+        "location": "giữa trái",
+        "description": "Ảnh chân dung bà Mai Thị Lan Anh, kèm mô tả quá trình công tác từ năm 2004, các nhiệm vụ quan trọng và giải thưởng lớn liên quan đến truyền thông FPT."
+      },
+      {
+        "type": "photo",
+        "title": "Bà Phạm Thị Quỳnh Vi - Giám đốc Chất lượng",
+        "location": "phải dưới",
+        "description": "Ảnh chân dung bà Phạm Thị Quỳnh Vi, kèm mô tả quá trình công tác từ năm 2004 trong quản lý chất lượng và các thành tích cá nhân xuất sắc."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800716-Tex2qdkeLjSfv0EbzamB",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 282,
+        "total_tokens": 2844,
+        "cost": 0.001476,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001476,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004512
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4146.787300007418,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

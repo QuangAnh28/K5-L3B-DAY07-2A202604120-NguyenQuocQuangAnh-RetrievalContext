@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p080",
+  "image_sha256": "7bc2e71fe735535cae71d4877e30e06fa50a66618a37495a35511a55ebd37dd4",
+  "caption": {
+    "summary": "Mô hình quản trị công ty và vai trò của các bên liên quan trong hệ thống quản trị của FPT.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Mô hình quản trị và vai trò của các bên",
+        "location": "phải",
+        "description": "Các thành phần gồm Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Chủ tịch Hội đồng quản trị, Tổng giám đốc và Ban điều hành, Ủy ban nhân sự và lương thưởng, Ủy ban chính sách phát triển, Văn phòng Chủ tịch HĐQT, Kiểm toán nội bộ; mô tả chức năng và trách nhiệm của từng bộ phận."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800741-MuQIX7rwzy5B7Cr39peQ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 146,
+        "total_tokens": 2708,
+        "cost": 0.0012584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012584,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3382.8435000032187,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

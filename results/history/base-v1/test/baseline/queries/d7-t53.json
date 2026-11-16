@@ -1,0 +1,258 @@
+{
+  "status": "answered",
+  "answer": "Trừ trường hợp có thỏa thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh. [luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_ljgd1q1j3JIY2duhe3mAccsj",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"giá hàng hóa tính theo trọng lượng dùng trọng lượng nào\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797865-kRyGhMk8VU7tNjg4LV4W"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nếu không có thỏa thuận khác, giá hàng hóa tính theo trọng lượng dùng trọng lượng nào?",
+      "model_query": "giá hàng hóa tính theo trọng lượng dùng trọng lượng nào",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 53"
+          },
+          "score": 0.4078019997129811,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 82,
+          "text": "1. Thương lượng giữa các bên.\n\n2. Hoà gi ải giữa các bên do m ột cơ quan, t ổ chức ho ặc cá nhân được các bên thỏa thuận chọn làm trung gian hoà giải.\n\n3. Giải quyết tại Trọng tài hoặc Toà án. Thủ t ục giải quyết tranh ch ấp trong th ương m ại tại Trọng tài, Toà án được tiến hành theo các thủ tục tố tụng của Trọng tài, Toà án do pháp luật quy định.\n\nĐiều 318. Thời hạn khiếu nại Trừ trường hợp quy định tại điểm đ khoản 1 Điều 237 c ủa Luật này, th ời hạn khiếu nại do các bên thỏa thuận, nếu các bên không có thoả thuận thì thời hạn khiếu nại được quy định như sau:\n\n1. Ba tháng, kể từ ngày giao hàng đối với khiếu nại về số lượng hàng hoá;\n\n2. Sáu thá ng, kể từ ngày giao hàng đối với khiếu n ại về chất lượng hàng hoá; trong trường hợp hàng hoá có b ảo hành thì thời hạn khiếu nại là ba tháng, kể từ ngày hết thời hạn bảo hành;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 82,
+            "year": 2005,
+            "chapter": "Chương Vii",
+            "article": "Điều 318"
+          },
+          "score": 0.2719097524010379,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 52"
+          },
+          "score": 0.16734183159190505,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 82]\n1. Thương lượng giữa các bên.\n\n2. Hoà gi ải giữa các bên do m ột cơ quan, t ổ chức ho ặc cá nhân được các bên thỏa thuận chọn làm trung gian hoà giải.\n\n3. Giải quyết tại Trọng tài hoặc Toà án. Thủ t ục giải quyết tranh ch ấp trong th ương m ại tại Trọng tài, Toà án được tiến hành theo các thủ tục tố tụng của Trọng tài, Toà án do pháp luật quy định.\n\nĐiều 318. Thời hạn khiếu nại Trừ trường hợp quy định tại điểm đ khoản 1 Điều 237 c ủa Luật này, th ời hạn khiếu nại do các bên thỏa thuận, nếu các bên không có thoả thuận thì thời hạn khiếu nại được quy định như sau:\n\n1. Ba tháng, kể từ ngày giao hàng đối với khiếu nại về số lượng hàng hoá;\n\n2. Sáu thá ng, kể từ ngày giao hàng đối với khiếu n ại về chất lượng hàng hoá; trong trường hợp hàng hoá có b ảo hành thì thời hạn khiếu nại là ba tháng, kể từ ngày hết thời hạn bảo hành;",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+        "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_OFYquZcIVn8Ak6RgDAHruLEp",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trừ trường hợp có thỏa thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797867-7ysWlW8lVy7pXwMc6NCu"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 82]\n1. Thương lượng giữa các bên.\n\n2. Hoà gi ải giữa các bên do m ột cơ quan, t ổ chức ho ặc cá nhân được các bên thỏa thuận chọn làm trung gian hoà giải.\n\n3. Giải quyết tại Trọng tài hoặc Toà án. Thủ t ục giải quyết tranh ch ấp trong th ương m ại tại Trọng tài, Toà án được tiến hành theo các thủ tục tố tụng của Trọng tài, Toà án do pháp luật quy định.\n\nĐiều 318. Thời hạn khiếu nại Trừ trường hợp quy định tại điểm đ khoản 1 Điều 237 c ủa Luật này, th ời hạn khiếu nại do các bên thỏa thuận, nếu các bên không có thoả thuận thì thời hạn khiếu nại được quy định như sau:\n\n1. Ba tháng, kể từ ngày giao hàng đối với khiếu nại về số lượng hàng hoá;\n\n2. Sáu thá ng, kể từ ngày giao hàng đối với khiếu n ại về chất lượng hàng hoá; trong trường hợp hàng hoá có b ảo hành thì thời hạn khiếu nại là ba tháng, kể từ ngày hết thời hạn bảo hành;",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797865-kRyGhMk8VU7tNjg4LV4W",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 292,
+        "completion_tokens": 17,
+        "total_tokens": 309,
+        "cost": 0.000144,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000144,
+          "upstream_inference_prompt_cost": 0.0001168,
+          "upstream_inference_completions_cost": 2.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4518.966200004797,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797867-7ysWlW8lVy7pXwMc6NCu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1089,
+        "completion_tokens": 77,
+        "total_tokens": 1166,
+        "cost": 0.0005588,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005588,
+          "upstream_inference_prompt_cost": 0.0004356,
+          "upstream_inference_completions_cost": 0.0001232
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2829.795199970249,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 7354.292499949224,
+  "searches": 1,
+  "query_id": "d7-t53",
+  "question": "Nếu không có thỏa thuận khác, giá hàng hóa tính theo trọng lượng dùng trọng lượng nào?",
+  "split": "test",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 16,
+      "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 53"
+      },
+      "score": 0.4078019997129811,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 82,
+      "text": "1. Thương lượng giữa các bên.\n\n2. Hoà gi ải giữa các bên do m ột cơ quan, t ổ chức ho ặc cá nhân được các bên thỏa thuận chọn làm trung gian hoà giải.\n\n3. Giải quyết tại Trọng tài hoặc Toà án. Thủ t ục giải quyết tranh ch ấp trong th ương m ại tại Trọng tài, Toà án được tiến hành theo các thủ tục tố tụng của Trọng tài, Toà án do pháp luật quy định.\n\nĐiều 318. Thời hạn khiếu nại Trừ trường hợp quy định tại điểm đ khoản 1 Điều 237 c ủa Luật này, th ời hạn khiếu nại do các bên thỏa thuận, nếu các bên không có thoả thuận thì thời hạn khiếu nại được quy định như sau:\n\n1. Ba tháng, kể từ ngày giao hàng đối với khiếu nại về số lượng hàng hoá;\n\n2. Sáu thá ng, kể từ ngày giao hàng đối với khiếu n ại về chất lượng hàng hoá; trong trường hợp hàng hoá có b ảo hành thì thời hạn khiếu nại là ba tháng, kể từ ngày hết thời hạn bảo hành;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 82,
+        "year": 2005,
+        "chapter": "Chương Vii",
+        "article": "Điều 318"
+      },
+      "score": 0.2719097524010379,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 52"
+      },
+      "score": 0.16734183159190505,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 82]\n1. Thương lượng giữa các bên.\n\n2. Hoà gi ải giữa các bên do m ột cơ quan, t ổ chức ho ặc cá nhân được các bên thỏa thuận chọn làm trung gian hoà giải.\n\n3. Giải quyết tại Trọng tài hoặc Toà án. Thủ t ục giải quyết tranh ch ấp trong th ương m ại tại Trọng tài, Toà án được tiến hành theo các thủ tục tố tụng của Trọng tài, Toà án do pháp luật quy định.\n\nĐiều 318. Thời hạn khiếu nại Trừ trường hợp quy định tại điểm đ khoản 1 Điều 237 c ủa Luật này, th ời hạn khiếu nại do các bên thỏa thuận, nếu các bên không có thoả thuận thì thời hạn khiếu nại được quy định như sau:\n\n1. Ba tháng, kể từ ngày giao hàng đối với khiếu nại về số lượng hàng hoá;\n\n2. Sáu thá ng, kể từ ngày giao hàng đối với khiếu n ại về chất lượng hàng hoá; trong trường hợp hàng hoá có b ảo hành thì thời hạn khiếu nại là ba tháng, kể từ ngày hết thời hạn bảo hành;",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p82-paragraph-1000-e492934e2d02ac23"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

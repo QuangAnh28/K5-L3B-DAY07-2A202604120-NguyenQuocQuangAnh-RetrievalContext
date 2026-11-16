@@ -1,0 +1,27 @@
+{
+  "phase": "dev",
+  "test_seen": false,
+  "findings": [
+    {
+      "query_id": "fd-t1",
+      "config": "text",
+      "issue": "Column/row flattening led to EBITDA values instead of operating profit."
+    },
+    {
+      "query_id": "fd-i3",
+      "config": "vision",
+      "issue": "Mini model read rotated Thông minh hơn as Mở rộng hơn."
+    },
+    {
+      "query_id": "fd-m2",
+      "config": "vision",
+      "issue": "Answered from responsibilities table only, missing required organization diagram citation."
+    },
+    {
+      "query_id": "fd-u1",
+      "config": "vision",
+      "issue": "Reported 2026 plan as actual revenue despite question asking actual."
+    }
+  ],
+  "next_hypothesis": "Stronger vision model plus concise responses, exact label transcription, explicit plan/actual and component checks should reduce dev failures; added model cost is measured."
+}

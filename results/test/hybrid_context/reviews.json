@@ -1,0 +1,101 @@
+[
+  {
+    "query_id": "b2-t23",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.754142+00:00",
+    "trace_sha256": "88d88247a04e86c17c7f072f7c183112dabeb2e8b7752a943165ded9cab01f23",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 23 khoản 2 trang 8: thanh toán nợ và các nghĩa vụ khác trước chấm dứt hoạt động."
+  },
+  {
+    "query_id": "b2-t26",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.767296+00:00",
+    "trace_sha256": "3a1a6c8fdab35c2bf8d91967d2f068ddd5d4ccf6b94d9f987f78b78c3a6d0a74",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 26 trang 9: nguồn/phương tiện lây truyền dịch bệnh hoặc xảy ra khẩn cấp."
+  },
+  {
+    "query_id": "b2-t28",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.778441+00:00",
+    "trace_sha256": "c7d122aa99ee4c2dafd03b59700e6047eae4d18b993c02a2a0d2a7dc8a53b8ed",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Kết luận có thuộc xuất khẩu và định nghĩa được chunk nguồn hỗ trợ; nhưng gán sai Điều 29 thay vì Điều 28. Context đủ ngữ nghĩa; gold lấy cả chunk dài nên containment có thể không hit."
+  },
+  {
+    "query_id": "b2-t309",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.788802+00:00",
+    "trace_sha256": "45a4f2a0ffb003dd4f7802ef687db610347a52d0386607b4e71110cfcad2a4b7",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 309 trang 80: hợp đồng vẫn có hiệu lực, bên bị vi phạm có quyền yêu cầu bồi thường."
+  },
+  {
+    "query_id": "b2-t56",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.798511+00:00",
+    "trace_sha256": "f75b3830b390147dc2944b0e02f8ba30c7a47088b995bda33df3bd04281b8f46",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 56 trang 16: nhận hàng theo thỏa thuận và làm công việc hợp lý giúp bên bán giao hàng."
+  },
+  {
+    "query_id": "b2-u1",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.809326+00:00",
+    "trace_sha256": "aaac45e41d67199a41b8dec431525748c8608c307b5ac967ae6350d4598d8103",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc lời từ chối chuẩn; nguồn không có mức phí cấp phép/mức tiền phạt cụ thể. Điều 322 giao Chính phủ quy định, không dùng con số ngoài snapshot."
+  },
+  {
+    "query_id": "b2-u2",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:02:18.819699+00:00",
+    "trace_sha256": "3f311695dd37a4bb200b1c4451811c718754bbf4a056aeabc8772f49010c5a4f",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc lời từ chối chuẩn; nguồn không có mức phí cấp phép/mức tiền phạt cụ thể. Điều 322 giao Chính phủ quy định, không dùng con số ngoài snapshot."
+  }
+]

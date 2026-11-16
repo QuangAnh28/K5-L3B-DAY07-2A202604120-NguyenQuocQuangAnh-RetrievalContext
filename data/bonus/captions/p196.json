@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p196",
+  "image_sha256": "d5fa4d0a8b9846a319043f1da98a7ef8a747453ddbf8c58d518d8e1a63f002a1",
+  "caption": {
+    "summary": "Bảng thuyết minh về thuế và các khoản phải thu/phải nộp nhà nước của FPT cho năm tài chính kết thúc ngày 31/12/2025, bao gồm chi tiết các loại thuế phải thu và phải nộp, cùng biến động thuần về thuế trong năm.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thuế và các khoản phải thu/phải nộp nhà nước",
+        "location": "phải",
+        "description": "Bảng liệt kê các khoản thuế giá trị gia tăng, thuế TNDN, thuế thu nhập cá nhân và các khoản khác, phân loại thành phải thu và phải nộp, với số liệu so sánh giữa ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+      },
+      {
+        "type": "table",
+        "title": "Biến động thuần về thuế và các khoản phải thu/phải nộp Nhà nước",
+        "location": "dưới",
+        "description": "Bảng chi tiết biến động thuế theo các mục: tại ngày 1/1/2025, số phát sinh trong năm, số thực nộp/cấn trừ trong năm, tăng do mua công ty con, chênh lệch tỷ giá hối đoái và tại ngày 31/12/2025, đơn vị VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800829-jHCBdZ9hLM8UC3DFsxCu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 285,
+        "total_tokens": 2847,
+        "cost": 0.0014808,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014808,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000456
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 7593.683100014459,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

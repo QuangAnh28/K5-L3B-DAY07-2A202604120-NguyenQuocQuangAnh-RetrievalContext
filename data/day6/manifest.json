@@ -1,0 +1,522 @@
+{
+  "source_id": "luat-thuong-mai-36-2005-qh11",
+  "title": "Luật Thương mại 36/2005/QH11",
+  "source_path_or_url": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+  "local_path": "starter/data/luat_thuong_mai_2005.pdf",
+  "accessed_at": "2026-11-14T08:12:18.840674+00:00",
+  "sha256": "ce2d974f9b49306861239d9973b4851384205186786075deace26a4923b0c81e",
+  "snapshot": "Văn bản năm 2005; không khẳng định là bản hợp nhất hiện hành",
+  "license_or_permission": "Văn bản quy phạm pháp luật tiếng Việt; căn cứ Điều 15 khoản 2 Luật SHTT về đối tượng không thuộc phạm vi bảo hộ quyền tác giả. Nguồn công bố: Cục SHTT.",
+  "physical_pages": 84,
+  "counted_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+  ],
+  "excluded_pages": [
+    84
+  ],
+  "counting_rule": "Trang 1–83 có nội dung điều luật; loại trang 84 chỉ có tên người ký. Không nhân bản.",
+  "pages": [
+    {
+      "page": 1,
+      "characters": 1449,
+      "counted": true
+    },
+    {
+      "page": 2,
+      "characters": 2525,
+      "counted": true
+    },
+    {
+      "page": 3,
+      "characters": 2403,
+      "counted": true
+    },
+    {
+      "page": 4,
+      "characters": 2003,
+      "counted": true
+    },
+    {
+      "page": 5,
+      "characters": 2250,
+      "counted": true
+    },
+    {
+      "page": 6,
+      "characters": 2086,
+      "counted": true
+    },
+    {
+      "page": 7,
+      "characters": 2420,
+      "counted": true
+    },
+    {
+      "page": 8,
+      "characters": 1949,
+      "counted": true
+    },
+    {
+      "page": 9,
+      "characters": 2491,
+      "counted": true
+    },
+    {
+      "page": 10,
+      "characters": 2326,
+      "counted": true
+    },
+    {
+      "page": 11,
+      "characters": 2330,
+      "counted": true
+    },
+    {
+      "page": 12,
+      "characters": 2294,
+      "counted": true
+    },
+    {
+      "page": 13,
+      "characters": 2490,
+      "counted": true
+    },
+    {
+      "page": 14,
+      "characters": 2607,
+      "counted": true
+    },
+    {
+      "page": 15,
+      "characters": 2228,
+      "counted": true
+    },
+    {
+      "page": 16,
+      "characters": 2088,
+      "counted": true
+    },
+    {
+      "page": 17,
+      "characters": 2159,
+      "counted": true
+    },
+    {
+      "page": 18,
+      "characters": 2893,
+      "counted": true
+    },
+    {
+      "page": 19,
+      "characters": 2144,
+      "counted": true
+    },
+    {
+      "page": 20,
+      "characters": 1849,
+      "counted": true
+    },
+    {
+      "page": 21,
+      "characters": 1884,
+      "counted": true
+    },
+    {
+      "page": 22,
+      "characters": 2444,
+      "counted": true
+    },
+    {
+      "page": 23,
+      "characters": 2313,
+      "counted": true
+    },
+    {
+      "page": 24,
+      "characters": 1920,
+      "counted": true
+    },
+    {
+      "page": 25,
+      "characters": 2361,
+      "counted": true
+    },
+    {
+      "page": 26,
+      "characters": 2060,
+      "counted": true
+    },
+    {
+      "page": 27,
+      "characters": 2432,
+      "counted": true
+    },
+    {
+      "page": 28,
+      "characters": 2168,
+      "counted": true
+    },
+    {
+      "page": 29,
+      "characters": 2057,
+      "counted": true
+    },
+    {
+      "page": 30,
+      "characters": 2132,
+      "counted": true
+    },
+    {
+      "page": 31,
+      "characters": 2215,
+      "counted": true
+    },
+    {
+      "page": 32,
+      "characters": 2293,
+      "counted": true
+    },
+    {
+      "page": 33,
+      "characters": 2301,
+      "counted": true
+    },
+    {
+      "page": 34,
+      "characters": 2181,
+      "counted": true
+    },
+    {
+      "page": 35,
+      "characters": 2540,
+      "counted": true
+    },
+    {
+      "page": 36,
+      "characters": 2309,
+      "counted": true
+    },
+    {
+      "page": 37,
+      "characters": 2398,
+      "counted": true
+    },
+    {
+      "page": 38,
+      "characters": 2398,
+      "counted": true
+    },
+    {
+      "page": 39,
+      "characters": 2075,
+      "counted": true
+    },
+    {
+      "page": 40,
+      "characters": 2051,
+      "counted": true
+    },
+    {
+      "page": 41,
+      "characters": 2055,
+      "counted": true
+    },
+    {
+      "page": 42,
+      "characters": 1750,
+      "counted": true
+    },
+    {
+      "page": 43,
+      "characters": 1731,
+      "counted": true
+    },
+    {
+      "page": 44,
+      "characters": 2285,
+      "counted": true
+    },
+    {
+      "page": 45,
+      "characters": 2151,
+      "counted": true
+    },
+    {
+      "page": 46,
+      "characters": 2545,
+      "counted": true
+    },
+    {
+      "page": 47,
+      "characters": 2128,
+      "counted": true
+    },
+    {
+      "page": 48,
+      "characters": 2225,
+      "counted": true
+    },
+    {
+      "page": 49,
+      "characters": 1987,
+      "counted": true
+    },
+    {
+      "page": 50,
+      "characters": 2446,
+      "counted": true
+    },
+    {
+      "page": 51,
+      "characters": 2200,
+      "counted": true
+    },
+    {
+      "page": 52,
+      "characters": 2169,
+      "counted": true
+    },
+    {
+      "page": 53,
+      "characters": 2242,
+      "counted": true
+    },
+    {
+      "page": 54,
+      "characters": 2501,
+      "counted": true
+    },
+    {
+      "page": 55,
+      "characters": 2234,
+      "counted": true
+    },
+    {
+      "page": 56,
+      "characters": 2179,
+      "counted": true
+    },
+    {
+      "page": 57,
+      "characters": 1743,
+      "counted": true
+    },
+    {
+      "page": 58,
+      "characters": 1968,
+      "counted": true
+    },
+    {
+      "page": 59,
+      "characters": 2021,
+      "counted": true
+    },
+    {
+      "page": 60,
+      "characters": 2122,
+      "counted": true
+    },
+    {
+      "page": 61,
+      "characters": 2271,
+      "counted": true
+    },
+    {
+      "page": 62,
+      "characters": 2695,
+      "counted": true
+    },
+    {
+      "page": 63,
+      "characters": 2163,
+      "counted": true
+    },
+    {
+      "page": 64,
+      "characters": 2328,
+      "counted": true
+    },
+    {
+      "page": 65,
+      "characters": 2007,
+      "counted": true
+    },
+    {
+      "page": 66,
+      "characters": 1947,
+      "counted": true
+    },
+    {
+      "page": 67,
+      "characters": 2257,
+      "counted": true
+    },
+    {
+      "page": 68,
+      "characters": 2497,
+      "counted": true
+    },
+    {
+      "page": 69,
+      "characters": 2104,
+      "counted": true
+    },
+    {
+      "page": 70,
+      "characters": 2113,
+      "counted": true
+    },
+    {
+      "page": 71,
+      "characters": 2261,
+      "counted": true
+    },
+    {
+      "page": 72,
+      "characters": 2131,
+      "counted": true
+    },
+    {
+      "page": 73,
+      "characters": 2421,
+      "counted": true
+    },
+    {
+      "page": 74,
+      "characters": 1857,
+      "counted": true
+    },
+    {
+      "page": 75,
+      "characters": 2090,
+      "counted": true
+    },
+    {
+      "page": 76,
+      "characters": 1577,
+      "counted": true
+    },
+    {
+      "page": 77,
+      "characters": 2529,
+      "counted": true
+    },
+    {
+      "page": 78,
+      "characters": 2485,
+      "counted": true
+    },
+    {
+      "page": 79,
+      "characters": 2355,
+      "counted": true
+    },
+    {
+      "page": 80,
+      "characters": 2066,
+      "counted": true
+    },
+    {
+      "page": 81,
+      "characters": 2518,
+      "counted": true
+    },
+    {
+      "page": 82,
+      "characters": 2077,
+      "counted": true
+    },
+    {
+      "page": 83,
+      "characters": 1869,
+      "counted": true
+    },
+    {
+      "page": 84,
+      "characters": 13,
+      "counted": false
+    }
+  ]
+}

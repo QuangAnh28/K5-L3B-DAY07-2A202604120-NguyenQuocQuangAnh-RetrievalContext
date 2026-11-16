@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p039",
+  "image_sha256": "df24958c6e881448daaee79753dd8876137e785166994ebad6ee5898474d7952",
+  "caption": {
+    "summary": "Trang giới thiệu các thành viên Hội đồng quản trị (HĐQT) của FPT, bao gồm ông Hampapur Rangadore Binod, ông Hiroshi Yokotsuka và bà Trần Thị Hồng Lĩnh, với mô tả ngắn về kinh nghiệm và đóng góp của từng người.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ông Hampapur Rangadore Binod",
+        "location": "phải trên",
+        "description": "Ảnh chân dung ông Hampapur Rangadore Binod, thành viên HĐQT độc lập"
+      },
+      {
+        "type": "photo",
+        "title": "Ông Hiroshi Yokotsuka",
+        "location": "giữa trái",
+        "description": "Ảnh chân dung ông Hiroshi Yokotsuka, thành viên HĐQT độc lập"
+      },
+      {
+        "type": "photo",
+        "title": "Bà Trần Thị Hồng Lĩnh",
+        "location": "phải dưới",
+        "description": "Ảnh chân dung bà Trần Thị Hồng Lĩnh, thành viên HĐQT"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800715-I5d9quxlfzMxRnnPsGud",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 203,
+        "total_tokens": 2765,
+        "cost": 0.0013496,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013496,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003248
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 7778.458999993745,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

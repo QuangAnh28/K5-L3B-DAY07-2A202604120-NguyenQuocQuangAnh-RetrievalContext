@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p116",
+  "image_sha256": "4ef59453022fee003a6376856805ec118b7f8c91ec002277ca8c0d411fc9897d",
+  "caption": {
+    "summary": "Trang trình bày về quản trị xuất sắc của FPT năm 2025, bao gồm các hoạt động trọng yếu, cam kết, mục tiêu và kết quả nổi bật trong các lĩnh vực quản trị công ty, quản trị dữ liệu và quản trị rủi ro, chống tham nhũng.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800763-FqRcnCMQ4RAnibp41yzJ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 69,
+        "total_tokens": 2631,
+        "cost": 0.0011352,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011352,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2492.095800000243,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

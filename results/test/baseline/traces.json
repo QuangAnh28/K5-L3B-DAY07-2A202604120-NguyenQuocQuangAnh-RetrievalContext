@@ -1,0 +1,1808 @@
+[
+  {
+    "status": "answered",
+    "answer": "Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các khoản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam. [luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86]",
+    "citations": [
+      "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_8NLpdzxC893qnokSDz0FfuTw",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"nghĩa vụ của thương nhân nước ngoài trước khi chấm dứt hoạt động tại Việt Nam\"}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801606-iSAnfkgs8HWiV6bqB8Zw"
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài phải thực hiện nghĩa vụ gì với Nhà nước, tổ chức và cá nhân liên quan?",
+        "model_query": "nghĩa vụ của thương nhân nước ngoài trước khi chấm dứt hoạt động tại Việt Nam",
+        "filter": {},
+        "method": "tfidf",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 8,
+            "text": "hiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 8,
+              "year": 2005,
+              "chapter": "Chương I",
+              "article": "Điều 23"
+            },
+            "score": 0.5772431081463409,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 5,
+              "year": 2005,
+              "chapter": "Chương I",
+              "section": "Mục 3",
+              "article": "Điều 15"
+            },
+            "score": 0.38077354082693354,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 3,
+            "text": "2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 3,
+              "year": 2005,
+              "chapter": "Chương I",
+              "article": "Điều 6"
+            },
+            "score": 0.35454511816982187,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+        "context_ids": [
+          "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+          "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e"
+        ]
+      },
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_Zr9s3lXv5X4P0yvNVZGAPPrc",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các khoản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86\"],\"abstain\":false}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801608-r8cCnC9hnPyO726mr5JQ"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citation_rendering": "Append validated structured IDs absent from raw answer",
+    "context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+    "context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+      "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e"
+    ],
+    "model_usage": [
+      {
+        "id": "gen-1794801606-iSAnfkgs8HWiV6bqB8Zw",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 308,
+          "completion_tokens": 27,
+          "total_tokens": 335,
+          "cost": 0.0001664,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001664,
+            "upstream_inference_prompt_cost": 0.0001232,
+            "upstream_inference_completions_cost": 4.32e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2724.675000004936,
+        "attempt": 1
+      },
+      {
+        "id": "gen-1794801608-r8cCnC9hnPyO726mr5JQ",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 1216,
+          "completion_tokens": 94,
+          "total_tokens": 1310,
+          "cost": 0.0006368,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0006368,
+            "upstream_inference_prompt_cost": 0.0004864,
+            "upstream_inference_completions_cost": 0.0001504
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2042.4552000476979,
+        "attempt": 1
+      }
+    ],
+    "elapsed_ms": 4769.8378000059165,
+    "searches": 1,
+    "query_id": "b2-t23",
+    "question": "Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài phải thực hiện nghĩa vụ gì với Nhà nước, tổ chức và cá nhân liên quan?",
+    "split": "test",
+    "config": "baseline",
+    "answerable": true,
+    "original_results": [
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 8,
+        "text": "hiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 8,
+          "year": 2005,
+          "chapter": "Chương I",
+          "article": "Điều 23"
+        },
+        "score": 0.5772431081463409,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 5,
+        "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "year": 2005,
+          "chapter": "Chương I",
+          "section": "Mục 3",
+          "article": "Điều 15"
+        },
+        "score": 0.38077354082693354,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 3,
+        "text": "2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 3,
+          "year": 2005,
+          "chapter": "Chương I",
+          "article": "Điều 6"
+        },
+        "score": 0.35454511816982187,
+        "strategy": "tfidf"
+      }
+    ],
+    "original_context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+    "original_context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+      "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e"
+    ],
+    "original_hit1": true,
+    "original_hit3": true,
+    "original_context_hit": true,
+    "final_context_hit": true
+  },
+  {
+    "status": "answered",
+    "answer": "Hai trường hợp có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước là: (a) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh; (b) Khi xảy ra tình trạng khẩn cấp. [luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5]",
+    "citations": [
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_FhZXmzmXoiS1TTPCcugV66Se",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước\"}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801606-T3rkWGgJ0nWx8Y8ExpRJ"
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Hai trường hợp nào có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước?",
+        "model_query": "biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước",
+        "filter": {},
+        "method": "tfidf",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 9,
+            "text": "Điều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 9,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 26"
+            },
+            "score": 0.40737982898713565,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 20,
+            "text": "Điều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 20,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 72"
+            },
+            "score": 0.3016354389193272,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 10,
+            "text": "Điều 31. Áp d ụng các bi ện pháp kh ẩn c ấp đối v ới hoạt động mua bán hàng hóa quốc tế Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các l ợi ích quốc gia khác phù hợp với pháp luật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Th ủ tướng Chính phủ quyết định áp d ụng các biện pháp khẩn cấp đối với hoạt động mua bán hàng hóa quốc tế.\n\nĐiều 32. Nhãn hàng hóa l ưu thông trong n ước và hàng hóa xu ất khẩu, nhập khẩu\n\n1. Nhãn hàng hoá là b ản vi ết, b ản in, b ản vẽ, b ản ch ụp c ủa chữ, hình v ẽ, hình ảnh được dán, in, đính, đúc, ch ạm, kh ắc tr ực ti ếp trên hàng hoá, bao bì thương ph ẩm c ủa hàng hoá ho ặc trên các ch ất liệu khác được gắn lên hàng hoá, bao bì thương phẩm của hàng hoá.\n\n2. Hàng hóa l ưu thông trong n ước, hàng hóa xuất khẩu, nhập khẩu phải có nhãn hàng hóa, trừ một số trường hợp theo quy định của pháp luật.\n\n3. Các n ội dung c ần ghi trên nhãn hàng hóa và vi ệc ghi nhãn hàng hóa được thực hiện theo quy định của Chính phủ.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 10,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 31"
+            },
+            "score": 0.19730452475792112,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\nĐiều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nĐiều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.",
+        "context_ids": [
+          "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+          "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467"
+        ]
+      },
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_cDrarWp3pAOXsEXSDVdzKNq4",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Hai trường hợp có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước là: (a) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh; (b) Khi xảy ra tình trạng khẩn cấp.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5\"],\"abstain\":false}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801608-jo5Rjedv9kstUxpJTjik"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citation_rendering": "Append validated structured IDs absent from raw answer",
+    "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\nĐiều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nĐiều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.",
+    "context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+      "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467"
+    ],
+    "model_usage": [
+      {
+        "id": "gen-1794801606-T3rkWGgJ0nWx8Y8ExpRJ",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 301,
+          "completion_tokens": 22,
+          "total_tokens": 323,
+          "cost": 0.0001556,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001556,
+            "upstream_inference_prompt_cost": 0.0001204,
+            "upstream_inference_completions_cost": 3.52e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2638.9484999817796,
+        "attempt": 1
+      },
+      {
+        "id": "gen-1794801608-jo5Rjedv9kstUxpJTjik",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 1193,
+          "completion_tokens": 113,
+          "total_tokens": 1306,
+          "cost": 0.000658,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.000658,
+            "upstream_inference_prompt_cost": 0.0004772,
+            "upstream_inference_completions_cost": 0.0001808
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2025.5055999732576,
+        "attempt": 1
+      }
+    ],
+    "elapsed_ms": 4684.027399984188,
+    "searches": 1,
+    "query_id": "b2-t26",
+    "question": "Hai trường hợp nào có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước?",
+    "split": "test",
+    "config": "baseline",
+    "answerable": true,
+    "original_results": [
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 9,
+        "text": "Điều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 9,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 26"
+        },
+        "score": 0.40737982898713565,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 20,
+        "text": "Điều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 20,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 72"
+        },
+        "score": 0.3016354389193272,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 10,
+        "text": "Điều 31. Áp d ụng các bi ện pháp kh ẩn c ấp đối v ới hoạt động mua bán hàng hóa quốc tế Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các l ợi ích quốc gia khác phù hợp với pháp luật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Th ủ tướng Chính phủ quyết định áp d ụng các biện pháp khẩn cấp đối với hoạt động mua bán hàng hóa quốc tế.\n\nĐiều 32. Nhãn hàng hóa l ưu thông trong n ước và hàng hóa xu ất khẩu, nhập khẩu\n\n1. Nhãn hàng hoá là b ản vi ết, b ản in, b ản vẽ, b ản ch ụp c ủa chữ, hình v ẽ, hình ảnh được dán, in, đính, đúc, ch ạm, kh ắc tr ực ti ếp trên hàng hoá, bao bì thương ph ẩm c ủa hàng hoá ho ặc trên các ch ất liệu khác được gắn lên hàng hoá, bao bì thương phẩm của hàng hoá.\n\n2. Hàng hóa l ưu thông trong n ước, hàng hóa xuất khẩu, nhập khẩu phải có nhãn hàng hóa, trừ một số trường hợp theo quy định của pháp luật.\n\n3. Các n ội dung c ần ghi trên nhãn hàng hóa và vi ệc ghi nhãn hàng hóa được thực hiện theo quy định của Chính phủ.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 10,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 31"
+        },
+        "score": 0.19730452475792112,
+        "strategy": "tfidf"
+      }
+    ],
+    "original_context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\nĐiều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nĐiều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.",
+    "original_context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+      "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467"
+    ],
+    "original_hit1": true,
+    "original_hit3": true,
+    "original_context_hit": true,
+    "final_context_hit": true
+  },
+  {
+    "status": "answered",
+    "answer": "Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam không thuộc định nghĩa xuất khẩu. Xuất khẩu hàng hóa là việc hàng hóa được đưa ra khỏi lãnh thổ Việt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, không phải từ nội địa vào khu vực hải quan riêng. [luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb]",
+    "citations": [
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_cieVTR9473tX1nz8iPdoFBcf",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không\"}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801606-2USJH3k68IvbaprTcVCH"
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không?",
+        "model_query": "đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không",
+        "filter": {},
+        "method": "tfidf",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 9,
+            "text": "1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 9,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 29"
+            },
+            "score": 0.60637227061173,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 9,
+            "text": "1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 9,
+              "year": 2005,
+              "chapter": "Chương Ii"
+            },
+            "score": 0.5977723797306909,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-f8a8ba804726f73e",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 10,
+            "text": "Điều 30. Chuyển khẩu hàng hoá\n\n1. Chuy ển kh ẩu hàng hóa là vi ệc mua hàng t ừ một n ước, vùng lãnh th ổ để bán sang m ột n ước, vùng lãnh th ổ ngoài lãnh th ổ Vi ệt Nam mà không làm thủ tục nh ập kh ẩu vào Vi ệt Nam và không làm th ủ tục xu ất kh ẩu ra kh ỏi Vi ệt Nam.\n\n2. Chuyển khẩu hàng hóa được thực hiện theo các hình thức sau đây:\n\na) Hàng hóa được v ận chuy ển th ẳng t ừ n ước xu ất kh ẩu đến n ước nh ập khẩu không qua cửa khẩu Việt Nam;\n\nb) Hàng hóa được vận chuyển t ừ nước xuất kh ẩu đến nước nhập khẩu có qua c ửa kh ẩu Vi ệt Nam nh ưng không làm th ủ t ục nh ập kh ẩu vào Vi ệt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam;\n\nc) Hàng hóa được vận chuyển từ nước xuất kh ẩu đến nước nhập khẩu có qua cửa khẩu Việt Nam và đưa vào kho ngo ại quan, khu v ực trung chuy ển hàng hoá tại các cảng Việt Nam, không làm th ủ tục nhập khẩu vào Việt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam.\n\n3. Chính phủ quy định chi tiết về hoạt động chuyển khẩu hàng hóa.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 10,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 30"
+            },
+            "score": 0.32429198084222993,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+        "context_ids": [
+          "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+          "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778"
+        ]
+      },
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_yyQAc76LGH9IfpJFJDwsckjL",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam không thuộc định nghĩa xuất khẩu. Xuất khẩu hàng hóa là việc hàng hóa được đưa ra khỏi lãnh thổ Việt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, không phải từ nội địa vào khu vực hải quan riêng.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb\"],\"abstain\":false}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801608-tmYZ4284BlW6RUtroaUm"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citation_rendering": "Append validated structured IDs absent from raw answer",
+    "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+    "context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778"
+    ],
+    "model_usage": [
+      {
+        "id": "gen-1794801606-2USJH3k68IvbaprTcVCH",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 307,
+          "completion_tokens": 36,
+          "total_tokens": 343,
+          "cost": 0.0001804,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001804,
+            "upstream_inference_prompt_cost": 0.0001228,
+            "upstream_inference_completions_cost": 5.76e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2709.6811999799684,
+        "attempt": 1
+      },
+      {
+        "id": "gen-1794801608-tmYZ4284BlW6RUtroaUm",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 1096,
+          "completion_tokens": 143,
+          "total_tokens": 1239,
+          "cost": 0.0006672,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0006672,
+            "upstream_inference_prompt_cost": 0.0004384,
+            "upstream_inference_completions_cost": 0.0002288
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2424.028299981728,
+        "attempt": 1
+      }
+    ],
+    "elapsed_ms": 5137.616199965123,
+    "searches": 1,
+    "query_id": "b2-t28",
+    "question": "Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không?",
+    "split": "test",
+    "config": "baseline",
+    "answerable": true,
+    "original_results": [
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 9,
+        "text": "1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 9,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 29"
+        },
+        "score": 0.60637227061173,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 9,
+        "text": "1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 9,
+          "year": 2005,
+          "chapter": "Chương Ii"
+        },
+        "score": 0.5977723797306909,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-f8a8ba804726f73e",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 10,
+        "text": "Điều 30. Chuyển khẩu hàng hoá\n\n1. Chuy ển kh ẩu hàng hóa là vi ệc mua hàng t ừ một n ước, vùng lãnh th ổ để bán sang m ột n ước, vùng lãnh th ổ ngoài lãnh th ổ Vi ệt Nam mà không làm thủ tục nh ập kh ẩu vào Vi ệt Nam và không làm th ủ tục xu ất kh ẩu ra kh ỏi Vi ệt Nam.\n\n2. Chuyển khẩu hàng hóa được thực hiện theo các hình thức sau đây:\n\na) Hàng hóa được v ận chuy ển th ẳng t ừ n ước xu ất kh ẩu đến n ước nh ập khẩu không qua cửa khẩu Việt Nam;\n\nb) Hàng hóa được vận chuyển t ừ nước xuất kh ẩu đến nước nhập khẩu có qua c ửa kh ẩu Vi ệt Nam nh ưng không làm th ủ t ục nh ập kh ẩu vào Vi ệt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam;\n\nc) Hàng hóa được vận chuyển từ nước xuất kh ẩu đến nước nhập khẩu có qua cửa khẩu Việt Nam và đưa vào kho ngo ại quan, khu v ực trung chuy ển hàng hoá tại các cảng Việt Nam, không làm th ủ tục nhập khẩu vào Việt Nam và không làm thủ tục xuất khẩu ra khỏi Việt Nam.\n\n3. Chính phủ quy định chi tiết về hoạt động chuyển khẩu hàng hóa.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 10,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 30"
+        },
+        "score": 0.32429198084222993,
+        "strategy": "tfidf"
+      }
+    ],
+    "original_context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Xu ất kh ẩu hàng hóa là vi ệc hàng hoá được đưa ra kh ỏi lãnh th ổ Vi ệt Nam hoặc đưa vào khu vực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n2. Nhập khẩu hàng hóa là vi ệc hàng hoá được đưa vào lãnh th ổ Việt Nam từ nước ngoài ho ặc từ khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật.\n\n3. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hóa c ấm xuất khẩu, cấm nhập khẩu, danh mục hàng hóa xu ất khẩu, nhập khẩu theo gi ấy phép c ủa cơ quan nhà n ước có th ẩm quyền và thủ tục cấp giấy phép.\n\nĐiều 29. Tạm nhập, tái xuất, tạm xuất, tái nhập hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\n1. Tạm nh ập, tái xu ất hàng hóa là vi ệc hàng hoá được đưa từ n ước ngoài hoặc từ các khu vực đặc biệt nằm trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp lu ật vào Vi ệt Nam, có làm th ủ tục nhập khẩu vào Việt Nam và làm thủ tục xuất khẩu chính hàng hoá đó ra khỏi Việt Nam.\n\n2. T ạm xu ất, tái nh ập hàng hóa là vi ệc hàng hoá được đưa ra n ước ngoài hoặc đưa vào các khu v ực đặc biệt nằm trên lãnh th ổ Việt Nam được coi là khu vực hải quan riêng theo quy định của pháp luật, có làm th ủ tục xuất khẩu ra khỏi Việt Nam và làm thủ tục nhập khẩu lại chính hàng hoá đó vào Việt Nam.\n\n3. Chính ph ủ quy định chi ti ết về ho ạt động tạm nh ập, tái xu ất, tạm xu ất, tái nhập hàng hóa.",
+    "original_context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-912c69a76dd1acdb",
+      "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-80f51ec21c883778"
+    ],
+    "original_hit1": false,
+    "original_hit3": false,
+    "original_context_hit": false,
+    "final_context_hit": false
+  },
+  {
+    "status": "answered",
+    "answer": "Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật Thương mại 2005. [luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a]",
+    "citations": [
+      "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_6l6zLUS3Sy4X5psnY5vbx7cd",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"hợp đồng bị tạm ngừng thực hiện hiệu lực hợp đồng quyền yêu cầu bồi thường\"}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801608-PC1z3k1g8LIZyzentgWg"
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Khi hợp đồng bị tạm ngừng thực hiện thì hiệu lực hợp đồng và quyền yêu cầu bồi thường của bên bị vi phạm ra sao?",
+        "model_query": "hợp đồng bị tạm ngừng thực hiện hiệu lực hợp đồng quyền yêu cầu bồi thường",
+        "filter": {},
+        "method": "tfidf",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 80,
+            "text": "1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 80,
+              "year": 2005,
+              "chapter": "Chương Vii",
+              "article": "Điều 309"
+            },
+            "score": 0.5296919944973897,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 79,
+            "text": "1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 79,
+              "year": 2005,
+              "chapter": "Chương Vii",
+              "article": "Điều 308"
+            },
+            "score": 0.44846355739954735,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p81-paragraph-1000-8c9c1ca01d9f8ab1",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 81,
+            "text": "2. Các bên có quy ền đòi lại lợi ích do vi ệc đã thực hiện phần nghĩa vụ của mình theo h ợp đồng; n ếu các bên đều có ngh ĩa vụ hoàn tr ả thì ngh ĩa v ụ của họ phải được thực hiện đồng thời; trường hợp không th ể hoàn tr ả bằng chính lợi ích đã nhận thì bên có nghĩa vụ phải hoàn trả bằng tiền.\n\n3. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 315. Thông báo tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng Bên tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng ph ải thông báo ngay cho bên kia bi ết về việc tạm ng ừng, đình ch ỉ hoặc huỷ bỏ hợp đồng. Trong trường hợp không thông báo ngay mà gây thi ệt hại cho bên kia thì bên t ạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng phải bồi thường thiệt hại.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 81,
+              "year": 2005,
+              "chapter": "Chương Vii",
+              "article": "Điều 315"
+            },
+            "score": 0.4242322109005279,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 80]\n1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng\n\n[luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 79]\n1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+        "context_ids": [
+          "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+          "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7"
+        ]
+      },
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_93HOURqv4VV0YSh11c7fq3HY",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật Thương mại 2005.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a\"],\"abstain\":false}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801610-iVMq19FDw8pEH32DlDe4"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citation_rendering": "Append validated structured IDs absent from raw answer",
+    "context": "[luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 80]\n1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng\n\n[luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 79]\n1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+    "context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+      "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7"
+    ],
+    "model_usage": [
+      {
+        "id": "gen-1794801608-PC1z3k1g8LIZyzentgWg",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 25,
+          "total_tokens": 328,
+          "cost": 0.0001612,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001612,
+            "upstream_inference_prompt_cost": 0.0001212,
+            "upstream_inference_completions_cost": 4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1430.4230000125244,
+        "attempt": 1
+      },
+      {
+        "id": "gen-1794801610-iVMq19FDw8pEH32DlDe4",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 1075,
+          "completion_tokens": 94,
+          "total_tokens": 1169,
+          "cost": 0.0005804,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0005804,
+            "upstream_inference_prompt_cost": 0.00043,
+            "upstream_inference_completions_cost": 0.0001504
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1852.232399978675,
+        "attempt": 1
+      }
+    ],
+    "elapsed_ms": 3288.3956999867223,
+    "searches": 1,
+    "query_id": "b2-t309",
+    "question": "Khi hợp đồng bị tạm ngừng thực hiện thì hiệu lực hợp đồng và quyền yêu cầu bồi thường của bên bị vi phạm ra sao?",
+    "split": "test",
+    "config": "baseline",
+    "answerable": true,
+    "original_results": [
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 80,
+        "text": "1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 80,
+          "year": 2005,
+          "chapter": "Chương Vii",
+          "article": "Điều 309"
+        },
+        "score": 0.5296919944973897,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 79,
+        "text": "1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 79,
+          "year": 2005,
+          "chapter": "Chương Vii",
+          "article": "Điều 308"
+        },
+        "score": 0.44846355739954735,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p81-paragraph-1000-8c9c1ca01d9f8ab1",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 81,
+        "text": "2. Các bên có quy ền đòi lại lợi ích do vi ệc đã thực hiện phần nghĩa vụ của mình theo h ợp đồng; n ếu các bên đều có ngh ĩa vụ hoàn tr ả thì ngh ĩa v ụ của họ phải được thực hiện đồng thời; trường hợp không th ể hoàn tr ả bằng chính lợi ích đã nhận thì bên có nghĩa vụ phải hoàn trả bằng tiền.\n\n3. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 315. Thông báo tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng Bên tạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng ph ải thông báo ngay cho bên kia bi ết về việc tạm ng ừng, đình ch ỉ hoặc huỷ bỏ hợp đồng. Trong trường hợp không thông báo ngay mà gây thi ệt hại cho bên kia thì bên t ạm ngừng thực hiện hợp đồng, đình chỉ thực hiện hợp đồng hoặc huỷ bỏ hợp đồng phải bồi thường thiệt hại.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 81,
+          "year": 2005,
+          "chapter": "Chương Vii",
+          "article": "Điều 315"
+        },
+        "score": 0.4242322109005279,
+        "strategy": "tfidf"
+      }
+    ],
+    "original_context": "[luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 80]\n1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng\n\n[luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 79]\n1. Trường hợp các bên không có thỏa thuận phạt vi phạm thì bên bị vi phạm chỉ có quy ền yêu c ầu b ồi thường thiệt hại, trừ tr ường hợp Lu ật này có quy định khác.\n\n2. Trường h ợp các bên có th ỏa thuận ph ạt vi ph ạm thì bên b ị vi ph ạm có quyền áp d ụng cả chế tài ph ạt vi ph ạm và bu ộc bồi thường thiệt h ại, trừ trường hợp Luật này có quy định khác.\n\nĐiều 308. Tạm ngừng thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, tạm ngừng thực hiện hợp đồng là việc một bên tạm thời không thực hiện nghĩa vụ trong hợp đồng thuộc một trong các trường hợp sau đây:",
+    "original_context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p80-paragraph-1000-241ec6477c83dc3a",
+      "luat-thuong-mai-36-2005-qh11-p79-paragraph-1000-36d656135ced3ca7"
+    ],
+    "original_hit1": true,
+    "original_hit3": true,
+    "original_context_hit": true,
+    "final_context_hit": true
+  },
+  {
+    "status": "answered",
+    "answer": "Bên mua có nghĩa vụ nhận hàng theo thỏa thuận và thực hiện những công việc hợp lý để giúp bên bán giao hàng. [luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de]",
+    "citations": [
+      "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_6n6GlyTyahpHc9OUpC2Uvyqk",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng\"}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801605-xTP3Kcz9mB1vjU6mYtGK"
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng?",
+        "model_query": "Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng",
+        "filter": {},
+        "method": "tfidf",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 13,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 43"
+            },
+            "score": 0.36828478692781863,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "text": "2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 16,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 56"
+            },
+            "score": 0.3629436450500882,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 12,
+            "text": "chuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 12,
+              "year": 2005,
+              "chapter": "Chương Ii",
+              "article": "Điều 37"
+            },
+            "score": 0.35985410526442946,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\n2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.",
+        "context_ids": [
+          "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+          "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de"
+        ]
+      },
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_YlEvuygB8O7WyQ7Uqfa9ZBwG",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Bên mua có nghĩa vụ nhận hàng theo thỏa thuận và thực hiện những công việc hợp lý để giúp bên bán giao hàng.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de\"],\"abstain\":false}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801607-y62aL9FhkwLd2W8ywhqp"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citation_rendering": "Append validated structured IDs absent from raw answer",
+    "context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\n2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.",
+    "context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+      "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de"
+    ],
+    "model_usage": [
+      {
+        "id": "gen-1794801605-xTP3Kcz9mB1vjU6mYtGK",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 289,
+          "completion_tokens": 21,
+          "total_tokens": 310,
+          "cost": 0.0001492,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001492,
+            "upstream_inference_prompt_cost": 0.0001156,
+            "upstream_inference_completions_cost": 3.36e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1517.4449000041932,
+        "attempt": 1
+      },
+      {
+        "id": "gen-1794801607-y62aL9FhkwLd2W8ywhqp",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 1152,
+          "completion_tokens": 76,
+          "total_tokens": 1228,
+          "cost": 0.0005824,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0005824,
+            "upstream_inference_prompt_cost": 0.0004608,
+            "upstream_inference_completions_cost": 0.0001216
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1975.5373999942094,
+        "attempt": 1
+      }
+    ],
+    "elapsed_ms": 3497.890600003302,
+    "searches": 1,
+    "query_id": "b2-t56",
+    "question": "Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng?",
+    "split": "test",
+    "config": "baseline",
+    "answerable": true,
+    "original_results": [
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 43"
+        },
+        "score": 0.36828478692781863,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "text": "2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 56"
+        },
+        "score": 0.3629436450500882,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 12,
+        "text": "chuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 12,
+          "year": 2005,
+          "chapter": "Chương Ii",
+          "article": "Điều 37"
+        },
+        "score": 0.35985410526442946,
+        "strategy": "tfidf"
+      }
+    ],
+    "original_context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\n2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá.",
+    "original_context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+      "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-4bf0b08e9bc3b4de"
+    ],
+    "original_hit1": false,
+    "original_hit3": true,
+    "original_context_hit": true,
+    "final_context_hit": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_i0PILxrV8LMbc3Fhf8clYBtf",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài\"}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801610-nucgR53Zzwo1DFB2vzS3"
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Theo tài liệu, lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài là bao nhiêu đồng?",
+        "model_query": "lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài",
+        "filter": {},
+        "method": "tfidf",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 6,
+              "year": 2005,
+              "chapter": "Chương I",
+              "article": "Điều 17"
+            },
+            "score": 0.4374451401530047,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 6,
+              "year": 2005,
+              "chapter": "Chương I",
+              "article": "Điều 18"
+            },
+            "score": 0.3608798978608868,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p39-paragraph-1000-268bfdf35129b234",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 39,
+            "text": "Chương V CÁC HOẠT ĐỘNG TRUNG GIAN THƯƠNG MẠI\n\nMục 1 ĐẠI DIỆN CHO THƯƠNG NHÂN\n\nĐiều 141. Đại diện cho thương nhân\n\n1. Đại diện cho th ương nhân là việc một thương nhân nh ận uỷ nhiệm (gọi là bên đại diện) của thương nhân khác (g ọi là bên giao đại diện) để thực hiện các hoạt động th ương m ại v ới danh ngh ĩa, theo s ự ch ỉ d ẫn c ủa th ương nhân đó và được hưởng thù lao về việc đại diện.\n\n2. Trong tr ường hợp thương nhân c ử người của mình để làm đại diện cho mình thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 142. Hợp đồng đại diện cho thương nhân Hợp đồng đại di ện cho th ương nhân ph ải được l ập thành v ăn b ản ho ặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 143. Phạm vi đại diện Các bên có th ể tho ả thu ận v ề vi ệc bên đại di ện được th ực hiện m ột ph ần hoặc toàn bộ hoạt động thương mại thuộc phạm vi hoạt động của bên giao đại diện.\n\nĐiều 144. Thời hạn đại diện cho thương nhân\n\n1. Thời hạn đại diện do các bên thoả thuận.",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 39,
+              "year": 2005,
+              "chapter": "Chương V",
+              "section": "Mục 1",
+              "article": "Điều 141"
+            },
+            "score": 0.33342732999550523,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+        "context_ids": [
+          "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+          "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+        ]
+      },
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_jxsDAHc8bySLSxAlVWhEo3sc",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Không tìm thấy thông tin về lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài trong tài liệu.\",\"citations\":[],\"abstain\":true}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801611-BcqSWyxI26UjE4x5wMFL"
+      },
+      {
+        "event": "abstain",
+        "reason": "model_abstain"
+      }
+    ],
+    "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+    "context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+      "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+    ],
+    "model_usage": [
+      {
+        "id": "gen-1794801610-nucgR53Zzwo1DFB2vzS3",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 298,
+          "completion_tokens": 22,
+          "total_tokens": 320,
+          "cost": 0.0001544,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001544,
+            "upstream_inference_prompt_cost": 0.0001192,
+            "upstream_inference_completions_cost": 3.52e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1284.5233000116423,
+        "attempt": 1
+      },
+      {
+        "id": "gen-1794801611-BcqSWyxI26UjE4x5wMFL",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 1217,
+          "completion_tokens": 40,
+          "total_tokens": 1257,
+          "cost": 0.0005508,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0005508,
+            "upstream_inference_prompt_cost": 0.0004868,
+            "upstream_inference_completions_cost": 6.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1437.9644999862649,
+        "attempt": 1
+      }
+    ],
+    "elapsed_ms": 2727.5118999532424,
+    "searches": 1,
+    "query_id": "b2-u1",
+    "question": "Theo tài liệu, lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài là bao nhiêu đồng?",
+    "split": "test",
+    "config": "baseline",
+    "answerable": false,
+    "original_results": [
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 6,
+        "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "year": 2005,
+          "chapter": "Chương I",
+          "article": "Điều 17"
+        },
+        "score": 0.4374451401530047,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 6,
+        "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "year": 2005,
+          "chapter": "Chương I",
+          "article": "Điều 18"
+        },
+        "score": 0.3608798978608868,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p39-paragraph-1000-268bfdf35129b234",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 39,
+        "text": "Chương V CÁC HOẠT ĐỘNG TRUNG GIAN THƯƠNG MẠI\n\nMục 1 ĐẠI DIỆN CHO THƯƠNG NHÂN\n\nĐiều 141. Đại diện cho thương nhân\n\n1. Đại diện cho th ương nhân là việc một thương nhân nh ận uỷ nhiệm (gọi là bên đại diện) của thương nhân khác (g ọi là bên giao đại diện) để thực hiện các hoạt động th ương m ại v ới danh ngh ĩa, theo s ự ch ỉ d ẫn c ủa th ương nhân đó và được hưởng thù lao về việc đại diện.\n\n2. Trong tr ường hợp thương nhân c ử người của mình để làm đại diện cho mình thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 142. Hợp đồng đại diện cho thương nhân Hợp đồng đại di ện cho th ương nhân ph ải được l ập thành v ăn b ản ho ặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 143. Phạm vi đại diện Các bên có th ể tho ả thu ận v ề vi ệc bên đại di ện được th ực hiện m ột ph ần hoặc toàn bộ hoạt động thương mại thuộc phạm vi hoạt động của bên giao đại diện.\n\nĐiều 144. Thời hạn đại diện cho thương nhân\n\n1. Thời hạn đại diện do các bên thoả thuận.",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 39,
+          "year": 2005,
+          "chapter": "Chương V",
+          "section": "Mục 1",
+          "article": "Điều 141"
+        },
+        "score": 0.33342732999550523,
+        "strategy": "tfidf"
+      }
+    ],
+    "original_context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+    "original_context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+      "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+    ],
+    "original_hit1": false,
+    "original_hit3": false,
+    "original_context_hit": false,
+    "final_context_hit": false
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_BkFrJA6r5M6PMd6gRTIrlSVp",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"mức tiền phạt hành chính bằng đồng đối với hành vi quảng cáo sai sự thật\"}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801611-lLwJhsssUV3qmHB6oQgZ"
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Theo tài liệu, mức tiền phạt hành chính cụ thể bằng đồng đối với hành vi quảng cáo sai sự thật là bao nhiêu?",
+        "model_query": "mức tiền phạt hành chính bằng đồng đối với hành vi quảng cáo sai sự thật",
+        "filter": {},
+        "method": "tfidf",
+        "top_k": 3,
+        "results": [
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 32,
+            "text": "cáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 32,
+              "year": 2005,
+              "chapter": "Chương Iv",
+              "section": "Mục 3",
+              "article": "Điều 115"
+            },
+            "score": 0.34904781867992446,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 31,
+            "text": "doanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 31,
+              "year": 2005,
+              "chapter": "Chương Iv",
+              "article": "Điều 110"
+            },
+            "score": 0.3314260463877964,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-40adc58b03803efe",
+            "source_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 31,
+            "text": "2. Nhận thù lao dịch vụ quảng cáo thương mại và các chi phí hợp lý khác.\n\nĐiều 114. Nghĩa vụ của bên cung ứng dịch vụ quảng cáo thương mại Trừ tr ường h ợp có th ỏa thu ận khác, b ên cung ứng d ịch v ụ qu ảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Thực hiện sự lựa chọn của bên thuê quảng cáo về người phát hành quảng cáo th ương m ại, hình th ức, n ội dung, ph ương ti ện, ph ạm vi và th ời gian qu ảng",
+            "metadata": {
+              "document_id": "luat-thuong-mai-36-2005-qh11",
+              "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+              "page": 31,
+              "year": 2005,
+              "chapter": "Chương Iv",
+              "article": "Điều 114"
+            },
+            "score": 0.282490425349595,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\ncáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 31]\ndoanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+        "context_ids": [
+          "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+          "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50"
+        ]
+      },
+      {
+        "event": "model",
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_7NNKH6ykkxprqlm8O0wpc41K",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Không tìm thấy mức tiền phạt hành chính cụ thể bằng đồng đối với hành vi quảng cáo sai sự thật trong tài liệu Luật Thương mại 2005.\",\"citations\":[],\"abstain\":true}"
+              }
+            }
+          ]
+        },
+        "response_id": "gen-1794801612-OIy5bkp7urMJUXgoXaMC"
+      },
+      {
+        "event": "abstain",
+        "reason": "model_abstain"
+      }
+    ],
+    "context": "[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\ncáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 31]\ndoanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+    "context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+      "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50"
+    ],
+    "model_usage": [
+      {
+        "id": "gen-1794801611-lLwJhsssUV3qmHB6oQgZ",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 300,
+          "completion_tokens": 23,
+          "total_tokens": 323,
+          "cost": 0.0001568,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001568,
+            "upstream_inference_prompt_cost": 0.00012,
+            "upstream_inference_completions_cost": 3.68e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2234.512099996209,
+        "attempt": 1
+      },
+      {
+        "id": "gen-1794801612-OIy5bkp7urMJUXgoXaMC",
+        "model": "openai/gpt-4.1-mini",
+        "endpoint": "chat/completions",
+        "usage": {
+          "prompt_tokens": 1174,
+          "completion_tokens": 48,
+          "total_tokens": 1222,
+          "cost": 0.0005464,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0005464,
+            "upstream_inference_prompt_cost": 0.0004696,
+            "upstream_inference_completions_cost": 7.68e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1644.4778999430127,
+        "attempt": 1
+      }
+    ],
+    "elapsed_ms": 3892.4718000344,
+    "searches": 1,
+    "query_id": "b2-u2",
+    "question": "Theo tài liệu, mức tiền phạt hành chính cụ thể bằng đồng đối với hành vi quảng cáo sai sự thật là bao nhiêu?",
+    "split": "test",
+    "config": "baseline",
+    "answerable": false,
+    "original_results": [
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 32,
+        "text": "cáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 32,
+          "year": 2005,
+          "chapter": "Chương Iv",
+          "section": "Mục 3",
+          "article": "Điều 115"
+        },
+        "score": 0.34904781867992446,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 31,
+        "text": "doanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 31,
+          "year": 2005,
+          "chapter": "Chương Iv",
+          "article": "Điều 110"
+        },
+        "score": 0.3314260463877964,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-40adc58b03803efe",
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 31,
+        "text": "2. Nhận thù lao dịch vụ quảng cáo thương mại và các chi phí hợp lý khác.\n\nĐiều 114. Nghĩa vụ của bên cung ứng dịch vụ quảng cáo thương mại Trừ tr ường h ợp có th ỏa thu ận khác, b ên cung ứng d ịch v ụ qu ảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Thực hiện sự lựa chọn của bên thuê quảng cáo về người phát hành quảng cáo th ương m ại, hình th ức, n ội dung, ph ương ti ện, ph ạm vi và th ời gian qu ảng",
+        "metadata": {
+          "document_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 31,
+          "year": 2005,
+          "chapter": "Chương Iv",
+          "article": "Điều 114"
+        },
+        "score": 0.282490425349595,
+        "strategy": "tfidf"
+      }
+    ],
+    "original_context": "[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\ncáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 31]\ndoanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+    "original_context_ids": [
+      "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+      "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50"
+    ],
+    "original_hit1": false,
+    "original_hit3": false,
+    "original_context_hit": false,
+    "final_context_hit": false
+  }
+]

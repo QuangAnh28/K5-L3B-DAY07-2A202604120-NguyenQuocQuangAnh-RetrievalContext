@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p030",
+  "image_sha256": "36acfc5f879bb16ee24b7da31e2bb9c110fc77f9be2d25af7f5d612b82fe3ce3",
+  "caption": {
+    "summary": "Hành trình khẳng định năng lực và vị thế của FPT qua các năm 2022 đến 2025 với các mốc phát triển công nghệ, thành lập công ty con, hợp tác chiến lược và mở rộng quy mô.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Hành trình khẳng định năng lực và vị thế",
+        "location": "trên",
+        "description": "Các mốc thời gian 2022, 2023, 2024, 2025 với các sự kiện và thành tựu tương ứng của FPT trong từng năm."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800708-UXdWF8LnxZQjdcORTXJI",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 122,
+        "total_tokens": 2684,
+        "cost": 0.00122,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00122,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001952
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4459.162200044375,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

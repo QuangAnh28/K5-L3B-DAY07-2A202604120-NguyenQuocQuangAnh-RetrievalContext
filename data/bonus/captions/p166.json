@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p166",
+  "image_sha256": "d6446acb6ecb38af2d029542a6a6e5cbef4f6a35d722fd707259586387ef026a",
+  "caption": {
+    "summary": "Bảng cân đối kế toán hợp nhất thể hiện chi tiết tài sản dài hạn của FPT tại ngày 31 tháng 12 năm 2025 và 2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Bảng cân đối kế toán hợp nhất - Tài sản dài hạn",
+        "location": "giữa trang",
+        "description": "Bảng liệt kê các khoản mục tài sản dài hạn gồm các khoản phải thu dài hạn, tài sản cố định, tài sản dở dang dài hạn, đầu tư tài chính dài hạn và tài sản dài hạn khác với số liệu năm 2025 và 2024, đơn vị tính VND."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800804-UNaBgNFTHvSBvQPr9G5E",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 137,
+        "total_tokens": 2699,
+        "cost": 0.001244,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001244,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002192
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4052.756999968551,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

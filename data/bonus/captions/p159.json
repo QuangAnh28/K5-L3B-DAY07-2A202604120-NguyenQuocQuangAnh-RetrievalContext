@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p159",
+  "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457",
+  "caption": {
+    "summary": "Trang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Biểu tượng tài chính và biểu đồ",
+        "location": "phải",
+        "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800800-hi5IFFDPQh5Q6a4VlSFW",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 91,
+        "total_tokens": 2653,
+        "cost": 0.0011704,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011704,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001456
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4383.766499988269,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,278 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_7JJo72gkzZUjVwboulD1Fzto",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"thỏa thuận thời hạn mà không chốt thời điểm giao hàng bên bán được giao thế nào\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797402-wcl7aqIZWc2bPI5JlMxW"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Chỉ thỏa thuận thời hạn mà không chốt thời điểm giao hàng: bên bán được giao thế nào?",
+      "model_query": "thỏa thuận thời hạn mà không chốt thời điểm giao hàng bên bán được giao thế nào",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 12,
+          "text": "chuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 12,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 37"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 43"
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p77-paragraph-1000-ec9cd75f9726d7ee",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 77,
+          "text": "1. Trong tr ường hợp bất khả kháng, các bên có th ể thoả thuận kéo dài th ời hạn thực hiện nghĩa vụ hợp đồng; nếu các bên không có tho ả thuận hoặc không thỏa thu ận được thì th ời h ạn th ực hi ện ngh ĩa v ụ h ợp đồng được tính thêm m ột thời gian b ằng thời gian x ảy ra trường hợp bất khả kháng cộng với thời gian hợp lý để khắc phục hậu quả, nhưng không được kéo dài quá các thời hạn sau đây:\n\na) N ăm tháng đối v ới hàng hoá, d ịch v ụ mà th ời h ạn giao hàng, cung ứng d ịch vụ được tho ả thuận không quá m ười hai tháng, k ể từ khi giao k ết hợp đồng;\n\nb) Tám tháng đối với hàng hoá, d ịch vụ mà th ời hạn giao hàng, cung ứng dịch vụ được thoả thuận trên mười hai tháng, kể từ khi giao kết hợp đồng.\n\n2. Trường hợp kéo dài quá các th ời hạn quy định tại khoản 1 Điều này, các bên có quyền từ chối thực hiện hợp đồng và không bên nào có quyền yêu cầu bên kia bồi thường thiệt hại.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 77,
+            "year": 2005,
+            "chapter": "Chương Vii"
+          },
+          "score": 0.03057889822595705,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 8
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\nchuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+        "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_Inq44hPLzMJSkWnv3Dii8YbX",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo Điều 37 khoản 2 Luật Thương mại 2005, nếu chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng cụ thể thì bên bán có quyền giao hàng vào bất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797407-p25eb4GcaJgCumy6fe9L"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\nchuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797402-wcl7aqIZWc2bPI5JlMxW",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 295,
+        "completion_tokens": 24,
+        "total_tokens": 319,
+        "cost": 0.0001564,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001564,
+          "upstream_inference_prompt_cost": 0.000118,
+          "upstream_inference_completions_cost": 3.84e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 17490.73339998722,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797407-p25eb4GcaJgCumy6fe9L",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1168,
+        "completion_tokens": 109,
+        "total_tokens": 1277,
+        "cost": 0.0006416,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006416,
+          "upstream_inference_prompt_cost": 0.0004672,
+          "upstream_inference_completions_cost": 0.0001744
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5923.745600041002,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 23424.604700005148,
+  "searches": 1,
+  "query_id": "d7-q08",
+  "question": "Chỉ thỏa thuận thời hạn mà không chốt thời điểm giao hàng: bên bán được giao thế nào?",
+  "split": "dev",
+  "config": "hybrid",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 12,
+      "text": "chuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 12,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 37"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 13,
+      "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 43"
+      },
+      "score": 0.03225806451612903,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p77-paragraph-1000-ec9cd75f9726d7ee",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 77,
+      "text": "1. Trong tr ường hợp bất khả kháng, các bên có th ể thoả thuận kéo dài th ời hạn thực hiện nghĩa vụ hợp đồng; nếu các bên không có tho ả thuận hoặc không thỏa thu ận được thì th ời h ạn th ực hi ện ngh ĩa v ụ h ợp đồng được tính thêm m ột thời gian b ằng thời gian x ảy ra trường hợp bất khả kháng cộng với thời gian hợp lý để khắc phục hậu quả, nhưng không được kéo dài quá các thời hạn sau đây:\n\na) N ăm tháng đối v ới hàng hoá, d ịch v ụ mà th ời h ạn giao hàng, cung ứng d ịch vụ được tho ả thuận không quá m ười hai tháng, k ể từ khi giao k ết hợp đồng;\n\nb) Tám tháng đối với hàng hoá, d ịch vụ mà th ời hạn giao hàng, cung ứng dịch vụ được thoả thuận trên mười hai tháng, kể từ khi giao kết hợp đồng.\n\n2. Trường hợp kéo dài quá các th ời hạn quy định tại khoản 1 Điều này, các bên có quyền từ chối thực hiện hợp đồng và không bên nào có quyền yêu cầu bên kia bồi thường thiệt hại.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 77,
+        "year": 2005,
+        "chapter": "Chương Vii"
+      },
+      "score": 0.03057889822595705,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 8
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\nchuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:\n\n[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

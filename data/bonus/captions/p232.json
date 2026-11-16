@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p232",
+  "image_sha256": "294643809b51ba4325bc9f0830fed1dcd7a9ee827735654fc53ec60998f762fc",
+  "caption": {
+    "summary": "Trang thông tin liên hệ của Công ty Cổ phần FPT với địa chỉ, số điện thoại và website.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800856-1QuffhVsPHuvagtMP0ZP",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 31,
+        "total_tokens": 2593,
+        "cost": 0.0010744,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010744,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 4.96e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3369.395199988503,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

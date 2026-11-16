@@ -1,0 +1,258 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_MTirlTkWVQibANAn4PkWVQq2",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Thông điệp dữ liệu có giá trị pháp lý tương đương văn bản khi nào\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797309-KCeIuIVzzpTS8PFYhqJ2"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+      "model_query": "Thông điệp dữ liệu có giá trị pháp lý tương đương văn bản khi nào",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "year": 2005,
+            "chapter": "Chương I",
+            "section": "Mục 3",
+            "article": "Điều 15"
+          },
+          "score": 0.293565333584468,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 3,
+          "text": "15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 3,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 4"
+          },
+          "score": 0.1880638355914726,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 53,
+          "text": "6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 53,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 202"
+          },
+          "score": 0.1764166462084707,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+        "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_aqkufii9Qtr8TRXpGZ6lWOff",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Thông điệp dữ liệu được thừa nhận có giá trị pháp lý tương đương văn bản khi đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797311-peRORMtfNFeOXg3G4RJd"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+    "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797309-KCeIuIVzzpTS8PFYhqJ2",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 22,
+        "total_tokens": 313,
+        "cost": 0.0001516,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001516,
+          "upstream_inference_prompt_cost": 0.0001164,
+          "upstream_inference_completions_cost": 3.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1983.2395000266843,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797311-peRORMtfNFeOXg3G4RJd",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1165,
+        "completion_tokens": 84,
+        "total_tokens": 1249,
+        "cost": 0.0006004,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006004,
+          "upstream_inference_prompt_cost": 0.000466,
+          "upstream_inference_completions_cost": 0.0001344
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2120.5148000153713,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 4108.249499986414,
+  "searches": 1,
+  "query_id": "d7-q03",
+  "question": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+  "split": "dev",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 5,
+      "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 5,
+        "year": 2005,
+        "chapter": "Chương I",
+        "section": "Mục 3",
+        "article": "Điều 15"
+      },
+      "score": 0.293565333584468,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 3,
+      "text": "15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 3,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 4"
+      },
+      "score": 0.1880638355914726,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 53,
+      "text": "6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 53,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 202"
+      },
+      "score": 0.1764166462084707,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+    "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

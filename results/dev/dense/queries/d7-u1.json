@@ -1,0 +1,255 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_VaYSd5FCOpA0VDiakQsxl9Iq",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801224-JTZRbduZxRvNTodKWBO7"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+      "model_query": "Cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 49,
+          "text": "3. Bảo quản hàng hoá đấu giá khi được người bán hàng giao giữ.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 49,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.3951252382024052,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 62,
+          "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 62,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.36032500387084987,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 27,
+          "text": "c) Giá trị bằng tiền hoặc lợi ích cụ thể mà khách hàng được hưởng từ phiếu mua hàng, phiếu sử dụng dịch vụ; địa điểm bán hàng, cung ứng dịch vụ và các loại hàng hóa, dịch vụ mà khách hàng có thể nhận được từ phiếu mua hàng, phiếu sử dụng dịch vụ đối với hình thức khuyến mại quy định tại khoản 4 Điều 92 của Luật này;\n\nd) Loại giải thưởng và giá trị của từng loại giải thưởng; thể lệ tham gia các chương trình khuy ến m ại, cách th ức l ựa ch ọn ng ười trúng th ưởng đối v ới các hình thức khuyến mại quy định tại khoản 5, khoản 6 Điều 92 của Luật này;\n\nđ) Các chi phí mà khách hàng ph ải tự ch ịu đối với các hình th ức khuy ến mại quy định tại khoản 7, khoản 8 Điều 92 của Luật này.\n\nĐiều 98. Cách thức thông báo\n\n1. Việc thông báo khuyến mại hàng hoá theo quy định tại Điều 97 của Luật này được thực hiện bằng một trong các cách thức sau đây:\n\na) Tại địa điểm bán hàng hóa và nơi để hàng hoá bày bán;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 27,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 98"
+          },
+          "score": 0.35335237475391207,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 49]\n3. Bảo quản hàng hoá đấu giá khi được người bán hàng giao giữ.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.\n\n[luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 27]\nc) Giá trị bằng tiền hoặc lợi ích cụ thể mà khách hàng được hưởng từ phiếu mua hàng, phiếu sử dụng dịch vụ; địa điểm bán hàng, cung ứng dịch vụ và các loại hàng hóa, dịch vụ mà khách hàng có thể nhận được từ phiếu mua hàng, phiếu sử dụng dịch vụ đối với hình thức khuyến mại quy định tại khoản 4 Điều 92 của Luật này;\n\nd) Loại giải thưởng và giá trị của từng loại giải thưởng; thể lệ tham gia các chương trình khuy ến m ại, cách th ức l ựa ch ọn ng ười trúng th ưởng đối v ới các hình thức khuyến mại quy định tại khoản 5, khoản 6 Điều 92 của Luật này;\n\nđ) Các chi phí mà khách hàng ph ải tự ch ịu đối với các hình th ức khuy ến mại quy định tại khoản 7, khoản 8 Điều 92 của Luật này.\n\nĐiều 98. Cách thức thông báo\n\n1. Việc thông báo khuyến mại hàng hoá theo quy định tại Điều 97 của Luật này được thực hiện bằng một trong các cách thức sau đây:\n\na) Tại địa điểm bán hàng hóa và nơi để hàng hoá bày bán;",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9",
+        "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+        "luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_SduGBlcK9GEcT0xkz3T2VpqL",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không có bằng chứng trong tài liệu Luật Thương mại 2005 về ngày cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801226-htBL8cSPuwDcynHhO6Io"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 49]\n3. Bảo quản hàng hoá đấu giá khi được người bán hàng giao giữ.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.\n\n[luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 27]\nc) Giá trị bằng tiền hoặc lợi ích cụ thể mà khách hàng được hưởng từ phiếu mua hàng, phiếu sử dụng dịch vụ; địa điểm bán hàng, cung ứng dịch vụ và các loại hàng hóa, dịch vụ mà khách hàng có thể nhận được từ phiếu mua hàng, phiếu sử dụng dịch vụ đối với hình thức khuyến mại quy định tại khoản 4 Điều 92 của Luật này;\n\nd) Loại giải thưởng và giá trị của từng loại giải thưởng; thể lệ tham gia các chương trình khuy ến m ại, cách th ức l ựa ch ọn ng ười trúng th ưởng đối v ới các hình thức khuyến mại quy định tại khoản 5, khoản 6 Điều 92 của Luật này;\n\nđ) Các chi phí mà khách hàng ph ải tự ch ịu đối với các hình th ức khuy ến mại quy định tại khoản 7, khoản 8 Điều 92 của Luật này.\n\nĐiều 98. Cách thức thông báo\n\n1. Việc thông báo khuyến mại hàng hoá theo quy định tại Điều 97 của Luật này được thực hiện bằng một trong các cách thức sau đây:\n\na) Tại địa điểm bán hàng hóa và nơi để hàng hoá bày bán;",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+    "luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801224-JTZRbduZxRvNTodKWBO7",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 17,
+        "total_tokens": 306,
+        "cost": 0.0001428,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001428,
+          "upstream_inference_prompt_cost": 0.0001156,
+          "upstream_inference_completions_cost": 2.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 22802.944299997762,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801226-htBL8cSPuwDcynHhO6Io",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1206,
+        "completion_tokens": 43,
+        "total_tokens": 1249,
+        "cost": 0.000244,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000244,
+          "upstream_inference_prompt_cost": 0.0001752,
+          "upstream_inference_completions_cost": 6.88e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2635.32210001722,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 25450.361799972598,
+  "searches": 1,
+  "query_id": "d7-u1",
+  "question": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 49,
+      "text": "3. Bảo quản hàng hoá đấu giá khi được người bán hàng giao giữ.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 49,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.3951252382024052,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 62,
+      "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 62,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.36032500387084987,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 27,
+      "text": "c) Giá trị bằng tiền hoặc lợi ích cụ thể mà khách hàng được hưởng từ phiếu mua hàng, phiếu sử dụng dịch vụ; địa điểm bán hàng, cung ứng dịch vụ và các loại hàng hóa, dịch vụ mà khách hàng có thể nhận được từ phiếu mua hàng, phiếu sử dụng dịch vụ đối với hình thức khuyến mại quy định tại khoản 4 Điều 92 của Luật này;\n\nd) Loại giải thưởng và giá trị của từng loại giải thưởng; thể lệ tham gia các chương trình khuy ến m ại, cách th ức l ựa ch ọn ng ười trúng th ưởng đối v ới các hình thức khuyến mại quy định tại khoản 5, khoản 6 Điều 92 của Luật này;\n\nđ) Các chi phí mà khách hàng ph ải tự ch ịu đối với các hình th ức khuy ến mại quy định tại khoản 7, khoản 8 Điều 92 của Luật này.\n\nĐiều 98. Cách thức thông báo\n\n1. Việc thông báo khuyến mại hàng hoá theo quy định tại Điều 97 của Luật này được thực hiện bằng một trong các cách thức sau đây:\n\na) Tại địa điểm bán hàng hóa và nơi để hàng hoá bày bán;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 27,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 98"
+      },
+      "score": 0.35335237475391207,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 49]\n3. Bảo quản hàng hoá đấu giá khi được người bán hàng giao giữ.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.\n\n[luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 27]\nc) Giá trị bằng tiền hoặc lợi ích cụ thể mà khách hàng được hưởng từ phiếu mua hàng, phiếu sử dụng dịch vụ; địa điểm bán hàng, cung ứng dịch vụ và các loại hàng hóa, dịch vụ mà khách hàng có thể nhận được từ phiếu mua hàng, phiếu sử dụng dịch vụ đối với hình thức khuyến mại quy định tại khoản 4 Điều 92 của Luật này;\n\nd) Loại giải thưởng và giá trị của từng loại giải thưởng; thể lệ tham gia các chương trình khuy ến m ại, cách th ức l ựa ch ọn ng ười trúng th ưởng đối v ới các hình thức khuyến mại quy định tại khoản 5, khoản 6 Điều 92 của Luật này;\n\nđ) Các chi phí mà khách hàng ph ải tự ch ịu đối với các hình th ức khuy ến mại quy định tại khoản 7, khoản 8 Điều 92 của Luật này.\n\nĐiều 98. Cách thức thông báo\n\n1. Việc thông báo khuyến mại hàng hoá theo quy định tại Điều 97 của Luật này được thực hiện bằng một trong các cách thức sau đây:\n\na) Tại địa điểm bán hàng hóa và nơi để hàng hoá bày bán;",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p49-paragraph-1000-df823b882ff61da9",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+    "luat-thuong-mai-36-2005-qh11-p27-paragraph-1000-5b865424c512ce8d"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

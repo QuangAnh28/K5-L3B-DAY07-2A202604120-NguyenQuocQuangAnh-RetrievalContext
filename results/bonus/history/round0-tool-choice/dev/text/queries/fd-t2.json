@@ -1,0 +1,311 @@
+{
+  "status": "answered",
+  "answer": "Tỷ lệ sở hữu tối đa của cổ đông nước ngoài trong bảng thông tin cổ phiếu của Công ty Cổ phần FPT là 49%.\n[FPT2025:p032 — trái trên bảng Thông tin về cổ phiếu, dòng Tỷ lệ sở hữu tối đa của cổ đông nước ngoài]",
+  "citations": [
+    {
+      "id": "FPT2025:p032",
+      "region": "trái trên bảng Thông tin về cổ phiếu, dòng Tỷ lệ sở hữu tối đa của cổ đông nước ngoài"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801369-f4x1oSJ8JjYA7Osp0lTI",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_IIveUDNWj6tOMQGHDdKDA9yM",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"tỷ lệ sở hữu tối đa của cổ đông nước ngoài\",\"cổ đông nước ngoài tỷ lệ sở hữu tối đa\",\"cổ phiếu tỷ lệ sở hữu tối đa cổ đông nước ngoài\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong bảng thông tin cổ phiếu, tỷ lệ sở hữu tối đa của cổ đông nước ngoài là bao nhiêu?",
+      "model_queries": [
+        "tỷ lệ sở hữu tối đa của cổ đông nước ngoài",
+        "cổ đông nước ngoài tỷ lệ sở hữu tối đa",
+        "cổ phiếu tỷ lệ sở hữu tối đa cổ đông nước ngoài"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p032",
+          "page": 32,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p033",
+          "page": 33,
+          "score": 0.0315136476426799,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p205",
+          "page": 205,
+          "score": 0.031009615384615385,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "score": 0.03036576949620428,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 3
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong bảng thông tin cổ phiếu, tỷ lệ sở hữu tối đa của cổ đông nước ngoài là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p032",
+        "FPT2025:p033",
+        "FPT2025:p205",
+        "FPT2025:p036"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p032",
+          "page": 32,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Cơ cấu cổ đông\nTrong năm 2025, Tập đoàn không thực hiện giao dịch cổ phiếu quỹ\n• Cơ cấu cổ đông theo các mức cổ phiếu sở hữu\nTên cổ phiếu\nLoại cổ phiếu\nMã chứng khoán\nMệnh giá cổ phiếu\nNgày bắt đầu niêm yết/đăng ký giao dịch\nTổng số cổ phiếu đang lưu hành\nTổng số cổ phiếu quỹ\nSố lượng cổ phiếu tự do chuyển nhượng\nSố lượng cổ phiếu hạn chế chuyển nhượng\nTỷ lệ sở hữu tối đa của cổ đông nước ngoài\nCổ phiếu Công ty Cổ phần FPT\nCổ phiếu phổ thông\nFPT\n10.000 VNĐ\n13/12/2006\n1.703.507.121 cổ phiếu\n0 cổ phiếu\n1.671.922.715 cổ phiếu\n31.584.406 cổ phiếu\n49%\nCác mức \ncổ phiếu sở hữu\nSố lượng \ncổ đông\nTỷ lệ/\nTổng số\ncổ đông\nSố lượng\ncổ phiếu\nsở hữu\nTỷ lệ/Tổng số \ncổ phiếu \nđã phát hành\n01 – 999\n1.000 – 10.000\n10.001 – 1.000.000\n1.000.001 trở lên\nTổng số\n89.786\n32.023\n5.425\n254\n127.488\n70,43%\n25,12%\n4,26%\n0,20%\n100,00%\n19.527.027\n94.203.628\n348.178.407\n1.241.598.059\n1.703.507.121\n1,15%\n5,53%\n20,44%\n72,88%\n100,00%\n• Cơ cấu cổ đông theo đối tượng sở hữu\nĐối tượng Số lượng\ncổ đông\nTỷ lệ/\nTổng số \ncổ đông\nSố lượng\ncổ phiếu đang\nnắm giữ\nTỷ lệ/Tổng số \ncổ phiếu \nđã phát hành\nNhà nước\nCổ đông nội bộ\nCổ đông ngoài \n(Cá nhân)\nCổ đông ngoài \n(Tổ chức)\nTổng số\n1\n10\n126.709\n768\n127.488\n0,00%\n0,01%\n99,39%\n0,60%\n100,00%\n96.585.637\n273.445.441\n583.704.491\n749.771.552\n1.703.507.121\n5,67%\n16,05%\n34,26%\n44,01%\n100,00%\n• Thông tin về cổ phiếu\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày cơ cấu cổ đông của Công ty Cổ phần FPT năm 2025, bao gồm thông tin chi tiết về cổ phiếu và phân loại cổ đông theo số lượng cổ phiếu sở hữu và theo đối tượng sở hữu.\ntable: Thông tin về cổ phiếu (trái trên) — Tên cổ phiếu, loại cổ phiếu, mã chứng khoán, mệnh giá, ngày niêm yết, tổng số cổ phiếu lưu hành, cổ phiếu quỹ, số lượng cổ phiếu tự do chuyển nhượng, số lượng cổ phiếu hạn chế chuyển nhượng, tỷ lệ sở hữu tối đa của cổ đông nước ngoài.\ntable: Cơ cấu cổ đông theo các mức cổ phiếu sở hữu (phải trên) — Các mức cổ phiếu sở hữu (01-999, 1.000-10.000, 10.001-1.000.000, 1.000.001 trở lên), số lượng cổ đông, tỷ lệ/tổng số cổ đông, số lượng cổ phiếu sở hữu, tỷ lệ/tổng số cổ phiếu đã phát hành.\ntable: Cơ cấu cổ đông theo đối tượng sở hữu (phải dưới) — Các đối tượng cổ đông (Nhà nước, cổ đông nội bộ, cổ đông ngoài cá nhân, cổ đông ngoài tổ chức), số lượng cổ đông, tỷ lệ/tổng số cổ đông, số lượng cổ phiếu đang nắm giữ, tỷ lệ/tổng số cổ phiếu đã phát hành.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Thông tin về cổ phiếu",
+              "location": "trái trên",
+              "description": "Tên cổ phiếu, loại cổ phiếu, mã chứng khoán, mệnh giá, ngày niêm yết, tổng số cổ phiếu lưu hành, cổ phiếu quỹ, số lượng cổ phiếu tự do chuyển nhượng, số lượng cổ phiếu hạn chế chuyển nhượng, tỷ lệ sở hữu tối đa của cổ đông nước ngoài."
+            },
+            {
+              "type": "table",
+              "title": "Cơ cấu cổ đông theo các mức cổ phiếu sở hữu",
+              "location": "phải trên",
+              "description": "Các mức cổ phiếu sở hữu (01-999, 1.000-10.000, 10.001-1.000.000, 1.000.001 trở lên), số lượng cổ đông, tỷ lệ/tổng số cổ đông, số lượng cổ phiếu sở hữu, tỷ lệ/tổng số cổ phiếu đã phát hành."
+            },
+            {
+              "type": "table",
+              "title": "Cơ cấu cổ đông theo đối tượng sở hữu",
+              "location": "phải dưới",
+              "description": "Các đối tượng cổ đông (Nhà nước, cổ đông nội bộ, cổ đông ngoài cá nhân, cổ đông ngoài tổ chức), số lượng cổ đông, tỷ lệ/tổng số cổ đông, số lượng cổ phiếu đang nắm giữ, tỷ lệ/tổng số cổ phiếu đã phát hành."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p033",
+          "page": 33,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Cơ cấu cổ đông theo quốc tịch \nĐối tượng Số lượng\ncổ đông\nTỷ lệ/\nTổng số\ncổ đông\nSố lượng\ncổ phiếu\nsở hữu\nTỷ lệ/Tổng số \ncổ phiếu\nđã phát hành \nViệt Nam\nCá nhân\nTổ chức\nNước ngoài\nCá nhân\nTổ chức\nTổng số\n124.667\n124.385\n282\n2.821\n2.334\n487\n127.488\n97,8%\n97,6%\n0,2%\n2,2%\n1,8%\n0,4%\n100,00%\n1.043.777.633\n744.568.681\n299.208.952\n659.729.488\n15.995.614\n643.733.874\n1.703.507.121\n61,27%\n43,71%\n17,56%\n38,73%\n0,94%\n37,79%\n100,00%\n• Tình hình thay đổi vốn điều lệ\nLần Thời điểm\nphát hành\nVốn điều lệ\nsau khi phát hành\nLý do\n1\n2\n3\n4\n5\n6\n04/2002\n04/2003\n10/2003\n05/2004\n01/2005\n08/2005\n20.000.000.000\n30.000.000.000\n150.000.000.000\n189.752.500.000\n263.252.500.000\n362.084.900.000\nCổ phần hóa.\nTăng vốn điều lệ từ kết quả kinh doanh năm 2002.\nPhát hành thêm cổ phần.\nTăng vốn điều lệ từ kết quả kinh doanh năm 2003.\nPhát hành thêm cổ phần.\nTăng vốn điều lệ từ kết quả kinh doanh năm 2004.\n• Top 10 cổ đông lớn \nSTT Đối tượng Số cổ phần Tỷ lệ\nÔng Trương Gia Bình\nTổng Công ty Đầu tư và Kinh doanh vốn \nNhà nước – Công ty TNHH\nCông ty TNHH QT\nPYN ELITE FUND (NON-UCITS)\nÔng Bùi Quang Ngọc\nBà Trương Thị Thanh Thanh\nQuỹ ETF DCVFMVN DIAMOND\nNTASIAN DISCOVERY MASTER FUND\nEMPLOYEES PROVIDENT FUND BOARD\nFIRST SENTIER INVESTORS GLOBAL \nUMBRELLA FUND PLC – FSSA ASIAN \nEQUITY PLUS FUND\n117.347.966\n96.585.637\n62.449.511\n30.044.600\n25.255.715\n25.095.835\n22.966.161\n22.250.000\n20.000.000\n17.597.379\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n6,89%\n5,67%\n3,67%\n1,76%\n1,48%\n1,47%\n1,35%\n1,31%\n1,17%\n1,03%\nĐơn vị: VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thông tin về cơ cấu cổ đông theo quốc tịch, danh sách 10 cổ đông lớn nhất và tình hình thay đổi vốn điều lệ của FPT.\ntable: Cơ cấu cổ đông theo quốc tịch (trái trên) — Bảng thể hiện số lượng cổ đông, tỷ lệ trên tổng số cổ đông, số lượng cổ phiếu sở hữu và tỷ lệ trên tổng số cổ phiếu đã phát hành phân theo cổ đông Việt Nam và nước ngoài, cá nhân và tổ chức.\ntable: Top 10 cổ đông lớn (phải trên) — Danh sách 10 cổ đông lớn nhất của FPT, gồm tên đối tượng, số cổ phần và tỷ lệ sở hữu.\ntable: Tình hình thay đổi vốn điều lệ (dưới) — Bảng thể hiện các lần phát hành cổ phiếu, thời điểm phát hành, vốn điều lệ sau phát hành và lý do thay đổi vốn điều lệ từ năm 2002 đến 2005.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Cơ cấu cổ đông theo quốc tịch",
+              "location": "trái trên",
+              "description": "Bảng thể hiện số lượng cổ đông, tỷ lệ trên tổng số cổ đông, số lượng cổ phiếu sở hữu và tỷ lệ trên tổng số cổ phiếu đã phát hành phân theo cổ đông Việt Nam và nước ngoài, cá nhân và tổ chức."
+            },
+            {
+              "type": "table",
+              "title": "Top 10 cổ đông lớn",
+              "location": "phải trên",
+              "description": "Danh sách 10 cổ đông lớn nhất của FPT, gồm tên đối tượng, số cổ phần và tỷ lệ sở hữu."
+            },
+            {
+              "type": "table",
+              "title": "Tình hình thay đổi vốn điều lệ",
+              "location": "dưới",
+              "description": "Bảng thể hiện các lần phát hành cổ phiếu, thời điểm phát hành, vốn điều lệ sau phát hành và lý do thay đổi vốn điều lệ từ năm 2002 đến 2005."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p205",
+          "page": 205,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "23. Vốn góp của chủ sở hữu (Tiếp theo)\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nĐơn vị: VNĐ\nĐơn vị: VNĐ\nTổng Công ty Đầu tư và Kinh doanh \nvốn Nhà nước\nÔng Trương Gia Bình\nCổ đông khác\nSố lượng cổ phiếu đang lưu hành\n96.585.637\n117.347.966\n1.489.573.518\n1.703.507.121\n83.987.511\n102.041.710\n1.285.039.962\n1.471.069.183\n5,71\n6,94\n87,35\n100\n5,67\n6,89\n87,44\n100\n31/12/2025\n(b) Chi tiết vốn góp của chủ sở hữu\nCổ phiếu phổ thông %\n31/12/2024\nCổ phiếu phổ thông %\nTại ngày 1 tháng 1 năm 2024\nPhát hành cổ phiếu mới\nTăng vốn từ nguồn vốn chủ sở hữu cho \ncổ đông hiện hữu \nTại ngày 31 tháng 12 năm 2024\nPhát hành cổ phiếu mới\nTăng vốn từ nguồn vốn chủ sở hữu cho \ncổ đông hiện hữu\nTại ngày 31 tháng 12 năm 2025\n1.269.968.875\n10.621.117 \n190.479.191 \n1.471.069.183 \n10.260.939\n222.176.999\n1.703.507.121\n12.699.688.750.000\n106.211.170.000\n1.904.791.910.000\n14.710.691.830.000\n102.609.390.000\n2.221.769.990.000\n17.035.071.210.000\n(c) Tình hình biến động của vốn cổ phần\nSố cổ phiếu Cổ phiếu phổ thông\n12.699.688.750.000\n106.211.170.000\n1.904.791.910.000\n14.710.691.830.000\n102.609.390.000\n2.221.769.990.000\n17.035.071.210.000\nTổng cộng\nMệnh giá cổ phiếu: 10.000 đồng trên một cổ phiếu.\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nChi tiết vốn góp của chủ sở hữu và tình hình biến động vốn cổ phần của FPT trong các năm tài chính 2024 và 2025.\ntable: Chi tiết vốn góp của chủ sở hữu (trên) — Bảng thể hiện số lượng cổ phiếu phổ thông và tỷ lệ phần trăm vốn góp của các nhóm cổ đông tại ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ.\ntable: Tình hình biến động của vốn cổ phần (dưới) — Bảng thể hiện số cổ phiếu, cổ phiếu phổ thông và tổng cộng vốn cổ phần tại các mốc thời gian: 01/01/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, 31/12/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, và 31/12/2025, đơn vị VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi tiết vốn góp của chủ sở hữu",
+              "location": "trên",
+              "description": "Bảng thể hiện số lượng cổ phiếu phổ thông và tỷ lệ phần trăm vốn góp của các nhóm cổ đông tại ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Tình hình biến động của vốn cổ phần",
+              "location": "dưới",
+              "description": "Bảng thể hiện số cổ phiếu, cổ phiếu phổ thông và tổng cộng vốn cổ phần tại các mốc thời gian: 01/01/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, 31/12/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, và 31/12/2025, đơn vị VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lần Thời điểm\nphát hành\nVốn điều lệ\nsau khi phát hành\nLý do\nGiá cao nhất Giá thấp nhất Khối lượng giao dịch/Ngày Khối lượng giao dịch nhiều nhất Khối lượng giao dịch ít nhất\n38\n39\n40\n41\n42\n43\n05/2023\n07/2023\n06/2024\n10/2024\n05/2025\n07/2025\n11.043.316.220.000\n12.699.688.750.000\n14.604.480.660.000\n14.710.691.830.000\n14.813.301.220.000\n17.035.071.210.000\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có \nthành tích đóng góp trong năm 2022; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu \ncho đối tượng là cán bộ lãnh đạo cấp cao năm 2023.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2022.\nTăng vốn điều lệ sau phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu \ntheo tỷ lệ 15%.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV \ncó thành tích đóng góp trong năm 2023 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2024.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng CBNV có \nthành tích đóng góp trong năm 2024 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2025.\nTăng vốn điều lệ sau đợt phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông \nĐơn vị: VNĐ\n• Thống kê giao dịch và giá cổ phiếu năm 2025 Tính từ ngày 01/01/2025-31/12/2025\n131.708\nVNĐ/Cổ phiếu\n86.104\nVNĐ/Cổ phiếu\n7.594.874\nCổ phiếu\n23.514.300\nCổ phiếu\n1.005.400\nCổ phiếu\n• Tình hình thay đổi vốn điều lệ (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo về tình hình thay đổi vốn điều lệ của FPT từ năm 2023 đến 2025 và thống kê giao dịch, giá cổ phiếu năm 2025.\ntable: Tình hình thay đổi vốn điều lệ (trên) — Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ.\ntable: Thống kê giao dịch và giá cổ phiếu năm 2025 (dưới) — Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình thay đổi vốn điều lệ",
+              "location": "trên",
+              "description": "Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Thống kê giao dịch và giá cổ phiếu năm 2025",
+              "location": "dưới",
+              "description": "Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu."
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801376-Kvcgf8g4rnMbkzBdMnph",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_JQWmkjiLjc2Ttltsv6cJ8bKF",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Tỷ lệ sở hữu tối đa của cổ đông nước ngoài trong bảng thông tin cổ phiếu của Công ty Cổ phần FPT là 49%.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p032\",\"region\":\"trái trên bảng Thông tin về cổ phiếu, dòng Tỷ lệ sở hữu tối đa của cổ đông nước ngoài\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p032",
+    "FPT2025:p033",
+    "FPT2025:p205",
+    "FPT2025:p036"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p032",
+      "page": 32,
+      "image": ".bonus/pages/p032.jpg",
+      "image_sha256": "c287642128097416c18dfcd119132d4ba068f3439767dbbf61daffb2d61cb320"
+    },
+    {
+      "id": "FPT2025:p033",
+      "page": 33,
+      "image": ".bonus/pages/p033.jpg",
+      "image_sha256": "cc314ef8907f529880b3a463796d68c070cf6e188289739abf71fde429abefce"
+    },
+    {
+      "id": "FPT2025:p205",
+      "page": 205,
+      "image": ".bonus/pages/p205.jpg",
+      "image_sha256": "667c9d370986a919d824daa2be125408928d15a3e64929845496ad1a3c2768be"
+    },
+    {
+      "id": "FPT2025:p036",
+      "page": 36,
+      "image": ".bonus/pages/p036.jpg",
+      "image_sha256": "06aaab3a983a58eab3d6003f6c5d95c2adc17e82483aac6d719ed3fa7b7ee2f8"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801369-f4x1oSJ8JjYA7Osp0lTI",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 455,
+        "completion_tokens": 45,
+        "total_tokens": 500,
+        "cost": 0.000254,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000254,
+          "upstream_inference_prompt_cost": 0.000182,
+          "upstream_inference_completions_cost": 7.2e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 22598.885300045367,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801376-Kvcgf8g4rnMbkzBdMnph",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 5118,
+        "completion_tokens": 92,
+        "total_tokens": 5210,
+        "cost": 0.0021944,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0021944,
+          "upstream_inference_prompt_cost": 0.0020472,
+          "upstream_inference_completions_cost": 0.0001472
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2099.6447000070475,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 30071.655199979432,
+  "query_id": "fd-t2",
+  "question": "Trong bảng thông tin cổ phiếu, tỷ lệ sở hữu tối đa của cổ đông nước ngoài là bao nhiêu?",
+  "split": "dev",
+  "config": "text"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p112",
+  "image_sha256": "f3a85f21c177d32fb81ca62c5fd6e93d8bfc7fced831ad3a255c2eb4a45690d2",
+  "caption": {
+    "summary": "Trang giới thiệu thông tin chung về báo cáo ESG của FPT năm 2025, bao gồm phạm vi, thời gian, chu kỳ báo cáo và thông tin liên hệ.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ảnh minh họa ESG",
+        "location": "phải",
+        "description": "Hình ảnh quả địa cầu với các biểu tượng liên quan đến môi trường, xã hội và quản trị (ESG) nổi bật trên nền xanh thiên nhiên."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800761-VuAdl98x5kxKGJ6a929A",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 99,
+        "total_tokens": 2661,
+        "cost": 0.0011832,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011832,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001584
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2649.8489000368863,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

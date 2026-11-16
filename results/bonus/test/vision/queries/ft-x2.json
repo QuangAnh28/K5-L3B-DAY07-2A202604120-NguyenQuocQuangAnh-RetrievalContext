@@ -1,0 +1,438 @@
+{
+  "status": "answered",
+  "answer": "Công trình được nêu là đầu tiên tại Việt Nam đạt chứng chỉ EDGE là FPT Complex Đà Nẵng. Báo cáo nêu chứng chỉ này nhờ các giải pháp: tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\n[FPT2025:p153 — Cột phải, khối chữ trong thẻ màu xanh lá (dưới cùng bên phải) ảnh FPT Complex Đà Nẵng, dòng: \"FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE nhờ các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\"]",
+  "citations": [
+    {
+      "id": "FPT2025:p153",
+      "region": "Cột phải, khối chữ trong thẻ màu xanh lá (dưới cùng bên phải) ảnh FPT Complex Đà Nẵng, dòng: \"FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE nhờ các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\""
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805506-afr5bYan0L0ttoOOGNw2",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01XyfzSGTdUqtFRWkq9F33ni",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"công trình đầu tiên tại Việt Nam đạt EDGE\",\"EDGE chứng nhận công trình giải pháp tiết kiệm năng lượng nước vật liệu\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Công trình nào được báo cáo nêu là đầu tiên tại Việt Nam đạt EDGE, và những giải pháp nào được nhắc kèm?",
+      "model_queries": [
+        "công trình đầu tiên tại Việt Nam đạt EDGE",
+        "EDGE chứng nhận công trình giải pháp tiết kiệm năng lượng nước vật liệu"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p153",
+          "page": 153,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p017",
+          "page": 17,
+          "score": 0.03021353930031804,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p162",
+          "page": 162,
+          "score": 0.02782608695652174,
+          "component_ranks": {
+            "dense": 15,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "FPT2025:p049",
+          "page": 49,
+          "score": 0.026754075124025514,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 23
+          }
+        },
+        {
+          "id": "FPT2025:p164",
+          "page": 164,
+          "score": 0.025833333333333333,
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 15
+          }
+        },
+        {
+          "id": "FPT2025:p177",
+          "page": 177,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p120",
+          "page": 120,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p124",
+          "page": 124,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "dense": 3
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Công trình nào được báo cáo nêu là đầu tiên tại Việt Nam đạt EDGE, và những giải pháp nào được nhắc kèm?"
+      ],
+      "context_ids": [
+        "FPT2025:p153",
+        "FPT2025:p017",
+        "FPT2025:p162",
+        "FPT2025:p049",
+        "FPT2025:p164",
+        "FPT2025:p177",
+        "FPT2025:p120",
+        "FPT2025:p124"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p153",
+          "page": 153,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Với hệ thống văn phòng trải rộng trên toàn quốc, FPT \nxác định mô hình văn phòng xanh không chỉ góp phần \ntiết kiệm năng lượng, tối ưu chi phí vận hành mà còn \ntạo dựng môi trường làm việc sáng tạo, từ đó thúc \nđẩy tăng trưởng bền vững trong dài hạn.\nTrong quá trình đầu tư xây dựng các khu văn phòng, \nFPT thực hiện đầy đủ báo cáo đánh giá tác động môi \ntrường và tuân thủ nghiêm các quy định pháp luật \nliên quan đến bảo vệ môi trường, sử dụng năng lượng \nvà quản lý chất thải, khí thải. Ngay từ khâu thiết kế, \nTập đoàn ưu tiên ứng dụng công nghệ mới, vật liệu \nthân thiện với môi trường, đồng thời tận dụng tối đa \ncác nguồn năng lượng tự nhiên nhằm giảm thiểu \ntiêu thụ năng lượng và tác động đến môi trường.\nCác tổ hợp đào tạo và công viên phần mềm của FPT\ntại Hà Nội, Đà Nẵng, Bình Định (cũ), Tp. Hồ Chí Minh\nvà Cần Thơ được phát triển theo mô hình campus xanh,\ntích hợp không gian làm việc, đào tạo, vui chơi giải trí \nvà cảnh quan sinh thái. Nhiều công trình đã được các \ntổ chức trong và ngoài nước ghi nhận về kiến trúc xanh \nvà hiệu quả sử dụng tài nguyên.\nSong song, FPT ưu tiên sử dụng năng lượng mặt trời \nđể cung cấp nước nóng cho các tòa nhà, đặc biệt tại \nkhu vực miền Bắc, qua đó giảm tiêu thụ điện năng và \ngóp phần thực hiện các cam kết bảo vệ môi trường.\nTrong vận hành hằng ngày, Tập đoàn đẩy mạnh sử \ndụng các vật dụng thân thiện với môi trường tại văn \nphòng và cơ sở đào tạo như cốc, ống hút từ bã mía; \nbao bì và túi từ vật liệu có khả năng tái chế, từng \nbước hình thành thói quen tiêu dùng bền vững trong \ntoàn hệ thống.\nTòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh \ndanh tại World Architecture Festival ở hạng \nmục Giáo dục tương lai và đạt giải Nhất \nKiến trúc xanh do Hội Kiến trúc sư Việt Nam \ntổ chức.\nFPT Complex Đà Nẵng là công trình đầu tiên \ntại Việt Nam đạt chứng chỉ EDGE nhờ các \ngiải pháp tiết kiệm năng lượng, thu hồi nước \nmưa, xử lý nước thải và hệ thống điều hòa, \nchiếu sáng hiệu suất cao.\n• Văn phòng làm việc gần gũi với thiên nhiên và tiết kiệm năng lượng\nF-Town 3 được Wallpaper – tạp chí hàng đầu \ncủa Anh về kiến trúc và thiết kế xếp vào nhóm \ncông trình tiêu biểu cho kiến trúc sinh khí hậu \n(bioclimatic), trong đó hơn 40% không gian \nkhông cần sử dụng điều hòa.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 trình bày về mô hình văn phòng xanh, tiết kiệm năng lượng và thân thiện với môi trường, cùng các công trình kiến trúc tiêu biểu đạt giải thưởng và chứng chỉ xanh.\nphoto: F-Town 3 - công trình kiến trúc sinh khí hậu (dưới bên trái) — Ảnh công trình F-Town 3 với thiết kế không gian xanh, hơn 40% không gian không cần sử dụng điều hòa.\nphoto: Tòa nhà Hiệu bộ FPT tại Hòa Lạc (dưới giữa) — Ảnh tòa nhà Hiệu bộ FPT với kiến trúc xanh được vinh danh tại World Architecture Festival và giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức.\nphoto: FPT Complex Đà Nẵng (dưới bên phải) — Ảnh công trình FPT Complex Đà Nẵng đạt chứng chỉ EDGE với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "F-Town 3 - công trình kiến trúc sinh khí hậu",
+              "location": "dưới bên trái",
+              "description": "Ảnh công trình F-Town 3 với thiết kế không gian xanh, hơn 40% không gian không cần sử dụng điều hòa."
+            },
+            {
+              "type": "photo",
+              "title": "Tòa nhà Hiệu bộ FPT tại Hòa Lạc",
+              "location": "dưới giữa",
+              "description": "Ảnh tòa nhà Hiệu bộ FPT với kiến trúc xanh được vinh danh tại World Architecture Festival và giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức."
+            },
+            {
+              "type": "photo",
+              "title": "FPT Complex Đà Nẵng",
+              "location": "dưới bên phải",
+              "description": "Ảnh công trình FPT Complex Đà Nẵng đạt chứng chỉ EDGE với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p017",
+          "page": 17,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đây là giải thưởng có giá trị lớn nhất tại Việt Nam \ntrong lĩnh vực AI, tôn vinh những sản phẩm, giải pháp \nứng dụng AI do người Việt phát triển, làm chủ tạo đột \nphá cho kinh tế-xã hội, tác động tích cực và bền vững \ncho cộng đồng, đồng thời khẳng định khát vọng xây \ndựng một quốc gia tự chủ về công nghệ. Âu Lạc \nGrand Prize dự kiến được trao trong 03 năm liên tiếp, \nbắt đầu từ năm 2026. Bên cạnh giá trị tiền thưởng 01 \ntriệu USD, cá nhân, tổ chức đạt giải còn được FPT và \nLiên minh AI Âu Lạc cố vấn, hỗ trợ kết nối mở rộng \ntầm ảnh hưởng trong nước và quốc tế.\nXuất khẩu lô chip nguồn đầu tiên \nsang thị trường Nhật Bản\nTôn vinh chủ quyền công nghệ \nquốc gia với giải thưởng AI trị giá \n01 triệu USD\nFPT xuất khẩu lô chip nguồn đầu tiên sang Nhật Bản \nbước đầu hiện thực hóa mục tiêu xuất khẩu chip do \nFPT thiết kế cho thị trường châu Á -Thái Bình Dương \ntrong vòng ba năm tới. Đây cũng là lần đầu tiên một \ndoanh nghiệp Việt Nam đưa chip thương mại vào thị \ntrường Nhật Bản, một trong những thị trường yêu \ncầu chất lượng và độ tin cậy hàng đầu.\nĐồng thời, Tập đoàn cũng khởi công Nhà máy \nkiểm thử, đóng gói tiên tiến chip bán dẫn góp \nphần hoàn thiện hệ sinh thái bán dẫn quốc gia.\nKhai trương Trung tâm R&D \n3.000 m² về công nghệ cao và \nchip bán dẫn\nTrung tâm R&D công nghệ cao và chip bán dẫn \ncủa FPT tại Đà Nẵng được xác định trở thành một \n\"Tech hub\", nơi “khai sinh” các sản phẩm công nghệ \ncao mang dấu ấn Made by FPT – Make in Vietnam.\nĐây sẽ trở thành điểm đến kết nối startup trong \nkhu vực, cùng nhau chia sẻ kinh nghiệm và nhân \nrộng văn hóa khởi nghiệp, đổi mới sáng tạo tới \ncộng đồng doanh nghiệp.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các dấu ấn nổi bật của FPT trong năm 2025, bao gồm xuất khẩu lô chip nguồn đầu tiên sang Nhật Bản, khai trương Trung tâm R&D công nghệ cao và chip bán dẫn tại Đà Nẵng, và nhận giải thưởng AI trị giá 1 triệu USD tôn vinh chủ quyền công nghệ quốc gia.\nphoto: Lô chip nguồn đầu tiên xuất khẩu sang Nhật Bản (trên bên trái) — Ảnh minh họa sản phẩm chip nguồn do FPT thiết kế xuất khẩu sang thị trường Nhật Bản.\nphoto: Khai trương Trung tâm R&D công nghệ cao và chip bán dẫn (dưới bên trái) — Ảnh lễ khai trương Trung tâm R&D công nghệ cao và chip bán dẫn của FPT tại Đà Nẵng.\nphoto: Lễ công bố giải thưởng Âu Lạc Grand Prize (trên bên phải) — Ảnh sự kiện công bố giải thưởng Âu Lạc Grand Prize tôn vinh chủ quyền công nghệ quốc gia với giải thưởng AI trị giá 1 triệu USD.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lô chip nguồn đầu tiên xuất khẩu sang Nhật Bản",
+              "location": "trên bên trái",
+              "description": "Ảnh minh họa sản phẩm chip nguồn do FPT thiết kế xuất khẩu sang thị trường Nhật Bản."
+            },
+            {
+              "type": "photo",
+              "title": "Khai trương Trung tâm R&D công nghệ cao và chip bán dẫn",
+              "location": "dưới bên trái",
+              "description": "Ảnh lễ khai trương Trung tâm R&D công nghệ cao và chip bán dẫn của FPT tại Đà Nẵng."
+            },
+            {
+              "type": "photo",
+              "title": "Lễ công bố giải thưởng Âu Lạc Grand Prize",
+              "location": "trên bên phải",
+              "description": "Ảnh sự kiện công bố giải thưởng Âu Lạc Grand Prize tôn vinh chủ quyền công nghệ quốc gia với giải thưởng AI trị giá 1 triệu USD."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p162",
+          "page": 162,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "BÁO CÁO CỦA BAN TỔNG GIÁM ĐỐC\nTRÁCH NHIỆM CỦA BAN TỔNG GIÁM ĐỐC CÔNG TY ĐỐI VỚI\nBÁO CÁO TÀI CHÍNH HỢP NHẤT\nBan Tổng Giám đốc của Công ty Cổ phần FPT (“Công ty”) chịu trách nhiệm lập báo \ncáo tài chính hợp nhất của Công ty và các công ty con (gọi chung là “Tập đoàn”) \nthể hiện trung thực và hợp lý tình hình tài chính hợp nhất của Tập đoàn tại ngày 31 \ntháng 12 năm 2025, cũng như kết quả hoạt động kinh doanh hợp nhất và tình hình \nlưu chuyển tiền tệ hợp nhất của Tập đoàn cho năm tài chính kết thúc cùng ngày \nnêu trên. Trong việc lập báo cáo tài chính hợp nhất này, Ban Tổng Giám đốc được \nyêu cầu phải: \n• Chọn lựa các chính sách kế toán phù hợp và áp dụng một cách nhất quán;\n• Thực hiện các xét đoán và ước tính một cách hợp lý và thận trọng; và\n• Lập báo cáo tài chính hợp nhất trên cơ sở Tập đoàn hoạt động liên tục trừ khi giả \nđịnh Tập đoàn hoạt động liên tục là không phù hợp.\nBan Tổng Giám đốc chịu trách nhiệm bảo đảm rằng các sổ sách kế toán đúng đắn \nđã được thiết lập và duy trì để thể hiện tình hình tài chính của Tập đoàn với độ chính \nxác hợp lý tại mọi thời điểm và để làm cơ sở lập báo cáo tài chính hợp nhất tuân thủ \ntheo chế độ kế toán được trình bày ở Thuyết minh 2 của báo cáo tài chính hợp nhất. \nBan Tổng Giám đốc cũng chịu trách nhiệm đối với việc bảo vệ các tài sản của Tập \nđoàn và thực hiện các biện pháp hợp lý để ngăn ngừa và phát hiện các gian lận \nhoặc nhầm lẫn.\nNgười đại diện theo pháp luật ủy quyền cho Phó Tổng Giám đốc của Công ty để \nphê chuẩn và ký báo cáo tài chính hợp nhất của Tập đoàn cho năm tài chính kết \nthúc ngày 31 tháng 12 năm 2025 theo Giấy ủy quyền số 116/QĐ-FPT ngày 14 tháng \n8 năm 2024.\nTheo đây, tôi phê chuẩn báo cáo tài chính hợp nhất đính kèm từ trang 164 đến \ntrang 225. Báo cáo tài chính hợp nhất này phản ánh trung thực và hợp lý tình hình \ntài chính hợp nhất của Tập đoàn tại ngày 31 tháng 12 năm 2025, cũng như kết quả \nhoạt động kinh doanh hợp nhất và tình hình lưu chuyển tiền tệ hợp nhất của Tập \nđoàn cho năm tài chính kết thúc cùng ngày nêu trên, phù hợp với các Chuẩn mực \nKế toán Việt Nam, Chế độ Kế toán Doanh nghiệp Việt Nam và các quy định pháp lý \ncó liên quan đến việc lập và trình bày báo cáo tài chính hợp nhất.\nThay mặt Ban Tổng Giám đốc\nPhê chuẩn báo cáo tài chính hợp nhất\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nHà Nội, nước CHXHCN Việt Nam\nNgày 18 tháng 3 năm 2026\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo của Ban Tổng Giám đốc về trách nhiệm lập báo cáo tài chính hợp nhất của Công ty Cổ phần FPT và phê chuẩn báo cáo tài chính hợp nhất.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p049",
+          "page": 49,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đột phá chính sách của Việt Nam: Khoa học công nghệ, đổi mới sáng tạo \nvà chuyển đổi số là trụ cột phát triển\nTại Việt Nam, Chính phủ ban hành các quyết sách về làm sạch dữ liệu, xác thực \ndanh tính số và tăng cường bảo đảm an toàn, an ninh mạng, đồng thời khuyến khích \ncác tập đoàn công nghệ lớn trong nước tham gia triển khai các dự án quy mô quốc gia, \nđặc biệt trong lĩnh vực công nghệ chiến lược.\nKhoa học công nghệ, đổi mới sáng tạo và chuyển đổi số được xác định là một trong \n08 trụ cột phát triển quan trọng trong Văn kiện Đại hội XIV của Đảng, đóng vai trò \nđộng lực then chốt của tăng trưởng kinh tế dài hạn. Đây không chỉ là nền tảng \nnâng cao năng suất và năng lực cạnh tranh quốc gia, mà còn là công cụ gia tăng hiệu \nquả quản trị, củng cố năng lực tự chủ, bảo đảm quốc phòng-an ninh, đồng thời mở \nra các mô hình kinh doanh mới, việc làm mới và giá trị gia tăng mới cho nền kinh tế.\nNghị quyết 57-NQ/TW của Bộ Chính trị về đột phá phát triển khoa học, công nghệ, \nđổi mới sáng tạo và chuyển đổi số quốc gia đã đặt ra tầm nhìn đầy tham vọng: \nđưa Việt Nam vào Top 3 ASEAN và Top 50 toàn cầu về năng lực cạnh tranh số, \nđồng thời đứng trong Top 3 ASEAN về nghiên cứu và phát triển AI vào năm 2030. \nĐáng chú ý, Nghị quyết đảm bảo dành ít nhất 3% ngân sách quốc gia hàng năm \ncho phát triển khoa học công nghệ và chuyển đổi số, với lộ trình tăng dần theo\nyêu cầu phát triển. \nCụ thể hóa tầm nhìn này, một số mục tiêu trọng tâm được xác định gồm: phủ sóng \n5G toàn quốc, hoàn thành triển khai thành phố thông minh tại các thành phố \ntrực thuộc trung ương và thu hút ba tổ chức công nghệ hàng đầu thế giới thành lập \ntrụ sở và cơ sở R&D tại Việt Nam. Đồng thời, Bộ Chính trị cũng định hướng giao cho \ntập đoàn lớn trong nước đảm nhận các dự án chuyển đổi số quy mô quốc gia, qua đó \nhình thành những doanh nghiệp công nghệ trụ cột, có khả năng dẫn dắt hệ sinh thái \nvà tham gia sâu vào chuỗi giá trị toàn cầu.\nCác nghị quyết bổ sung (NQ 66-NQ/TW, NQ 71-NQ/TW, NQ 72-NQ/TW), cùng các\nluật mới (Luật Công nghiệp công nghệ số; Luật Khoa học, Công nghệ và Đổi mới \nsáng tạo; Luật Công nghệ cao), Quyết định 1131/QĐ-TTg tạo hành lang pháp lý \ncho việc thử nghiệm các sản phẩm số trong môi trường kiểm soát (sandbox), \nxây dựng nền tảng số quốc gia và phát triển các công nghệ chiến lược như: AI, \ndữ liệu lớn, điện toán đám mây, IoT, blockchain và thực tế ảo. \nMột dấu mốc đáng chú ý trong năm 2025 là việc lần đầu tiên yếu tố “làm chủ và \ntự chủ công nghệ” được đưa vào Luật Công nghệ cao như tiêu chí cốt lõi để hưởng \nưu đãi. Đây được xem là bước chuyển quan trọng về tư duy chính sách, nhằm \nkhắc phục tình trạng phụ thuộc lâu dài vào công nghệ chuyển giao từ bên ngoài, \nmột điểm nghẽn khiến giá trị gia tăng thấp và nền kinh tế dễ tổn thương trước các \ncú sốc toàn cầu.\nTrong định hướng phát triển mới, công nghệ chiến lược được xác định là chìa khóa để \nnâng cao năng lực tự chủ và vị thế quốc gia. Các lĩnh vực như: AI, dữ liệu lớn, bán dẫn, \nan ninh mạng, công nghệ xanh và năng lượng mới không chỉ phục vụ tăng trưởng \nkinh tế, mà còn gắn chặt với an ninh kinh tế và phát triển bền vững. Nhà nước \nkhẳng định sẽ tập trung nguồn lực quốc gia để đầu tư, phát triển và từng bước làm chủ ",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Quang cảnh kỳ họp Quốc hội khóa XIV",
+              "location": "phải",
+              "description": "Ảnh chụp toàn cảnh hội trường Quốc hội Việt Nam với các đại biểu tham dự, minh họa cho nội dung chính sách và chiến lược phát triển khoa học công nghệ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p164",
+          "page": 164,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "BÁO CÁO KIỂM TOÁN ĐỘC LẬP \nGỬI CÁC CỔ ĐÔNG CỦA CÔNG TY CỔ PHẦN FPT (Tiếp theo)\nTheo ý kiến của chúng tôi, báo cáo tài chính hợp nhất đã phản ánh trung thực và \nhợp lý, trên các khía cạnh trọng yếu, tình hình tài chính hợp nhất của Tập đoàn tại \nngày 31 tháng 12 năm 2025, cũng như kết quả hoạt động kinh doanh hợp nhất và \ntình hình lưu chuyển tiền tệ hợp nhất của Tập đoàn cho năm tài chính kết thúc cùng \nngày nêu trên, phù hợp với các Chuẩn mực Kế toán Việt Nam, Chế độ Kế toán \nDoanh nghiệp Việt Nam và các quy định pháp lý có liên quan đến việc lập và trình \nbày báo cáo tài chính hợp nhất.\nChúng tôi lưu ý người đọc đến Thuyết minh 1 của báo cáo tài chính hợp nhất trình \nbày cơ sở hợp nhất báo cáo tài chính của Công ty Cổ phần Viễn thông FPT (“FTEL”) \ncho đến ngày 31 tháng 12 năm 2025. Ý kiến kiểm toán của chúng tôi không bị ảnh \nhưởng bởi vấn đề này.\nThay mặt và đại diện cho Công ty TNHH PwC (Việt Nam)\nÝ kiến của Kiểm toán viên Vấn đề cần nhấn mạnh\nTRẦN KHẮC THỂ\nSố Giấy CN ĐKHN kiểm toán:\n2043-2023-006-1\nNgười được ủy quyền\nSố hiệu báo cáo kiểm toán: HAN 4324\nHà Nội, Ngày 19 tháng 3 năm 2026\nNGUYỄN THANH LOAN\nSố Giấy CN ĐKHN kiểm toán:\n5979-2023-006-1\nNgười được ủy quyền\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo kiểm toán độc lập gửi cổ đông của Công ty Cổ phần FPT, trình bày ý kiến của kiểm toán viên và vấn đề cần nhấn mạnh liên quan đến báo cáo tài chính hợp nhất năm 2025.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p177",
+          "page": 177,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2.4. Các loại tỷ giá hối đoái áp dụng trong kế toán \nCác nghiệp vụ phát sinh bằng ngoại tệ được quy đổi theo tỷ giá thực tế tại ngày \nphát sinh giao dịch.\nTài sản và nợ phải trả bằng tiền tệ có gốc ngoại tệ tại ngày của bảng cân đối kế toán \nhợp nhất được quy đổi theo tỷ giá chuyển khoản của ngân hàng thương mại nơi \nTập đoàn thường xuyên có giao dịch áp dụng tại ngày bảng cân đối kế toán hợp nhất. \nĐối với các khoản vay bằng ngoại tệ được Tập đoàn phòng ngừa rủi ro tỷ giá bằng \ncách sử dụng các giao dịch hoán đổi ngoại tệ và mua ngoại tệ tương đương trong \ntương lai, các khoản vay này được ghi nhận theo tỷ giá ký kết trong hợp đồng mua, \nbán ngoại tệ giữa doanh nghiệp và ngân hàng thương mại.\nTất cả chênh lệch tỷ giá phát sinh từ việc quy đổi được ghi nhận là thu nhập hoặc \nchi phí trong báo cáo kết quả hoạt động kinh doanh hợp nhất.\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n2.5. Cơ sở hợp nhất báo cáo tài chính\nCông ty con\nBáo cáo tài chính hợp nhất bao gồm báo cáo tài chính của công ty mẹ và các báo \ncáo tài chính của các công ty con do Tập đoàn kiểm soát được lập cho năm tài \nchính kết thúc ngày 31 tháng 12 năm 2025. Việc kiểm soát này đạt được khi Tập \nđoàn có khả năng kiểm soát các chính sách tài chính và hoạt động của công ty \nnhận đầu tư nhằm thu được lợi ích từ hoạt động của công ty này.\nKết quả hoạt động kinh doanh của các công ty con được mua hoặc bán trong năm \nđược trình bày trong Báo cáo kết quả hoạt động kinh doanh hợp nhất từ ngày mua \nhoặc cho đến ngày bán khoản đầu tư ở công ty con đó.\nTài sản, công nợ và công nợ tiềm tàng của công ty con được xác định theo giá trị \nhợp lý tại ngày mua công ty con. Bất kỳ khoản phụ trội nào giữa giá mua và phần \nsở hữu của Tập đoàn trong tổng giá trị hợp lý của tài sản thuần của công ty con \nđược ghi nhận là lợi thế thương mại. Bất kỳ khoản thiếu hụt nào giữa giá mua và \nphần sở hữu của Tập đoàn trong tổng giá trị hợp lý của tài sản thuần của công ty \ncon được ghi nhận vào kết quả hoạt động kinh doanh hợp nhất của năm tài chính \nphát sinh hoạt động mua công ty con.\nGiao dịch, công nợ và các khoản lãi, các khoản lỗ chưa thực hiện phát sinh giữa \ncác công ty trong cùng Tập đoàn được loại trừ khi hợp nhất. \nChính sách kế toán của công ty con cũng thay đổi nếu cần thiết để đảm bảo sự \nnhất quán với chính sách kế toán đang được Tập đoàn áp dụng.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày phần thuyết minh báo cáo tài chính hợp nhất năm 2025, tập trung vào các chính sách kế toán chủ yếu liên quan đến tỷ giá hối đoái và cơ sở hợp nhất báo cáo tài chính.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p120",
+          "page": 120,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xác định các bên liên quan là những bên có ảnh hưởng hoặc bị ảnh hưởng ở một mức độ nhất định từ hoạt động kinh doanh của Tập đoàn. Do đó, thông tin, ý kiến phản hồi, \nnhu cầu và mối quan tâm của các bên liên quan là những yếu tố quan trọng tác động đến tư duy, cách thức hành động của FPT trong việc quản lý và vận hành các hoạt động \ncũng như xây dựng chiến lược phát triển trong dài hạn. FPT cam kết song hành cùng các bên liên quan kiến tạo một môi trường sống, làm việc hạnh phúc dựa trên những \ngiải pháp, sản phẩm, dịch vụ công nghệ sáng tạo, đột phá.\n07 bên liên quan trọng yếu đối với FPT bao gồm: Khách hàng; Cổ đông và Nhà đầu tư; Cán bộ nhân viên (CBNV); Chính phủ, Ban ngành; Đối tác và Nhà cung cấp; \nCộng đồng; Báo chí.\nGắn kết với các bên liên quan\n• Khách hàng\nChương trình hành động nổi bật Kết quả năm 2025\nNâng cấp sản phẩm, dịch vụ, giải pháp dựa \ntrên các xu hướng công nghệ mới đem lại\nhiệu quả và năng suất cho khách hàng\nNâng cao uy tín thương hiệu của FPT\n• Đạt chứng nhận cao nhất về Generative AI từ Amazon Web Services khẳng định năng lực xây dựng các dịch vụ,\n công cụ và hạ tầng cốt lõi cho việc triển khai các công nghệ AI tạo sinh;\n• 06 sản phẩm, giải pháp thuộc hệ sinh thái Made by FPT đứng trong Top sản phẩm công nghiệp chủ lực của Hà Nội; \n• Ra mắt AI Notebook – Nền tảng nghiên cứu và phát triển AI trên hạ tầng NVIDIA GPU đáp ứng nhu cầu chuyên biệt \nvề nghiên cứu và đào tạo phát triển AI; \n• Hai nhà máy AI lọt TOP500 siêu máy tính mạnh nhất thế giới.\n• Tiếp tục khẳng định vị trí doanh nghiệp đầu ngành với những giải thưởng uy tín về quản trị, kinh doanh, công nghệ trên \ntoàn cầu như: Top 40 Công ty Dịch vụ CNTT châu Á; Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty\n tốt nhất ASEAN; Top 8 Doanh nghiệp quản trị công ty tốt nhất nhóm vốn hóa lớn; Giá trị thương hiệu tăng 18%,\n đạt 1,2 tỷ USD; Top 10 Thương hiệu mạnh Việt Nam; Dẫn đầu Top 50 Công ty đại chúng uy tín nhất Việt Nam; Top 50 \nCông ty kinh doanh hiệu quả nhất Việt Nam….\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về việc gắn kết với các bên liên quan của FPT, tập trung vào khách hàng với các chương trình hành động nổi bật và kết quả đạt được năm 2025.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p124",
+          "page": 124,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Cộng đồng\nChương trình hành động nổi bật Kết quả năm 2025\nChung tay cùng cộng đồng vượt qua\nthách thức vì một cuộc sống tốt đẹp hơn\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời;\n• 15 năm liên tiếp triển khai Ngày FPT vì cộng đồng; \n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ; \n• Triển khai dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam; \n• Tiếp tục đồng hành cùng chương trình “Nâng bước em đến trường” (Quỹ Hy Vọng khởi xướng) xây dựng cầu bê tông\n kiên cố tại khu vực Đồng bằng sông Cửu Long. Năm 2025, FPT đã đóng góp 08 tỷ đồng cho Chương trình. \nTriển khai các chương trình trao học bổng,\nhỗ trợ tài năng trẻ\n• Cấp 38 học bổng với tổng số tiền tương ứng 912 triệu đồng hỗ trợ các thành viên Trung tâm bồi dưỡng tài năng trẻ FPT \n(FYT), đồng thời hỗ trợ chi phí, cơ sở vật chất, kết nối chuyên gia trong một số lĩnh vực giúp các thành viên theo đuổi\n khát vọng, mở rộng kết nối, phát triển các kỹ năng mềm thiết yếu cho tương lai;\n• Tiếp tục triển khai học bổng thường niên Nguyễn Văn Đạo với 8.875 học bổng cho các sinh viên có hoàn cảnh khó khăn \nđạt thành tích học tập xuất sắc hoặc có tài năng nổi trội tại nhiều tỉnh thành trên toàn quốc.\n• Báo chí và các cơ quan truyền thông\nChương trình hành động nổi bật Kết quả năm 2025\nThường xuyên, chủ động cung cấp thông tin \ncho báo chí, thông qua: bản tin FPT, thông cáo \nbáo chí, họp báo, bài viết…\n• Cung cấp kịp thời, đầy đủ những thông tin có giá trị, hữu ích cho cộng đồng với các chủ đề đa dạng, từ xu hướng \nthị trường CNTT, định hướng chiến lược đến kế hoạch kinh doanh và hoạt động của Tập đoàn, qua đó truyền tải/cập nhật\nthông tin cho các đối tượng liên quan.\nTích cực tham gia sáng kiến, diễn đàn truyền \nthông về ESG\n• Tham gia Diễn đàn ESG Việt Nam do Báo Dân Trí khởi xướng và tổ chức. Tại sự kiện, FPT chia sẻ kinh nghiệm triển khai \nlộ trình phát triển bền vững, cam kết Net Zero, đồng thời giới thiệu việc ứng dụng công nghệ số, dữ liệu và AI trong\n quản trị và thực hành ESG.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chương trình hành động nổi bật và kết quả năm 2025 trong lĩnh vực cộng đồng và báo chí, truyền thông của FPT.\ntable: Chương trình hành động nổi bật và kết quả năm 2025 - Cộng đồng (phải) — Bảng liệt kê các chương trình hành động nổi bật trong cộng đồng và kết quả đạt được năm 2025, gồm các dự án hỗ trợ cộng đồng, trao học bổng và hỗ trợ tài năng trẻ.\ntable: Chương trình hành động nổi bật và kết quả năm 2025 - Báo chí và các cơ quan truyền thông (phải) — Bảng liệt kê các chương trình hành động nổi bật trong lĩnh vực báo chí và truyền thông, cùng kết quả năm 2025, bao gồm cung cấp thông tin cho báo chí và tham gia các diễn đàn truyền thông về ESG.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Cộng đồng",
+              "location": "phải",
+              "description": "Bảng liệt kê các chương trình hành động nổi bật trong cộng đồng và kết quả đạt được năm 2025, gồm các dự án hỗ trợ cộng đồng, trao học bổng và hỗ trợ tài năng trẻ."
+            },
+            {
+              "type": "table",
+              "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Báo chí và các cơ quan truyền thông",
+              "location": "phải",
+              "description": "Bảng liệt kê các chương trình hành động nổi bật trong lĩnh vực báo chí và truyền thông, cùng kết quả năm 2025, bao gồm cung cấp thông tin cho báo chí và tham gia các diễn đàn truyền thông về ESG."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p153",
+          "path": ".bonus/pages/p153.jpg",
+          "sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+        },
+        {
+          "id": "FPT2025:p017",
+          "path": ".bonus/pages/p017.jpg",
+          "sha256": "0276d25c7cc96d1e08119784160756a6e265ba601aae335a49f35dbab6fa5ced"
+        },
+        {
+          "id": "FPT2025:p162",
+          "path": ".bonus/pages/p162.jpg",
+          "sha256": "857cac1648b6cf7618686349341f4cc27d6f1ce788afe5739c7ee62039cb2a1a"
+        },
+        {
+          "id": "FPT2025:p049",
+          "path": ".bonus/pages/p049.jpg",
+          "sha256": "286b27262d379255920d7e7ffbb1707ebfffa1acf7e05a0a30a0a3423751fda6"
+        },
+        {
+          "id": "FPT2025:p164",
+          "path": ".bonus/pages/p164.jpg",
+          "sha256": "c07a2338d5094a9d434140f75f1fde1d2ecd6d85d4f1ba2990f314ef19cda48d"
+        },
+        {
+          "id": "FPT2025:p177",
+          "path": ".bonus/pages/p177.jpg",
+          "sha256": "c25e9cd0754a05c2c60193c22023882105ba3e7c0de5eef0b1519e2d4a7edef8"
+        },
+        {
+          "id": "FPT2025:p120",
+          "path": ".bonus/pages/p120.jpg",
+          "sha256": "4c380e5bd7b058bc15319522cdba836df2eec41458484ddca57bbeef2bdc5846"
+        },
+        {
+          "id": "FPT2025:p124",
+          "path": ".bonus/pages/p124.jpg",
+          "sha256": "d569dba3d557835cfd21cca175e66ab894275f2b6b20c67e237d59d62c3a7c26"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805509-8PGjpMhXpiYsjIQEtcOm",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_019fveRsaFQkMeiBQinBW8Fa",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Công trình được nêu là đầu tiên tại Việt Nam đạt chứng chỉ EDGE là FPT Complex Đà Nẵng. Báo cáo nêu chứng chỉ này nhờ các giải pháp: tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p153\",\"region\":\"Cột phải, khối chữ trong thẻ màu xanh lá (dưới cùng bên phải) ảnh FPT Complex Đà Nẵng, dòng: \\\"FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE nhờ các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\\\"\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p153",
+    "FPT2025:p017",
+    "FPT2025:p162",
+    "FPT2025:p049",
+    "FPT2025:p164",
+    "FPT2025:p177",
+    "FPT2025:p120",
+    "FPT2025:p124"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p153",
+      "page": 153,
+      "image": ".bonus/pages/p153.jpg",
+      "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+    },
+    {
+      "id": "FPT2025:p017",
+      "page": 17,
+      "image": ".bonus/pages/p017.jpg",
+      "image_sha256": "0276d25c7cc96d1e08119784160756a6e265ba601aae335a49f35dbab6fa5ced"
+    },
+    {
+      "id": "FPT2025:p162",
+      "page": 162,
+      "image": ".bonus/pages/p162.jpg",
+      "image_sha256": "857cac1648b6cf7618686349341f4cc27d6f1ce788afe5739c7ee62039cb2a1a"
+    },
+    {
+      "id": "FPT2025:p049",
+      "page": 49,
+      "image": ".bonus/pages/p049.jpg",
+      "image_sha256": "286b27262d379255920d7e7ffbb1707ebfffa1acf7e05a0a30a0a3423751fda6"
+    },
+    {
+      "id": "FPT2025:p164",
+      "page": 164,
+      "image": ".bonus/pages/p164.jpg",
+      "image_sha256": "c07a2338d5094a9d434140f75f1fde1d2ecd6d85d4f1ba2990f314ef19cda48d"
+    },
+    {
+      "id": "FPT2025:p177",
+      "page": 177,
+      "image": ".bonus/pages/p177.jpg",
+      "image_sha256": "c25e9cd0754a05c2c60193c22023882105ba3e7c0de5eef0b1519e2d4a7edef8"
+    },
+    {
+      "id": "FPT2025:p120",
+      "page": 120,
+      "image": ".bonus/pages/p120.jpg",
+      "image_sha256": "4c380e5bd7b058bc15319522cdba836df2eec41458484ddca57bbeef2bdc5846"
+    },
+    {
+      "id": "FPT2025:p124",
+      "page": 124,
+      "image": ".bonus/pages/p124.jpg",
+      "image_sha256": "d569dba3d557835cfd21cca175e66ab894275f2b6b20c67e237d59d62c3a7c26"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805506-afr5bYan0L0ttoOOGNw2",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1815,
+        "completion_tokens": 96,
+        "total_tokens": 1911,
+        "cost": 0.0002295,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002295,
+          "upstream_inference_prompt_cost": 0.0001815,
+          "upstream_inference_completions_cost": 4.8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1257.1976000326686,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805509-8PGjpMhXpiYsjIQEtcOm",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 31480,
+        "completion_tokens": 419,
+        "total_tokens": 31899,
+        "cost": 0.0033575,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0033575,
+          "upstream_inference_prompt_cost": 0.003148,
+          "upstream_inference_completions_cost": 0.0002095
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5522.925199999008,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 8211.975899990648,
+  "query_id": "ft-x2",
+  "question": "Công trình nào được báo cáo nêu là đầu tiên tại Việt Nam đạt EDGE, và những giải pháp nào được nhắc kèm?",
+  "split": "test",
+  "config": "vision"
+}

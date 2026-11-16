@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-16T04:53:19.538116+00:00",
+  "id": "ft-c5",
+  "source_page": 152,
+  "source_image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90",
+  "before_any_test": true,
+  "model_outputs_used_to_correct_gold": false,
+  "dev_cases_changed": false,
+  "reason": "Original image orange legend is hard copies; earlier gold mixed blue percentages into 2022/2023. Preserve original benchmark and do not rerun unchanged dev inputs."
+}

@@ -1,0 +1,260 @@
+{
+  "status": "answered",
+  "answer": "Trừ trường hợp có thỏa thuận khác, nếu đối tượng của hợp đồng là hàng hóa đang trên đường vận chuyển thì rủi ro về mất mát hoặc hư hỏng hàng hóa được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng. [luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_zTiD2L0PPShDSCn1enwlcQgS",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"rủi ro của hàng trên đường vận chuyển chuyển cho bên mua\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797869-gqjbjbAacGVUv5PCOLdV"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Không có thỏa thuận khác, rủi ro của hàng đang trên đường vận chuyển chuyển cho bên mua từ lúc nào?",
+      "model_query": "rủi ro của hàng trên đường vận chuyển chuyển cho bên mua",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "Trừ trường h ợp có tho ả thu ận khác, n ếu hàng hoá đang được người nh ận hàng để giao nắm giữ mà không ph ải là ng ười vận chuyển thì r ủi ro v ề mất mát hoặc h ư hỏng hàng hoá được chuy ển cho bên mua thu ộc một trong các tr ường hợp sau đây:\n\n1. Khi bên mua nhận được chứng từ sở hữu hàng hoá;\n\n2. Khi ng ười nhận hàng để giao xác nh ận quy ền chiếm hữu hàng hoá c ủa bên mua.\n\nĐiều 60. Chuyển rủi ro trong tr ường h ợp mua bán hàng hoá đang trên đường vận chuyển Trừ tr ường h ợp có th ỏa thuận khác, n ếu đối tượng c ủa h ợp đồng là hàng hoá đang trên đường v ận chuy ển thì r ủi ro v ề m ất mát ho ặc h ư hỏng hàng hoá được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng.\n\nĐiều 61. Chuyển rủi ro trong các trường hợp khác Trừ tr ường h ợp có tho ả thu ận khác , vi ệc chuy ển r ủi ro trong các tr ường hợp khác được quy định như sau:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 60"
+          },
+          "score": 0.535992391856334,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "text": "Điều 58. Chuyển rủi ro trong tr ường hợp không có địa điểm giao hàng xác định Trừ trường hợp có tho ả thuận khác, n ếu hợp đồng có quy định về việc vận chuyển hàng hoá và bên bán không có ngh ĩa vụ giao hàng t ại một địa điểm nhất định thì rủi ro v ề mất mát ho ặc hư hỏng hàng hoá được chuyển cho bên mua khi hàng hoá đã được giao cho người vận chuyển đầu tiên.\n\nĐiều 59. Chuy ển r ủi ro trong tr ường h ợp giao hàng cho ng ười nh ận hàng để giao mà không phải là người vận chuyển",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 58"
+          },
+          "score": 0.5074157595815395,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 3",
+            "article": "Điều 62"
+          },
+          "score": 0.4071150228960061,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\nTrừ trường h ợp có tho ả thu ận khác, n ếu hàng hoá đang được người nh ận hàng để giao nắm giữ mà không ph ải là ng ười vận chuyển thì r ủi ro v ề mất mát hoặc h ư hỏng hàng hoá được chuy ển cho bên mua thu ộc một trong các tr ường hợp sau đây:\n\n1. Khi bên mua nhận được chứng từ sở hữu hàng hoá;\n\n2. Khi ng ười nhận hàng để giao xác nh ận quy ền chiếm hữu hàng hoá c ủa bên mua.\n\nĐiều 60. Chuyển rủi ro trong tr ường h ợp mua bán hàng hoá đang trên đường vận chuyển Trừ tr ường h ợp có th ỏa thuận khác, n ếu đối tượng c ủa h ợp đồng là hàng hoá đang trên đường v ận chuy ển thì r ủi ro v ề m ất mát ho ặc h ư hỏng hàng hoá được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng.\n\nĐiều 61. Chuyển rủi ro trong các trường hợp khác Trừ tr ường h ợp có tho ả thu ận khác , vi ệc chuy ển r ủi ro trong các tr ường hợp khác được quy định như sau:\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 58. Chuyển rủi ro trong tr ường hợp không có địa điểm giao hàng xác định Trừ trường hợp có tho ả thuận khác, n ếu hợp đồng có quy định về việc vận chuyển hàng hoá và bên bán không có ngh ĩa vụ giao hàng t ại một địa điểm nhất định thì rủi ro v ề mất mát ho ặc hư hỏng hàng hoá được chuyển cho bên mua khi hàng hoá đã được giao cho người vận chuyển đầu tiên.\n\nĐiều 59. Chuy ển r ủi ro trong tr ường h ợp giao hàng cho ng ười nh ận hàng để giao mà không phải là người vận chuyển",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d",
+        "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_HTPaECQVgL8mFEWY42sLlWih",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trừ trường hợp có thỏa thuận khác, nếu đối tượng của hợp đồng là hàng hóa đang trên đường vận chuyển thì rủi ro về mất mát hoặc hư hỏng hàng hóa được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797871-QmSWhEkio3tUiCxoxYkm"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\nTrừ trường h ợp có tho ả thu ận khác, n ếu hàng hoá đang được người nh ận hàng để giao nắm giữ mà không ph ải là ng ười vận chuyển thì r ủi ro v ề mất mát hoặc h ư hỏng hàng hoá được chuy ển cho bên mua thu ộc một trong các tr ường hợp sau đây:\n\n1. Khi bên mua nhận được chứng từ sở hữu hàng hoá;\n\n2. Khi ng ười nhận hàng để giao xác nh ận quy ền chiếm hữu hàng hoá c ủa bên mua.\n\nĐiều 60. Chuyển rủi ro trong tr ường h ợp mua bán hàng hoá đang trên đường vận chuyển Trừ tr ường h ợp có th ỏa thuận khác, n ếu đối tượng c ủa h ợp đồng là hàng hoá đang trên đường v ận chuy ển thì r ủi ro v ề m ất mát ho ặc h ư hỏng hàng hoá được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng.\n\nĐiều 61. Chuyển rủi ro trong các trường hợp khác Trừ tr ường h ợp có tho ả thu ận khác , vi ệc chuy ển r ủi ro trong các tr ường hợp khác được quy định như sau:\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 58. Chuyển rủi ro trong tr ường hợp không có địa điểm giao hàng xác định Trừ trường hợp có tho ả thuận khác, n ếu hợp đồng có quy định về việc vận chuyển hàng hoá và bên bán không có ngh ĩa vụ giao hàng t ại một địa điểm nhất định thì rủi ro v ề mất mát ho ặc hư hỏng hàng hoá được chuyển cho bên mua khi hàng hoá đã được giao cho người vận chuyển đầu tiên.\n\nĐiều 59. Chuy ển r ủi ro trong tr ường h ợp giao hàng cho ng ười nh ận hàng để giao mà không phải là người vận chuyển",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d",
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797869-gqjbjbAacGVUv5PCOLdV",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 298,
+        "completion_tokens": 19,
+        "total_tokens": 317,
+        "cost": 0.0001496,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001496,
+          "upstream_inference_prompt_cost": 0.0001192,
+          "upstream_inference_completions_cost": 3.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 8747.872299980372,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797871-QmSWhEkio3tUiCxoxYkm",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1056,
+        "completion_tokens": 101,
+        "total_tokens": 1157,
+        "cost": 0.000584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000584,
+          "upstream_inference_prompt_cost": 0.0004224,
+          "upstream_inference_completions_cost": 0.0001616
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2905.2646000054665,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 11658.578400034457,
+  "searches": 1,
+  "query_id": "d7-t60",
+  "question": "Không có thỏa thuận khác, rủi ro của hàng đang trên đường vận chuyển chuyển cho bên mua từ lúc nào?",
+  "split": "test",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "Trừ trường h ợp có tho ả thu ận khác, n ếu hàng hoá đang được người nh ận hàng để giao nắm giữ mà không ph ải là ng ười vận chuyển thì r ủi ro v ề mất mát hoặc h ư hỏng hàng hoá được chuy ển cho bên mua thu ộc một trong các tr ường hợp sau đây:\n\n1. Khi bên mua nhận được chứng từ sở hữu hàng hoá;\n\n2. Khi ng ười nhận hàng để giao xác nh ận quy ền chiếm hữu hàng hoá c ủa bên mua.\n\nĐiều 60. Chuyển rủi ro trong tr ường h ợp mua bán hàng hoá đang trên đường vận chuyển Trừ tr ường h ợp có th ỏa thuận khác, n ếu đối tượng c ủa h ợp đồng là hàng hoá đang trên đường v ận chuy ển thì r ủi ro v ề m ất mát ho ặc h ư hỏng hàng hoá được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng.\n\nĐiều 61. Chuyển rủi ro trong các trường hợp khác Trừ tr ường h ợp có tho ả thu ận khác , vi ệc chuy ển r ủi ro trong các tr ường hợp khác được quy định như sau:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 60"
+      },
+      "score": 0.535992391856334,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 16,
+      "text": "Điều 58. Chuyển rủi ro trong tr ường hợp không có địa điểm giao hàng xác định Trừ trường hợp có tho ả thuận khác, n ếu hợp đồng có quy định về việc vận chuyển hàng hoá và bên bán không có ngh ĩa vụ giao hàng t ại một địa điểm nhất định thì rủi ro v ề mất mát ho ặc hư hỏng hàng hoá được chuyển cho bên mua khi hàng hoá đã được giao cho người vận chuyển đầu tiên.\n\nĐiều 59. Chuy ển r ủi ro trong tr ường h ợp giao hàng cho ng ười nh ận hàng để giao mà không phải là người vận chuyển",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 58"
+      },
+      "score": 0.5074157595815395,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 3",
+        "article": "Điều 62"
+      },
+      "score": 0.4071150228960061,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\nTrừ trường h ợp có tho ả thu ận khác, n ếu hàng hoá đang được người nh ận hàng để giao nắm giữ mà không ph ải là ng ười vận chuyển thì r ủi ro v ề mất mát hoặc h ư hỏng hàng hoá được chuy ển cho bên mua thu ộc một trong các tr ường hợp sau đây:\n\n1. Khi bên mua nhận được chứng từ sở hữu hàng hoá;\n\n2. Khi ng ười nhận hàng để giao xác nh ận quy ền chiếm hữu hàng hoá c ủa bên mua.\n\nĐiều 60. Chuyển rủi ro trong tr ường h ợp mua bán hàng hoá đang trên đường vận chuyển Trừ tr ường h ợp có th ỏa thuận khác, n ếu đối tượng c ủa h ợp đồng là hàng hoá đang trên đường v ận chuy ển thì r ủi ro v ề m ất mát ho ặc h ư hỏng hàng hoá được chuyển cho bên mua kể từ thời điểm giao kết hợp đồng.\n\nĐiều 61. Chuyển rủi ro trong các trường hợp khác Trừ tr ường h ợp có tho ả thu ận khác , vi ệc chuy ển r ủi ro trong các tr ường hợp khác được quy định như sau:\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 58. Chuyển rủi ro trong tr ường hợp không có địa điểm giao hàng xác định Trừ trường hợp có tho ả thuận khác, n ếu hợp đồng có quy định về việc vận chuyển hàng hoá và bên bán không có ngh ĩa vụ giao hàng t ại một địa điểm nhất định thì rủi ro v ề mất mát ho ặc hư hỏng hàng hoá được chuyển cho bên mua khi hàng hoá đã được giao cho người vận chuyển đầu tiên.\n\nĐiều 59. Chuy ển r ủi ro trong tr ường h ợp giao hàng cho ng ười nh ận hàng để giao mà không phải là người vận chuyển",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-272db3d5b599bf0d",
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-47e1f32f63d6b409"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

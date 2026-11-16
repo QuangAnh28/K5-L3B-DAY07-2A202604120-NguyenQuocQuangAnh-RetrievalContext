@@ -1,0 +1,278 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_pkkz51L4ud6jCWZB40iWaDFf",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"nghĩa vụ của bên mua về thanh toán và nhận hàng\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797388-cKTLsxFVN74rshWGk0ux"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nghĩa vụ cơ bản của bên mua về thanh toán và nhận hàng là gì?",
+      "model_query": "nghĩa vụ của bên mua về thanh toán và nhận hàng",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "hiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 49"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 2,
+          "text": "8. Mua bán hàng hoá là ho ạt động thương mại, theo đó bên bán có ngh ĩa vụ giao hàng, chuy ển quy ền sở hữu hàng hóa cho bên mua và nh ận thanh toán; bên mua có ngh ĩa vụ thanh toán cho bên bán, nh ận hàng và quy ền sở hữu hàng hoá theo thỏa thuận.\n\n9. Cung ứng d ịch vụ là ho ạt động thương m ại, theo đó một bên (sau đây gọi là bên cung ứng d ịch v ụ) có ngh ĩa vụ thực hiện d ịch vụ cho m ột bên khác và nh ận thanh toán; bên s ử dụng d ịch vụ (sau đây gọi là khách hàng) có ngh ĩa vụ thanh toán cho bên cung ứng dịch v ụ và s ử dụng d ịch v ụ theo th ỏa thu ận.\n\n10. Xúc ti ến thương m ại là ho ạt động thúc đẩy, tìm ki ếm cơ hội mua bán hàng hoá và cung ứng d ịch v ụ, bao g ồm ho ạt động khuy ến m ại, qu ảng cáo thương m ại, tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ và h ội ch ợ, tri ển lãm thương mại.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 2,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "Điều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 51"
+          },
+          "score": 0.03128054740957967,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 2
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nhiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.\n\n[luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 2]\n8. Mua bán hàng hoá là ho ạt động thương mại, theo đó bên bán có ngh ĩa vụ giao hàng, chuy ển quy ền sở hữu hàng hóa cho bên mua và nh ận thanh toán; bên mua có ngh ĩa vụ thanh toán cho bên bán, nh ận hàng và quy ền sở hữu hàng hoá theo thỏa thuận.\n\n9. Cung ứng d ịch vụ là ho ạt động thương m ại, theo đó một bên (sau đây gọi là bên cung ứng d ịch v ụ) có ngh ĩa vụ thực hiện d ịch vụ cho m ột bên khác và nh ận thanh toán; bên s ử dụng d ịch vụ (sau đây gọi là khách hàng) có ngh ĩa vụ thanh toán cho bên cung ứng dịch v ụ và s ử dụng d ịch v ụ theo th ỏa thu ận.\n\n10. Xúc ti ến thương m ại là ho ạt động thúc đẩy, tìm ki ếm cơ hội mua bán hàng hoá và cung ứng d ịch v ụ, bao g ồm ho ạt động khuy ến m ại, qu ảng cáo thương m ại, tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ và h ội ch ợ, tri ển lãm thương mại.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+        "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_XG2Df4EXcwJaWT3Skf0gIi2d",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Nghĩa vụ cơ bản của bên mua về thanh toán và nhận hàng là thanh toán tiền mua hàng và nhận hàng theo thỏa thuận. Bên mua phải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật. Bên mua vẫn phải thanh toán tiền mua hàng trong trường hợp hàng hóa mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, trừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra. Ngoài ra, bên mua có nghĩa vụ nhận hàng và quyền sở hữu hàng hóa theo thỏa thuận.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909\",\"luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797389-JLarJN6aEE5rRhTjScJM"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nhiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.\n\n[luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 2]\n8. Mua bán hàng hoá là ho ạt động thương mại, theo đó bên bán có ngh ĩa vụ giao hàng, chuy ển quy ền sở hữu hàng hóa cho bên mua và nh ận thanh toán; bên mua có ngh ĩa vụ thanh toán cho bên bán, nh ận hàng và quy ền sở hữu hàng hoá theo thỏa thuận.\n\n9. Cung ứng d ịch vụ là ho ạt động thương m ại, theo đó một bên (sau đây gọi là bên cung ứng d ịch v ụ) có ngh ĩa vụ thực hiện d ịch vụ cho m ột bên khác và nh ận thanh toán; bên s ử dụng d ịch vụ (sau đây gọi là khách hàng) có ngh ĩa vụ thanh toán cho bên cung ứng dịch v ụ và s ử dụng d ịch v ụ theo th ỏa thu ận.\n\n10. Xúc ti ến thương m ại là ho ạt động thúc đẩy, tìm ki ếm cơ hội mua bán hàng hoá và cung ứng d ịch v ụ, bao g ồm ho ạt động khuy ến m ại, qu ảng cáo thương m ại, tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ và h ội ch ợ, tri ển lãm thương mại.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+    "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797388-cKTLsxFVN74rshWGk0ux",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 19,
+        "total_tokens": 310,
+        "cost": 0.0001468,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001468,
+          "upstream_inference_prompt_cost": 0.0001164,
+          "upstream_inference_completions_cost": 3.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2360.371899965685,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797389-JLarJN6aEE5rRhTjScJM",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1200,
+        "completion_tokens": 224,
+        "total_tokens": 1424,
+        "cost": 0.0008384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0008384,
+          "upstream_inference_prompt_cost": 0.00048,
+          "upstream_inference_completions_cost": 0.0003584
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2873.11329995282,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 5247.862599964719,
+  "searches": 1,
+  "query_id": "d7-q09",
+  "question": "Nghĩa vụ cơ bản của bên mua về thanh toán và nhận hàng là gì?",
+  "split": "dev",
+  "config": "hybrid",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "hiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 49"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 2,
+      "text": "8. Mua bán hàng hoá là ho ạt động thương mại, theo đó bên bán có ngh ĩa vụ giao hàng, chuy ển quy ền sở hữu hàng hóa cho bên mua và nh ận thanh toán; bên mua có ngh ĩa vụ thanh toán cho bên bán, nh ận hàng và quy ền sở hữu hàng hoá theo thỏa thuận.\n\n9. Cung ứng d ịch vụ là ho ạt động thương m ại, theo đó một bên (sau đây gọi là bên cung ứng d ịch v ụ) có ngh ĩa vụ thực hiện d ịch vụ cho m ột bên khác và nh ận thanh toán; bên s ử dụng d ịch vụ (sau đây gọi là khách hàng) có ngh ĩa vụ thanh toán cho bên cung ứng dịch v ụ và s ử dụng d ịch v ụ theo th ỏa thu ận.\n\n10. Xúc ti ến thương m ại là ho ạt động thúc đẩy, tìm ki ếm cơ hội mua bán hàng hoá và cung ứng d ịch v ụ, bao g ồm ho ạt động khuy ến m ại, qu ảng cáo thương m ại, tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ và h ội ch ợ, tri ển lãm thương mại.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 2,
+        "year": 2005,
+        "chapter": "Chương I"
+      },
+      "score": 0.031746031746031744,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-978267a3943a4e1d",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "Điều 51. Việc ngừng thanh toán tiền mua hàng Trừ trường hợp có tho ả thuận khác, vi ệc ngừng thanh toán ti ền mua hàng được quy định như sau:\n\n1. Bên mua có b ằng chứng về việc bên bán lừa dối thì có quyền tạm ngừng việc thanh toán;\n\n2. Bên mua có bằng chứng về việc hàng hóa đang là đối tượng bị tranh chấp thì có quyền tạm ngừng thanh toán cho đến khi việc tranh chấp đã được giải quyết;\n\n3. Bên mua có b ằng ch ứng về việc bên bán đã giao hàng không phù h ợp với h ợp đồng thì có quy ền t ạm ng ừng thanh toán c ho đến khi bên bán đã kh ắc phục sự không phù hợp đó;\n\n4. Trường hợp tạm ngừng thanh toán theo quy định tại khoản 2 và kho ản 3 Điều này mà b ằng ch ứng do bên mua đưa ra không xác th ực, gây thi ệt hại cho bên bán thì bên mua ph ải bồi th ường thiệt hại đó và ch ịu các ch ế tài khác theo quy định của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 51"
+      },
+      "score": 0.03128054740957967,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 2
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nhiện nghĩa vụ dân s ự thì bên bán ph ải thông báo cho bên mua v ề biện pháp b ảo đảm và phải được sự đồng ý của bên nhận bảo đảm về việc bán hàng hóa đó.\n\nĐiều 49. Nghĩa vụ bảo hành hàng hoá\n\n1. Trường hợp hàng hoá mua bán có b ảo hành thì bên bán ph ải chịu trách nhiệm bảo hành hàng hoá đó theo nội dung và thời hạn đã thỏa thuận.\n\n2. Bên bán ph ải thực hiện nghĩa vụ bảo hành trong th ời gian ngắn nhất mà hoàn cảnh thực tế cho phép.\n\n3. Bên bán ph ải chịu các chi phí v ề việc bảo hành, tr ừ trường hợp có tho ả thuận khác.\n\nĐiều 50. Thanh toán\n\n1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận.\n\n2. Bên mua ph ải tuân thủ các phương thức thanh toán, thực hiện việc thanh toán theo trình tự, thủ tục đã thỏa thuận và theo quy định của pháp luật.\n\n3. Bên mua v ẫn phải thanh toán ti ền mua hàng trong tr ường hợp hàng hoá mất mát, hư hỏng sau thời điểm rủi ro được chuyển từ bên bán sang bên mua, tr ừ trường hợp mất mát, hư hỏng do lỗi của bên bán gây ra.\n\n[luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 2]\n8. Mua bán hàng hoá là ho ạt động thương mại, theo đó bên bán có ngh ĩa vụ giao hàng, chuy ển quy ền sở hữu hàng hóa cho bên mua và nh ận thanh toán; bên mua có ngh ĩa vụ thanh toán cho bên bán, nh ận hàng và quy ền sở hữu hàng hoá theo thỏa thuận.\n\n9. Cung ứng d ịch vụ là ho ạt động thương m ại, theo đó một bên (sau đây gọi là bên cung ứng d ịch v ụ) có ngh ĩa vụ thực hiện d ịch vụ cho m ột bên khác và nh ận thanh toán; bên s ử dụng d ịch vụ (sau đây gọi là khách hàng) có ngh ĩa vụ thanh toán cho bên cung ứng dịch v ụ và s ử dụng d ịch v ụ theo th ỏa thu ận.\n\n10. Xúc ti ến thương m ại là ho ạt động thúc đẩy, tìm ki ếm cơ hội mua bán hàng hoá và cung ứng d ịch v ụ, bao g ồm ho ạt động khuy ến m ại, qu ảng cáo thương m ại, tr ưng bày, gi ới thi ệu hàng hoá, d ịch v ụ và h ội ch ợ, tri ển lãm thương mại.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-06a12fc417351909",
+    "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-3a17069c10a86b25"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

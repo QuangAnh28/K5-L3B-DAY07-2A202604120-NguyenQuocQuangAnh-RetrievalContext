@@ -1,0 +1,259 @@
+{
+  "status": "answered",
+  "answer": "Trường hợp không có thỏa thuận về giá dịch vụ, không có thỏa thuận về phương pháp xác định giá dịch vụ và cũng không có bất kỳ chỉ dẫn nào khác về giá dịch vụ thì giá dịch vụ được xác định theo giá của loại dịch vụ đó trong các điều kiện tương tự về phương thức cung ứng, thời điểm cung ứng, thị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá dịch vụ. [luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_zRhPzwsq51fRU0OBfBiorYns",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"xác định giá dịch vụ khi không có thỏa thuận hay chỉ dẫn về giá\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797574-UMhTPVEwC60fcafocTTu"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Không có thỏa thuận hay chỉ dẫn về giá dịch vụ thì xác định giá dựa trên căn cứ nào?",
+      "model_query": "xác định giá dịch vụ khi không có thỏa thuận hay chỉ dẫn về giá",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 52"
+          },
+          "score": 0.5799997483275999,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 24,
+          "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 24,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 86"
+          },
+          "score": 0.5570048706117132,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 44,
+          "text": "3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 44,
+            "year": 2005,
+            "chapter": "Chương V"
+          },
+          "score": 0.522403785414918,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 44]\n3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+        "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+        "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_n06bHQostqhnIJUazXnwcq3T",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trường hợp không có thỏa thuận về giá dịch vụ, không có thỏa thuận về phương pháp xác định giá dịch vụ và cũng không có bất kỳ chỉ dẫn nào khác về giá dịch vụ thì giá dịch vụ được xác định theo giá của loại dịch vụ đó trong các điều kiện tương tự về phương thức cung ứng, thời điểm cung ứng, thị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá dịch vụ.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797575-k8iPhFuHKzuQxHTo5CQs"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 44]\n3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797574-UMhTPVEwC60fcafocTTu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 295,
+        "completion_tokens": 22,
+        "total_tokens": 317,
+        "cost": 0.0001532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001532,
+          "upstream_inference_prompt_cost": 0.000118,
+          "upstream_inference_completions_cost": 3.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1290.2193000190891,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797575-k8iPhFuHKzuQxHTo5CQs",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1195,
+        "completion_tokens": 139,
+        "total_tokens": 1334,
+        "cost": 0.0007004,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0007004,
+          "upstream_inference_prompt_cost": 0.000478,
+          "upstream_inference_completions_cost": 0.0002224
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2385.011700040195,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3685.330999956932,
+  "searches": 1,
+  "query_id": "d7-q14",
+  "question": "Không có thỏa thuận hay chỉ dẫn về giá dịch vụ thì xác định giá dựa trên căn cứ nào?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 52"
+      },
+      "score": 0.5799997483275999,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 24,
+      "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 24,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 86"
+      },
+      "score": 0.5570048706117132,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 44,
+      "text": "3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 44,
+        "year": 2005,
+        "chapter": "Chương V"
+      },
+      "score": 0.522403785414918,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 44]\n3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

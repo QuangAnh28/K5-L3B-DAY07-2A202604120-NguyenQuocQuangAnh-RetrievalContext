@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p104",
+  "image_sha256": "1f159881723ecdb9b18cd8d6a5330bf357424249edc42cdf08c7a0051065f983",
+  "caption": {
+    "summary": "Báo cáo của Ban Kiểm soát nhiệm kỳ 2022-2027 với các nhiệm vụ chính và thành phần, cơ cấu Ban Kiểm soát năm 2025.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Danh sách thành viên và số lượng cuộc họp Ban Kiểm soát",
+        "location": "phải",
+        "description": "Bảng gồm các cột: STT, Thành viên, Chức vụ, Trình độ chuyên môn, Tỷ lệ sở hữu, Ngày bắt đầu là thành viên BKS, Số cuộc họp, Tỷ lệ. Thông tin về 3 thành viên Ban Kiểm soát nhiệm kỳ 2022-2027."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800756-zW5Bx7pdjxHn63FnORA1",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 149,
+        "total_tokens": 2711,
+        "cost": 0.0012632,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012632,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002384
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3003.5059000365436,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

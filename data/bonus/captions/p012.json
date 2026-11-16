@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p012",
+  "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185",
+  "caption": {
+    "summary": "Bảng tổng hợp tình hình tài chính và kết quả kinh doanh nổi bật của FPT giai đoạn 2021-2025, thể hiện các chỉ tiêu tài chính chính và tỷ lệ tăng trưởng hàng năm.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025",
+        "location": "phải",
+        "description": "Bảng gồm các chỉ tiêu tài chính như vốn chủ sở hữu, tổng tài sản, tổng doanh thu, lợi nhuận các loại, chi trả cổ tức bằng tiền mặt; dữ liệu theo năm từ 2021 đến 2025 với tỷ lệ tăng trưởng phần trăm từng năm; đơn vị tính là tỷ VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800696-TPvGfA8BVcDc8hB6klUp",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 156,
+        "total_tokens": 2718,
+        "cost": 0.0012744,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012744,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002496
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3733.724500052631,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

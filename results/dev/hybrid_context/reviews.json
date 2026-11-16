@@ -1,0 +1,267 @@
+[
+  {
+    "query_id": "d7-q01",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.609505+00:00",
+    "trace_sha256": "433c2bf90714c0ce88a27cb0296133abf67c1e74a2f586ca354a40be17bef10a",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 7 trang 4 xác nhận chưa đăng ký vẫn chịu trách nhiệm mọi hoạt động theo luật và quy định khác.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q02",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.619606+00:00",
+    "trace_sha256": "85b2eecee506b2b36da5ab9685a5467ca0ae784497afda2ec8626e1743948486",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 10 trang 4 quy định thương nhân mọi thành phần kinh tế bình đẳng trước pháp luật trong hoạt động thương mại.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q03",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.629837+00:00",
+    "trace_sha256": "fc5f8b8653559eb1b7dc4fdc0d03471268f241d8d1d57f9373ca7051f898c4a2",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 15 trang 5 yêu cầu điều kiện và tiêu chuẩn kỹ thuật theo pháp luật để tương đương văn bản.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q04",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.697819+00:00",
+    "trace_sha256": "b942ef0baa45a1c70a73e5347b335868dba788c66ec4b4d09a8b5ca853a8c5b2",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 18 trang 6 cấm Văn phòng đại diện sinh lợi trực tiếp tại Việt Nam.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q05",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.710567+00:00",
+    "trace_sha256": "669c80f8ff2e9a0fa3cf8a4f34a19d095fe1c6a8439fe8f3902e50d14da0e19b",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Điều 24 trang 8 liệt kê lời nói, văn bản, hành vi và trường hợp bắt buộc văn bản; Điều 64 trang 18 hỗ trợ phần bổ sung về kỳ hạn/quyền chọn nếu được dẫn.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q06",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.720737+00:00",
+    "trace_sha256": "5dc44a79b8f640f399ba39ec0edd51b8ff1b989485435aac54f17ccbb3a4c142",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 27 trang 9 yêu cầu hợp đồng quốc tế bằng văn bản hoặc hình thức có giá trị pháp lý tương đương.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q07",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.730672+00:00",
+    "trace_sha256": "52cab855c6f91b586670d43fe1f950c72dc684d2f4fd9f0318310b47cd4b8235",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [
+      false
+    ],
+    "reason": "Đáp án đúng ý và context có Điều 35, nhưng dẫn đoạn trang 11 về các trường hợp không có thỏa thuận địa điểm, không chứa khoản 1 giao đúng địa điểm đã thỏa thuận.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q08",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.742322+00:00",
+    "trace_sha256": "de7fbd42def4a58d8ffca5ddfde5df81a936824d9ffaa298411295c765661024",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 37 trang 12 khoản 2 cho phép bất kỳ thời điểm trong thời hạn, phải thông báo trước.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q09",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.753416+00:00",
+    "trace_sha256": "847e4ea3fe415444ad5171dc6410266148b71a4f5b85b93e4a473aae5282e623",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 0,
+    "context_grade": 2,
+    "citation_support": [],
+    "reason": "Từ chối nhầm dù context đủ Điều 50/56; raw finish/citation không qua validation. Không tự sửa đáp án để nâng điểm.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q10",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.762960+00:00",
+    "trace_sha256": "081f03dd6be2b6b0a53908034b606c4893f40d47bf2ba52c4cfb491f2f6ff587",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 55 trang 16 khoản 1 nêu thời điểm giao hàng hoặc giao chứng từ, trừ thỏa thuận khác; giá hàng thừa và quyền ngừng thanh toán không trả lời được thời hạn này.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q11",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.774058+00:00",
+    "trace_sha256": "7cdbe91cf1781560589d4c898ab55a7bd57e304fe3fd6ad964250752cf9c8189",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng thời điểm/địa điểm Điều 57 nhưng bỏ điều kiện kể cả bên bán được giữ chứng từ sở hữu trong đáp án chuẩn; context có đủ điều kiện này.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q12",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.784687+00:00",
+    "trace_sha256": "4f861552dec330568799e4657fb4dcaa579e07d6cff213f09227007de76a242d",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 62 trang 17 nêu thời điểm chuyển giao hàng, trừ luật hoặc thỏa thuận khác.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q13",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.793990+00:00",
+    "trace_sha256": "ce0f23329f7f3eed88609eabe04e2e04e29554e11410e529eb30cc112094937e",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 74 trang 21 nêu lời nói, văn bản, hành vi cụ thể và trường hợp phải văn bản.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q14",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.805899+00:00",
+    "trace_sha256": "762c062950ba43f4062d3beaeda376e69e4254167d91fd929c1f1f1e5c4458c5",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 86 trang 24 liệt kê phương thức/thời điểm cung ứng, thị trường địa lý, thanh toán, điều kiện ảnh hưởng giá.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-q15",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.815219+00:00",
+    "trace_sha256": "71d1e049b201b92bda2dd5240dd51ddd53038277d4137cefc5b041fb5e9e793f",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 87 trang 24 nêu thời điểm hoàn thành cung ứng dịch vụ khi không có thỏa thuận/thói quen thanh toán.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-u1",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.826394+00:00",
+    "trace_sha256": "be2ba01d367015548ffa04b3a523df93021b7dde4a077954b6459dd4fa7e4ef3",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Lời từ chối chuẩn không thêm khẳng định. Đã kiểm tra absence_reason của hai câu dev trên toàn corpus; không có hồ sơ giao dịch/doanh thu công ty được hỏi.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  },
+  {
+    "query_id": "d7-u2",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:59:49.837273+00:00",
+    "trace_sha256": "8b2ea3967c0902b0c644f004491ff909de5dfcf45e9f2e924adac1fbf17f7925",
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Lời từ chối chuẩn không thêm khẳng định. Đã kiểm tra absence_reason của hai câu dev trên toàn corpus; không có hồ sơ giao dịch/doanh thu công ty được hỏi.",
+    "review_round": "Base-v2; answers and cited source chunks reread; historical labels used only as rubric references."
+  }
+]

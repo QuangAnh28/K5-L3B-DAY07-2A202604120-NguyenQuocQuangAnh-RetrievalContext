@@ -1,0 +1,278 @@
+{
+  "status": "abstain",
+  "answer": "Không có bằng chứng trong tài liệu về ngày cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_XQgXI3VsGvYcmgsrhyMvRKvP",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797590-BEGnRdn9ZOfGfVA2MYBG"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+      "model_query": "Cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 62,
+          "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 62,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 54,
+          "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 54,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 207"
+          },
+          "score": 0.03055037313432836,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 50,
+          "text": "8. Thanh toán cho ng ười bán hàng tiền hàng đã bán, kể cả khoản tiền chênh lệch thu được từ người rút l ại giá đã trả quy định tại khoản 3 Điều 204 c ủa Luật này hoặc trả lại hàng hoá không bán được cho ng ười bán hàng theo tho ả thuận. Trường h ợp không có tho ả thu ận thì ph ải thanh toán ti ền cho ng ười bán hàng chậm nhất là ba ngày làm vi ệc sau khi nh ận được tiền của người mua hàng ho ặc phải trả lại ngay hàng hoá trong thời hạn hợp lý sau cuộc đấu giá.\n\nĐiều 191. Quyền của người bán hàng không phải là người tổ chức đấu giá Trừ trường hợp có thoả thuận khác, người bán hàng có các quyền sau đây:\n\n1. Nhận tiền hàng đã bán đấu giá và khoản chênh lệch thu được trong trường hợp quy định t ại kho ản 3 Điều 204 c ủa Lu ật này ho ặc nh ận l ại hàng hoá trong trường hợp đấu giá không thành;\n\n2. Giám sát việc tổ chức bán đấu giá hàng hoá.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 50,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 191"
+          },
+          "score": 0.02964426877470356,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 6
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+        "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_7dj1fLMrDzromA17kUpfZ2iM",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không có bằng chứng trong tài liệu về ngày cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797591-welORR2JfUc5o2HL5EQI"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+    "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797590-BEGnRdn9ZOfGfVA2MYBG",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 17,
+        "total_tokens": 306,
+        "cost": 0.0001428,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001428,
+          "upstream_inference_prompt_cost": 0.0001156,
+          "upstream_inference_completions_cost": 2.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1187.172699952498,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797591-welORR2JfUc5o2HL5EQI",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1004,
+        "completion_tokens": 35,
+        "total_tokens": 1039,
+        "cost": 0.0004576,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004576,
+          "upstream_inference_prompt_cost": 0.0004016,
+          "upstream_inference_completions_cost": 5.6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1560.9571000095457,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 2759.4448000309058,
+  "searches": 1,
+  "query_id": "d7-u1",
+  "question": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+  "split": "dev",
+  "config": "hybrid",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 62,
+      "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 62,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.03225806451612903,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 54,
+      "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 54,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 207"
+      },
+      "score": 0.03055037313432836,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 7,
+        "tfidf": 4
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-a617377a8388d8fa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 50,
+      "text": "8. Thanh toán cho ng ười bán hàng tiền hàng đã bán, kể cả khoản tiền chênh lệch thu được từ người rút l ại giá đã trả quy định tại khoản 3 Điều 204 c ủa Luật này hoặc trả lại hàng hoá không bán được cho ng ười bán hàng theo tho ả thuận. Trường h ợp không có tho ả thu ận thì ph ải thanh toán ti ền cho ng ười bán hàng chậm nhất là ba ngày làm vi ệc sau khi nh ận được tiền của người mua hàng ho ặc phải trả lại ngay hàng hoá trong thời hạn hợp lý sau cuộc đấu giá.\n\nĐiều 191. Quyền của người bán hàng không phải là người tổ chức đấu giá Trừ trường hợp có thoả thuận khác, người bán hàng có các quyền sau đây:\n\n1. Nhận tiền hàng đã bán đấu giá và khoản chênh lệch thu được trong trường hợp quy định t ại kho ản 3 Điều 204 c ủa Lu ật này ho ặc nh ận l ại hàng hoá trong trường hợp đấu giá không thành;\n\n2. Giám sát việc tổ chức bán đấu giá hàng hoá.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 50,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 191"
+      },
+      "score": 0.02964426877470356,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 9,
+        "tfidf": 6
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+    "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

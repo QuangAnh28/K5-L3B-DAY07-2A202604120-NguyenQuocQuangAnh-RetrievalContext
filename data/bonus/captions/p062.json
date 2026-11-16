@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p062",
+  "image_sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041",
+  "caption": {
+    "summary": "Phân tích hoạt động kinh doanh lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài năm 2025 của FPT, bao gồm tăng trưởng doanh thu, lợi nhuận, chiến lược mở rộng thị trường và hợp tác chiến lược tại các khu vực chiến lược.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài theo khu vực năm 2025",
+        "location": "phải",
+        "description": "Biểu đồ hình tròn thể hiện doanh thu theo tỷ lệ phần trăm và giá trị tuyệt đối (tỷ VNĐ) của các khu vực: Nhật Bản (43,7%), Châu Á-Thái Bình Dương (23,1%), Mỹ (23,1%), Châu Âu (10,2%) với tổng doanh thu 35.382 tỷ VNĐ, kèm theo tỷ lệ tăng trưởng phần trăm so với năm trước."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800728-P2HRHoAEc6Z8yaYEZSkh",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 199,
+        "total_tokens": 2761,
+        "cost": 0.0013432,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013432,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003184
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4439.295199990738,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

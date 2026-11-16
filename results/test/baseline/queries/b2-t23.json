@@ -1,0 +1,260 @@
+{
+  "status": "answered",
+  "answer": "Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các khoản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam. [luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_8NLpdzxC893qnokSDz0FfuTw",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"nghĩa vụ của thương nhân nước ngoài trước khi chấm dứt hoạt động tại Việt Nam\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801606-iSAnfkgs8HWiV6bqB8Zw"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài phải thực hiện nghĩa vụ gì với Nhà nước, tổ chức và cá nhân liên quan?",
+      "model_query": "nghĩa vụ của thương nhân nước ngoài trước khi chấm dứt hoạt động tại Việt Nam",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 8,
+          "text": "hiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 8,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 23"
+          },
+          "score": 0.5772431081463409,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "year": 2005,
+            "chapter": "Chương I",
+            "section": "Mục 3",
+            "article": "Điều 15"
+          },
+          "score": 0.38077354082693354,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 3,
+          "text": "2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 3,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 6"
+          },
+          "score": 0.35454511816982187,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+        "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_Zr9s3lXv5X4P0yvNVZGAPPrc",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các khoản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801608-r8cCnC9hnPyO726mr5JQ"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801606-iSAnfkgs8HWiV6bqB8Zw",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 308,
+        "completion_tokens": 27,
+        "total_tokens": 335,
+        "cost": 0.0001664,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001664,
+          "upstream_inference_prompt_cost": 0.0001232,
+          "upstream_inference_completions_cost": 4.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2724.675000004936,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801608-r8cCnC9hnPyO726mr5JQ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1216,
+        "completion_tokens": 94,
+        "total_tokens": 1310,
+        "cost": 0.0006368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006368,
+          "upstream_inference_prompt_cost": 0.0004864,
+          "upstream_inference_completions_cost": 0.0001504
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2042.4552000476979,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 4769.8378000059165,
+  "searches": 1,
+  "query_id": "b2-t23",
+  "question": "Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài phải thực hiện nghĩa vụ gì với Nhà nước, tổ chức và cá nhân liên quan?",
+  "split": "test",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 8,
+      "text": "hiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 8,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 23"
+      },
+      "score": 0.5772431081463409,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 5,
+      "text": "1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 5,
+        "year": 2005,
+        "chapter": "Chương I",
+        "section": "Mục 3",
+        "article": "Điều 15"
+      },
+      "score": 0.38077354082693354,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 3,
+      "text": "2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 3,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 6"
+      },
+      "score": 0.35454511816982187,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n1. Thương nhân thực hiện hoạt động thương mại có nghĩa vụ thông tin đầy đủ, trung th ực cho người tiêu dùng v ề hàng hoá và d ịch vụ mà mình kinh doanh và phải chịu trách nhiệm về tính chính xác của các thông tin đó.\n\n2. Thương nhân thực hiện hoạt động thương mại phải chịu trách nhiệm về chất lượng, tính hợp pháp của hàng hoá, dịch vụ mà mình kinh doanh.\n\nĐiều 15. Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản.\n\nMục 3 THƯƠNG NHÂN NƯỚC NGOÀI HOẠT ĐỘNG THƯƠNG MẠI TẠI VIỆT NAM\n\nĐiều 16. Thương nhân nước ngoài hoạt động thương mại tại Việt Nam\n\n1. Th ương nhân n ước ngoài là th ương nhân được thành l ập, đăng ký kinh doanh theo quy định c ủa pháp lu ật nước ngoài ho ặc được pháp lu ật n ước ngoài công nhận.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-91ad3db2f9bae54e"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

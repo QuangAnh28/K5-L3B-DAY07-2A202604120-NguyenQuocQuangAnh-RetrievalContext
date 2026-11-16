@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p197",
+  "image_sha256": "1ed789f08060d39812e09a8c5d8d5d5517c443ca5a8f56230849c04055d42550",
+  "caption": {
+    "summary": "Bảng thuyết minh tài sản cố định hữu hình của FPT cho năm tài chính kết thúc ngày 31/12/2025, bao gồm nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại theo các loại tài sản.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tài sản cố định hữu hình",
+        "location": "giữa trang",
+        "description": "Bảng liệt kê nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại của các loại tài sản cố định hữu hình gồm Nhà cửa, vật kiến trúc; Máy móc, thiết bị; Phương tiện vận tải; Thiết bị quản lý; Khác; Tổng cộng, đơn vị tính bằng VNĐ, dữ liệu cho các mốc thời gian 1/1/2025 và 31/12/2025 cùng các biến động trong năm."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800829-tzntiR2egwiI7ie3whIL",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 211,
+        "total_tokens": 2773,
+        "cost": 0.0013624,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013624,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003376
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3889.656300016213,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

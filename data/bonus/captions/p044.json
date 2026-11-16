@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p044",
+  "image_sha256": "17734636f80d902c864a6116d032ed09043b54343fe778f9bbeeef0eef7928b6",
+  "caption": {
+    "summary": "Giới thiệu Ban Kiểm soát của FPT với ba thành viên có kinh nghiệm trong lĩnh vực tài chính và các vị trí công tác hiện tại.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800718-0l526nkBATqs6lpRQeTL",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 40,
+        "total_tokens": 2602,
+        "cost": 0.0010888,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010888,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 6.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2547.422199975699,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

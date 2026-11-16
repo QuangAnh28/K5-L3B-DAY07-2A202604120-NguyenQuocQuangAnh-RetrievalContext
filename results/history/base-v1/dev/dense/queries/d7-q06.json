@@ -1,0 +1,254 @@
+{
+  "status": "abstain",
+  "answer": "Không có bằng chứng trong tài liệu Luật Thương mại 2005 về hình thức hợp đồng mua bán hàng hóa quốc tế.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_0e3mMXyPwbCaczmluDcTV1uW",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"hình thức hợp đồng mua bán hàng hóa quốc tế\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797567-2MKSu7oGhP2gBMVh7M7R"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Mua bán hàng hóa quốc tế phải dựa trên hợp đồng có hình thức nào?",
+      "model_query": "hình thức hợp đồng mua bán hàng hóa quốc tế",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 37,
+          "text": "2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 37,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 137"
+          },
+          "score": 0.6271346306007042,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii"
+          },
+          "score": 0.607453182380528,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 37,
+          "text": "3. Thời hạn tạm xuất khẩu hàng hóa để tham gia h ội chợ, triển lãm th ương mại ở nước ngoài là m ột năm kể từ ngày hàng hóa được tạm xuất khẩu; nếu quá thời hạn nói trên mà ch ưa được tái nh ập khẩu thì hàng hóa đó phải chịu thuế và các nghĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n4. Việc tạm xuất, tái nhập hàng hóa tham gia h ội chợ, triển lãm thương mại ở n ước ngoài ph ải tuân th ủ các quy định c ủa pháp lu ật v ề h ải quan và các quy định khác của pháp luật có liên quan.\n\nĐiều 136. Bán, t ặng hàng hoá, cung ứng dịch v ụ tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, dịch vụ trưng bày, giới thiệu tại hội chợ, triển lãm thương mại tại Vi ệt Nam được phép bán, t ặng, cung ứng tại hội ch ợ, triển lãm th ương m ại; đối với hàng hóa nh ập khẩu phải đăng ký v ới hải quan, tr ừ trường hợp quy định tại khoản 2 Điều này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 37,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 136"
+          },
+          "score": 0.5826815247314154,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+        "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_RsUUrVAhrOFyFyBCZcC8PGme",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không có bằng chứng trong tài liệu Luật Thương mại 2005 về hình thức hợp đồng mua bán hàng hóa quốc tế.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797568-OMNqgsCSTziB0JhbyWIS"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797567-2MKSu7oGhP2gBMVh7M7R",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 16,
+        "total_tokens": 306,
+        "cost": 0.0001416,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001416,
+          "upstream_inference_prompt_cost": 0.000116,
+          "upstream_inference_completions_cost": 2.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1321.1540000047535,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797568-OMNqgsCSTziB0JhbyWIS",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 921,
+        "completion_tokens": 41,
+        "total_tokens": 962,
+        "cost": 0.000434,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000434,
+          "upstream_inference_prompt_cost": 0.0003684,
+          "upstream_inference_completions_cost": 6.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1429.1071000043303,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 2760.1752000045963,
+  "searches": 1,
+  "query_id": "d7-q06",
+  "question": "Mua bán hàng hóa quốc tế phải dựa trên hợp đồng có hình thức nào?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 37,
+      "text": "2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 37,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 137"
+      },
+      "score": 0.6271346306007042,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii"
+      },
+      "score": 0.607453182380528,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-2cf08dca94464ea6",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 37,
+      "text": "3. Thời hạn tạm xuất khẩu hàng hóa để tham gia h ội chợ, triển lãm th ương mại ở nước ngoài là m ột năm kể từ ngày hàng hóa được tạm xuất khẩu; nếu quá thời hạn nói trên mà ch ưa được tái nh ập khẩu thì hàng hóa đó phải chịu thuế và các nghĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n4. Việc tạm xuất, tái nhập hàng hóa tham gia h ội chợ, triển lãm thương mại ở n ước ngoài ph ải tuân th ủ các quy định c ủa pháp lu ật v ề h ải quan và các quy định khác của pháp luật có liên quan.\n\nĐiều 136. Bán, t ặng hàng hoá, cung ứng dịch v ụ tại hội chợ, triển lãm thương mại tại Việt Nam\n\n1. Hàng hoá, dịch vụ trưng bày, giới thiệu tại hội chợ, triển lãm thương mại tại Vi ệt Nam được phép bán, t ặng, cung ứng tại hội ch ợ, triển lãm th ương m ại; đối với hàng hóa nh ập khẩu phải đăng ký v ới hải quan, tr ừ trường hợp quy định tại khoản 2 Điều này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 37,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 136"
+      },
+      "score": 0.5826815247314154,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 37]\n2. Hàng hóa thuộc diện nhập khẩu phải có giấy phép của cơ quan nhà n ước có thẩm quyền chỉ được bán, tặng sau khi được cơ quan nhà nước có thẩm quyền chấp thuận bằng văn bản.\n\n3. Việc bán, tặng hàng hoá t ại hội chợ, triển lãm th ương mại quy định tại khoản 2 Điều 134 c ủa Lu ật này ph ải tuân th ủ các quy định v ề qu ản lý chuyên ngành nhập khẩu đối với hàng hóa đó.\n\n4. Hàng hóa được bán, t ặng, dịch vụ được cung ứng tại hội chợ, triển lãm thương mại tại Việt Nam ph ải chịu thuế và các ngh ĩa vụ tài chính khác theo quy định của pháp luật.\n\nĐiều 137. Bán, tặng hàng hóa, cung ứng dịch vụ của Việt Nam tham gia hội chợ, triển lãm thương mại ở nước ngoài\n\n[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p37-paragraph-1000-5034cb121ed21540",
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

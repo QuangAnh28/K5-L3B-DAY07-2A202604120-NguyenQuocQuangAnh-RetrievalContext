@@ -1,0 +1,9 @@
+{
+  "collection": "FPT2025",
+  "model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "distance": "Cosine",
+  "pages": 232,
+  "chunks_sha256": "1819439d8220cfe7feb296f7433a541ab60a39f9643c525fced2c99f8b167d61",
+  "embedding_input": "Page body + vision caption, first 18000 characters; original full text/image retained."
+}

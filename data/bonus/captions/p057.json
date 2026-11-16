@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p057",
+  "image_sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d",
+  "caption": {
+    "summary": "Phân tích hoạt động kinh doanh của FPT năm 2025 và nhận định năm 2026, bao gồm bối cảnh kinh tế, kết quả kinh doanh và các chỉ số tài chính chính.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Kết quả kinh doanh năm 2025",
+        "location": "phải",
+        "description": "Các chỉ số tài chính gồm doanh thu, lợi nhuận trước thuế, lợi nhuận sau thuế thuộc cổ đông công ty mẹ, thu nhập trên mỗi cổ phiếu; đơn vị tính tỷ VNĐ hoặc VNĐ; tỷ lệ tăng trưởng phần trăm so với năm trước."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800724-anQbuI3icCH2ljkwH3tj",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 134,
+        "total_tokens": 2696,
+        "cost": 0.0012392,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012392,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4063.074699952267,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

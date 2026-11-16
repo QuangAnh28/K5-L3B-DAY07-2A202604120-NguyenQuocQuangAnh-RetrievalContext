@@ -1,0 +1,417 @@
+{
+  "status": "answered",
+  "answer": "Bên mời thầu phải bảo mật hồ sơ dự thầu. Tổ chức, cá nhân có liên quan đến việc tổ chức đấu thầu và xét chọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu. [luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_tERPFueCAMdENgDT9bB1wBAr",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Bên mời thầu và người liên quan phải bảo mật những thông tin nào trong đấu thầu?\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797900-SstR0PRn7V5OLwBvI8zA"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Bên mời thầu và người liên quan phải bảo mật những thông tin nào trong đấu thầu?",
+      "model_query": "Bên mời thầu và người liên quan phải bảo mật những thông tin nào trong đấu thầu?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 58,
+          "text": "vụ đấu thầu.\n\n3. Bên m ời th ầu quy định hình th ức, điều ki ện đặt c ọc, ký qu ỹ ho ặc b ảo lãnh dự thầu. Trong tr ường hợp đặt cọc, ký qu ỹ thì ti ền đặt cọc, ký qu ỹ dự thầu được trả lại cho bên d ự thầu không trúng th ầu trong th ời hạn bảy ngày làm vi ệc, kể từ ngày công bố kết quả đấu thầu.\n\n4. Bên d ự th ầu không được nh ận l ại ti ền đặt c ọc, ký qu ỹ d ự th ầu trong trường hợp rút hồ sơ dự thầu sau thời điểm hết hạn nộp hồ sơ dự thầu (gọi là thời điểm đóng th ầu), không ký h ợp đồng ho ặc t ừ ch ối th ực hi ện h ợp đồng tr ong trường hợp trúng thầu.\n\n5. Bên nh ận bảo lãnh cho bên d ự thầu có ngh ĩa vụ bảo đảm d ự thầu cho bên được b ảo lãnh trong ph ạm vi giá tr ị t ương đương v ới s ố ti ền đặt c ọc, ký quỹ.\n\nĐiều 223. Bảo mật thông tin đấu thầu\n\n1. Bên mời thầu phải bảo mật hồ sơ dự thầu.\n\n2. T ổ ch ức, cá nhân có liên quan đến vi ệc t ổ ch ức đấu th ầu và xét ch ọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu.\n\nĐiều 224. Mở thầu",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 58,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 223"
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 57,
+          "text": "Điều 217. Sơ tuyển các bên dự thầu Bên m ời th ầu có th ể t ổ ch ức s ơ tuy ển các bên d ự th ầu nh ằm l ựa ch ọn những bên dự thầu có khả năng đáp ứng các điều kiện mà bên mời thầu đưa ra.\n\nĐiều 218. Hồ sơ mời thầu\n\n1. Hồ sơ mời thầu bao gồm:\n\na) Thông báo mời thầu;\n\nb) Các yêu cầu liên quan đến hàng hóa, dịch vụ được đấu thầu;\n\nc) Phương pháp đánh giá, so sánh, xếp hạng và lựa chọn nhà thầu;\n\nd) Những chỉ dẫn khác liên quan đến việc đấu thầu.\n\n2. Chi phí v ề vi ệc cung c ấp h ồ s ơ cho bên d ự th ầu do bên m ời th ầu quy định.\n\nĐiều 219. Thông báo mời thầu\n\n1. Thông báo mời thầu gồm các nội dung chủ yếu sau đây:\n\na) Tên, địa chỉ của bên mời thầu;\n\nb) Tóm tắt nội dung đấu thầu;\n\nc) Thời hạn, địa điểm và thủ tục nhận hồ sơ mời thầu;\n\nd) Thời hạn, địa điểm, thủ tục nộp hồ sơ dự thầu;\n\nđ) Những chỉ dẫn để tìm hiểu hồ sơ mời thầu.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 57,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 217"
+          },
+          "score": 0.0315136476426799,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 57,
+          "text": "2. Bên m ời th ầu có trách nhi ệm thông báo r ộng rãi trên các ph ương ti ện thông tin đại chúng đối với trường hợp đấu thầu rộng rãi ho ặc gửi thông báo m ời đăng ký d ự th ầu đến các nhà th ầu đủ điều ki ện trong tr ường h ợp đấu th ầu h ạn chế.\n\nĐiều 220. Chỉ dẫn cho bên dự thầu Bên mời thầu có trách nhi ệm chỉ dẫn cho bên d ự thầu về các điều kiện dự thầu, các thủ tục được áp dụng trong quá trình đấu thầu và giải đáp các câu hỏi của bên dự thầu.\n\nĐiều 221. Quản lý hồ sơ dự thầu Bên mời thầu có trách nhiệm quản lý hồ sơ dự thầu.\n\nĐiều 222. Bảo đảm dự thầu\n\n1. B ảo đảm d ự th ầu được thực hi ện dưới hình th ức đặt c ọc, ký qu ỹ ho ặc bảo lãnh dự thầu.\n\n2. Bên m ời thầu có th ể yêu c ầu bên d ự thầu nộp tiền đặt cọc, ký qu ỹ hoặc bảo lãnh dự thầu khi nộp hồ sơ dự thầu. Tỷ lệ tiền đặt cọc, ký quỹ dự thầu do bên mời thầu quy định, nhưng không quá 3% t ổng giá trị ước tính của hàng hoá, dịch",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 57,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 220"
+          },
+          "score": 0.0315136476426799,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 59,
+          "text": "3. Trường hợp bên mời thầu sửa đổi một số nội dung trong hồ sơ mời thầu, bên m ời thầu ph ải gửi nội dung đã sửa đổi b ằng văn b ản đến tất cả các bên d ự thầu trước thời hạn cuối cùng n ộp hồ sơ dự thầu ít nhất là m ười ngày để các bên dự thầu có điều kiện hoàn chỉnh thêm hồ sơ dự thầu của mình.\n\nĐiều 229. Xếp hạng và lựa chọn nhà thầu\n\n1. Căn cứ vào kết quả đánh giá hồ sơ dự thầu, bên mời thầu phải xếp hạng và lựa chọn các bên dự thầu theo phương pháp đã được ấn định.\n\n2. Trong tr ường hợp có nhi ều bên tham gia d ự thầu có số điểm, tiêu chu ẩn trúng thầu ngang nhau thì bên mời thầu có quyền chọn nhà thầu.\n\nĐiều 230. Thông báo kết quả đấu thầu và ký kết hợp đồng\n\n1. Ngay sau khi có k ết qu ả đấu th ầu, bên m ời th ầu có trách nhi ệm thông báo kết quả đấu thầu cho bên dự thầu.\n\n2. Bên m ời th ầu ti ến hành hoàn thi ện và ký k ết h ợp đồng v ới bên trúng thầu trên cơ sở sau đây:\n\na) Kết quả đấu thầu;\n\nb) Các yêu cầu nêu trong hồ sơ mời thầu;\n\nc) Nội dung nêu trong hồ sơ dự thầu.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 59,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 229"
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 56,
+          "text": "Điều 215. Hình thức đấu thầu\n\n1. Việc đấu thầu hàng hoá, d ịch vụ được thực hiện theo m ột trong hai hình thức sau đây:\n\na) Đấu thầu rộng rãi là hình th ức đấu thầu mà bên m ời thầu không hạn chế số lượng các bên dự thầu;\n\nb) Đấu thầu hạn chế là hình thức đấu thầu mà bên mời thầu chỉ mời một số nhà thầu nhất định dự thầu.\n\n2. Việc chọn hình thức đấu thầu rộng rãi hoặc đấu thầu hạn chế do bên mời thầu quyết định.\n\nĐiều 216. Phương thức đấu thầu\n\n1. Ph ương thức đấu thầu bao g ồm đấu thầu một túi h ồ sơ và đấu thầu hai túi h ồ sơ. Bên mời thầu có quy ền lựa chọn ph ương thức đấu thầu và ph ải thông báo trước cho các bên dự thầu.\n\n2. Trong tr ường h ợp đấu th ầu theo ph ương th ức đấu th ầu m ột túi h ồ s ơ, bên dự thầu nộp hồ sơ dự thầu gồm đề xuất về kỹ thuật, đề xuất về tài chính trong một túi hồ sơ theo yêu c ầu của hồ sơ mời thầu và vi ệc m ở thầu được tiến hành một lần.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 56,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 215"
+          },
+          "score": 0.03131881575727918,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-57622910dffd66ee",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 58,
+          "text": "1. Mở thầu là việc tổ chức mở hồ sơ dự thầu tại thời điểm đã được ấn định hoặc trong tr ường hợp không c ó thời điểm được ấn định trước thì th ời điểm mở thầu là ngay sau khi đóng thầu.\n\n2. Nh ững h ồ sơ d ự th ầu n ộp đúng h ạn ph ải được bên m ời th ầu m ở công khai. Các bên dự thầu có quyền tham dự mở thầu.\n\n3. Nh ững h ồ s ơ d ự th ầu n ộp không đúng h ạn không được ch ấp nh ận và được trả lại cho bên dự thầu dưới dạng chưa mở.\n\nĐiều 225. Xét hồ sơ dự thầu khi mở thầu\n\n1. Bên mời thầu xét tính hợp lệ của hồ sơ dự thầu.\n\n2. Bên m ời thầu có th ể yêu cầu các bên d ự thầu giải thích nh ững nội dung chưa rõ trong h ồ sơ dự thầu. Việc yêu cầu và gi ải thích h ồ sơ dự thầu phải được lập thành văn bản.\n\nĐiều 226. Biên bản mở thầu\n\n1. Khi m ở thầu, bên m ời thầu và các bên d ự thầu có m ặt phải ký vào biên bản mở thầu.\n\n2. Biên bản mở thầu phải có các nội dung sau đây:\n\na) Tên hàng hoá, dịch vụ đấu thầu;\n\nb) Ngày, giờ, địa điểm mở thầu;\n\nc) Tên, địa chỉ của bên mời thầu, các bên dự thầu;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 58,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 225"
+          },
+          "score": 0.02964426877470356,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 6
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 58]\nvụ đấu thầu.\n\n3. Bên m ời th ầu quy định hình th ức, điều ki ện đặt c ọc, ký qu ỹ ho ặc b ảo lãnh dự thầu. Trong tr ường hợp đặt cọc, ký qu ỹ thì ti ền đặt cọc, ký qu ỹ dự thầu được trả lại cho bên d ự thầu không trúng th ầu trong th ời hạn bảy ngày làm vi ệc, kể từ ngày công bố kết quả đấu thầu.\n\n4. Bên d ự th ầu không được nh ận l ại ti ền đặt c ọc, ký qu ỹ d ự th ầu trong trường hợp rút hồ sơ dự thầu sau thời điểm hết hạn nộp hồ sơ dự thầu (gọi là thời điểm đóng th ầu), không ký h ợp đồng ho ặc t ừ ch ối th ực hi ện h ợp đồng tr ong trường hợp trúng thầu.\n\n5. Bên nh ận bảo lãnh cho bên d ự thầu có ngh ĩa vụ bảo đảm d ự thầu cho bên được b ảo lãnh trong ph ạm vi giá tr ị t ương đương v ới s ố ti ền đặt c ọc, ký quỹ.\n\nĐiều 223. Bảo mật thông tin đấu thầu\n\n1. Bên mời thầu phải bảo mật hồ sơ dự thầu.\n\n2. T ổ ch ức, cá nhân có liên quan đến vi ệc t ổ ch ức đấu th ầu và xét ch ọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu.\n\nĐiều 224. Mở thầu\n\n[luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 57]\nĐiều 217. Sơ tuyển các bên dự thầu Bên m ời th ầu có th ể t ổ ch ức s ơ tuy ển các bên d ự th ầu nh ằm l ựa ch ọn những bên dự thầu có khả năng đáp ứng các điều kiện mà bên mời thầu đưa ra.\n\nĐiều 218. Hồ sơ mời thầu\n\n1. Hồ sơ mời thầu bao gồm:\n\na) Thông báo mời thầu;\n\nb) Các yêu cầu liên quan đến hàng hóa, dịch vụ được đấu thầu;\n\nc) Phương pháp đánh giá, so sánh, xếp hạng và lựa chọn nhà thầu;\n\nd) Những chỉ dẫn khác liên quan đến việc đấu thầu.\n\n2. Chi phí v ề vi ệc cung c ấp h ồ s ơ cho bên d ự th ầu do bên m ời th ầu quy định.\n\nĐiều 219. Thông báo mời thầu\n\n1. Thông báo mời thầu gồm các nội dung chủ yếu sau đây:\n\na) Tên, địa chỉ của bên mời thầu;\n\nb) Tóm tắt nội dung đấu thầu;\n\nc) Thời hạn, địa điểm và thủ tục nhận hồ sơ mời thầu;\n\nd) Thời hạn, địa điểm, thủ tục nộp hồ sơ dự thầu;\n\nđ) Những chỉ dẫn để tìm hiểu hồ sơ mời thầu.\n\n[luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 57]\n2. Bên m ời th ầu có trách nhi ệm thông báo r ộng rãi trên các ph ương ti ện thông tin đại chúng đối với trường hợp đấu thầu rộng rãi ho ặc gửi thông báo m ời đăng ký d ự th ầu đến các nhà th ầu đủ điều ki ện trong tr ường h ợp đấu th ầu h ạn chế.\n\nĐiều 220. Chỉ dẫn cho bên dự thầu Bên mời thầu có trách nhi ệm chỉ dẫn cho bên d ự thầu về các điều kiện dự thầu, các thủ tục được áp dụng trong quá trình đấu thầu và giải đáp các câu hỏi của bên dự thầu.\n\nĐiều 221. Quản lý hồ sơ dự thầu Bên mời thầu có trách nhiệm quản lý hồ sơ dự thầu.\n\nĐiều 222. Bảo đảm dự thầu\n\n1. B ảo đảm d ự th ầu được thực hi ện dưới hình th ức đặt c ọc, ký qu ỹ ho ặc bảo lãnh dự thầu.\n\n2. Bên m ời thầu có th ể yêu c ầu bên d ự thầu nộp tiền đặt cọc, ký qu ỹ hoặc bảo lãnh dự thầu khi nộp hồ sơ dự thầu. Tỷ lệ tiền đặt cọc, ký quỹ dự thầu do bên mời thầu quy định, nhưng không quá 3% t ổng giá trị ước tính của hàng hoá, dịch\n\n[luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 59]\n3. Trường hợp bên mời thầu sửa đổi một số nội dung trong hồ sơ mời thầu, bên m ời thầu ph ải gửi nội dung đã sửa đổi b ằng văn b ản đến tất cả các bên d ự thầu trước thời hạn cuối cùng n ộp hồ sơ dự thầu ít nhất là m ười ngày để các bên dự thầu có điều kiện hoàn chỉnh thêm hồ sơ dự thầu của mình.\n\nĐiều 229. Xếp hạng và lựa chọn nhà thầu\n\n1. Căn cứ vào kết quả đánh giá hồ sơ dự thầu, bên mời thầu phải xếp hạng và lựa chọn các bên dự thầu theo phương pháp đã được ấn định.\n\n2. Trong tr ường hợp có nhi ều bên tham gia d ự thầu có số điểm, tiêu chu ẩn trúng thầu ngang nhau thì bên mời thầu có quyền chọn nhà thầu.\n\nĐiều 230. Thông báo kết quả đấu thầu và ký kết hợp đồng\n\n1. Ngay sau khi có k ết qu ả đấu th ầu, bên m ời th ầu có trách nhi ệm thông báo kết quả đấu thầu cho bên dự thầu.\n\n2. Bên m ời th ầu ti ến hành hoàn thi ện và ký k ết h ợp đồng v ới bên trúng thầu trên cơ sở sau đây:\n\na) Kết quả đấu thầu;\n\nb) Các yêu cầu nêu trong hồ sơ mời thầu;\n\nc) Nội dung nêu trong hồ sơ dự thầu.\n\n[luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 56]\nĐiều 215. Hình thức đấu thầu\n\n1. Việc đấu thầu hàng hoá, d ịch vụ được thực hiện theo m ột trong hai hình thức sau đây:\n\na) Đấu thầu rộng rãi là hình th ức đấu thầu mà bên m ời thầu không hạn chế số lượng các bên dự thầu;\n\nb) Đấu thầu hạn chế là hình thức đấu thầu mà bên mời thầu chỉ mời một số nhà thầu nhất định dự thầu.\n\n2. Việc chọn hình thức đấu thầu rộng rãi hoặc đấu thầu hạn chế do bên mời thầu quyết định.\n\nĐiều 216. Phương thức đấu thầu\n\n1. Ph ương thức đấu thầu bao g ồm đấu thầu một túi h ồ sơ và đấu thầu hai túi h ồ sơ. Bên mời thầu có quy ền lựa chọn ph ương thức đấu thầu và ph ải thông báo trước cho các bên dự thầu.\n\n2. Trong tr ường h ợp đấu th ầu theo ph ương th ức đấu th ầu m ột túi h ồ s ơ, bên dự thầu nộp hồ sơ dự thầu gồm đề xuất về kỹ thuật, đề xuất về tài chính trong một túi hồ sơ theo yêu c ầu của hồ sơ mời thầu và vi ệc m ở thầu được tiến hành một lần.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e",
+        "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be",
+        "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff",
+        "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b",
+        "luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_5YilJWju4S8LjP5c6RGkP53J",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Bên mời thầu phải bảo mật hồ sơ dự thầu. Tổ chức, cá nhân có liên quan đến việc tổ chức đấu thầu và xét chọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797903-WYmXBJx5A7yhEtZUT3To"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 58]\nvụ đấu thầu.\n\n3. Bên m ời th ầu quy định hình th ức, điều ki ện đặt c ọc, ký qu ỹ ho ặc b ảo lãnh dự thầu. Trong tr ường hợp đặt cọc, ký qu ỹ thì ti ền đặt cọc, ký qu ỹ dự thầu được trả lại cho bên d ự thầu không trúng th ầu trong th ời hạn bảy ngày làm vi ệc, kể từ ngày công bố kết quả đấu thầu.\n\n4. Bên d ự th ầu không được nh ận l ại ti ền đặt c ọc, ký qu ỹ d ự th ầu trong trường hợp rút hồ sơ dự thầu sau thời điểm hết hạn nộp hồ sơ dự thầu (gọi là thời điểm đóng th ầu), không ký h ợp đồng ho ặc t ừ ch ối th ực hi ện h ợp đồng tr ong trường hợp trúng thầu.\n\n5. Bên nh ận bảo lãnh cho bên d ự thầu có ngh ĩa vụ bảo đảm d ự thầu cho bên được b ảo lãnh trong ph ạm vi giá tr ị t ương đương v ới s ố ti ền đặt c ọc, ký quỹ.\n\nĐiều 223. Bảo mật thông tin đấu thầu\n\n1. Bên mời thầu phải bảo mật hồ sơ dự thầu.\n\n2. T ổ ch ức, cá nhân có liên quan đến vi ệc t ổ ch ức đấu th ầu và xét ch ọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu.\n\nĐiều 224. Mở thầu\n\n[luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 57]\nĐiều 217. Sơ tuyển các bên dự thầu Bên m ời th ầu có th ể t ổ ch ức s ơ tuy ển các bên d ự th ầu nh ằm l ựa ch ọn những bên dự thầu có khả năng đáp ứng các điều kiện mà bên mời thầu đưa ra.\n\nĐiều 218. Hồ sơ mời thầu\n\n1. Hồ sơ mời thầu bao gồm:\n\na) Thông báo mời thầu;\n\nb) Các yêu cầu liên quan đến hàng hóa, dịch vụ được đấu thầu;\n\nc) Phương pháp đánh giá, so sánh, xếp hạng và lựa chọn nhà thầu;\n\nd) Những chỉ dẫn khác liên quan đến việc đấu thầu.\n\n2. Chi phí v ề vi ệc cung c ấp h ồ s ơ cho bên d ự th ầu do bên m ời th ầu quy định.\n\nĐiều 219. Thông báo mời thầu\n\n1. Thông báo mời thầu gồm các nội dung chủ yếu sau đây:\n\na) Tên, địa chỉ của bên mời thầu;\n\nb) Tóm tắt nội dung đấu thầu;\n\nc) Thời hạn, địa điểm và thủ tục nhận hồ sơ mời thầu;\n\nd) Thời hạn, địa điểm, thủ tục nộp hồ sơ dự thầu;\n\nđ) Những chỉ dẫn để tìm hiểu hồ sơ mời thầu.\n\n[luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 57]\n2. Bên m ời th ầu có trách nhi ệm thông báo r ộng rãi trên các ph ương ti ện thông tin đại chúng đối với trường hợp đấu thầu rộng rãi ho ặc gửi thông báo m ời đăng ký d ự th ầu đến các nhà th ầu đủ điều ki ện trong tr ường h ợp đấu th ầu h ạn chế.\n\nĐiều 220. Chỉ dẫn cho bên dự thầu Bên mời thầu có trách nhi ệm chỉ dẫn cho bên d ự thầu về các điều kiện dự thầu, các thủ tục được áp dụng trong quá trình đấu thầu và giải đáp các câu hỏi của bên dự thầu.\n\nĐiều 221. Quản lý hồ sơ dự thầu Bên mời thầu có trách nhiệm quản lý hồ sơ dự thầu.\n\nĐiều 222. Bảo đảm dự thầu\n\n1. B ảo đảm d ự th ầu được thực hi ện dưới hình th ức đặt c ọc, ký qu ỹ ho ặc bảo lãnh dự thầu.\n\n2. Bên m ời thầu có th ể yêu c ầu bên d ự thầu nộp tiền đặt cọc, ký qu ỹ hoặc bảo lãnh dự thầu khi nộp hồ sơ dự thầu. Tỷ lệ tiền đặt cọc, ký quỹ dự thầu do bên mời thầu quy định, nhưng không quá 3% t ổng giá trị ước tính của hàng hoá, dịch\n\n[luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 59]\n3. Trường hợp bên mời thầu sửa đổi một số nội dung trong hồ sơ mời thầu, bên m ời thầu ph ải gửi nội dung đã sửa đổi b ằng văn b ản đến tất cả các bên d ự thầu trước thời hạn cuối cùng n ộp hồ sơ dự thầu ít nhất là m ười ngày để các bên dự thầu có điều kiện hoàn chỉnh thêm hồ sơ dự thầu của mình.\n\nĐiều 229. Xếp hạng và lựa chọn nhà thầu\n\n1. Căn cứ vào kết quả đánh giá hồ sơ dự thầu, bên mời thầu phải xếp hạng và lựa chọn các bên dự thầu theo phương pháp đã được ấn định.\n\n2. Trong tr ường hợp có nhi ều bên tham gia d ự thầu có số điểm, tiêu chu ẩn trúng thầu ngang nhau thì bên mời thầu có quyền chọn nhà thầu.\n\nĐiều 230. Thông báo kết quả đấu thầu và ký kết hợp đồng\n\n1. Ngay sau khi có k ết qu ả đấu th ầu, bên m ời th ầu có trách nhi ệm thông báo kết quả đấu thầu cho bên dự thầu.\n\n2. Bên m ời th ầu ti ến hành hoàn thi ện và ký k ết h ợp đồng v ới bên trúng thầu trên cơ sở sau đây:\n\na) Kết quả đấu thầu;\n\nb) Các yêu cầu nêu trong hồ sơ mời thầu;\n\nc) Nội dung nêu trong hồ sơ dự thầu.\n\n[luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 56]\nĐiều 215. Hình thức đấu thầu\n\n1. Việc đấu thầu hàng hoá, d ịch vụ được thực hiện theo m ột trong hai hình thức sau đây:\n\na) Đấu thầu rộng rãi là hình th ức đấu thầu mà bên m ời thầu không hạn chế số lượng các bên dự thầu;\n\nb) Đấu thầu hạn chế là hình thức đấu thầu mà bên mời thầu chỉ mời một số nhà thầu nhất định dự thầu.\n\n2. Việc chọn hình thức đấu thầu rộng rãi hoặc đấu thầu hạn chế do bên mời thầu quyết định.\n\nĐiều 216. Phương thức đấu thầu\n\n1. Ph ương thức đấu thầu bao g ồm đấu thầu một túi h ồ sơ và đấu thầu hai túi h ồ sơ. Bên mời thầu có quy ền lựa chọn ph ương thức đấu thầu và ph ải thông báo trước cho các bên dự thầu.\n\n2. Trong tr ường h ợp đấu th ầu theo ph ương th ức đấu th ầu m ột túi h ồ s ơ, bên dự thầu nộp hồ sơ dự thầu gồm đề xuất về kỹ thuật, đề xuất về tài chính trong một túi hồ sơ theo yêu c ầu của hồ sơ mời thầu và vi ệc m ở thầu được tiến hành một lần.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e",
+    "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be",
+    "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff",
+    "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b",
+    "luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797900-SstR0PRn7V5OLwBvI8zA",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 294,
+        "completion_tokens": 27,
+        "total_tokens": 321,
+        "cost": 0.0001608,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001608,
+          "upstream_inference_prompt_cost": 0.0001176,
+          "upstream_inference_completions_cost": 4.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1389.857900037896,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797903-WYmXBJx5A7yhEtZUT3To",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2711,
+        "completion_tokens": 106,
+        "total_tokens": 2817,
+        "cost": 0.001254,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001254,
+          "upstream_inference_prompt_cost": 0.0010844,
+          "upstream_inference_completions_cost": 0.0001696
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4378.344400029164,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 5778.429500001948,
+  "searches": 1,
+  "query_id": "d7-t223",
+  "question": "Bên mời thầu và người liên quan phải bảo mật những thông tin nào trong đấu thầu?",
+  "split": "test",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 58,
+      "text": "vụ đấu thầu.\n\n3. Bên m ời th ầu quy định hình th ức, điều ki ện đặt c ọc, ký qu ỹ ho ặc b ảo lãnh dự thầu. Trong tr ường hợp đặt cọc, ký qu ỹ thì ti ền đặt cọc, ký qu ỹ dự thầu được trả lại cho bên d ự thầu không trúng th ầu trong th ời hạn bảy ngày làm vi ệc, kể từ ngày công bố kết quả đấu thầu.\n\n4. Bên d ự th ầu không được nh ận l ại ti ền đặt c ọc, ký qu ỹ d ự th ầu trong trường hợp rút hồ sơ dự thầu sau thời điểm hết hạn nộp hồ sơ dự thầu (gọi là thời điểm đóng th ầu), không ký h ợp đồng ho ặc t ừ ch ối th ực hi ện h ợp đồng tr ong trường hợp trúng thầu.\n\n5. Bên nh ận bảo lãnh cho bên d ự thầu có ngh ĩa vụ bảo đảm d ự thầu cho bên được b ảo lãnh trong ph ạm vi giá tr ị t ương đương v ới s ố ti ền đặt c ọc, ký quỹ.\n\nĐiều 223. Bảo mật thông tin đấu thầu\n\n1. Bên mời thầu phải bảo mật hồ sơ dự thầu.\n\n2. T ổ ch ức, cá nhân có liên quan đến vi ệc t ổ ch ức đấu th ầu và xét ch ọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu.\n\nĐiều 224. Mở thầu",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 58,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 223"
+      },
+      "score": 0.032266458495966696,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 57,
+      "text": "Điều 217. Sơ tuyển các bên dự thầu Bên m ời th ầu có th ể t ổ ch ức s ơ tuy ển các bên d ự th ầu nh ằm l ựa ch ọn những bên dự thầu có khả năng đáp ứng các điều kiện mà bên mời thầu đưa ra.\n\nĐiều 218. Hồ sơ mời thầu\n\n1. Hồ sơ mời thầu bao gồm:\n\na) Thông báo mời thầu;\n\nb) Các yêu cầu liên quan đến hàng hóa, dịch vụ được đấu thầu;\n\nc) Phương pháp đánh giá, so sánh, xếp hạng và lựa chọn nhà thầu;\n\nd) Những chỉ dẫn khác liên quan đến việc đấu thầu.\n\n2. Chi phí v ề vi ệc cung c ấp h ồ s ơ cho bên d ự th ầu do bên m ời th ầu quy định.\n\nĐiều 219. Thông báo mời thầu\n\n1. Thông báo mời thầu gồm các nội dung chủ yếu sau đây:\n\na) Tên, địa chỉ của bên mời thầu;\n\nb) Tóm tắt nội dung đấu thầu;\n\nc) Thời hạn, địa điểm và thủ tục nhận hồ sơ mời thầu;\n\nd) Thời hạn, địa điểm, thủ tục nộp hồ sơ dự thầu;\n\nđ) Những chỉ dẫn để tìm hiểu hồ sơ mời thầu.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 57,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 217"
+      },
+      "score": 0.0315136476426799,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 5,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 57,
+      "text": "2. Bên m ời th ầu có trách nhi ệm thông báo r ộng rãi trên các ph ương ti ện thông tin đại chúng đối với trường hợp đấu thầu rộng rãi ho ặc gửi thông báo m ời đăng ký d ự th ầu đến các nhà th ầu đủ điều ki ện trong tr ường h ợp đấu th ầu h ạn chế.\n\nĐiều 220. Chỉ dẫn cho bên dự thầu Bên mời thầu có trách nhi ệm chỉ dẫn cho bên d ự thầu về các điều kiện dự thầu, các thủ tục được áp dụng trong quá trình đấu thầu và giải đáp các câu hỏi của bên dự thầu.\n\nĐiều 221. Quản lý hồ sơ dự thầu Bên mời thầu có trách nhiệm quản lý hồ sơ dự thầu.\n\nĐiều 222. Bảo đảm dự thầu\n\n1. B ảo đảm d ự th ầu được thực hi ện dưới hình th ức đặt c ọc, ký qu ỹ ho ặc bảo lãnh dự thầu.\n\n2. Bên m ời thầu có th ể yêu c ầu bên d ự thầu nộp tiền đặt cọc, ký qu ỹ hoặc bảo lãnh dự thầu khi nộp hồ sơ dự thầu. Tỷ lệ tiền đặt cọc, ký quỹ dự thầu do bên mời thầu quy định, nhưng không quá 3% t ổng giá trị ước tính của hàng hoá, dịch",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 57,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 220"
+      },
+      "score": 0.0315136476426799,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 5
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 59,
+      "text": "3. Trường hợp bên mời thầu sửa đổi một số nội dung trong hồ sơ mời thầu, bên m ời thầu ph ải gửi nội dung đã sửa đổi b ằng văn b ản đến tất cả các bên d ự thầu trước thời hạn cuối cùng n ộp hồ sơ dự thầu ít nhất là m ười ngày để các bên dự thầu có điều kiện hoàn chỉnh thêm hồ sơ dự thầu của mình.\n\nĐiều 229. Xếp hạng và lựa chọn nhà thầu\n\n1. Căn cứ vào kết quả đánh giá hồ sơ dự thầu, bên mời thầu phải xếp hạng và lựa chọn các bên dự thầu theo phương pháp đã được ấn định.\n\n2. Trong tr ường hợp có nhi ều bên tham gia d ự thầu có số điểm, tiêu chu ẩn trúng thầu ngang nhau thì bên mời thầu có quyền chọn nhà thầu.\n\nĐiều 230. Thông báo kết quả đấu thầu và ký kết hợp đồng\n\n1. Ngay sau khi có k ết qu ả đấu th ầu, bên m ời th ầu có trách nhi ệm thông báo kết quả đấu thầu cho bên dự thầu.\n\n2. Bên m ời th ầu ti ến hành hoàn thi ện và ký k ết h ợp đồng v ới bên trúng thầu trên cơ sở sau đây:\n\na) Kết quả đấu thầu;\n\nb) Các yêu cầu nêu trong hồ sơ mời thầu;\n\nc) Nội dung nêu trong hồ sơ dự thầu.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 59,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 229"
+      },
+      "score": 0.03149801587301587,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 4
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 56,
+      "text": "Điều 215. Hình thức đấu thầu\n\n1. Việc đấu thầu hàng hoá, d ịch vụ được thực hiện theo m ột trong hai hình thức sau đây:\n\na) Đấu thầu rộng rãi là hình th ức đấu thầu mà bên m ời thầu không hạn chế số lượng các bên dự thầu;\n\nb) Đấu thầu hạn chế là hình thức đấu thầu mà bên mời thầu chỉ mời một số nhà thầu nhất định dự thầu.\n\n2. Việc chọn hình thức đấu thầu rộng rãi hoặc đấu thầu hạn chế do bên mời thầu quyết định.\n\nĐiều 216. Phương thức đấu thầu\n\n1. Ph ương thức đấu thầu bao g ồm đấu thầu một túi h ồ sơ và đấu thầu hai túi h ồ sơ. Bên mời thầu có quy ền lựa chọn ph ương thức đấu thầu và ph ải thông báo trước cho các bên dự thầu.\n\n2. Trong tr ường h ợp đấu th ầu theo ph ương th ức đấu th ầu m ột túi h ồ s ơ, bên dự thầu nộp hồ sơ dự thầu gồm đề xuất về kỹ thuật, đề xuất về tài chính trong một túi hồ sơ theo yêu c ầu của hồ sơ mời thầu và vi ệc m ở thầu được tiến hành một lần.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 56,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 215"
+      },
+      "score": 0.03131881575727918,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 7,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-57622910dffd66ee",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 58,
+      "text": "1. Mở thầu là việc tổ chức mở hồ sơ dự thầu tại thời điểm đã được ấn định hoặc trong tr ường hợp không c ó thời điểm được ấn định trước thì th ời điểm mở thầu là ngay sau khi đóng thầu.\n\n2. Nh ững h ồ sơ d ự th ầu n ộp đúng h ạn ph ải được bên m ời th ầu m ở công khai. Các bên dự thầu có quyền tham dự mở thầu.\n\n3. Nh ững h ồ s ơ d ự th ầu n ộp không đúng h ạn không được ch ấp nh ận và được trả lại cho bên dự thầu dưới dạng chưa mở.\n\nĐiều 225. Xét hồ sơ dự thầu khi mở thầu\n\n1. Bên mời thầu xét tính hợp lệ của hồ sơ dự thầu.\n\n2. Bên m ời thầu có th ể yêu cầu các bên d ự thầu giải thích nh ững nội dung chưa rõ trong h ồ sơ dự thầu. Việc yêu cầu và gi ải thích h ồ sơ dự thầu phải được lập thành văn bản.\n\nĐiều 226. Biên bản mở thầu\n\n1. Khi m ở thầu, bên m ời thầu và các bên d ự thầu có m ặt phải ký vào biên bản mở thầu.\n\n2. Biên bản mở thầu phải có các nội dung sau đây:\n\na) Tên hàng hoá, dịch vụ đấu thầu;\n\nb) Ngày, giờ, địa điểm mở thầu;\n\nc) Tên, địa chỉ của bên mời thầu, các bên dự thầu;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 58,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 225"
+      },
+      "score": 0.02964426877470356,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 9,
+        "tfidf": 6
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 58]\nvụ đấu thầu.\n\n3. Bên m ời th ầu quy định hình th ức, điều ki ện đặt c ọc, ký qu ỹ ho ặc b ảo lãnh dự thầu. Trong tr ường hợp đặt cọc, ký qu ỹ thì ti ền đặt cọc, ký qu ỹ dự thầu được trả lại cho bên d ự thầu không trúng th ầu trong th ời hạn bảy ngày làm vi ệc, kể từ ngày công bố kết quả đấu thầu.\n\n4. Bên d ự th ầu không được nh ận l ại ti ền đặt c ọc, ký qu ỹ d ự th ầu trong trường hợp rút hồ sơ dự thầu sau thời điểm hết hạn nộp hồ sơ dự thầu (gọi là thời điểm đóng th ầu), không ký h ợp đồng ho ặc t ừ ch ối th ực hi ện h ợp đồng tr ong trường hợp trúng thầu.\n\n5. Bên nh ận bảo lãnh cho bên d ự thầu có ngh ĩa vụ bảo đảm d ự thầu cho bên được b ảo lãnh trong ph ạm vi giá tr ị t ương đương v ới s ố ti ền đặt c ọc, ký quỹ.\n\nĐiều 223. Bảo mật thông tin đấu thầu\n\n1. Bên mời thầu phải bảo mật hồ sơ dự thầu.\n\n2. T ổ ch ức, cá nhân có liên quan đến vi ệc t ổ ch ức đấu th ầu và xét ch ọn thầu phải giữ bí mật thông tin liên quan đến việc đấu thầu.\n\nĐiều 224. Mở thầu\n\n[luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 57]\nĐiều 217. Sơ tuyển các bên dự thầu Bên m ời th ầu có th ể t ổ ch ức s ơ tuy ển các bên d ự th ầu nh ằm l ựa ch ọn những bên dự thầu có khả năng đáp ứng các điều kiện mà bên mời thầu đưa ra.\n\nĐiều 218. Hồ sơ mời thầu\n\n1. Hồ sơ mời thầu bao gồm:\n\na) Thông báo mời thầu;\n\nb) Các yêu cầu liên quan đến hàng hóa, dịch vụ được đấu thầu;\n\nc) Phương pháp đánh giá, so sánh, xếp hạng và lựa chọn nhà thầu;\n\nd) Những chỉ dẫn khác liên quan đến việc đấu thầu.\n\n2. Chi phí v ề vi ệc cung c ấp h ồ s ơ cho bên d ự th ầu do bên m ời th ầu quy định.\n\nĐiều 219. Thông báo mời thầu\n\n1. Thông báo mời thầu gồm các nội dung chủ yếu sau đây:\n\na) Tên, địa chỉ của bên mời thầu;\n\nb) Tóm tắt nội dung đấu thầu;\n\nc) Thời hạn, địa điểm và thủ tục nhận hồ sơ mời thầu;\n\nd) Thời hạn, địa điểm, thủ tục nộp hồ sơ dự thầu;\n\nđ) Những chỉ dẫn để tìm hiểu hồ sơ mời thầu.\n\n[luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 57]\n2. Bên m ời th ầu có trách nhi ệm thông báo r ộng rãi trên các ph ương ti ện thông tin đại chúng đối với trường hợp đấu thầu rộng rãi ho ặc gửi thông báo m ời đăng ký d ự th ầu đến các nhà th ầu đủ điều ki ện trong tr ường h ợp đấu th ầu h ạn chế.\n\nĐiều 220. Chỉ dẫn cho bên dự thầu Bên mời thầu có trách nhi ệm chỉ dẫn cho bên d ự thầu về các điều kiện dự thầu, các thủ tục được áp dụng trong quá trình đấu thầu và giải đáp các câu hỏi của bên dự thầu.\n\nĐiều 221. Quản lý hồ sơ dự thầu Bên mời thầu có trách nhiệm quản lý hồ sơ dự thầu.\n\nĐiều 222. Bảo đảm dự thầu\n\n1. B ảo đảm d ự th ầu được thực hi ện dưới hình th ức đặt c ọc, ký qu ỹ ho ặc bảo lãnh dự thầu.\n\n2. Bên m ời thầu có th ể yêu c ầu bên d ự thầu nộp tiền đặt cọc, ký qu ỹ hoặc bảo lãnh dự thầu khi nộp hồ sơ dự thầu. Tỷ lệ tiền đặt cọc, ký quỹ dự thầu do bên mời thầu quy định, nhưng không quá 3% t ổng giá trị ước tính của hàng hoá, dịch\n\n[luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 59]\n3. Trường hợp bên mời thầu sửa đổi một số nội dung trong hồ sơ mời thầu, bên m ời thầu ph ải gửi nội dung đã sửa đổi b ằng văn b ản đến tất cả các bên d ự thầu trước thời hạn cuối cùng n ộp hồ sơ dự thầu ít nhất là m ười ngày để các bên dự thầu có điều kiện hoàn chỉnh thêm hồ sơ dự thầu của mình.\n\nĐiều 229. Xếp hạng và lựa chọn nhà thầu\n\n1. Căn cứ vào kết quả đánh giá hồ sơ dự thầu, bên mời thầu phải xếp hạng và lựa chọn các bên dự thầu theo phương pháp đã được ấn định.\n\n2. Trong tr ường hợp có nhi ều bên tham gia d ự thầu có số điểm, tiêu chu ẩn trúng thầu ngang nhau thì bên mời thầu có quyền chọn nhà thầu.\n\nĐiều 230. Thông báo kết quả đấu thầu và ký kết hợp đồng\n\n1. Ngay sau khi có k ết qu ả đấu th ầu, bên m ời th ầu có trách nhi ệm thông báo kết quả đấu thầu cho bên dự thầu.\n\n2. Bên m ời th ầu ti ến hành hoàn thi ện và ký k ết h ợp đồng v ới bên trúng thầu trên cơ sở sau đây:\n\na) Kết quả đấu thầu;\n\nb) Các yêu cầu nêu trong hồ sơ mời thầu;\n\nc) Nội dung nêu trong hồ sơ dự thầu.\n\n[luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 56]\nĐiều 215. Hình thức đấu thầu\n\n1. Việc đấu thầu hàng hoá, d ịch vụ được thực hiện theo m ột trong hai hình thức sau đây:\n\na) Đấu thầu rộng rãi là hình th ức đấu thầu mà bên m ời thầu không hạn chế số lượng các bên dự thầu;\n\nb) Đấu thầu hạn chế là hình thức đấu thầu mà bên mời thầu chỉ mời một số nhà thầu nhất định dự thầu.\n\n2. Việc chọn hình thức đấu thầu rộng rãi hoặc đấu thầu hạn chế do bên mời thầu quyết định.\n\nĐiều 216. Phương thức đấu thầu\n\n1. Ph ương thức đấu thầu bao g ồm đấu thầu một túi h ồ sơ và đấu thầu hai túi h ồ sơ. Bên mời thầu có quy ền lựa chọn ph ương thức đấu thầu và ph ải thông báo trước cho các bên dự thầu.\n\n2. Trong tr ường h ợp đấu th ầu theo ph ương th ức đấu th ầu m ột túi h ồ s ơ, bên dự thầu nộp hồ sơ dự thầu gồm đề xuất về kỹ thuật, đề xuất về tài chính trong một túi hồ sơ theo yêu c ầu của hồ sơ mời thầu và vi ệc m ở thầu được tiến hành một lần.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p58-paragraph-1000-7a02da0ddc50e86e",
+    "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-60ca28866e63c8be",
+    "luat-thuong-mai-36-2005-qh11-p57-paragraph-1000-b12af02ed2ddbfff",
+    "luat-thuong-mai-36-2005-qh11-p59-paragraph-1000-dcb65949e597729b",
+    "luat-thuong-mai-36-2005-qh11-p56-paragraph-1000-db166c5cf8fe6d95"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

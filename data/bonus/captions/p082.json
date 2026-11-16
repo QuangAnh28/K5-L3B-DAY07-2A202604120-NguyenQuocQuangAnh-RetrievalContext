@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p082",
+  "image_sha256": "d4ea77d225e23a9361d893ae1c107f010a591ab7cc6101591f33b70c2a6255a6",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về trách nhiệm của Hội đồng Quản trị (HĐQT) trong năm 2025, bao gồm nguyên tắc thiết lập vai trò, trách nhiệm và cam kết của HĐQT, các hoạt động họp và ban hành nghị quyết.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tổng hợp số liệu hoạt động của HĐQT năm 2025",
+        "location": "phải trên",
+        "description": "Số lượng cuộc họp/quý, cuộc họp trực tiếp, cuộc họp xin ý kiến bằng văn bản và nghị quyết được ban hành trong năm 2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800741-23MtfdJamA8vk6VjZaJk",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 133,
+        "total_tokens": 2695,
+        "cost": 0.0012376,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012376,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002128
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3142.5847999635153,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

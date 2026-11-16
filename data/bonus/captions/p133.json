@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p133",
+  "image_sha256": "8a20c6acb8d8477abee5fb0c1402ac4258e4c8894b8e44789111e4c0e67f12fd",
+  "caption": {
+    "summary": "Trang trình bày các rủi ro tài chính và rủi ro luật định cùng các biện pháp quản trị tương ứng của FPT.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Rủi ro tài chính",
+        "location": "trên",
+        "description": "Bảng gồm các cột Tên rủi ro, Nội dung, Biện pháp quản trị; nội dung liên quan đến rủi ro tỷ giá và rủi ro kinh doanh thông thường."
+      },
+      {
+        "type": "table",
+        "title": "Rủi ro luật định",
+        "location": "dưới",
+        "description": "Bảng gồm các cột Tên rủi ro, Nội dung, Biện pháp quản trị; nội dung liên quan đến rủi ro liên quan đến các chính sách pháp luật, lao động nhập cư và văn hóa lao động đa quốc gia."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800772-kX0u076teF9JeP24Lof0",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 179,
+        "total_tokens": 2741,
+        "cost": 0.0013112,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013112,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002864
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3443.869699956849,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

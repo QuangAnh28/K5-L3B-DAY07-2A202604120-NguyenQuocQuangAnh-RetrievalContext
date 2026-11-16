@@ -1,0 +1,435 @@
+{
+  "status": "answered",
+  "answer": "Trên trang 27 (biểu đồ \"Doanh thu theo khu vực địa lý\", phía phải dưới), khu vực có tỷ trọng lớn nhất là Việt Nam, chiếm 48,9% toàn Tập đoàn. Các tỷ trọng còn lại: Nhật Bản 22,8%, Châu Mỹ 11,6%, Châu Á-Thái Bình Dương 11,1%, Châu Âu 5,6%.\n[FPT2025:p027 — Biểu đồ hình tròn \"Doanh thu theo khu vực địa lý\" ở phía phải dưới trang; nhãn 48,9% màu xanh đậm tương ứng chú giải Việt Nam]",
+  "citations": [
+    {
+      "id": "FPT2025:p027",
+      "region": "Biểu đồ hình tròn \"Doanh thu theo khu vực địa lý\" ở phía phải dưới trang; nhãn 48,9% màu xanh đậm tương ứng chú giải Việt Nam"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794804730-ScnHR9i0uU0kob33WLBo",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01DGUWJyuh4VRNe1cMVzjyBv",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Trong biểu đồ doanh thu theo khu vực địa lý toàn Tập đoàn, khu vực nào có tỷ trọng lớn nhất và tỷ trọng đó là bao nhiêu?\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong biểu đồ doanh thu theo khu vực địa lý toàn Tập đoàn, khu vực nào có tỷ trọng lớn nhất và tỷ trọng đó là bao nhiêu?",
+      "model_queries": [
+        "Trong biểu đồ doanh thu theo khu vực địa lý toàn Tập đoàn, khu vực nào có tỷ trọng lớn nhất và tỷ trọng đó là bao nhiêu?"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p027",
+          "page": 27,
+          "score": 0.032266458495966696,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p062",
+          "page": 62,
+          "score": 0.029827662395050816,
+          "component_ranks": {
+            "dense": 13,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "score": 0.0287391216352965,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 21
+          }
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "score": 0.027972027972027972,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "score": 0.027799227799227798,
+          "component_ranks": {
+            "dense": 14,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p188",
+          "page": 188,
+          "score": 0.027526395173453996,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "FPT2025:p186",
+          "page": 186,
+          "score": 0.02581612258494337,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 19
+          }
+        },
+        {
+          "id": "FPT2025:p189",
+          "page": 189,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong biểu đồ doanh thu theo khu vực địa lý toàn Tập đoàn, khu vực nào có tỷ trọng lớn nhất và tỷ trọng đó là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p027",
+        "FPT2025:p062",
+        "FPT2025:p060",
+        "FPT2025:p057",
+        "FPT2025:p058",
+        "FPT2025:p188",
+        "FPT2025:p186",
+        "FPT2025:p189"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p027",
+          "page": 27,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "VỊ THẾ VÀ QUY MÔ\n34 30+ 04 Tỉnh thành \ntại Việt Nam\nQuốc gia và \nvùng lãnh thổ Châu lục\nCanada\nUSA\nMexico\nColombia\nAnh Cộng hòa Séc Đức\nẤn Độ\nẢ-rập-xê-út\nTiểu Vương quốc \nẢ rập thống nhất\nIsrael\nViệt Nam \nCampuchia\nThái Lan\nSingapore\nMalaysia Myanmar\nTrung Quốc Hàn Quốc\nCosta Rica\nPháp\nRomania\nSlovakia\nĐan Mạch\nThụy Điển\nĐài loan\nHong Kong\nNhật Bản\nPhilippines\n Indonesia\nÚc\n11,1%\n5,6%\n11,6%\n48,9%\n22,8%\nChâu Mỹ\nNhật Bản\nChâu Âu\nViệt Nam\nChâu Á-Thái Bình Dương\nDoanh thu theo khu vực địa lý\nViệt Nam\nNước ngoài\nFPT là tập đoàn công nghệ và dịch vụ CNTT toàn cầu, tiên phong cung cấp dịch vụ, \nsản phẩm, giải pháp dựa trên những công nghệ lõi như: AI, điện toán đám mây, dữ liệu \nvà tự động hóa. FPT không ngừng mở rộng quy mô với 54.110 CBNV và hiện diện tại \nhơn 30 quốc gia, vùng lãnh thổ. Là doanh nghiệp CNTT đầu tiên trên sàn chứng khoán \nViệt Nam, giá trị vốn hóa của FPT đã tăng gần 06 lần kể từ năm 2006 đến nay.\nTập đoàn cũng tiếp tục khẳng định vị thế trên bản đồ công nghệ thế giới khi đứng trong \nTop 40 Công ty Dịch vụ CNTT châu Á.\nSong song với hoạt động kinh doanh, FPT kiên định theo đuổi chiến lược ESG, \ntập trung phát triển công nghệ vì con người, đào tạo nguồn nhân lực số, thúc đẩy \nchuyển đổi xanh, quản trị minh bạch và tạo giá trị lâu dài cho cộng đồng, xã hội.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày vị thế và quy mô của tập đoàn FPT, bao gồm thông tin về phạm vi hoạt động toàn cầu, số lượng nhân sự, và phân bố doanh thu theo khu vực địa lý.\nmap: Bản đồ phạm vi hoạt động toàn cầu của FPT (giữa trang) — Bản đồ thế giới với các điểm đánh dấu vị trí các quốc gia và vùng lãnh thổ nơi FPT hoạt động, bao gồm Bắc Mỹ, châu Âu, châu Á và châu Úc.\nchart: Biểu đồ doanh thu theo khu vực địa lý (phải dưới) — Biểu đồ hình tròn thể hiện tỷ lệ phần trăm doanh thu của FPT theo các khu vực: Việt Nam (48,9%), Châu Mỹ (11,6%), Châu Âu (5,6%), Nhật Bản (22,8%), Châu Á - Thái Bình Dương (11,1%).",
+          "visuals": [
+            {
+              "type": "map",
+              "title": "Bản đồ phạm vi hoạt động toàn cầu của FPT",
+              "location": "giữa trang",
+              "description": "Bản đồ thế giới với các điểm đánh dấu vị trí các quốc gia và vùng lãnh thổ nơi FPT hoạt động, bao gồm Bắc Mỹ, châu Âu, châu Á và châu Úc."
+            },
+            {
+              "type": "chart",
+              "title": "Biểu đồ doanh thu theo khu vực địa lý",
+              "location": "phải dưới",
+              "description": "Biểu đồ hình tròn thể hiện tỷ lệ phần trăm doanh thu của FPT theo các khu vực: Việt Nam (48,9%), Châu Mỹ (11,6%), Châu Âu (5,6%), Nhật Bản (22,8%), Châu Á - Thái Bình Dương (11,1%)."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p062",
+          "page": 62,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài tiếp tục giữ vai trò trụ \ncột trong chiến lược tăng trưởng của Tập đoàn với doanh thu đạt 35.382 tỷ đồng, \ntăng 14,3%; lợi nhuận trước thuế đạt 5.467 tỷ đồng, tăng 14,6%. Kết quả này đạt \nđược trong bối cảnh ngành dịch vụ CNTT toàn cầu tiếp tục đối mặt với nhiều \nthách thức, bao gồm bất ổn địa chính trị kéo dài, chính sách tiền tệ thắt chặt tại \ncác nền kinh tế lớn, xu hướng doanh nghiệp kiểm soát chặt chẽ ngân sách CNTT \nvà kéo dài chu kỳ ra quyết định đầu tư.\nChất lượng tăng trưởng của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài của \nFPT được cải thiện rõ nét, thể hiện qua cơ cấu hợp đồng dài hạn, giá trị lớn và phạm vi\ndịch vụ ngày càng toàn diện. Việc duy trì đà tăng trưởng ổn định trong điều kiện thị \ntrường khó khăn cho thấy năng lực thích ứng, sức cạnh tranh và vị thế ngày càng \nvững chắc của FPT trong chuỗi giá trị CNTT toàn cầu.\nViệc liên tiếp ký kết các hợp đồng quy mô từ hàng chục đến hàng trăm triệu USD \ntại các thị trường trọng điểm, giúp FPT từng bước hình thành danh mục doanh thu \nổn định, có khả năng dự báo cao trong trung và dài hạn. Đồng thời, mô hình hợp tác \ndịch chuyển từ cung ứng dịch vụ theo thời gian và nguồn lực (Time & Materials) \nsang mô hình dịch vụ quản trị trọn gói (Managed Services) và các hợp đồng giải pháp\ntrọn gói đã góp phần nâng cao biên lợi nhuận, giảm thiểu rủi ro chu kỳ và gia tăng \ngiá trị mang lại cho khách hàng.\nDoanh thu ký mới lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài đạt 40.636 tỷ đồng,\ntăng 23,2% so với cùng kỳ, đồng thời thắng thầu 26 dự án lớn với quy mô trên \n10 triệu USD, tăng gấp đôi so với cùng kỳ năm trước.\nCủng cố hiện diện và vị thế tại các thị trường chiến lược\nFPT tiếp tục mở rộng quy mô hoạt động và nâng cao vị thế trong chuỗi giá trị CNTT \ntại các thị trường chiến lược. Tại Nhật Bản, thị trường trọng điểm của Tập đoàn và \ncũng là thị trường có yêu cầu cao về chất lượng dịch vụ, FPT ghi nhận bước tiến \nquan trọng khi ký kết hợp đồng trị giá trên 100 triệu USD đầu tiên. Cột mốc này \nphản ánh sự chuyển dịch rõ nét trong mô hình hợp tác, từ các hợp đồng ngắn hạn, \nquy mô nhỏ sang các quan hệ đối tác chiến lược dài hạn, gắn với phát triển sản phẩm \nvà công nghệ lõi của khách hàng.\nTrên nền tảng đó, FPT tiếp tục mở rộng các mô hình liên doanh và hợp tác chiến \nlược tại thị trường này, tập trung vào các lĩnh vực có nhu cầu dài hạn như: hiện đại\nhóa hệ thống CNTT, sản xuất thông minh và công nghệ ô tô, qua đó gia tăng mức\nđộ gắn kết với khách hàng và nâng cao rào cản cạnh tranh.\nTại khu vực châu Á-Thái Bình Dương, FPT gia tăng hiện diện trong các ngành \ncông nghiệp trọng điểm, đặc biệt là năng lượng và sản xuất. Hợp đồng chuyển đổi \nsố toàn diện và ứng dụng AI trị giá 256 triệu USD ký với một tập đoàn năng lượng \nhàng đầu châu Á không chỉ là hợp đồng lớn nhất trong lịch sử Tập đoàn, mà còn \nkhẳng định năng lực đảm nhận các dự án phức tạp, quy mô rất lớn và mang tính \nchiến lược. Hợp đồng này góp phần củng cố vai trò của khu vực Đông Nam Á và \nAPAC trong chiến lược tăng trưởng dài hạn của FPT, đồng thời mở ra cơ hội mở \nrộng sang các lĩnh vực liên quan trong chuỗi giá trị năng lượng và công nghiệp.\nTại châu Âu và Bắc Mỹ, FPT t",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài theo khu vực năm 2025",
+              "location": "phải",
+              "description": "Biểu đồ hình tròn thể hiện doanh thu theo tỷ lệ phần trăm và giá trị tuyệt đối (tỷ VNĐ) của các khu vực: Nhật Bản (43,7%), Châu Á-Thái Bình Dương (23,1%), Mỹ (23,1%), Châu Âu (10,2%) với tổng doanh thu 35.382 tỷ VNĐ, kèm theo tỷ lệ tăng trưởng phần trăm so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Cơ cấu lợi nhuận trước thuế theo khối\n13.044\n17,8%\n5.907 45,3%\n12,9%\n2.773 21,2%\n23,1%\n4.364 33,5%\n21,6%\nPhân tích kết quả kinh doanh theo khối\nĐể phản ánh đúng mô hình hoạt động của Tập đoàn, kết quả kinh doanh được phân tích theo từng khối và phân tách theo từng lĩnh vực cụ thể. Cách tiếp cận này giúp đánh giá \nchính xác, hiệu quả vận hành và đóng góp của từng lĩnh vực hoạt động vào tăng trưởng chung của Tập đoàn. Cụ thể, hoạt động kinh doanh của Tập đoàn được chia thành \nba khối chính, bao gồm: khối Công nghệ với hai lĩnh vực là Dịch vụ CNTT cho thị trường nước ngoài và Dịch vụ CNTT cho thị trường trong nước; khối Viễn thông với \nhai lĩnh vực Dịch vụ Viễn thông và Dịch vụ Nội dung số; khối Giáo dục, Đầu tư và Khác.\nCơ cấu doanh thu theo khối\nKhối Công nghệ Khối Viễn thông Khối Giáo dục, Đầu tư và Khác\n70.113\n11,6%\n19.507 27,8% 44.475 63,4%\n10,8%\n6.132 8,8%\n0,05%\n13,7%\nĐơn vị: Tỷ VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nPhân tích kết quả kinh doanh theo khối của Tập đoàn FPT năm 2025, bao gồm cơ cấu doanh thu và cơ cấu lợi nhuận trước thuế theo từng khối chính: Công nghệ, Viễn thông, Giáo dục, Đầu tư và Khác.\nchart: Cơ cấu doanh thu theo khối (trái) — Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.\nchart: Cơ cấu lợi nhuận trước thuế theo khối (phải) — Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cơ cấu doanh thu theo khối",
+              "location": "trái",
+              "description": "Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            },
+            {
+              "type": "chart",
+              "title": "Cơ cấu lợi nhuận trước thuế theo khối",
+              "location": "phải",
+              "description": "Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "PHÂN TÍCH HOẠT ĐỘNG KINH DOANH\nBÁO CÁO CỦA BAN ĐIỀU HÀNH VỀ KẾT QUẢ KINH DOANH 2025 VÀ NHẬN ĐỊNH 2026\nĐánh giá chung\n• Bối cảnh • Kết quả kinh doanh\nNăm 2025, kinh tế thế giới tiếp tục vận động trong trạng thái thận trọng khi phải \nđối mặt với nhiều thách thức đan xen, bao gồm biến động địa chính trị, áp lực lạm \nphát kéo dài tại một số nền kinh tế lớn, xu hướng tái cấu trúc chuỗi cung ứng toàn \ncầu và chính sách tiền tệ thắt chặt. Trong bối cảnh đó, các doanh nghiệp và tổ chức\ntrên toàn cầu có xu hướng kiểm soát chặt chẽ hơn quyết định đầu tư, ưu tiên hiệu \nquả, khả năng sinh lời và tính bền vững dài hạn. Tuy nhiên, song hành với những khó \nkhăn là cơ hội mới khi làn sóng chuyển đổi số, ứng dụng AI, tự động hóa và dữ liệu \nlớn tiếp tục được đẩy mạnh nhằm nâng cao năng suất, tối ưu chi phí và tăng cường \nnăng lực cạnh tranh. Công nghệ, đặc biệt là AI, chuyển dịch từ giai đoạn thử nghiệm\nsang triển khai thực tiễn, tạo ra nhu cầu ngày càng rõ nét đối với các giải pháp có\nkhả năng tạo giá trị thực tiễn cho hoạt động sản xuất kinh doanh.\nKinh tế Việt Nam tiếp tục duy trì đà tăng trưởng tích cực nhờ sự ổn định vĩ mô,\nchính sách điều hành linh hoạt và sự phục hồi của các hoạt động sản xuất, xuất khẩu \nvà tiêu dùng trong nước. Chính phủ đẩy mạnh triển khai các chính sách hỗ trợ\ndoanh nghiệp, cải thiện môi trường đầu tư, đồng thời thúc đẩy phát triển khu vực\nkinh tế tư nhân như một động lực quan trọng của tăng trưởng. Đặc biệt, Nghị quyết \n57-NQ/TW về phát triển khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số\nquốc gia tạo hành lang chính sách thuận lợi cho việc ứng dụng công nghệ, AI và\ndữ liệu trong cả khu vực công và khu vực tư nhân. Đây là nền tảng quan trọng thúc đẩy \nnhu cầu về các giải pháp công nghệ toàn diện, mở ra cơ hội tăng trưởng dài hạn cho \ncác doanh nghiệp có năng lực công nghệ và uy tín trên thị trường.\nTrong bối cảnh đó, FPT tiếp tục khẳng định vai trò là doanh nghiệp công nghệ \nhàng đầu, chủ động thích ứng với những thay đổi của môi trường kinh doanh toàn \ncầu và trong nước. Tập đoàn tập trung nguồn lực vào các lĩnh vực công nghệ cốt lõi, \nbao gồm: AI, chuyển đổi số, bán dẫn, công nghệ ô tô số và hạ tầng số, đồng thời \ntừng bước tối ưu hóa danh mục hoạt động theo hướng nâng cao hiệu quả và chất \nlượng tăng trưởng. Việc đẩy mạnh ứng dụng AI không chỉ giới hạn ở việc phát triển\nsản phẩm và dịch vụ mới, mà còn được Tập đoàn triển khai sâu rộng trong vận hành \nnội bộ, quản trị dự án và tối ưu quy trình, qua đó nâng cao năng suất lao động và \nnăng lực cạnh tranh tổng thể. FPT kiên định chiến lược phát triển bền vững, cân bằng \ngiữa mở rộng quy mô và nâng cao hiệu quả sử dụng vốn, từng bước xây dựng lợi thế \ncạnh tranh dài hạn trong bối cảnh cạnh tranh ngày càng gay gắt.\nNăm 2025, trong bối cảnh kinh tế toàn cầu xuất hiện thêm nhiều biến động khó \nlường so với thời điểm xây dựng kế hoạch kinh doanh đầu năm, đặc biệt là những\ntác động từ căng thẳng thương mại và chính sách thuế quan của Mỹ, FPT vẫn duy\ntrì đà tăng trưởng hai chữ số và bám sát kế hoạch kinh doanh được đặt ra từ đầu\nnăm với doanh thu đạt 93%, lợi nhuận trước thuế đạt 97% kế hoạch. Lợi nhuận sau\nthuế thuộc về cổ đông công ty mẹ và thu nhập trên mỗi cổ phiếu (EPS) đạt tư",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Kết quả kinh doanh năm 2025",
+              "location": "phải",
+              "description": "Các chỉ số tài chính gồm doanh thu, lợi nhuận trước thuế, lợi nhuận sau thuế thuộc cổ đông công ty mẹ, thu nhập trên mỗi cổ phiếu; đơn vị tính tỷ VNĐ hoặc VNĐ; tỷ lệ tăng trưởng phần trăm so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Kết quả kinh doanh\n• Các chỉ tiêu tài chính chủ yếu\n(Tiếp theo)\nLĩnh vực Dịch vụ CNTT cho thị trường nước ngoài, động lực tăng trưởng chính của \nTập đoàn, tiếp tục duy trì mức tăng trưởng cao so với mặt bằng chung của ngành, \ntăng 14,3% so với năm trước. Kết quả này đến từ nhu cầu chuyển đổi số và ứng \ndụng AI ngày càng rõ nét tại thị trường Nhật Bản (tăng trưởng 25,4% so với năm \ntrước). Việc tập trung vào các hợp đồng quy mô lớn, dài hạn, có hàm lượng công \nnghệ cao giúp FPT không chỉ mở rộng doanh thu mà còn từng bước nâng cao chất \nlượng tăng trưởng và hiệu quả kinh doanh. Trong bối cảnh ngành dịch vụ CNTT \ntoàn cầu còn thận trọng, nhiều doanh nghiệp Dịch vụ CNTT lớn trên thế giới, bao \ngồm các công ty tại Ấn Độ, chỉ ghi nhận mức tăng trưởng ở mức khiêm tốn, kết quả \ncủa FPT phần nào cho thấy những nỗ lực không ngừng của Tập đoàn trong việc mở \nrộng thị trường, đa dạng hóa danh mục dịch vụ và duy trì đà phát triển ổn định.\nTrong đó, mảng Dịch vụ Chuyển đổi số tiếp tục ghi nhận tăng trưởng nổi bật đạt \n16,8% so với năm trước, chiếm tỷ trọng ngày càng cao trong tổng doanh thu\nDịch vụ CNTT cho thị trường nước ngoài (47,3%). Các giải pháp liên quan đến dữ \nliệu, điện toán đám mây, AI và tự động hóa được khách hàng đẩy mạnh triển khai \nnhằm nâng cao hiệu quả vận hành và năng lực cạnh tranh. Kết quả này không chỉ \nphản ánh xu hướng chuyển dịch mạnh mẽ sang chuyển đổi số thế hệ mới, mà còn \nkhẳng định vị thế và năng lực cung cấp các dịch vụ công nghệ tiên tiến của FPT \ntrên thị trường quốc tế.\nSong song với hoạt động kinh doanh, FPT tiếp tục đẩy mạnh theo cả chiều rộng và \nchiều sâu quan hệ hợp tác chiến lược với các đối tác lớn trên toàn cầu. Việc hợp tác \nkhông chỉ dừng ở cung cấp dịch vụ, mà từng bước mở rộng sang đồng phát triển \ngiải pháp, chuyển giao công nghệ và xây dựng năng lực dài hạn, giúp FPT nâng cao \nkhả năng tham gia sâu hơn vào chuỗi giá trị công nghệ toàn cầu.\nNhờ chủ động ứng dụng công nghệ, đặc biệt là AI, trong tối ưu hóa vận hành và \nquản trị, các khối Viễn thông và khối Giáo dục, Đầu tư và Khác tiếp tục duy trì \ntăng trưởng ổn định. Khối Viễn thông (tăng trưởng doanh thu đạt 10,8%) tập trung \nnâng cao chất lượng dịch vụ và trải nghiệm khách hàng, đồng thời mở rộng độ phủ \nhạ tầng và danh mục sản phẩm, qua đó từng bước gia tăng hiện diện trên thị trường \nvà cải thiện thị phần ở các phân khúc trọng điểm. Trong khi đó, lĩnh vực Giáo dục \nchú trọng nâng cao chất lượng đào tạo, gắn kết chặt chẽ hơn với nhu cầu nhân lực \ncủa các lĩnh vực công nghệ chiến lược được Đảng và Nhà nước ưu tiên như: AI, \nbán dẫn, dữ liệu, điện toán đám mây, an toàn, an ninh thông tin và các công nghệ \nphục vụ chuyển đổi số, chuyển đổi xanh. Định hướng này góp phần củng cố vai trò \ncủa FPT trong cung cấp nguồn nhân lực chất lượng cao cho nền kinh tế số.\nMột số chỉ tiêu hoạt động kinh doanh chính trong năm 2025\nĐơn vị: Tỷ VNĐ\nChỉ tiêu 2024 2025 Tăng/Giảm\nTổng tài sản\nDoanh thu\nLợi nhuận từ hoạt động kinh doanh\nLNTT, lãi vay và khấu hao (EBITDA)\nLNTT\nLNST\nLãi cơ bản trên cổ phiếu (*)\nCổ tức tiền mặt trả trong năm\nTỷ lệ lợi nhuận trả cổ tức\n72.000\n62.849\n11.025\n13.605\n11.070\n9.427\n4.292\n2.741\n34,9%\n88.142\n70.113\n12.952\n15.958\n13.044\n11.232\n5.216\n3.185\n34,",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+              "location": "phải",
+              "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, đơn vị tỷ VNĐ, gồm tổng tài sản, doanh thu, lợi nhuận từ hoạt động kinh doanh, EBITDA, LNTT, LNST, lãi cơ bản trên cổ phiếu, cổ tức tiền mặt trả trong năm và tỷ lệ lợi nhuận trả cổ tức cùng với mức tăng/giảm phần trăm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p188",
+          "page": 188,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n2.32. Báo cáo bộ phận\nMột bộ phận là một hợp phần có thể xác định riêng biệt của Tập đoàn tham gia vào \nviệc bán hàng hoặc cung cấp dịch vụ liên quan (bộ phận chia theo hoạt động kinh \ndoanh), hoặc bán hàng hoặc cung cấp dịch vụ trong một môi trường kinh tế cụ thể\n(bộ phận chia theo khu vực địa lý). Mỗi bộ phận này chịu rủi ro và thu được lợi ích khác \nbiệt với các bộ phận khác. Báo cáo bộ phận chính yếu của Tập đoàn là dựa theo \nbộ phận chia theo hoạt động kinh doanh.\nCông nghệ thông tin (“CNTT”) và viễn thông\nSản phẩm và Dịch vụ CNTT nước ngoài: bao gồm hoạt động sản xuất phần mềm; thực \nhiện tư vấn, cung cấp triển khai dịch vụ dựa trên công nghệ S.M.A.C/IoT, giải pháp \nchuyển đổi số, hệ thống CNTT cho doanh nghiệp; thử nghiệm đảm bảo chất lượng, \nthiết kế sản phẩm phần mềm nhúng, cung cấp dịch vụ triển khai và quản lý hệ thống \nquản trị nguồn lực doanh nghiệp (ERP) cho các khách hàng ngoài lãnh thổ Việt Nam;\nSản phẩm và Dịch vụ CNTT trong nước: cung cấp giải pháp phần mềm ứng dụng; \ncung cấp dịch vụ và giải pháp tích hợp hệ thống thông tin; cung cấp thiết bị công \nnghệ CNTT; dịch vụ trung tâm dữ liệu; thiết kế xây dựng hệ thống mạng và bảo mật; \nbảo hành và bảo trì các thiết bị tin học cho hãng theo ủy quyền cho các khách hàng \ntại Việt Nam; \nViễn thông: bao gồm các dịch vụ internet cá nhân và hộ gia đình, dịch vụ internet cho \ndoanh nghiệp như cho thuê kênh internet riêng, viễn thông trong nước, viễn thông \nquốc tế, tên miền, hosting, cổng dữ liệu web, IPTV,…; và\nNội dung số: bao gồm các dịch vụ trực tuyến cho doanh nghiệp và khách hàng cá \nnhân như hệ thống báo điện tử (VnExpress.net, Ngoisao.net, iOne.net,...); quảng \ncáo trực tuyến; hệ thống mạng quảng cáo (AdNetwork), nhạc trực tuyến, thanh \ntoán trực tuyến,…\n2.33. Ước tính kế toán trọng yếu\nViệc lập báo cáo tài chính hợp nhất tuân thủ theo các Chuẩn mực Kế toán Việt \nNam, Chế độ Kế toán Doanh nghiệp Việt Nam và các quy định pháp lý có liên \nquan đến việc lập và trình bày báo cáo tài chính hợp nhất yêu cầu Ban Tổng \nGiám đốc phải có những ước tính và giả định ảnh hưởng đến số liệu về tài sản, nợ \nphải trả và việc trình bày các khoản nợ và tài sản tiềm tàng tại ngày kết thúc năm \ntài chính cũng như các số liệu về doanh thu và chi phí trong suốt năm tài chính.\nCác ước tính và giả định ảnh hưởng trọng yếu trong báo cáo tài chính hợp nhất \nbao gồm:\n• Dự phòng phải thu khó đòi (Thuyết minh 10);\n• Dự phòng giảm giá hàng tồn kho (Thuyết minh 11);\n• Dự phòng các khoản đầu tư tài chính (Thuyết minh 5); \n• Thời gian sử dụng hữu ích ước tính của TSCĐ (Thuyết minh 2.13 và 2.14);\n• Dự phòng phải trả (Thuyết minh 2.19);\n• Ước tính tỷ lệ phần trăm hoàn thành của doanh thu (Thuyết minh 2.23); và\n• Ước tính thuế TNDN hiện hành và TNDN hoãn lại (Thuyết minh 2.29, 2.30 và 32).\nCác ước tính và giả định thường xuyên được đánh giá dựa trên kinh nghiệm trong quá \nkhứ và các yếu tố khác, bao gồm các giả định trong tương lai có ảnh hưởng trọng yếu \ntới báo cáo tài chính hợp nhất của Tập đoàn và được Ban Tổng Giám đốc đánh giá là \nhợp lý.\nĐầu tư, giáo dục",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p186",
+          "page": 186,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n(Tiếp theo)\n(Tiếp theo)\n2.23. Ghi nhận doanh thu\n(b) Doanh thu cung cấp dịch vụ\nDoanh thu cung cấp dịch vụ bao gồm:\nDoanh thu từ sản xuất phần mềm xuất khẩu, phát triển phần mềm, tích hợp hệ \nthống và dịch vụ tin học\nDoanh thu được ghi nhận trong báo cáo kết quả hoạt động kinh doanh hợp nhất theo \ntỷ lệ phần trăm hoàn thành công việc tại ngày kết thúc năm tài chính. Tỷ lệ phần trăm \nhoàn thành công việc được đánh giá dựa trên khảo sát các công việc đã được thực \nhiện, hoặc tỷ lệ phần trăm giữa chi phí phát sinh/thời gian thực hiện của phần công \nviệc đã hoàn thành tại ngày kết thúc năm tài chính so với tổng chi phí dự toán/thời \ngian thực hiện dự kiến của hợp đồng. Khi kết quả thực hiện hợp đồng không thể được \nước tính một cách đáng tin cậy, doanh thu chỉ được ghi nhận tương đương với chi phí \ncủa hợp đồng đã phát sinh mà việc được hoàn trả là tương đối chắc chắn.\nDoanh thu từ các dịch vụ viễn thông\nDoanh thu từ các dịch vụ viễn thông được ghi nhận theo thời gian mà các dịch vụ \nthực tế được cung cấp cho khách hàng.\nDoanh thu từ dịch vụ quảng cáo trực tuyến\nDoanh thu từ dịch vụ quảng cáo trực tuyến được ghi nhận theo khối lượng công \nviệc hoàn thành.\nDoanh thu từ học phí và phí khác\nDoanh thu được ghi nhận trong kỳ khi dịch vụ được cung cấp. Hầu hết học phí và \nphí được nộp trước khi bắt đầu mỗi học kỳ. Học phí và các khoản phí thu trước \ncủa sinh viên được ghi nhận vào tài khoản doanh thu chưa thực hiện trên bảng \ncân đối kế toán hợp nhất và được hạch toán vào báo cáo kết quả hoạt động kinh \ndoanh hợp nhất trong năm tài chính có học kỳ liên quan.\nTiền lãi được ghi nhận trên cơ sở thời gian và lãi suất thực tế từng kỳ khi thỏa mãn \nđồng thời hai (2) điều kiện sau:\n• Có khả năng thu được lợi ích kinh tế từ giao dịch đó; và\n• Doanh thu được xác định tương đối chắc chắn.\n2.25. Giá vốn hàng bán và dịch vụ cung cấp\nGiá vốn hàng bán và dịch vụ cung cấp là tổng chi phí phát sinh của thành phẩm, \nhàng hóa, vật tư xuất bán và dịch vụ cung cấp cho khách hàng trong năm tài chính, \nđược ghi nhận theo nguyên tắc phù hợp với doanh thu và nguyên tắc thận trọng.\n2.26. Chi phí tài chính\nChi phí tài chính phản ánh những khoản chi phí hoạt động tài chính phát sinh trong \nnăm tài chính chủ yếu bao gồm chi phí lãi vay, dự phòng tổn thất đầu tư tài chính, \nvà lỗ tỷ giá hối đoái. \n2.24. Các khoản giảm trừ doanh thu\nCác khoản giảm trừ doanh thu bao gồm chiết khấu thương mại, hàng bán bị trả lại \nvà giảm giá hàng bán. Các khoản giảm trừ doanh thu phát sinh cùng năm tài chính \ntiêu thụ sản phẩm, hàng hóa, dịch vụ được ghi nhận điều chỉnh giảm doanh thu \nnăm tài chính phát sinh. \nCác khoản giảm trừ doanh thu đối với sản phẩm, hàng hóa, dịch vụ tiêu thụ trong \nnăm tài chính, phát sinh sau ngày của bảng cân đối kế toán hợp nhất nhưng trước \n(c) Thu nhập lãi\nThu nhập từ cổ tức/lợi nhuận được chia được ghi nhận khi thỏa mãn đồng thời hai \n(2) điều kiện sau:\n• Có khả năng thu được lợi ích kinh tế từ giao dịch đó; và\n• Doanh thu được xác định tương đối chắc chắn.\nThu nhập từ cổ tức/lợi nhuận được chia được ghi nhận khi",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p189",
+          "page": 189,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n3. Hợp nhất kinh doanh\nTrong năm, Tập đoàn đã mua lại 65,58% vốn chủ sở hữu của Công ty Cổ phần Giải pháp và Dịch vụ phần mềm Nam Việt (hoạt động kinh doanh: xuất bản phần mềm) và \n65% vốn chủ sở hữu của Công ty TNHH FPT OKI Thường Châu và Công ty TNHH FPT OKI Đại Liên (hoạt động kinh doanh: sản xuất phần mềm). Tập đoàn cũng đã mua lại \ntoàn bộ hoạt động của Công ty Tư vấn David Lamm (hoạt động kinh doanh: tư vấn công nghệ thông tin) và sáp nhập công ty này vào Công ty TNHH FPT Đức. Ngoài ra,\nTập đoàn đã mua và nâng quyền sở hữu tại Công ty TNHH Ví FPT (hoạt động kinh doanh: trung gian thanh toán ví điện tử) từ 30% lên 100%. \nCác việc hợp nhất kinh doanh này đã phát sinh lợi thế thương mại như trình bày ở Thuyết minh 16.\n4. Tiền và các khoản tương đương tiền\n(*) Các khoản tương đương tiền chủ yếu bao gồm các khoản tiền gửi ngân hàng có kỳ hạn gốc không quá 3 tháng. Lãi suất được quy định cụ thể cho từng khoản tiền gửi.\n31/12/2025 31/12/2024\nTiền mặt\nTiền gửi ngân hàng không kỳ hạn\nTiền đang chuyển\nCác khoản tương đương tiền (*)\n3.236.297.367 \n6.713.912.691.054\n8.470.940.868 \n2.589.820.509.595\n9.315.440.438.884\n4.255.375.565\n8.078.385.544.605\n2.110.160.016 \n2.437.354.649.806\n10.522.105.729.992\nĐơn vị: VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày phần thuyết minh báo cáo tài chính hợp nhất năm 2025, bao gồm hợp nhất kinh doanh và bảng số liệu tiền và các khoản tương đương tiền.\ntable: Tiền và các khoản tương đương tiền (dưới) — Bảng số liệu so sánh các khoản tiền mặt, tiền gửi ngân hàng không kỳ hạn, tiền đang chuyển và các khoản tương đương tiền tính đến ngày 31/12/2025 và 31/12/2024, đơn vị tính là VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tiền và các khoản tương đương tiền",
+              "location": "dưới",
+              "description": "Bảng số liệu so sánh các khoản tiền mặt, tiền gửi ngân hàng không kỳ hạn, tiền đang chuyển và các khoản tương đương tiền tính đến ngày 31/12/2025 và 31/12/2024, đơn vị tính là VNĐ."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p027",
+          "path": ".bonus/pages/p027.jpg",
+          "sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+        },
+        {
+          "id": "FPT2025:p062",
+          "path": ".bonus/pages/p062.jpg",
+          "sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+        },
+        {
+          "id": "FPT2025:p060",
+          "path": ".bonus/pages/p060.jpg",
+          "sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+        },
+        {
+          "id": "FPT2025:p057",
+          "path": ".bonus/pages/p057.jpg",
+          "sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+        },
+        {
+          "id": "FPT2025:p058",
+          "path": ".bonus/pages/p058.jpg",
+          "sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+        },
+        {
+          "id": "FPT2025:p188",
+          "path": ".bonus/pages/p188.jpg",
+          "sha256": "152b721b8eabfc7ce5ee243f48c30623eff319e9522b4a05363d79cc703c5777"
+        },
+        {
+          "id": "FPT2025:p186",
+          "path": ".bonus/pages/p186.jpg",
+          "sha256": "43056c8fed84eac5673b3e4a94c34fb1a4ecbaa3a2287ba76cce260e1c81c5cc"
+        },
+        {
+          "id": "FPT2025:p189",
+          "path": ".bonus/pages/p189.jpg",
+          "sha256": "a90d34562e46d573e7bcb4b3c6ec48ff3c71c75b6baf5cb975f6b8d48441f36f"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794804737-FE1UbxJoDQdaXcieWRGv",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_014RAPqPDajovAgAYshRaXCt",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Trên trang 27 (biểu đồ \\\"Doanh thu theo khu vực địa lý\\\", phía phải dưới), khu vực có tỷ trọng lớn nhất là Việt Nam, chiếm 48,9% toàn Tập đoàn. Các tỷ trọng còn lại: Nhật Bản 22,8%, Châu Mỹ 11,6%, Châu Á-Thái Bình Dương 11,1%, Châu Âu 5,6%.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p027\",\"region\":\"Biểu đồ hình tròn \\\"Doanh thu theo khu vực địa lý\\\" ở phía phải dưới trang; nhãn 48,9% màu xanh đậm tương ứng chú giải Việt Nam\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p027",
+    "FPT2025:p062",
+    "FPT2025:p060",
+    "FPT2025:p057",
+    "FPT2025:p058",
+    "FPT2025:p188",
+    "FPT2025:p186",
+    "FPT2025:p189"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p027",
+      "page": 27,
+      "image": ".bonus/pages/p027.jpg",
+      "image_sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+    },
+    {
+      "id": "FPT2025:p062",
+      "page": 62,
+      "image": ".bonus/pages/p062.jpg",
+      "image_sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+    },
+    {
+      "id": "FPT2025:p060",
+      "page": 60,
+      "image": ".bonus/pages/p060.jpg",
+      "image_sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+    },
+    {
+      "id": "FPT2025:p057",
+      "page": 57,
+      "image": ".bonus/pages/p057.jpg",
+      "image_sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+    },
+    {
+      "id": "FPT2025:p058",
+      "page": 58,
+      "image": ".bonus/pages/p058.jpg",
+      "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+    },
+    {
+      "id": "FPT2025:p188",
+      "page": 188,
+      "image": ".bonus/pages/p188.jpg",
+      "image_sha256": "152b721b8eabfc7ce5ee243f48c30623eff319e9522b4a05363d79cc703c5777"
+    },
+    {
+      "id": "FPT2025:p186",
+      "page": 186,
+      "image": ".bonus/pages/p186.jpg",
+      "image_sha256": "43056c8fed84eac5673b3e4a94c34fb1a4ecbaa3a2287ba76cce260e1c81c5cc"
+    },
+    {
+      "id": "FPT2025:p189",
+      "page": 189,
+      "image": ".bonus/pages/p189.jpg",
+      "image_sha256": "a90d34562e46d573e7bcb4b3c6ec48ff3c71c75b6baf5cb975f6b8d48441f36f"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794804730-ScnHR9i0uU0kob33WLBo",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1833,
+        "completion_tokens": 107,
+        "total_tokens": 1940,
+        "cost": 0.0002368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002368,
+          "upstream_inference_prompt_cost": 0.0001833,
+          "upstream_inference_completions_cost": 5.35e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1393.0975000257604,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794804737-FE1UbxJoDQdaXcieWRGv",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 32891,
+        "completion_tokens": 337,
+        "total_tokens": 33228,
+        "cost": 0.0034576,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0034576,
+          "upstream_inference_prompt_cost": 0.0032891,
+          "upstream_inference_completions_cost": 0.0001685
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 10255.292300018482,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 11688.12359997537,
+  "query_id": "fd-c2",
+  "question": "Trong biểu đồ doanh thu theo khu vực địa lý toàn Tập đoàn, khu vực nào có tỷ trọng lớn nhất và tỷ trọng đó là bao nhiêu?",
+  "split": "dev",
+  "config": "vision"
+}

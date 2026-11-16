@@ -1,0 +1,66 @@
+{
+  "id": "FPT2025:p013",
+  "image_sha256": "7d8a7b4a6a56c429b11c1db86b3555953145c9f37cc93139dfa37d529f5bc9c1",
+  "caption": {
+    "summary": "Trang báo cáo liệt kê các giải thưởng tiêu biểu mà FPT đạt được trong năm 2025.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Chứng nhận TOP500 siêu máy tính mạnh nhất thế giới",
+        "location": "trên trái",
+        "description": "Hai nhà máy AI lọt TOP500 siêu máy tính mạnh nhất thế giới"
+      },
+      {
+        "type": "diagram",
+        "title": "Giải thưởng tiêu biểu theo thứ hạng",
+        "location": "giữa trang",
+        "description": "Các giải thưởng TOP 1, TOP 5, TOP 8, TOP 10, TOP 40, TOP 50 với nội dung tương ứng về uy tín, chất lượng quản trị, thương hiệu, hiệu quả kinh doanh của công ty và dịch vụ công nghệ thông tin"
+      },
+      {
+        "type": "photo",
+        "title": "Bằng sáng chế tại Mỹ",
+        "location": "trên giữa phải",
+        "description": "Bằng sáng chế cho công nghệ phát hiện âm thanh bất thường"
+      },
+      {
+        "type": "photo",
+        "title": "Ảnh trao giải thưởng Hành động vì cộng đồng",
+        "location": "dưới phải",
+        "description": "Trường Hy Vọng được trao giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800696-RwxWEwnph7RwNjRwvRkN",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 248,
+        "total_tokens": 2810,
+        "cost": 0.0014216,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014216,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003968
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4275.759399984963,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

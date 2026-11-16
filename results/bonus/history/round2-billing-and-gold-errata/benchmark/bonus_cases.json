@@ -1,0 +1,1372 @@
+[
+  {
+    "id": "fd-t1",
+    "split": "dev",
+    "group": "table",
+    "question": "Theo bảng tình hình tài chính giai đoạn 2021–2025, lợi nhuận thuần từ hoạt động kinh doanh năm 2025 và mức tăng so với năm 2024 là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "12.952 tỷ VNĐ, tăng 17,5%.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 12,
+        "page_id": "FPT2025:p012",
+        "region": "Bảng tài chính, hàng 4, cột 2025 và +/-",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Lợi nhuận thuần từ hoạt động kinh doanh: 12.952; 17,5%.",
+        "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-t2",
+    "split": "dev",
+    "group": "table",
+    "question": "Trong bảng thông tin cổ phiếu, tỷ lệ sở hữu tối đa của cổ đông nước ngoài là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "49%.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 32,
+        "page_id": "FPT2025:p032",
+        "region": "Bảng thông tin cổ phiếu, dòng tỷ lệ sở hữu tối đa cổ đông nước ngoài",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Tỷ lệ sở hữu tối đa của cổ đông nước ngoài: 49%.",
+        "image_sha256": "c287642128097416c18dfcd119132d4ba068f3439767dbbf61daffb2d61cb320"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-t3",
+    "split": "dev",
+    "group": "table",
+    "question": "Bảng thực hiện dự án đầu tư cho biết Khối Viễn thông giải ngân năm 2025 bao nhiêu và đạt bao nhiêu phần trăm kế hoạch?",
+    "answerable": true,
+    "expected_answer": "1.751 tỷ VNĐ, đạt 70,0% kế hoạch.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 75,
+        "page_id": "FPT2025:p075",
+        "region": "Bảng góc trên trái, hàng Viễn thông, cột Giải ngân 2025 và So với kế hoạch",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Viễn thông: kế hoạch 2.500; giải ngân 1.751; 70,0%.",
+        "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-c1",
+    "split": "dev",
+    "group": "chart",
+    "question": "Trên biểu đồ ROE giai đoạn 2021–2025, năm nào cao nhất và ROE năm 2025 thấp hơn đỉnh bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "expected_answer": "Năm 2024 cao nhất 28,5%; năm 2025 là 28,1%, thấp hơn 0,4 điểm phần trăm.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 11,
+        "page_id": "FPT2025:p011",
+        "region": "Biểu đồ ROE/ROA, đường ROE, điểm năm 2024 và 2025",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "ROE 2024=28,5%; 2025=28,1%.",
+        "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "28.5 - 28.1 = 0.4 percentage points"
+  },
+  {
+    "id": "fd-c2",
+    "split": "dev",
+    "group": "chart",
+    "question": "Trong biểu đồ doanh thu theo khu vực địa lý toàn Tập đoàn, khu vực nào có tỷ trọng lớn nhất và tỷ trọng đó là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "Việt Nam, 48,9%.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 27,
+        "page_id": "FPT2025:p027",
+        "region": "Biểu đồ vành khuyên bên phải, chú giải Việt Nam",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Việt Nam 48,9%, lớn nhất.",
+        "image_sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-c3",
+    "split": "dev",
+    "group": "chart",
+    "question": "Biểu đồ Dịch vụ Chuyển đổi số dùng màu cam cho chỉ tiêu nào và đơn vị trục giá trị là gì?",
+    "answerable": true,
+    "expected_answer": "Màu cam là doanh thu Dịch vụ CNTT cho thị trường nước ngoài; đơn vị tỷ VNĐ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 63,
+        "page_id": "FPT2025:p063",
+        "region": "Biểu đồ cột bên trái, chú giải màu cam và đơn vị dưới biểu đồ",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Cam: Doanh thu dịch vụ CNTT cho thị trường nước ngoài. Đơn vị: Tỷ VNĐ.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-i1",
+    "split": "dev",
+    "group": "diagram",
+    "question": "Trong sơ đồ tổ chức FPT, nút nào nằm trên cùng và đường chính dẫn xuống cấp quản trị nào?",
+    "answerable": true,
+    "expected_answer": "Đại hội đồng cổ đông nằm trên cùng, dẫn xuống Hội đồng quản trị.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 31,
+        "page_id": "FPT2025:p031",
+        "region": "Sơ đồ tổ chức, nút cam trên cùng và nút xanh bên dưới",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "ĐẠI HỘI ĐỒNG CỔ ĐÔNG → HỘI ĐỒNG QUẢN TRỊ.",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-i2",
+    "split": "dev",
+    "group": "diagram",
+    "question": "Trên dòng thời gian hành trình FPT, mốc 1998 ghi nhận triển khai hệ thống gì, cho bao nhiêu cục thuế?",
+    "answerable": true,
+    "expected_answer": "Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế Việt Nam.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 28,
+        "page_id": "FPT2025:p028",
+        "region": "Timeline, mốc 1998 ở hàng trên bên phải",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "1998: Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế, 61 máy chủ, hơn 500 máy trạm.",
+        "image_sha256": "deaa84b66973faea6593261d349d0f310773e65fcb242176db75b72d8eeab036"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-i3",
+    "split": "dev",
+    "group": "diagram",
+    "question": "Vòng ngoài cùng của hình nền tảng FleziPT thể hiện ba lợi ích nào?",
+    "answerable": true,
+    "expected_answer": "Nhanh hơn, Thông minh hơn, Linh hoạt hơn.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 63,
+        "page_id": "FPT2025:p063",
+        "region": "Sơ đồ vòng tròn bên phải, chữ xanh ngoài rìa",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "NHANH HƠN; THÔNG MINH HƠN; LINH HOẠT HƠN.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-x1",
+    "split": "dev",
+    "group": "text",
+    "question": "Theo thông điệp Chủ tịch HĐQT, ba bài toán sống còn doanh nghiệp phải giải trong kỷ nguyên AI là gì?",
+    "answerable": true,
+    "expected_answer": "Thời gian, chi phí và năng suất lao động.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 4,
+        "page_id": "FPT2025:p004",
+        "region": "Cột trái, mục Ba yếu tố sống còn trong kỷ nguyên AI",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Ba bài toán: thời gian, chi phí, năng suất lao động.",
+        "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-x2",
+    "split": "dev",
+    "group": "text",
+    "question": "Nguyên tắc 3R trong quản lý chất thải được báo cáo giải thích như thế nào?",
+    "answerable": true,
+    "expected_answer": "Giảm thiểu (Reduce), Tái sử dụng (Reuse), Tái chế (Recycle).",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 150,
+        "page_id": "FPT2025:p150",
+        "region": "Phần quản lý chất thải bên phải",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "3R – Giảm thiểu (Reduce), Tái sử dụng (Reuse), Tái chế (Recycle).",
+        "image_sha256": "04e39df8fdabcbc8347ac2f971b935e8d8a14e95ea06bd300a3c575c3f8a7a97"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-x3",
+    "split": "dev",
+    "group": "text",
+    "question": "Năm 2025 có bao nhiêu nhà cung cấp trọng yếu tham gia đánh giá CSR, và tỷ lệ nhà cung cấp đạt yêu cầu theo tiêu chí đánh giá là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "42% nhà cung cấp trọng yếu tham gia đánh giá CSR; 97% nhà cung cấp đạt yêu cầu.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 128,
+        "page_id": "FPT2025:p128",
+        "region": "Các gạch đầu dòng kết quả mua sắm bền vững",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "42% nhà cung cấp trọng yếu tham gia đánh giá CSR; 97% nhà cung cấp đạt yêu cầu.",
+        "image_sha256": "847ea324f08eae37df05820abe8df8f175433aaec864d00fca7560342eff676b"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-m1",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Nêu hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 và xác định công trình nào được nêu là đầu tiên ở Việt Nam đạt EDGE.",
+    "answerable": true,
+    "expected_answer": "Điện mặt trời tại F-Complex Đà Nẵng và Data Center Tp.Hồ Chí Minh; FPT Complex Đà Nẵng được nêu là công trình đầu tiên ở Việt Nam đạt EDGE.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 147,
+        "page_id": "FPT2025:p147",
+        "region": "Đoạn điện mặt trời mái nhà",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Hai hệ thống tại F-Complex Đà Nẵng và Data Center Tp.Hồ Chí Minh.",
+        "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+      },
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 153,
+        "page_id": "FPT2025:p153",
+        "region": "Đoạn FPT Complex Đà Nẵng",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE.",
+        "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-m2",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Đối chiếu sơ đồ tổ chức với bảng trách nhiệm phát triển bền vững: cấp nào phê duyệt chiến lược, cấp nào triển khai, và hai cấp đó được sắp theo thứ tự nào?",
+    "answerable": true,
+    "expected_answer": "HĐQT phê duyệt chiến lược; Ban Điều hành triển khai. Sơ đồ đặt HĐQT phía trên Tổng Giám đốc và Ban Điều hành.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 31,
+        "page_id": "FPT2025:p031",
+        "region": "Đường dọc chính của sơ đồ",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "HĐQT phía trên Tổng Giám đốc và Ban Điều hành.",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      },
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 125,
+        "page_id": "FPT2025:p125",
+        "region": "Bảng vai trò trách nhiệm bên trái",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "HĐQT: phê duyệt/ban hành chiến lược; Ban Điều hành: đảm bảo triển khai chiến lược.",
+        "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-m3",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Kết hợp thông điệp AI-Native và phần giới thiệu FleziPT: AI được định vị thế nào trong vận hành, và FleziPT giúp FPT tiến tới mô hình đó bằng cách nào?",
+    "answerable": true,
+    "expected_answer": "AI trở thành nền tảng vận hành cốt lõi; FleziPT tái định nghĩa quy trình phát triển/vận hành phần mềm, nâng năng suất nội bộ và làm nền tảng cung cấp giải pháp AI chuyên sâu.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 4,
+        "page_id": "FPT2025:p004",
+        "region": "Cuối mục ba yếu tố sống còn",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "AI không chỉ là công cụ hỗ trợ, trở thành nền tảng vận hành cốt lõi.",
+        "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+      },
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 63,
+        "page_id": "FPT2025:p063",
+        "region": "Đoạn giới thiệu FleziPT",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Nâng cao năng suất/hiệu quả nội bộ bằng tái định nghĩa quy trình và cung cấp giải pháp AI chuyên sâu.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-t1",
+    "split": "test",
+    "group": "table",
+    "question": "Trong bảng tài chính giai đoạn 2021–2025, tổng tài sản và vốn chủ sở hữu cuối năm 2025 lần lượt là bao nhiêu? Ghi đúng đơn vị.",
+    "answerable": true,
+    "expected_answer": "Tổng tài sản 88.142 tỷ VNĐ; vốn chủ sở hữu 43.748 tỷ VNĐ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 12,
+        "page_id": "FPT2025:p012",
+        "region": "Bảng, hàng 2 và 1, cột 2025",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Tổng tài sản 88.142; Vốn chủ sở hữu 43.748; đơn vị tỷ VNĐ.",
+        "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-t2",
+    "split": "test",
+    "group": "table",
+    "question": "Theo bảng chỉ tiêu kinh doanh, lãi cơ bản trên cổ phiếu năm 2024 và 2025 là bao nhiêu? Đơn vị của hàng này có giống đơn vị chung của bảng không?",
+    "answerable": true,
+    "expected_answer": "2024: 4.292 VNĐ; 2025: 5.216 VNĐ. Hàng EPS dùng VNĐ, khác đơn vị chung tỷ VNĐ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 58,
+        "page_id": "FPT2025:p058",
+        "region": "Bảng bên phải, hàng Lãi cơ bản trên cổ phiếu và chú thích (*)",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "EPS 4.292/5.216; riêng Lãi cơ bản trên cổ phiếu đơn vị VNĐ.",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-t3",
+    "split": "test",
+    "group": "table",
+    "question": "Trong kế hoạch đầu tư dự kiến năm 2026, hai khối được phân bổ bao nhiêu vốn, tổng bao nhiêu và Khối Công nghệ chiếm bao nhiêu phần trăm tổng ngân sách?",
+    "answerable": true,
+    "expected_answer": "Công nghệ 4.200 tỷ VNĐ; Giáo dục, Đầu tư và Khác 3.000 tỷ VNĐ; tổng 7.200 tỷ VNĐ; Công nghệ khoảng 58,33%.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 55,
+        "page_id": "FPT2025:p055",
+        "region": "Bảng Kế hoạch đầu tư dự kiến ở cuối trang",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "4.200; 3.000; Tổng cộng 7.200 tỷ VNĐ.",
+        "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "4200 / 7200 * 100 = 58.333333%"
+  },
+  {
+    "id": "ft-t4",
+    "split": "test",
+    "group": "table",
+    "question": "Dựa vào hàng Tổng doanh thu trong bảng 2021–2025, doanh thu tăng thêm bao nhiêu tỷ VNĐ từ năm 2021 đến năm 2025?",
+    "answerable": true,
+    "expected_answer": "Từ 35.657 lên 70.113 tỷ VNĐ, tăng 34.456 tỷ VNĐ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 12,
+        "page_id": "FPT2025:p012",
+        "region": "Bảng, hàng Tổng doanh thu, cột 2021 và 2025",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "2021: 35.657; 2025: 70.113 tỷ VNĐ.",
+        "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "70113 - 35657 = 34456 tỷ VNĐ"
+  },
+  {
+    "id": "ft-t5",
+    "split": "test",
+    "group": "table",
+    "question": "Theo bảng chỉ tiêu kinh doanh năm 2025, cổ tức tiền mặt trả trong năm là bao nhiêu, tăng bao nhiêu phần trăm so với năm trước?",
+    "answerable": true,
+    "expected_answer": "3.185 tỷ VNĐ, tăng 16,2% so với 2024.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 58,
+        "page_id": "FPT2025:p058",
+        "region": "Bảng, hàng Cổ tức tiền mặt trả trong năm, cột 2025 và Tăng/Giảm",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "2024=2.741; 2025=3.185 tỷ VNĐ; +16,2%.",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-t6",
+    "split": "test",
+    "group": "table",
+    "question": "Trong bảng tổng hợp tiêu thụ điện, điện tiêu thụ năm 2025, điện từ năng lượng tái tạo và tỷ lệ tái tạo lần lượt là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "187.453.013 kWh; 842.749 kWh; 0,45%.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 147,
+        "page_id": "FPT2025:p147",
+        "region": "Bảng tiêu thụ điện, cột Năm 2025, ba hàng",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Tiêu thụ điện 187.453.013; tái tạo 842.749; tỷ lệ 0,45%. Đơn vị kWh.",
+        "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-i1",
+    "split": "test",
+    "group": "diagram",
+    "question": "Theo sơ đồ tổ chức, hai đơn vị nào nằm trong nhánh Công ty liên kết?",
+    "answerable": true,
+    "expected_answer": "Synnex FPT và FPT Retail.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 31,
+        "page_id": "FPT2025:p031",
+        "region": "Nhánh Công ty liên kết ở phần phải dưới của sơ đồ",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "CÔNG TY LIÊN KẾT nối Synnex FPT và FPT Retail.",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-i2",
+    "split": "test",
+    "group": "diagram",
+    "question": "Theo các đường nối trong sơ đồ tổ chức, Khối Viễn thông gồm những đơn vị nào?",
+    "answerable": true,
+    "expected_answer": "FPT Online và FPT Telecom.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 31,
+        "page_id": "FPT2025:p031",
+        "region": "Nhánh Công ty con → Khối Viễn thông, hàng dưới giữa sơ đồ",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "KHỐI VIỄN THÔNG nối FPT Online và FPT Telecom.",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-i3",
+    "split": "test",
+    "group": "diagram",
+    "question": "Đọc sơ đồ tròn FleziPT: ba lớp có tên viết hoa được xếp từ tâm ra ngoài theo thứ tự nào?",
+    "answerable": true,
+    "expected_answer": "FLEZI FOUNDATION → FLEZI CREW → FLEZI VERSE.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 63,
+        "page_id": "FPT2025:p063",
+        "region": "Hình tròn bên phải, tâm xanh, vòng cam, vòng xanh lá",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "FLEZI FOUNDATION ở tâm; FLEZI CREW bao quanh; FLEZI VERSE ở ngoài.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-i4",
+    "split": "test",
+    "group": "diagram",
+    "question": "Trong hình quy trình xác định vấn đề trọng yếu ESG, ba bước được sắp theo thứ tự nào?",
+    "answerable": true,
+    "expected_answer": "Bước 1 xác định vấn đề chính ảnh hưởng hoạt động kinh doanh và lợi ích các bên liên quan; Bước 2 phân tích/xác định vấn đề được các bên quan tâm; Bước 3 phân tích các vấn đề trong mối quan hệ với các bên liên quan.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 125,
+        "page_id": "FPT2025:p125",
+        "region": "Ba khối Bước 01/02/03 phía phải",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Bước 01 xác định ảnh hưởng; Bước 02 các bên quan tâm; Bước 03 mối quan hệ với các bên liên quan.",
+        "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-i5",
+    "split": "test",
+    "group": "diagram",
+    "question": "Trên bản đồ hiện diện toàn cầu của FPT, Nhật Bản và Úc có được gắn nhãn địa điểm hiện diện không?",
+    "answerable": true,
+    "expected_answer": "Có, cả Nhật Bản và Úc đều được gắn nhãn trên bản đồ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 27,
+        "page_id": "FPT2025:p027",
+        "region": "Bản đồ thế giới, khu vực Đông Á và châu Đại Dương",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Có các nhãn Nhật Bản và Úc trên bản đồ hiện diện.",
+        "image_sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-c1",
+    "split": "test",
+    "group": "chart",
+    "question": "Trên đường ROA trong biểu đồ 2021–2025, mức cao nhất thuộc năm nào và năm 2025 giảm bao nhiêu điểm phần trăm so với năm 2024?",
+    "answerable": true,
+    "expected_answer": "Cao nhất năm 2024 là 14,4%; năm 2025 là 14,1%, giảm 0,3 điểm phần trăm.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 11,
+        "page_id": "FPT2025:p011",
+        "region": "Đường ROA, điểm 2024 và 2025, chú giải ROA",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "ROA 2024=14,4%; 2025=14,1%.",
+        "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "14.4 - 14.1 = 0.3 percentage points"
+  },
+  {
+    "id": "ft-c2",
+    "split": "test",
+    "group": "chart",
+    "question": "Trong biểu đồ doanh thu Dịch vụ CNTT cho thị trường nước ngoài theo khu vực, thị trường nào lớn nhất năm 2025, giá trị và tỷ trọng bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "Nhật Bản: 15.452 tỷ VNĐ, chiếm 43,7%.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 62,
+        "page_id": "FPT2025:p062",
+        "region": "Biểu đồ vành khuyên bên phải, lát Nhật Bản",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Nhật Bản 15.452; 43,7%; tổng 35.382 tỷ VNĐ.",
+        "image_sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-c3",
+    "split": "test",
+    "group": "chart",
+    "question": "Đọc các cột màu xanh của biểu đồ doanh thu Dịch vụ Chuyển đổi số: giá trị năm 2024 và 2025 là bao nhiêu và tăng thêm bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "2024: 14.340 tỷ VNĐ; 2025: 16.751 tỷ VNĐ; tăng 2.411 tỷ VNĐ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 63,
+        "page_id": "FPT2025:p063",
+        "region": "Biểu đồ trái, cột xanh 2024 và 2025, chú giải Dịch vụ Chuyển đổi số",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Cột xanh 2024=14.340; 2025=16.751 tỷ VNĐ.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "16751 - 14340 = 2411 tỷ VNĐ"
+  },
+  {
+    "id": "ft-c4",
+    "split": "test",
+    "group": "chart",
+    "question": "Theo biểu đồ họp trực tuyến/trực tiếp 2023–2025, tỷ lệ họp trực tuyến từ năm 2023 đến 2025 tăng bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "expected_answer": "Từ 67,8% lên 94,0%, tăng 26,2 điểm phần trăm.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 152,
+        "page_id": "FPT2025:p152",
+        "region": "Biểu đồ thanh ngang phía dưới bên phải, Họp trực tuyến 2023/2025",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "2023 trực tuyến 67,8%; 2025 94,0%.",
+        "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "94.0 - 67.8 = 26.2 percentage points"
+  },
+  {
+    "id": "ft-c5",
+    "split": "test",
+    "group": "chart",
+    "question": "Trong biểu đồ số hóa tài liệu 2022–2025, tỷ lệ văn bản cứng cao nhất ở năm nào và tỷ lệ văn bản cứng năm 2025 là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "Cao nhất năm 2024: 21,1%; năm 2025: 4,58%.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 152,
+        "page_id": "FPT2025:p152",
+        "region": "Biểu đồ cột đôi phía dưới bên trái, chú giải văn bản cứng",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Văn bản cứng: 2022 7,1%; 2023 17,6%; 2024 21,1%; 2025 4,58%.",
+        "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-m1",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Đối chiếu bảng chỉ tiêu kinh doanh toàn Tập đoàn với biểu đồ doanh thu Chuyển đổi số: năm 2025 hai giá trị LNTT và doanh thu Chuyển đổi số là bao nhiêu, chênh lệch số học bao nhiêu tỷ VNĐ?",
+    "answerable": true,
+    "expected_answer": "LNTT 13.044 tỷ VNĐ; doanh thu Chuyển đổi số 16.751 tỷ VNĐ; doanh thu Chuyển đổi số lớn hơn 3.707 tỷ VNĐ. Đây là hai chỉ tiêu khác nhau, chỉ so chênh lệch số học.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 58,
+        "page_id": "FPT2025:p058",
+        "region": "Bảng chỉ tiêu kinh doanh, hàng LNTT cột 2025",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "LNTT 13.044 tỷ VNĐ.",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      },
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 63,
+        "page_id": "FPT2025:p063",
+        "region": "Biểu đồ cột xanh 2025/đoạn mở đầu",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Doanh thu Chuyển đổi số 16.751 tỷ VNĐ.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "16751 - 13044 = 3707 tỷ VNĐ"
+  },
+  {
+    "id": "ft-m2",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "So sánh ngân sách đầu tư Khối Công nghệ trong kế hoạch 2026 với số giải ngân Khối Công nghệ năm 2025: mỗi số là bao nhiêu và chênh lệch bao nhiêu tỷ VNĐ?",
+    "answerable": true,
+    "expected_answer": "Kế hoạch 2026: 4.200 tỷ VNĐ; giải ngân 2025: 2.823 tỷ VNĐ; chênh lệch 1.377 tỷ VNĐ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 55,
+        "page_id": "FPT2025:p055",
+        "region": "Bảng Kế hoạch đầu tư dự kiến, hàng Khối Công nghệ",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Khối Công nghệ 4.200 tỷ VNĐ kế hoạch 2026.",
+        "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+      },
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 75,
+        "page_id": "FPT2025:p075",
+        "region": "Bảng dự án đầu tư, Công nghệ, cột Giải ngân 2025",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Công nghệ giải ngân 2025: 2.823 tỷ VNĐ.",
+        "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "calculation": "4200 - 2823 = 1377 tỷ VNĐ"
+  },
+  {
+    "id": "ft-m3",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Kết hợp phần văn phòng không giấy tờ và phần kiểm kê khí nhà kính: tỷ lệ paperless năm 2025 và mốc mục tiêu Net Zero là gì? Tỷ lệ paperless có đồng nghĩa đã đạt Net Zero không?",
+    "answerable": true,
+    "expected_answer": "Paperless năm 2025 đạt 95,42%; mục tiêu Net Zero vào 2040. Không: một chỉ số số hóa tài liệu không chứng minh đã hoàn thành mục tiêu phát thải.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 152,
+        "page_id": "FPT2025:p152",
+        "region": "Đoạn văn phòng không giấy tờ",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Tỷ lệ sử dụng paperless đạt 95,42% năm 2025.",
+        "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+      },
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 146,
+        "page_id": "FPT2025:p146",
+        "region": "Đoạn lộ trình Net Zero",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Mục tiêu Net Zero vào năm 2040.",
+        "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-m4",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Tổng hợp đối tượng và quy mô hưởng lợi của Trường Hy Vọng mới và dự án Bếp Xanh – Sống Lành: số nào là học sinh, số nào là người dân?",
+    "answerable": true,
+    "expected_answer": "Trường Hy Vọng mới là ngôi nhà cho hơn 300 học sinh thuộc 13 dân tộc; Bếp Xanh – Sống Lành giúp hơn 1.000 người dân tiếp cận bếp cải tiến.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 156,
+        "page_id": "FPT2025:p156",
+        "region": "Đoạn Trường Hy Vọng",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Hơn 300 học sinh thuộc 13 dân tộc.",
+        "image_sha256": "a76cc7d64685f9b3118517deee6a418374db0dc7b519c3659d62f09ae0179d85"
+      },
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 158,
+        "page_id": "FPT2025:p158",
+        "region": "Đoạn Bếp Xanh – Sống Lành",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Giúp hơn 1.000 người dân tiếp cận bếp cải tiến.",
+        "image_sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-x1",
+    "split": "test",
+    "group": "text",
+    "question": "Theo thông điệp Chủ tịch, sau một năm các nhà máy AI đã khai thác khoảng bao nhiêu công suất và xử lý bao nhiêu token?",
+    "answerable": true,
+    "expected_answer": "Khoảng 70% công suất, xử lý hơn 1.100 tỷ token.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 5,
+        "page_id": "FPT2025:p005",
+        "region": "Đoạn lợi thế AI Factory",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Khoảng 70% công suất, hơn 1.100 tỷ token.",
+        "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-x2",
+    "split": "test",
+    "group": "text",
+    "question": "Công trình nào được báo cáo nêu là đầu tiên tại Việt Nam đạt EDGE, và những giải pháp nào được nhắc kèm?",
+    "answerable": true,
+    "expected_answer": "FPT Complex Đà Nẵng; tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải, điều hòa và chiếu sáng hiệu suất cao.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 153,
+        "page_id": "FPT2025:p153",
+        "region": "Đoạn FPT Complex Đà Nẵng",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Đầu tiên tại Việt Nam đạt EDGE nhờ tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải, điều hòa/chiếu sáng hiệu suất cao.",
+        "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-x3",
+    "split": "test",
+    "group": "text",
+    "question": "Theo nguyên tắc an ninh dữ liệu, khi cần tiết lộ thông tin bảo mật ra ngoài vì yêu cầu công việc, phải thực hiện gì trước?",
+    "answerable": true,
+    "expected_answer": "Thực hiện biện pháp bảo vệ phù hợp, ví dụ ký cam kết bảo mật với bên liên quan trước khi tiết lộ.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 129,
+        "page_id": "FPT2025:p129",
+        "region": "Gạch đầu dòng Nguyên tắc an ninh",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Trường hợp yêu cầu công việc, thực hiện biện pháp bảo vệ phù hợp như ký cam kết bảo mật trước tiết lộ.",
+        "image_sha256": "f2dc748fb6c972ec1416572ea92f85db8a905c2e8b4f19310f6881fa160df611"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-x4",
+    "split": "test",
+    "group": "text",
+    "question": "Báo cáo liệt kê những nguyên tắc nào cho việc thu thập, xử lý, lưu trữ và sử dụng dữ liệu?",
+    "answerable": true,
+    "expected_answer": "Hợp pháp; mục đích; chất lượng dữ liệu; an ninh; quản trị.",
+    "gold": [
+      {
+        "source_id": "FPT-annual-report-2025",
+        "page": 129,
+        "page_id": "FPT2025:p129",
+        "region": "Danh sách 5 nguyên tắc quản trị dữ liệu",
+        "bbox_normalized": [
+          0.24,
+          0.03,
+          0.98,
+          0.96
+        ],
+        "evidence": "Nguyên tắc hợp pháp, mục đích, chất lượng dữ liệu, an ninh, quản trị.",
+        "image_sha256": "f2dc748fb6c972ec1416572ea92f85db8a905c2e8b4f19310f6881fa160df611"
+      }
+    ],
+    "evidence_rule": "All listed evidence components required; equivalent original evidence accepted with explicit reviewer justification.",
+    "reason": "Evidence transcribed/checked against original PDF page images, physical pages 1-based.",
+    "reviewer_kind": "AI",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-u1",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Báo cáo cho biết doanh thu thực tế cả năm 2026 của FPT là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo 2025 có kế hoạch 2026, không có doanh thu thực tế cả năm 2026.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        55
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Báo cáo 2025 có kế hoạch 2026, không có doanh thu thực tế cả năm 2026.",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-u2",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Giá thuê niêm yết theo giờ của từng loại GPU tại FPT AI Factory trong năm 2025 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Có mô tả năng lực AI Factory, không có bảng đơn giá giờ GPU theo loại.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        5
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Có mô tả năng lực AI Factory, không có bảng đơn giá giờ GPU theo loại.",
+    "student_confirmed": false
+  },
+  {
+    "id": "fd-u3",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Dự án Bếp Xanh – Sống Lành ghi số tiền tài trợ cụ thể cho từng hộ gia đình là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chỉ có quy mô người hưởng lợi và mục đích, không có mức tài trợ theo hộ.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        158
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Chỉ có quy mô người hưởng lợi và mục đích, không có mức tài trợ theo hộ.",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-u1",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo có số doanh thu năm 2025 riêng của từng khách hàng thuộc nhóm FPT Software không? Hãy liệt kê đầy đủ từng khách hàng và doanh thu.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo có một số khách hàng/hợp đồng điển hình, không có bảng đầy đủ doanh thu từng khách hàng FPT Software.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        7,
+        62
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Báo cáo có một số khách hàng/hợp đồng điển hình, không có bảng đầy đủ doanh thu từng khách hàng FPT Software.",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-u2",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Theo báo cáo, nêu chi tiết lượng phát thải CO2 toàn Tập đoàn của từng tháng trong năm 2025.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Bảng kiểm kê cung cấp tổng theo năm/phạm vi, không phân rã đầy đủ từng tháng.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        146
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Bảng kiểm kê cung cấp tổng theo năm/phạm vi, không phân rã đầy đủ từng tháng.",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-u3",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Từ báo cáo, số serial của từng GPU đang hoạt động tại hai nhà máy AI là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Có năng lực và công suất AI Factory, không có danh mục serial thiết bị.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        5
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Có năng lực và công suất AI Factory, không có danh mục serial thiết bị.",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-u4",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Trong báo cáo có tỷ lệ chính xác lỗi suy luận của từng mô hình ngôn ngữ lớn do FPT AI Factory phát triển không? Nêu từng mô hình và tỷ lệ.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Có số lượng mô hình và năng lực, không có benchmark lỗi suy luận theo từng mô hình.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        5
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Có số lượng mô hình và năng lực, không có benchmark lỗi suy luận theo từng mô hình.",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-u5",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo có bảng chi phí điện năm 2025 theo từng máy chủ riêng lẻ ở các Data Center không? Nêu đầy đủ.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo có số điện tiêu thụ tổng hợp, không phân bổ chi phí tới từng máy chủ.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        147
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Báo cáo có số điện tiêu thụ tổng hợp, không phân bổ chi phí tới từng máy chủ.",
+    "student_confirmed": false
+  },
+  {
+    "id": "ft-u6",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Báo cáo có lịch sử chính xác từng giao dịch mua cổ phiếu FPT của từng cổ đông cá nhân trong năm 2025 không? Liệt kê toàn bộ.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Có cơ cấu cổ đông/tổng cổ phiếu, không có sổ giao dịch đầy đủ từng cá nhân.",
+    "absence_check": {
+      "method": "Whole extracted report/topic review and original related pages; absence is not inferred from retrieval top-k.",
+      "related_original_pages": [
+        32
+      ],
+      "total_pages_checked": 232,
+      "reviewer_kind": "AI"
+    },
+    "reason": "Có cơ cấu cổ đông/tổng cổ phiếu, không có sổ giao dịch đầy đủ từng cá nhân.",
+    "student_confirmed": false
+  }
+]

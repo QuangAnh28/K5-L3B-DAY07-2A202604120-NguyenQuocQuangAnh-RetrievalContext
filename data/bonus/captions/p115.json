@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p115",
+  "image_sha256": "342db08256ad52ca6c73b0854aa7608fdf35ee053241a10d3710ba1857582b77",
+  "caption": {
+    "summary": "Trang trình bày các chỉ tiêu ESG cam kết của FPT, bao gồm các mục về quản trị xuất sắc, môi trường làm việc đẳng cấp, hạnh phúc và hoạt động vì môi trường xanh với các chỉ tiêu cụ thể và kết quả thực hiện năm 2025 cùng mục tiêu năm 2026.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Các chỉ tiêu ESG cam kết",
+        "location": "giữa trang",
+        "description": "Bảng liệt kê các cam kết ESG theo các nhóm: Quản trị xuất sắc, Môi trường làm việc đẳng cấp, hạnh phúc, Hoạt động vì môi trường xanh; các chỉ tiêu cụ thể kèm theo cam kết năm 2025, kết quả năm 2025 và cam kết năm 2026."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800763-hNUmKDNty5pQtQu3DT0l",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 167,
+        "total_tokens": 2729,
+        "cost": 0.001292,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001292,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002672
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4039.7660000016913,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

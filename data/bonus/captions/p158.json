@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p158",
+  "image_sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869",
+  "caption": {
+    "summary": "Trang báo cáo ESG của FPT năm 2025, giới thiệu dự án Bếp Xanh – Sống Lành và hoạt động hiến máu nhân đạo.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Lễ ký kết dự án Bếp Xanh – Sống Lành",
+        "location": "trên trái",
+        "description": "Ảnh chụp lễ ký kết hợp tác giữa tổ chức World Vision và FPT tại Sơn La, tỉnh Điện Biên"
+      },
+      {
+        "type": "photo",
+        "title": "Hoạt động hiến máu nhân đạo",
+        "location": "trên phải",
+        "description": "Ảnh chụp hai nhân viên FPT tham gia hiến máu với biểu ngữ 'Một giọt máu cho đi, một cuộc đời ở lại'"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800798-khPWTfzUuGnGuCzDVipH",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 162,
+        "total_tokens": 2724,
+        "cost": 0.001284,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001284,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002592
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3235.5087000178173,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,29 @@
+{
+  "fingerprint": {
+    "src/bonus.py": "93392ac6d65cdc6f49e9534f738b838f9d10485a86bcd0181227713a08b8dfd0",
+    "src/bonus_ingest.py": "994f7061a56d534abd5fd4878610964e4815974a87d035f5341ed06a4264d2a9",
+    "src/provider.py": "d3ed492e37448181a71eb1c10e4894fbc88335def7b91b4cc7f2feacf6ef16d1",
+    "data/bonus/chunks.json": "1819439d8220cfe7feb296f7433a541ab60a39f9643c525fced2c99f8b167d61",
+    "data/bonus/manifest.json": "91aa6b062cdf41a43cbe6af7219ee54e4f1b20361bcbef11a76abb90e3d25290",
+    "benchmark/bonus_cases.json": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627"
+  },
+  "configs": {
+    "text": {
+      "top_k": 4,
+      "max_searches": 2,
+      "max_context_pages": 6,
+      "images": false,
+      "model": "openai/gpt-4.1-mini",
+      "hypothesis": "Text + visual captions, hybrid retrieval; no original image in answer context."
+    },
+    "vision": {
+      "top_k": 8,
+      "max_searches": 3,
+      "max_context_pages": 12,
+      "images": true,
+      "model": "openai/gpt-4.1",
+      "hypothesis": "Use original page images, broader context and stronger vision model to read cells, charts and diagram relationships; bundled changes, not a single-factor ablation."
+    }
+  },
+  "selection_criterion": "Higher dev audited pass count; lower model cost; lower median latency; config name."
+}

@@ -1,0 +1,418 @@
+{
+  "status": "answered",
+  "answer": "Trường hợp không có thỏa thuận về giá dịch vụ, không có thỏa thuận về phương pháp xác định giá dịch vụ và cũng không có bất kỳ chỉ dẫn nào khác về giá dịch vụ thì giá dịch vụ được xác định theo giá của loại dịch vụ đó trong các điều kiện tương tự về phương thức cung ứng, thời điểm cung ứng, thị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá dịch vụ. [luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_iJCcWAjszx7Igj2zvDW0M4AV",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"xác định giá dịch vụ khi không có thỏa thuận hay chỉ dẫn về giá\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801415-k2KQOwHmZvIQASIubZaD"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Không có thỏa thuận hay chỉ dẫn về giá dịch vụ thì xác định giá dựa trên căn cứ nào?",
+      "model_query": "xác định giá dịch vụ khi không có thỏa thuận hay chỉ dẫn về giá",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 52"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 24,
+          "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 24,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 86"
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 44,
+          "text": "3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 44,
+            "year": 2005,
+            "chapter": "Chương V"
+          },
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 51,
+          "text": "giao kết hợp đồng dịch vụ tổ chức đấu giá hàng hoá thì h ợp đồng dịch vụ tổ chức đấu giá được giao kết giữa người nhận cầm cố, thế chấp với người tổ chức đấu giá.\n\nĐiều 194. Xác định giá khởi điểm\n\n1. Người bán hàng phải xác định giá khởi điểm. Trong trường hợp người tổ chức đấu giá được uỷ quyền xác định giá khởi điểm thì phải thông báo cho ng ười bán hàng trước khi niêm yết việc bán đấu giá.\n\n2. Tr ường h ợp hàng hoá đấu giá là đối tượng c ầm c ố, th ế chấp thì ng ười nhận cầm c ố, thế chấp phải thoả thuận với người cầm cố, thế chấp xác định giá khởi điểm.\n\n3. Trường hợp trong h ợp đồng cầm cố, thế chấp có tho ả thuận về việc bán đấu giá mà ng ười cầm cố, thế chấp vắng mặt không có lý do chính đáng hoặc từ chối giao k ết h ợp đồng d ịch v ụ tổ ch ức đấu giá hàng hoá thì giá kh ởi điểm do người nhận cầm cố, thế chấp xác định.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 51,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 194"
+          },
+          "score": 0.030330882352941176,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 24,
+          "text": "Điều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 24,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 85"
+          },
+          "score": 0.028814262023217248,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 12,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 50,
+          "text": "Điều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 50,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 192"
+          },
+          "score": 0.028006267136701922,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 14
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 44]\n3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức\n\n[luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 51]\ngiao kết hợp đồng dịch vụ tổ chức đấu giá hàng hoá thì h ợp đồng dịch vụ tổ chức đấu giá được giao kết giữa người nhận cầm cố, thế chấp với người tổ chức đấu giá.\n\nĐiều 194. Xác định giá khởi điểm\n\n1. Người bán hàng phải xác định giá khởi điểm. Trong trường hợp người tổ chức đấu giá được uỷ quyền xác định giá khởi điểm thì phải thông báo cho ng ười bán hàng trước khi niêm yết việc bán đấu giá.\n\n2. Tr ường h ợp hàng hoá đấu giá là đối tượng c ầm c ố, th ế chấp thì ng ười nhận cầm c ố, thế chấp phải thoả thuận với người cầm cố, thế chấp xác định giá khởi điểm.\n\n3. Trường hợp trong h ợp đồng cầm cố, thế chấp có tho ả thuận về việc bán đấu giá mà ng ười cầm cố, thế chấp vắng mặt không có lý do chính đáng hoặc từ chối giao k ết h ợp đồng d ịch v ụ tổ ch ức đấu giá hàng hoá thì giá kh ởi điểm do người nhận cầm cố, thế chấp xác định.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\nĐiều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+        "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+        "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a",
+        "luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a",
+        "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+        "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_sJzFN2q6kgp9XgHTrVNVdo7B",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trường hợp không có thỏa thuận về giá dịch vụ, không có thỏa thuận về phương pháp xác định giá dịch vụ và cũng không có bất kỳ chỉ dẫn nào khác về giá dịch vụ thì giá dịch vụ được xác định theo giá của loại dịch vụ đó trong các điều kiện tương tự về phương thức cung ứng, thời điểm cung ứng, thị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá dịch vụ.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801416-lxF75VY0CVfAmlNqhU7e"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 44]\n3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức\n\n[luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 51]\ngiao kết hợp đồng dịch vụ tổ chức đấu giá hàng hoá thì h ợp đồng dịch vụ tổ chức đấu giá được giao kết giữa người nhận cầm cố, thế chấp với người tổ chức đấu giá.\n\nĐiều 194. Xác định giá khởi điểm\n\n1. Người bán hàng phải xác định giá khởi điểm. Trong trường hợp người tổ chức đấu giá được uỷ quyền xác định giá khởi điểm thì phải thông báo cho ng ười bán hàng trước khi niêm yết việc bán đấu giá.\n\n2. Tr ường h ợp hàng hoá đấu giá là đối tượng c ầm c ố, th ế chấp thì ng ười nhận cầm c ố, thế chấp phải thoả thuận với người cầm cố, thế chấp xác định giá khởi điểm.\n\n3. Trường hợp trong h ợp đồng cầm cố, thế chấp có tho ả thuận về việc bán đấu giá mà ng ười cầm cố, thế chấp vắng mặt không có lý do chính đáng hoặc từ chối giao k ết h ợp đồng d ịch v ụ tổ ch ức đấu giá hàng hoá thì giá kh ởi điểm do người nhận cầm cố, thế chấp xác định.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\nĐiều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a",
+    "luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801415-k2KQOwHmZvIQASIubZaD",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 295,
+        "completion_tokens": 22,
+        "total_tokens": 317,
+        "cost": 0.0001532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001532,
+          "upstream_inference_prompt_cost": 0.000118,
+          "upstream_inference_completions_cost": 3.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1390.1901000062935,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801416-lxF75VY0CVfAmlNqhU7e",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2338,
+        "completion_tokens": 147,
+        "total_tokens": 2485,
+        "cost": 0.0005176,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 2176,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005176,
+          "upstream_inference_prompt_cost": 0.0002824,
+          "upstream_inference_completions_cost": 0.0002352
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3110.6639999779873,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 4519.148199993651,
+  "searches": 1,
+  "query_id": "d7-q14",
+  "question": "Không có thỏa thuận hay chỉ dẫn về giá dịch vụ thì xác định giá dựa trên căn cứ nào?",
+  "split": "dev",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 52"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 24,
+      "text": "Điều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 24,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 86"
+      },
+      "score": 0.03225806451612903,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 44,
+      "text": "3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 44,
+        "year": 2005,
+        "chapter": "Chương V"
+      },
+      "score": 0.031746031746031744,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 51,
+      "text": "giao kết hợp đồng dịch vụ tổ chức đấu giá hàng hoá thì h ợp đồng dịch vụ tổ chức đấu giá được giao kết giữa người nhận cầm cố, thế chấp với người tổ chức đấu giá.\n\nĐiều 194. Xác định giá khởi điểm\n\n1. Người bán hàng phải xác định giá khởi điểm. Trong trường hợp người tổ chức đấu giá được uỷ quyền xác định giá khởi điểm thì phải thông báo cho ng ười bán hàng trước khi niêm yết việc bán đấu giá.\n\n2. Tr ường h ợp hàng hoá đấu giá là đối tượng c ầm c ố, th ế chấp thì ng ười nhận cầm c ố, thế chấp phải thoả thuận với người cầm cố, thế chấp xác định giá khởi điểm.\n\n3. Trường hợp trong h ợp đồng cầm cố, thế chấp có tho ả thuận về việc bán đấu giá mà ng ười cầm cố, thế chấp vắng mặt không có lý do chính đáng hoặc từ chối giao k ết h ợp đồng d ịch v ụ tổ ch ức đấu giá hàng hoá thì giá kh ởi điểm do người nhận cầm cố, thế chấp xác định.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 51,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 194"
+      },
+      "score": 0.030330882352941176,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 4,
+        "tfidf": 8
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 24,
+      "text": "Điều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 24,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 85"
+      },
+      "score": 0.028814262023217248,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 12,
+        "tfidf": 7
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 50,
+      "text": "Điều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 50,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 192"
+      },
+      "score": 0.028006267136701922,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 9,
+        "tfidf": 14
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 86. Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ.\n\nĐiều 87. Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành.\n\n[luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 44]\n3. Tr ường h ợp bên giao đại lý không ấn định giá mua, giá bán hàng hoá hoặc giá cung ứng dịch vụ cho khách hàng mà ch ỉ ấn định giá giao đại lý cho bên đại lý thì bên đại lý được h ưởng chênh l ệch giá. M ức chênh l ệch giá được xác định là m ức chênh l ệch giữa giá mua, giá bán, giá cung ứng d ịch vụ cho khách hàng so với giá do bên giao đại lý ấn định cho bên đại lý.\n\n4. Trường hợp các bên không có tho ả thuận về mức thù lao đại lý thì m ức\n\n[luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 51]\ngiao kết hợp đồng dịch vụ tổ chức đấu giá hàng hoá thì h ợp đồng dịch vụ tổ chức đấu giá được giao kết giữa người nhận cầm cố, thế chấp với người tổ chức đấu giá.\n\nĐiều 194. Xác định giá khởi điểm\n\n1. Người bán hàng phải xác định giá khởi điểm. Trong trường hợp người tổ chức đấu giá được uỷ quyền xác định giá khởi điểm thì phải thông báo cho ng ười bán hàng trước khi niêm yết việc bán đấu giá.\n\n2. Tr ường h ợp hàng hoá đấu giá là đối tượng c ầm c ố, th ế chấp thì ng ười nhận cầm c ố, thế chấp phải thoả thuận với người cầm cố, thế chấp xác định giá khởi điểm.\n\n3. Trường hợp trong h ợp đồng cầm cố, thế chấp có tho ả thuận về việc bán đấu giá mà ng ười cầm cố, thế chấp vắng mặt không có lý do chính đáng hoặc từ chối giao k ết h ợp đồng d ịch v ụ tổ ch ức đấu giá hàng hoá thì giá kh ởi điểm do người nhận cầm cố, thế chấp xác định.\n\n[luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 24]\nĐiều 85. Nghĩa vụ của khách hàng Trừ trường hợp có thoả thuận khác, khách hàng có các nghĩa vụ sau đây:\n\n1. Thanh toán tiền cung ứng dịch vụ như đã thoả thuận trong hợp đồng;\n\n2. Cung c ấp kịp thời các k ế hoạch, chỉ dẫn và nh ững chi ti ết khác để việc cung ứng dịch vụ được thực hiện không bị trì hoãn hay gián đoạn;\n\n3. Hợp tác trong t ất cả những vấn đề cần thiết khác để bên cung ứng có thể cung ứng dịch vụ một cách thích hợp;\n\n4. Trường hợp một dịch vụ do nhi ều bên cung ứng dịch vụ cùng ti ến hành hoặc phối hợp với bên cung ứng dịch vụ khác, khách hàn g có ngh ĩa vụ điều phối hoạt động của các bên cung ứng dịch vụ để không gây c ản trở đến công việc của bất kỳ bên cung ứng dịch vụ nào.\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\nĐiều 192. Ngh ĩa v ụ c ủa ng ười bán hàng không ph ải là ng ười t ổ ch ức đấu giá Trừ tr ường h ợp có tho ả thu ận khác, ng ười bán hàng có các ngh ĩa v ụ sau đây:\n\n1. Giao hàng hoá cho ng ười tổ chức đấu giá, tạo điều kiện để người tổ chức đấu giá, người tham gia đấu giá xem xét hàng hoá và cung c ấp đầy đủ, chính xác, kịp thời các thông tin cần thiết liên quan đến hàng hoá đấu giá;\n\n2. Trả thù lao dịch vụ tổ chức đấu giá theo quy định tại Điều 211 của Luật này.\n\nĐiều 193. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá\n\n1. Hợp đồng dịch vụ tổ chức đấu giá hàng hoá ph ải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\n2. Trường hợp hàng hoá được đấu giá là đối tượng cầm cố, thế chấp thì hợp đồng dịch vụ tổ chức đấu giá phải được sự đồng ý của bên nhận cầm cố, thế chấp và bên bán phải thông báo cho các bên tham gia đấu giá về hàng hóa đang bị cầm cố, thế chấp.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-648b8b469245bf2c",
+    "luat-thuong-mai-36-2005-qh11-p44-paragraph-1000-6e3cbbe31035e03a",
+    "luat-thuong-mai-36-2005-qh11-p51-paragraph-1000-529a17049bb8b41a",
+    "luat-thuong-mai-36-2005-qh11-p24-paragraph-1000-dfe0e5176dd74c99",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-54eb0870a78536cb"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

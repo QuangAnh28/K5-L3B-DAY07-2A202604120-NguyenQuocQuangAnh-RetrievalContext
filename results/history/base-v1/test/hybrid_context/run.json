@@ -1,0 +1,17 @@
+{
+  "fingerprint": {
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "chunks_sha256": "83dafd94ea1813da227b8a929669c57217b24f3cbafc3eedb0875526c5dcf4a3",
+    "agent_sha256": "94df5710c8c520907ef6f9aa56b165b50cabb28d1eb659105b0540f38ab452fd",
+    "retrieval_sha256": "8629b78e9b2d73de27327dffaf7e0cab3fc120c2bc9581ef4664bebe30551e3b",
+    "experiments_sha256": "e073bfabd3e0f8f819f1b7298e3779eeb8d107162214d744ec2c013a823529ad",
+    "agent_model": "openai/gpt-4.1-mini"
+  },
+  "config": {
+    "method": "hybrid",
+    "top_k": 6,
+    "budget": 6000,
+    "max_searches": 3,
+    "hypothesis": "Improvement 2: larger context/top-k and multiple searches may recover missing evidence; bundled change, no attribution to one factor."
+  }
+}

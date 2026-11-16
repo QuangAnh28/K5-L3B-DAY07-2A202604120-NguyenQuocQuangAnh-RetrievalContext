@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p131",
+  "image_sha256": "538c535df32fe90d2659fcabbd64b0ec610c84c3f961ad4a95ba1ff11887dc1c",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về quản trị rủi ro của Tập đoàn FPT, bao gồm các nhóm rủi ro chính và biện pháp quản trị tương ứng, tập trung vào rủi ro chiến lược như sai hướng phát triển và suy giảm năng lực cạnh tranh.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Rủi ro chiến lược",
+        "location": "dưới",
+        "description": "Bảng gồm ba cột: Tên rủi ro, Nội dung, Biện pháp quản trị; mô tả các rủi ro về chiến lược, tầm nhìn và suy giảm năng lực cạnh tranh cùng các biện pháp ứng phó tương ứng."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800771-FJ00S8C4UwjYyt7vZnyJ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 150,
+        "total_tokens": 2712,
+        "cost": 0.0012648,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012648,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.00024
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3664.2773000057787,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

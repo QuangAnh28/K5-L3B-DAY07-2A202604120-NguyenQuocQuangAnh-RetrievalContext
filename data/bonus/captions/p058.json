@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p058",
+  "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27",
+  "caption": {
+    "summary": "Trang báo cáo trình bày kết quả kinh doanh của FPT năm 2025, tập trung vào lĩnh vực dịch vụ CNTT cho thị trường nước ngoài và các chỉ tiêu tài chính chính. Nội dung phân tích tăng trưởng doanh thu, lợi nhuận và các chỉ số tài chính quan trọng, đồng thời đề cập đến chiến lược phát triển và ứng dụng công nghệ AI.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+        "location": "phải",
+        "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, đơn vị tỷ VNĐ, gồm tổng tài sản, doanh thu, lợi nhuận từ hoạt động kinh doanh, EBITDA, LNTT, LNST, lãi cơ bản trên cổ phiếu, cổ tức tiền mặt trả trong năm và tỷ lệ lợi nhuận trả cổ tức cùng với mức tăng/giảm phần trăm."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800726-OoaRRPtzy46dlEoYS1AR",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 207,
+        "total_tokens": 2769,
+        "cost": 0.001356,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001356,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003312
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3459.5799000235274,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

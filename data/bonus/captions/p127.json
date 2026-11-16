@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p127",
+  "image_sha256": "43a22d64e586b8a6a489bc1a55b0e9511536904a8d2894139c9cf11ae983531a",
+  "caption": {
+    "summary": "Trang liệt kê các chứng chỉ và chứng nhận của các khối kinh doanh trong tập đoàn FPT, bao gồm Tập đoàn, Khối Công nghệ, Khối Viễn thông và Lĩnh vực Giáo dục.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Chứng chỉ/Chứng nhận theo Khối Kinh doanh",
+        "location": "trên",
+        "description": "Bảng liệt kê các chứng chỉ và chứng nhận tương ứng với từng khối kinh doanh như Tập đoàn, Khối Công nghệ, Khối Viễn thông và Lĩnh vực Giáo dục, bao gồm các tiêu chuẩn ISO, IEC, PCI DSS, HITRUST, và các chứng nhận kiểm định chất lượng giáo dục."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800769-IeysKHS4p3v3u22g8QbF",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 152,
+        "total_tokens": 2714,
+        "cost": 0.001268,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001268,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002432
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3160.2690999861807,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

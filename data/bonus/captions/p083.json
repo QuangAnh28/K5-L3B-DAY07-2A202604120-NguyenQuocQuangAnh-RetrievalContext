@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p083",
+  "image_sha256": "e3cc44958861ed1eb10a73b91bc9c54d3fc9a8c7f11afd9998908042636c2eed",
+  "caption": {
+    "summary": "Nội dung các phiên họp và nghị quyết của Hội đồng Quản trị FPT năm 2025, bao gồm thành phần tham dự, nội dung họp và các nghị quyết được thông qua.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800742-EZrxwFc6kd51n6zHMTjw",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 50,
+        "total_tokens": 2612,
+        "cost": 0.0011048,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011048,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2701.179899973795,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

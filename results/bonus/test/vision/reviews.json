@@ -1,0 +1,547 @@
+[
+  {
+    "query_id": "ft-t1",
+    "passed": true,
+    "reason": "Đúng tổng tài sản 88.142 và vốn chủ sở hữu 43.748 tỷ VNĐ. Số VNĐ gốc được dẫn bổ sung khớp mã 400/440 trang 168.",
+    "original_page_check": [
+      {
+        "page": 12,
+        "region": "Hàng/cột, ghi chú đơn vị và citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+      },
+      {
+        "page": 168,
+        "region": "Hàng/cột, ghi chú đơn vị và citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "71de502f1a73da904667814efb8eff7db0f57915bf7961e7000cc1f764198222"
+      }
+    ],
+    "trace_sha256": "9c087e86485499efc69c5bb2485a4af330d5a9f085fdbdd061baac75864220aa",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:59:31.552960+00:00"
+  },
+  {
+    "query_id": "ft-t2",
+    "passed": false,
+    "reason": "Từ chối câu có đáp án. Bảng nguồn nêu EPS 4.292/5.216 và ghi chú riêng VNĐ, khác đơn vị tỷ VNĐ chung.",
+    "original_page_check": [
+      {
+        "page": 58,
+        "region": "Hàng/cột, ghi chú đơn vị và citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      }
+    ],
+    "trace_sha256": "2e390c72703d44b82be379c8e290c5053420df00c8ae4d59a2dd27d2927d320e",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:59:31.553550+00:00"
+  },
+  {
+    "query_id": "ft-t3",
+    "passed": true,
+    "reason": "Đúng 4.200, 3.000, tổng 7.200 tỷ VNĐ, 58,33%; phân biệt đúng kế hoạch với số thực tế và citation đúng bảng.",
+    "original_page_check": [
+      {
+        "page": 55,
+        "region": "Hàng/cột, ghi chú đơn vị và citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+      }
+    ],
+    "trace_sha256": "553e5b553170cee5e6be189bb62cb8fec3e37074aa52618751deb88bdcecca25",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:59:31.554121+00:00"
+  },
+  {
+    "query_id": "ft-t4",
+    "passed": true,
+    "reason": "Đúng đầu vào 35.657 và 70.113 tỷ VNĐ, chênh 34.456; cả biểu đồ trang 10 và hàng doanh thu trang 12 đều hỗ trợ.",
+    "original_page_check": [
+      {
+        "page": 10,
+        "region": "Hàng/cột, ghi chú đơn vị và citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+      },
+      {
+        "page": 12,
+        "region": "Hàng/cột, ghi chú đơn vị và citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+      }
+    ],
+    "trace_sha256": "0a98de2c95223eea720d4084527480be02f9cf705fd4da64965c99f6f22cdafd",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:59:31.554672+00:00"
+  },
+  {
+    "query_id": "ft-t5",
+    "passed": true,
+    "reason": "Đúng 3.185 tỷ VNĐ và 16,2%, đầu vào 2.741 năm 2024; phép tính và citation đúng hàng cổ tức tiền mặt.",
+    "original_page_check": [
+      {
+        "page": 58,
+        "region": "Hàng/cột, ghi chú đơn vị và citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      }
+    ],
+    "trace_sha256": "5ec433ad806aec065a79f91dac8de10843104ecefa1ccc085e566d28a1e405fc",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:59:31.555215+00:00"
+  },
+  {
+    "query_id": "ft-t6",
+    "passed": true,
+    "reason": "Đúng ba giá trị 187.453.013 kWh, 842.749 kWh, 0,45%. Prose trộn số trang in/PDF 146; structured citation p147 và vùng/hàng/cột đúng, đủ định vị nguồn gốc nên không coi là mất citation.",
+    "original_page_check": [
+      {
+        "page": 147,
+        "region": "Bảng hoặc nhánh/lớp/đường nối sơ đồ được hỏi và được trích",
+        "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+      }
+    ],
+    "trace_sha256": "2e97fc6fbf4b64ff0b9a74efbef9f76deff4f614ac5d6faf8f1b3124b43b9c21",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:01:14.091234+00:00"
+  },
+  {
+    "query_id": "ft-i1",
+    "passed": true,
+    "reason": "Đúng Synnex FPT và FPT Retail trong nhánh liên kết; vốn điều lệ/tỷ lệ bổ sung đều khớp ảnh.",
+    "original_page_check": [
+      {
+        "page": 31,
+        "region": "Bảng hoặc nhánh/lớp/đường nối sơ đồ được hỏi và được trích",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      }
+    ],
+    "trace_sha256": "30e457d35bf51192a34e39b64aebe6ac80045c42f380c7a918257836f7f04344",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:01:14.092021+00:00"
+  },
+  {
+    "query_id": "ft-i2",
+    "passed": false,
+    "reason": "Nêu đúng hai tên và cuối câu nói hai đơn vị, nhưng đầu câu khẳng định có 3 đơn vị; sơ đồ chỉ có hai, trả lời mâu thuẫn và thêm số không được nguồn hỗ trợ.",
+    "original_page_check": [
+      {
+        "page": 31,
+        "region": "Bảng hoặc nhánh/lớp/đường nối sơ đồ được hỏi và được trích",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      }
+    ],
+    "trace_sha256": "cae2e7b7233a69fd6b9a862f30a9df0f6f478723ec00b7f167cfbd8797595db8",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:01:14.092852+00:00"
+  },
+  {
+    "query_id": "ft-i3",
+    "passed": true,
+    "reason": "Đúng thứ tự ba lớp Foundation → Crew → Verse. Prose ban đầu trộn số trang in 62 với PDF; structured citation p063 ghi rõ PDF63/in62 và vùng hình, định vị evidence đúng.",
+    "original_page_check": [
+      {
+        "page": 63,
+        "region": "Bảng hoặc nhánh/lớp/đường nối sơ đồ được hỏi và được trích",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "a8a4fc667d3202e4639afd34cf027e4b00350804e6bb4312ab73fdcdbcfe976f",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:01:14.094243+00:00"
+  },
+  {
+    "query_id": "ft-i4",
+    "passed": true,
+    "reason": "Đúng đủ thứ tự và nội dung ba bước, citation đúng cột quy trình bên phải.",
+    "original_page_check": [
+      {
+        "page": 125,
+        "region": "Bảng hoặc nhánh/lớp/đường nối sơ đồ được hỏi và được trích",
+        "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+      }
+    ],
+    "trace_sha256": "bf35e5bfc59aa3ab88b60ac32d0c2a22903d77439ef73ce295a087c71e5a0e45",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:01:14.095506+00:00"
+  },
+  {
+    "query_id": "ft-i5",
+    "passed": false,
+    "reason": "Có nêu đúng cả Nhật Bản và Úc, nhưng thêm khẳng định chỉ gắn nhãn hai nước và mô tả Úc ở phía dưới bên trái; bản đồ còn nhiều nhãn khác và Úc ở phía dưới bên phải. Câu trả lời/citation tự mâu thuẫn vị trí nên chưa đạt toàn bộ được hỗ trợ.",
+    "original_page_check": [
+      {
+        "page": 27,
+        "region": "Bản đồ/đường/cột/thanh, nhãn và chú giải đã đối chiếu",
+        "image_sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+      }
+    ],
+    "trace_sha256": "a79693aaee56053c84c3220dfe1e30670a9b80c851870828ed5cfd02931fe2f0",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:03:44.578743+00:00"
+  },
+  {
+    "query_id": "ft-c1",
+    "passed": true,
+    "reason": "Đúng ROA cao nhất 2024=14,4%, 2025=14,1%, giảm 0,3 điểm phần trăm; trích đúng đường màu cam.",
+    "original_page_check": [
+      {
+        "page": 11,
+        "region": "Bản đồ/đường/cột/thanh, nhãn và chú giải đã đối chiếu",
+        "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+      }
+    ],
+    "trace_sha256": "e0650700f8ceecad523ec8ad979474af843d263f72736b6c5175bd3319865fee",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:03:44.579941+00:00"
+  },
+  {
+    "query_id": "ft-c2",
+    "passed": true,
+    "reason": "Đúng Nhật Bản 15.452 tỷ VNĐ, 43,7%, tổng 35.382; các số khu vực bổ sung và 25,4% tăng trưởng đều có trên hình.",
+    "original_page_check": [
+      {
+        "page": 62,
+        "region": "Bản đồ/đường/cột/thanh, nhãn và chú giải đã đối chiếu",
+        "image_sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+      }
+    ],
+    "trace_sha256": "3b16d41dba76e7be0686d5360ceb8bd4e788e9c005b02f2271a54578fcd09afb",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:03:44.581224+00:00"
+  },
+  {
+    "query_id": "ft-c3",
+    "passed": true,
+    "reason": "Đúng hai cột xanh 14.340 và 16.751 tỷ VNĐ, chênh 2.411; 16,8% khớp phần văn bản trên biểu đồ.",
+    "original_page_check": [
+      {
+        "page": 63,
+        "region": "Bản đồ/đường/cột/thanh, nhãn và chú giải đã đối chiếu",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "05a94b62ecbee9badabdeefc2a5f544c431f8064670f55446bcbbe7c4711c826",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:03:44.582303+00:00"
+  },
+  {
+    "query_id": "ft-c4",
+    "passed": true,
+    "reason": "Đúng online 67,8% năm 2023 và 94,0% năm 2025, tăng 26,2 điểm phần trăm; chú giải và citation phù hợp.",
+    "original_page_check": [
+      {
+        "page": 152,
+        "region": "Bản đồ/đường/cột/thanh, nhãn và chú giải đã đối chiếu",
+        "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+      }
+    ],
+    "trace_sha256": "8913483d7f53ea75e584389f56e1a982e670d1b148b2895891440681b08057fc",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:03:44.583455+00:00"
+  },
+  {
+    "query_id": "ft-c5",
+    "passed": true,
+    "reason": "Đúng văn bản cứng màu cam cao nhất 2022=92,9%, năm 2025=4,58%; hai tỷ lệ điện tử bổ sung 7,1/95,42 đúng. Gold đã được sửa bằng ảnh gốc trước bất kỳ test nào, không sửa theo output này.",
+    "original_page_check": [
+      {
+        "page": 152,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+      }
+    ],
+    "trace_sha256": "1d1f3e39d566967c1486d0de61744d2325b71785b0f2fc62a31acc036382b2eb",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:05:30.638616+00:00"
+  },
+  {
+    "query_id": "ft-m1",
+    "passed": true,
+    "reason": "Đủ LNTT 13.044 và doanh thu DX 16.751 tỷ VNĐ, phép trừ -3.707 và giải thích chiều chênh lệch đúng; phân biệt hai chỉ tiêu, citation đủ hai nguồn.",
+    "original_page_check": [
+      {
+        "page": 58,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      },
+      {
+        "page": 63,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "fc826b5bb013e9949b663484abc37bc2da5fa82d01e0acbeb829672bf90c352e",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:05:30.639778+00:00"
+  },
+  {
+    "query_id": "ft-m2",
+    "passed": true,
+    "reason": "Đủ kế hoạch 2026=4.200 và giải ngân 2025=2.823 tỷ VNĐ; chênh 1.377, phân biệt kế hoạch/thực tế, trích cả hai bảng.",
+    "original_page_check": [
+      {
+        "page": 55,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+      },
+      {
+        "page": 75,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+      }
+    ],
+    "trace_sha256": "a9be3dfcfb069b2802267221ae5476747a74af26da52faafbac37ff314c0c989",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:05:30.641463+00:00"
+  },
+  {
+    "query_id": "ft-m3",
+    "passed": true,
+    "reason": "Đúng paperless 95,42%, mục tiêu Net Zero 2040 và không đồng nghĩa đạt Net Zero. Chi tiết bổ sung ~97% hợp đồng điện tử, mục tiêu giảm 15,8% đến 2030, tổng CO2 127.952/143.574 đều được các citation tương ứng hỗ trợ.",
+    "original_page_check": [
+      {
+        "page": 114,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+      },
+      {
+        "page": 146,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+      },
+      {
+        "page": 152,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+      }
+    ],
+    "trace_sha256": "10c12bd3cab02693b337e06bf0c5a492e9a686c9fdbebdbca2b366211f48e40c",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:05:30.643350+00:00"
+  },
+  {
+    "query_id": "ft-m4",
+    "passed": true,
+    "reason": "Đúng hơn 300 học sinh/13 dân tộc và hơn 1.000 người dân; 6.500 m² ở trang 156 cũng đúng. Phân biệt đối tượng, citation đầy đủ hai nguồn.",
+    "original_page_check": [
+      {
+        "page": 156,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "a76cc7d64685f9b3118517deee6a418374db0dc7b519c3659d62f09ae0179d85"
+      },
+      {
+        "page": 158,
+        "region": "Các ô/nhãn/đoạn và nguồn bổ sung được trích trong câu trả lời",
+        "image_sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869"
+      }
+    ],
+    "trace_sha256": "1854df2d86ba343578d51b33e439644bd0b870983e706467a9c2bde2e1a0c9db",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:05:30.644517+00:00"
+  },
+  {
+    "query_id": "ft-x1",
+    "passed": true,
+    "reason": "Đúng khoảng 70% và hơn 1.100 tỷ token; 70 mô hình tinh chỉnh/10 LLM bổ sung đều có trong đoạn gốc. Trang 4 trong prose là trang in; citation p005 định vị đúng PDF.",
+    "original_page_check": [
+      {
+        "page": 5,
+        "region": "Đoạn văn/nguyên tắc hoặc phần chủ đề liên quan đã đối chiếu",
+        "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+      }
+    ],
+    "trace_sha256": "a95f623bd903d8c54d607dfa83a47130dd6d0e87107141d7b26c46393f1f02d3",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:06:44.687881+00:00"
+  },
+  {
+    "query_id": "ft-x2",
+    "passed": true,
+    "reason": "Đúng FPT Complex Đà Nẵng và đủ giải pháp tiết kiệm năng lượng, thu hồi mưa, xử lý thải, điều hòa/chiếu sáng hiệu suất cao; citation đúng thẻ xanh.",
+    "original_page_check": [
+      {
+        "page": 153,
+        "region": "Đoạn văn/nguyên tắc hoặc phần chủ đề liên quan đã đối chiếu",
+        "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+      }
+    ],
+    "trace_sha256": "a9f3f4e46dd3cff9f4604cc4f3ce36f536a2e148cf82a11d4c39acc7ae8d8d71",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:06:44.689009+00:00"
+  },
+  {
+    "query_id": "ft-x3",
+    "passed": true,
+    "reason": "Đúng phải áp dụng biện pháp bảo vệ phù hợp trước tiết lộ, ký cam kết là ví dụ; không biến ví dụ thành điều kiện duy nhất.",
+    "original_page_check": [
+      {
+        "page": 129,
+        "region": "Đoạn văn/nguyên tắc hoặc phần chủ đề liên quan đã đối chiếu",
+        "image_sha256": "f2dc748fb6c972ec1416572ea92f85db8a905c2e8b4f19310f6881fa160df611"
+      }
+    ],
+    "trace_sha256": "2875b3e1394a6fc1af75e31b0007c3eb6d48a8d2c438f6a2d6ef743036281c45",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:06:44.689990+00:00"
+  },
+  {
+    "query_id": "ft-x4",
+    "passed": true,
+    "reason": "Đúng đủ năm nguyên tắc hợp pháp, mục đích, chất lượng, an ninh, quản trị. Các phần giải thích đều ở mục nguyên tắc nguồn.",
+    "original_page_check": [
+      {
+        "page": 129,
+        "region": "Đoạn văn/nguyên tắc hoặc phần chủ đề liên quan đã đối chiếu",
+        "image_sha256": "f2dc748fb6c972ec1416572ea92f85db8a905c2e8b4f19310f6881fa160df611"
+      }
+    ],
+    "trace_sha256": "458d8de591d000de12cec616ecdb91e8356e6799219425445e4db0ca63705537",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:06:44.690988+00:00"
+  },
+  {
+    "query_id": "ft-u1",
+    "passed": true,
+    "reason": "Từ chối đúng: báo cáo có doanh thu khu vực/mảng và thông tin khách hàng tổng hợp, không có danh sách đầy đủ doanh thu riêng từng khách hàng FPT Software; giữ kiểm tra thiếu bằng chứng toàn tài liệu trong benchmark.",
+    "original_page_check": [
+      {
+        "page": 62,
+        "region": "Đoạn văn/nguyên tắc hoặc phần chủ đề liên quan đã đối chiếu",
+        "image_sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+      }
+    ],
+    "trace_sha256": "b93ab59a1cba0b8761526c3fda9af23278788bd44e2096c7b228bc33a109e5d9",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:06:44.692404+00:00"
+  },
+  {
+    "query_id": "ft-u2",
+    "passed": true,
+    "reason": "Từ chối đúng: nguồn có tổng theo năm/phạm vi, không có đầy đủ từng tháng; không nội suy chia đều từ tổng năm.",
+    "original_page_check": [
+      {
+        "page": 146,
+        "region": "Phần chủ đề liên quan và các số tổng hợp; kiểm tra vắng dữ liệu chi tiết theo benchmark",
+        "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+      }
+    ],
+    "trace_sha256": "f89fa028ec50a604bedc66c526c161a28114ae54bd28cab6b82154acf1a4980e",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:08:09.055754+00:00"
+  },
+  {
+    "query_id": "ft-u3",
+    "passed": true,
+    "reason": "Từ chối đúng: không có danh mục serial từng GPU, nguồn chỉ có năng lực và quy mô nhà máy AI.",
+    "original_page_check": [
+      {
+        "page": 5,
+        "region": "Phần chủ đề liên quan và các số tổng hợp; kiểm tra vắng dữ liệu chi tiết theo benchmark",
+        "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+      }
+    ],
+    "trace_sha256": "713675791db29c13b92d8a3d4592a8c9302010c7d6e91c4a4f927064507f969d",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:08:09.056379+00:00"
+  },
+  {
+    "query_id": "ft-u4",
+    "passed": true,
+    "reason": "Từ chối đúng: số mô hình/năng lực không phải benchmark tỷ lệ lỗi riêng từng LLM; không tạo số suy đoán.",
+    "original_page_check": [
+      {
+        "page": 5,
+        "region": "Phần chủ đề liên quan và các số tổng hợp; kiểm tra vắng dữ liệu chi tiết theo benchmark",
+        "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+      }
+    ],
+    "trace_sha256": "3bc46b01aecc9dfc77f1127bcff8c2638c091f871e59fa32b4d009099f8b4f2b",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:08:09.056978+00:00"
+  },
+  {
+    "query_id": "ft-u5",
+    "passed": true,
+    "reason": "Nêu rõ không có chi phí điện theo máy chủ/Data Center. Các số kWh tổng hợp 187.453.013, 205.053.314, -8,58%, 842.749 được nguồn hỗ trợ; không dùng chúng để suy ra chi phí từng máy chủ. Status answered vẫn đạt hành vi thiếu evidence theo ADVANCED.",
+    "original_page_check": [
+      {
+        "page": 147,
+        "region": "Phần chủ đề liên quan và các số tổng hợp; kiểm tra vắng dữ liệu chi tiết theo benchmark",
+        "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+      }
+    ],
+    "trace_sha256": "38b087d25dc0424d2d24b5220b38f28d525f1052b882b996a25247eed66c7e0e",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:08:09.057565+00:00"
+  },
+  {
+    "query_id": "ft-u6",
+    "passed": true,
+    "reason": "Từ chối đúng: nguồn chỉ có cơ cấu và tổng cổ phiếu, không có lịch sử đầy đủ giao dịch từng cổ đông cá nhân.",
+    "original_page_check": [
+      {
+        "page": 32,
+        "region": "Phần chủ đề liên quan và các số tổng hợp; kiểm tra vắng dữ liệu chi tiết theo benchmark",
+        "image_sha256": "c287642128097416c18dfcd119132d4ba068f3439767dbbf61daffb2d61cb320"
+      }
+    ],
+    "trace_sha256": "d4be8227d2002bdb4a0531bcc02e6f288448f77f9de60e2b4b89aaf948d324aa",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T05:08:09.058145+00:00"
+  }
+]

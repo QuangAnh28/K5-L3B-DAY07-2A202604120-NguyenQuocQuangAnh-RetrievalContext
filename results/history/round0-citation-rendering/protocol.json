@@ -1,0 +1,48 @@
+{
+  "fingerprint": {
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "chunks_sha256": "83dafd94ea1813da227b8a929669c57217b24f3cbafc3eedb0875526c5dcf4a3",
+    "agent_sha256": "3d2a3013c267e6e8504e9f1d39dce2ca2385f03f77a17bb2018e947eef6e782d",
+    "retrieval_sha256": "8629b78e9b2d73de27327dffaf7e0cab3fc120c2bc9581ef4664bebe30551e3b",
+    "experiments_sha256": "11e65f11a95ad7de25e23e1063c5d56d91062111e6906b66520d535e8e834cfc",
+    "agent_model": "openai/gpt-4.1-mini"
+  },
+  "configs": {
+    "baseline": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 2400,
+      "max_searches": 1,
+      "hypothesis": "Lexical baseline with one search."
+    },
+    "dense": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 2400,
+      "max_searches": 1,
+      "hypothesis": "Semantic retrieval can match wording variants; compare with lexical."
+    },
+    "hybrid": {
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 2400,
+      "max_searches": 1,
+      "hypothesis": "Improvement 1: RRF combines semantic and lexical rankings (20 candidates each, k=60)."
+    },
+    "hybrid_context": {
+      "method": "hybrid",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3,
+      "hypothesis": "Improvement 2: larger context/top-k and multiple searches may recover missing evidence; bundled change, no attribution to one factor."
+    }
+  },
+  "selection_criteria": [
+    "dev original-query Context Evidence Rate",
+    "dev Evidence Hit@3",
+    "dev Hit@1",
+    "lower median agent latency",
+    "config name"
+  ],
+  "quality_selection": "Automatic retrieval/context evidence metrics only; human answer audits reported separately."
+}

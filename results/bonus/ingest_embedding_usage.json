@@ -1,0 +1,146 @@
+[
+  {
+    "id": "gen-emb-1794801055-61w0er2CneUyWrvQh189",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 33480,
+      "total_tokens": 33480,
+      "cost": 0.0006696,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0006696,
+        "upstream_inference_prompt_cost": 0.0006696,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 3515.0694000185467,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801058-X8OorkGITUocdOffiPli",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 42534,
+      "total_tokens": 42534,
+      "cost": 0.00085068,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00085068,
+        "upstream_inference_prompt_cost": 0.00085068,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 2776.7657000222243,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801062-WHwdSxzcHS3Otg7V3hri",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 45180,
+      "total_tokens": 45180,
+      "cost": 0.0009036,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0009036,
+        "upstream_inference_prompt_cost": 0.0009036,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 3907.423899974674,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801065-J5YBAWj66aFtIqS4QHnN",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 41108,
+      "total_tokens": 41108,
+      "cost": 0.00082216,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00082216,
+        "upstream_inference_prompt_cost": 0.00082216,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 2986.48109997157,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801069-cEYncaL96whKzXlpDTTH",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 45883,
+      "total_tokens": 45883,
+      "cost": 0.00091766,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00091766,
+        "upstream_inference_prompt_cost": 0.00091766,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 3544.47230004007,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801072-rhLAglA8kAMhkaNwBcis",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 44647,
+      "total_tokens": 44647,
+      "cost": 0.00089294,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00089294,
+        "upstream_inference_prompt_cost": 0.00089294,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 2917.067500005942,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801078-4M4mg6JEywMSglg6ghzD",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 39181,
+      "total_tokens": 39181,
+      "cost": 0.00078362,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00078362,
+        "upstream_inference_prompt_cost": 0.00078362,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 5792.244200012647,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801106-gITm36vg5sxTGXcVeToZ",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 7794,
+      "total_tokens": 7794,
+      "cost": 0.00015588,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00015588,
+        "upstream_inference_prompt_cost": 0.00015588,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 26132.385600009,
+    "attempt": 1
+  }
+]

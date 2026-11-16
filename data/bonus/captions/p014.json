@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p014",
+  "image_sha256": "fe69bb0e09f1406376cf4eeb3f0a3b7c51feb25cfa138a4b3500af4a240e0ff6",
+  "caption": {
+    "summary": "Trang trình bày các hoạt động nổi bật của FPT trong năm 2025, bao gồm thành lập Ban Chỉ đạo Công nghệ chiến lược và Liên minh Kinh tế tầm thấp phát triển các ngành công nghệ cao ứng dụng UAV.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ông Nguyễn Văn Khoa phát biểu",
+        "location": "trái trên",
+        "description": "Ảnh chụp ông Nguyễn Văn Khoa đang phát biểu trên sân khấu với nền chữ liên quan đến công nghệ AI và phát triển."
+      },
+      {
+        "type": "photo",
+        "title": "Lễ ký kết Liên minh Kinh tế tầm thấp",
+        "location": "phải dưới",
+        "description": "Ảnh chụp nhóm người đứng chụp hình tại sự kiện ký kết thỏa thuận hợp tác chiến lược giữa Liên minh Kinh tế tầm thấp và Hiệp hội Thiết bị bay không người lái Nhật Bản (JUIDA)."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800696-X5AGlY8p7Ssld97k3TUw",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 199,
+        "total_tokens": 2761,
+        "cost": 0.0013432,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013432,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003184
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4066.483900009189,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

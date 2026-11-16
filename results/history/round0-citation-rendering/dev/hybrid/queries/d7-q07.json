@@ -1,0 +1,282 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_tQlY3jHfZCrTzSZwviLZVvkL",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"địa điểm giao hàng bên bán phải giao ở đâu\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797384-fHbUvAfqYnEBmrQfAa16"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nếu đã thỏa thuận địa điểm giao hàng, bên bán phải giao ở đâu?",
+      "model_query": "địa điểm giao hàng bên bán phải giao ở đâu",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 11,
+          "text": "c) Trường hợp trong hợp đồng không có quy định về vận chuyển hàng hoá, nếu vào thời điểm giao k ết hợp đồng, các bên bi ết được địa điểm kho chứa hàng, địa điểm xếp hàng hoặc nơi sản xuất, chế tạo hàng hoá thì bên bán ph ải giao hàng tại địa điểm đó;\n\nd) Trong các tr ường h ợp khá c, bên bán ph ải giao hàng t ại địa điểm kinh doanh của bên bán, n ếu không có địa điểm kinh doanh thì ph ải giao hàng t ại nơi cư trú của bên bán được xác định tại thời điểm giao kết hợp đồng mua bán.\n\nĐiều 36. Trách nhiệm khi giao hàng có liên quan đến người vận chuyển\n\n1. Tr ường h ợp hàng hóa được giao cho ng ười v ận chuy ển nh ưng không được xác định rõ bằng ký mã hi ệu trên hàng hóa, ch ứng từ vận chuyển hoặc cách thức khác thì bên bán ph ải thông báo cho bên mua v ề vi ệc đã giao hàng cho người vận chuyển và ph ải xác định rõ tên và cách th ức nhận biết hàng hoá được vận chuyển.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 11,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 36"
+          },
+          "score": 0.031754032258064516,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 11,
+          "text": "2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 11,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 2",
+            "article": "Điều 34"
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 43"
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 5
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\nc) Trường hợp trong hợp đồng không có quy định về vận chuyển hàng hoá, nếu vào thời điểm giao k ết hợp đồng, các bên bi ết được địa điểm kho chứa hàng, địa điểm xếp hàng hoặc nơi sản xuất, chế tạo hàng hoá thì bên bán ph ải giao hàng tại địa điểm đó;\n\nd) Trong các tr ường h ợp khá c, bên bán ph ải giao hàng t ại địa điểm kinh doanh của bên bán, n ếu không có địa điểm kinh doanh thì ph ải giao hàng t ại nơi cư trú của bên bán được xác định tại thời điểm giao kết hợp đồng mua bán.\n\nĐiều 36. Trách nhiệm khi giao hàng có liên quan đến người vận chuyển\n\n1. Tr ường h ợp hàng hóa được giao cho ng ười v ận chuy ển nh ưng không được xác định rõ bằng ký mã hi ệu trên hàng hóa, ch ứng từ vận chuyển hoặc cách thức khác thì bên bán ph ải thông báo cho bên mua v ề vi ệc đã giao hàng cho người vận chuyển và ph ải xác định rõ tên và cách th ức nhận biết hàng hoá được vận chuyển.\n\n[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\n2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0",
+        "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_IJzw6bbujB1OmbiFYMVOpjUo",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Nếu đã thỏa thuận địa điểm giao hàng, bên bán phải giao hàng đúng địa điểm đã thỏa thuận.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797385-lg2vk20oQBPE6yAStvwu"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\nc) Trường hợp trong hợp đồng không có quy định về vận chuyển hàng hoá, nếu vào thời điểm giao k ết hợp đồng, các bên bi ết được địa điểm kho chứa hàng, địa điểm xếp hàng hoặc nơi sản xuất, chế tạo hàng hoá thì bên bán ph ải giao hàng tại địa điểm đó;\n\nd) Trong các tr ường h ợp khá c, bên bán ph ải giao hàng t ại địa điểm kinh doanh của bên bán, n ếu không có địa điểm kinh doanh thì ph ải giao hàng t ại nơi cư trú của bên bán được xác định tại thời điểm giao kết hợp đồng mua bán.\n\nĐiều 36. Trách nhiệm khi giao hàng có liên quan đến người vận chuyển\n\n1. Tr ường h ợp hàng hóa được giao cho ng ười v ận chuy ển nh ưng không được xác định rõ bằng ký mã hi ệu trên hàng hóa, ch ứng từ vận chuyển hoặc cách thức khác thì bên bán ph ải thông báo cho bên mua v ề vi ệc đã giao hàng cho người vận chuyển và ph ải xác định rõ tên và cách th ức nhận biết hàng hoá được vận chuyển.\n\n[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\n2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0",
+    "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797384-fHbUvAfqYnEBmrQfAa16",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 16,
+        "total_tokens": 305,
+        "cost": 0.0001412,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001412,
+          "upstream_inference_prompt_cost": 0.0001156,
+          "upstream_inference_completions_cost": 2.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1314.6976999705657,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797385-lg2vk20oQBPE6yAStvwu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1159,
+        "completion_tokens": 71,
+        "total_tokens": 1230,
+        "cost": 0.0005772,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005772,
+          "upstream_inference_prompt_cost": 0.0004636,
+          "upstream_inference_completions_cost": 0.0001136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1545.4895999864675,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 2871.3045000331476,
+  "searches": 1,
+  "query_id": "d7-q07",
+  "question": "Nếu đã thỏa thuận địa điểm giao hàng, bên bán phải giao ở đâu?",
+  "split": "dev",
+  "config": "hybrid",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 11,
+      "text": "c) Trường hợp trong hợp đồng không có quy định về vận chuyển hàng hoá, nếu vào thời điểm giao k ết hợp đồng, các bên bi ết được địa điểm kho chứa hàng, địa điểm xếp hàng hoặc nơi sản xuất, chế tạo hàng hoá thì bên bán ph ải giao hàng tại địa điểm đó;\n\nd) Trong các tr ường h ợp khá c, bên bán ph ải giao hàng t ại địa điểm kinh doanh của bên bán, n ếu không có địa điểm kinh doanh thì ph ải giao hàng t ại nơi cư trú của bên bán được xác định tại thời điểm giao kết hợp đồng mua bán.\n\nĐiều 36. Trách nhiệm khi giao hàng có liên quan đến người vận chuyển\n\n1. Tr ường h ợp hàng hóa được giao cho ng ười v ận chuy ển nh ưng không được xác định rõ bằng ký mã hi ệu trên hàng hóa, ch ứng từ vận chuyển hoặc cách thức khác thì bên bán ph ải thông báo cho bên mua v ề vi ệc đã giao hàng cho người vận chuyển và ph ải xác định rõ tên và cách th ức nhận biết hàng hoá được vận chuyển.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 11,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 36"
+      },
+      "score": 0.031754032258064516,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 4
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 11,
+      "text": "2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 11,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 2",
+        "article": "Điều 34"
+      },
+      "score": 0.03125763125763126,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 5,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-8783f49074972e94",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 13,
+      "text": "1. Trường hợp có thỏa thuận về việc giao chứng từ thì bên bán có ngh ĩa vụ giao chứng từ liên quan đến hàng hoá cho bên mua trong th ời hạn, tại địa điểm và bằng phương thức đã thỏa thuận.\n\n2. Trường hợp không có thỏa thuận về thời hạn, địa điểm giao chứng từ liên quan đến hàng hoá cho bên mua thì bên bán phải giao chứng từ liên quan đến hàng hoá cho bên mua trong thời hạn và tại địa điểm hợp lý để bên mua có thể nhận hàng.\n\n3. Trường hợp bên bán đã giao chứng từ liên quan đến hàng hoá trước thời hạn thỏa thuận thì bên bán vẫn có thể khắc phục những thiếu sót của các chứng từ này trong thời hạn còn lại.\n\n4. Khi bên bán th ực hi ện vi ệc kh ắc ph ục nh ững thi ếu sót quy định t ại khoản 3 Điều này mà gây b ất lợi hoặc làm phát sinh chi phí b ất hợp lý cho bên mua thì bên mua có quy ền yêu c ầu bên bán kh ắc ph ục bất lợi ho ặc chịu chi phí đó.\n\nĐiều 43. Giao thừa hàng\n\n1. Trường hợp bên bán giao th ừa hàng thì bên mua có quy ền từ chối hoặc chấp nhận số hàng thừa đó.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 43"
+      },
+      "score": 0.03125763125763126,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 5
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\nc) Trường hợp trong hợp đồng không có quy định về vận chuyển hàng hoá, nếu vào thời điểm giao k ết hợp đồng, các bên bi ết được địa điểm kho chứa hàng, địa điểm xếp hàng hoặc nơi sản xuất, chế tạo hàng hoá thì bên bán ph ải giao hàng tại địa điểm đó;\n\nd) Trong các tr ường h ợp khá c, bên bán ph ải giao hàng t ại địa điểm kinh doanh của bên bán, n ếu không có địa điểm kinh doanh thì ph ải giao hàng t ại nơi cư trú của bên bán được xác định tại thời điểm giao kết hợp đồng mua bán.\n\nĐiều 36. Trách nhiệm khi giao hàng có liên quan đến người vận chuyển\n\n1. Tr ường h ợp hàng hóa được giao cho ng ười v ận chuy ển nh ưng không được xác định rõ bằng ký mã hi ệu trên hàng hóa, ch ứng từ vận chuyển hoặc cách thức khác thì bên bán ph ải thông báo cho bên mua v ề vi ệc đã giao hàng cho người vận chuyển và ph ải xác định rõ tên và cách th ức nhận biết hàng hoá được vận chuyển.\n\n[luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 11]\n2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-aaecb5bb4d56d6c0",
+    "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p001",
+  "image_sha256": "524c31049ec9a3c92957587081aa4d31ac6cfb2547a70791f7affe584147f215",
+  "caption": {
+    "summary": "Trang bìa báo cáo thường niên FPT 2025 với chủ đề làm chủ công nghệ chiến lược.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Biểu tượng FPT và thành phố công nghệ",
+        "location": "trái",
+        "description": "Hình ảnh biểu tượng FPT màu vàng cam nổi bật trên nền thành phố công nghệ màu xanh dương với các tòa nhà và mạch điện tử."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800690-sMnd96jaY0pVwMChupF3",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 92,
+        "total_tokens": 2654,
+        "cost": 0.001172,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001172,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001472
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3452.065500023309,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

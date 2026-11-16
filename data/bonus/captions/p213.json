@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p213",
+  "image_sha256": "2bd2102bbf60aacbb99ba889c24cada8f778d6dc0625f1a82290a53fd1bc1665",
+  "caption": {
+    "summary": "Báo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn FPT cho năm tài chính kết thúc ngày 31 tháng 12 năm 2024, trình bày doanh thu, chi phí, kết quả hoạt động kinh doanh, lợi nhuận trước thuế, tổng chi phí mua tài sản cố định, tài sản bộ phận và nợ phải trả theo từng bộ phận.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Báo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn",
+        "location": "trái",
+        "description": "Các chỉ tiêu tài chính gồm doanh thu thuần, chi phí, kết quả hoạt động kinh doanh, lợi nhuận trước thuế, tổng chi phí mua TSCĐ, tài sản bộ phận, nợ phải trả; phân theo các bộ phận: Sản phẩm và Dịch vụ CNTT nước ngoài, Sản phẩm và Dịch vụ CNTT trong nước, Viễn thông, Nội dung số, Giáo dục và khác, Loại trừ hợp nhất, Tổng cộng; đơn vị tính triệu VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800841-hvC8wHJSYs3tlALlEoRS",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 232,
+        "total_tokens": 2794,
+        "cost": 0.001396,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001396,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003712
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3552.505200030282,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p216",
+  "image_sha256": "7345206e0f180ddddf4d2dde9c42cf2662880811bd1f2d95eb3fb5dd66836d4a",
+  "caption": {
+    "summary": "Thuyết minh báo cáo tài chính hợp nhất năm 2025 về các bên liên quan và các cam kết tài chính của tập đoàn FPT.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Số dư cuối năm tài chính với các bên liên quan",
+        "location": "trái",
+        "description": "Các khoản ủy thác đầu tư, phải thu ngắn hạn của khách hàng, phải trả người bán ngắn hạn, vay ngắn hạn; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+      },
+      {
+        "type": "table",
+        "title": "Cam kết thuê hoạt động",
+        "location": "phải",
+        "description": "Cam kết thuê hoạt động theo thời gian: dưới 1 năm, từ 1 năm đến 5 năm, trên 5 năm; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+      },
+      {
+        "type": "table",
+        "title": "Cam kết vốn",
+        "location": "phải dưới bảng cam kết thuê hoạt động",
+        "description": "Cam kết vốn cho các dự án xây dựng, nghiên cứu, phát triển sản phẩm và mua tài sản cố định; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800844-OXwzVRez5snR5Q55IR2S",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 276,
+        "total_tokens": 2838,
+        "cost": 0.0014664,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014664,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004416
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4501.321999996435,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

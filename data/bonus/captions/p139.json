@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p139",
+  "image_sha256": "ffb4495ec415fda3def066a90a3fe20bc3bf436724a66cd2d2d59412877fbdb1",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về các chương trình luân chuyển, thăng tiến và các cuộc thi tìm kiếm tài năng trong Tập đoàn FPT nhằm phát triển và nuôi dưỡng đội ngũ lãnh đạo trẻ, nâng cao năng lực quản lý và phát huy tài năng người lao động.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "FPT luôn nỗ lực tạo môi trường tốt nhất để người lao động phát huy tài năng",
+        "location": "trái",
+        "description": "Ảnh ba người đang trao đổi, dán giấy ghi chú với biểu tượng mặt cười, thể hiện môi trường làm việc sáng tạo và thân thiện."
+      },
+      {
+        "type": "photo",
+        "title": "Top 6 Trạng FPT",
+        "location": "phải",
+        "description": "Ảnh nhóm 6 người đứng trên sân khấu và ảnh chân dung trên màn hình, thể hiện cuộc thi tìm kiếm tài năng lãnh đạo trẻ của FPT."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800783-PZpxHAckE8TdKnUruvqf",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 193,
+        "total_tokens": 2755,
+        "cost": 0.0013336,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013336,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003088
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 11175.651400000788,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "network_calls_allowed": false,
+  "fresh_temporary_workspace": true,
+  "base_collection_C": 245,
+  "bonus_collection_FPT2025": 232,
+  "bonus_original_images_restored_and_hash_verified": 232,
+  "cached_base_hybrid_hits": 3,
+  "cached_bonus_hybrid_hits": 4,
+  "note": "Used exact original PDF and sanitized snapshots; no provider requests."
+}

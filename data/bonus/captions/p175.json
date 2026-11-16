@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p175",
+  "image_sha256": "b596ca8b821411925f4c065914d45af6d53e2ef9278139f5070d360e008a16d3",
+  "caption": {
+    "summary": "Thuyết minh báo cáo tài chính hợp nhất năm tài chính kết thúc ngày 31/12/2025, tập trung vào đặc điểm hoạt động của Tập đoàn FPT, bao gồm công ty con trực tiếp và công ty liên kết trực tiếp.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thông tin công ty liên kết trực tiếp",
+        "location": "dưới",
+        "description": "Bảng liệt kê công ty con, hoạt động chính, nơi thành lập và đăng ký hoạt động, tỷ lệ sở hữu và tỷ lệ quyền biểu quyết tại ngày 31/12/2025 và 31/12/2024."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800809-8hBhuYhAm9ZYqbzymk0j",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 136,
+        "total_tokens": 2698,
+        "cost": 0.0012424,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012424,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002176
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3086.73350000754,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

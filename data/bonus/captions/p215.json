@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p215",
+  "image_sha256": "4921a8ab2f6c8627debcea8c164d065ccab579c5c0ce75b1b699ca135a5ebcd2",
+  "caption": {
+    "summary": "Bảng thuyết minh về thù lao và tiền lương của các thành viên Hội đồng Quản trị, Ban Kiểm soát và người quản lý chủ chốt năm 2025 và 2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thù lao Hội đồng Quản trị, Ban Kiểm soát và tiền lương người quản lý chủ chốt",
+        "location": "giữa trang",
+        "description": "Bảng liệt kê họ tên, chức danh và số tiền thù lao, tiền lương năm 2025 và 2024, đơn vị VND, phân chia theo thành viên Hội đồng Quản trị, Ban Kiểm soát và người quản lý chủ chốt."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800842-Wa14aJu2PCpvl2PhjZjh",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 152,
+        "total_tokens": 2714,
+        "cost": 0.001268,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001268,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002432
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3029.8699000268243,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

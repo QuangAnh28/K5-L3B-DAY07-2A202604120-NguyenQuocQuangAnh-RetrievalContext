@@ -1,0 +1,416 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_9u3CwSXj9FLdedxe8ZEVUYvg",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"quyền sở hữu hàng hóa chuyển khi nào\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797433-UAEhNUV8GWIO4ffjp8k4"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nếu pháp luật và thỏa thuận không quy định khác, quyền sở hữu hàng hóa chuyển khi nào?",
+      "model_query": "quyền sở hữu hàng hóa chuyển khi nào",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 3",
+            "article": "Điều 62"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 54,
+          "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 54,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 207"
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 36,
+          "text": "a) Hàng hóa, d ịch vụ thuộc diện cấm kinh doanh, hạn chế kinh doanh, chưa được phép lưu thông theo quy định của pháp luật;\n\nb) Hàng hóa, d ịch v ụ do th ương nhân ở n ước ngoài cung ứng thuộc di ện cấm nhập khẩu theo quy định của pháp luật;\n\nc) Hàng gi ả, hàng vi ph ạm quyền sở hữu trí tuệ, trừ trường hợp trưng bày, giới thiệu để so sánh với hàng thật.\n\n2. Ngoài vi ệc tuân th ủ các quy định về hội chợ, triển lãm th ương m ại của Luật này, hàng hóa, d ịch vụ thuộc diện quản lý chuyên ngành ph ải tuân th ủ các",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 36,
+            "year": 2005,
+            "chapter": "Chương Iv"
+          },
+          "score": 0.029877369007803793,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 74,
+          "text": "thuê trong thời hạn thuê thuộc về bên thuê.\n\nĐiều 283. Thay đổi quyền sở hữu trong thời hạn thuê Mọi thay đổi về quyền sở hữu đối với hàng hóa cho thuê không ảnh hưởng đến hiệu lực của hợp đồng cho thuê.\n\nMục 8 NHƯỢNG QUYỀN THƯƠNG MẠI\n\nĐiều 284. Nhượng quyền thương mại Nhượng quyền thương m ại là ho ạt động thương m ại, theo đó bên nh ượng quyền cho phép và yêu c ầu bên nhận quyền tự mình tiến hành việc mua bán hàng hoá, cung ứng dịch vụ theo các điều kiện sau đây:\n\n1. Việc mua bán hàng hoá, cung ứng dịch vụ được tiến hành theo cách thức tổ ch ức kinh doanh do bên nh ượng quy ền quy định và được g ắn v ới nhãn hi ệu hàng hoá, tên thương mại, bí quyết kinh doanh, khẩu hiệu kinh doanh, bi ểu tượng kinh doanh, quảng cáo của bên nhượng quyền;\n\n2. Bên nh ượng quyền có quyền kiểm soát và tr ợ giúp cho bên nh ận quyền trong việc điều hành công việc kinh doanh.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 74,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "section": "Mục 8",
+            "article": "Điều 283"
+          },
+          "score": 0.028373015873015873,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 20
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 50,
+          "text": "4. Trưng bày hàng hoá, m ẫu hàng hóa ho ặc tài liệu giới thiệu về hàng hóa cho người tham gia đấu giá xem xét.\n\n5. L ập v ăn b ản bán đấu giá hàng hoá và g ửi đến ng ười bán hàng, ng ười mua hàng và các bên có liên quan quy định tại Điều 203 của Luật này.\n\n6. Giao hàng hóa đấu giá cho ng ười mua phù h ợp v ới h ợp đồng t ổ ch ức dịch vụ đấu giá hàng hoá.\n\n7. Làm th ủ t ục chuy ển quy ền s ở h ữu đối v ới hàng hoá bán đấu giá ph ải đăng ký quy ền sở hữu theo quy định của pháp lu ật, trừ trường hợp có th ỏa thuận khác với người bán hàng.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 50,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.026856524873828405,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 13,
+            "tfidf": 16
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 14,
+          "text": "Điều 45. Nghĩa vụ bảo đảm quyền sở hữu đối với hàng hoá Bên bán phải bảo đảm:\n\n1. Quyền sở hữu của bên mua đối với hàng hóa đã bán không bị tranh chấp bởi bên thứ ba;\n\n2. Hàng hóa đó phải hợp pháp;\n\n3. Việc chuyển giao hàng hoá là hợp pháp.\n\nĐiều 46. Nghĩa vụ bảo đảm quyền sở hữu trí tuệ đối với hàng hoá\n\n1. Bên bán không được bán hàng hóa vi ph ạm quy ền sở hữu trí tu ệ. Bên bán phải chịu trách nhiệm trong trường hợp có tranh chấp liên quan đến quyền sở hữu trí tuệ đối với hàng hóa đã bán.\n\n2. Tr ường hợp bên mua yêu c ầu bên bá n ph ải tuân theo b ản v ẽ kỹ thu ật, thiết kế, công th ức hoặc những số liệu chi ti ết do bên mua cung c ấp thì bên mua phải ch ịu trách nhi ệm v ề các khi ếu n ại liên quan đến nh ững vi ph ạm quy ền sở hữu trí tuệ phát sinh từ việc bên bán đã tuân thủ những yêu cầu của bên mua.\n\nĐiều 47. Yêu cầu thông báo",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 14,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 45"
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "tfidf": 2
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\na) Hàng hóa, d ịch vụ thuộc diện cấm kinh doanh, hạn chế kinh doanh, chưa được phép lưu thông theo quy định của pháp luật;\n\nb) Hàng hóa, d ịch v ụ do th ương nhân ở n ước ngoài cung ứng thuộc di ện cấm nhập khẩu theo quy định của pháp luật;\n\nc) Hàng gi ả, hàng vi ph ạm quyền sở hữu trí tuệ, trừ trường hợp trưng bày, giới thiệu để so sánh với hàng thật.\n\n2. Ngoài vi ệc tuân th ủ các quy định về hội chợ, triển lãm th ương m ại của Luật này, hàng hóa, d ịch vụ thuộc diện quản lý chuyên ngành ph ải tuân th ủ các\n\n[luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 74]\nthuê trong thời hạn thuê thuộc về bên thuê.\n\nĐiều 283. Thay đổi quyền sở hữu trong thời hạn thuê Mọi thay đổi về quyền sở hữu đối với hàng hóa cho thuê không ảnh hưởng đến hiệu lực của hợp đồng cho thuê.\n\nMục 8 NHƯỢNG QUYỀN THƯƠNG MẠI\n\nĐiều 284. Nhượng quyền thương mại Nhượng quyền thương m ại là ho ạt động thương m ại, theo đó bên nh ượng quyền cho phép và yêu c ầu bên nhận quyền tự mình tiến hành việc mua bán hàng hoá, cung ứng dịch vụ theo các điều kiện sau đây:\n\n1. Việc mua bán hàng hoá, cung ứng dịch vụ được tiến hành theo cách thức tổ ch ức kinh doanh do bên nh ượng quy ền quy định và được g ắn v ới nhãn hi ệu hàng hoá, tên thương mại, bí quyết kinh doanh, khẩu hiệu kinh doanh, bi ểu tượng kinh doanh, quảng cáo của bên nhượng quyền;\n\n2. Bên nh ượng quyền có quyền kiểm soát và tr ợ giúp cho bên nh ận quyền trong việc điều hành công việc kinh doanh.\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\n4. Trưng bày hàng hoá, m ẫu hàng hóa ho ặc tài liệu giới thiệu về hàng hóa cho người tham gia đấu giá xem xét.\n\n5. L ập v ăn b ản bán đấu giá hàng hoá và g ửi đến ng ười bán hàng, ng ười mua hàng và các bên có liên quan quy định tại Điều 203 của Luật này.\n\n6. Giao hàng hóa đấu giá cho ng ười mua phù h ợp v ới h ợp đồng t ổ ch ức dịch vụ đấu giá hàng hoá.\n\n7. Làm th ủ t ục chuy ển quy ền s ở h ữu đối v ới hàng hoá bán đấu giá ph ải đăng ký quy ền sở hữu theo quy định của pháp lu ật, trừ trường hợp có th ỏa thuận khác với người bán hàng.\n\n[luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 14]\nĐiều 45. Nghĩa vụ bảo đảm quyền sở hữu đối với hàng hoá Bên bán phải bảo đảm:\n\n1. Quyền sở hữu của bên mua đối với hàng hóa đã bán không bị tranh chấp bởi bên thứ ba;\n\n2. Hàng hóa đó phải hợp pháp;\n\n3. Việc chuyển giao hàng hoá là hợp pháp.\n\nĐiều 46. Nghĩa vụ bảo đảm quyền sở hữu trí tuệ đối với hàng hoá\n\n1. Bên bán không được bán hàng hóa vi ph ạm quy ền sở hữu trí tu ệ. Bên bán phải chịu trách nhiệm trong trường hợp có tranh chấp liên quan đến quyền sở hữu trí tuệ đối với hàng hóa đã bán.\n\n2. Tr ường hợp bên mua yêu c ầu bên bá n ph ải tuân theo b ản v ẽ kỹ thu ật, thiết kế, công th ức hoặc những số liệu chi ti ết do bên mua cung c ấp thì bên mua phải ch ịu trách nhi ệm v ề các khi ếu n ại liên quan đến nh ững vi ph ạm quy ền sở hữu trí tuệ phát sinh từ việc bên bán đã tuân thủ những yêu cầu của bên mua.\n\nĐiều 47. Yêu cầu thông báo",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+        "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+        "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd",
+        "luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a",
+        "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9",
+        "luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_eVuE22Hgww1EQWlAbccH9yOG",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo Điều 62 Luật Thương mại 2005, trừ trường hợp pháp luật có quy định khác hoặc các bên có thỏa thuận khác, quyền sở hữu hàng hóa được chuyển từ bên bán sang bên mua kể từ thời điểm hàng hóa được chuyển giao.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797439-3OhrmFhDBSaRML5D0fpa"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\na) Hàng hóa, d ịch vụ thuộc diện cấm kinh doanh, hạn chế kinh doanh, chưa được phép lưu thông theo quy định của pháp luật;\n\nb) Hàng hóa, d ịch v ụ do th ương nhân ở n ước ngoài cung ứng thuộc di ện cấm nhập khẩu theo quy định của pháp luật;\n\nc) Hàng gi ả, hàng vi ph ạm quyền sở hữu trí tuệ, trừ trường hợp trưng bày, giới thiệu để so sánh với hàng thật.\n\n2. Ngoài vi ệc tuân th ủ các quy định về hội chợ, triển lãm th ương m ại của Luật này, hàng hóa, d ịch vụ thuộc diện quản lý chuyên ngành ph ải tuân th ủ các\n\n[luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 74]\nthuê trong thời hạn thuê thuộc về bên thuê.\n\nĐiều 283. Thay đổi quyền sở hữu trong thời hạn thuê Mọi thay đổi về quyền sở hữu đối với hàng hóa cho thuê không ảnh hưởng đến hiệu lực của hợp đồng cho thuê.\n\nMục 8 NHƯỢNG QUYỀN THƯƠNG MẠI\n\nĐiều 284. Nhượng quyền thương mại Nhượng quyền thương m ại là ho ạt động thương m ại, theo đó bên nh ượng quyền cho phép và yêu c ầu bên nhận quyền tự mình tiến hành việc mua bán hàng hoá, cung ứng dịch vụ theo các điều kiện sau đây:\n\n1. Việc mua bán hàng hoá, cung ứng dịch vụ được tiến hành theo cách thức tổ ch ức kinh doanh do bên nh ượng quy ền quy định và được g ắn v ới nhãn hi ệu hàng hoá, tên thương mại, bí quyết kinh doanh, khẩu hiệu kinh doanh, bi ểu tượng kinh doanh, quảng cáo của bên nhượng quyền;\n\n2. Bên nh ượng quyền có quyền kiểm soát và tr ợ giúp cho bên nh ận quyền trong việc điều hành công việc kinh doanh.\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\n4. Trưng bày hàng hoá, m ẫu hàng hóa ho ặc tài liệu giới thiệu về hàng hóa cho người tham gia đấu giá xem xét.\n\n5. L ập v ăn b ản bán đấu giá hàng hoá và g ửi đến ng ười bán hàng, ng ười mua hàng và các bên có liên quan quy định tại Điều 203 của Luật này.\n\n6. Giao hàng hóa đấu giá cho ng ười mua phù h ợp v ới h ợp đồng t ổ ch ức dịch vụ đấu giá hàng hoá.\n\n7. Làm th ủ t ục chuy ển quy ền s ở h ữu đối v ới hàng hoá bán đấu giá ph ải đăng ký quy ền sở hữu theo quy định của pháp lu ật, trừ trường hợp có th ỏa thuận khác với người bán hàng.\n\n[luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 14]\nĐiều 45. Nghĩa vụ bảo đảm quyền sở hữu đối với hàng hoá Bên bán phải bảo đảm:\n\n1. Quyền sở hữu của bên mua đối với hàng hóa đã bán không bị tranh chấp bởi bên thứ ba;\n\n2. Hàng hóa đó phải hợp pháp;\n\n3. Việc chuyển giao hàng hoá là hợp pháp.\n\nĐiều 46. Nghĩa vụ bảo đảm quyền sở hữu trí tuệ đối với hàng hoá\n\n1. Bên bán không được bán hàng hóa vi ph ạm quy ền sở hữu trí tu ệ. Bên bán phải chịu trách nhiệm trong trường hợp có tranh chấp liên quan đến quyền sở hữu trí tuệ đối với hàng hóa đã bán.\n\n2. Tr ường hợp bên mua yêu c ầu bên bá n ph ải tuân theo b ản v ẽ kỹ thu ật, thiết kế, công th ức hoặc những số liệu chi ti ết do bên mua cung c ấp thì bên mua phải ch ịu trách nhi ệm v ề các khi ếu n ại liên quan đến nh ững vi ph ạm quy ền sở hữu trí tuệ phát sinh từ việc bên bán đã tuân thủ những yêu cầu của bên mua.\n\nĐiều 47. Yêu cầu thông báo",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+    "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd",
+    "luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9",
+    "luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797433-UAEhNUV8GWIO4ffjp8k4",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 15,
+        "total_tokens": 308,
+        "cost": 0.0001412,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001412,
+          "upstream_inference_prompt_cost": 0.0001172,
+          "upstream_inference_completions_cost": 2.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1373.8231000024825,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797439-3OhrmFhDBSaRML5D0fpa",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2492,
+        "completion_tokens": 108,
+        "total_tokens": 2600,
+        "cost": 0.0011696,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011696,
+          "upstream_inference_prompt_cost": 0.0009968,
+          "upstream_inference_completions_cost": 0.0001728
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 6645.093800034374,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 8029.8913000151515,
+  "searches": 1,
+  "query_id": "d7-q12",
+  "question": "Nếu pháp luật và thỏa thuận không quy định khác, quyền sở hữu hàng hóa chuyển khi nào?",
+  "split": "dev",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 3",
+        "article": "Điều 62"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 54,
+      "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 54,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 207"
+      },
+      "score": 0.03149801587301587,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 4,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 36,
+      "text": "a) Hàng hóa, d ịch vụ thuộc diện cấm kinh doanh, hạn chế kinh doanh, chưa được phép lưu thông theo quy định của pháp luật;\n\nb) Hàng hóa, d ịch v ụ do th ương nhân ở n ước ngoài cung ứng thuộc di ện cấm nhập khẩu theo quy định của pháp luật;\n\nc) Hàng gi ả, hàng vi ph ạm quyền sở hữu trí tuệ, trừ trường hợp trưng bày, giới thiệu để so sánh với hàng thật.\n\n2. Ngoài vi ệc tuân th ủ các quy định về hội chợ, triển lãm th ương m ại của Luật này, hàng hóa, d ịch vụ thuộc diện quản lý chuyên ngành ph ải tuân th ủ các",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 36,
+        "year": 2005,
+        "chapter": "Chương Iv"
+      },
+      "score": 0.029877369007803793,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 5,
+        "tfidf": 9
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 74,
+      "text": "thuê trong thời hạn thuê thuộc về bên thuê.\n\nĐiều 283. Thay đổi quyền sở hữu trong thời hạn thuê Mọi thay đổi về quyền sở hữu đối với hàng hóa cho thuê không ảnh hưởng đến hiệu lực của hợp đồng cho thuê.\n\nMục 8 NHƯỢNG QUYỀN THƯƠNG MẠI\n\nĐiều 284. Nhượng quyền thương mại Nhượng quyền thương m ại là ho ạt động thương m ại, theo đó bên nh ượng quyền cho phép và yêu c ầu bên nhận quyền tự mình tiến hành việc mua bán hàng hoá, cung ứng dịch vụ theo các điều kiện sau đây:\n\n1. Việc mua bán hàng hoá, cung ứng dịch vụ được tiến hành theo cách thức tổ ch ức kinh doanh do bên nh ượng quy ền quy định và được g ắn v ới nhãn hi ệu hàng hoá, tên thương mại, bí quyết kinh doanh, khẩu hiệu kinh doanh, bi ểu tượng kinh doanh, quảng cáo của bên nhượng quyền;\n\n2. Bên nh ượng quyền có quyền kiểm soát và tr ợ giúp cho bên nh ận quyền trong việc điều hành công việc kinh doanh.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 74,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "section": "Mục 8",
+        "article": "Điều 283"
+      },
+      "score": 0.028373015873015873,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 20
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 50,
+      "text": "4. Trưng bày hàng hoá, m ẫu hàng hóa ho ặc tài liệu giới thiệu về hàng hóa cho người tham gia đấu giá xem xét.\n\n5. L ập v ăn b ản bán đấu giá hàng hoá và g ửi đến ng ười bán hàng, ng ười mua hàng và các bên có liên quan quy định tại Điều 203 của Luật này.\n\n6. Giao hàng hóa đấu giá cho ng ười mua phù h ợp v ới h ợp đồng t ổ ch ức dịch vụ đấu giá hàng hoá.\n\n7. Làm th ủ t ục chuy ển quy ền s ở h ữu đối v ới hàng hoá bán đấu giá ph ải đăng ký quy ền sở hữu theo quy định của pháp lu ật, trừ trường hợp có th ỏa thuận khác với người bán hàng.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 50,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.026856524873828405,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 13,
+        "tfidf": 16
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 14,
+      "text": "Điều 45. Nghĩa vụ bảo đảm quyền sở hữu đối với hàng hoá Bên bán phải bảo đảm:\n\n1. Quyền sở hữu của bên mua đối với hàng hóa đã bán không bị tranh chấp bởi bên thứ ba;\n\n2. Hàng hóa đó phải hợp pháp;\n\n3. Việc chuyển giao hàng hoá là hợp pháp.\n\nĐiều 46. Nghĩa vụ bảo đảm quyền sở hữu trí tuệ đối với hàng hoá\n\n1. Bên bán không được bán hàng hóa vi ph ạm quy ền sở hữu trí tu ệ. Bên bán phải chịu trách nhiệm trong trường hợp có tranh chấp liên quan đến quyền sở hữu trí tuệ đối với hàng hóa đã bán.\n\n2. Tr ường hợp bên mua yêu c ầu bên bá n ph ải tuân theo b ản v ẽ kỹ thu ật, thiết kế, công th ức hoặc những số liệu chi ti ết do bên mua cung c ấp thì bên mua phải ch ịu trách nhi ệm v ề các khi ếu n ại liên quan đến nh ững vi ph ạm quy ền sở hữu trí tuệ phát sinh từ việc bên bán đã tuân thủ những yêu cầu của bên mua.\n\nĐiều 47. Yêu cầu thông báo",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 14,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 45"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "tfidf": 2
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.\n\n[luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 36]\na) Hàng hóa, d ịch vụ thuộc diện cấm kinh doanh, hạn chế kinh doanh, chưa được phép lưu thông theo quy định của pháp luật;\n\nb) Hàng hóa, d ịch v ụ do th ương nhân ở n ước ngoài cung ứng thuộc di ện cấm nhập khẩu theo quy định của pháp luật;\n\nc) Hàng gi ả, hàng vi ph ạm quyền sở hữu trí tuệ, trừ trường hợp trưng bày, giới thiệu để so sánh với hàng thật.\n\n2. Ngoài vi ệc tuân th ủ các quy định về hội chợ, triển lãm th ương m ại của Luật này, hàng hóa, d ịch vụ thuộc diện quản lý chuyên ngành ph ải tuân th ủ các\n\n[luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 74]\nthuê trong thời hạn thuê thuộc về bên thuê.\n\nĐiều 283. Thay đổi quyền sở hữu trong thời hạn thuê Mọi thay đổi về quyền sở hữu đối với hàng hóa cho thuê không ảnh hưởng đến hiệu lực của hợp đồng cho thuê.\n\nMục 8 NHƯỢNG QUYỀN THƯƠNG MẠI\n\nĐiều 284. Nhượng quyền thương mại Nhượng quyền thương m ại là ho ạt động thương m ại, theo đó bên nh ượng quyền cho phép và yêu c ầu bên nhận quyền tự mình tiến hành việc mua bán hàng hoá, cung ứng dịch vụ theo các điều kiện sau đây:\n\n1. Việc mua bán hàng hoá, cung ứng dịch vụ được tiến hành theo cách thức tổ ch ức kinh doanh do bên nh ượng quy ền quy định và được g ắn v ới nhãn hi ệu hàng hoá, tên thương mại, bí quyết kinh doanh, khẩu hiệu kinh doanh, bi ểu tượng kinh doanh, quảng cáo của bên nhượng quyền;\n\n2. Bên nh ượng quyền có quyền kiểm soát và tr ợ giúp cho bên nh ận quyền trong việc điều hành công việc kinh doanh.\n\n[luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 50]\n4. Trưng bày hàng hoá, m ẫu hàng hóa ho ặc tài liệu giới thiệu về hàng hóa cho người tham gia đấu giá xem xét.\n\n5. L ập v ăn b ản bán đấu giá hàng hoá và g ửi đến ng ười bán hàng, ng ười mua hàng và các bên có liên quan quy định tại Điều 203 của Luật này.\n\n6. Giao hàng hóa đấu giá cho ng ười mua phù h ợp v ới h ợp đồng t ổ ch ức dịch vụ đấu giá hàng hoá.\n\n7. Làm th ủ t ục chuy ển quy ền s ở h ữu đối v ới hàng hoá bán đấu giá ph ải đăng ký quy ền sở hữu theo quy định của pháp lu ật, trừ trường hợp có th ỏa thuận khác với người bán hàng.\n\n[luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 14]\nĐiều 45. Nghĩa vụ bảo đảm quyền sở hữu đối với hàng hoá Bên bán phải bảo đảm:\n\n1. Quyền sở hữu của bên mua đối với hàng hóa đã bán không bị tranh chấp bởi bên thứ ba;\n\n2. Hàng hóa đó phải hợp pháp;\n\n3. Việc chuyển giao hàng hoá là hợp pháp.\n\nĐiều 46. Nghĩa vụ bảo đảm quyền sở hữu trí tuệ đối với hàng hoá\n\n1. Bên bán không được bán hàng hóa vi ph ạm quy ền sở hữu trí tu ệ. Bên bán phải chịu trách nhiệm trong trường hợp có tranh chấp liên quan đến quyền sở hữu trí tuệ đối với hàng hóa đã bán.\n\n2. Tr ường hợp bên mua yêu c ầu bên bá n ph ải tuân theo b ản v ẽ kỹ thu ật, thiết kế, công th ức hoặc những số liệu chi ti ết do bên mua cung c ấp thì bên mua phải ch ịu trách nhi ệm v ề các khi ếu n ại liên quan đến nh ững vi ph ạm quy ền sở hữu trí tuệ phát sinh từ việc bên bán đã tuân thủ những yêu cầu của bên mua.\n\nĐiều 47. Yêu cầu thông báo",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+    "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+    "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd",
+    "luat-thuong-mai-36-2005-qh11-p74-paragraph-1000-e551af49a640366a",
+    "luat-thuong-mai-36-2005-qh11-p50-paragraph-1000-dbf9bf2fd4419dc9",
+    "luat-thuong-mai-36-2005-qh11-p14-paragraph-1000-b198fc2096827475"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p067",
+  "image_sha256": "101f983082e9411f347ecf32e446b106540b51e0ac448cc3f5ec9fffc7dd33fb",
+  "caption": {
+    "summary": "Phân tích hoạt động kinh doanh lĩnh vực Dịch vụ CNTT của FPT, tập trung vào doanh thu và lợi nhuận, chiến lược phát triển công nghệ lõi và hệ sinh thái Made by FPT giai đoạn 2021-2025.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Doanh thu hệ sinh thái Made by FPT giai đoạn 2021-2025",
+        "location": "phải",
+        "description": "Biểu đồ cột thể hiện doanh thu theo từng năm từ 2021 đến 2025, đơn vị tỷ VNĐ, doanh thu tăng dần qua các năm từ 746 tỷ năm 2021 lên 2.672 tỷ năm 2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800733-0XP5vV2DBVrO5sHtgC5c",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 152,
+        "total_tokens": 2714,
+        "cost": 0.001268,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001268,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002432
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4358.1345999846235,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

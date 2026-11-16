@@ -1,0 +1,66 @@
+{
+  "id": "FPT2025:p061",
+  "image_sha256": "4c0c3dc5ac0831b52203ea59ed3a6ea725f362bed55e398b074c30d4ed599f72",
+  "caption": {
+    "summary": "Tổng quan về lĩnh vực dịch vụ CNTT cho thị trường nước ngoài của Khối Công nghệ FPT, bao gồm các chỉ số về khách hàng, văn phòng và chiến lược phát triển AI-First.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ông Phạm Minh Tuấn - Phó tổng giám đốc FPT, Tổng giám đốc FPT Software",
+        "location": "phải",
+        "description": "Ảnh chân dung ông Phạm Minh Tuấn"
+      },
+      {
+        "type": "photo",
+        "title": "Ảnh minh họa dịch vụ CNTT",
+        "location": "giữa phải",
+        "description": "Ảnh hai người bắt tay với logo FPT phía sau"
+      },
+      {
+        "type": "photo",
+        "title": "Ảnh văn phòng, trung tâm R&D và trung tâm nguồn lực",
+        "location": "giữa dưới",
+        "description": "Ảnh tòa nhà văn phòng hiện đại"
+      },
+      {
+        "type": "table",
+        "title": "Chỉ số dịch vụ CNTT cho thị trường nước ngoài",
+        "location": "giữa trái",
+        "description": "Top 40 công ty dịch vụ CNTT châu Á; hơn 1100 khách hàng toàn cầu; hơn 130 khách hàng Fortune Global 500; hơn 90 văn phòng, trung tâm R&D, trung tâm nguồn lực tại 4 châu lục"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800727-Xef4BVtkJvBh3E5677mH",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 262,
+        "total_tokens": 2824,
+        "cost": 0.001444,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001444,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004192
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4868.7140000402,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

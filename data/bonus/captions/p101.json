@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p101",
+  "image_sha256": "97a6a87e4b87b03be65afeda2988e8654c47ae27315abb26b60109e14daaed53",
+  "caption": {
+    "summary": "Trang trình bày nội dung về Ủy ban Chính sách phát triển và Văn phòng Chủ tịch Hội đồng Quản trị (HĐQT) của FPT, tập trung vào vai trò tham mưu chiến lược, phối hợp chính sách, phát triển công nghệ lõi, và hỗ trợ quản trị nội bộ.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800755-tEq9Y6myPYfYsLgfDT7W",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 75,
+        "total_tokens": 2637,
+        "cost": 0.0011448,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011448,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.00012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2995.905000017956,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

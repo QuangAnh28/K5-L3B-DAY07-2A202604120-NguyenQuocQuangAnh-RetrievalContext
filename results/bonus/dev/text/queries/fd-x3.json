@@ -1,0 +1,266 @@
+{
+  "status": "answered",
+  "answer": "Năm 2025, có 42% nhà cung cấp trọng yếu tham gia đánh giá CSR trên Cổng Hệ thống mua sắm FPT. Trong số đó, tỷ lệ nhà cung cấp đạt yêu cầu theo các tiêu chí đánh giá là 97% với điểm trung bình trên 4 (thang điểm 5).\n[FPT2025:p128 — toàn bộ đoạn văn về mua sắm bền vững năm 2025]",
+  "citations": [
+    {
+      "id": "FPT2025:p128",
+      "region": "toàn bộ đoạn văn về mua sắm bền vững năm 2025"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794802206-x9DRLqFJYA0A4OdsyVdd",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_t85jOmKYTSbqLbBp9D2YhOnN",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"nhà cung cấp trọng yếu tham gia đánh giá CSR 2025\",\"tỷ lệ nhà cung cấp đạt yêu cầu tiêu chí đánh giá CSR 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Năm 2025 có bao nhiêu nhà cung cấp trọng yếu tham gia đánh giá CSR, và tỷ lệ nhà cung cấp đạt yêu cầu theo tiêu chí đánh giá là bao nhiêu?",
+      "model_queries": [
+        "nhà cung cấp trọng yếu tham gia đánh giá CSR 2025",
+        "tỷ lệ nhà cung cấp đạt yêu cầu tiêu chí đánh giá CSR 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p128",
+          "page": 128,
+          "score": 0.03252247488101534,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p117",
+          "page": 117,
+          "score": 0.03149801587301587,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p123",
+          "page": 123,
+          "score": 0.02878726010616578,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p100",
+          "page": 100,
+          "score": 0.02817460317460317,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 12
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Năm 2025 có bao nhiêu nhà cung cấp trọng yếu tham gia đánh giá CSR, và tỷ lệ nhà cung cấp đạt yêu cầu theo tiêu chí đánh giá là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p128",
+        "FPT2025:p117",
+        "FPT2025:p123",
+        "FPT2025:p100"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p128",
+          "page": 128,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, Tập đoàn thúc đẩy thực hành mua sắm \nbền vững trong toàn bộ chuỗi cung ứng, với các kết \nquả nổi bật như sau:\n• 42% nhà cung cấp trọng yếu tham gia đánh giá \nCSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh \nso với tỷ lệ 18% của năm 2024;\n• 97% nhà cung cấp đạt yêu cầu theo các tiêu chí \nđánh giá với điểm trung bình trên 04 (thang điểm 05);\n• 18% nhà cung cấp trọng yếu đã ký kết hợp đồng \nnguyên tắc có tích hợp các điều khoản liên quan \nđến môi trường, lao động và nhân quyền.\nHoạt động đánh giá ESG đối với nhà cung cấp là một \ntrong những giải pháp trọng tâm nhằm đẩy mạnh \nmua sắm bền vững trong chuỗi cung ứng của FPT. \nThông qua việc đánh giá định kỳ và minh bạch, FPT \nhỗ trợ các nhà cung cấp rà soát toàn diện quy trình \nquản trị và hoạt động vận hành theo cách tiếp cận \nhệ thống, từng bước nâng cao năng lực thực hành \nESG. Đồng thời, hoạt động này giúp FPT xây dựng cơ \nsở dữ liệu tập trung, phục vụ công tác quản lý, theo \ndõi và báo cáo ESG một cách đầy đủ, nhất quán và \nhiệu quả.\nPhát huy thế mạnh công nghệ, Tập đoàn tiếp tục đẩy \nmạnh số hóa quy trình và ứng dụng AI vào các hoạt \nđộng mua sắm như: hoàn thiện và cải tiến hệ thống \nmua sắm tập trung, đấu thầu online; nhà cung cấp tự \nbáo giá online; tự động hóa các thao tác nội bộ;\nsử dụng AI hỗ trợ giao dịch mua sắm, hỏi đáp nhanh \nvề mua sắm, gợi ý nhà cung cấp, kiểm soát chênh \nlệch giá giúp nâng cao sự minh bạch và đảm bảo \ncông bằng cho nhà cung cấp.\nNhằm góp phần đạt được các mục tiêu về tính bền \nvững của Tập đoàn trên quy mô toàn cầu, FPT hướng \nđến xây dựng chuỗi cung ứng bền vững thông qua \nviệc: thiết lập và tuân thủ nghiêm ngặt các hướng \ndẫn nội bộ về mua sắm xanh. Đồng thời, Tập đoàn \ncam kết không hợp tác với các nhà cung cấp có hoạt \nđộng ảnh hưởng đến sức khỏe, an toàn lao động và \nmôi trường.\nTập đoàn đã ban hành quy trình đánh giá nhà cung \ncấp trọng yếu nhằm đảm bảo nhà cung cấp không \nchỉ đáp ứng yêu cầu về chất lượng, chi phí mà còn \ntuân thủ tiêu chuẩn về đạo đức, lao động, môi trường \nvà quản trị. \nSong song, để đảm bảo công tác mua sắm bền vững, \nFPT tiếp tục duy trì: \n• Chính sách mua sắm bền vững với những nguyên \ntắc cơ bản nhằm tạo tác động tích cực nhất đến \nmôi trường, kinh tế và xã hội, đồng thời đảm bảo sự \ncông bằng, minh bạch và tuân thủ các quy định \ncủa pháp luật cũng như quy định nội bộ của Tập đoàn \ntrong quá trình thực hiện mua sắm;\n• Các tiêu chí đảm bảo tính bền vững khi tìm kiếm, \nđánh giá, lựa chọn nhà cung cấp, trong đó tiêu chí \nđánh giá thông số năng lượng và thân thiện với môi \ntrường chiếm tối đa 5% tổng số điểm đánh giá cho \ncác phương án mua sắm thiết bị tiêu thụ điện;\n• Điều khoản “Cam kết không thực hiện hành vi hối lộ” \nvà tuân thủ nhân quyền, lao động, môi trường trong \ntất cả các hợp đồng mẫu; \n• Khóa học về mục tiêu và chính sách mua sắm bền \nvững cho 100% cán bộ chuyên trách.\nHướng đến mua sắm bền vững\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về hướng đến mua sắm bền vững của Tập đoàn FPT trong năm 2025, bao gồm các chính sách, tiêu chí đánh giá nhà cung cấp và các kết quả nổi bật trong thực hành mua sắm bền vững.\nphoto: Hình ảnh trao đổi tài liệu trong mua sắm (dưới bên phải) — Hình ảnh minh họa t",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Hình ảnh trao đổi tài liệu trong mua sắm",
+              "location": "dưới bên phải",
+              "description": "Hình ảnh minh họa trao đổi tài liệu giữa hai người trong bối cảnh mua sắm, không chứa dữ liệu cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p117",
+          "page": 117,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Hoạt động trọng yếu Cam kết Mục tiêu\nQuản trị\nan toàn thông tin\nCam kết hệ thống hiện \nđại, tập trung, bảo mật.\n• Số sự cố an toàn thông tin ảnh \nhưởng danh tiếng của Tập đoàn \nbằng 0;\n• 100% CBNV được đào tạo nâng \ncao nhận thức để ngăn chặn vi \nphạm an toàn thông tin.\n• Không xảy ra sự cố an toàn thông tin ảnh hưởng đến danh tiếng \ncủa Tập đoàn;\n• Ban hành và áp dụng bộ tiêu chuẩn an ninh bảo mật, làm cơ sở \nthống nhất cho công tác triển khai, giám sát và tuân thủ tại công \nty thành viên;\n• Xây dựng, hoàn thiện và đưa vào vận hành Hệ thống giám sát và \ncảnh báo sớm sự cố an toàn thông tin (SOC) tập trung trên toàn \nTập đoàn, phục vụ hiệu quả công tác giám sát, phòng ngừa và ứng \nphó sự cố;\n• Hoàn thành 03 đợt kiểm soát nội bộ an toàn thông tin với công ty \nthành viên.\nQuản trị\nmua sắm bền vững\nTính bền vững trong \nchuỗi cung ứng.\n• Xây dựng các chính sách liên quan \nđến nguồn cung ứng nhằm đáp \nứng mục tiêu mua sắm bền vững; \n• Nỗ lực áp dụng chính sách mua \nsắm bền vững cho 60% nhà cung \ncấp trọng yếu vào năm 2026; \n• Minh bạch quá trình mua sắm \nthông qua hệ thống thông tin toàn \ntrình mua sắm, đấu thầu online và \nđẩy mạnh ứng dụng AI vào quá \ntrình mua sắm, đánh giá nhà \ncung cấp.\n• Triển khai đồng bộ hệ thống CNTT mua sắm tập trung, các quy \ntrình mua hàng và chính sách mua sắm bền vững, trong đó ưu tiên \nhàng hóa, dịch vụ và nhà cung cấp đáp ứng các tiêu chí xanh; \n• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu của \nTập đoàn;\n• Đào tạo, hướng dẫn về phát triển bền vững, mục tiêu mua sắm bền \nvững tới toàn bộ đội ngũ lãnh đạo và cán bộ quản lý mua sắm.\nKết quả nổi bật 2025\nQUẢN TRỊ XUẤT SẮC ( Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về quản trị xuất sắc với các hoạt động trọng yếu, cam kết, mục tiêu và kết quả nổi bật năm 2025 trong hai lĩnh vực: quản trị an toàn thông tin và quản trị mua sắm bền vững.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p123",
+          "page": 123,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Chính phủ, Bộ ban ngành\nChương trình hành động nổi bật Kết quả năm 2025\nNghiên cứu, phát triển, triển khai các \ngiải pháp công nghệ, tham gia các liên \nminh góp phần hiện thực hóa mục tiêu \ncủa các chương trình, đề án lớn của \nquốc gia\n• Đồng sáng lập Liên minh Nhân lực chiến lược thực thi Nghị quyết 57-NQ/TW;\n• Khởi xướng Liên minh AI Âu Lạc, tập hợp trí tuệ và khát vọng Việt, hướng tới xây dựng nền tảng AI mang bản sắc \nriêng, đồng thời định hình chuẩn mực và chính sách công nghệ quốc gia;\n• Tham gia Liên minh bán dẫn để giải quyết khoảng trống về nhân lực và kết nối nghiên cứu – ứng dụng, mở đường \ncho Việt Nam bước vào chuỗi giá trị toàn cầu của ngành công nghiệp chiến lược này;\n• Thúc đẩy thành lập Liên minh Kinh tế tầm thấp hỗ trợ doanh nghiệp vừa và nhỏ, giúp chuyển đổi số trong các \nngành truyền thống, nâng cao năng lực quản trị và hội nhập vào chuỗi giá trị toàn cầu.\nThực hiện nghiêm túc trách nhiệm của • Nộp ngân sách Nhà nước 11.078 tỷ đồng. doanh nghiệp như nghĩa vụ nộp thuế,\nđóng bảo hiểm xã hội….\nNâng cao hình ảnh thương hiệu của\nngành CNTT\n• Tham gia quảng bá và phối hợp tổ chức nhiều sự kiện lớn nhằm thúc đẩy phát triển kinh tế số tại Việt Nam và nâng \ncao hình ảnh của ngành CNTT Việt Nam trên trường quốc tế như: Triển lãm 80 năm hành trình Độc lập – Tự do – \nHạnh phúc, Vietnam – ASIA DX Summit, Diễn đàn Make in Viet Nam…;\n• Đứng trong Top 40 Công ty Dịch vụ CNTT châu Á (Gartner); \n• Ký hợp đồng dịch vụ CNTT kỷ lục 256 triệu USD tại nước ngoài và mở rộng quy mô hiện diện tại: Nhật Bản, Đức, \nHàn Quốc.\n• Đối tác và nhà cung cấp\nChương trình hành động nổi bật Kết quả năm 2025\nXây dựng và áp dụng các chuẩn mực làm việc \nvà ứng xử với đối tác và nhà cung cấp\n• Triển khai đồng bộ hệ thống CNTT các quy trình mua \nhàng và chính sách mua sắm bền vững, trong đó ưu \ntiên hàng hóa, dịch vụ và nhà cung cấp đáp ứng các \ntiêu chí xanh;\n• Ứng dụng AI trong mua sắm giúp kiểm soát chênh \nlệch giá;\n• Triển khai đánh giá CSR 42% nhà cung cấp trọng yếu \ncủa Tập đoàn.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày các chương trình hành động nổi bật và kết quả năm 2025 của FPT liên quan đến Chính phủ, Bộ ban ngành và Đối tác, nhà cung cấp.\ntable: Chương trình hành động nổi bật và kết quả năm 2025 - Chính phủ, Bộ ban ngành (phải) — Bảng gồm các chương trình hành động nổi bật và kết quả thực hiện năm 2025 trong các lĩnh vực nghiên cứu phát triển công nghệ, trách nhiệm doanh nghiệp, nâng cao thương hiệu ngành CNTT.\ntable: Chương trình hành động nổi bật và kết quả năm 2025 - Đối tác và nhà cung cấp (phải) — Bảng gồm các chương trình hành động nổi bật và kết quả thực hiện năm 2025 về xây dựng và áp dụng chuẩn mực làm việc, ứng xử với đối tác và nhà cung cấp, bao gồm ứng dụng AI và đánh giá CSR.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Chính phủ, Bộ ban ngành",
+              "location": "phải",
+              "description": "Bảng gồm các chương trình hành động nổi bật và kết quả thực hiện năm 2025 trong các lĩnh vực nghiên cứu phát triển công nghệ, trách nhiệm doanh nghiệp, nâng cao thương hiệu ngành CNTT."
+            },
+            {
+              "type": "table",
+              "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Đối tác và nhà cung cấp",
+              "location": "phải",
+              "description": "Bảng gồm các chương trình hành động nổi bật và kết quả thực hiện năm 2025 về xây dựng và áp dụng chuẩn mực làm việc, ứng xử với đối tác và nhà cung cấp, bao gồm ứng dụng AI và đánh giá CSR."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p100",
+          "page": 100,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Ủy ban Nhân sự và Lương thưởng\nĐánh giá hoạt động của các tiểu ban\nTrong năm 2025, Ủy ban Nhân sự và Lương thưởng tiếp tục phát huy vai trò tham mưu, định hướng và giám sát \ntrong lĩnh vực phát triển nguồn nhân lực, góp phần bảo đảm nguồn nhân lực đáp ứng yêu cầu thực hiện chiến lược\nphát triển của Tập đoàn trong giai đoạn mới.\nVề công tác hoạch định chiến lược nhân sự, Ủy ban đã chỉ đạo Ban Điều hành nghiên cứu, xây dựng Chiến lược \nNhân sự giai đoạn 2026-2028, phù hợp với mục tiêu làm chủ các công nghệ lõi, xây dựng đội ngũ nhân lực chất lượng \ncao, qua đó góp phần thực hiện mục tiêu phát triển bền vững và đóng góp vào chủ quyền công nghệ quốc gia.\nVề công tác quy hoạch, phát triển và luân chuyển cán bộ cấp cao, Ủy ban đã chỉ đạo xây dựng, triển khai các \nchính sách, chương trình phát triển đội ngũ cán bộ nguồn nhằm phát hiện, bồi dưỡng và chuẩn bị lực lượng cán \nbộ sẵn sàng kế cận các vị trí lãnh đạo, quản lý chủ chốt tại Tập đoàn và công ty thành viên. Đồng thời, Ủy ban \nđịnh hướng xây dựng chương trình lãnh đạo toàn cầu, tập trung nâng cao năng lực quản trị, tư duy chiến lược \nvà khả năng điều hành trong môi trường quốc tế cho đội ngũ lãnh đạo kế cận của Tập đoàn.\nỦy ban Nhân sự và Lương thưởng thực hiện đánh giá, xem xét việc tái bổ nhiệm, luân chuyển và bổ nhiệm mới \nđối với các vị trí quản lý, lãnh đạo cấp cao tại Tập đoàn và công ty thành viên, bảo đảm phù hợp với yêu cầu \nphát triển và cơ cấu tổ chức của từng đơn vị. Cụ thể, Ủy ban đã xem xét tái bổ nhiệm các chức danh chủ chốt \nnhư: Tổng giám đốc FPT, Giám đốc Nhân sự FPT, đồng thời đánh giá, xem xét luân chuyển và bổ nhiệm mới đối \nvới một số vị trí quan trọng tại công ty thành viên và thị trường trọng điểm như: Tổng giám đốc FPT IS, \nTổng giám đốc FPT châu Mỹ, Phó tổng giám đốc FPT Software phụ trách thị trường châu Âu và Trung Đông. \nBên cạnh đó, Ủy ban cũng xem xét việc bổ nhiệm lãnh đạo cho các đơn vị chiến lược mới của Tập đoàn \nnhằm đáp ứng yêu cầu phát triển trong các lĩnh vực công nghệ chiến lược.\nVề chính sách nhân sự và chế độ đãi ngộ, Ủy ban tiếp tục định hướng, chỉ đạo xây dựng, ban hành và triển khai \ncác chương trình, chính sách nhân sự quan trọng của Tập đoàn và công ty thành viên. Trọng tâm là việc xây dựng,\nhoàn thiện và cải tiến các chính sách đãi ngộ đặc thù nhằm chăm sóc toàn diện đời sống người lao động, \nthu hút và giữ chân nhân tài, giảm tỷ lệ nghỉ việc, đặc biệt đối với đội ngũ cán bộ công nghệ và các vị trí nhân sự\nđặc thù. Các chính sách được triển khai bao gồm lộ trình phát triển nghề nghiệp cho cán bộ công nghệ, quy định về \nchế độ nghỉ, chế độ hưu trí, cũng như mở rộng các chính sách hỗ trợ vay mua nhà và phương tiện, góp phần \nnâng cao mức độ gắn kết và sự hài lòng của CBNV.\nĐánh giá chung\nBÁO CÁO CỦA HĐQT\nHĐQT tiếp tục phát huy tốt vai trò định hướng, \ngiám sát và tư vấn chiến lược, tuân thủ đầy đủ \ncác quy định của pháp luật, Điều lệ Công ty và các\nchuẩn mực quản trị công ty hiện hành.\nHĐQT duy trì sự chỉ đạo sát sao đối với Ban Điều hành \ntrong việc triển khai Nghị quyết ĐHĐCĐ, thực hiện \nchiến lược phát triển trung và dài hạn của Tập đoàn, \nđặc biệt trong bối cảnh kinh tế thế giới tiếp tục tiềm \nẩn nhiều yếu tố bất ổn và cạnh tranh toàn cầu ngày",
+          "visuals": []
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794802223-AY5OtDkegyjDHVVSBAGV",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_WYrCC2FyH52qMKAjxwgy9J8L",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Năm 2025, có 42% nhà cung cấp trọng yếu tham gia đánh giá CSR trên Cổng Hệ thống mua sắm FPT. Trong số đó, tỷ lệ nhà cung cấp đạt yêu cầu theo các tiêu chí đánh giá là 97% với điểm trung bình trên 4 (thang điểm 5).\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p128\",\"region\":\"toàn bộ đoạn văn về mua sắm bền vững năm 2025\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p128",
+    "FPT2025:p117",
+    "FPT2025:p123",
+    "FPT2025:p100"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p128",
+      "page": 128,
+      "image": ".bonus/pages/p128.jpg",
+      "image_sha256": "847ea324f08eae37df05820abe8df8f175433aaec864d00fca7560342eff676b"
+    },
+    {
+      "id": "FPT2025:p117",
+      "page": 117,
+      "image": ".bonus/pages/p117.jpg",
+      "image_sha256": "bc3095e9bb98126cf7c447d01298a9b531918b261435847a10fc463ea98773e6"
+    },
+    {
+      "id": "FPT2025:p123",
+      "page": 123,
+      "image": ".bonus/pages/p123.jpg",
+      "image_sha256": "2515e63589b0c39997b315c0712cacbe4dd1086d4b8ffa172531b0ccf7b42372"
+    },
+    {
+      "id": "FPT2025:p100",
+      "page": 100,
+      "image": ".bonus/pages/p100.jpg",
+      "image_sha256": "81299140b8bcb1cc3942d0921f892807d9107c77b0c8c041f16bd8d0915acdf3"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794802206-x9DRLqFJYA0A4OdsyVdd",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 642,
+        "completion_tokens": 38,
+        "total_tokens": 680,
+        "cost": 0.0003176,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003176,
+          "upstream_inference_prompt_cost": 0.0002568,
+          "upstream_inference_completions_cost": 6.08e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4438.443800027017,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794802223-AY5OtDkegyjDHVVSBAGV",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 4643,
+        "completion_tokens": 121,
+        "total_tokens": 4764,
+        "cost": 0.0020508,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0020508,
+          "upstream_inference_prompt_cost": 0.0018572,
+          "upstream_inference_completions_cost": 0.0001936
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 17269.572200020775,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 21716.07289998792,
+  "query_id": "fd-x3",
+  "question": "Năm 2025 có bao nhiêu nhà cung cấp trọng yếu tham gia đánh giá CSR, và tỷ lệ nhà cung cấp đạt yêu cầu theo tiêu chí đánh giá là bao nhiêu?",
+  "split": "dev",
+  "config": "text"
+}

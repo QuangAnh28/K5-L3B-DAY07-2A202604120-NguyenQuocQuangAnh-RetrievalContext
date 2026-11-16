@@ -1,0 +1,800 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_h2oVItUprzzaonSENvbx37Br",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801646-rzKyMCidv81JwsxvEw4F"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Theo tài liệu, lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài là bao nhiêu đồng?",
+      "model_query": "lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 17"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 18"
+          },
+          "score": 0.030621785881252923,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-5ef46b95f128c29b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 2,
+          "text": "4. Tập quán th ương m ại là th ói quen được th ừa nh ận rộng rãi trong ho ạt động thương mại trên một vùng, miền hoặc một lĩnh vực thương mại, có nội dung rõ ràng được các bên th ừa nhận để xác định quyền và nghĩa vụ của các bên trong hoạt động thương mại.\n\n5. Thông điệp dữ liệu là thông tin được tạo ra, gửi đi, nhận và lưu giữ bằng phương tiện điện tử.\n\n6. Văn phòng đại diện của thương nhân nước ngoài t ại Việt Nam là đơn vị phụ thuộc của thương nhân n ước ngoài, được thành l ập theo quy định của pháp luật Vi ệt Nam để tìm hi ểu th ị tr ường và th ực hi ện m ột s ố ho ạt động xúc ti ến thương mại mà pháp luật Việt Nam cho phép.\n\n7. Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam là đơn v ị ph ụ thuộc của thương nhân n ước ngoài, được thành l ập và ho ạt động thương mại tại Việt Nam theo quy định của pháp luật Việt Nam ho ặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 2,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.03057889822595705,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 7,
+          "text": "3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 7,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.03055037313432836,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "text": "2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.029827662395050816,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 13
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 3,
+          "text": "2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 3,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 6"
+          },
+          "score": 0.029437229437229435,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 10
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.\n\n[luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-5ef46b95f128c29b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 2]\n4. Tập quán th ương m ại là th ói quen được th ừa nh ận rộng rãi trong ho ạt động thương mại trên một vùng, miền hoặc một lĩnh vực thương mại, có nội dung rõ ràng được các bên th ừa nhận để xác định quyền và nghĩa vụ của các bên trong hoạt động thương mại.\n\n5. Thông điệp dữ liệu là thông tin được tạo ra, gửi đi, nhận và lưu giữ bằng phương tiện điện tử.\n\n6. Văn phòng đại diện của thương nhân nước ngoài t ại Việt Nam là đơn vị phụ thuộc của thương nhân n ước ngoài, được thành l ập theo quy định của pháp luật Vi ệt Nam để tìm hi ểu th ị tr ường và th ực hi ện m ột s ố ho ạt động xúc ti ến thương mại mà pháp luật Việt Nam cho phép.\n\n7. Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam là đơn v ị ph ụ thuộc của thương nhân n ước ngoài, được thành l ập và ho ạt động thương mại tại Việt Nam theo quy định của pháp luật Việt Nam ho ặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+        "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-5ef46b95f128c29b",
+        "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+        "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+        "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_tGBDDHTGGa4zxW09jivLWcwV",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801649-G7Hmo9hvfctZaj7wEpF6"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài",
+      "model_query": "lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 17"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 7,
+          "text": "3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 7,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.031024531024531024,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 8,
+          "text": "hiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 8,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 23"
+          },
+          "score": 0.03076923076923077,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 32,
+          "text": "2. V ăn phòng đại di ện c ủa th ương nhân không được tr ực ti ếp tr ưng bày, giới thi ệu hàng hoá, d ịch v ụ c ủa th ương nhân do mình đại di ện, tr ừ vi ệc tr ưng bày, gi ới thi ệu t ại tr ụ s ở c ủa V ăn phòng đại di ện đó. Trong tr ường h ợp được thương nhân ủy quy ền, V ăn phòng đại di ện có quy ền ký h ợp đồng v ới th ương nhân kinh doanh d ịch v ụ tr ưng bày, gi ới thi ệu hàng hóa, d ịch v ụ để th ực hi ện trưng bày, giới thiệu hàng hóa, dịch vụ cho thương nhân mà mình đại diện.\n\n3. Thương nhân nước ngoài chưa được phép hoạt động thương mại tại Việt nam mu ốn trưng bày, gi ới thiệu hàng hoá, d ịch v ụ của mình t ại Vi ệt Nam ph ải thuê thương nhân kinh doanh dịch vụ trưng bày, giới thiệu hàng hoá, dịch vụ Việt Nam thực hiện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 32,
+            "year": 2005,
+            "chapter": "Chương Iv"
+          },
+          "score": 0.030117753623188408,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "text": "2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.030017921146953404,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 18"
+          },
+          "score": 0.030017921146953404,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 12,
+            "tfidf": 2
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\n2. V ăn phòng đại di ện c ủa th ương nhân không được tr ực ti ếp tr ưng bày, giới thi ệu hàng hoá, d ịch v ụ c ủa th ương nhân do mình đại di ện, tr ừ vi ệc tr ưng bày, gi ới thi ệu t ại tr ụ s ở c ủa V ăn phòng đại di ện đó. Trong tr ường h ợp được thương nhân ủy quy ền, V ăn phòng đại di ện có quy ền ký h ợp đồng v ới th ương nhân kinh doanh d ịch v ụ tr ưng bày, gi ới thi ệu hàng hóa, d ịch v ụ để th ực hi ện trưng bày, giới thiệu hàng hóa, dịch vụ cho thương nhân mà mình đại diện.\n\n3. Thương nhân nước ngoài chưa được phép hoạt động thương mại tại Việt nam mu ốn trưng bày, gi ới thiệu hàng hoá, d ịch v ụ của mình t ại Vi ệt Nam ph ải thuê thương nhân kinh doanh dịch vụ trưng bày, giới thiệu hàng hoá, dịch vụ Việt Nam thực hiện.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+        "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+        "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+        "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d",
+        "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_06qtzCmFU8MgXHBv9F6RL4y4",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801659-1IrKRx93cOiGOpJOSUgP"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài",
+      "model_query": "lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 17"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 7,
+          "text": "3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 7,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.031024531024531024,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 8,
+          "text": "hiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 8,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 23"
+          },
+          "score": 0.03076923076923077,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 32,
+          "text": "2. V ăn phòng đại di ện c ủa th ương nhân không được tr ực ti ếp tr ưng bày, giới thi ệu hàng hoá, d ịch v ụ c ủa th ương nhân do mình đại di ện, tr ừ vi ệc tr ưng bày, gi ới thi ệu t ại tr ụ s ở c ủa V ăn phòng đại di ện đó. Trong tr ường h ợp được thương nhân ủy quy ền, V ăn phòng đại di ện có quy ền ký h ợp đồng v ới th ương nhân kinh doanh d ịch v ụ tr ưng bày, gi ới thi ệu hàng hóa, d ịch v ụ để th ực hi ện trưng bày, giới thiệu hàng hóa, dịch vụ cho thương nhân mà mình đại diện.\n\n3. Thương nhân nước ngoài chưa được phép hoạt động thương mại tại Việt nam mu ốn trưng bày, gi ới thiệu hàng hoá, d ịch v ụ của mình t ại Vi ệt Nam ph ải thuê thương nhân kinh doanh dịch vụ trưng bày, giới thiệu hàng hoá, dịch vụ Việt Nam thực hiện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 32,
+            "year": 2005,
+            "chapter": "Chương Iv"
+          },
+          "score": 0.030117753623188408,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 5,
+          "text": "2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 5,
+            "year": 2005,
+            "chapter": "Chương I"
+          },
+          "score": 0.030017921146953404,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 18"
+          },
+          "score": 0.030017921146953404,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 12,
+            "tfidf": 2
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\n2. V ăn phòng đại di ện c ủa th ương nhân không được tr ực ti ếp tr ưng bày, giới thi ệu hàng hoá, d ịch v ụ c ủa th ương nhân do mình đại di ện, tr ừ vi ệc tr ưng bày, gi ới thi ệu t ại tr ụ s ở c ủa V ăn phòng đại di ện đó. Trong tr ường h ợp được thương nhân ủy quy ền, V ăn phòng đại di ện có quy ền ký h ợp đồng v ới th ương nhân kinh doanh d ịch v ụ tr ưng bày, gi ới thi ệu hàng hóa, d ịch v ụ để th ực hi ện trưng bày, giới thiệu hàng hóa, dịch vụ cho thương nhân mà mình đại diện.\n\n3. Thương nhân nước ngoài chưa được phép hoạt động thương mại tại Việt nam mu ốn trưng bày, gi ới thiệu hàng hoá, d ịch v ụ của mình t ại Vi ệt Nam ph ải thuê thương nhân kinh doanh dịch vụ trưng bày, giới thiệu hàng hoá, dịch vụ Việt Nam thực hiện.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+        "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+        "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+        "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d",
+        "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_Y1XRSPIwNmzgOoo77U6YSY4f",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Tài liệu không cung cấp thông tin về mức lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801662-VyUsv5odnN9BYUEU3QlF"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nhiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam.\n\n[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\n2. V ăn phòng đại di ện c ủa th ương nhân không được tr ực ti ếp tr ưng bày, giới thi ệu hàng hoá, d ịch v ụ c ủa th ương nhân do mình đại di ện, tr ừ vi ệc tr ưng bày, gi ới thi ệu t ại tr ụ s ở c ủa V ăn phòng đại di ện đó. Trong tr ường h ợp được thương nhân ủy quy ền, V ăn phòng đại di ện có quy ền ký h ợp đồng v ới th ương nhân kinh doanh d ịch v ụ tr ưng bày, gi ới thi ệu hàng hóa, d ịch v ụ để th ực hi ện trưng bày, giới thiệu hàng hóa, dịch vụ cho thương nhân mà mình đại diện.\n\n3. Thương nhân nước ngoài chưa được phép hoạt động thương mại tại Việt nam mu ốn trưng bày, gi ới thiệu hàng hoá, d ịch v ụ của mình t ại Vi ệt Nam ph ải thuê thương nhân kinh doanh dịch vụ trưng bày, giới thiệu hàng hoá, dịch vụ Việt Nam thực hiện.\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+    "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-a28a8840d2541c86",
+    "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-698a17a488c5e62d",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801646-rzKyMCidv81JwsxvEw4F",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 298,
+        "completion_tokens": 22,
+        "total_tokens": 320,
+        "cost": 0.0001544,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001544,
+          "upstream_inference_prompt_cost": 0.0001192,
+          "upstream_inference_completions_cost": 3.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1750.3789000329562,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801649-G7Hmo9hvfctZaj7wEpF6",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2551,
+        "completion_tokens": 30,
+        "total_tokens": 2581,
+        "cost": 0.0007612,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0007612,
+          "upstream_inference_prompt_cost": 0.0007132,
+          "upstream_inference_completions_cost": 4.8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2418.6804000055417,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801659-1IrKRx93cOiGOpJOSUgP",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2695,
+        "completion_tokens": 30,
+        "total_tokens": 2725,
+        "cost": 0.001126,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001126,
+          "upstream_inference_prompt_cost": 0.001078,
+          "upstream_inference_completions_cost": 4.8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4786.452500033192,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801662-VyUsv5odnN9BYUEU3QlF",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2748,
+        "completion_tokens": 41,
+        "total_tokens": 2789,
+        "cost": 0.0011648,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011648,
+          "upstream_inference_prompt_cost": 0.0010992,
+          "upstream_inference_completions_cost": 6.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2684.366900008172,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 17838.33640004741,
+  "searches": 3,
+  "query_id": "b2-u1",
+  "question": "Theo tài liệu, lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài là bao nhiêu đồng?",
+  "split": "test",
+  "config": "hybrid_context",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 6,
+      "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 6,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 17"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 6,
+      "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 6,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 18"
+      },
+      "score": 0.030621785881252923,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 9,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-5ef46b95f128c29b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 2,
+      "text": "4. Tập quán th ương m ại là th ói quen được th ừa nh ận rộng rãi trong ho ạt động thương mại trên một vùng, miền hoặc một lĩnh vực thương mại, có nội dung rõ ràng được các bên th ừa nhận để xác định quyền và nghĩa vụ của các bên trong hoạt động thương mại.\n\n5. Thông điệp dữ liệu là thông tin được tạo ra, gửi đi, nhận và lưu giữ bằng phương tiện điện tử.\n\n6. Văn phòng đại diện của thương nhân nước ngoài t ại Việt Nam là đơn vị phụ thuộc của thương nhân n ước ngoài, được thành l ập theo quy định của pháp luật Vi ệt Nam để tìm hi ểu th ị tr ường và th ực hi ện m ột s ố ho ạt động xúc ti ến thương mại mà pháp luật Việt Nam cho phép.\n\n7. Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam là đơn v ị ph ụ thuộc của thương nhân n ước ngoài, được thành l ập và ho ạt động thương mại tại Việt Nam theo quy định của pháp luật Việt Nam ho ặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 2,
+        "year": 2005,
+        "chapter": "Chương I"
+      },
+      "score": 0.03057889822595705,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 8
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 7,
+      "text": "3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 7,
+        "year": 2005,
+        "chapter": "Chương I"
+      },
+      "score": 0.03055037313432836,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 4,
+        "tfidf": 7
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 5,
+      "text": "2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 5,
+        "year": 2005,
+        "chapter": "Chương I"
+      },
+      "score": 0.029827662395050816,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 13
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 3,
+      "text": "2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 3,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 6"
+      },
+      "score": 0.029437229437229435,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 10
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.\n\n[luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-5ef46b95f128c29b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 2]\n4. Tập quán th ương m ại là th ói quen được th ừa nh ận rộng rãi trong ho ạt động thương mại trên một vùng, miền hoặc một lĩnh vực thương mại, có nội dung rõ ràng được các bên th ừa nhận để xác định quyền và nghĩa vụ của các bên trong hoạt động thương mại.\n\n5. Thông điệp dữ liệu là thông tin được tạo ra, gửi đi, nhận và lưu giữ bằng phương tiện điện tử.\n\n6. Văn phòng đại diện của thương nhân nước ngoài t ại Việt Nam là đơn vị phụ thuộc của thương nhân n ước ngoài, được thành l ập theo quy định của pháp luật Vi ệt Nam để tìm hi ểu th ị tr ường và th ực hi ện m ột s ố ho ạt động xúc ti ến thương mại mà pháp luật Việt Nam cho phép.\n\n7. Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam là đơn v ị ph ụ thuộc của thương nhân n ước ngoài, được thành l ập và ho ạt động thương mại tại Việt Nam theo quy định của pháp luật Việt Nam ho ặc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.\n\n[luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 7]\n3. Bộ Thương mại chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép thành l ập V ăn phòng đại di ện c ủa th ương nhân n ước ngoài t ại Vi ệt Nam; thành l ập Chi nhánh, doanh nghi ệp liên doanh, doanh nghi ệp 100% v ốn n ước ngoài tại Việt Nam trong trường hợp thương nhân đó chuyên thực hiện hoạt động mua bán hàng hó a và các ho ạt động liên quan tr ực ti ếp đến mua bán hàng hóa theo pháp lu ật Việt Nam và phù h ợp với điều ước qu ốc tế mà C ộng hòa xã h ội chủ nghĩa Việt Nam là thành viên.\n\n4. Trường hợp pháp lu ật chuyên ngành có quy định cụ thể về thẩm quyền của bộ, cơ quan ngang bộ chịu trách nhiệm trước Chính phủ quản lý việc cấp giấy phép cho th ương nhân n ước ngoài ho ạt động thương m ại tại Vi ệt Nam thì th ực\n\n[luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 5]\n2. Th ương nhân n ước ngoài được đặt V ăn phòng đại di ện, Chi nhánh t ại Việt Nam; thành l ập tại Vi ệt Nam doanh nghi ệp có v ốn đầu tư nước ngoài theo các hình thức do pháp luật Việt Nam quy định.\n\n3. V ăn phòng đại di ện, Chi nhánh c ủa th ương nhân n ước ngoài t ại Vi ệt Nam có các quy ền và ngh ĩa vụ theo quy định c ủa pháp lu ật Việt Nam. Th ương\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n2. Các bê n trong giao d ịch th ương m ại có y ếu t ố n ước ngoài được tho ả thuận áp d ụng pháp lu ật nước ngoài, t ập quán th ương mại quốc tế nếu pháp lu ật nước ngoài, tập quán thương mại quốc tế đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.\n\nĐiều 6. Thương nhân\n\n1. Thương nhân bao gồm tổ chức kinh tế được thành lập hợp pháp, cá nhân hoạt động thương mại một cách độc lập, thường xuyên và có đăng ký kinh doanh.\n\n2. Thương nhân có quy ền hoạt động thương mại trong các ngành ngh ề, tại các địa bàn, d ưới các hình thức và theo các ph ương th ức mà pháp lu ật không cấm.\n\n3. Quyền hoạt động thương mại hợp pháp của thương nhân được Nhà nước",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+    "luat-thuong-mai-36-2005-qh11-p2-paragraph-1000-5ef46b95f128c29b",
+    "luat-thuong-mai-36-2005-qh11-p7-paragraph-1000-80c98bda0a6401ea",
+    "luat-thuong-mai-36-2005-qh11-p5-paragraph-1000-7c2ce413f3c261c5",
+    "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-faaea499449d675e"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

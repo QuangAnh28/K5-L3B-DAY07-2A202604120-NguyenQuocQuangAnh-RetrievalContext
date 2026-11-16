@@ -1,0 +1,12 @@
+{
+  "requests": 1135,
+  "chat_requests": 1033,
+  "embedding_requests": 102,
+  "cost_usd": 2.13058916,
+  "missing_cost_requests": 0,
+  "prompt_tokens": 4884465,
+  "completion_tokens": 116112,
+  "failed_attempt_records": 23,
+  "unknown_failure_cost": true,
+  "includes": "All Day 7 basic and bonus runs, captions, embeddings and preserved failed dev pilots. Deduplicate successful requests by provider response ID. Day 6 prior cost excluded."
+}

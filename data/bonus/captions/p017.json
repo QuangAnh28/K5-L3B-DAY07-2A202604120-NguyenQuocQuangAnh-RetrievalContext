@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p017",
+  "image_sha256": "0276d25c7cc96d1e08119784160756a6e265ba601aae335a49f35dbab6fa5ced",
+  "caption": {
+    "summary": "Trang báo cáo trình bày các dấu ấn nổi bật của FPT trong năm 2025, bao gồm xuất khẩu lô chip nguồn đầu tiên sang Nhật Bản, khai trương Trung tâm R&D công nghệ cao và chip bán dẫn tại Đà Nẵng, và nhận giải thưởng AI trị giá 1 triệu USD tôn vinh chủ quyền công nghệ quốc gia.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Lô chip nguồn đầu tiên xuất khẩu sang Nhật Bản",
+        "location": "trên bên trái",
+        "description": "Ảnh minh họa sản phẩm chip nguồn do FPT thiết kế xuất khẩu sang thị trường Nhật Bản."
+      },
+      {
+        "type": "photo",
+        "title": "Khai trương Trung tâm R&D công nghệ cao và chip bán dẫn",
+        "location": "dưới bên trái",
+        "description": "Ảnh lễ khai trương Trung tâm R&D công nghệ cao và chip bán dẫn của FPT tại Đà Nẵng."
+      },
+      {
+        "type": "photo",
+        "title": "Lễ công bố giải thưởng Âu Lạc Grand Prize",
+        "location": "trên bên phải",
+        "description": "Ảnh sự kiện công bố giải thưởng Âu Lạc Grand Prize tôn vinh chủ quyền công nghệ quốc gia với giải thưởng AI trị giá 1 triệu USD."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800697-G2PlVuqegCtzlPjombJQ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 264,
+        "total_tokens": 2826,
+        "cost": 0.0014472,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014472,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004224
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3969.327799975872,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

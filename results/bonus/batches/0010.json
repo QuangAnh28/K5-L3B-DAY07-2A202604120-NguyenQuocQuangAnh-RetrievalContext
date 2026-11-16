@@ -1,0 +1,50 @@
+{
+  "started_at": "2026-11-16T05:06:35.518001+00:00",
+  "finished_at": "2026-11-16T05:07:18.739899+00:00",
+  "split": "test",
+  "config": "vision",
+  "model": "anthropic/claude-haiku-5.5",
+  "query_ids": [
+    "ft-u2",
+    "ft-u3",
+    "ft-u4",
+    "ft-u5",
+    "ft-u6"
+  ],
+  "statuses": {
+    "ft-u2": "abstain",
+    "ft-u3": "abstain",
+    "ft-u4": "abstain",
+    "ft-u5": "answered",
+    "ft-u6": "abstain"
+  },
+  "provider_reported_cost_usd": 0.01813816,
+  "successful_request_ids": [
+    "gen-1794805593-MAKxOfu7K6nQjpVdtRXw",
+    "gen-1794805597-9V5LbMiYXN1QWsBsySKQ",
+    "gen-1794805600-LsANgoqsCAuo9rxW5yGH",
+    "gen-1794805606-tUHe792J9SYN2esyfl8W",
+    "gen-1794805610-E4ZSz7QbSokWw3hEBrD1",
+    "gen-1794805614-79gkCAhEvAWno1Bq3YHM",
+    "gen-1794805619-AJRVzL10tM0xTqEgCA9p",
+    "gen-1794805622-amdJWkHFrd6fF2eWlnck",
+    "gen-1794805627-McRnSeH8UVbxMJmboPbB",
+    "gen-1794805631-3HBfwtm0LqI564lTylpm",
+    "gen-emb-1794805594-FbhGUfR0CX5Q68Mg7E0s",
+    "gen-emb-1794805602-OFg33rbkJbNuBnWHiNXV",
+    "gen-emb-1794805612-tSt70OfR4Hjj3nqOBxuS",
+    "gen-emb-1794805620-6PgIeZWHBWftKYeGELcq",
+    "gen-emb-1794805629-AhgGI0YwBs3QIDCbAQTG"
+  ],
+  "trace_hashes": {
+    "ft-u2": "f89fa028ec50a604bedc66c526c161a28114ae54bd28cab6b82154acf1a4980e",
+    "ft-u3": "713675791db29c13b92d8a3d4592a8c9302010c7d6e91c4a4f927064507f969d",
+    "ft-u4": "3bc46b01aecc9dfc77f1127bcff8c2638c091f871e59fa32b4d009099f8b4f2b",
+    "ft-u5": "38b087d25dc0424d2d24b5220b38f28d525f1052b882b996a25247eed66c7e0e",
+    "ft-u6": "d4be8227d2002bdb4a0531bcc02e6f288448f77f9de60e2b4b89aaf948d324aa"
+  },
+  "unknown_failure_cost": false,
+  "stopped_on_error": false,
+  "between_question_cost_stop_usd": 0.1,
+  "cost_stop_note": "Checked after each question; current question can exceed this amount."
+}

@@ -1,0 +1,258 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_0rEAmG87zUqGiNDSIFfTUYBI",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Doanh thu bán hàng năm 2025 của Công ty Ánh Dương\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801093-VvJ72IcurgNKiucVZNU6"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+      "model_query": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 47,
+          "text": "Chương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 47,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "section": "Mục 1",
+            "article": "Điều 178"
+          },
+          "score": 0.2170400044507461,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 48,
+          "text": "thỏa thuận với bên đặt gia công về số lượng, chất lượng, tiêu chuẩn kỹ thuật và giá.\n\n2. Nhận thù lao gia công và các chi phí h ợp lý khác.\n\n3. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được xuất khẩu tại chỗ sản phẩm gia công, máy móc, thi ết bị thuê ho ặc mượn, nguyên li ệu, ph ụ liệu, v ật tư d ư thừa, ph ế phẩm, ph ế liệu theo u ỷ quy ền của bên đặt gia công.\n\n4. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được miễn thuế nhập khẩu đối với máy móc, thi ết bị, nguyên li ệu, phụ liệu, vật tư tạm nh ập kh ẩu theo định mức để th ực hiện hợp đồng gia công theo quy định của pháp luật về thuế.\n\n5. Ch ịu trách nhi ệm v ề tính h ợp pháp c ủa ho ạt động gia công hàng hoá trong trường hợp hàng hoá gia công thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu.\n\nĐiều 183. Thù lao gia công",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 48,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 183"
+          },
+          "score": 0.20498541061460318,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-a2a17f8ca4ffa5a3",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 47,
+          "text": "5. Chịu trách nhiệm đối với tính hợp pháp về quyền sở hữu trí tuệ của hàng hoá gia công, nguyên li ệu, vật liệu, máy móc, thi ết bị dùng để gia công chuy ển cho bên nhận gia công.\n\nĐiều 182. Quyền và nghĩa vụ của bên nhận gia công\n\n1. Cung ứng một phần hoặc toàn b ộ nguyên li ệu, vật liệu để gia công theo",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 47,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 182"
+          },
+          "score": 0.2039707937671271,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 47]\nChương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công\n\n[luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 48]\nthỏa thuận với bên đặt gia công về số lượng, chất lượng, tiêu chuẩn kỹ thuật và giá.\n\n2. Nhận thù lao gia công và các chi phí h ợp lý khác.\n\n3. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được xuất khẩu tại chỗ sản phẩm gia công, máy móc, thi ết bị thuê ho ặc mượn, nguyên li ệu, ph ụ liệu, v ật tư d ư thừa, ph ế phẩm, ph ế liệu theo u ỷ quy ền của bên đặt gia công.\n\n4. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được miễn thuế nhập khẩu đối với máy móc, thi ết bị, nguyên li ệu, phụ liệu, vật tư tạm nh ập kh ẩu theo định mức để th ực hiện hợp đồng gia công theo quy định của pháp luật về thuế.\n\n5. Ch ịu trách nhi ệm v ề tính h ợp pháp c ủa ho ạt động gia công hàng hoá trong trường hợp hàng hoá gia công thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu.\n\nĐiều 183. Thù lao gia công",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9",
+        "luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_vnbwrIotRFzgFojbt4Ygp0Tn",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không có thông tin về doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801094-4OXGSnbBl8HQsRNGQazq"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 47]\nChương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công\n\n[luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 48]\nthỏa thuận với bên đặt gia công về số lượng, chất lượng, tiêu chuẩn kỹ thuật và giá.\n\n2. Nhận thù lao gia công và các chi phí h ợp lý khác.\n\n3. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được xuất khẩu tại chỗ sản phẩm gia công, máy móc, thi ết bị thuê ho ặc mượn, nguyên li ệu, ph ụ liệu, v ật tư d ư thừa, ph ế phẩm, ph ế liệu theo u ỷ quy ền của bên đặt gia công.\n\n4. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được miễn thuế nhập khẩu đối với máy móc, thi ết bị, nguyên li ệu, phụ liệu, vật tư tạm nh ập kh ẩu theo định mức để th ực hiện hợp đồng gia công theo quy định của pháp luật về thuế.\n\n5. Ch ịu trách nhi ệm v ề tính h ợp pháp c ủa ho ạt động gia công hàng hoá trong trường hợp hàng hoá gia công thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu.\n\nĐiều 183. Thù lao gia công",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9",
+    "luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801093-VvJ72IcurgNKiucVZNU6",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 296,
+        "completion_tokens": 21,
+        "total_tokens": 317,
+        "cost": 0.000152,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000152,
+          "upstream_inference_prompt_cost": 0.0001184,
+          "upstream_inference_completions_cost": 3.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4142.347200016957,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801094-4OXGSnbBl8HQsRNGQazq",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1212,
+        "completion_tokens": 38,
+        "total_tokens": 1250,
+        "cost": 0.0002384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002384,
+          "upstream_inference_prompt_cost": 0.0001776,
+          "upstream_inference_completions_cost": 6.08e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2999.5120000094175,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 7145.265300001483,
+  "searches": 1,
+  "query_id": "d7-u2",
+  "question": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+  "split": "dev",
+  "config": "baseline",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 47,
+      "text": "Chương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 47,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "section": "Mục 1",
+        "article": "Điều 178"
+      },
+      "score": 0.2170400044507461,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 48,
+      "text": "thỏa thuận với bên đặt gia công về số lượng, chất lượng, tiêu chuẩn kỹ thuật và giá.\n\n2. Nhận thù lao gia công và các chi phí h ợp lý khác.\n\n3. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được xuất khẩu tại chỗ sản phẩm gia công, máy móc, thi ết bị thuê ho ặc mượn, nguyên li ệu, ph ụ liệu, v ật tư d ư thừa, ph ế phẩm, ph ế liệu theo u ỷ quy ền của bên đặt gia công.\n\n4. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được miễn thuế nhập khẩu đối với máy móc, thi ết bị, nguyên li ệu, phụ liệu, vật tư tạm nh ập kh ẩu theo định mức để th ực hiện hợp đồng gia công theo quy định của pháp luật về thuế.\n\n5. Ch ịu trách nhi ệm v ề tính h ợp pháp c ủa ho ạt động gia công hàng hoá trong trường hợp hàng hoá gia công thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu.\n\nĐiều 183. Thù lao gia công",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 48,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 183"
+      },
+      "score": 0.20498541061460318,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-a2a17f8ca4ffa5a3",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 47,
+      "text": "5. Chịu trách nhiệm đối với tính hợp pháp về quyền sở hữu trí tuệ của hàng hoá gia công, nguyên li ệu, vật liệu, máy móc, thi ết bị dùng để gia công chuy ển cho bên nhận gia công.\n\nĐiều 182. Quyền và nghĩa vụ của bên nhận gia công\n\n1. Cung ứng một phần hoặc toàn b ộ nguyên li ệu, vật liệu để gia công theo",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 47,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 182"
+      },
+      "score": 0.2039707937671271,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 47]\nChương VI MỘT SỐ HOẠT ĐỘNG THƯƠNG MẠI CỤ THỂ KHÁC\n\nMục 1 GIA CÔNG TRONG THƯƠNG MẠI\n\nĐiều 178. Gia công trong thương mại Gia công trong th ương mại là hoạt động thương mại, theo đó bên nh ận gia công s ử dụng một phần hoặc toàn b ộ nguyên li ệu, vật liệu của bên đặt gia công để thực hiện một hoặc nhiều công đoạn trong quá trình s ản xuất theo yêu c ầu của bên đặt gia công để hưởng thù lao.\n\nĐiều 179. Hợp đồng gia công Hợp đồng gia công ph ải được lập thành v ăn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 180. Hàng hóa gia công\n\n1. Tất cả các lo ại hàng hóa đều có thể được gia công, tr ừ trường hợp hàng hóa thuộc diện cấm kinh doanh.\n\n2. Trường hợp gia công hàng hóa cho th ương nhân n ước ngoài để tiêu th ụ ở nước ngoài thì hàng hóa thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu có thể được gia công nếu được cơ quan nhà nước có thẩm quyền cho phép.\n\nĐiều 181. Quyền và nghĩa vụ của bên đặt gia công\n\n[luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 48]\nthỏa thuận với bên đặt gia công về số lượng, chất lượng, tiêu chuẩn kỹ thuật và giá.\n\n2. Nhận thù lao gia công và các chi phí h ợp lý khác.\n\n3. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được xuất khẩu tại chỗ sản phẩm gia công, máy móc, thi ết bị thuê ho ặc mượn, nguyên li ệu, ph ụ liệu, v ật tư d ư thừa, ph ế phẩm, ph ế liệu theo u ỷ quy ền của bên đặt gia công.\n\n4. Tr ường h ợp nh ận gia công cho t ổ chức, cá nhân n ước ngoài, bên nh ận gia công được miễn thuế nhập khẩu đối với máy móc, thi ết bị, nguyên li ệu, phụ liệu, vật tư tạm nh ập kh ẩu theo định mức để th ực hiện hợp đồng gia công theo quy định của pháp luật về thuế.\n\n5. Ch ịu trách nhi ệm v ề tính h ợp pháp c ủa ho ạt động gia công hàng hoá trong trường hợp hàng hoá gia công thu ộc diện cấm kinh doanh, c ấm xuất khẩu, cấm nhập khẩu.\n\nĐiều 183. Thù lao gia công",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p47-paragraph-1000-0f2cd810ab33c0f9",
+    "luat-thuong-mai-36-2005-qh11-p48-paragraph-1000-4a20eab6e40e63b9"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

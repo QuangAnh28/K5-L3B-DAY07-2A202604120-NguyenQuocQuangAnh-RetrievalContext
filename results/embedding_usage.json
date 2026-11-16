@@ -1,0 +1,164 @@
+[
+  {
+    "id": "gen-emb-1794801614-THpYcU0symyWgaBWfj34",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 69,
+      "total_tokens": 69,
+      "cost": 1.38e-06,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.38e-06,
+        "upstream_inference_prompt_cost": 1.38e-06,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 1002.9572999919765,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801616-6MzMziYcPmyz2sfqBqyc",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 62,
+      "total_tokens": 62,
+      "cost": 1.24e-06,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.24e-06,
+        "upstream_inference_prompt_cost": 1.24e-06,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 1023.0634000035934,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801617-ixE2GoL6WhTZDLmqzXkF",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 66,
+      "total_tokens": 66,
+      "cost": 1.32e-06,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.32e-06,
+        "upstream_inference_prompt_cost": 1.32e-06,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 961.1131999990903,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801619-IoIBk1g8E7FPs0u31ntP",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 27,
+      "total_tokens": 27,
+      "cost": 5.4e-07,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.4e-07,
+        "upstream_inference_prompt_cost": 5.4e-07,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 958.6478999699466,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801624-HxEBR512PlAJFaQyvdF1",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 60,
+      "total_tokens": 60,
+      "cost": 1.2e-06,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.2e-06,
+        "upstream_inference_prompt_cost": 1.2e-06,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 1021.8324000015855,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801627-Ymndq0Qn80XrfspoS49k",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 52,
+      "total_tokens": 52,
+      "cost": 1.04e-06,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.04e-06,
+        "upstream_inference_prompt_cost": 1.04e-06,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 1963.587899983395,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801644-9YPJB1fj4g1bWBiqbkM4",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 54,
+      "total_tokens": 54,
+      "cost": 1.08e-06,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.08e-06,
+        "upstream_inference_prompt_cost": 1.08e-06,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 16106.62420000881,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801652-U5cus98VHLH7jVEWSA1l",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 29,
+      "total_tokens": 29,
+      "cost": 5.8e-07,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.8e-07,
+        "upstream_inference_prompt_cost": 5.8e-07,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 4046.996899996884,
+    "attempt": 1
+  },
+  {
+    "id": "gen-emb-1794801654-cX6eBFMo71ziRrFERRGs",
+    "model": "text-embedding-3-small",
+    "endpoint": "embeddings",
+    "usage": {
+      "prompt_tokens": 35,
+      "total_tokens": 35,
+      "cost": 7e-07,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7e-07,
+        "upstream_inference_prompt_cost": 7e-07,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "elapsed_ms": 2060.240800026804,
+    "attempt": 1
+  }
+]

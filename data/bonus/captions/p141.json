@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p141",
+  "image_sha256": "d72a2b2b2526d4688852a06580da7d3fb54ff65442c199e1787cf188386ef84f",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về chính sách lương thưởng và phúc lợi của FPT, nhấn mạnh cam kết xây dựng môi trường làm việc công bằng, minh bạch và các chính sách đãi ngộ cạnh tranh, cùng các chương trình phúc lợi đa dạng nhằm nâng cao đời sống và hỗ trợ nhân viên.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800779-tjkoxInRAcEOPQRcFdnm",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 76,
+        "total_tokens": 2638,
+        "cost": 0.0011464,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011464,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001216
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4203.515300003346,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

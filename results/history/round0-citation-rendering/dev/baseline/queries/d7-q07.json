@@ -1,0 +1,258 @@
+{
+  "status": "abstain",
+  "answer": "Luật Thương mại 2005 không có đoạn nào nêu rõ địa điểm giao hàng khi đã thỏa thuận địa điểm giao hàng trong phần trích dẫn hiện có.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_qKOoSyTYeVFUSGcsLjuBgTZt",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"địa điểm giao hàng bên bán phải giao ở đâu\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797313-rqmlYxjRkXmHQ9plGKqd"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nếu đã thỏa thuận địa điểm giao hàng, bên bán phải giao ở đâu?",
+      "model_query": "địa điểm giao hàng bên bán phải giao ở đâu",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 53"
+          },
+          "score": 0.4538570629946348,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 12,
+          "text": "chuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 12,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 37"
+          },
+          "score": 0.4486230171274035,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 11,
+          "text": "2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 11,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 2",
+            "article": "Điều 34"
+          },
+          "score": 0.4396159783139905,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\nchuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+        "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_E1YD8PBAtdI61E43U1TEi865",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Luật Thương mại 2005 không có đoạn nào nêu rõ địa điểm giao hàng khi đã thỏa thuận địa điểm giao hàng trong phần trích dẫn hiện có.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797315-CZqnKhxe6FIt23iVk1VQ"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\nchuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797313-rqmlYxjRkXmHQ9plGKqd",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 16,
+        "total_tokens": 305,
+        "cost": 0.0001412,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001412,
+          "upstream_inference_prompt_cost": 0.0001156,
+          "upstream_inference_completions_cost": 2.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1890.9060999867506,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797315-CZqnKhxe6FIt23iVk1VQ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1091,
+        "completion_tokens": 50,
+        "total_tokens": 1141,
+        "cost": 0.0005164,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005164,
+          "upstream_inference_prompt_cost": 0.0004364,
+          "upstream_inference_completions_cost": 8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1793.342900054995,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3688.869200006593,
+  "searches": 1,
+  "query_id": "d7-q07",
+  "question": "Nếu đã thỏa thuận địa điểm giao hàng, bên bán phải giao ở đâu?",
+  "split": "dev",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 16,
+      "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 53"
+      },
+      "score": 0.4538570629946348,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 12,
+      "text": "chuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 12,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 37"
+      },
+      "score": 0.4486230171274035,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p11-paragraph-1000-95c5bee8bdf2b732",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 11,
+      "text": "2. Chính phủ quy định chi tiết về quy tắc xuất xứ hàng hoá xuất khẩu, nhập khẩu.\n\nMục 2 QUYỀN VÀ NGHĨA VỤ CỦA CÁC BÊN TRONG HỢP ĐỒNG MUA BÁN HÀNG HÓA\n\nĐiều 34. Giao hàng và chứng từ liên quan đến hàng hóa\n\n1. Bên bán ph ải giao hàng, ch ứng từ theo th ỏa thuận trong h ợp đồng về số lượng, chất lượng, cách th ức đóng gói, b ảo quản và các quy định khác trong h ợp đồng.\n\n2. Trường hợp không có th ỏa thuận cụ thể, bên bán có nghĩa vụ giao hàng và chứng từ liên quan theo quy định của Luật này.\n\nĐiều 35. Địa điểm giao hàng\n\n1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận.\n\n2. Trường hợp không có thoả thuận về địa điểm giao hàng thì địa điểm giao hàng được xác định như sau:\n\na) Tr ường h ợp hàng hoá là v ật gắn liền v ới đất đai thì bên bán ph ải giao hàng tại nơi có hàng hoá đó;\n\nb) Trường hợp trong hợp đồng có quy định về vận chuyển hàng hoá thì bên bán có nghĩa vụ giao hàng cho người vận chuyển đầu tiên;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 11,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 2",
+        "article": "Điều 34"
+      },
+      "score": 0.4396159783139905,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\nchuyển hàng hoá để tạo điều kiện cho bên mua mua b ảo hiểm cho hàng hoá đó.\n\nĐiều 37. Thời hạn giao hàng\n\n1. Bên bán ph ải giao hàng vào đúng th ời điểm giao hàng đã tho ả thu ận trong hợp đồng.\n\n2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.\n\n3. Trường hợp không có th ỏa thuận về thời hạn giao hàng th ì bên bán ph ải giao hàng trong một thời hạn hợp lý sau khi giao kết hợp đồng.\n\nĐiều 38. Giao hàng trước thời hạn đã thỏa thuận Trường hợp bên bán giao hàng tr ước thời hạn đã thỏa thuận thì bên mua có quyền nhận hoặc không nhận hàng nếu các bên không có thoả thuận khác.\n\nĐiều 39. Hàng hoá không phù hợp với hợp đồng\n\n1. Trường hợp hợp đồng không có quy định cụ thể thì hàng hoá được coi là không phù hợp với hợp đồng khi hàng hoá đó thuộc một trong các trường hợp sau đây:",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-11910cf0c80108d4"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

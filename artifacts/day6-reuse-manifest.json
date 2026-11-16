@@ -1,0 +1,8 @@
+{
+  "sha256": "123eed439ccfd5fb31739e21476ce0fc04eabf01670780091b0a44f524f70872",
+  "collection": "C",
+  "chunk_vectors": 245,
+  "cached_texts": 269,
+  "source": "Original Day 6 C persistent database and real embedding cache",
+  "credentials_included": false
+}

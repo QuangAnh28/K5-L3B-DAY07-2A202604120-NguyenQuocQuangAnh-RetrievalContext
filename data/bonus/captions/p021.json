@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p021",
+  "image_sha256": "d23c020f233c5b355e3c78ac9c613c9e53dba722b3fd20e3a2a459a03f6cc177",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về việc tự động hóa quy trình bảo hiểm với AI nhằm nâng cao hiệu quả vận hành và chống gian lận trong ngành bảo hiểm.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Tác động của nền tảng iSuite trong bảo hiểm",
+        "location": "phải",
+        "description": "Các chỉ số cải thiện gồm chi phí vận hành giảm 20-30%, tổn thất liên quan đến gian lận bảo hiểm giảm 15%, khả năng phát hiện gian lận tăng 50%, thời gian phát hành hợp đồng giảm 70%, doanh thu tăng 18%, tỷ lệ khách hàng hủy hợp đồng giảm 1-2%."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800700-0txk7AnfuFXtnYWtWAHM",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 143,
+        "total_tokens": 2705,
+        "cost": 0.0012536,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012536,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002288
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4637.301400012802,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

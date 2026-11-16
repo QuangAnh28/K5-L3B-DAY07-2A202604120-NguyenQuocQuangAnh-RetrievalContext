@@ -1,0 +1,455 @@
+{
+  "status": "answered",
+  "answer": "Trường Hy Vọng mới: hơn 300 học sinh thuộc 13 dân tộc (đối tượng là học sinh; quy mô trường rộng 6.500 m²). Dự án Bếp Xanh – Sống Lành: hơn 1.000 người dân tiếp cận giải pháp bếp cải tiến (đối tượng là người dân; không có số học sinh). Tổng hợp: học sinh = hơn 300 (Trường Hy Vọng); người dân = hơn 1.000 (Bếp Xanh – Sống Lành).\n[FPT2025:p156 — Mục \"Trường Hy Vọng – Hành trình nảy mầm\", đoạn văn bên trái dưới ảnh (câu nêu hơn 300 học sinh thuộc 13 dân tộc, trường rộng 6.500 m²)] [FPT2025:p158 — Mục \"Dự án 'Bếp Xanh – Sống Lành', mang sức khỏe đến với mọi nhà\", đoạn văn bên trái dưới ảnh (câu nêu dự án giúp hơn 1.000 người dân tiếp cận giải pháp bếp cải tiến)]",
+  "citations": [
+    {
+      "id": "FPT2025:p156",
+      "region": "Mục \"Trường Hy Vọng – Hành trình nảy mầm\", đoạn văn bên trái dưới ảnh (câu nêu hơn 300 học sinh thuộc 13 dân tộc, trường rộng 6.500 m²)"
+    },
+    {
+      "id": "FPT2025:p158",
+      "region": "Mục \"Dự án 'Bếp Xanh – Sống Lành', mang sức khỏe đến với mọi nhà\", đoạn văn bên trái dưới ảnh (câu nêu dự án giúp hơn 1.000 người dân tiếp cận giải pháp bếp cải tiến)"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805449-4rFf0YhNeOCXtNwQq6IE",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01PMfYvH9BLXLWnb53qTBC56",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Trường Hy Vọng mới số học sinh hưởng lợi\",\"dự án Bếp Xanh – Sống Lành số người dân hưởng lợi\",\"Bếp Xanh Sống Lành quy mô đối tượng hưởng lợi\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Tổng hợp đối tượng và quy mô hưởng lợi của Trường Hy Vọng mới và dự án Bếp Xanh – Sống Lành: số nào là học sinh, số nào là người dân?",
+      "model_queries": [
+        "Trường Hy Vọng mới số học sinh hưởng lợi",
+        "dự án Bếp Xanh – Sống Lành số người dân hưởng lợi",
+        "Bếp Xanh Sống Lành quy mô đối tượng hưởng lợi"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p156",
+          "page": 156,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p158",
+          "page": 158,
+          "score": 0.03225806451612903,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "score": 0.03149801587301587,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p124",
+          "page": 124,
+          "score": 0.029631255487269532,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p008",
+          "page": 8,
+          "score": 0.027799227799227798,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 14
+          }
+        },
+        {
+          "id": "FPT2025:p138",
+          "page": 138,
+          "score": 0.027799227799227798,
+          "component_ranks": {
+            "dense": 14,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p118",
+          "page": 118,
+          "score": 0.027056277056277056,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 24
+          }
+        },
+        {
+          "id": "FPT2025:p073",
+          "page": 73,
+          "score": 0.025353016688061617,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 22
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Tổng hợp đối tượng và quy mô hưởng lợi của Trường Hy Vọng mới và dự án Bếp Xanh – Sống Lành: số nào là học sinh, số nào là người dân?"
+      ],
+      "context_ids": [
+        "FPT2025:p156",
+        "FPT2025:p158",
+        "FPT2025:p119",
+        "FPT2025:p124",
+        "FPT2025:p008",
+        "FPT2025:p138",
+        "FPT2025:p118",
+        "FPT2025:p073"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p156",
+          "page": 156,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "“Hy Vọng” mở ra cơ hội đến trường cho những em nhỏ chịu nhiều mất mát vì \nđại dịch Covid-19. Trong suốt 05 năm qua, trường Hy Vọng là mái nhà chung ấm áp,\nnơi các em được yêu thương, học tập và trưởng thành. Năm 2025, Trường Hy Vọng \nrộng 6.500 m² hoàn thành sau gần hai năm xây dựng, trở thành ngôi nhà mới của \nhơn 300 học sinh thuộc 13 dân tộc, với đầy đủ điều kiện để các em phát triển toàn diện.\nTrường Hy Vọng – Hành trình nảy mầm\nTrong nhiều năm qua, FPT đồng hành cùng Quỹ Hy Vọng và CBNV triển khai các \nchương trình cải thiện môi trường học tập nhằm góp phần thu hẹp khoảng cách tiếp \ncận giáo dục giữa các vùng miền trên cả nước. Các chương trình được xây dựng, triển \nkhai theo định hướng và tham chiếu với các mục tiêu Phát triển bền vững của Liên \nHợp Quốc, bao gồm SDG 4 (Giáo dục có chất lượng), SDG 6 (Nước sạch và vệ sinh) \nvà SDG 10 (Giảm bất bình đẳng).\nThu hẹp khoảng cách điều kiện học tập tại \ncác vùng khó khăn\n• Chương trình ánh sáng học đường\nTừ năm 2018, FPT đồng hành cùng chương trình “Ánh sáng học đường” cải thiện cơ \nsở vật chất giáo dục thông qua xây mới trường học, nhà bán trú, nhà vệ sinh, sân chơi; \nsơn sửa trường lớp xuống cấp; trang bị thiết bị dạy và học cho học sinh vùng sâu, \nvùng xa, những vùng khó khăn bị ảnh hưởng bởi thiên tai bão lũ.\n• Chương trình chắp cánh ước mơ\nĐược bền bỉ vun đắp bằng tâm huyết và sự chung tay của CBNV FPT, “Chắp cánh \nước mơ” đã trở thành một trong những chương trình hỗ trợ giáo dục dành riêng trẻ \nem vùng cao có hoàn cảnh khó khăn với quy mô rộng khắp và dài hạn nhất của FPT. \nNăm 2025, Chương trình đã triển khai các hoạt động hỗ trợ khắc phục những thiệt hại \nnặng nề do bão, lũ tại nhiều điểm trường trên cả nước.\n• Thư viện điện tử\nDự án do Quỹ Hy Vọng xây dựng và thực hiện, FPT là một trong những đơn vị đồng \nhành trong nhiều năm qua với mong muốn học sinh ở vùng khó khăn có cơ hội tiếp \ncận tri thức trên nền tảng trực tuyến, từ đó hỗ trợ hoạt động tra cứu, nâng cao kiến \nthức, chất lượng học tập.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về chương trình hỗ trợ giáo dục và phát triển trường học của FPT thông qua dự án Trường Hy Vọng, các chương trình cải thiện điều kiện học tập tại vùng khó khăn, và các chương trình xã hội như Ánh sáng học đường, Chắp cánh ước mơ, Thư viện điện tử.\nphoto: Lễ khánh thành điểm trường đồng tấu Trường mầm non Lương Thiện (dưới bên phải) — Ảnh chụp nhóm người lớn và trẻ em tại lễ khánh thành điểm trường mầm non\nphoto: Trường Hy Vọng - Hành trình nảy mầm (trên giữa) — Ảnh chụp tập thể học sinh và giáo viên đứng trước trường học có cờ đỏ sao vàng",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ khánh thành điểm trường đồng tấu Trường mầm non Lương Thiện",
+              "location": "dưới bên phải",
+              "description": "Ảnh chụp nhóm người lớn và trẻ em tại lễ khánh thành điểm trường mầm non"
+            },
+            {
+              "type": "photo",
+              "title": "Trường Hy Vọng - Hành trình nảy mầm",
+              "location": "trên giữa",
+              "description": "Ảnh chụp tập thể học sinh và giáo viên đứng trước trường học có cờ đỏ sao vàng"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p158",
+          "page": 158,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Tổ chức World Vision và FPT ký kết Biên bản ghi nhớ hợp tác triển khai Dự án \n“Bếp Xanh – Sống Lành” tại xã Sín Chải, tỉnh Điện Biên. Sự kiện đánh dấu bước tiến \nquan trọng trong nỗ lực thúc đẩy phát triển bền vững, cải thiện sức khỏe \ncộng đồng và tăng cường khả năng thích ứng với biến đổi khí hậu tại khu vực \nnông thôn Việt Nam.\nDự án giúp hơn 1.000 người dân tiếp cận các giải pháp bếp cải tiến nhằm giảm \nô nhiễm không khí trong nhà, cải thiện điều kiện sức khỏe và cắt giảm phát thải khí \nnhà kính. Việc thúc đẩy các giải pháp nấu ăn sạch góp phần bảo vệ tài nguyên \nrừng, nâng cao chất lượng sống và năng lực chống chịu của các cộng đồng dễ bị \ntổn thương trước tác động của biến đổi khí hậu.\n• Dự án \"Bếp Xanh – Sống Lành\", mang sức khỏe đến với mọi nhà\nNgày hội hiến máu nhân đạo được FPT tổ chức thường niên với mong muốn \nnâng cao tinh thần tương thân tương ái, góp phần chia sẻ khó khăn với những \nhoàn cảnh kém may mắn trong xã hội. Với tinh thần “Một giọt máu cho đi, \nmột cuộc đời ở lại”, nghĩa cử hiến máu cứu người của CBNV FPT trở thành một \nnét đẹp trong hoạt động thiện nguyện của FPT hàng năm. \nTrong năm 2025, 2.045 CBNV tham gia 10 đợt hiến máu với 2.910 đơn vị máu \nđược hiến tặng. Hoạt động khích lệ CBNV cùng chia sẻ những giá trị tốt đẹp, \nduy trì tinh thần lạc quan, năng lượng tích cực để cùng nhau tạo nên một \ncộng đồng hạnh phúc.\n• Hiến máu nhân đạo\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025, giới thiệu dự án Bếp Xanh – Sống Lành và hoạt động hiến máu nhân đạo.\nphoto: Lễ ký kết dự án Bếp Xanh – Sống Lành (trên trái) — Ảnh chụp lễ ký kết hợp tác giữa tổ chức World Vision và FPT tại Sơn La, tỉnh Điện Biên\nphoto: Hoạt động hiến máu nhân đạo (trên phải) — Ảnh chụp hai nhân viên FPT tham gia hiến máu với biểu ngữ 'Một giọt máu cho đi, một cuộc đời ở lại'",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ ký kết dự án Bếp Xanh – Sống Lành",
+              "location": "trên trái",
+              "description": "Ảnh chụp lễ ký kết hợp tác giữa tổ chức World Vision và FPT tại Sơn La, tỉnh Điện Biên"
+            },
+            {
+              "type": "photo",
+              "title": "Hoạt động hiến máu nhân đạo",
+              "location": "trên phải",
+              "description": "Ảnh chụp hai nhân viên FPT tham gia hiến máu với biểu ngữ 'Một giọt máu cho đi, một cuộc đời ở lại'"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường \nlàm việc hướng tới môi trường làm \nviệc xanh, an toàn, lành mạnh.\n• Mục tiêu trung hạn: đến năm 2030, \ngiảm 15,8% tổng lượng phát thải \nkhí nhà kính phù hợp với mục tiêu \nchung của Việt Nam;\n• Mục tiêu dài hạn: đến năm 2040 \nđạt Net Zero như cam kết của \nChính phủ Việt Nam tại COP 26.\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\n nhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và \ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n• 100% số liệu sử dụng năng lượng được giám sát;\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\n sản lượng 842.749 kWh;\n• 100% cơ sở được kiểm kê và giám sát phát thải khí nhà kính \nđịnh kỳ.\nKết quả nổi bật 2025\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nĐào tạo nguồn \nnhân lực công nghệ\nchất lượng cao\nTạo điều kiện\ntốt nhất để trẻ em\nViệt Nam có cơ hội \ntiếp cận giáo dục\nchất lượng và bền vững\nLà đơn vị dẫn đầu trong đào tạo \nnhân lực số có năng lực cạnh tranh \ntoàn cầu.\n• Đào tạo 10.000 kỹ sư bán dẫn vào \nnăm 2030;\n• Đưa AI vào đào tạo người học ở tất \ncả các bậc học thuộc hệ thống \ngiáo dục của FPT.\n• 3.700 sinh viên theo học các chương trình và chuyên ngành \nđào tạo AI, thiết kế vi mạch bán dẫn của hệ thống giáo dục FPT;\n• Nghiên cứu, ứng dụng và phát triển các giải pháp công nghệ \ntiên tiến nhất, gia tăng tương tác và cá nhân hóa trải nghiệm \ncủa người học; đưa AI vào đào tạo từ bậc tiểu học đến\nphổ thông, cao đẳng, đại học và sau đại học; \n• Trao 151 tỷ đồng học bổng Nguyễn Văn Đạo.\nChú trọng hỗ trợ tạo điều kiện \nhọc tập tốt hơn cho các hoàn cảnh \nyếu thế tại các khu vực kinh tế \nkhó khăn, vùng núi, vùng sâu, \nvùng xa.\n• Tiếp tục duy trì quỹ dành cho các \nhoạt động phát triển vì cộng đồng \ntập trung chủ yếu vào các hoạt \nđộng giáo dục.\n• Sử dụng 72,8 tỷ đồng cho các hoạt động trách nhiệm xã hội;\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở \nhạng mục Dự án kịp thời;\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ.\nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p124",
+          "page": 124,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Cộng đồng\nChương trình hành động nổi bật Kết quả năm 2025\nChung tay cùng cộng đồng vượt qua\nthách thức vì một cuộc sống tốt đẹp hơn\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở hạng mục Dự án kịp thời;\n• 15 năm liên tiếp triển khai Ngày FPT vì cộng đồng; \n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ; \n• Triển khai dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam; \n• Tiếp tục đồng hành cùng chương trình “Nâng bước em đến trường” (Quỹ Hy Vọng khởi xướng) xây dựng cầu bê tông\n kiên cố tại khu vực Đồng bằng sông Cửu Long. Năm 2025, FPT đã đóng góp 08 tỷ đồng cho Chương trình. \nTriển khai các chương trình trao học bổng,\nhỗ trợ tài năng trẻ\n• Cấp 38 học bổng với tổng số tiền tương ứng 912 triệu đồng hỗ trợ các thành viên Trung tâm bồi dưỡng tài năng trẻ FPT \n(FYT), đồng thời hỗ trợ chi phí, cơ sở vật chất, kết nối chuyên gia trong một số lĩnh vực giúp các thành viên theo đuổi\n khát vọng, mở rộng kết nối, phát triển các kỹ năng mềm thiết yếu cho tương lai;\n• Tiếp tục triển khai học bổng thường niên Nguyễn Văn Đạo với 8.875 học bổng cho các sinh viên có hoàn cảnh khó khăn \nđạt thành tích học tập xuất sắc hoặc có tài năng nổi trội tại nhiều tỉnh thành trên toàn quốc.\n• Báo chí và các cơ quan truyền thông\nChương trình hành động nổi bật Kết quả năm 2025\nThường xuyên, chủ động cung cấp thông tin \ncho báo chí, thông qua: bản tin FPT, thông cáo \nbáo chí, họp báo, bài viết…\n• Cung cấp kịp thời, đầy đủ những thông tin có giá trị, hữu ích cho cộng đồng với các chủ đề đa dạng, từ xu hướng \nthị trường CNTT, định hướng chiến lược đến kế hoạch kinh doanh và hoạt động của Tập đoàn, qua đó truyền tải/cập nhật\nthông tin cho các đối tượng liên quan.\nTích cực tham gia sáng kiến, diễn đàn truyền \nthông về ESG\n• Tham gia Diễn đàn ESG Việt Nam do Báo Dân Trí khởi xướng và tổ chức. Tại sự kiện, FPT chia sẻ kinh nghiệm triển khai \nlộ trình phát triển bền vững, cam kết Net Zero, đồng thời giới thiệu việc ứng dụng công nghệ số, dữ liệu và AI trong\n quản trị và thực hành ESG.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chương trình hành động nổi bật và kết quả năm 2025 trong lĩnh vực cộng đồng và báo chí, truyền thông của FPT.\ntable: Chương trình hành động nổi bật và kết quả năm 2025 - Cộng đồng (phải) — Bảng liệt kê các chương trình hành động nổi bật trong cộng đồng và kết quả đạt được năm 2025, gồm các dự án hỗ trợ cộng đồng, trao học bổng và hỗ trợ tài năng trẻ.\ntable: Chương trình hành động nổi bật và kết quả năm 2025 - Báo chí và các cơ quan truyền thông (phải) — Bảng liệt kê các chương trình hành động nổi bật trong lĩnh vực báo chí và truyền thông, cùng kết quả năm 2025, bao gồm cung cấp thông tin cho báo chí và tham gia các diễn đàn truyền thông về ESG.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Cộng đồng",
+              "location": "phải",
+              "description": "Bảng liệt kê các chương trình hành động nổi bật trong cộng đồng và kết quả đạt được năm 2025, gồm các dự án hỗ trợ cộng đồng, trao học bổng và hỗ trợ tài năng trẻ."
+            },
+            {
+              "type": "table",
+              "title": "Chương trình hành động nổi bật và kết quả năm 2025 - Báo chí và các cơ quan truyền thông",
+              "location": "phải",
+              "description": "Bảng liệt kê các chương trình hành động nổi bật trong lĩnh vực báo chí và truyền thông, cùng kết quả năm 2025, bao gồm cung cấp thông tin cho báo chí và tham gia các diễn đàn truyền thông về ESG."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p008",
+          "page": 8,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lĩnh vực Giáo dục tiếp tục mở rộng hệ thống rộng khắp, mang đến trải nghiệm vượt trội \nvà hạnh phúc cho người học, đồng thời tăng cường hơn nữa việc đưa AI vào chương trình \nđào tạo gắn với mô hình “học – ứng dụng – thử nghiệm” và đẩy mạnh đào tạo nguồn \nnhân lực công nghệ chiến lược như: AI, bán dẫn…\nĐể đạt được mục tiêu đề ra, FPT sẽ tập trung triển khai bốn nhóm hành động trọng tâm. \nThứ nhất là thay đổi nhận thức và nâng cao năng lực dự báo, giúp Tập đoàn chủ động \nnhận diện xu hướng, xác định đúng vị thế và duy trì động lực nội tại. \nThứ hai là nâng cao kỷ cương thực thi chiến lược, coi kỷ luật là yếu tố nền tảng \ntrong quản trị, gắn chặt kết quả thực hiện với hệ thống vận hành và trách nhiệm \ncủa từng cấp quản lý. \nThứ ba là đẩy mạnh hơn nữa việc thu hút, nuôi dưỡng và phát triển nhân tài, \ncoi con người là tài sản quan trọng nhất và là lợi thế cạnh tranh bền vững của FPT. \nThứ tư là quản trị và điều hành dựa trên dữ liệu, xuyên suốt từ cấp Tập đoàn đến các \ncông ty thành viên. Việc này sẽ giúp Tập đoàn kịp thời tháo gỡ điểm nghẽn và đưa ra \nquyết sách nhanh chóng, chính xác trước những thách thức bất định của thị trường.\nVà quan trọng hơn cả, FPT tiếp tục củng cố niềm tin với con người, với công việc, \nvới khách hàng lớn, với Chính phủ và Quốc gia, đồng thời, kiên định theo đuổi chiến \nlược tăng trưởng bền vững, đặt lợi ích dài hạn của cổ đông làm trọng tâm. Với nền \ntảng đã được xây dựng trong nhiều năm qua, chúng tôi tin tưởng FPT sẽ tiếp tục \nduy trì đà tăng trưởng ổn định, nâng cao năng lực cạnh tranh và đóng góp tích cực \nvào sự phát triển của nền kinh tế số Việt Nam.\n2026, năm bản lề cho chu kỳ tăng trưởng mới\nNăm 2026 cũng sẽ không dễ dàng, thậm chí khó hơn 2025. Nhưng đây sẽ là năm \nbản lề cho một chu kỳ phát triển, tăng trưởng mới của FPT. Tập đoàn đặt mục tiêu \ntăng trưởng 15,8% doanh thu và 15,0% lợi nhuận trước thuế. \nKhối Công nghệ tiếp tục là trụ cột tăng trưởng chính với mục tiêu doanh thu \ntăng trưởng 18,4% và lợi nhuận 24,4%, đồng thời tập trung đầu tư vào các \ncông nghệ chiến lược như: AI, Quantum AI, Cybersecurity, UAV, Công nghệ \nđường sắt, Dữ liệu. Lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài tập trung \nvào ba trụ cột chiến lược. Thứ nhất là “AI-First”. AI được xác định là năng lực \nxuyên suốt trong thiết kế giải pháp, phát triển sản phẩm và tổ chức vận hành \ngiúp Tập đoàn gia tăng năng suất và tạo năng lực cạnh tranh khác biệt. Thứ hai \nlà “Mâm trên”. FPT sẽ tập trung các dự án quy mô lớn, khách hàng chiến lược và \ncác hợp đồng có giá trị cao. Thứ ba là “Hợp lực”. Tập đoàn sẽ đẩy mạnh hợp tác \nvới các Big Tech, đồng thời tăng cường phối hợp nội bộ trong Tập đoàn để cung cấp \ncác giải pháp tổng thể, quy mô lớn. Trong lĩnh vực Dịch vụ CNTT cho thị trường trong \nnước, FPT sẽ mở rộng hệ sinh thái sản phẩm Made by FPT và tham gia sâu, rộng vào \ncác bài toán chuyển đổi số của quốc gia, bộ ngành, tỉnh thành. \nĐặc biệt, Tập đoàn tiếp tục duy trì môi trường làm việc hạnh phúc, đa văn hóa, \nnăng động và hòa nhập, qua đó tạo nền tảng vững chắc để thu hút đội ngũ nhân \nsự trẻ, tài năng trên quy mô toàn cầu. Số nhân sự dưới 30 tuổi chiếm 43,9%; \nsố cán bộ quản lý dưới 40 tuổi chiếm 53,2%; 4.124 nhân sự người nước ngoài \nthu",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tỷ lệ nhân sự theo độ tuổi",
+              "location": "giữa trang",
+              "description": "Tỷ lệ nhân sự dưới 30 tuổi chiếm 43,9%, tỷ lệ cán bộ quản lý dưới 40 tuổi chiếm 53,2%."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p138",
+          "page": 138,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Tại FPT, phát triển nguồn nhân lực được xác định là trụ cột chiến lược nhằm duy trì \nnăng lực cạnh tranh và vị thế công ty công nghệ đẳng cấp toàn cầu. Năm 2025, \nTập đoàn triển khai sâu rộng các chương trình đào tạo theo nhiều hình thức, nổi bật \nlà hệ thống MOOCs với hơn 3 triệu giờ học, tỷ lệ hoàn thành đạt 99,7%; 100% \nCBNV từ cấp 02 trở lên tham gia đào tạo thường niên và được cấp tài khoản học tập \ntrực tuyến. Tập đoàn cũng cung cấp hơn 63.000 tài khoản học tập trên các nền tảng \nuy tín như: Udemy, LinkedIn, Harvard, DataCamp, Coursera tạo điều kiện cho \nCBNV chủ động nâng cao năng lực chuyên môn và kỹ năng.\nBên cạnh đó, mô hình Mentor – Mentee tiếp tục được mở rộng, thu hút 1.581 \nMentor và 10.606 Mentee tham gia với 209.138 giờ sinh hoạt, cao hơn 2,1 lần so với \nnăm 2024, góp phần lan tỏa tri thức và kinh nghiệm quản lý trong nội bộ. Công tác \nphát triển đội ngũ quản lý được đẩy mạnh thông qua các chương trình MiniMBA và \nđào tạo cán bộ quản lý cấp trung với hơn 47.000 giờ học trong năm 2025 tập trung \nnâng cao năng lực quản trị, điều hành và xây dựng đội ngũ lãnh đạo kế cận.\nSong song, FPT triển khai đào tạo diện rộng cho khối công nghệ và khối quản trị \n– vận hành, đặc biệt chú trọng đào tạo về xu hướng công nghệ, AI và ESG. Nổi bật là \nchuỗi chương trình đào tạo Bình dân AI vụ giúp 98% CBNV trang bị kiến thức AI \nnền tảng, tương ứng hơn 1,1 triệu giờ học. Chuỗi chương trình quản trị trải nghiệm học \ntập - Contest gồm 09 cuộc thi với 2.731 CBNV tham dự, góp phần nâng cao năng lực \nchuyên môn, kỹ năng mềm, khuyến khích đổi mới sáng tạo và phát huy giá trị cốt lõi.\nTổng số giờ đào tạo nội bộ giai đoạn 2021-2025\n2021 2022 2023 2024 2025\n8.000.000\n6.000.000\n4.000.000\n2.000.000\n0\n3.414.168 3.803.220 5.588.966 6.365.814 7.121.722\nĐơn vị: Giờ\n• Đào tạo phát triển\nCơ hội học hỏi và thăng tiến\nFPT cam kết phát triển nguồn nhân lực chất lượng cao không chỉ cho nội bộ Tập đoàn \nmà còn đóng góp cho nền kinh tế Việt Nam. Trong năm qua, FPT đã và đang đào tạo \nhàng trăm nghìn người học từ cấp phổ thông cho đến đại học và sau đại học, đồng thời \nmở rộng hợp tác với các tổ chức đào tạo uy tín trên thế giới cũng như các trường \nđại học hàng đầu trong nước.\nTrên bình diện quốc tế, FPT hợp tác với các đối tác hàng đầu để triển khai các \nchương trình đào tạo về công nghệ mới, trọng tâm là AI và chip bán dẫn. Tại Việt Nam, \nTập đoàn phối hợp chặt chẽ với các trường đại học thông qua các hoạt động thực tập, \nnghiên cứu, hỗ trợ học bổng, xây dựng học liệu và phòng thí nghiệm, cũng như tạo \ncơ hội việc làm cho sinh viên. Trong lĩnh vực nghiên cứu và phát triển, các bên cùng \nphát triển sản phẩm công nghệ mang thương hiệu chung và tổ chức các hội thảo \nkhoa học, góp phần lan tỏa tri thức và thúc đẩy hệ sinh thái đổi mới sáng tạo.\nMột số chương trình đào tạo tiêu biểu dành cho sinh viên và người mới tốt nghiệp \n(Fresher):\n• Chương trình thực tập từ 02-03 tháng tại FPT và công ty thành viên nhằm giúp củng \ncố kiến thức và kinh nghiệm làm việc thực tế thông qua sự hướng dẫn của các chuyên \ngia và lãnh đạo quản lý đã đón hơn 3.000 sinh viên thực tập trong năm 2025; \n• Chương trình đào tạo tân binh dành cho tất cả sinh viên đang học hoặc đã tốt nghiệp \nđại học, ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tổng số giờ đào tạo nội bộ giai đoạn 2021-2025",
+              "location": "dưới",
+              "description": "Biểu đồ cột thể hiện tổng số giờ đào tạo nội bộ theo từng năm từ 2021 đến 2025, đơn vị tính là giờ, với số liệu tăng dần qua các năm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p118",
+          "page": 118,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "TẠO MÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nNơi làm việc\nhạnh phúc\nDuy trì một nơi làm việc hạnh phúc \ngiúp CBNV dễ dàng hòa nhập,\ncó cơ hội tham gia, đóng góp,\nphát triển một cách tự do và\ncông bằng; luôn đổi mới, sáng tạo \nđể mang lại hạnh phúc cho CBNV \ndựa trên các yếu tố: tài chính,\nthể chất, trí tuệ và tinh thần.\n• Đạt và duy trì liên tục qua hàng năm \ndanh hiệu Nơi làm việc xuất sắc \nnhất Châu Á do Great Place To \nWork công bố;\n• Hướng đến xây dựng môi trường \nlàm việc hạnh phúc, dựa trên nhiều \nkhía cạnh: chăm sóc sức khỏe thể \nchất và tinh thần, điều kiện làm \nviệc hiện đại, thu nhập và phúc lợi \ntốt, có cơ hội được phát triển, tham \ngia đóng góp cho cộng đồng.\n• Triển khai các chính sách phúc lợi chăm sóc sức khỏe thể \nchất và tinh thần cho CBNV như: khám sức khỏe cho 100% \nCBNV; bảo hiểm y tế riêng FPT Care cho 100% CBNV;\n• Tổ chức chuỗi chương trình Vui khỏe – Gắn kết – Yêu thương;\n• Đẩy mạnh triển khai và nâng cao hiệu quả chương trình \nkhoán thu nhập: minh bạch, làm nhiều hưởng nhiều và trả \nsớm; hướng tới nâng cao mặt bằng thu nhập; \n• Xây dựng và phát triển các chính sách phúc lợi ngoài lương: \nchính sách An cư lạc nghiệp (hỗ trợ mua nhà, xe);\n• Khởi công xây dựng Khu công viên công nghệ số góp phần \nkhẳng định vị thế Hà Nội là trung tâm khoa học công nghệ \ncủa cả nước, xa hơn là từng bước hiện thực hóa khát vọng về \nmột “Thung lũng Silicon” của Việt Nam.\nTổ chức học tập\nsuốt đời\nDuy trì FPT luôn là tổ chức học \ntập, kiến tạo việc học tập suốt đời \ncủa CBNV.\n• Sử dụng công nghệ để cá thể hóa \nviệc học của CBNV; \n• Đẩy mạnh và nâng cao số giờ học \ncho CBNV; \n• Nâng cao hiệu quả đào tạo bằng \ncông nghệ tiên tiến: AI Mentor, \nText-to-voice, chatbot…\n• Ứng dụng AI Mentoring, AI Knowledge Explore cá thể hóa lộ \ntrình học cho CBNV;\n• Đầu tư sử dụng các nền tảng toàn cầu đáp ứng nhu cầu học \ntập chuyên nghiệp, đa dạng của CBNV như: Coursera, \nUdemy, Udacity;\n• Ghi nhận trên 7,1 triệu giờ đào tạo, đạt 151 giờ học trung \nbình/năm/CBNV;\n• 1,1 triệu giờ học nâng cao kiến thức kỹ năng AI.\nBình đẳng và\nđa dạng\nDuy trì môi trường làm việc\nbình đẳng, tôn trọng cá nhân, \nkhông phân biệt đối xử.\n• Duy trì tỷ lệ nữ giới trong quy mô \nnhân sự trên 35%;\n• Duy trì và tăng cường sự đa dạng, \ncông bằng và hòa hợp.\n• Tỷ lệ nhân sự nữ chiếm 37,7% tổng nhân sự;\n• Tích cực mở rộng tuyển dụng CBNV người nước ngoài. Tổng \nsố CBNV người nước ngoài là 4.124 người từ 82 quốc tịch, \ntăng 18,2% so với năm 2024. \nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày cam kết, mục tiêu và kết quả nổi bật năm 2025 về việc tạo môi trường làm việc đẳng cấp, hạnh phúc tại FPT.\ntable: Cam kết, mục tiêu và kết quả nổi bật 2025 về môi trường làm việc (trái) — Bảng gồm các cột: Vấn đề trọng yếu, Cam kết, Mục tiêu, Kết quả nổi bật 2025; các vấn đề trọng yếu gồm: Nơi làm việc hạnh phúc, Tổ chức học tập suốt đời, Bình đẳng và đa dạng; nội dung chi tiết về cam kết duy trì môi trường làm việc, mục tiêu phát triển và kết quả thực hiện trong năm 2025.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Cam kết, mục tiêu và kết quả nổi bật 2025 về môi trường làm việc",
+              "location": "trái",
+              "description": "Bảng gồm các cột: Vấn đề trọng yếu, Cam kết, Mục tiêu, Kết quả nổi bật 2025; các vấn đề trọng yếu gồm: Nơi làm việc hạnh phúc, Tổ chức học tập suốt đời, Bình đẳng và đa dạng; nội dung chi tiết về cam kết duy trì môi trường làm việc, mục tiêu phát triển và kết quả thực hiện trong năm 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p073",
+          "page": 73,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Sinh viên chuyên ngành\nđào tạo AI, Thiết kế vi mạch\nbán dẫn \n3.700\nLĩnh vực Giáo dục\nNăm 2025, hệ thống giáo dục của FPT tập trung vào ba từ khóa \nquan trọng đó là: hệ thống rộng khắp, trải nghiệm vượt trội và \nthầy trò hạnh phúc nhằm tiếp tục đưa trí tuệ Việt Nam vươn xa, \nvươn cao trên toàn cầu.\nNăm 2026, hệ thống giáo dục FPT tiếp tục kiên định với ba từ \nkhóa quan trọng này, đồng thời tăng cường hơn nữa việc đưa AI \nvào học tập theo hướng thực tiễn, gắn với mô hình “học – ứng \ndụng – thử nghiệm” góp phần đổi mới phương pháp dạy và học \ntrong bối cảnh chuyển đổi số.\nTỉnh thành có cơ sở đào tạo\n19/34\n180 Đối tác \nquốc tế từ\n40\nQuốc gia\nHệ thống giáo dục có \ntầm ảnh hưởng khu vực \nchâu Á-Thái Bình Dương\nHọc sinh từ lớp 1 đến lớp 12\nđược tiếp cận AI\n100%\nÔng LÊ TRƯỜNG TÙNG\nTổng Giám đốc FPT Education\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTổng quan về lĩnh vực giáo dục của FPT với các số liệu về hệ thống giáo dục, đối tác quốc tế, sinh viên chuyên ngành và học sinh tiếp cận AI, cùng định hướng phát triển năm 2025 và 2026.\ntable: Thông tin chính về lĩnh vực giáo dục FPT (trái) — Các số liệu gồm: hệ thống giáo dục ảnh hưởng khu vực châu Á-Thái Bình Dương; 180 đối tác quốc tế từ 40 quốc gia; 3.700 sinh viên chuyên ngành đào tạo AI, thiết kế vi mạch bán dẫn; 19/34 tỉnh thành có cơ sở đào tạo; 100% học sinh từ lớp 1 đến lớp 12 được tiếp cận AI.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Thông tin chính về lĩnh vực giáo dục FPT",
+              "location": "trái",
+              "description": "Các số liệu gồm: hệ thống giáo dục ảnh hưởng khu vực châu Á-Thái Bình Dương; 180 đối tác quốc tế từ 40 quốc gia; 3.700 sinh viên chuyên ngành đào tạo AI, thiết kế vi mạch bán dẫn; 19/34 tỉnh thành có cơ sở đào tạo; 100% học sinh từ lớp 1 đến lớp 12 được tiếp cận AI."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p156",
+          "path": ".bonus/pages/p156.jpg",
+          "sha256": "a76cc7d64685f9b3118517deee6a418374db0dc7b519c3659d62f09ae0179d85"
+        },
+        {
+          "id": "FPT2025:p158",
+          "path": ".bonus/pages/p158.jpg",
+          "sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869"
+        },
+        {
+          "id": "FPT2025:p119",
+          "path": ".bonus/pages/p119.jpg",
+          "sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+        },
+        {
+          "id": "FPT2025:p124",
+          "path": ".bonus/pages/p124.jpg",
+          "sha256": "d569dba3d557835cfd21cca175e66ab894275f2b6b20c67e237d59d62c3a7c26"
+        },
+        {
+          "id": "FPT2025:p008",
+          "path": ".bonus/pages/p008.jpg",
+          "sha256": "0bf06a62ba691e40d48bdaae40cd6788390bc54db0ce3244a2393ed3697f2712"
+        },
+        {
+          "id": "FPT2025:p138",
+          "path": ".bonus/pages/p138.jpg",
+          "sha256": "c0bb6fdc17a6be6be4ceecf7534c39a06c9ad2c55126b5e8a2c915faf27ec88c"
+        },
+        {
+          "id": "FPT2025:p118",
+          "path": ".bonus/pages/p118.jpg",
+          "sha256": "52ab668e33b18a3e0f4899ab341c42d7131e732ecb156566470b900c2264aa9e"
+        },
+        {
+          "id": "FPT2025:p073",
+          "path": ".bonus/pages/p073.jpg",
+          "sha256": "60868b8c54ce3c7d621c9ef4b47ae0cf0f9c9ec0cc905ab4c163af70333303f1"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805453-isJ4agWxgXO3ARM641DJ",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01SV4AaFxKEcW2FgtYhwgNJN",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Trường Hy Vọng mới: hơn 300 học sinh thuộc 13 dân tộc (đối tượng là học sinh; quy mô trường rộng 6.500 m²). Dự án Bếp Xanh – Sống Lành: hơn 1.000 người dân tiếp cận giải pháp bếp cải tiến (đối tượng là người dân; không có số học sinh). Tổng hợp: học sinh = hơn 300 (Trường Hy Vọng); người dân = hơn 1.000 (Bếp Xanh – Sống Lành).\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p156\",\"region\":\"Mục \\\"Trường Hy Vọng – Hành trình nảy mầm\\\", đoạn văn bên trái dưới ảnh (câu nêu hơn 300 học sinh thuộc 13 dân tộc, trường rộng 6.500 m²)\"},{\"id\":\"FPT2025:p158\",\"region\":\"Mục \\\"Dự án 'Bếp Xanh – Sống Lành', mang sức khỏe đến với mọi nhà\\\", đoạn văn bên trái dưới ảnh (câu nêu dự án giúp hơn 1.000 người dân tiếp cận giải pháp bếp cải tiến)\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p156",
+    "FPT2025:p158",
+    "FPT2025:p119",
+    "FPT2025:p124",
+    "FPT2025:p008",
+    "FPT2025:p138",
+    "FPT2025:p118",
+    "FPT2025:p073"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p156",
+      "page": 156,
+      "image": ".bonus/pages/p156.jpg",
+      "image_sha256": "a76cc7d64685f9b3118517deee6a418374db0dc7b519c3659d62f09ae0179d85"
+    },
+    {
+      "id": "FPT2025:p158",
+      "page": 158,
+      "image": ".bonus/pages/p158.jpg",
+      "image_sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869"
+    },
+    {
+      "id": "FPT2025:p119",
+      "page": 119,
+      "image": ".bonus/pages/p119.jpg",
+      "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+    },
+    {
+      "id": "FPT2025:p124",
+      "page": 124,
+      "image": ".bonus/pages/p124.jpg",
+      "image_sha256": "d569dba3d557835cfd21cca175e66ab894275f2b6b20c67e237d59d62c3a7c26"
+    },
+    {
+      "id": "FPT2025:p008",
+      "page": 8,
+      "image": ".bonus/pages/p008.jpg",
+      "image_sha256": "0bf06a62ba691e40d48bdaae40cd6788390bc54db0ce3244a2393ed3697f2712"
+    },
+    {
+      "id": "FPT2025:p138",
+      "page": 138,
+      "image": ".bonus/pages/p138.jpg",
+      "image_sha256": "c0bb6fdc17a6be6be4ceecf7534c39a06c9ad2c55126b5e8a2c915faf27ec88c"
+    },
+    {
+      "id": "FPT2025:p118",
+      "page": 118,
+      "image": ".bonus/pages/p118.jpg",
+      "image_sha256": "52ab668e33b18a3e0f4899ab341c42d7131e732ecb156566470b900c2264aa9e"
+    },
+    {
+      "id": "FPT2025:p073",
+      "page": 73,
+      "image": ".bonus/pages/p073.jpg",
+      "image_sha256": "60868b8c54ce3c7d621c9ef4b47ae0cf0f9c9ec0cc905ab4c163af70333303f1"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805449-4rFf0YhNeOCXtNwQq6IE",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1833,
+        "completion_tokens": 120,
+        "total_tokens": 1953,
+        "cost": 0.0002433,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002433,
+          "upstream_inference_prompt_cost": 0.0001833,
+          "upstream_inference_completions_cost": 6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1129.5341000077315,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805453-isJ4agWxgXO3ARM641DJ",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 31956,
+        "completion_tokens": 508,
+        "total_tokens": 32464,
+        "cost": 0.0034496,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0034496,
+          "upstream_inference_prompt_cost": 0.0031956,
+          "upstream_inference_completions_cost": 0.000254
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5394.294400000945,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 7926.850300049409,
+  "query_id": "ft-m4",
+  "question": "Tổng hợp đối tượng và quy mô hưởng lợi của Trường Hy Vọng mới và dự án Bếp Xanh – Sống Lành: số nào là học sinh, số nào là người dân?",
+  "split": "test",
+  "config": "vision"
+}

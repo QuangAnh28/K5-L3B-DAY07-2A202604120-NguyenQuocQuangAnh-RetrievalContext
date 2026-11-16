@@ -1,0 +1,260 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_wO5y5vQJOUQAuSoR6CIe5CGM",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"hợp đồng mua bán hàng hóa hình thức Chương II\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797337-03mpFkaxpSwz68EVahr0"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Trong phạm vi Chương II, hợp đồng mua bán hàng hóa có những hình thức nào?",
+      "model_query": "hợp đồng mua bán hàng hóa hình thức Chương II",
+      "filter": {
+        "chapter": "Chương Ii"
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 13,
+          "text": "3. Bên bán ph ải chịu trách nhi ệm về khiếm khuyết của hàng hóa phát sinh sau thời điểm chuyển rủi ro nếu khiếm khuyết đó do bên bán vi phạm hợp đồng.\n\nĐiều 41. Khắc phục trong trường hợp giao thiếu hàng, giao hàng không phù hợp với hợp đồng\n\n1. Trừ trường hợp có th ỏa thuận khác, nếu hợp đồng chỉ quy định thời hạn giao hàng và không xác định thời điểm giao hàng c ụ thể mà bên bán giao hàng trước khi h ết th ời h ạn giao hàng và giao thi ếu hàng ho ặc giao hàng không phù hợp với hợp đồng thì bên bán v ẫn có th ể giao ph ần hàng còn thi ếu hoặc thay th ế hàng hoá cho phù h ợp với hợp đồng hoặc khắc phục sự không phù h ợp của hàng hoá trong thời hạn còn lại.\n\n2. Khi bên bán th ực hiện việc khắc phục quy định tại khoản 1 Điều này mà gây b ất lợi ho ặc làm phát sinh chi phí b ất h ợp lý cho bên mua thì bên mua có quyền yêu cầu bên bán khắc phục bất lợi hoặc chịu chi phí đó.\n\nĐiều 42. Giao chứng từ liên quan đến hàng hoá",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 13,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 41"
+          },
+          "score": 0.6511978750502225,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 8,
+          "text": "Chương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 8,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 1",
+            "article": "Điều 24"
+          },
+          "score": 0.6174782091101149,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-b342aef80c093fdf",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 20,
+          "text": "đồng theo các nội dung đã thoả thuận với khách hàng.\n\n5. Các hành vi bị cấm khác quy định tại khoản 2 Điều 71 của Luật này.\n\nĐiều 71. Các hành vi b ị cấm trong hoạt động mua bán hàng hoá qua S ở giao dịch hàng hóa\n\n1. Nhân viên c ủa Sở giao d ịch hàng hoá không được phép môi gi ới, mua bán hàng hoá qua Sở giao dịch hàng hoá.\n\n2. Cá c bên liên quan đến ho ạt động mua bán hàng hoá qua S ở giao d ịch hàng hoá không được thực hiện các hành vi sau đây:\n\na) Gian l ận, l ừa d ối v ề kh ối l ượng hàng hóa trong các h ợp đồng k ỳ h ạn hoặc h ợp đồng quy ền chọn được giao d ịch ho ặc có th ể được giao d ịch và gian lận, lừa dối về giá thực tế của loại hàng hoá trong các h ợp đồng kỳ hạn hoặc hợp đồng quyền chọn;\n\nb) Đưa tin sai lệch về các giao d ịch, thị trường hoặc giá hàng hoá mua bán qua Sở giao dịch hàng hóa;\n\nc) Dùng các biện pháp bất hợp pháp để gây rối loạn thị trường hàng hóa tại Sở giao dịch hàng hoá;\n\nd) Các hành vi bị cấm khác theo quy định của pháp luật.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 20,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 71"
+          },
+          "score": 0.6012266618292762,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n3. Bên bán ph ải chịu trách nhi ệm về khiếm khuyết của hàng hóa phát sinh sau thời điểm chuyển rủi ro nếu khiếm khuyết đó do bên bán vi phạm hợp đồng.\n\nĐiều 41. Khắc phục trong trường hợp giao thiếu hàng, giao hàng không phù hợp với hợp đồng\n\n1. Trừ trường hợp có th ỏa thuận khác, nếu hợp đồng chỉ quy định thời hạn giao hàng và không xác định thời điểm giao hàng c ụ thể mà bên bán giao hàng trước khi h ết th ời h ạn giao hàng và giao thi ếu hàng ho ặc giao hàng không phù hợp với hợp đồng thì bên bán v ẫn có th ể giao ph ần hàng còn thi ếu hoặc thay th ế hàng hoá cho phù h ợp với hợp đồng hoặc khắc phục sự không phù h ợp của hàng hoá trong thời hạn còn lại.\n\n2. Khi bên bán th ực hiện việc khắc phục quy định tại khoản 1 Điều này mà gây b ất lợi ho ặc làm phát sinh chi phí b ất h ợp lý cho bên mua thì bên mua có quyền yêu cầu bên bán khắc phục bất lợi hoặc chịu chi phí đó.\n\nĐiều 42. Giao chứng từ liên quan đến hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nChương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1",
+        "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_JEw5eLkjZYzBXVJWPM5eWLTG",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trong phạm vi Chương II, hợp đồng mua bán hàng hóa có các hình thức sau: được thể hiện bằng lời nói, bằng văn bản hoặc được xác lập bằng hành vi cụ thể. Đối với các loại hợp đồng mà pháp luật quy định phải lập thành văn bản thì phải tuân theo quy định đó.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797353-to91qUvFNXv65i6vO45i"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n3. Bên bán ph ải chịu trách nhi ệm về khiếm khuyết của hàng hóa phát sinh sau thời điểm chuyển rủi ro nếu khiếm khuyết đó do bên bán vi phạm hợp đồng.\n\nĐiều 41. Khắc phục trong trường hợp giao thiếu hàng, giao hàng không phù hợp với hợp đồng\n\n1. Trừ trường hợp có th ỏa thuận khác, nếu hợp đồng chỉ quy định thời hạn giao hàng và không xác định thời điểm giao hàng c ụ thể mà bên bán giao hàng trước khi h ết th ời h ạn giao hàng và giao thi ếu hàng ho ặc giao hàng không phù hợp với hợp đồng thì bên bán v ẫn có th ể giao ph ần hàng còn thi ếu hoặc thay th ế hàng hoá cho phù h ợp với hợp đồng hoặc khắc phục sự không phù h ợp của hàng hoá trong thời hạn còn lại.\n\n2. Khi bên bán th ực hiện việc khắc phục quy định tại khoản 1 Điều này mà gây b ất lợi ho ặc làm phát sinh chi phí b ất h ợp lý cho bên mua thì bên mua có quyền yêu cầu bên bán khắc phục bất lợi hoặc chịu chi phí đó.\n\nĐiều 42. Giao chứng từ liên quan đến hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nChương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1",
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797337-03mpFkaxpSwz68EVahr0",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 17,
+        "total_tokens": 308,
+        "cost": 0.0001436,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001436,
+          "upstream_inference_prompt_cost": 0.0001164,
+          "upstream_inference_completions_cost": 2.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 956.0390000115149,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797353-to91qUvFNXv65i6vO45i",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1184,
+        "completion_tokens": 111,
+        "total_tokens": 1295,
+        "cost": 0.0006512,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006512,
+          "upstream_inference_prompt_cost": 0.0004736,
+          "upstream_inference_completions_cost": 0.0001776
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 17216.721099975985,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 18190.79189997865,
+  "searches": 1,
+  "query_id": "d7-q05",
+  "question": "Trong phạm vi Chương II, hợp đồng mua bán hàng hóa có những hình thức nào?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 13,
+      "text": "3. Bên bán ph ải chịu trách nhi ệm về khiếm khuyết của hàng hóa phát sinh sau thời điểm chuyển rủi ro nếu khiếm khuyết đó do bên bán vi phạm hợp đồng.\n\nĐiều 41. Khắc phục trong trường hợp giao thiếu hàng, giao hàng không phù hợp với hợp đồng\n\n1. Trừ trường hợp có th ỏa thuận khác, nếu hợp đồng chỉ quy định thời hạn giao hàng và không xác định thời điểm giao hàng c ụ thể mà bên bán giao hàng trước khi h ết th ời h ạn giao hàng và giao thi ếu hàng ho ặc giao hàng không phù hợp với hợp đồng thì bên bán v ẫn có th ể giao ph ần hàng còn thi ếu hoặc thay th ế hàng hoá cho phù h ợp với hợp đồng hoặc khắc phục sự không phù h ợp của hàng hoá trong thời hạn còn lại.\n\n2. Khi bên bán th ực hiện việc khắc phục quy định tại khoản 1 Điều này mà gây b ất lợi ho ặc làm phát sinh chi phí b ất h ợp lý cho bên mua thì bên mua có quyền yêu cầu bên bán khắc phục bất lợi hoặc chịu chi phí đó.\n\nĐiều 42. Giao chứng từ liên quan đến hàng hoá",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 13,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 41"
+      },
+      "score": 0.6511978750502225,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 8,
+      "text": "Chương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 8,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 1",
+        "article": "Điều 24"
+      },
+      "score": 0.6174782091101149,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-b342aef80c093fdf",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 20,
+      "text": "đồng theo các nội dung đã thoả thuận với khách hàng.\n\n5. Các hành vi bị cấm khác quy định tại khoản 2 Điều 71 của Luật này.\n\nĐiều 71. Các hành vi b ị cấm trong hoạt động mua bán hàng hoá qua S ở giao dịch hàng hóa\n\n1. Nhân viên c ủa Sở giao d ịch hàng hoá không được phép môi gi ới, mua bán hàng hoá qua Sở giao dịch hàng hoá.\n\n2. Cá c bên liên quan đến ho ạt động mua bán hàng hoá qua S ở giao d ịch hàng hoá không được thực hiện các hành vi sau đây:\n\na) Gian l ận, l ừa d ối v ề kh ối l ượng hàng hóa trong các h ợp đồng k ỳ h ạn hoặc h ợp đồng quy ền chọn được giao d ịch ho ặc có th ể được giao d ịch và gian lận, lừa dối về giá thực tế của loại hàng hoá trong các h ợp đồng kỳ hạn hoặc hợp đồng quyền chọn;\n\nb) Đưa tin sai lệch về các giao d ịch, thị trường hoặc giá hàng hoá mua bán qua Sở giao dịch hàng hóa;\n\nc) Dùng các biện pháp bất hợp pháp để gây rối loạn thị trường hàng hóa tại Sở giao dịch hàng hoá;\n\nd) Các hành vi bị cấm khác theo quy định của pháp luật.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 20,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 71"
+      },
+      "score": 0.6012266618292762,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 13]\n3. Bên bán ph ải chịu trách nhi ệm về khiếm khuyết của hàng hóa phát sinh sau thời điểm chuyển rủi ro nếu khiếm khuyết đó do bên bán vi phạm hợp đồng.\n\nĐiều 41. Khắc phục trong trường hợp giao thiếu hàng, giao hàng không phù hợp với hợp đồng\n\n1. Trừ trường hợp có th ỏa thuận khác, nếu hợp đồng chỉ quy định thời hạn giao hàng và không xác định thời điểm giao hàng c ụ thể mà bên bán giao hàng trước khi h ết th ời h ạn giao hàng và giao thi ếu hàng ho ặc giao hàng không phù hợp với hợp đồng thì bên bán v ẫn có th ể giao ph ần hàng còn thi ếu hoặc thay th ế hàng hoá cho phù h ợp với hợp đồng hoặc khắc phục sự không phù h ợp của hàng hoá trong thời hạn còn lại.\n\n2. Khi bên bán th ực hiện việc khắc phục quy định tại khoản 1 Điều này mà gây b ất lợi ho ặc làm phát sinh chi phí b ất h ợp lý cho bên mua thì bên mua có quyền yêu cầu bên bán khắc phục bất lợi hoặc chịu chi phí đó.\n\nĐiều 42. Giao chứng từ liên quan đến hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nChương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p13-paragraph-1000-553086620320fee1",
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

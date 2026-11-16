@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p114",
+  "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9",
+  "caption": {
+    "summary": "Trang trình bày lộ trình Net Zero 2040 của tập đoàn FPT, bao gồm các bước và mục tiêu giảm phát thải khí nhà kính đến năm 2030 và hướng tới mục tiêu Net Zero vào năm 2040.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040",
+        "location": "giữa trang",
+        "description": "5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800762-Pyp8zdzYdgffhKlP8PsL",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 196,
+        "total_tokens": 2758,
+        "cost": 0.0013384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013384,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3994.0222000004724,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

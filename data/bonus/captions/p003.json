@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p003",
+  "image_sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408",
+  "caption": {
+    "summary": "Trang trình bày thông điệp của Chủ tịch Hội đồng Quản trị FPT về lợi thế cạnh tranh trong kỷ nguyên AI và những thách thức toàn cầu hiện nay.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ảnh Chủ tịch Hội đồng Quản trị",
+        "location": "trái",
+        "description": "Ảnh chân dung Chủ tịch Hội đồng Quản trị FPT, mặc vest xanh, tay khoanh trước ngực."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800691-YWT6c2dFH7qwujwYS5wJ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 98,
+        "total_tokens": 2660,
+        "cost": 0.0011816,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011816,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001568
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3818.633399961982,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

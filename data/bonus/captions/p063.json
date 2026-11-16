@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p063",
+  "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716",
+  "caption": {
+    "summary": "Trang báo cáo phân tích hoạt động kinh doanh dịch vụ chuyển đổi số của FPT giai đoạn 2021-2025, tập trung vào doanh thu và nền tảng AI FleziPT.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025",
+        "location": "trái",
+        "description": "Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài (màu cam) và doanh thu dịch vụ chuyển đổi số (màu xanh dương) theo từng năm từ 2021 đến 2025, đơn vị tính tỷ VNĐ."
+      },
+      {
+        "type": "diagram",
+        "title": "Nền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được kiểm chứng hiệu quả",
+        "location": "phải",
+        "description": "Sơ đồ vòng tròn thể hiện cấu trúc nền tảng AI FleziPT gồm các lớp: Flezi Foundation ở trung tâm, Flezi Crew, Flezi Verse và các dịch vụ AI toàn trình, với các thành phần như đội ngũ AI toàn cầu, chuyên gia AI, kỹ sư dữ liệu, phần mềm AI hỗ trợ, các sản phẩm và dịch vụ AI cụ thể."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800728-CP5DU0pzzs2YUidH7vQE",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 266,
+        "total_tokens": 2828,
+        "cost": 0.0014504,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014504,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4114.89360005362,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

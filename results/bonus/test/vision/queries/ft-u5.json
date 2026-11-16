@@ -1,0 +1,463 @@
+{
+  "status": "answered",
+  "answer": "Không. Báo cáo không có bảng chi phí điện năm 2025 theo từng máy chủ riêng lẻ ở các Data Center. Trang 147 (ESG) chỉ công bố tổng tiêu thụ điện của Tập đoàn: 187.453.013 kWh năm 2025 so với 205.053.314 kWh năm 2024 (-8,58%), cùng 842.749 kWh điện mặt trời từ hệ thống tại Data Center (Tp.Hồ Chí Minh) và F-Complex (Đà Nẵng). Báo cáo không nêu chi phí điện theo từng máy chủ hay từng Data Center.\n[FPT2025:p147 — Bảng \"Bảng tổng hợp so sánh kết quả tiêu thụ điện\" (dưới bên trái) và đoạn văn về hệ thống điện mặt trời tại Data Center]",
+  "citations": [
+    {
+      "id": "FPT2025:p147",
+      "region": "Bảng \"Bảng tổng hợp so sánh kết quả tiêu thụ điện\" (dưới bên trái) và đoạn văn về hệ thống điện mặt trời tại Data Center"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805619-AJRVzL10tM0xTqEgCA9p",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01Dy4dMSm3BQ5YTMvkWFN25X",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"chi phí điện năm 2025 theo từng máy chủ Data Center\",\"chi phí điện Data Center FPT 2025 bảng\",\"tiêu thụ điện máy chủ data center FPT 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Báo cáo có bảng chi phí điện năm 2025 theo từng máy chủ riêng lẻ ở các Data Center không? Nêu đầy đủ.",
+      "model_queries": [
+        "chi phí điện năm 2025 theo từng máy chủ Data Center",
+        "chi phí điện Data Center FPT 2025 bảng",
+        "tiêu thụ điện máy chủ data center FPT 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "score": 0.032018442622950824,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p214",
+          "page": 214,
+          "score": 0.031746031746031744,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p210",
+          "page": 210,
+          "score": 0.029051670471052088,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p195",
+          "page": 195,
+          "score": 0.02878726010616578,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 19
+          }
+        },
+        {
+          "id": "FPT2025:p184",
+          "page": 184,
+          "score": 0.028258706467661692,
+          "component_ranks": {
+            "dense": 15,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p213",
+          "page": 213,
+          "score": 0.027205882352941177,
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p169",
+          "page": 169,
+          "score": 0.026687875574407917,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 22
+          }
+        },
+        {
+          "id": "FPT2025:p112",
+          "page": 112,
+          "score": 0.02506265664160401,
+          "component_ranks": {
+            "dense": 24,
+            "tfidf": 16
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Báo cáo có bảng chi phí điện năm 2025 theo từng máy chủ riêng lẻ ở các Data Center không? Nêu đầy đủ."
+      ],
+      "context_ids": [
+        "FPT2025:p147",
+        "FPT2025:p214",
+        "FPT2025:p210",
+        "FPT2025:p195",
+        "FPT2025:p184",
+        "FPT2025:p213",
+        "FPT2025:p169",
+        "FPT2025:p112"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xây dựng kế hoạch giảm thiểu lượng phát thải khí nhà kính từ hai nguồn phát \nsinh lớn thuộc Phạm vi 1 và Phạm vi 2, cũng như từ tất cả các nguồn phát sinh khác, \ncụ thể như sau:\n• Đối với Phạm vi 1 và Phạm vi 2, FPT triển khai các chương trình tiết kiệm điện và \nnăng lượng, hướng tới việc sử dụng năng lượng xanh và năng lượng tái tạo; \n• Các tòa nhà là nguồn tiêu thụ năng lượng chủ yếu, do đó, Tập đoàn chủ động \ntriển khai các sáng kiến tiết kiệm năng lượng trên nền tảng hạ tầng hiện hữu. \nThông qua việc ứng dụng các công nghệ tiên tiến và tăng cường hợp tác với các \nchuyên gia, FPT từng bước nâng cao hiệu quả sử dụng năng lượng, hướng tới hệ thống \nhạ tầng thân thiện hơn với môi trường;\n• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm: \ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hóa tòa \nnhà, hệ thống UPS, mặt dựng công trình, trung tâm dữ liệu và phòng máy chủ. \nThông qua các sáng kiến này, FPT hướng tới giảm thiểu tác động môi trường \nsong song với việc nâng cao hiệu quả vận hành.\nViệc giảm 8,58% tổng mức tiêu thụ điện so với năm 2024 phản ánh những nỗ lực \nnhất quán và có hệ thống của Tập đoàn trong triển khai các giải pháp tiết kiệm \nnăng lượng. Kết quả này đạt được nhờ việc ứng dụng các giải pháp quản lý và tối ưu \ntiêu thụ điện thông minh, kết hợp với các chương trình truyền thông và đào tạo \nnội bộ nhằm nâng cao nhận thức, thay đổi hành vi sử dụng năng lượng của CBNV \ntrong hoạt động hàng ngày.\nĐặc biệt, việc đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng \nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền \nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong \ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp \nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng, \ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát \nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời \nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra \n842.749 kWh điện. \nBảng tổng hợp so sánh kết quả tiêu thụ điện\n• Biện pháp giảm phát thải khí nhà kính\n Đơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch \n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 tập trung vào các biện pháp giảm phát thải khí nhà kính, đặc biệt là tiết kiệm năng lượng và sử dụng năng lượng tái tạo như điện mặt trời mái nhà.\ntable: Bảng tổng hợp so sánh kết quả tiêu thụ điện (dưới bên trái) — So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh.\nphoto: Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng) (phải) — Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ điện",
+              "location": "dưới bên trái",
+              "description": "So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh."
+            },
+            {
+              "type": "photo",
+              "title": "Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)",
+              "location": "phải",
+              "description": "Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p214",
+          "page": 214,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Cho năm tài chính kết thúc ngày 31 tháng 12 năm 2025\nCho năm tài chính kết thúc ngày 31 tháng 12 năm 2024\n(*) Số liệu của bên liên quan được trình bày trong thuyết minh này bao gồm số liệu của các\ncông ty này và các công ty con được sở hữu trực tiếp và gián tiếp bởi công ty đó (nếu có).\nMẫu số B 09 – DN/HN\nĐơn vị: Triệu VNĐ Đơn vị: VNĐ\n34. Báo cáo bộ phận (Tiếp theo)\n35. Thuyết minh về các bên liên quan\nCác bên liên quan chính và mối quan hệ như sau:\n(b) Báo cáo bộ phận theo khu vực địa lý của Tập đoàn (a) Giao dịch với các bên liên quan\nCác giao dịch chủ yếu với các bên liên quan phát sinh trong năm tài chính gồm:\nViệt Nam\nDoanh thu thuần 34.290.139\nNước ngoài\n35.822.686\nTổng\n35.822.686\n2025\n535.438.239.866\n10.341.570.977\n545.779.810.843\n815.401.753.496\n90.284.283.136\n905.686.036.632\n171.133.791.000\n408.107.000.000\n-\n-\n89.819.070\n-\n89.819.070\n396.379.410.434\n23.528.897.486\n419.908.307.920\n975.447.988.926\n70.404.638.688\n1.045.852.627.614\n285.222.985.000\n-\n100.000.000.000\n100.000.000.000\n-\n1.010.958.904\n1.010.958.904\n2024\nViệt Nam\nDoanh thu thuần 31.554.587\nNước ngoài\n31.294.207\nTổng\n62.848.794\nĐơn vị: Triệu VNĐ\nBên liên quan (*)\nCông ty Cổ phần Synnex FPT\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nCông ty Cổ phần Quản lý Quỹ đầu tư FPT\nHội đồng Quản trị, Ban Kiểm soát,\nTổng Giám đốc và người quản lý chủ chốt khác\nMối quan hệ\nCông ty liên kết\nCông ty liên kết\nCông ty liên kết\nNhân sự quản lý chủ chốt\nBán hàng và cung cấp dịch vụ\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nCông ty Cổ phần Synnex FPT\nMua hàng hóa và dịch vụ\nCông ty Cổ phần Synnex FPT\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nNhận cổ tức bằng tiền (Thuyết minh 5(b))\nCông ty Cổ phần Synnex FPT\nVay mới (Thuyết minh 22)\nCông ty Cổ phần Synnex FPT\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nThanh toán các khoản vay\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nLãi đi vay\nCông ty Cổ phần Synnex FPT\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\ni) \nii) \niii) \niv) \nv) \nvi) \nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thuyết minh báo cáo tài chính hợp nhất năm 2025, bao gồm báo cáo bộ phận theo khu vực địa lý và các giao dịch với bên liên quan.\ntable: Báo cáo bộ phận theo khu vực địa lý của Tập đoàn (trái) — Doanh thu thuần phân theo Việt Nam và nước ngoài cho năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024, đơn vị triệu VNĐ.\ntable: Giao dịch với các bên liên quan (phải) — Các giao dịch chủ yếu với các bên liên quan trong năm tài chính 2025 và 2024, đơn vị VNĐ, bao gồm bán hàng và cung cấp dịch vụ, mua hàng hóa và dịch vụ, nhận cổ tức bằng tiền, vay mới, thanh toán các khoản vay và lãi đi vay.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo bộ phận theo khu vực địa lý của Tập đoàn",
+              "location": "trái",
+              "description": "Doanh thu thuần phân theo Việt Nam và nước ngoài cho năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024, đơn vị triệu VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Giao dịch với các bên liên quan",
+              "location": "phải",
+              "description": "Các giao dịch chủ yếu với các bên liên quan trong năm tài chính 2025 và 2024, đơn vị VNĐ, bao gồm bán hàng và cung cấp dịch vụ, mua hàng hóa và dịch vụ, nhận cổ tức bằng tiền, vay mới, thanh toán các khoản vay và lãi đi vay."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p210",
+          "page": 210,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "(*) Khoản mục này chủ yếu bao gồm chi phí quảng cáo, khuyến mại, phí hoa hồng, \nthuê đất và văn phòng và các khoản chi phí bán hàng khác. Không có khoản mục \nchi phí nào chiếm hơn 10% trên tổng chi phí bán hàng. \n30. Chi phí bán hàng\nĐơn vị: VNĐ\nĐơn vị: VNĐ\nĐơn vị: VNĐ\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nChi phí nhân viên\nKhác (*)\n5.172.975.838.113\n2.389.684.802.341\n7.562.660.640.454\n4.076.793.428.900 \n2.039.168.542.883\n6.115.961.971.783 \n2025\nTheo quy định trong các Giấy Chứng nhận Đăng ký Doanh nghiệp của Công ty và \ncác công ty con và các quy định thuế hiện hành, các công ty trong Tập đoàn hoạt \nđộng tại Việt Nam có nghĩa vụ nộp thuế TNDN với thuế suất 10% trên lợi nhuận \nchịu thuế đối với hoạt động cung cấp dịch vụ đào tạo; thuế suất ưu đãi theo địa \nbàn đối với hoạt động sản xuất kinh doanh của một số đơn vị trong các khu công \nnghệ cao; và 20% trên lợi nhuận chịu thuế đối với các hoạt động sản xuất kinh \ndoanh còn lại. Các công ty con ở nước ngoài đóng thuế theo thuế suất hiện hành \nquy định tại nước sở tại.\n32. Thuế thu nhập doanh nghiệp (“TNDN”)\n2024\n2025 2024\n(*) Khoản mục này chủ yếu bao gồm chi phí khấu hao TSCĐ, dịch vụ thuê ngoài, \ncông cụ dụng cụ, dự phòng khoản phải thu khó đòi và các khoản chi phí quản lý \ndoanh nghiệp khác. Không có khoản mục chi phí nào chiếm hơn 10% trên tổng chi \nphí quản lý doanh nghiệp. \n31. Chi phí quản lý doanh nghiệp\nChi phí nhân viên\nKhác (*)\n(a) Chi phí thuế TNDN hiện hành\n• Chi phí thuế TNDN tính trên thu \nnhập chịu thuế năm hiện hành\n• Điều chỉnh chi phí thuế TNDN của \ncác năm trước vào chi phí thuế \nthu nhập hiện hành năm nay\nTổng chi phí thuế TNDN hiện hành (*)\n(b) Thu nhập thuế TNDN hoãn lại\n• Thu nhập thuế TNDN hoãn lại \nphát sinh từ các khoản chênh \nlệch tạm thời được khấu trừ\n• Chi phí thuế TNDN hoãn lại phát \nsinh từ các khoản chênh lệch tạm \nthời phải chịu thuế\nTổng thu nhập thuế TNDN hoãn lại (*)\n1.951.805.682.650\n(34.807.490.208)\n1.916.998.192.442\n(241.646.085.537)\n135.941.276.158\n(105.704.809.379)\n1.914.485.537.410 \n8.442.077.248\n1.922.927.614.658 \n(209.467.184.394)\n(71.216.542.889)\n(280.683.727.283)\n4.707.387.477.210\n2.629.937.920.594\n7.337.325.397.804\n4.251.955.881.293 \n2.822.082.733.481\n7.074.038.614.774 \n2025 2024\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nThuyết minh các khoản chi phí bán hàng, chi phí quản lý doanh nghiệp và thuế thu nhập doanh nghiệp năm 2025 và 2024.\ntable: Chi phí bán hàng (trái trên) — So sánh chi phí nhân viên và các khoản chi phí khác năm 2025 và 2024, đơn vị VNĐ\ntable: Chi phí quản lý doanh nghiệp (trái dưới) — So sánh chi phí nhân viên và các khoản chi phí khác năm 2025 và 2024, đơn vị VNĐ\ntable: Thuế thu nhập doanh nghiệp (TNDN) (phải trên) — Chi tiết chi phí thuế TNDN hiện hành và thu nhập thuế TNDN hoãn lại năm 2025 và 2024, đơn vị VNĐ",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi phí bán hàng",
+              "location": "trái trên",
+              "description": "So sánh chi phí nhân viên và các khoản chi phí khác năm 2025 và 2024, đơn vị VNĐ"
+            },
+            {
+              "type": "table",
+              "title": "Chi phí quản lý doanh nghiệp",
+              "location": "trái dưới",
+              "description": "So sánh chi phí nhân viên và các khoản chi phí khác năm 2025 và 2024, đơn vị VNĐ"
+            },
+            {
+              "type": "table",
+              "title": "Thuế thu nhập doanh nghiệp (TNDN)",
+              "location": "phải trên",
+              "description": "Chi tiết chi phí thuế TNDN hiện hành và thu nhập thuế TNDN hoãn lại năm 2025 và 2024, đơn vị VNĐ"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p195",
+          "page": 195,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đơn vị: VNĐ\n(a) Ngắn hạn\nChi phí thuê (bản quyền, văn phòng, \nkênh, đường truyền, cáp quang)\nKhác\n(b) Dài hạn\nChi phí triển khai dịch vụ viễn thông \ncho thuê bao mới\nChi phí thuê đất, cải tạo văn phòng\nvà nội thất\nKhác\nHàng mua đang đi trên đường\nNguyên vật liệu\nCông cụ, dụng cụ\nChi phí sản xuất kinh doanh dở dang\nHàng hóa\nHàng gửi bán\n 101.979.270.758 \n 1.158.827.230.634 \n59.140.726.673\n \n 686.445.326.982 \n \n 270.576.279.561 \n \n 424.775.569\n2.277.393.610.177 \n - \n \n (14.779.501.765)\n \n - \n \n(62.230.314.918)\n \n (6.613.991.155)\n \n - \n(83.623.807.838)\n74.651.331.133\n965.653.469.626\n63.703.537.780\n571.889.493.134\n313.880.711.271\n445.943.569\n1.990.224.486.513\n-\n(17.126.007.656)\n-\n(62.230.314.918)\n(54.111.214.909)\n-\n(133.467.537.483)\n31/12/2025 31/12/2024\n 2.055.454.565.292 \n 1.264.281.458.521 \n880.494.359.253 \n4.200.230.383.066\n1.804.520.929.972\n1.144.461.379.441\n816.205.316.004\n3.765.187.625.417\n270.003.093.644 \n 371.970.942.125\n641.974.035.769\n218.659.614.027\n261.047.604.531\n479.707.218.558\nGiá gốc\n31/12/2025\nDự phòng Giá gốc\n31/12/2024\nDự phòng\n11. Hàng tồn kho\n12. Chi phí trả trước Đơn vị: VNĐ\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thuyết minh báo cáo tài chính hợp nhất năm 2025, tập trung vào mục hàng tồn kho và chi phí trả trước với số liệu so sánh giữa năm 2025 và 2024.\ntable: Hàng tồn kho (trên) — Bảng số liệu giá gốc và dự phòng hàng tồn kho các loại tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ.\ntable: Chi phí trả trước (dưới) — Bảng số liệu chi phí trả trước ngắn hạn và dài hạn tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Hàng tồn kho",
+              "location": "trên",
+              "description": "Bảng số liệu giá gốc và dự phòng hàng tồn kho các loại tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Chi phí trả trước",
+              "location": "dưới",
+              "description": "Bảng số liệu chi phí trả trước ngắn hạn và dài hạn tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p184",
+          "page": 184,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n2.Các chính sách kế toán chủ yếu (Tiếp theo)\n2.18. Chi phí phải trả\nChi phí phải trả bao gồm các khoản phải trả cho hàng hóa, dịch vụ đã nhận được \ntừ người bán trong năm tài chính nhưng thực tế chưa chi trả do chưa có hóa đơn \nhoặc chưa đủ hồ sơ, tài liệu kế toán, được ghi nhận vào chi phí sản xuất kinh doanh \ncủa năm tài chính.\n2.19. Các khoản dự phòng\nCác khoản dự phòng được ghi nhận khi Tập đoàn có nghĩa vụ nợ hiện tại, pháp lý \nhoặc liên đới, phát sinh từ các sự kiện đã xảy ra; việc thanh toán nghĩa vụ nợ có thể \nsẽ dẫn đến sự giảm sút về những lợi ích kinh tế và giá trị của nghĩa vụ nợ đó được \nước tính một cách đáng tin cậy. Dự phòng không được ghi nhận cho các khoản lỗ \nhoạt động trong tương lai.\nDự phòng được tính trên cơ sở các khoản chi phí dự tính phải thanh toán nghĩa vụ \nnợ. Nếu ảnh hưởng về giá trị thời gian của tiền là trọng yếu thì dự phòng được tính \ntrên cơ sở giá trị hiện tại với tỷ lệ chiết khấu trước thuế và phản ánh những đánh giá \ntrên thị trường hiện tại về giá trị thời gian của tiền và rủi ro cụ thể của khoản nợ đó. \nGiá trị tăng lên do ảnh hưởng của yếu tố thời gian được ghi nhận là chi phí tài chính. \nChênh lệch giữa khoản dự phòng lập ở cuối năm tài chính này và khoản dự phòng \nđã lập chưa sử dụng ở cuối năm tài chính trước được ghi nhận tăng hoặc giảm chi \nphí sản xuất kinh doanh trong năm tài chính.\n2.20. Doanh thu chưa thực hiện\nDoanh thu chưa thực hiện là khoản doanh thu nhận trước cho một hay nhiều kỳ kế \ntoán chủ yếu bao gồm tiền cước dịch vụ viễn thông, học phí, dịch vụ cung cấp phần \nmềm, dịch vụ bảo hành, bảo trì và các dịch vụ khác. Tập đoàn ghi nhận các khoản \ndoanh thu chưa thực hiện tương ứng với phần nghĩa vụ mà Tập đoàn sẽ phải thực \nhiện trong tương lai. Khi các điều kiện ghi nhận doanh thu được thỏa mãn, doanh \nthu chưa thực hiện sẽ được ghi nhận vào báo cáo kết quả hoạt động kinh doanh \nhợp nhất trong năm tài chính tương ứng với phần thỏa mãn điều kiện ghi nhận \ndoanh thu đó.\nVốn góp của chủ sở hữu được ghi nhận theo số thực tế góp của các cổ đông và \nđược phản ánh theo mệnh giá của cổ phiếu.\nThặng dư vốn cổ phần là khoản chênh lệch giữa vốn góp theo mệnh giá cổ phiếu \nvới giá thực tế phát hành cổ phiếu; chênh lệch giữa giá mua lại cổ phiếu quỹ và \ngiá tái phát hành cổ phiếu quỹ.\nVốn khác của chủ sở hữu phản ánh giá trị các khoản vốn khác của chủ sở hữu tại \nthời điểm báo cáo, chủ yếu liên quan đến việc ghi nhận cổ tức bằng cổ phiếu mà \nCông ty nhận được từ các công ty con trên báo cáo tài chính hợp nhất.\nCổ phiếu quỹ là cổ phiếu do Công ty mua lại trước ngày hiệu lực của Luật \nChứng khoán (ngày 1 tháng 1 năm 2021) nhưng chưa bị hủy bỏ sẽ được tái phát hành \ntrở lại trong khoảng thời gian theo quy định của pháp luật về chứng khoán. Cổ phiếu quỹ\nmua sau ngày 1 tháng 1 năm 2021 sẽ được hủy bỏ và điều chỉnh giảm vốn chủ sở hữu.\nChênh lệch tỷ giá hối đoái là chênh lệch tỷ giá phát sinh khi Công ty chuyển đổi \nbáo cáo tài chính của công ty con được lập bằng Đồng ngoại tệ sang Đồng Việt \nNam cho mục đích hợp nhất báo cáo tài chính.\nLNST chưa phân phối phản ánh kết quả kinh doanh lũy kế sau th",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p213",
+          "page": 213,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Sản phẩm và Viễn thông Nội dung số Tổng cộng\nDịch vụ CNTT\ntrong nước\nSản phẩm và\nDịch vụ CNTT \nnước ngoài\nLoại trừ \nhợp nhất\nCông nghệ thông tin và viễn thông\nĐầu tư,\ngiáo dục \nvà khác\nCho năm tài chính kết thúc ngày 31 tháng 12 năm 2024\n62.848.794\n(52.340.447)\n(2.535.298)\n(2.068.269)\n392.531\n10.900.878\n11.069.666\n6.074.529\n71.999.996\n36.272.456\n(1.315.641)\n1.267.883\n28.982\n11.107\n-\n(47.758)\n(5.241.078)\n109.238\n(13.078.263)\n(12.509.154)\n7.444.159\n(5.308.937)\n(346.445)\n(172.009)\n390.468\n2.525.690\n7.493.034\n1.233.301\n26.338.566\n14.239.677\n704.503\n(573.344)\n(3.565)\n(3.148)\n-\n131.159\n167.465\n5.081\n1.012.765\n174.064\n16.905.897\n(13.728.756)\n(1.368.719)\n(1.674.772)\n-\n3.177.141\n3.420.133\n3.067.731\n23.649.241\n13.173.832\n8.157.364\n(7.774.217)\n(187.498)\n(28.966)\n(56)\n383.091\n460.526\n407.397\n9.413.307\n6.294.529\n30.952.512\n(26.223.076)\n(658.053)\n(200.481)\n2.119\n4.731.555\n4.769.586\n1.251.781\n24.664.380\n14.899.508\nDoanh thu thuần theo bộ phận\nChi phí theo bộ phận (*)\nTrong đó: \n• Tổng chi phí khấu hao TSCĐ và \n phân bổ LTTM\n• Tổng phân bổ chi phí trả trước dài hạn\nPhần (lỗ)/lãi trong công ty liên doanh, liên kết \nKết quả HĐKD theo bộ phận\nLợi nhuận trước thuế theo bộ phận \nTổng chi phí đã phát sinh để mua TSCĐ và\ncác tài sản dài hạn khác\nTài sản bộ phận tại 31/12/2024\nNợ phải trả bộ phận tại 31/12/2024\nTHUYẾT MINH BÁO CÀO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n34. Báo cáo bộ phận (Tiếp theo)\n(a) Báo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn (Tiếp theo)\n(*) Chi phí theo bộ phận là chi phí phát sinh từ các hoạt động kinh doanh của bộ phận được tính trực tiếp cho bộ phận đó và phần chi phí chung của Tập đoàn được phân bổ \ncho bộ phận đó. Theo đó, chi phí theo bộ phận này bao gồm giá vốn hàng bán và dịch vụ cung cấp, chi phí bán hàng và chi phí quản lý doanh nghiệp.\nĐơn vị: Triệu VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn FPT cho năm tài chính kết thúc ngày 31 tháng 12 năm 2024, trình bày doanh thu, chi phí, kết quả hoạt động kinh doanh, lợi nhuận trước thuế, tổng chi phí mua tài sản cố định, tài sản bộ phận và nợ phải trả theo từng bộ phận.\ntable: Báo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn (trái) — Các chỉ tiêu tài chính gồm doanh thu thuần, chi phí, kết quả hoạt động kinh doanh, lợi nhuận trước thuế, tổng chi phí mua TSCĐ, tài sản bộ phận, nợ phải trả; phân theo các bộ phận: Sản phẩm và Dịch vụ CNTT nước ngoài, Sản phẩm và Dịch vụ CNTT trong nước, Viễn thông, Nội dung số, Giáo dục và khác, Loại trừ hợp nhất, Tổng cộng; đơn vị tính triệu VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo bộ phận theo lĩnh vực kinh doanh của Tập đoàn",
+              "location": "trái",
+              "description": "Các chỉ tiêu tài chính gồm doanh thu thuần, chi phí, kết quả hoạt động kinh doanh, lợi nhuận trước thuế, tổng chi phí mua TSCĐ, tài sản bộ phận, nợ phải trả; phân theo các bộ phận: Sản phẩm và Dịch vụ CNTT nước ngoài, Sản phẩm và Dịch vụ CNTT trong nước, Viễn thông, Nội dung số, Giáo dục và khác, Loại trừ hợp nhất, Tổng cộng; đơn vị tính triệu VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p169",
+          "page": 169,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Mã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\n01\n02\n10\n11\n20\n21\n22\n23\n24\n25\n26\n30\n31\n32\n40\n50\n51\n52\n70.207.688.944.553\n94.863.843.843 \n70.112.825.100.710\n44.224.295.588.297\n25.888.529.512.413\n2.977.156.356.773\n1.672.048.701.466\n809.759.601.156 \n658.024.835.314\n7.562.660.640.454\n7.337.325.397.804\n12.951.675.964.776\n142.892.570.480\n50.935.701.459 \n91.956.869.021\n13.043.632.833.797\n1.916.998.192.442\n(105.704.809.379)\n26\n27\n28\n29\n5(b)\n30\n31\n32(a)\n32(b)\n62.962.652.134.635\n113.857.783.268\n62.848.794.351.367\n39.150.445.981.451\n23.698.348.369.916\n1.935.749.115.305\n1.811.547.381.981\n551.639.361.786\n392.531.256.272\n6.115.961.971.783\n7.074.038.614.774\n11.025.080.772.955\n175.450.599.740\n130.864.954.876\n44.585.644.864\n11.069.666.417.819\n1.922.927.614.658\n(280.683.727.283\nDoanh thu bán hàng và cung cấp dịch vụ\nCác khoản giảm trừ doanh thu\nDoanh thu thuần về bán hàng và cung cấp dịch vụ (10 = 01 – 02)\nGiá vốn hàng bán và dịch vụ cung cấp\nLợi nhuận gộp về bán hàng và cung cấp dịch vụ (20 = 10 – 11)\nDoanh thu hoạt động tài chính\nChi phí tài chính\n• Trong đó: Chi phí lãi vay \nPhần lãi trong công ty liên doanh, liên kết\nChi phí bán hàng\nChi phí quản lý doanh nghiệp\nLợi nhuận thuần từ hoạt động kinh doanh\n(30 = 20 + 21 – 22 + 24 – 25 – 26)\nThu nhập khác\nChi phí khác\nLợi nhuận khác (40 = 31 – 32)\nTổng lợi nhuận kế toán trước thuế (50 = 30 + 40)\nChi phí thuế thu nhập doanh nghiệp (“TNDN”) hiện hành\nThu nhập thuế TNDN hoãn lại\nBÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH HỢP NHẤT Mẫu số B 02 – DN/HN\nĐơn vị: VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo kết quả hoạt động kinh doanh hợp nhất của FPT năm 2025 và 2024, trình bày các chỉ tiêu doanh thu, chi phí và lợi nhuận chính.\ntable: Báo cáo kết quả hoạt động kinh doanh hợp nhất (giữa trang) — Các chỉ tiêu tài chính gồm doanh thu bán hàng và cung cấp dịch vụ, giá vốn hàng bán, lợi nhuận gộp, chi phí tài chính, chi phí bán hàng, chi phí quản lý doanh nghiệp, lợi nhuận thuần từ hoạt động kinh doanh, lợi nhuận khác, tổng lợi nhuận kế toán trước thuế, chi phí thuế thu nhập doanh nghiệp, thu nhập thuế TNDN hoãn lại; đơn vị tính: VNĐ; so sánh giữa năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo kết quả hoạt động kinh doanh hợp nhất",
+              "location": "giữa trang",
+              "description": "Các chỉ tiêu tài chính gồm doanh thu bán hàng và cung cấp dịch vụ, giá vốn hàng bán, lợi nhuận gộp, chi phí tài chính, chi phí bán hàng, chi phí quản lý doanh nghiệp, lợi nhuận thuần từ hoạt động kinh doanh, lợi nhuận khác, tổng lợi nhuận kế toán trước thuế, chi phí thuế thu nhập doanh nghiệp, thu nhập thuế TNDN hoãn lại; đơn vị tính: VNĐ; so sánh giữa năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p112",
+          "page": 112,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản \ntrị (Báo cáo ESG). Thông qua Báo cáo này, FPT có cơ hội đánh giá toàn diện về các \nhoạt động liên quan môi trường, trách nhiệm xã hội, quản trị, từ đó điều chỉnh và \ncân bằng chiến lược, kế hoạch kinh doanh hướng đến mục tiêu phát triển bền vững \ncho Tập đoàn và cộng đồng. \nBáo cáo được xây dựng trên nguyên tắc đảm bảo các yếu tố sau: tính toàn diện, \ntính rõ ràng, tính cập nhật và tính tin cậy, đồng thời tham chiếu theo bộ tiêu chuẩn \nGRI Standards của Tổ chức Sáng kiến toàn cầu (GRI).\n• Liên hệ\nĐể gửi các câu hỏi, các khuyến nghị liên quan đến hoạt động ESG của FPT cũng \nnhư nội dung chi tiết của Báo cáo ESG, vui lòng liên hệ theo thông tin như sau:\n• Bà: Mai Thị Lan Anh, Người ủy quyền công bố thông tin, Công ty Cổ phần FPT\n• Địa chỉ: Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, Tp.Hà Nội\n• Điện thoại: +84 24 7300 7300\n• Email: fptnews@fpt.com\n• Thời gian báo cáo: 01/01/2025-31/12/2025. \n• Chu kì báo cáo: Thường niên.\n• Phạm vi báo cáo: Báo cáo dựa trên hoạt động của Tập đoàn, công ty thành viên \ntại Việt Nam và một số thị trường trọng yếu.\nThông tin chung về báo cáo\n• Phạm vi báo cáo\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang giới thiệu thông tin chung về báo cáo ESG của FPT năm 2025, bao gồm phạm vi, thời gian, chu kỳ báo cáo và thông tin liên hệ.\nphoto: Ảnh minh họa ESG (phải) — Hình ảnh quả địa cầu với các biểu tượng liên quan đến môi trường, xã hội và quản trị (ESG) nổi bật trên nền xanh thiên nhiên.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh minh họa ESG",
+              "location": "phải",
+              "description": "Hình ảnh quả địa cầu với các biểu tượng liên quan đến môi trường, xã hội và quản trị (ESG) nổi bật trên nền xanh thiên nhiên."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p147",
+          "path": ".bonus/pages/p147.jpg",
+          "sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+        },
+        {
+          "id": "FPT2025:p214",
+          "path": ".bonus/pages/p214.jpg",
+          "sha256": "90f38d3576239004b53276b5d836d74e8afb1056fb46562de8870d229d2ff29d"
+        },
+        {
+          "id": "FPT2025:p210",
+          "path": ".bonus/pages/p210.jpg",
+          "sha256": "8c2f86f1318fd59bc2b806bc3a7cf1d2d4fc9db8516549668032a8939bce2377"
+        },
+        {
+          "id": "FPT2025:p195",
+          "path": ".bonus/pages/p195.jpg",
+          "sha256": "a5098516d0495b6560a4a7ad867305ebe275e54064186e7ddc58d3086b031a4a"
+        },
+        {
+          "id": "FPT2025:p184",
+          "path": ".bonus/pages/p184.jpg",
+          "sha256": "b415ce6c7543732ad2c9602a5586dafc566eb2f3f8513cab6fbfcf4c5281fa4c"
+        },
+        {
+          "id": "FPT2025:p213",
+          "path": ".bonus/pages/p213.jpg",
+          "sha256": "2bd2102bbf60aacbb99ba889c24cada8f778d6dc0625f1a82290a53fd1bc1665"
+        },
+        {
+          "id": "FPT2025:p169",
+          "path": ".bonus/pages/p169.jpg",
+          "sha256": "df66bf15419362fccf294a42b88e9de6757435c39c12b21755ec928f4a90d744"
+        },
+        {
+          "id": "FPT2025:p112",
+          "path": ".bonus/pages/p112.jpg",
+          "sha256": "f3a85f21c177d32fb81ca62c5fd6e93d8bfc7fced831ad3a255c2eb4a45690d2"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805622-amdJWkHFrd6fF2eWlnck",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01NU9WvYhCovDmSv8VaqoQzM",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Không. Báo cáo không có bảng chi phí điện năm 2025 theo từng máy chủ riêng lẻ ở các Data Center. Trang 147 (ESG) chỉ công bố tổng tiêu thụ điện của Tập đoàn: 187.453.013 kWh năm 2025 so với 205.053.314 kWh năm 2024 (-8,58%), cùng 842.749 kWh điện mặt trời từ hệ thống tại Data Center (Tp.Hồ Chí Minh) và F-Complex (Đà Nẵng). Báo cáo không nêu chi phí điện theo từng máy chủ hay từng Data Center.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p147\",\"region\":\"Bảng \\\"Bảng tổng hợp so sánh kết quả tiêu thụ điện\\\" (dưới bên trái) và đoạn văn về hệ thống điện mặt trời tại Data Center\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p147",
+    "FPT2025:p214",
+    "FPT2025:p210",
+    "FPT2025:p195",
+    "FPT2025:p184",
+    "FPT2025:p213",
+    "FPT2025:p169",
+    "FPT2025:p112"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p147",
+      "page": 147,
+      "image": ".bonus/pages/p147.jpg",
+      "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+    },
+    {
+      "id": "FPT2025:p214",
+      "page": 214,
+      "image": ".bonus/pages/p214.jpg",
+      "image_sha256": "90f38d3576239004b53276b5d836d74e8afb1056fb46562de8870d229d2ff29d"
+    },
+    {
+      "id": "FPT2025:p210",
+      "page": 210,
+      "image": ".bonus/pages/p210.jpg",
+      "image_sha256": "8c2f86f1318fd59bc2b806bc3a7cf1d2d4fc9db8516549668032a8939bce2377"
+    },
+    {
+      "id": "FPT2025:p195",
+      "page": 195,
+      "image": ".bonus/pages/p195.jpg",
+      "image_sha256": "a5098516d0495b6560a4a7ad867305ebe275e54064186e7ddc58d3086b031a4a"
+    },
+    {
+      "id": "FPT2025:p184",
+      "page": 184,
+      "image": ".bonus/pages/p184.jpg",
+      "image_sha256": "b415ce6c7543732ad2c9602a5586dafc566eb2f3f8513cab6fbfcf4c5281fa4c"
+    },
+    {
+      "id": "FPT2025:p213",
+      "page": 213,
+      "image": ".bonus/pages/p213.jpg",
+      "image_sha256": "2bd2102bbf60aacbb99ba889c24cada8f778d6dc0625f1a82290a53fd1bc1665"
+    },
+    {
+      "id": "FPT2025:p169",
+      "page": 169,
+      "image": ".bonus/pages/p169.jpg",
+      "image_sha256": "df66bf15419362fccf294a42b88e9de6757435c39c12b21755ec928f4a90d744"
+    },
+    {
+      "id": "FPT2025:p112",
+      "page": 112,
+      "image": ".bonus/pages/p112.jpg",
+      "image_sha256": "f3a85f21c177d32fb81ca62c5fd6e93d8bfc7fced831ad3a255c2eb4a45690d2"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805619-AJRVzL10tM0xTqEgCA9p",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1817,
+        "completion_tokens": 104,
+        "total_tokens": 1921,
+        "cost": 0.0002337,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002337,
+          "upstream_inference_prompt_cost": 0.0001817,
+          "upstream_inference_completions_cost": 5.2e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1336.6050000186078,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805622-amdJWkHFrd6fF2eWlnck",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 32445,
+        "completion_tokens": 397,
+        "total_tokens": 32842,
+        "cost": 0.003443,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003443,
+          "upstream_inference_prompt_cost": 0.0032445,
+          "upstream_inference_completions_cost": 0.0001985
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5876.543199992739,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 8561.625500035007,
+  "query_id": "ft-u5",
+  "question": "Báo cáo có bảng chi phí điện năm 2025 theo từng máy chủ riêng lẻ ở các Data Center không? Nêu đầy đủ.",
+  "split": "test",
+  "config": "vision"
+}

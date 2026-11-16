@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p195",
+  "image_sha256": "a5098516d0495b6560a4a7ad867305ebe275e54064186e7ddc58d3086b031a4a",
+  "caption": {
+    "summary": "Trang trình bày thuyết minh báo cáo tài chính hợp nhất năm 2025, tập trung vào mục hàng tồn kho và chi phí trả trước với số liệu so sánh giữa năm 2025 và 2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Hàng tồn kho",
+        "location": "trên",
+        "description": "Bảng số liệu giá gốc và dự phòng hàng tồn kho các loại tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+      },
+      {
+        "type": "table",
+        "title": "Chi phí trả trước",
+        "location": "dưới",
+        "description": "Bảng số liệu chi phí trả trước ngắn hạn và dài hạn tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800826-wQJnE6WNB3GVGg9ZNNVT",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 172,
+        "total_tokens": 2734,
+        "cost": 0.0013,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002752
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4376.461500010919,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

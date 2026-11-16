@@ -1,0 +1,338 @@
+[
+  {
+    "query_id": "fd-c1",
+    "passed": true,
+    "reason": "Đúng đỉnh ROE 2024=28,5%, năm 2025=28,1%, chênh 0,4 điểm phần trăm; citation đúng biểu đồ.",
+    "original_page_check": [
+      {
+        "page": 11,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+      }
+    ],
+    "trace_sha256": "31fc0f1187482d2d8d9eccb8a3d6bb9d6aca1a1f022f008400adc63990b2435f",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.417473+00:00"
+  },
+  {
+    "query_id": "fd-c2",
+    "passed": true,
+    "reason": "Đúng Việt Nam 48,9%; citation xác định biểu đồ và chú giải.",
+    "original_page_check": [
+      {
+        "page": 27,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+      }
+    ],
+    "trace_sha256": "6ee2751710c6fb043d72f2ec401582f179c587137c48bcb104174a686943035c",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.418146+00:00"
+  },
+  {
+    "query_id": "fd-c3",
+    "passed": true,
+    "reason": "Đúng chú giải cam là doanh thu CNTT nước ngoài, đơn vị tỷ VNĐ.",
+    "original_page_check": [
+      {
+        "page": 63,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "b5479af62bbdd21564761d0d931de8d00362917f8fb1610c474d2ec937a06799",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.418849+00:00"
+  },
+  {
+    "query_id": "fd-i1",
+    "passed": false,
+    "reason": "Nêu đúng Đại hội đồng cổ đông và HĐQT nhưng thêm/đặt Ban kiểm soát vào đường chính hoặc chuỗi cấp tiếp theo. Ảnh trang 31 cho thấy Ban kiểm soát là nhánh riêng; không đạt tiêu chí toàn bộ câu trả lời được hỗ trợ.",
+    "original_page_check": [
+      {
+        "page": 31,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      }
+    ],
+    "trace_sha256": "fee0c95ee5d920cf2f1d28ec4935c8a7a66bea26901eb6837a450915aa97f123",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.419479+00:00"
+  },
+  {
+    "query_id": "fd-i2",
+    "passed": true,
+    "reason": "Đúng mốc 1998, hệ thống quản lý đối tượng nộp thuế VAT và 61 cục Thuế.",
+    "original_page_check": [
+      {
+        "page": 28,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "deaa84b66973faea6593261d349d0f310773e65fcb242176db75b72d8eeab036"
+      }
+    ],
+    "trace_sha256": "0f958e22e05105d6f5b0f95784f2c77c772ff8bf41a9f18194ff355a909cc8d3",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.420073+00:00"
+  },
+  {
+    "query_id": "fd-i3",
+    "passed": false,
+    "reason": "Câu dev/gold bị lỗi: ảnh gốc có năm nhãn NHANH HƠN, NHÂN RỘNG HƠN, HIỆU QUẢ HƠN, BẢO MẬT HƠN, LINH HOẠT HƠN; không có THÔNG MINH HƠN. Không dùng item lỗi để kết luận đạt. Vision nêu ba nhãn thực có; text thay nhãn bằng diễn giải. Cần sửa câu hỏi/gold trước lựa chọn.",
+    "original_page_check": [
+      {
+        "page": 63,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "9fb5b72ebbd6de1b207730ba8ff30dd88ea7844d43a3d12303ea0ac56432c601",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.420659+00:00"
+  },
+  {
+    "query_id": "fd-m1",
+    "passed": true,
+    "reason": "Đủ cả hai địa điểm điện mặt trời ở trang 147 và công trình EDGE ở trang 153; citation đủ hai nguồn.",
+    "original_page_check": [
+      {
+        "page": 147,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+      },
+      {
+        "page": 153,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+      }
+    ],
+    "trace_sha256": "b25c1dd86f7ac5610412389309b5c790f2c5d739806e4eb408491c8a5e109cd8",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.421239+00:00"
+  },
+  {
+    "query_id": "fd-m2",
+    "passed": false,
+    "reason": "Chỉ trích bảng vai trò trang 125; không dẫn sơ đồ trang 31 và gọi nhầm bảng là sơ đồ. Không đủ hai loại evidence mà câu hỏi yêu cầu đối chiếu.",
+    "original_page_check": [
+      {
+        "page": 31,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      },
+      {
+        "page": 125,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+      }
+    ],
+    "trace_sha256": "70029bb9bd5309a27b70f98e65d454209bb1b37d713b9902c435fdbda4e1dba4",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.421818+00:00"
+  },
+  {
+    "query_id": "fd-m3",
+    "passed": true,
+    "reason": "Đủ định vị AI trong vận hành và vai trò FleziPT. Trang 50 nêu AI tích hợp xuyên suốt giải pháp/quy trình, chấp nhận thay thế tương đương phần định vị ở trang 4; trang 63 hỗ trợ vai trò nền tảng, trang 51 hỗ trợ ứng dụng FleziPT nếu có dẫn.",
+    "original_page_check": [
+      {
+        "page": 3,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408"
+      },
+      {
+        "page": 4,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+      },
+      {
+        "page": 50,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "3191eab840913a291ec7db04b15b5357712eff91623965778ff93d05765149a5"
+      },
+      {
+        "page": 51,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de"
+      },
+      {
+        "page": 63,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "65bbcefbf0cb06b1af793527700445350700ebd4b4fb64c141256539bdc126f3",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.422410+00:00"
+  },
+  {
+    "query_id": "fd-t1",
+    "passed": false,
+    "reason": "Sai hàng: 15.958 là EBITDA, không phải lợi nhuận thuần hoạt động kinh doanh 12.952; tỷ lệ đúng là 17,5%.",
+    "original_page_check": [
+      {
+        "page": 12,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+      }
+    ],
+    "trace_sha256": "fc1ba57cb1e6a6ac0046a0c690486486ea6ff144c5c2d39282682b738be64fa8",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.423780+00:00"
+  },
+  {
+    "query_id": "fd-t2",
+    "passed": true,
+    "reason": "Đúng 49%, citation đúng dòng sở hữu nước ngoài.",
+    "original_page_check": [
+      {
+        "page": 32,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "c287642128097416c18dfcd119132d4ba068f3439767dbbf61daffb2d61cb320"
+      }
+    ],
+    "trace_sha256": "ed96b205f500eb8e5d3706642eee6452c1c8bff4f1717eb0652f99632f7386b7",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.424475+00:00"
+  },
+  {
+    "query_id": "fd-t3",
+    "passed": true,
+    "reason": "Đúng 1.751 tỷ VNĐ và 70,0%, citation đúng hàng Viễn thông.",
+    "original_page_check": [
+      {
+        "page": 75,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+      }
+    ],
+    "trace_sha256": "a18c36bf74b8146c3781b97ed6bbdc4aa2e97d5a307904fb8c2306c06d337ec7",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.425086+00:00"
+  },
+  {
+    "query_id": "fd-u1",
+    "passed": true,
+    "reason": "Từ chối; báo cáo có kế hoạch 2026, không có doanh thu thực tế cả năm đó.",
+    "original_page_check": [
+      {
+        "page": 55,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+      }
+    ],
+    "trace_sha256": "c60b8227d38f739a72af523770e2574db6a89768b747fbe5989995701d617575",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.425671+00:00"
+  },
+  {
+    "query_id": "fd-u2",
+    "passed": true,
+    "reason": "Từ chối; các phần AI Factory không cung cấp bảng giá thuê giờ theo loại GPU.",
+    "original_page_check": [
+      {
+        "page": 5,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+      }
+    ],
+    "trace_sha256": "f616a5c05b12975ce55ca82fe495b160d207a61f1e5f3126343b888caf54bf69",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.426332+00:00"
+  },
+  {
+    "query_id": "fd-u3",
+    "passed": true,
+    "reason": "Nêu rõ không công bố tiền từng hộ, không đoán từ tổng số người hưởng lợi; trang 158 phù hợp chủ đề.",
+    "original_page_check": [
+      {
+        "page": 158,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869"
+      }
+    ],
+    "trace_sha256": "b99a667ed3406cc4ae1e9091460a3daeda88da9ccee3dd9474acafdfe88a0dee",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.426906+00:00"
+  },
+  {
+    "query_id": "fd-x1",
+    "passed": true,
+    "reason": "Đủ thời gian, chi phí, năng suất lao động và citation thông điệp Chủ tịch.",
+    "original_page_check": [
+      {
+        "page": 4,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+      }
+    ],
+    "trace_sha256": "f383e5ef9c847cab0e5d02b6a921d29431166e5311acc6ba017410357e114363",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.427475+00:00"
+  },
+  {
+    "query_id": "fd-x2",
+    "passed": true,
+    "reason": "Đúng Reduce/Reuse/Recycle và giải thích 3R, citation phần quản lý chất thải.",
+    "original_page_check": [
+      {
+        "page": 150,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "04e39df8fdabcbc8347ac2f971b935e8d8a14e95ea06bd300a3c575c3f8a7a97"
+      }
+    ],
+    "trace_sha256": "588d462e80f413295dd656fe8fc0bb0d2f5ce481f082bcbba1a9fb8fd0a9a902",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.428057+00:00"
+  },
+  {
+    "query_id": "fd-x3",
+    "passed": true,
+    "reason": "Đúng 42% nhà cung cấp trọng yếu tham gia và 97% đạt yêu cầu, citation phần mua sắm bền vững.",
+    "original_page_check": [
+      {
+        "page": 128,
+        "region": "Vùng evidence của câu hỏi và citation; xem gold/trace để định vị.",
+        "image_sha256": "847ea324f08eae37df05820abe8df8f175433aaec864d00fca7560342eff676b"
+      }
+    ],
+    "trace_sha256": "212519c4cfb9ebd36ee4f357694983d8e2c1a42293e43e4485b294a481536a55",
+    "benchmark_sha256": "257384a6e0546bdd514200828ad0242364688bec3e92a3a9b804fdcdee32d627",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:24:43.428623+00:00"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p138",
+  "image_sha256": "c0bb6fdc17a6be6be4ceecf7534c39a06c9ad2c55126b5e8a2c915faf27ec88c",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về cơ hội học hỏi và thăng tiến tại FPT thông qua các chương trình đào tạo phát triển nguồn nhân lực, bao gồm đào tạo nội bộ, mô hình Mentor – Mentee, và các chương trình đào tạo chuyên sâu về công nghệ, AI, ESG. Trang cũng nêu cam kết phát triển nhân lực chất lượng cao và hợp tác với các đối tác quốc tế và trường đại học trong nước.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Tổng số giờ đào tạo nội bộ giai đoạn 2021-2025",
+        "location": "dưới",
+        "description": "Biểu đồ cột thể hiện tổng số giờ đào tạo nội bộ theo từng năm từ 2021 đến 2025, đơn vị tính là giờ, với số liệu tăng dần qua các năm."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800777-bBXtnnaGLMsVoG6jQDVu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 174,
+        "total_tokens": 2736,
+        "cost": 0.0013032,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013032,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002784
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4909.797500004061,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

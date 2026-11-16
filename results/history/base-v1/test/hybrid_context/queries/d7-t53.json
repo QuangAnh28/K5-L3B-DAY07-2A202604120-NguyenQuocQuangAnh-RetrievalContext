@@ -1,0 +1,420 @@
+{
+  "status": "answered",
+  "answer": "Trừ trường hợp có thỏa thuận khác, nếu giá được xác định theo trọng lượng của hàng hóa thì trọng lượng đó là trọng lượng tịnh. [luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_3KfwLiGIjpZYPfuGvM2WMsAP",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"giá hàng hóa tính theo trọng lượng dùng trọng lượng nào\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797901-vVZTyIYY0n8WWYoeLmXM"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Nếu không có thỏa thuận khác, giá hàng hóa tính theo trọng lượng dùng trọng lượng nào?",
+      "model_query": "giá hàng hóa tính theo trọng lượng dùng trọng lượng nào",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii"
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 16,
+          "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 16,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 53"
+          },
+          "score": 0.03131881575727918,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 15,
+          "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 15,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 52"
+          },
+          "score": 0.031024531024531024,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 55,
+          "text": "2. Trường hợp hàng hoá là động sản thì địa điểm giao hàng là n ơi tổ chức đấu giá, tr ừ trường hợp người tổ chức đấu giá và ng ười mua hàng có tho ả thuận khác.\n\nĐiều 211. Thù lao dịch vụ đấu giá hàng hoá Trường hợp không có tho ả thuận về mức thù lao d ịch vụ đấu giá hàng hóa thì thù lao được xác định như sau:\n\n1. Tr ường h ợp cu ộc đấu giá thành công thì thù lao d ịch v ụ đấu giá được xác định theo Điều 86 của Luật này;\n\n2. Trường hợp đấu giá không thành thì người bán hàng phải trả mức thù lao bằng 50% của mức thù lao quy định tại khoản 1 Điều này.\n\nĐiều 212. Chi phí liên quan đến đấu giá hàng hoá Trừ trường hợp có tho ả thuận khác gi ữa người bán hàng và ng ười tổ chức đấu giá, chi phí liên quan đến đấu giá hàng hóa được xác định như sau:\n\n1. Người bán hàng ph ải chịu chi phí v ận chuyển hàng hoá đến địa điểm đã thoả thuận và chi phí b ảo quản hàng hoá trong tr ường hợp không giao hàng hoá cho người tổ chức đấu giá bảo quản;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 55,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 211"
+          },
+          "score": 0.0293236301369863,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 13
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 12,
+          "text": "a) Không phù h ợp v ới m ục đích sử d ụng thông th ường c ủa các hàng hoá cùng chủng loại;\n\nb) Không phù h ợp v ới b ất k ỳ m ục đích c ụ th ể nào mà bên mua đã cho bên bán bi ết hoặc bên bán ph ải biết vào th ời điểm giao k ết hợp đồng;\n\nc) Không b ảo đảm ch ất lượng nh ư ch ất lượng c ủa m ẫu hàng hoá mà bên bán đã giao cho bên mua;\n\nd) Không được b ảo qu ản, đóng gói theo cách th ức thông th ường đối v ới loại hàng hoá đó ho ặc không theo cách th ức thích h ợp để b ảo qu ản hàng hoá trong trường hợp không có cách thức bảo quản thông thường.\n\n2. Bên mua có quy ền từ chối nhận hàng nếu hàng hoá không phù h ợp với hợp đồng theo quy định tại khoản 1 Điều này.\n\nĐiều 40. Trách nhiệm đối với hàng hoá không phù hợp với hợp đồng Trừ trường hợp các bên có tho ả thuận khác, trách nhi ệm đối với hàng hóa không phù hợp với hợp đồng được quy định như sau:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 12,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 40"
+          },
+          "score": 0.02854251012145749,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 3",
+            "article": "Điều 62"
+          },
+          "score": 0.028006267136701922,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 14
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 55]\n2. Trường hợp hàng hoá là động sản thì địa điểm giao hàng là n ơi tổ chức đấu giá, tr ừ trường hợp người tổ chức đấu giá và ng ười mua hàng có tho ả thuận khác.\n\nĐiều 211. Thù lao dịch vụ đấu giá hàng hoá Trường hợp không có tho ả thuận về mức thù lao d ịch vụ đấu giá hàng hóa thì thù lao được xác định như sau:\n\n1. Tr ường h ợp cu ộc đấu giá thành công thì thù lao d ịch v ụ đấu giá được xác định theo Điều 86 của Luật này;\n\n2. Trường hợp đấu giá không thành thì người bán hàng phải trả mức thù lao bằng 50% của mức thù lao quy định tại khoản 1 Điều này.\n\nĐiều 212. Chi phí liên quan đến đấu giá hàng hoá Trừ trường hợp có tho ả thuận khác gi ữa người bán hàng và ng ười tổ chức đấu giá, chi phí liên quan đến đấu giá hàng hóa được xác định như sau:\n\n1. Người bán hàng ph ải chịu chi phí v ận chuyển hàng hoá đến địa điểm đã thoả thuận và chi phí b ảo quản hàng hoá trong tr ường hợp không giao hàng hoá cho người tổ chức đấu giá bảo quản;\n\n[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\na) Không phù h ợp v ới m ục đích sử d ụng thông th ường c ủa các hàng hoá cùng chủng loại;\n\nb) Không phù h ợp v ới b ất k ỳ m ục đích c ụ th ể nào mà bên mua đã cho bên bán bi ết hoặc bên bán ph ải biết vào th ời điểm giao k ết hợp đồng;\n\nc) Không b ảo đảm ch ất lượng nh ư ch ất lượng c ủa m ẫu hàng hoá mà bên bán đã giao cho bên mua;\n\nd) Không được b ảo qu ản, đóng gói theo cách th ức thông th ường đối v ới loại hàng hoá đó ho ặc không theo cách th ức thích h ợp để b ảo qu ản hàng hoá trong trường hợp không có cách thức bảo quản thông thường.\n\n2. Bên mua có quy ền từ chối nhận hàng nếu hàng hoá không phù h ợp với hợp đồng theo quy định tại khoản 1 Điều này.\n\nĐiều 40. Trách nhiệm đối với hàng hoá không phù hợp với hợp đồng Trừ trường hợp các bên có tho ả thuận khác, trách nhi ệm đối với hàng hóa không phù hợp với hợp đồng được quy định như sau:\n\n[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+        "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+        "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+        "luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6",
+        "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca",
+        "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_TbQtfI04RgMfQ3ie9no7b8Yi",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Trừ trường hợp có thỏa thuận khác, nếu giá được xác định theo trọng lượng của hàng hóa thì trọng lượng đó là trọng lượng tịnh.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797904-2yDF9pJoe3ZWPcNEF3Zv"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 55]\n2. Trường hợp hàng hoá là động sản thì địa điểm giao hàng là n ơi tổ chức đấu giá, tr ừ trường hợp người tổ chức đấu giá và ng ười mua hàng có tho ả thuận khác.\n\nĐiều 211. Thù lao dịch vụ đấu giá hàng hoá Trường hợp không có tho ả thuận về mức thù lao d ịch vụ đấu giá hàng hóa thì thù lao được xác định như sau:\n\n1. Tr ường h ợp cu ộc đấu giá thành công thì thù lao d ịch v ụ đấu giá được xác định theo Điều 86 của Luật này;\n\n2. Trường hợp đấu giá không thành thì người bán hàng phải trả mức thù lao bằng 50% của mức thù lao quy định tại khoản 1 Điều này.\n\nĐiều 212. Chi phí liên quan đến đấu giá hàng hoá Trừ trường hợp có tho ả thuận khác gi ữa người bán hàng và ng ười tổ chức đấu giá, chi phí liên quan đến đấu giá hàng hóa được xác định như sau:\n\n1. Người bán hàng ph ải chịu chi phí v ận chuyển hàng hoá đến địa điểm đã thoả thuận và chi phí b ảo quản hàng hoá trong tr ường hợp không giao hàng hoá cho người tổ chức đấu giá bảo quản;\n\n[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\na) Không phù h ợp v ới m ục đích sử d ụng thông th ường c ủa các hàng hoá cùng chủng loại;\n\nb) Không phù h ợp v ới b ất k ỳ m ục đích c ụ th ể nào mà bên mua đã cho bên bán bi ết hoặc bên bán ph ải biết vào th ời điểm giao k ết hợp đồng;\n\nc) Không b ảo đảm ch ất lượng nh ư ch ất lượng c ủa m ẫu hàng hoá mà bên bán đã giao cho bên mua;\n\nd) Không được b ảo qu ản, đóng gói theo cách th ức thông th ường đối v ới loại hàng hoá đó ho ặc không theo cách th ức thích h ợp để b ảo qu ản hàng hoá trong trường hợp không có cách thức bảo quản thông thường.\n\n2. Bên mua có quy ền từ chối nhận hàng nếu hàng hoá không phù h ợp với hợp đồng theo quy định tại khoản 1 Điều này.\n\nĐiều 40. Trách nhiệm đối với hàng hoá không phù hợp với hợp đồng Trừ trường hợp các bên có tho ả thuận khác, trách nhi ệm đối với hàng hóa không phù hợp với hợp đồng được quy định như sau:\n\n[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+    "luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6",
+    "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca",
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797901-vVZTyIYY0n8WWYoeLmXM",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 292,
+        "completion_tokens": 17,
+        "total_tokens": 309,
+        "cost": 0.000144,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000144,
+          "upstream_inference_prompt_cost": 0.0001168,
+          "upstream_inference_completions_cost": 2.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2484.4536000164226,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797904-2yDF9pJoe3ZWPcNEF3Zv",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2435,
+        "completion_tokens": 84,
+        "total_tokens": 2519,
+        "cost": 0.0011084,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011084,
+          "upstream_inference_prompt_cost": 0.000974,
+          "upstream_inference_completions_cost": 0.0001344
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3383.5778999491595,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 5894.099000026472,
+  "searches": 1,
+  "query_id": "d7-t53",
+  "question": "Nếu không có thỏa thuận khác, giá hàng hóa tính theo trọng lượng dùng trọng lượng nào?",
+  "split": "test",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii"
+      },
+      "score": 0.03149801587301587,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 4
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 16,
+      "text": "Điều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 16,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 53"
+      },
+      "score": 0.03131881575727918,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 7,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 15,
+      "text": "Điều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 15,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 52"
+      },
+      "score": 0.031024531024531024,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 55,
+      "text": "2. Trường hợp hàng hoá là động sản thì địa điểm giao hàng là n ơi tổ chức đấu giá, tr ừ trường hợp người tổ chức đấu giá và ng ười mua hàng có tho ả thuận khác.\n\nĐiều 211. Thù lao dịch vụ đấu giá hàng hoá Trường hợp không có tho ả thuận về mức thù lao d ịch vụ đấu giá hàng hóa thì thù lao được xác định như sau:\n\n1. Tr ường h ợp cu ộc đấu giá thành công thì thù lao d ịch v ụ đấu giá được xác định theo Điều 86 của Luật này;\n\n2. Trường hợp đấu giá không thành thì người bán hàng phải trả mức thù lao bằng 50% của mức thù lao quy định tại khoản 1 Điều này.\n\nĐiều 212. Chi phí liên quan đến đấu giá hàng hoá Trừ trường hợp có tho ả thuận khác gi ữa người bán hàng và ng ười tổ chức đấu giá, chi phí liên quan đến đấu giá hàng hóa được xác định như sau:\n\n1. Người bán hàng ph ải chịu chi phí v ận chuyển hàng hoá đến địa điểm đã thoả thuận và chi phí b ảo quản hàng hoá trong tr ường hợp không giao hàng hoá cho người tổ chức đấu giá bảo quản;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 55,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 211"
+      },
+      "score": 0.0293236301369863,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 4,
+        "tfidf": 13
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 12,
+      "text": "a) Không phù h ợp v ới m ục đích sử d ụng thông th ường c ủa các hàng hoá cùng chủng loại;\n\nb) Không phù h ợp v ới b ất k ỳ m ục đích c ụ th ể nào mà bên mua đã cho bên bán bi ết hoặc bên bán ph ải biết vào th ời điểm giao k ết hợp đồng;\n\nc) Không b ảo đảm ch ất lượng nh ư ch ất lượng c ủa m ẫu hàng hoá mà bên bán đã giao cho bên mua;\n\nd) Không được b ảo qu ản, đóng gói theo cách th ức thông th ường đối v ới loại hàng hoá đó ho ặc không theo cách th ức thích h ợp để b ảo qu ản hàng hoá trong trường hợp không có cách thức bảo quản thông thường.\n\n2. Bên mua có quy ền từ chối nhận hàng nếu hàng hoá không phù h ợp với hợp đồng theo quy định tại khoản 1 Điều này.\n\nĐiều 40. Trách nhiệm đối với hàng hoá không phù hợp với hợp đồng Trừ trường hợp các bên có tho ả thuận khác, trách nhi ệm đối với hàng hóa không phù hợp với hợp đồng được quy định như sau:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 12,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 40"
+      },
+      "score": 0.02854251012145749,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 16,
+        "tfidf": 5
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 3",
+        "article": "Điều 62"
+      },
+      "score": 0.028006267136701922,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 9,
+        "tfidf": 14
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.\n\n[luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 16]\nĐiều 53. Xác định giá theo trọng lượng Trừ trường hợp có thoả thuận khác, nếu giá được xác định theo trọng lượng của hàng hoá thì trọng lượng đó là trọng lượng tịnh.\n\nĐiều 54. Địa điểm thanh toán Trường hợp không có thỏa thuận về địa điểm thanh toán cụ thể thì bên mua phải thanh toán cho bên bán tại một trong các địa điểm sau đây:\n\n1. Địa điểm kinh doanh c ủa bên bán được xác định vào th ời điểm giao k ết hợp đồng, nếu không có địa điểm kinh doanh thì tại nơi cư trú của bên bán;\n\n2. Địa điểm giao hàng ho ặc giao ch ứng từ, nếu việc thanh toán được tiến hành đồng thời với việc giao hàng hoặc giao chứng từ.\n\nĐiều 55. Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;\n\n[luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 15]\nĐiều 52. Xác định giá Trường hợp không có tho ả thuận về giá hàng hoá, không có tho ả thuận về phương pháp xác định giá và c ũng không có b ất kỳ chỉ dẫn nào khác v ề giá thì giá của hàng hoá được xác định theo giá của loại hàng hoá đó trong các điều kiện tương tự về phương thức giao hàng, th ời điểm mua bán hàng hoá, th ị trường địa lý, phương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá.\n\n[luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 55]\n2. Trường hợp hàng hoá là động sản thì địa điểm giao hàng là n ơi tổ chức đấu giá, tr ừ trường hợp người tổ chức đấu giá và ng ười mua hàng có tho ả thuận khác.\n\nĐiều 211. Thù lao dịch vụ đấu giá hàng hoá Trường hợp không có tho ả thuận về mức thù lao d ịch vụ đấu giá hàng hóa thì thù lao được xác định như sau:\n\n1. Tr ường h ợp cu ộc đấu giá thành công thì thù lao d ịch v ụ đấu giá được xác định theo Điều 86 của Luật này;\n\n2. Trường hợp đấu giá không thành thì người bán hàng phải trả mức thù lao bằng 50% của mức thù lao quy định tại khoản 1 Điều này.\n\nĐiều 212. Chi phí liên quan đến đấu giá hàng hoá Trừ trường hợp có tho ả thuận khác gi ữa người bán hàng và ng ười tổ chức đấu giá, chi phí liên quan đến đấu giá hàng hóa được xác định như sau:\n\n1. Người bán hàng ph ải chịu chi phí v ận chuyển hàng hoá đến địa điểm đã thoả thuận và chi phí b ảo quản hàng hoá trong tr ường hợp không giao hàng hoá cho người tổ chức đấu giá bảo quản;\n\n[luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 12]\na) Không phù h ợp v ới m ục đích sử d ụng thông th ường c ủa các hàng hoá cùng chủng loại;\n\nb) Không phù h ợp v ới b ất k ỳ m ục đích c ụ th ể nào mà bên mua đã cho bên bán bi ết hoặc bên bán ph ải biết vào th ời điểm giao k ết hợp đồng;\n\nc) Không b ảo đảm ch ất lượng nh ư ch ất lượng c ủa m ẫu hàng hoá mà bên bán đã giao cho bên mua;\n\nd) Không được b ảo qu ản, đóng gói theo cách th ức thông th ường đối v ới loại hàng hoá đó ho ặc không theo cách th ức thích h ợp để b ảo qu ản hàng hoá trong trường hợp không có cách thức bảo quản thông thường.\n\n2. Bên mua có quy ền từ chối nhận hàng nếu hàng hoá không phù h ợp với hợp đồng theo quy định tại khoản 1 Điều này.\n\nĐiều 40. Trách nhiệm đối với hàng hoá không phù hợp với hợp đồng Trừ trường hợp các bên có tho ả thuận khác, trách nhi ệm đối với hàng hóa không phù hợp với hợp đồng được quy định như sau:\n\n[luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 17]\n1. Trong trường hợp không được quy định tại các điều 57, 58, 59 và 60 c ủa Luật này thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuyển cho bên mua, kể t ừ th ời điểm hàng hóa thu ộc quy ền định đoạt c ủa bên mua và bên mua vi phạm hợp đồng do không nhận hàng;\n\n2. Rủi ro v ề mất mát ho ặc hư hỏng hàng hoá không được chuyển cho bên mua, nếu hàng hoá không được xác định rõ ràng b ằng ký mã hi ệu, chứng từ vận tải, không được thông báo cho bên mua ho ặc không được xác định bằng bất kỳ cách thức nào khác.\n\nĐiều 62. Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao.\n\nMục 3 MUA BÁN HÀNG HÓA QUA SỞ GIAO DỊCH HÀNG HÓA\n\nĐiều 63. Mua bán hàng hóa qua Sở giao dịch hàng hóa",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+    "luat-thuong-mai-36-2005-qh11-p16-paragraph-1000-2a041e99beaed807",
+    "luat-thuong-mai-36-2005-qh11-p15-paragraph-1000-e57b80fcbf7ebdfa",
+    "luat-thuong-mai-36-2005-qh11-p55-paragraph-1000-71262a4674beaae6",
+    "luat-thuong-mai-36-2005-qh11-p12-paragraph-1000-094faac40bfaefca",
+    "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-e3876841686f4b50"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

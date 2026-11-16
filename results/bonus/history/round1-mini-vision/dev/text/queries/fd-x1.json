@@ -1,0 +1,259 @@
+{
+  "status": "answered",
+  "answer": "Theo thông điệp Chủ tịch Hội đồng Quản trị FPT, ba bài toán sống còn doanh nghiệp phải giải trong kỷ nguyên AI là: 1) Thời gian - doanh nghiệp nào đưa sản phẩm, dịch vụ ra thị trường nhanh hơn sẽ chiến thắng; 2) Chi phí - AI giúp giảm mạnh chi phí phát triển và vận hành, tăng hiệu quả công việc; 3) Năng suất lao động - AI cho phép tự động hóa nhiều công việc tri thức, tăng năng suất lao động lên nhiều lần so với trước đây. Đây là ba yếu tố sống còn mà doanh nghiệp phải giải quyết để không bị bỏ lại phía sau trong kỷ nguyên AI.\n[FPT2025:p004 — toàn bộ đoạn văn đầu trang 4]",
+  "citations": [
+    {
+      "id": "FPT2025:p004",
+      "region": "toàn bộ đoạn văn đầu trang 4"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801831-atKSdMBAX6wTYGUC79tO",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_6x9hDrLpnBy2kNtsWuhP6xhF",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"thông điệp Chủ tịch HĐQT ba bài toán sống còn kỷ nguyên AI\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo thông điệp Chủ tịch HĐQT, ba bài toán sống còn doanh nghiệp phải giải trong kỷ nguyên AI là gì?",
+      "model_queries": [
+        "thông điệp Chủ tịch HĐQT ba bài toán sống còn kỷ nguyên AI"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p004",
+          "page": 4,
+          "score": 0.03252247488101534,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p003",
+          "page": 3,
+          "score": 0.032018442622950824,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "score": 0.02877846790890269,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "FPT2025:p048",
+          "page": 48,
+          "score": 0.028177225029148854,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 23
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo thông điệp Chủ tịch HĐQT, ba bài toán sống còn doanh nghiệp phải giải trong kỷ nguyên AI là gì?"
+      ],
+      "context_ids": [
+        "FPT2025:p004",
+        "FPT2025:p003",
+        "FPT2025:p005",
+        "FPT2025:p048"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p004",
+          "page": 4,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Ba yếu tố sống còn trong kỷ nguyên AI\nĐể không bị bỏ lại phía sau trong kỷ nguyên AI, các doanh nghiệp, tổ chức buộc \nphải giải được ba bài toán sống còn: thời gian, chi phí và năng suất lao động.\nThứ nhất là về thời gian. Trong một thế giới thay đổi theo từng ngày, thậm chí từng \ngiờ, doanh nghiệp nào đưa sản phẩm, dịch vụ ra thị trường nhanh hơn sẽ là doanh \nnghiệp chiến thắng.\nThứ hai là về chi phí. Công nghệ, đặc biệt là AI, đang mở ra khả năng giảm mạnh \nchi phí phát triển, và vận hành. Những công việc trước đây cần nhiều nguồn lực, \nnhiều thời gian, giờ đây có thể được thực hiện với hiệu quả cao hơn nhiều lần. Theo \nnghiên cứu của McKinsey, AI có thể giúp doanh nghiệp giảm 20-30% chi phí trong \nnhiều quy trình, trong khi Microsoft ghi nhận các công cụ AI hỗ trợ lập trình giúp \ntăng năng suất lên tới 55%.\nVà cuối cùng là năng suất lao động, yếu tố mang tính quyết định. AI cho phép tự \nđộng hóa ngày càng nhiều công việc liên quan đến tri thức – từ phân tích dữ liệu, \nphát triển phần mềm cho đến vận hành hệ thống. Điều này cho phép năng suất lao \nđộng tăng lên không phải vài phần trăm như trước đây, mà tăng theo nhiều lần. \nMột ví dụ rất cụ thể là bài toán hiện đại hóa các hệ thống công nghệ thông tin di \nsản trên thế giới, đặc biệt là các hệ thống viết bằng ngôn ngữ COBOL. Theo thống \nkê, có khoảng 300 tỷ dòng mã COBOL đang được vận hành trên toàn cầu và \n70-80% giao dịch kinh doanh trên thế giới vẫn được xử lý bởi các hệ thống này. \nViệc chuyển đổi các hệ thống này sang nền tảng hiện đại là một khối lượng công \nviệc khổng lồ và có thể kéo dài nhiều năm. Với các nền tảng AI như xMainframe mà \nFPT đang phát triển, quá trình phân tích, chuyển đổi và tái cấu trúc các hệ thống \nnày được tự động hóa giúp giảm 30% khối lượng công việc thủ công. \nTổng hòa của ba yếu tố này cho thấy một thực tế: lợi thế cạnh tranh trong kỷ \nnguyên AI không còn đến từ quy mô hay kinh nghiệm, mà đến từ khả năng thích \nứng và tái tạo chính mình bằng công nghệ. Và để làm được điều này, các doanh \nnghiệp buộc phải tiến tới mô hình AI thuần (AI-Native). Đây không còn là một lựa \nchọn mang tính chiến lược, mà là một yêu cầu mang tính sống còn. AI sẽ không chỉ \nlà công cụ hỗ trợ, mà sẽ trở thành nền tảng vận hành cốt lõi của tổ chức.\nLợi thế cạnh tranh khác biệt của FPT\nTrong làn sóng chuyển đổi mang tính lịch sử đó, FPT tin rằng mình đang sở hữu một \nsố lợi thế cạnh tranh mà không nhiều doanh nghiệp có được.\nTrước hết là lực lượng nhân lực công nghệ đông đảo. Với hàng chục nghìn kỹ sư \nđang làm việc trên khắp thế giới, đây chính là nguồn lực quan trọng để FPT triển \nkhai những chương trình chuyển đổi công nghệ quy mô lớn và kéo dài nhiều năm \ncho khách hàng toàn cầu.\nNhưng trong kỷ nguyên công nghệ mới, không chỉ đông mà còn phải tinh nhuệ. Với \nhơn 54.000 nhân sự làm việc tại trên 30 quốc gia, trong đó có hơn 4.000 chuyên \ngia quốc tế đến từ 82 quốc tịch, FPT đang từng bước xây dựng một đội ngũ công \nnghệ mang tính toàn cầu, đa dạng và có khả năng triển khai những bài toán phức \ntạp ở quy mô lớn. Chúng tôi cũng đã thành lập Viện Quantum AI & Cybersecurity, \nđặt mục tiêu đào tạo 100 tiến sĩ, phát triển 2.000 chuyên gia công nghệ trình độ \ncao và công bố 500 công trình k",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p003",
+          "page": 3,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lợi thế cạnh tranh trong kỷ nguyên AI không còn đến từ quy mô hay \nkinh nghiệm, mà đến từ khả năng thích ứng và tái tạo chính mình bằng \ncông nghệ. Và để làm được điều này, các doanh nghiệp buộc phải tiến \ntới mô hình AI-Native.\nKính thưa Quý Cổ đông, Khách hàng, Đối tác và toàn thể Cán bộ nhân viên FPT,\nThế giới đang trải qua những biến động sâu sắc, những thử thách khốc liệt chưa từng \nthấy. Chiến tranh, khan hiếm năng lượng, lạm phát, đứt gãy chuỗi cung ứng, chỉ số chứng \nkhoán tụt giảm… Các doanh nghiệp, tổ chức và thậm chí là cả các quốc gia phải đối mặt \nvới một trạng thái “bình thường mới” khắc nghiệt, sự ổn định không còn là điểm tựa. \nNhưng cũng chính trạng thái “bình thường mới” đầy khắc nghiệt này lại làm trỗi dậy một \nsức mạnh chưa từng có. Chúng ta đang đứng trước một “cơn sóng thần công nghệ”, mà \ntrung tâm của nó là AI. AI đang phát triển như vũ bão. Công nghệ này không chỉ thay đổi \ncách chúng ta sống, làm việc và giao tiếp, mà còn tái định hình cách các doanh nghiệp \nvận hành, cách các tổ chức quản trị và cách các quốc gia cạnh tranh. Khi chiến tranh, \nbất ổn và công nghệ cùng lúc tác động thì sự thay đổi của thế giới được gia tốc mạnh mẽ \nhơn bao giờ hết.\nTrong bối cảnh đó, mọi doanh nghiệp, tổ chức, quốc gia đều đứng trước một lựa chọn \nmang tính sinh tồn: thay đổi quyết liệt để tồn tại, hoặc chậm thay đổi để bị bỏ lại phía sau.\nTHÔNG ĐIỆP CHỦ TỊCH HĐQT\nTHÔNG ĐIỆP BAN LÃNH ĐẠO\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thông điệp của Chủ tịch Hội đồng Quản trị FPT về lợi thế cạnh tranh trong kỷ nguyên AI và những thách thức toàn cầu hiện nay.\nphoto: Ảnh Chủ tịch Hội đồng Quản trị (trái) — Ảnh chân dung Chủ tịch Hội đồng Quản trị FPT, mặc vest xanh, tay khoanh trước ngực.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh Chủ tịch Hội đồng Quản trị",
+              "location": "trái",
+              "description": "Ảnh chân dung Chủ tịch Hội đồng Quản trị FPT, mặc vest xanh, tay khoanh trước ngực."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Thông qua việc xây dựng hệ sinh thái công nghệ và nguồn nhân lực chất lượng cao, \nFPT khẳng định vị thế của một doanh nghiệp công nghệ có năng lực cạnh tranh \nquốc tế, tham gia và dẫn dắt các dự án công nghệ quy mô hàng trăm triệu đến \nhàng tỷ USD, trở thành đối tác chiến lược cấp cao trong các chương trình chuyển \nđổi số và AI dài hạn của các quốc gia và các tập đoàn lớn.\nTrước những biến động nhanh chóng của thế giới, con đường phía trước chắc chắn \ncòn nhiều thách thức. Nhưng với tinh thần tiên phong và khát vọng đổi mới, FPT sẽ \nchủ động nắm bắt cơ hội, phụng sự quốc gia, nâng tầm vị thế trên thị trường công \nnghệ toàn cầu để kiến tạo giá trị bền vững, lâu dài cho Tập đoàn, Quý Cổ đông. \nXin trân trọng cảm ơn!\nCHỦ TỊCH HĐQT\nTRƯƠNG GIA BÌNH\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí\ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh \ntrong dài hạn.\nLợi thế riêng có thứ hai của chúng tôi là hiện diện toàn cầu ở mọi múi giờ, \ncho phép đội ngũ nhân sự phối hợp làm việc liên tục 24/24 theo mô hình “follow \nthe sun”, từ đó rút ngắn đáng kể thời gian phát triển và triển khai các dự án \ncông nghệ cho khách hàng. Không chỉ dừng lại ở tốc độ, FPT đồng thời đầu tư \nmạnh vào năng lực công nghệ AI quy mô lớn, nhằm nâng cao năng suất, mở rộng \nquy mô triển khai và giải quyết những bài toán phức tạp mà trước đây không thể \nthực hiện được. Trong năm qua chúng tôi cũng đã đưa vào vận hành hai nhà máy \nAI tại Việt Nam và Nhật Bản, tạo nền tảng cho việc phát triển và triển khai \ncác giải pháp AI ở quy mô lớn. Chỉ sau một năm, các nhà máy này đã được khai thác \nkhoảng 70% công suất, xử lý hơn 1.100 tỷ token, tinh chỉnh 70 mô hình AI theo \nnhu cầu khách hàng và phát triển 10 mô hình ngôn ngữ lớn từ FPT AI Factory.\nThứ ba là hệ sinh thái hợp tác chiến lược với các tập đoàn công nghệ hàng đầu thế giới,\nđặc biệt là các nhà cung cấp dịch vụ lớn như: Microsoft, IBM…. Những quan hệ hợp tác \nnày giúp FPT tiếp cận những công nghệ tiên tiến nhất, đồng thời mang lại cho \nkhách hàng các giải pháp toàn diện, từ hạ tầng, nền tảng đến ứng dụng.\nSong song với phát triển công nghệ, FPT cũng đang thúc đẩy một cuộc cách mạng \ntrong giáo dục. FPT đã luôn tiên phong trong việc đưa công nghệ, AI vào giảng dạy \nvà sẽ chuyển đổi mạnh mẽ mô hình đào tạo truyền thống sang phương pháp \n“lớp học đảo ngược”, nơi mà nhờ AI, người học được chủ động tiếp cận trước kiến \nthức và dành thời gian trên lớp để giải quyết các bài toán thực tế. Trong mô hình \nđó, AI không chỉ là công cụ mà còn trở thành người phụ đạo, hỗ trợ cá nhân hóa \nquá trình học tập.\nLàm chủ công nghệ chiến lược\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí \ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh trong dài \nhạn. Nếu trước kia FPT chủ yếu được biết đến như một công ty cung cấp dịch vụ \ncông nghệ, thì từ năm 2026 và những năm tiếp theo, FPT sẽ chuyển mình thành \ndoanh nghiệp sáng tạo công nghệ, làm chủ các công nghệ chiến lược như AI, \nQuantum AI & Cybersecurity, UAV, công nghệ đường sắt, an ninh mạng và dữ liệu...\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nThông điệp của Chủ tịch Hội đồng Quản tr",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p048",
+          "page": 48,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Ở chiều ngược lại, làn sóng ứng dụng AI bùng nổ đang mở ra những cơ hội tăng trưởng \nmới, gắn với sự trỗi dậy của lực lượng kỹ sư AI và mô hình vận hành tác nhân (Agent \nOperations – AgentOps). Theo Gartner, đến năm 2028, nhu cầu về kỹ sư AI sẽ vượt \nxa nhu cầu về các lập trình viên truyền thống khi có sự dịch chuyển trọng tâm công \nviệc sang điều phối các AI đa tác nhân và quản trị mô hình AgentOps. \nSong song, việc AI làm giảm chi phí phát triển phần mềm cũng đang thúc đẩy \ndoanh nghiệp mở rộng quy mô ứng dụng, xây dựng nhiều phần mềm thông minh để \ngiải quyết các bài toán của doanh nghiệp. Điều này mở ra dư địa lớn cho các dự án \nhiện đại hóa hệ thống cũ và xây dựng ứng dụng thông minh (Intelligent Apps) \ntích hợp AI sâu rộng. Trong bối cảnh đó, sức cạnh tranh khác biệt của doanh nghiệp \ncông nghệ không còn nằm ở hoạt động lập trình thuần túy mà chuyển sang khả năng\nthấu hiểu bối cảnh kinh doanh, đặc thù ngành nghề và năng lực tư vấn giải pháp \ntổng thể. \nBáo cáo của Gartner cho thấy, quy mô thị trường AI doanh nghiệp toàn cầu tăng \ntrưởng 3,2 lần, từ 11,5 tỷ USD năm 2024 lên 37 tỷ USD năm 2025, trở thành phân khúc\nphát triển nhanh nhất. Đáng chú ý, số lượng mô hình AI được triển khai trực tiếp \ntrong hoạt động vận hành để phục vụ hoạt động kinh doanh và hỗ trợ ra quyết định \ntăng gấp 11 lần so với năm trước, phản ánh mức độ chín muồi của năng lực triển khai \nAI ở quy mô lớn.\nXung đột địa chính trị và chiến tranh thương mại \nđịnh hình chuỗi giá trị công nghệ toàn cầu\nQuy mô thị trường AI doanh nghiệp\nCăng thẳng địa chính trị toàn cầu tạo ra sự chia rẽ sâu sắc trong thương mại công \nnghệ. Trong một thế giới đa cực, các quốc gia nỗ lực thoát khỏi sự phụ thuộc vào \ncác nền tảng công nghệ của nước ngoài thông qua chiến lược hạ tầng toàn diện. \nBán dẫn là \"dầu mỏ\" của thế kỷ 21, thúc đẩy các khu vực nội địa hóa chuỗi cung \nứng. Đạo luật chip của Mỹ phản ánh chiến lược giảm phụ thuộc vào Trung Quốc, \nđẩy nhanh cuộc đua công nghệ AI, sinh học và chất bán dẫn. Mỹ đã áp đặt hạn chế \nxuất khẩu thiết bị viễn thông tiên tiến và chất bán dẫn, ảnh hưởng đến chip sản \nxuất nước ngoài sử dụng công nghệ Mỹ, dẫn tới việc tái cấu trúc sâu rộng ngành \nbán dẫn toàn cầu. \nAI trở thành sức mạnh quốc gia. Các nước đang đầu tư mạnh để xây dựng hạ tầng \ntính toán riêng và mô hình AI dựa trên dữ liệu bản địa. Hàn Quốc ra mắt \nAI Champions trị giá 530 tỷ Won để phát triển LLM bản địa như: HyperCLOVA X \ncủa Naver và Exaone của LG nhằm giảm sự phụ thuộc vào OpenAI và Google. \nCanada cam kết đầu tư 02 tỷ USD cho chiến lược tính toán AI chủ quyền. Chính phủ \nNhật Bản hỗ trợ phát triển LLM tập trung vào tiếng Nhật và dữ liệu công nghiệp \nđặc thù để bảo vệ văn hóa và an ninh dữ liệu. Ấn Độ triển khai chương trình \nIndiaAI Mission trị giá 1,25 tỷ USD để xây dựng năng lực tính toán trong nước.\nBối cảnh này tạo ra cơ hội chiến lược cho Việt Nam. Khi các tập đoàn đa quốc gia \nphải đa dạng hóa chuỗi cung ứng, Việt Nam với vị trí địa chính trị ổn định, lực lượng \nlao động công nghệ trẻ và chính sách mở cửa trở thành điểm đến hấp dẫn. Xu hướng\n\"Trung Quốc+1\" trong chuỗi cung ứng công nghệ mở ra không gian cho các công ty\ncông nghệ Việt Nam tham gia sâu hơn vào chuỗi giá trị công ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Quy mô thị trường AI doanh nghiệp",
+              "location": "dưới trái",
+              "description": "Biểu đồ đường thể hiện quy mô thị trường AI doanh nghiệp toàn cầu từ năm 2022 đến 2025, đơn vị tỷ USD, với các mốc 0 (2022), 1,7 (2023), 11,5 (2024), 37,0 (2025) và tỷ lệ tăng trưởng tương ứng 6,8x và 3,2x."
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801832-ckHzQLyuwwH7sBKbrc1W",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_szsDirxPtndSxcCJkPke4ODn",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo thông điệp Chủ tịch Hội đồng Quản trị FPT, ba bài toán sống còn doanh nghiệp phải giải trong kỷ nguyên AI là: 1) Thời gian - doanh nghiệp nào đưa sản phẩm, dịch vụ ra thị trường nhanh hơn sẽ chiến thắng; 2) Chi phí - AI giúp giảm mạnh chi phí phát triển và vận hành, tăng hiệu quả công việc; 3) Năng suất lao động - AI cho phép tự động hóa nhiều công việc tri thức, tăng năng suất lao động lên nhiều lần so với trước đây. Đây là ba yếu tố sống còn mà doanh nghiệp phải giải quyết để không bị bỏ lại phía sau trong kỷ nguyên AI.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p004\",\"region\":\"toàn bộ đoạn văn đầu trang 4\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p004",
+    "FPT2025:p003",
+    "FPT2025:p005",
+    "FPT2025:p048"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p004",
+      "page": 4,
+      "image": ".bonus/pages/p004.jpg",
+      "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+    },
+    {
+      "id": "FPT2025:p003",
+      "page": 3,
+      "image": ".bonus/pages/p003.jpg",
+      "image_sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408"
+    },
+    {
+      "id": "FPT2025:p005",
+      "page": 5,
+      "image": ".bonus/pages/p005.jpg",
+      "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+    },
+    {
+      "id": "FPT2025:p048",
+      "page": 48,
+      "image": ".bonus/pages/p048.jpg",
+      "image_sha256": "9fb6df40f11c90e110b3b303070326bcc2d269bc19f1f181f6f9cb2725911a98"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801831-atKSdMBAX6wTYGUC79tO",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 459,
+        "completion_tokens": 25,
+        "total_tokens": 484,
+        "cost": 0.0002236,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002236,
+          "upstream_inference_prompt_cost": 0.0001836,
+          "upstream_inference_completions_cost": 4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1533.5379000171088,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801832-ckHzQLyuwwH7sBKbrc1W",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 4256,
+        "completion_tokens": 184,
+        "total_tokens": 4440,
+        "cost": 0.000768,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000768,
+          "upstream_inference_prompt_cost": 0.0004736,
+          "upstream_inference_completions_cost": 0.0002944
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2937.4960000277497,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 4477.137400011998,
+  "query_id": "fd-x1",
+  "question": "Theo thông điệp Chủ tịch HĐQT, ba bài toán sống còn doanh nghiệp phải giải trong kỷ nguyên AI là gì?",
+  "split": "dev",
+  "config": "text"
+}

@@ -1,0 +1,458 @@
+{
+  "status": "answered",
+  "answer": "Hai địa điểm có hệ thống điện mặt trời mái nhà đưa vào hoạt động năm 2025 là tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp. Hồ Chí Minh), tạo ra tổng cộng 842.749 kWh điện.\n\nCông trình được nêu là đầu tiên tại Việt Nam đạt chứng chỉ EDGE là FPT Complex Đà Nẵng, nhờ các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\n[FPT2025:p147 — Đoạn văn mục 'Điện mặt trời mái nhà' (cột trái, giữa trang) nêu hai hệ thống tại F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh); ảnh chú thích 'Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)'] [FPT2025:p153 — Cột phải, ảnh dưới bên phải và khối chữ xanh lá 'FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE']",
+  "citations": [
+    {
+      "id": "FPT2025:p147",
+      "region": "Đoạn văn mục 'Điện mặt trời mái nhà' (cột trái, giữa trang) nêu hai hệ thống tại F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh); ảnh chú thích 'Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)'"
+    },
+    {
+      "id": "FPT2025:p153",
+      "region": "Cột phải, ảnh dưới bên phải và khối chữ xanh lá 'FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE'"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794804914-u0c2N2UQTTWNeB24PR44",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01VFz8D4ihR414FfPSeyUTZE",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"hệ thống điện mặt trời mái nhà đưa vào hoạt động năm 2025\",\"công trình đầu tiên ở Việt Nam đạt chứng nhận EDGE\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Nêu hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 và xác định công trình nào được nêu là đầu tiên ở Việt Nam đạt EDGE.",
+      "model_queries": [
+        "hệ thống điện mặt trời mái nhà đưa vào hoạt động năm 2025",
+        "công trình đầu tiên ở Việt Nam đạt chứng nhận EDGE"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p153",
+          "page": 153,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "score": 0.03149801587301587,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "score": 0.03036576949620428,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "FPT2025:p111",
+          "page": 111,
+          "score": 0.02964254577157803,
+          "component_ranks": {
+            "dense": 14,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p052",
+          "page": 52,
+          "score": 0.02857142857142857,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p077",
+          "page": 77,
+          "score": 0.028083267871170464,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p030",
+          "page": 30,
+          "score": 0.027583600982429624,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 19
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Nêu hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 và xác định công trình nào được nêu là đầu tiên ở Việt Nam đạt EDGE."
+      ],
+      "context_ids": [
+        "FPT2025:p147",
+        "FPT2025:p153",
+        "FPT2025:p119",
+        "FPT2025:p114",
+        "FPT2025:p111",
+        "FPT2025:p052",
+        "FPT2025:p077",
+        "FPT2025:p030"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xây dựng kế hoạch giảm thiểu lượng phát thải khí nhà kính từ hai nguồn phát \nsinh lớn thuộc Phạm vi 1 và Phạm vi 2, cũng như từ tất cả các nguồn phát sinh khác, \ncụ thể như sau:\n• Đối với Phạm vi 1 và Phạm vi 2, FPT triển khai các chương trình tiết kiệm điện và \nnăng lượng, hướng tới việc sử dụng năng lượng xanh và năng lượng tái tạo; \n• Các tòa nhà là nguồn tiêu thụ năng lượng chủ yếu, do đó, Tập đoàn chủ động \ntriển khai các sáng kiến tiết kiệm năng lượng trên nền tảng hạ tầng hiện hữu. \nThông qua việc ứng dụng các công nghệ tiên tiến và tăng cường hợp tác với các \nchuyên gia, FPT từng bước nâng cao hiệu quả sử dụng năng lượng, hướng tới hệ thống \nhạ tầng thân thiện hơn với môi trường;\n• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm: \ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hóa tòa \nnhà, hệ thống UPS, mặt dựng công trình, trung tâm dữ liệu và phòng máy chủ. \nThông qua các sáng kiến này, FPT hướng tới giảm thiểu tác động môi trường \nsong song với việc nâng cao hiệu quả vận hành.\nViệc giảm 8,58% tổng mức tiêu thụ điện so với năm 2024 phản ánh những nỗ lực \nnhất quán và có hệ thống của Tập đoàn trong triển khai các giải pháp tiết kiệm \nnăng lượng. Kết quả này đạt được nhờ việc ứng dụng các giải pháp quản lý và tối ưu \ntiêu thụ điện thông minh, kết hợp với các chương trình truyền thông và đào tạo \nnội bộ nhằm nâng cao nhận thức, thay đổi hành vi sử dụng năng lượng của CBNV \ntrong hoạt động hàng ngày.\nĐặc biệt, việc đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng \nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền \nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong \ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp \nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng, \ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát \nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời \nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra \n842.749 kWh điện. \nBảng tổng hợp so sánh kết quả tiêu thụ điện\n• Biện pháp giảm phát thải khí nhà kính\n Đơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch \n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 tập trung vào các biện pháp giảm phát thải khí nhà kính, đặc biệt là tiết kiệm năng lượng và sử dụng năng lượng tái tạo như điện mặt trời mái nhà.\ntable: Bảng tổng hợp so sánh kết quả tiêu thụ điện (dưới bên trái) — So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh.\nphoto: Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng) (phải) — Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ điện",
+              "location": "dưới bên trái",
+              "description": "So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh."
+            },
+            {
+              "type": "photo",
+              "title": "Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)",
+              "location": "phải",
+              "description": "Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p153",
+          "page": 153,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Với hệ thống văn phòng trải rộng trên toàn quốc, FPT \nxác định mô hình văn phòng xanh không chỉ góp phần \ntiết kiệm năng lượng, tối ưu chi phí vận hành mà còn \ntạo dựng môi trường làm việc sáng tạo, từ đó thúc \nđẩy tăng trưởng bền vững trong dài hạn.\nTrong quá trình đầu tư xây dựng các khu văn phòng, \nFPT thực hiện đầy đủ báo cáo đánh giá tác động môi \ntrường và tuân thủ nghiêm các quy định pháp luật \nliên quan đến bảo vệ môi trường, sử dụng năng lượng \nvà quản lý chất thải, khí thải. Ngay từ khâu thiết kế, \nTập đoàn ưu tiên ứng dụng công nghệ mới, vật liệu \nthân thiện với môi trường, đồng thời tận dụng tối đa \ncác nguồn năng lượng tự nhiên nhằm giảm thiểu \ntiêu thụ năng lượng và tác động đến môi trường.\nCác tổ hợp đào tạo và công viên phần mềm của FPT\ntại Hà Nội, Đà Nẵng, Bình Định (cũ), Tp. Hồ Chí Minh\nvà Cần Thơ được phát triển theo mô hình campus xanh,\ntích hợp không gian làm việc, đào tạo, vui chơi giải trí \nvà cảnh quan sinh thái. Nhiều công trình đã được các \ntổ chức trong và ngoài nước ghi nhận về kiến trúc xanh \nvà hiệu quả sử dụng tài nguyên.\nSong song, FPT ưu tiên sử dụng năng lượng mặt trời \nđể cung cấp nước nóng cho các tòa nhà, đặc biệt tại \nkhu vực miền Bắc, qua đó giảm tiêu thụ điện năng và \ngóp phần thực hiện các cam kết bảo vệ môi trường.\nTrong vận hành hằng ngày, Tập đoàn đẩy mạnh sử \ndụng các vật dụng thân thiện với môi trường tại văn \nphòng và cơ sở đào tạo như cốc, ống hút từ bã mía; \nbao bì và túi từ vật liệu có khả năng tái chế, từng \nbước hình thành thói quen tiêu dùng bền vững trong \ntoàn hệ thống.\nTòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh \ndanh tại World Architecture Festival ở hạng \nmục Giáo dục tương lai và đạt giải Nhất \nKiến trúc xanh do Hội Kiến trúc sư Việt Nam \ntổ chức.\nFPT Complex Đà Nẵng là công trình đầu tiên \ntại Việt Nam đạt chứng chỉ EDGE nhờ các \ngiải pháp tiết kiệm năng lượng, thu hồi nước \nmưa, xử lý nước thải và hệ thống điều hòa, \nchiếu sáng hiệu suất cao.\n• Văn phòng làm việc gần gũi với thiên nhiên và tiết kiệm năng lượng\nF-Town 3 được Wallpaper – tạp chí hàng đầu \ncủa Anh về kiến trúc và thiết kế xếp vào nhóm \ncông trình tiêu biểu cho kiến trúc sinh khí hậu \n(bioclimatic), trong đó hơn 40% không gian \nkhông cần sử dụng điều hòa.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 trình bày về mô hình văn phòng xanh, tiết kiệm năng lượng và thân thiện với môi trường, cùng các công trình kiến trúc tiêu biểu đạt giải thưởng và chứng chỉ xanh.\nphoto: F-Town 3 - công trình kiến trúc sinh khí hậu (dưới bên trái) — Ảnh công trình F-Town 3 với thiết kế không gian xanh, hơn 40% không gian không cần sử dụng điều hòa.\nphoto: Tòa nhà Hiệu bộ FPT tại Hòa Lạc (dưới giữa) — Ảnh tòa nhà Hiệu bộ FPT với kiến trúc xanh được vinh danh tại World Architecture Festival và giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức.\nphoto: FPT Complex Đà Nẵng (dưới bên phải) — Ảnh công trình FPT Complex Đà Nẵng đạt chứng chỉ EDGE với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "F-Town 3 - công trình kiến trúc sinh khí hậu",
+              "location": "dưới bên trái",
+              "description": "Ảnh công trình F-Town 3 với thiết kế không gian xanh, hơn 40% không gian không cần sử dụng điều hòa."
+            },
+            {
+              "type": "photo",
+              "title": "Tòa nhà Hiệu bộ FPT tại Hòa Lạc",
+              "location": "dưới giữa",
+              "description": "Ảnh tòa nhà Hiệu bộ FPT với kiến trúc xanh được vinh danh tại World Architecture Festival và giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức."
+            },
+            {
+              "type": "photo",
+              "title": "FPT Complex Đà Nẵng",
+              "location": "dưới bên phải",
+              "description": "Ảnh công trình FPT Complex Đà Nẵng đạt chứng chỉ EDGE với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường \nlàm việc hướng tới môi trường làm \nviệc xanh, an toàn, lành mạnh.\n• Mục tiêu trung hạn: đến năm 2030, \ngiảm 15,8% tổng lượng phát thải \nkhí nhà kính phù hợp với mục tiêu \nchung của Việt Nam;\n• Mục tiêu dài hạn: đến năm 2040 \nđạt Net Zero như cam kết của \nChính phủ Việt Nam tại COP 26.\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\n nhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và \ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n• 100% số liệu sử dụng năng lượng được giám sát;\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\n sản lượng 842.749 kWh;\n• 100% cơ sở được kiểm kê và giám sát phát thải khí nhà kính \nđịnh kỳ.\nKết quả nổi bật 2025\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nĐào tạo nguồn \nnhân lực công nghệ\nchất lượng cao\nTạo điều kiện\ntốt nhất để trẻ em\nViệt Nam có cơ hội \ntiếp cận giáo dục\nchất lượng và bền vững\nLà đơn vị dẫn đầu trong đào tạo \nnhân lực số có năng lực cạnh tranh \ntoàn cầu.\n• Đào tạo 10.000 kỹ sư bán dẫn vào \nnăm 2030;\n• Đưa AI vào đào tạo người học ở tất \ncả các bậc học thuộc hệ thống \ngiáo dục của FPT.\n• 3.700 sinh viên theo học các chương trình và chuyên ngành \nđào tạo AI, thiết kế vi mạch bán dẫn của hệ thống giáo dục FPT;\n• Nghiên cứu, ứng dụng và phát triển các giải pháp công nghệ \ntiên tiến nhất, gia tăng tương tác và cá nhân hóa trải nghiệm \ncủa người học; đưa AI vào đào tạo từ bậc tiểu học đến\nphổ thông, cao đẳng, đại học và sau đại học; \n• Trao 151 tỷ đồng học bổng Nguyễn Văn Đạo.\nChú trọng hỗ trợ tạo điều kiện \nhọc tập tốt hơn cho các hoàn cảnh \nyếu thế tại các khu vực kinh tế \nkhó khăn, vùng núi, vùng sâu, \nvùng xa.\n• Tiếp tục duy trì quỹ dành cho các \nhoạt động phát triển vì cộng đồng \ntập trung chủ yếu vào các hoạt \nđộng giáo dục.\n• Sử dụng 72,8 tỷ đồng cho các hoạt động trách nhiệm xã hội;\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở \nhạng mục Dự án kịp thời;\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ.\nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "01\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng, \nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần \nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới \nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải \nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam \nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển \nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý \nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận đường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm \ngiảm phát thải\n02\nXác định mục tiêu giảm phát \nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm \nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng \nlượng sạch, song song với triển \nkhai các giải pháp nâng cao \nhiệu quả năng lượng tại các cơ \nsở vận hành, bao gồm: Tòa nhà \nvăn phòng; Trung tâm dữ liệu.\n• Tối ưu hệ thống điện và ứng \ndụng các giải pháp quản lý \nnăng lượng thông minh;\n• Đẩy mạnh sử dụng điện từ \nnguồn năng lượng tái tạo \nnhư năng lượng mặt trời;\n• Cân nhắc mua chứng chỉ \nnăng lượng tái tạo (REC).\n• Tòa nhà văn phòng: Lắp đặt \nđèn LED, hệ thống cảm biến \nthông minh; tích hợp cảm biến \nnhiệt độ và độ ẩm để điều \nkhiển hệ thống điều hòa tự động;\n• Trung tâm dữ liệu: Tối ưu hệ \nthống làm mát thông qua các \ngiải pháp Liquid Cooling, \nAI-driven Thermal Management.\nSử dụng môi chất lạnh có chỉ số \nGWP thấp; áp dụng cơ chế \nvận hành tiết kiệm năng lượng \ncho hệ thống máy chủ, áp dụng \ntiêu chuẩn xanh cho hạ tầng.\n• Theo dõi các tiêu chuẩn và \nhạn mức phát thải của Việt Nam \nđể triển khai kiểm kê khí nhà kính;\n• Báo cáo, đo lường và xác nhận \nlượng khí nhà kính/khí thải \nđịnh kỳ;\n• Giám sát và theo dõi chặt chẽ các \nhoạt động để đảm bảo hiệu quả \ntrong việc giảm phát thải.\n•\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày lộ trình Net Zero 2040 của tập đoàn FPT, bao gồm các bước và mục tiêu giảm phát thải khí nhà kính đến năm 2030 và hướng tới mục tiêu Net Zero vào năm 2040.\ndiagram: Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040 (giữa trang) — 5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040",
+              "location": "giữa trang",
+              "description": "5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p111",
+          "page": 111,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Môi trường làm việc\nđẳng cấp \nNơi làm việc\ntốt nhất Việt Nam \nTop 10\nViệc làm ổn định \n54.110\nNhân sự người\nnước ngoài\n(82 quốc tịch)\n4.124\nDấu ấn nổi bật\nCán bộ quản lý nữ\n36,4%\nGiờ học nâng cao\nkiến thức kỹ năng AI\n1,1 triệu\nDoanh nghiệp Việt Nam\ncó chất lượng quản trị \ncông ty tốt nhất ASEAN\nTop 5\nISO 27001:2013\nHệ thống quản lý \nan toàn thông tin \nISO 14001:2015\nHệ thống quản lý\nmôi trường\nISO 45001:2018\nHệ thống an toàn\nsức khoẻ\nISO 14064:2018\nTiêu chuẩn đo lường\nvà quản lý phát thải\nkhí nhà kính \nISO/IEC\n42001:2023\nTiêu chuẩn dành cho\nhệ thống quản lý trí tuệ \nnhân tạo (AIMS)\nHoạt động\nvì môi trường xanh \n02\nTổng sản lượng\n842.749\nkWh \nCơ sở được giám sát\nphát thải khí\nnhà kính định kỳ\n100%\nHệ thống điện\nmặt trời mái nhà\nTrách nhiệm\nxã hội \n15 năm\nLiên tiếp triển khai \nNgày FPT vì cộng đồng\n26\nĐiểm trường\nthiệt hại nặng được \ntái thiết sau lũ\nTrường Hy Vọng nhận \ngiải thưởng Hành động vì \ncộng đồng ở hạng mục \nDự án kịp thời\nTriển khai dự án máy khử \nrung tim tự động cho \ncộng đồng đầu tiên tại \nViệt Nam \nQuản trị\nbền vững \n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTổng hợp các dấu ấn nổi bật của FPT trong các lĩnh vực môi trường làm việc, hoạt động vì môi trường xanh, trách nhiệm xã hội và quản trị bền vững năm 2025.\ndiagram: Môi trường làm việc đẳng cấp (trái) — Các chỉ số về nơi làm việc tốt nhất Việt Nam, việc làm ổn định, nhân sự người nước ngoài, tỷ lệ cán bộ quản lý nữ, giờ học nâng cao kiến thức kỹ năng AI.\ndiagram: Hoạt động vì môi trường xanh (giữa trái) — Số lượng hệ thống điện mặt trời mái nhà và tổng sản lượng điện tạo ra, tỷ lệ cơ sở được giám sát phát thải khí nhà kính định kỳ.\ndiagram: Trách nhiệm xã hội (giữa phải) — Số năm liên tiếp triển khai Ngày FPT vì cộng đồng, số điểm trường thiệt hại nặng được tái thiết sau lũ, các giải thưởng và dự án cộng đồng triển khai.\ndiagram: Quản trị bền vững (phải) — Xếp hạng doanh nghiệp Việt Nam về chất lượng quản trị công ty, các chứng nhận ISO liên quan đến quản lý an toàn thông tin, môi trường, an toàn sức khỏe, đo lường phát thải khí nhà kính và hệ thống quản lý trí tuệ nhân tạo.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Môi trường làm việc đẳng cấp",
+              "location": "trái",
+              "description": "Các chỉ số về nơi làm việc tốt nhất Việt Nam, việc làm ổn định, nhân sự người nước ngoài, tỷ lệ cán bộ quản lý nữ, giờ học nâng cao kiến thức kỹ năng AI."
+            },
+            {
+              "type": "diagram",
+              "title": "Hoạt động vì môi trường xanh",
+              "location": "giữa trái",
+              "description": "Số lượng hệ thống điện mặt trời mái nhà và tổng sản lượng điện tạo ra, tỷ lệ cơ sở được giám sát phát thải khí nhà kính định kỳ."
+            },
+            {
+              "type": "diagram",
+              "title": "Trách nhiệm xã hội",
+              "location": "giữa phải",
+              "description": "Số năm liên tiếp triển khai Ngày FPT vì cộng đồng, số điểm trường thiệt hại nặng được tái thiết sau lũ, các giải thưởng và dự án cộng đồng triển khai."
+            },
+            {
+              "type": "diagram",
+              "title": "Quản trị bền vững",
+              "location": "phải",
+              "description": "Xếp hạng doanh nghiệp Việt Nam về chất lượng quản trị công ty, các chứng nhận ISO liên quan đến quản lý an toàn thông tin, môi trường, an toàn sức khỏe, đo lường phát thải khí nhà kính và hệ thống quản lý trí tuệ nhân tạo."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p052",
+          "page": 52,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CÁC LĨNH VỰC CÔNG NGHỆ CHIẾN LƯỢC VÀ MỤC TIÊU 2026-2030 CỦA FPT\nAI\nCông nghệ lượng tử\nViện Quantum AI & Cybersecurity đặt mục tiêu đào tạo 100 tiến sĩ, phát triển và bồi \ndưỡng 2.000 chuyên gia công nghệ trình độ cao, đồng thời công bố 500 công trình \nkhoa học, bằng sáng chế và tài sản sở hữu trí tuệ có giá trị.\nChip và thiết kế sản phẩm (phần cứng/phần mềm)\nLàm chủ thêm nhiều dòng sản phẩm ở các phân khúc cao hơn, tập trung vào các \nlĩnh vực có nhu cầu tăng trưởng cao và có lợi thế như: chip xử lý tín hiệu cho y tế, \ndrone, camera, robot hình người và các hệ thống thông minh khác. Hệ thống giáo dục \ncủa FPT hướng tới mục tiêu đào tạo 10.000 nhân sự chuyên ngành bán dẫn vào \nnăm 2030, đóng góp trực tiếp vào mục tiêu quốc gia về phát triển đội ngũ kỹ sư \nbán dẫn. \nAn ninh mạng\nXác lập vị thế đối tác số 1 tại Việt Nam trong lĩnh vực an ninh mạng với bộ giải pháp \nan ninh mạng tích hợp “Made by Vietnam”, phục vụ bảo vệ hạ tầng số, dữ liệu quốc gia\nvà các hệ thống có yêu cầu an ninh cao. \nUAV\nTiếp cận theo hướng lấy nền tảng làm trung tâm phù hợp với mô hình phát triển \nnhanh, linh hoạt trên nhiều nền tảng phần cứng trong giai đoạn đầu, đồng thời \ngiảm rủi ro phụ thuộc nhà cung cấp đơn lẻ. Mục tiêu ưu tiên đến năm 2028 hình \nthành năng lực vận hành UAV an toàn ở quy mô hệ thống gồm: thử nghiệm mô hình \nquản lý bay, đăng kiểm, cấp phép, giám sát; phát triển các lớp nền tảng số cốt lõi; \ntừng bước giảm phụ thuộc chuỗi cung ứng thông qua nội địa hóa có kiểm soát.\nBlockchain, một trong những trụ cột của nền kinh tế Web3\nLàm chủ và hoàn thiện các công nghệ lõi, đồng thời từng bước xây dựng bộ tiêu chuẩn \nWeb3 phù hợp với bối cảnh pháp lý, quản trị và nhu cầu phát triển của Việt Nam.\nSong song với phát triển công nghệ, FPT đặt mục tiêu đưa các nền tảng Blockchain \nvà Web3 “Make in Vietnam” vào triển khai thực tế tại nhiều địa phương và tổ chức \ntrong nước, đồng thời từng bước mở rộng ra thị trường quốc tế. Mục tiêu đến năm \n2030, các nền tảng do FPT phát triển sẽ được ứng dụng tại khoảng 10 tỉnh, thành \nphố và hơn 200 doanh nghiệp trong nước, đồng thời được xuất khẩu và triển khai \nthử nghiệm hoặc thương mại hóa tại ít nhất 05 quốc gia.\nĐiện toán đám mây và Điện toán biên\nXác lập vị thế dẫn đầu thị phần Cloud nội địa, trở thành trụ cột hạ tầng số của \nViệt Nam. Trên nền tảng năng lực đã được xây dựng và kiểm chứng, FPT mở rộng \ncung cấp hệ sinh thái dịch vụ FPT Cloud ra thị trường khu vực, trước hết là ASEAN, \ntừng bước đưa hạ tầng Cloud, AI “Make in Vietnam” tham gia sâu vào chuỗi giá trị \ncông nghệ khu vực. Về nhân lực, đặt mục tiêu đào tạo 1.500 kỹ sư Cloud và 200 \nkiến trúc sư Cloud cấp cao.\nLàm chủ đầy đủ chuỗi giá trị AI, từ mô hình, dữ liệu, hạ tầng tính toán đến ứng dụng \nvà nhân lực.\n• Về năng lực mô hình, dữ liệu: hướng tới sở hữu các mô hình nền tảng đa phương thức \nvà toàn diện hàng đầu tại Việt Nam, Nhật Bản và Đông Nam Á, đồng thời hình thành \ncác phòng thí nghiệm về an toàn và đánh giá AI nhằm đảm bảo vận hành AI có \ntrách nhiệm;\n• Về hạ tầng: vận hành AI Factory tại Việt Nam với tổng năng lực khoảng 10 \nEFLOPS FP8;\n• Về ứng dụng AI: phổ cập giáo dục AI đến tối thiểu 20 triệu người dùng, triển khai \nAI vào điều hành giao thông tại 03 đô ",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p077",
+          "page": 77,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Kết quả thực hiện các chiến lược đề ra\nNăm 2025, trong bối cảnh kinh tế thế giới và Việt Nam tiếp tục đối mặt với nhiều \nthách thức từ biến động địa chính trị, dịch chuyển thương mại toàn cầu, áp lực \nlạm phát kéo dài và xu hướng thận trọng trong chi tiêu công nghệ thông tin, \nTập đoàn đã triển khai các chiến lược phát triển theo hướng chủ động, linh hoạt \nvà có trọng tâm. Trên cơ sở các định hướng chiến lược đã xác lập, FPT ưu tiên các \nlĩnh vực công nghệ lõi, mở rộng thị trường và đối tác theo hướng đa dạng hóa rủi ro, \nđồng thời gắn kết hoạt động kinh doanh với các chương trình, mục tiêu phát triển \nlớn của quốc gia.\nNăm 2025 ghi nhận nhiều kết quả nổi bật trong hoạt động hợp tác kinh doanh \nquốc tế của FPT, phản ánh rõ nét chiến lược nâng tầm từ nhà cung cấp dịch vụ \nsang đối tác chiến lược chuyển đổi số toàn diện. FPT hợp tác cùng Sumitomo và \nSBI Holdings đầu tư và đưa vào vận hành nhà máy AI tại Nhật Bản. Cùng với \nnhà máy tại Việt Nam, hai nhà máy này lần lượt xếp hạng 36 và 38 trong TOP500 \nsiêu máy tính toàn cầu.\n• Đồng hành triển khai các chương trình chuyển đổi số quốc gia và\n chính quyền địa phương\n• Kết quả nổi bật trong hợp tác kinh doanh toàn cầu\nThực hiện chủ trương của Đảng và Nhà nước trong việc phát triển khoa học công nghệ,\nđổi mới sáng tạo, chuyển đổi số, đặc biệt là định hướng, chỉ đạo của Nghị quyết \n57-NQ/TW, Kế hoạch số 01-KH/BCĐTW, Kế hoạch 02-KH/BCĐTW, Nghị quyết \n214/NQ-CP của Chính phủ về Kế hoạch hành động của Chính phủ về thúc đẩy tạo lập\ndữ liệu phục vụ chuyển đổi số toàn diện, trong năm 2025, FPT tiếp tục đồng hành, \nphối hợp chuyển đổi số toàn diện cho các bộ, ngành, địa phương. Trong đó, \nFPT phối hợp với 06 Bộ được phân công cùng Ủy ban Trung ương Mặt trận Tổ quốc \nViệt Nam trong việc triển khai và hoàn thành đúng tiến độ các nhiệm vụ xây dựng \nChiến lược Chuyển đổi số, Chiến lược dữ liệu, cơ sở dữ liệu và các hệ thống thông tin \ntrọng điểm.\nSong song với đó, FPT phối hợp cùng các địa phương khẩn trương triển khai các\nhệ thống thông tin phù hợp với mô hình chính quyền địa phương hai cấp, đáp ứng \nyêu cầu của Kế hoạch số 02-KH/BCĐTW, bảo đảm các hệ thống dịch vụ công được \nvận hành liên tục, không gián đoạn và sẵn sàng phục vụ người dân ngay từ ngày \n01/07/2025. Các hệ thống được triển khai đúng tiến độ, đáp ứng yêu cầu kỹ thuật, \nbảo đảm khả năng vận hành ổn định, an toàn, qua đó góp phần thúc đẩy cải cách \nhành chính, nâng cao hiệu quả quản lý nhà nước và chất lượng cung cấp dịch vụ công.\nViệc tham gia triển khai các chương trình này tiếp tục khẳng định vai trò của FPT \nlà doanh nghiệp công nghệ chủ lực, có năng lực triển khai các hệ thống quy mô lớn, \nphức tạp và có yêu cầu cao về an toàn, bảo mật.\nBám sát các định hướng phát triển lớn của đất nước như Nghị quyết 71-NQ/TW \nngày 22/8/2025 của Bộ Chính trị về đột phá phát triển giáo dục và đào tạo, FPT \nđã chủ động triển khai nhiều sáng kiến và mô hình hợp tác nhằm thúc đẩy phát triển \nkhoa học công nghệ, đào tạo nguồn nhân lực chất lượng cao và phát huy vai trò \ncủa khu vực kinh tế tư nhân, góp phần đẩy mạnh mô hình “ba nhà” gồm Nhà nước – \nNhà trường – Doanh nghiệp. Tập đoàn đã triển khai đào tạo 3.700 sinh viên \nchuyên ngành AI và thiết kế vi mạch bán d",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p030",
+          "page": 30,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2022 \nThành lập công ty FPT Semiconductor\nvà ra mắt chip bán dẫn đầu tiên của \nViệt Nam.\nĐồng hành cùng Bộ Công an nghiên \ncứu, triển khai Đề án 06 Phát triển ứng \ndụng dữ liệu về dân cư, định danh và \nxác thực điện tử phục vụ chuyển đổi số \nquốc gia giai đoạn 2022-2025, tầm nhìn\nđến năm 2030; tiên phong phát triển \ngiải pháp chống giả mạo căn cước \ncông dân gắn chip.\nĐược cấp bằng sáng chế tại Mỹ về \nMạng nơ-ron tích chập đẳng biến với \ncác phép biến đổi nhóm để xử lý đám \nmây điểm 3D.\nCán mốc 01 tỷ USD doanh thu dịch vụ\nCNTT từ thị trường nước ngoài, gia nhập \nnhóm doanh nghiệp CNTT tỷ USD.\nPhát triển 31 mô hình góp phần đưa \nĐề án Phát triển ứng dụng dữ liệu về \ndân cư, định danh và xác thực điện tử \nphục vụ chuyển đổi số quốc gia giai \nđoạn 2022-2025, tầm nhìn 2030 đi vào \nthực tiễn tại các lĩnh vực và tỉnh thành.\nVận hành Hệ thống thông tin giải quyết \nthủ tục hành chính cung cấp dịch vụ \ncông trực tuyến mức độ cao cho \nTp.Hà Nội với hơn 2,8 triệu hồ sơ được \ngiải quyết.\nThành lập FPT Automotive – Công ty \nchuyên về dịch vụ và sản phẩm phần\nmềm cho ngành công nghiệp ô tô.\nĐược cấp 02 bằng sáng chế liên quan \nđến công nghệ AI tại Nhật Bản và Mỹ.\nCông bố chiến lược tập trung vào 05 \nlĩnh vực cốt lõi gồm: AI, Bán dẫn, \nCông nghệ ô tô số, Chuyển đổi số và \nChuyển đổi xanh.\nHợp tác toàn diện với NVIDIA xây \ndựng 02 nhà máy AI tại Việt Nam, \nNhật Bản và trở thành đối tác phát \ntriển dịch vụ của NVIDIA.\nThực hiện thương vụ M&A đầu tiên tại \nNhật Bản thông qua việc mua Next \nAdvanced Communications NAC Co., \nLtd. (NAC).\nThành lập Ban Chỉ đạo Công nghệ chiến \nlược gồm 05 đơn vị: Viện Quantum AI và\nCybersecurity, FPT UAV, Công nghệ\nĐường sắt FPT, FPT Cybersecurity \nvà DC5.\nKhánh thành Trung tâm Dữ liệu FPT \nFornix HCM02 quy mô lớn nhất \nViệt Nam với 3.600 tủ rack.\nKhai trương Trung tâm R&D 3.000 m2\nvề công nghệ cao và chip bán dẫn tại \nCông viên phần mềm số 2 Tp. Đà Nẵng.\nKý hợp đồng chuyển đổi số toàn diện \nứng dụng AI quy mô 256 triệu USD với \ntập đoàn năng lượng hàng đầu châu Á.\nTop 40 Công ty Dịch vụ CNTT châu Á.\nHÀNH TRÌNH KHẲNG ĐỊNH NĂNG LỰC VÀ VỊ THẾ (Tiếp theo)\n2023 2024 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nHành trình khẳng định năng lực và vị thế của FPT qua các năm 2022 đến 2025 với các mốc phát triển công nghệ, thành lập công ty con, hợp tác chiến lược và mở rộng quy mô.\ndiagram: Hành trình khẳng định năng lực và vị thế (trên) — Các mốc thời gian 2022, 2023, 2024, 2025 với các sự kiện và thành tựu tương ứng của FPT trong từng năm.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Hành trình khẳng định năng lực và vị thế",
+              "location": "trên",
+              "description": "Các mốc thời gian 2022, 2023, 2024, 2025 với các sự kiện và thành tựu tương ứng của FPT trong từng năm."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p147",
+          "path": ".bonus/pages/p147.jpg",
+          "sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+        },
+        {
+          "id": "FPT2025:p153",
+          "path": ".bonus/pages/p153.jpg",
+          "sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+        },
+        {
+          "id": "FPT2025:p119",
+          "path": ".bonus/pages/p119.jpg",
+          "sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+        },
+        {
+          "id": "FPT2025:p114",
+          "path": ".bonus/pages/p114.jpg",
+          "sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+        },
+        {
+          "id": "FPT2025:p111",
+          "path": ".bonus/pages/p111.jpg",
+          "sha256": "1c9f7ec52ac9c58108249ff00f692aa1dd6d29d7c7dbec013ac0bcd5abecf9f0"
+        },
+        {
+          "id": "FPT2025:p052",
+          "path": ".bonus/pages/p052.jpg",
+          "sha256": "b2201f8585b2657ca539a854f2b9b4141417da0c36d848983753bd0078e4ce43"
+        },
+        {
+          "id": "FPT2025:p077",
+          "path": ".bonus/pages/p077.jpg",
+          "sha256": "5783f8110d0afcba3e9c8ccae2a6afccd17de9b9574a301d0eaaeacc838650b8"
+        },
+        {
+          "id": "FPT2025:p030",
+          "path": ".bonus/pages/p030.jpg",
+          "sha256": "36acfc5f879bb16ee24b7da31e2bb9c110fc77f9be2d25af7f5d612b82fe3ce3"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794804916-s306G5U14738UCFHxY1K",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01Ud2bKK55etjMr2D3jR1Ldu",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Hai địa điểm có hệ thống điện mặt trời mái nhà đưa vào hoạt động năm 2025 là tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp. Hồ Chí Minh), tạo ra tổng cộng 842.749 kWh điện.\\n\\nCông trình được nêu là đầu tiên tại Việt Nam đạt chứng chỉ EDGE là FPT Complex Đà Nẵng, nhờ các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p147\",\"region\":\"Đoạn văn mục 'Điện mặt trời mái nhà' (cột trái, giữa trang) nêu hai hệ thống tại F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh); ảnh chú thích 'Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)'\"},{\"id\":\"FPT2025:p153\",\"region\":\"Cột phải, ảnh dưới bên phải và khối chữ xanh lá 'FPT Complex Đà Nẵng là công trình đầu tiên tại Việt Nam đạt chứng chỉ EDGE'\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p147",
+    "FPT2025:p153",
+    "FPT2025:p119",
+    "FPT2025:p114",
+    "FPT2025:p111",
+    "FPT2025:p052",
+    "FPT2025:p077",
+    "FPT2025:p030"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p147",
+      "page": 147,
+      "image": ".bonus/pages/p147.jpg",
+      "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+    },
+    {
+      "id": "FPT2025:p153",
+      "page": 153,
+      "image": ".bonus/pages/p153.jpg",
+      "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+    },
+    {
+      "id": "FPT2025:p119",
+      "page": 119,
+      "image": ".bonus/pages/p119.jpg",
+      "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+    },
+    {
+      "id": "FPT2025:p114",
+      "page": 114,
+      "image": ".bonus/pages/p114.jpg",
+      "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+    },
+    {
+      "id": "FPT2025:p111",
+      "page": 111,
+      "image": ".bonus/pages/p111.jpg",
+      "image_sha256": "1c9f7ec52ac9c58108249ff00f692aa1dd6d29d7c7dbec013ac0bcd5abecf9f0"
+    },
+    {
+      "id": "FPT2025:p052",
+      "page": 52,
+      "image": ".bonus/pages/p052.jpg",
+      "image_sha256": "b2201f8585b2657ca539a854f2b9b4141417da0c36d848983753bd0078e4ce43"
+    },
+    {
+      "id": "FPT2025:p077",
+      "page": 77,
+      "image": ".bonus/pages/p077.jpg",
+      "image_sha256": "5783f8110d0afcba3e9c8ccae2a6afccd17de9b9574a301d0eaaeacc838650b8"
+    },
+    {
+      "id": "FPT2025:p030",
+      "page": 30,
+      "image": ".bonus/pages/p030.jpg",
+      "image_sha256": "36acfc5f879bb16ee24b7da31e2bb9c110fc77f9be2d25af7f5d612b82fe3ce3"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794804914-u0c2N2UQTTWNeB24PR44",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1841,
+        "completion_tokens": 97,
+        "total_tokens": 1938,
+        "cost": 0.0002326,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002326,
+          "upstream_inference_prompt_cost": 0.0001841,
+          "upstream_inference_completions_cost": 4.85e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1866.943699948024,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794804916-s306G5U14738UCFHxY1K",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 33482,
+        "completion_tokens": 566,
+        "total_tokens": 34048,
+        "cost": 0.0036312,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0036312,
+          "upstream_inference_prompt_cost": 0.0033482,
+          "upstream_inference_completions_cost": 0.000283
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5728.079199965578,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 7638.80719995359,
+  "query_id": "fd-m1",
+  "question": "Nêu hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 và xác định công trình nào được nêu là đầu tiên ở Việt Nam đạt EDGE.",
+  "split": "dev",
+  "config": "vision"
+}

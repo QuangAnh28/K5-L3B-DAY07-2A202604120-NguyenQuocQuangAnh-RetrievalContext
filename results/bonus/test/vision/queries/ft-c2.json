@@ -1,0 +1,445 @@
+{
+  "status": "answered",
+  "answer": "Năm 2025, thị trường Nhật Bản là lớn nhất trong biểu đồ doanh thu Dịch vụ CNTT cho thị trường nước ngoài theo khu vực: 15.452 tỷ VNĐ, chiếm 43,7% trên tổng 35.382 tỷ VNĐ (tăng 25,4% so với năm trước). Theo ảnh gốc trang 62, các khu vực còn lại là Mỹ 8.163 tỷ VNĐ (23,1%), Châu Á-Thái Bình Dương 8.173 tỷ VNĐ (23,1%), Châu Âu 3.593 tỷ VNĐ (10,2%).\n[FPT2025:p062 — Biểu đồ vòng \"Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài\" (bên phải trang), nhãn Nhật Bản 15.452 tỷ VNĐ, 43,7%, tăng 25,4%; tổng 35.382 tỷ VNĐ]",
+  "citations": [
+    {
+      "id": "FPT2025:p062",
+      "region": "Biểu đồ vòng \"Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài\" (bên phải trang), nhãn Nhật Bản 15.452 tỷ VNĐ, 43,7%, tăng 25,4%; tổng 35.382 tỷ VNĐ"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805303-VQ6r6WiKonjeEqC6A3tC",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01BjgRje8CSRmQNW6NJxjvgy",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Doanh thu Dịch vụ CNTT thị trường nước ngoài theo khu vực 2025 biểu đồ\",\"biểu đồ cơ cấu doanh thu dịch vụ CNTT nước ngoài theo thị trường Nhật Bản Mỹ Châu Âu\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong biểu đồ doanh thu Dịch vụ CNTT cho thị trường nước ngoài theo khu vực, thị trường nào lớn nhất năm 2025, giá trị và tỷ trọng bao nhiêu?",
+      "model_queries": [
+        "Doanh thu Dịch vụ CNTT thị trường nước ngoài theo khu vực 2025 biểu đồ",
+        "biểu đồ cơ cấu doanh thu dịch vụ CNTT nước ngoài theo thị trường Nhật Bản Mỹ Châu Âu"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p062",
+          "page": 62,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "score": 0.03225806451612903,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p007",
+          "page": 7,
+          "score": 0.03149801587301587,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p076",
+          "page": 76,
+          "score": 0.03055037313432836,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p065",
+          "page": 65,
+          "score": 0.029236022193768675,
+          "component_ranks": {
+            "dense": 11,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p067",
+          "page": 67,
+          "score": 0.029236022193768675,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p046",
+          "page": 46,
+          "score": 0.028205128205128206,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "FPT2025:p047",
+          "page": 47,
+          "score": 0.028083267871170464,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 16
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong biểu đồ doanh thu Dịch vụ CNTT cho thị trường nước ngoài theo khu vực, thị trường nào lớn nhất năm 2025, giá trị và tỷ trọng bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p062",
+        "FPT2025:p058",
+        "FPT2025:p007",
+        "FPT2025:p076",
+        "FPT2025:p065",
+        "FPT2025:p067",
+        "FPT2025:p046",
+        "FPT2025:p047"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p062",
+          "page": 62,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài tiếp tục giữ vai trò trụ \ncột trong chiến lược tăng trưởng của Tập đoàn với doanh thu đạt 35.382 tỷ đồng, \ntăng 14,3%; lợi nhuận trước thuế đạt 5.467 tỷ đồng, tăng 14,6%. Kết quả này đạt \nđược trong bối cảnh ngành dịch vụ CNTT toàn cầu tiếp tục đối mặt với nhiều \nthách thức, bao gồm bất ổn địa chính trị kéo dài, chính sách tiền tệ thắt chặt tại \ncác nền kinh tế lớn, xu hướng doanh nghiệp kiểm soát chặt chẽ ngân sách CNTT \nvà kéo dài chu kỳ ra quyết định đầu tư.\nChất lượng tăng trưởng của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài của \nFPT được cải thiện rõ nét, thể hiện qua cơ cấu hợp đồng dài hạn, giá trị lớn và phạm vi\ndịch vụ ngày càng toàn diện. Việc duy trì đà tăng trưởng ổn định trong điều kiện thị \ntrường khó khăn cho thấy năng lực thích ứng, sức cạnh tranh và vị thế ngày càng \nvững chắc của FPT trong chuỗi giá trị CNTT toàn cầu.\nViệc liên tiếp ký kết các hợp đồng quy mô từ hàng chục đến hàng trăm triệu USD \ntại các thị trường trọng điểm, giúp FPT từng bước hình thành danh mục doanh thu \nổn định, có khả năng dự báo cao trong trung và dài hạn. Đồng thời, mô hình hợp tác \ndịch chuyển từ cung ứng dịch vụ theo thời gian và nguồn lực (Time & Materials) \nsang mô hình dịch vụ quản trị trọn gói (Managed Services) và các hợp đồng giải pháp\ntrọn gói đã góp phần nâng cao biên lợi nhuận, giảm thiểu rủi ro chu kỳ và gia tăng \ngiá trị mang lại cho khách hàng.\nDoanh thu ký mới lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài đạt 40.636 tỷ đồng,\ntăng 23,2% so với cùng kỳ, đồng thời thắng thầu 26 dự án lớn với quy mô trên \n10 triệu USD, tăng gấp đôi so với cùng kỳ năm trước.\nCủng cố hiện diện và vị thế tại các thị trường chiến lược\nFPT tiếp tục mở rộng quy mô hoạt động và nâng cao vị thế trong chuỗi giá trị CNTT \ntại các thị trường chiến lược. Tại Nhật Bản, thị trường trọng điểm của Tập đoàn và \ncũng là thị trường có yêu cầu cao về chất lượng dịch vụ, FPT ghi nhận bước tiến \nquan trọng khi ký kết hợp đồng trị giá trên 100 triệu USD đầu tiên. Cột mốc này \nphản ánh sự chuyển dịch rõ nét trong mô hình hợp tác, từ các hợp đồng ngắn hạn, \nquy mô nhỏ sang các quan hệ đối tác chiến lược dài hạn, gắn với phát triển sản phẩm \nvà công nghệ lõi của khách hàng.\nTrên nền tảng đó, FPT tiếp tục mở rộng các mô hình liên doanh và hợp tác chiến \nlược tại thị trường này, tập trung vào các lĩnh vực có nhu cầu dài hạn như: hiện đại\nhóa hệ thống CNTT, sản xuất thông minh và công nghệ ô tô, qua đó gia tăng mức\nđộ gắn kết với khách hàng và nâng cao rào cản cạnh tranh.\nTại khu vực châu Á-Thái Bình Dương, FPT gia tăng hiện diện trong các ngành \ncông nghiệp trọng điểm, đặc biệt là năng lượng và sản xuất. Hợp đồng chuyển đổi \nsố toàn diện và ứng dụng AI trị giá 256 triệu USD ký với một tập đoàn năng lượng \nhàng đầu châu Á không chỉ là hợp đồng lớn nhất trong lịch sử Tập đoàn, mà còn \nkhẳng định năng lực đảm nhận các dự án phức tạp, quy mô rất lớn và mang tính \nchiến lược. Hợp đồng này góp phần củng cố vai trò của khu vực Đông Nam Á và \nAPAC trong chiến lược tăng trưởng dài hạn của FPT, đồng thời mở ra cơ hội mở \nrộng sang các lĩnh vực liên quan trong chuỗi giá trị năng lượng và công nghiệp.\nTại châu Âu và Bắc Mỹ, FPT t",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài theo khu vực năm 2025",
+              "location": "phải",
+              "description": "Biểu đồ hình tròn thể hiện doanh thu theo tỷ lệ phần trăm và giá trị tuyệt đối (tỷ VNĐ) của các khu vực: Nhật Bản (43,7%), Châu Á-Thái Bình Dương (23,1%), Mỹ (23,1%), Châu Âu (10,2%) với tổng doanh thu 35.382 tỷ VNĐ, kèm theo tỷ lệ tăng trưởng phần trăm so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Kết quả kinh doanh\n• Các chỉ tiêu tài chính chủ yếu\n(Tiếp theo)\nLĩnh vực Dịch vụ CNTT cho thị trường nước ngoài, động lực tăng trưởng chính của \nTập đoàn, tiếp tục duy trì mức tăng trưởng cao so với mặt bằng chung của ngành, \ntăng 14,3% so với năm trước. Kết quả này đến từ nhu cầu chuyển đổi số và ứng \ndụng AI ngày càng rõ nét tại thị trường Nhật Bản (tăng trưởng 25,4% so với năm \ntrước). Việc tập trung vào các hợp đồng quy mô lớn, dài hạn, có hàm lượng công \nnghệ cao giúp FPT không chỉ mở rộng doanh thu mà còn từng bước nâng cao chất \nlượng tăng trưởng và hiệu quả kinh doanh. Trong bối cảnh ngành dịch vụ CNTT \ntoàn cầu còn thận trọng, nhiều doanh nghiệp Dịch vụ CNTT lớn trên thế giới, bao \ngồm các công ty tại Ấn Độ, chỉ ghi nhận mức tăng trưởng ở mức khiêm tốn, kết quả \ncủa FPT phần nào cho thấy những nỗ lực không ngừng của Tập đoàn trong việc mở \nrộng thị trường, đa dạng hóa danh mục dịch vụ và duy trì đà phát triển ổn định.\nTrong đó, mảng Dịch vụ Chuyển đổi số tiếp tục ghi nhận tăng trưởng nổi bật đạt \n16,8% so với năm trước, chiếm tỷ trọng ngày càng cao trong tổng doanh thu\nDịch vụ CNTT cho thị trường nước ngoài (47,3%). Các giải pháp liên quan đến dữ \nliệu, điện toán đám mây, AI và tự động hóa được khách hàng đẩy mạnh triển khai \nnhằm nâng cao hiệu quả vận hành và năng lực cạnh tranh. Kết quả này không chỉ \nphản ánh xu hướng chuyển dịch mạnh mẽ sang chuyển đổi số thế hệ mới, mà còn \nkhẳng định vị thế và năng lực cung cấp các dịch vụ công nghệ tiên tiến của FPT \ntrên thị trường quốc tế.\nSong song với hoạt động kinh doanh, FPT tiếp tục đẩy mạnh theo cả chiều rộng và \nchiều sâu quan hệ hợp tác chiến lược với các đối tác lớn trên toàn cầu. Việc hợp tác \nkhông chỉ dừng ở cung cấp dịch vụ, mà từng bước mở rộng sang đồng phát triển \ngiải pháp, chuyển giao công nghệ và xây dựng năng lực dài hạn, giúp FPT nâng cao \nkhả năng tham gia sâu hơn vào chuỗi giá trị công nghệ toàn cầu.\nNhờ chủ động ứng dụng công nghệ, đặc biệt là AI, trong tối ưu hóa vận hành và \nquản trị, các khối Viễn thông và khối Giáo dục, Đầu tư và Khác tiếp tục duy trì \ntăng trưởng ổn định. Khối Viễn thông (tăng trưởng doanh thu đạt 10,8%) tập trung \nnâng cao chất lượng dịch vụ và trải nghiệm khách hàng, đồng thời mở rộng độ phủ \nhạ tầng và danh mục sản phẩm, qua đó từng bước gia tăng hiện diện trên thị trường \nvà cải thiện thị phần ở các phân khúc trọng điểm. Trong khi đó, lĩnh vực Giáo dục \nchú trọng nâng cao chất lượng đào tạo, gắn kết chặt chẽ hơn với nhu cầu nhân lực \ncủa các lĩnh vực công nghệ chiến lược được Đảng và Nhà nước ưu tiên như: AI, \nbán dẫn, dữ liệu, điện toán đám mây, an toàn, an ninh thông tin và các công nghệ \nphục vụ chuyển đổi số, chuyển đổi xanh. Định hướng này góp phần củng cố vai trò \ncủa FPT trong cung cấp nguồn nhân lực chất lượng cao cho nền kinh tế số.\nMột số chỉ tiêu hoạt động kinh doanh chính trong năm 2025\nĐơn vị: Tỷ VNĐ\nChỉ tiêu 2024 2025 Tăng/Giảm\nTổng tài sản\nDoanh thu\nLợi nhuận từ hoạt động kinh doanh\nLNTT, lãi vay và khấu hao (EBITDA)\nLNTT\nLNST\nLãi cơ bản trên cổ phiếu (*)\nCổ tức tiền mặt trả trong năm\nTỷ lệ lợi nhuận trả cổ tức\n72.000\n62.849\n11.025\n13.605\n11.070\n9.427\n4.292\n2.741\n34,9%\n88.142\n70.113\n12.952\n15.958\n13.044\n11.232\n5.216\n3.185\n34,",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+              "location": "phải",
+              "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, đơn vị tỷ VNĐ, gồm tổng tài sản, doanh thu, lợi nhuận từ hoạt động kinh doanh, EBITDA, LNTT, LNST, lãi cơ bản trên cổ phiếu, cổ tức tiền mặt trả trong năm và tỷ lệ lợi nhuận trả cổ tức cùng với mức tăng/giảm phần trăm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p007",
+          "page": 7,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "11,6%\nDoanh thu\nTỷ VNĐ 70.113\n19,1%\nLợi nhuận sau thuế\nTỷ VNĐ 11.232\nKiên định bám sát kế hoạch, đảm bảo tăng trưởng hai chữ số\nTrong bối cảnh đó, FPT đã phát huy tinh thần chủ động, đẩy mạnh đổi mới sáng tạo \nvà khai phá sức mạnh đoàn kết của toàn thể CBNV, kiên định bám sát kế hoạch \nkinh doanh Đại hội đồng Cổ đông đã thông qua, đảm bảo duy trì đà tăng trưởng \nhai chữ số.\nKết thúc năm 2025, doanh thu của Tập đoàn đạt 70.113 tỷ đồng, tăng 11,6%;\nlợi nhuận trước thuế đạt 13.044 tỷ đồng, tăng 17,8%; lợi nhuận sau thuế đạt 11.232 \ntỷ đồng, tăng 19,1% so với năm trước. EPS đạt 5.216 đồng, tăng 21,5% so với cùng \nkỳ. Tốc độ tăng trưởng lợi nhuận cao hơn doanh thu phản ánh hiệu quả vận hành \nđược cải thiện và chi phí được kiểm soát tốt hơn trong điều kiện thị trường có \nnhiều biến động bất định.\nLĩnh vực Dịch vụ CNTT cho thị trường nước ngoài tiếp tục là động lực tăng trưởng \nchủ lực của khối Công nghệ với doanh thu đạt 35.382 tỷ đồng, tăng 14,3%.\nĐặc biệt, doanh thu ký mới vượt mốc 1,5 tỷ USD, tương đương 40.636 tỷ đồng, tăng \n23,2%. Số lượng hợp đồng quy mô trên 10 triệu USD tăng gấp đôi so với năm trước. \nVị thế của FPT tiếp tục gia tăng. Không chỉ đứng trong nhóm doanh nghiệp dịch vụ \nCNTT tỷ USD của thế giới, FPT bước vào những dự án chuyển đổi số, chuyển đổi \ncông nghệ dài hạn, quy mô lớn và có hàm lượng công nghệ cao của những đối tác \nlớn như: CLB Chelsea, Quỹ đầu tư toàn cầu quản lý khối tài sản 90 tỷ USD – \nClearlake Capital Group…. Doanh thu Dịch vụ Chuyển đổi số chiếm 47,3%\ntổng doanh thu Dịch vụ CNTT cho thị trường nước ngoài. \nVới lĩnh vực Dịch vụ CNTT cho thị trường trong nước, FPT tăng tốc hợp tác chuyển \nđổi số và triển khai các chương trình theo tinh thần Nghị quyết 57-NQ/TW, \nNghị quyết 214/NQ-CP và Kế hoạch 01, Kế hoạch 02 của Ban Chỉ đạo Trung ương \nvề phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số. Tập đoàn \nđồng hành cùng Bộ Tài chính, Bộ Tư pháp, Bộ Dân tộc và Tôn giáo, Ngân hàng \nNhà nước và Bộ Ngoại giao trong xây dựng chiến lược dữ liệu và chuyển đổi số; \ntham gia triển khai hai cơ sở dữ liệu quốc gia trọng yếu gồm Cơ sở dữ liệu Hộ tịch \nđiện tử và Cơ sở dữ liệu Quốc gia về Tài chính; đồng thời vận hành Nền tảng số\nThi hành án dân sự và Cổng Pháp luật Quốc gia. Hệ sinh thái Made by FPT tiếp tục \nduy trì tăng trưởng hai chữ số, đạt 2.672 tỷ đồng, tăng 19,1%. Nhiều sản phẩm \nđược công nhận là sản phẩm công nghiệp chủ lực, trực tiếp giải các bài toán \nchuyển đổi số quy mô quốc gia, tạo nền tảng tăng trưởng dài hạn cho Tập đoàn. \nLĩnh vực Dịch vụ Viễn thông duy trì tăng trưởng bền vững với doanh thu 18.702 tỷ đồng, \nlợi nhuận trước thuế 4.167 tỷ đồng, đóng vai trò hạ tầng số thiết yếu cho nền kinh \ntế. Trung tâm dữ liệu quy mô 10.000 m2\n tiêu chuẩn quốc tế được đưa vào vận hành \ntạo nền tảng thúc đẩy tăng trưởng doanh thu và lợi nhuận ổn định trong trung và \ndài hạn. Trong năm 2025, lĩnh vực Dịch vụ Viễn thông cũng có thay đổi lớn, đại diện \nchủ sở hữu phần vốn góp Nhà nước tại FPT Telecom được chuyển giao về Bộ Công \nan. Việc này giúp Công ty củng cố vị thế doanh nghiệp hạ tầng số trọng yếu và mở \nrộng cơ hội tham gia các dự án quy mô lớn, chương trình trọng điểm của quốc gia \ntrong giai đoạn tới.\nĐối với",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Doanh thu và Lợi nhuận sau thuế năm 2025",
+              "location": "giữa trang",
+              "description": "Doanh thu 70.113 tỷ VNĐ tăng 11,6%; Lợi nhuận sau thuế 11.232 tỷ VNĐ tăng 19,1% so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p076",
+          "page": 76,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đánh giá kết quả kinh doanh\nNăm 2025 tiếp tục là một năm nhiều biến động của kinh tế toàn cầu và khu vực, \nvới những thách thức đan xen cùng các cơ hội mới từ làn sóng chuyển đổi số, AI \nvà công nghệ lõi. Trong bối cảnh đó, FPT kiên định theo đuổi chiến lược phát triển \ndài hạn, phát huy tinh thần chủ động, đổi mới sáng tạo và sức mạnh đoàn kết của \ntoàn thể CBNV, qua đó duy trì đà tăng trưởng bền vững và củng cố vị thế doanh \nnghiệp công nghệ hàng đầu Việt Nam. \nTập đoàn ghi nhận doanh thu 70.113 tỷ đồng, lợi nhuận trước thuế 13.044 tỷ đồng, \ntăng trưởng lần lượt 11,6% và 17,8% so với cùng kỳ năm ngoái, bám sát kế hoạch \nlợi nhuận đã đề ra từ đầu năm. Kết quả này phản ánh năng lực thích ứng linh hoạt \ncủa FPT trước biến động của thị trường, đồng thời khẳng định hiệu quả của chiến \nlược đầu tư vào các lĩnh vực công nghệ chiến lược và thị trường trọng điểm.\nKhối Công nghệ tiếp tục giữ vai trò chủ chốt, đóng góp 63,4% doanh thu và \n45,3% lợi nhuận trước thuế của Tập đoàn, tương đương 44.475 tỷ đồng và 5.907 tỷ đồng,\ntăng trưởng lần lượt 13,7% và 12,9% so với cùng kỳ. Đặc biệt, lĩnh vực Dịch vụ CNTT \ncho thị trường nước ngoài, tiếp tục khẳng định vị thế công ty công nghệ tỷ USD với \ndoanh thu ký mới đạt 40.636 tỷ đồng (hơn 1,5 tỷ USD), tăng trưởng 23,2% so với \ncùng kỳ. Số lượng dự án quy mô trên 10 triệu USD/dự án cũng tăng gấp đôi so với \ncùng kỳ. \nLĩnh vực Dịch vụ Viễn thông ghi nhận doanh thu đạt 18.702 tỷ đồng, tăng trưởng \n10,6% và LNTT đạt 4.167 tỷ đồng, tăng 21,9%. Song song với việc nâng cao chất lượng\ndịch vụ, phát triển các nền tảng viễn thông số và dịch vụ giá trị gia tăng, Tập đoàn \nđã khẳng định vị thế là nhà cung cấp dịch vụ Internet hàng đầu, nền tảng hàng đầu \nvề giải trí thể thao, đặc biệt là thể thao bóng đá, thể thao điện tử.\nLĩnh vực Giáo dục ngày càng gắn đào tạo với nhu cầu thực tiễn của doanh nghiệp \nvà thị trường, đặc biệt trong các lĩnh vực AI, bán dẫn, công nghệ số và quản trị đổi mới\nsáng tạo, góp phần quan trọng vào chiến lược phát triển nguồn nhân lực chất lượng\ncao cho quốc gia.\nNhững kết quả đạt được trong năm 2025 là minh chứng rõ nét cho định hướng\nphát triển đúng đắn, năng lực quản trị hiệu quả và tinh thần đổi mới sáng tạo không \nngừng của Tập đoàn. HĐQT tin tưởng rằng, với nền tảng tài chính vững chắc, năng lực\ncông nghệ toàn diện, FPT sẽ tiếp tục duy trì đà tăng trưởng bền vững, mở rộng hiện \ndiện toàn cầu và khẳng định vị thế trung tâm bản đồ công nghệ Việt Nam.\nĐÁNH GIÁ CỦA HĐQT VỀ HOẠT ĐỘNG CỦA TẬP ĐOÀN\nFPT tiếp tục khẳng định vị thế công ty công nghệ tỷ USD \nvới doanh thu ký mới đạt hơn 1,5 tỷ USD.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nĐánh giá của Hội đồng Quản trị về kết quả kinh doanh năm 2025 của Tập đoàn FPT, nhấn mạnh tăng trưởng doanh thu và lợi nhuận, vai trò chủ chốt của khối Công nghệ, Dịch vụ Viễn thông và Giáo dục, cùng chiến lược phát triển bền vững và đổi mới sáng tạo.\nphoto: Gian hàng triển lãm của FPT tại sự kiện công nghệ (phải) — Ảnh chụp gian hàng trưng bày sản phẩm và dịch vụ công nghệ của FPT với đội ngũ nhân viên tại sự kiện, minh họa vị thế công ty công nghệ tỷ USD.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Gian hàng triển lãm của FPT tại sự kiện công nghệ",
+              "location": "phải",
+              "description": "Ảnh chụp gian hàng trưng bày sản phẩm và dịch vụ công nghệ của FPT với đội ngũ nhân viên tại sự kiện, minh họa vị thế công ty công nghệ tỷ USD."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p065",
+          "page": 65,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Nhân lực chất lượng cao, động lực cho công nghệ mũi nhọn \nNhiều chương trình kinh doanh trọng điểm trong các lĩnh vực công nghệ ô tô,\nchăm sóc sức khỏe, dữ liệu và điện toán đám mây lần đầu tiên đạt quy mô doanh \nthu trên 100 triệu USD. Kết quả này phản ánh hiệu quả của chiến lược tập trung \ntheo ngành và theo nền tảng công nghệ, đồng thời cho thấy năng lực triển khai \nnhất quán của FPT trên quy mô toàn cầu.\nDoanh thu từ Dịch vụ AI/Data Analytics\nĐơn vị: Tỷ VNĐ\n2022 2023 2024 2025\n3.000\n2.500\n2.000\n1.500\n1.000\n500\n0\n980 1.221 1.856 2.612\nCùng với mở rộng hoạt động kinh doanh, FPT từng bước chuyển đổi lực lượng\nkỹ sư theo mô hình Kỹ sư tăng cường AI, trong đó AI được tích hợp trực tiếp vào \nquy trình phát triển phần mềm, quản trị dự án và vận hành nội bộ giúp cải thiện \nnăng suất, rút ngắn thời gian triển khai và tối ưu chi phí. Song song, Tập đoàn \ntriển khai chương trình đào tạo và tái đào tạo AI trên diện rộng, đặt mục tiêu phổ cập\nnăng lực AI cho phần lớn đội ngũ kỹ sư, đồng thời hình thành trung tâm năng lực \nAI (AI Center of Excellence) tại các thị trường trọng điểm. Với đội ngũ chuyên gia, \nnền tảng công nghệ và hệ sinh thái đào tạo đồng bộ, FPT sẵn sàng nắm bắt\nlàn sóng AI và mở rộng quy mô các dự án chuyển đổi số toàn cầu.\nNhân sự bình quân của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài và \nnăng suất lao động\nTiêu chí 2024 2025 + /-\nTổng nhân sự bình quân (người)\nTổng nhân sự bình quân\nsản xuất (người)\nDoanh thu/người (triệu VNĐ)\n28.814\n26.586\n1.037\n 31.208\n29.899\n1.116\n8,3%\n12,5%\n7,6%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về nhân lực chất lượng cao và động lực cho công nghệ mũi nhọn của FPT, doanh thu từ dịch vụ AI/Data Analytics qua các năm và nhân sự bình quân cùng năng suất lao động trong lĩnh vực dịch vụ CNTT cho thị trường nước ngoài.\nchart: Doanh thu từ Dịch vụ AI/Data Analytics (trái giữa) — Doanh thu tính theo tỷ VNĐ, giai đoạn 2022 đến 2025 với các giá trị lần lượt là 980, 1.221, 1.856 và 2.612 tỷ VNĐ.\ntable: Nhân sự bình quân của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài và năng suất lao động (phải trên) — Bảng so sánh các tiêu chí năm 2024 và 2025 gồm tổng nhân sự bình quân (người), tổng nhân sự bình quân sản xuất (người), doanh thu/người (triệu VNĐ) cùng tỷ lệ tăng trưởng phần trăm.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu từ Dịch vụ AI/Data Analytics",
+              "location": "trái giữa",
+              "description": "Doanh thu tính theo tỷ VNĐ, giai đoạn 2022 đến 2025 với các giá trị lần lượt là 980, 1.221, 1.856 và 2.612 tỷ VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Nhân sự bình quân của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài và năng suất lao động",
+              "location": "phải trên",
+              "description": "Bảng so sánh các tiêu chí năm 2024 và 2025 gồm tổng nhân sự bình quân (người), tổng nhân sự bình quân sản xuất (người), doanh thu/người (triệu VNĐ) cùng tỷ lệ tăng trưởng phần trăm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p067",
+          "page": 67,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Doanh thu lĩnh vực Dịch vụ CNTT cho thị trường trong nước đạt 9.093 tỷ đồng,\ntăng trưởng 11,5% so với cùng kỳ. Tăng trưởng doanh thu được dẫn dắt đồng thời \ntừ cả khối khách hàng Chính phủ và khu vực công, khối khách hàng doanh nghiệp, \nngân hàng, trong bối cảnh nhu cầu triển khai các nền tảng số, hệ thống quản trị \nquốc gia, hệ thống dữ liệu và chuyển đổi AI ngày càng gia tăng. \nLợi nhuận trước thuế ghi nhận 440 tỷ đồng, giảm 4,5% so với cùng kỳ do chủ động \ngia tăng đầu tư cho các nền tảng công nghệ lõi và năng lực hạ tầng chiến lược, bao \ngồm việc phát triển hạ tầng nhà máy AI tại Việt Nam, với định hướng dài hạn nhằm \ncủng cố năng lực cạnh tranh, mở rộng hệ sinh thái sản phẩm, dịch vụ trong các \nnăm tới.\nNăm 2025 đánh dấu những thay đổi lớn của Việt Nam với hàng loạt các hành động\nmạnh mẽ trong thực thi Nghị quyết số 57-NQ/TWvà các nghị quyếttrụ cột. Trong đó, \nNghị quyết số 214/NQ-CP ban hành kế hoạch hành động của Chính phủ về thúc \nđẩy tạo lập dữ liệu phục vụ chuyển đổi số toàn diện đã xác lập một cách tiếp \ncận mới, tổng thể và dài hạn hơn cho chương trình chuyển đổi số quốc gia. \nCác định hướng này không chỉthúc đẩy nhu cầu đầu tư CNTT trong khu vực công mà \ncòn mở ra hành lang pháp lý và cơ chế phối hợp rõ nét hơn, tạo điều kiện để các \ndoanh nghiệp công nghệ trong nước như FPT tham gia sớm và sâu, đóng vai trò \nđối tác chiến lược và song hành cùng Chính phủ, bộ ngành trong quá trình hiện thực hóa \ncác mục tiêu chuyển đổi số quốc gia.\nLàm chủ công nghệ lõi, hiện thực hóa chiến lược quốc gia\nFPT ghi dấu bước phát triển quan trọng của hệ sinh thái Made by FPT, thể hiện rõ \nnăng lực làm chủ công nghệ lõi và vai trò tiên phong của Tập đoàn trong việc hiện \nthực hóa các định hướng lớn của Đảng và Chính phủ tại Nghị quyết 57-NQ/TW và \nQuyết định 1131/QĐ-TTg. \nThông qua chiến lược đầu tư bài bản cho nghiên cứu và phát triển, FPT không \nngừng mở rộng danh mục sản phẩm Made by FPT, từng bước chuyển dịch từ cung \ncấp dịch vụ sang làm chủ và thương mại hóa các nền tảng, giải pháp công nghệ \ncó giá trị gia tăng cao. Trong đó, doanh thu từ hệ sinh thái Made by FPT ghi nhận \nmức tăng trưởng 19,1%, đạt doanh thu 2.672 tỷ đồng, với 10 giải pháp đạt doanh số \nký trên 100 tỷ đồng, phản ánh rõ khả năng thương mại hóa và quy mô hóa sản phẩm \ncông nghệ do FPT phát triển.\nSong song với kết quả kinh doanh tích cực, hệ sinh thái Made by FPT tiếp tục được \nghi nhận mạnh mẽ ở cấp độ quốc gia khi 14 sản phẩm được Bộ Khoa học và\nCông nghệ công bố trên Cổng Nghị quyết 57; nhiều giải pháp được công nhận là \nSản phẩm Công nghiệp chủ lực, Sản phẩm công nghệ số xuất sắc, đồng thời trực \ntiếp tham gia giải quyết các bài toán chuyển đổi số quy mô quốc gia, khẳng định \nvai trò của FPT trong việc phát triển các nền tảng công nghệ chiến lược cho đất nước.\nTrong số đó, AkaBot tiếp tục củng cố vị thế nền tảng tự động hóa hàng đầu khi \nđược triển khai tại nhiều ngân hàng Big4, mở rộng thành công tại thị trường Nhật Bản\nvà là sản phẩm công nghệ Việt Nam duy nhất góp mặt trong Everest Peak Matrix. \nCác nền tảng mới như FPT Culture Tech trong lĩnh vực di sản số và FPT eID, giải pháp\nđịnh danh số đạt các chứng nhận sinh trắc học quốc tế, sẵn sàng đáp ứng các \nyêu cầu khắt khe ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu hệ sinh thái Made by FPT giai đoạn 2021-2025",
+              "location": "phải",
+              "description": "Biểu đồ cột thể hiện doanh thu theo từng năm từ 2021 đến 2025, đơn vị tỷ VNĐ, doanh thu tăng dần qua các năm từ 746 tỷ năm 2021 lên 2.672 tỷ năm 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p046",
+          "page": 46,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "BỐI CẢNH CHUNG\nCHIẾN LƯỢC PHÁT TRIỂN\nChi tiêu CNTT toàn cầu dự kiến đạt 6.155 tỷ USD vào năm 2026, tăng 10,8% so với \nnăm 2025 (Nguồn Gartner), tập trung mạnh vào trung tâm dữ liệu (tăng 31,7%) \nvà phần mềm (tăng 14,7%) nhờ nhu cầu xây dựng hạ tầng tính toán phục vụ AI. \nLĩnh vực Dịch vụ CNTT được dự báo đạt 1.867 tỷ USD vào năm 2026 với tốc độ \ntăng trưởng 8,7%, trở thành phân khúc lớn nhất trong tổng chi tiêu CNTT toàn cầu, \nphản ánh xu hướng gia tăng nhu cầu tư vấn, triển khai, hiện đại hóa hệ thống, \nchuyển đổi số và ứng dụng AI trong doanh nghiệp. \nTăng trưởng chi tiêu Dịch vụ Công nghệ thông tin AI bước vào chu kỳ tạo giá trị, động lực mới cho \ntăng trưởng dài hạn\nChi tiêu CNTT toàn cầu năm 2026 (Nguồn: Gartner)\nDịch vụ CNTT\nTrung tâm dữ liệu Đơn vị: Tỷ USD\n6.155\n1.867 30,3%\n836 13,6%\n653 10,6%\n1.365 22,2% 1.434 23,3%\nPhần mềm\nPhần cứng\nDịch vụ viễn thông\nTheo khảo sát của Gartner, hơn 80% CIO dự kiến đầu tư mạnh vào các năng lực \nnền tảng như: an ninh mạng, AI tạo sinh và quản trị dữ liệu. Trong giai đoạn \n2025-2026, các giám đốc Công nghệ (CIO) chuyển trọng tâm từ triển khai dự án \nthử nghiệm sang dự án có giá trị thực tế và tỷ suất lợi nhuận từ AI, đặc biệt là AI tự chủ \n(Agentic AI). Trong đó, A.R.T (Agile Realignment – Risk Readiness – Tenacity) được \nxem là ba năng lực cốt lõi để các tổ chức, doanh nghiệp phát triển và bứt phá trong \nmột thế giới đầy biến động, được dẫn dắt bởi AI.\n• Tái cấu trúc linh hoạt (Agile Realignment): 94% CIO kỳ vọng sẽ có những thay \nđổi lớn trong kế hoạch chi tiêu cho các dự án CNTT trong vòng 24 tháng tới và \nsẵn sàng dừng các dự án kém hiệu quả để dồn lực cho dự án AI.\n• Sẵn sàng trước rủi ro (Risk Readiness): Các CIO đang chuyển từ chiến lược nhà \ncung cấp \"không biên giới\" sang ưu tiên các đối tác khu vực và giải pháp \"chủ \nquyền số\" (Geopatriation) để giảm thiểu rủi ro địa chính trị và tuân thủ quy định \ndữ liệu khắt khe.\n• Sự kiên định về kết quả tài chính (Tenacity): Ưu tiên hàng đầu của các CIO là \nchuyển hóa năng suất từ AI thành lợi nhuận thực tế thông qua việc tối ưu hóa chi \nphí vận hành và tăng trưởng doanh thu.\nMột xu hướng đáng chú ý là sự ưu tiên sử dụng các mô hình AI mã nguồn mở. 76% \ndoanh nghiệp sử dụng mô hình ngôn ngữ lớn (LLM) ưu tiên lựa chọn các mô hình mã \nnguồn mở, kết hợp với các giải pháp độc quyền nhằm tối ưu chi phí, hiệu năng và \nkhả năng kiểm soát dữ liệu. Tỷ lệ doanh nghiệp tự đầu tư phát triển mô hình AI giảm \nmạnh, từ 43% trong năm 2024 xuống còn 24% trong năm 2025. Xu hướng này mở \nra cơ hội phát triển cho các doanh nghiệp công nghệ như FPT trong việc xây dựng \nnền tảng AI dựa trên mã nguồn mở và phát triển các giải pháp AI chuyên biệt, \ntạo dư địa tăng trưởng bền vững trong trung và dài hạn.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược phát triển của FPT với bối cảnh chung về tăng trưởng chi tiêu dịch vụ công nghệ thông tin toàn cầu và vai trò của AI trong chu kỳ tạo giá trị và động lực tăng trưởng dài hạn.\nchart: Chi tiêu CNTT toàn cầu năm 2026 (trái) — Biểu đồ vòng thể hiện phân bổ chi tiêu CNTT toàn cầu theo các lĩnh vực: Dịch vụ CNTT, Phần mềm, Dịch vụ viễn thông, Trung tâm dữ liệu, Phần cứng; đơn vị tính tỷ USD; dữ liệu dự báo năm 20",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Chi tiêu CNTT toàn cầu năm 2026",
+              "location": "trái",
+              "description": "Biểu đồ vòng thể hiện phân bổ chi tiêu CNTT toàn cầu theo các lĩnh vực: Dịch vụ CNTT, Phần mềm, Dịch vụ viễn thông, Trung tâm dữ liệu, Phần cứng; đơn vị tính tỷ USD; dữ liệu dự báo năm 2026 từ Gartner."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p047",
+          "page": 47,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Xu hướng sử dụng các mô hình AI mã nguồn mở được phản ánh rõ nét trong một số \nlĩnh vực kinh tế trọng điểm. Ngành Công nghiệp và Ô tô dẫn đầu trong việc sử dụng \ncác mô hình ngôn ngữ lớn mã nguồn mở để tối ưu hóa chuỗi cung ứng, nâng cao \ncông tác kiểm soát chất lượng và cải thiện hiệu quả vận hành. Mức độ triển khai và \nsử dụng các giải pháp xử lý ngôn ngữ tự nhiên (NLP) trong các ngành này tăng \n148% so với cùng kỳ. Trong khi đó, lĩnh vực Dịch vụ Tài chính dẫn đầu về ứng dụng \nkiến trúc “serverless” (mô hình điện toán đám mây cho phép nhà phát triển xây dựng \nvà chạy ứng dụng mà không cần quản lý cơ sở hạ tầng máy chủ vật lý hay ảo), với \nmức tăng 131%.\nSong song với xu hướng tối ưu hạ tầng và triển khai AI linh hoạt, Agentic AI nổi lên \nnhư một động lực tăng trưởng mới của thị trường với giá trị đạt 7,3 tỷ USD trong \nnăm 2025 và được dự báo tăng từ 9,1 tỷ USD năm 2026 lên 139,2 tỷ USD vào năm \n2034. Xu hướng này cho thấy sự chuyển dịch mạnh mẽ sang các hệ thống tự động \nthực thi nhiệm vụ với sự can thiệp của con người ở mức tối thiểu, qua đó tái định \nhình cách doanh nghiệp vận hành, từ tự động hóa quy trình đến hỗ trợ ra quyết định \nthông minh.\nTrong bối cảnh thị trường AI tự chủ tăng trưởng nhanh, quy mô chi tiêu cho AI toàn cầu cũng \ntăng trưởng mạnh mẽ. Theo Gartner, chi tiêu cho AI toàn cầu đạt khoảng 1.757 tỷ USD \nnăm 2025, tăng hơn 50% so với 2024 và sẽ đạt 3.335 tỷ USD vào năm 2027. \nSự bùng nổ của AI mang lại hiệu suất nhưng cũng đặt ngành dịch vụ CNTT trước \nnhững thách thức về mô hình kinh doanh và phương thức tạo ra giá trị. Theo báo cáo \ncủa J.P. Morgan, các công ty Dịch vụ CNTT phải đối mặt với áp lực \"tái chứng \nminh\" giá trị trong một môi trường bất định.\n• Rủi ro về mô hình định giá và sự thay đổi cấu trúc doanh thu: Ngành Dịch vụ \nCNTT chủ yếu vận hành theo mô hình tính phí dựa trên thời gian và nguồn lực (Time & \nMaterial). Tuy nhiên, khả năng tự động hóa và tối ưu hóa của AI đang trực tiếp \nđe dọa mô hình này. Khi năng suất lao động tăng 30-50% nhờ các công cụ AI, \nsố lượng giờ công cần thiết cho cùng một khối lượng công việc sẽ giảm mạnh, \ncác doanh nghiệp không kịp chuyển dịch sang mô hình định giá dựa trên kết quả \nđầu ra (outcome-based) hoặc dựa trên đăng ký dịch vụ (subscription) sẽ đối mặt \nvới rủi ro sụt giảm doanh thu.\n• Động lực P*Q và rủi ro phân mảnh ngân sách: J.P. Morgan chỉ ra một nghịch lý, \nmặc dù đơn giá mỗi đơn vị công việc (P) giảm do AI nhưng tổng chi tiêu CNTT vẫn \ncó thể duy trì ổn định nhờ gia tăng nhu cầu (Q) xử lý “nợ kỹ thuật” (Technical debt),\nước đạt 8.000 tỷ USD. Tuy nhiên, rủi ro phát sinh từ xu hướng “tiết kiệm để tái \nđầu tư”, khách hàng tạm dừng dự án không cấp thiết để dồn ngân sách cho AI sẽ \ngây khó khăn trong ngắn hạn cho tăng trưởng của doanh nghiệp dịch vụ CNTT.\n• Thách thức về quản trị, tuân thủ và niềm tin: Việc triển khai AI ở quy mô lớn đòi hỏi \nkhung quản trị chặt chẽ, đảm bảo an toàn dữ liệu, tính minh bạch và độ tin cậy \ncủa thuật toán. Điều này đòi hỏi các doanh nghiệp CNTT không chỉ cần giỏi kỹ \nthuật mà còn phải đóng vai trò là chuyên gia tư vấn về pháp lý và đạo đức AI.\nChuyển dịch của ngành dịch vụ CNTT: Rủi ro và \ncơ hội mới từ AI\nChi tiêu cho AI giai đoạn 2025-2027 Đơ",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi tiêu cho AI giai đoạn 2025-2027",
+              "location": "dưới bên trái",
+              "description": "Bảng chi tiêu dự kiến cho các lĩnh vực AI (Dịch vụ AI, An ninh mạng AI, Phần mềm AI, Mô hình AI, Nền tảng AI cho khoa học dữ liệu và học máy, Nền tảng phát triển ứng dụng AI, Dữ liệu AI, Hạ tầng AI) theo đơn vị tỷ USD cho các năm 2025, 2026, 2027."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p062",
+          "path": ".bonus/pages/p062.jpg",
+          "sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+        },
+        {
+          "id": "FPT2025:p058",
+          "path": ".bonus/pages/p058.jpg",
+          "sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+        },
+        {
+          "id": "FPT2025:p007",
+          "path": ".bonus/pages/p007.jpg",
+          "sha256": "a43a69a7fdf0b57e8fa3a96eac471af19abce3f398fe1377cfd2d9f4f9d4337b"
+        },
+        {
+          "id": "FPT2025:p076",
+          "path": ".bonus/pages/p076.jpg",
+          "sha256": "e995248051045a506062ad77c26942838a7425dfa6c6e7c6d6b88407669e4edd"
+        },
+        {
+          "id": "FPT2025:p065",
+          "path": ".bonus/pages/p065.jpg",
+          "sha256": "596b5b72c6e504a2d423769e79674258ae1231445c52620f5f7976e8c8ba9d51"
+        },
+        {
+          "id": "FPT2025:p067",
+          "path": ".bonus/pages/p067.jpg",
+          "sha256": "101f983082e9411f347ecf32e446b106540b51e0ac448cc3f5ec9fffc7dd33fb"
+        },
+        {
+          "id": "FPT2025:p046",
+          "path": ".bonus/pages/p046.jpg",
+          "sha256": "05994b7b95e90ec916d31f265ef9fc2c8e1ff63b20e397b72acb14a0bf9d0308"
+        },
+        {
+          "id": "FPT2025:p047",
+          "path": ".bonus/pages/p047.jpg",
+          "sha256": "b0a13ca0d4df8e603e23565c41ed7eb3f3f2e62d368eb348a30ccc641e98945e"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805318-4pEF0bDnZVVBLOPU6ybe",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01WNpcnXJTVsgN97GiC9JoYb",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Năm 2025, thị trường Nhật Bản là lớn nhất trong biểu đồ doanh thu Dịch vụ CNTT cho thị trường nước ngoài theo khu vực: 15.452 tỷ VNĐ, chiếm 43,7% trên tổng 35.382 tỷ VNĐ (tăng 25,4% so với năm trước). Theo ảnh gốc trang 62, các khu vực còn lại là Mỹ 8.163 tỷ VNĐ (23,1%), Châu Á-Thái Bình Dương 8.173 tỷ VNĐ (23,1%), Châu Âu 3.593 tỷ VNĐ (10,2%).\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p062\",\"region\":\"Biểu đồ vòng \\\"Doanh thu lĩnh vực dịch vụ CNTT cho thị trường nước ngoài\\\" (bên phải trang), nhãn Nhật Bản 15.452 tỷ VNĐ, 43,7%, tăng 25,4%; tổng 35.382 tỷ VNĐ\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p062",
+    "FPT2025:p058",
+    "FPT2025:p007",
+    "FPT2025:p076",
+    "FPT2025:p065",
+    "FPT2025:p067",
+    "FPT2025:p046",
+    "FPT2025:p047"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p062",
+      "page": 62,
+      "image": ".bonus/pages/p062.jpg",
+      "image_sha256": "8f61bfe49d08bcb6a87539042593d27af6b5f49a23a6d00560e0d381aaf97041"
+    },
+    {
+      "id": "FPT2025:p058",
+      "page": 58,
+      "image": ".bonus/pages/p058.jpg",
+      "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+    },
+    {
+      "id": "FPT2025:p007",
+      "page": 7,
+      "image": ".bonus/pages/p007.jpg",
+      "image_sha256": "a43a69a7fdf0b57e8fa3a96eac471af19abce3f398fe1377cfd2d9f4f9d4337b"
+    },
+    {
+      "id": "FPT2025:p076",
+      "page": 76,
+      "image": ".bonus/pages/p076.jpg",
+      "image_sha256": "e995248051045a506062ad77c26942838a7425dfa6c6e7c6d6b88407669e4edd"
+    },
+    {
+      "id": "FPT2025:p065",
+      "page": 65,
+      "image": ".bonus/pages/p065.jpg",
+      "image_sha256": "596b5b72c6e504a2d423769e79674258ae1231445c52620f5f7976e8c8ba9d51"
+    },
+    {
+      "id": "FPT2025:p067",
+      "page": 67,
+      "image": ".bonus/pages/p067.jpg",
+      "image_sha256": "101f983082e9411f347ecf32e446b106540b51e0ac448cc3f5ec9fffc7dd33fb"
+    },
+    {
+      "id": "FPT2025:p046",
+      "page": 46,
+      "image": ".bonus/pages/p046.jpg",
+      "image_sha256": "05994b7b95e90ec916d31f265ef9fc2c8e1ff63b20e397b72acb14a0bf9d0308"
+    },
+    {
+      "id": "FPT2025:p047",
+      "page": 47,
+      "image": ".bonus/pages/p047.jpg",
+      "image_sha256": "b0a13ca0d4df8e603e23565c41ed7eb3f3f2e62d368eb348a30ccc641e98945e"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805303-VQ6r6WiKonjeEqC6A3tC",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1841,
+        "completion_tokens": 135,
+        "total_tokens": 1976,
+        "cost": 0.0002516,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002516,
+          "upstream_inference_prompt_cost": 0.0001841,
+          "upstream_inference_completions_cost": 6.75e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1305.9830999700353,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805318-4pEF0bDnZVVBLOPU6ybe",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 34765,
+        "completion_tokens": 453,
+        "total_tokens": 35218,
+        "cost": 0.003703,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003703,
+          "upstream_inference_prompt_cost": 0.0034765,
+          "upstream_inference_completions_cost": 0.0002265
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 17055.50100002438,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 20677.241800003685,
+  "query_id": "ft-c2",
+  "question": "Trong biểu đồ doanh thu Dịch vụ CNTT cho thị trường nước ngoài theo khu vực, thị trường nào lớn nhất năm 2025, giá trị và tỷ trọng bao nhiêu?",
+  "split": "test",
+  "config": "vision"
+}

@@ -1,0 +1,254 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_4n3wt77QYDSmyQjiJEMXNeGG",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801094-Se5vjINeHDhUR8m95Yis"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+      "model_query": "Cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 23,
+          "text": "2. Trường hợp không có th ỏa thuận về thời hạn hoàn thành d ịch vụ thì bên cung ứng dịch vụ phải hoàn thành d ịch vụ trong m ột thời hạn hợp lý trên c ơ sở tính đến tất cả các điều kiện và hoàn cảnh mà bên cung ứng dịch vụ biết được vào thời điểm giao k ết hợp đồng, bao gồm bất kỳ nhu cầu cụ thể nào c ủa khách hàng có liên quan đến thời gian hoàn thành dịch vụ.\n\n3. Tr ường h ợp m ột d ịch v ụ ch ỉ có th ể được hoàn thành khi khách hàng hoặc bên cung ứng d ịch vụ khác đáp ứng các điều ki ện nh ất định thì bên cung ứng dịch vụ đó không có ngh ĩa vụ hoàn thành d ịch vụ của mình cho đến khi các điều kiện đó được đáp ứng.\n\nĐiều 83. Yêu c ầu c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ\n\n1. Trong quá trình cung ứng d ịch vụ, bên cung ứng dịch vụ ph ải tuân th ủ những yêu c ầu h ợp lý c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 23,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 83"
+          },
+          "score": 0.18793310179075493,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 62,
+          "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 62,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.16174057888108329,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-b0129d4e5bbc25c8",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 23,
+          "text": "2. Trừ trường hợp có tho ả thuận khác, khách hàng ph ải chịu những chi phí hợp lý cho việc thực hiện những yêu cầu thay đổi của mình.\n\nĐiều 84. Tiếp tục cung ứng dịch vụ sau khi hết thời hạn hoàn thành việc cung ứng dịch vụ Sau khi h ết t hời h ạn hoàn thành vi ệc cung ứng d ịch v ụ mà d ịch v ụ v ẫn chưa hoàn thành, n ếu khách hàng không ph ản đối thì bên cung ứng dịch vụ phải tiếp tục cung ứng theo n ội dung đã thoả thuận và ph ải bồi thường thiệt hại, n ếu có.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 23,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 84"
+          },
+          "score": 0.15364096472846736,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 23]\n2. Trường hợp không có th ỏa thuận về thời hạn hoàn thành d ịch vụ thì bên cung ứng dịch vụ phải hoàn thành d ịch vụ trong m ột thời hạn hợp lý trên c ơ sở tính đến tất cả các điều kiện và hoàn cảnh mà bên cung ứng dịch vụ biết được vào thời điểm giao k ết hợp đồng, bao gồm bất kỳ nhu cầu cụ thể nào c ủa khách hàng có liên quan đến thời gian hoàn thành dịch vụ.\n\n3. Tr ường h ợp m ột d ịch v ụ ch ỉ có th ể được hoàn thành khi khách hàng hoặc bên cung ứng d ịch vụ khác đáp ứng các điều ki ện nh ất định thì bên cung ứng dịch vụ đó không có ngh ĩa vụ hoàn thành d ịch vụ của mình cho đến khi các điều kiện đó được đáp ứng.\n\nĐiều 83. Yêu c ầu c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ\n\n1. Trong quá trình cung ứng d ịch vụ, bên cung ứng dịch vụ ph ải tuân th ủ những yêu c ầu h ợp lý c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7",
+        "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_YRXwgxLDvR9GZzQuumnf9mRm",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không tìm thấy thông tin về ngày cửa hàng Sao Mai hoàn tiền cho khách Nguyễn Văn Bình trong tài liệu.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801118-4qtNjFwP4zDBaOdEkFYO"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 23]\n2. Trường hợp không có th ỏa thuận về thời hạn hoàn thành d ịch vụ thì bên cung ứng dịch vụ phải hoàn thành d ịch vụ trong m ột thời hạn hợp lý trên c ơ sở tính đến tất cả các điều kiện và hoàn cảnh mà bên cung ứng dịch vụ biết được vào thời điểm giao k ết hợp đồng, bao gồm bất kỳ nhu cầu cụ thể nào c ủa khách hàng có liên quan đến thời gian hoàn thành dịch vụ.\n\n3. Tr ường h ợp m ột d ịch v ụ ch ỉ có th ể được hoàn thành khi khách hàng hoặc bên cung ứng d ịch vụ khác đáp ứng các điều ki ện nh ất định thì bên cung ứng dịch vụ đó không có ngh ĩa vụ hoàn thành d ịch vụ của mình cho đến khi các điều kiện đó được đáp ứng.\n\nĐiều 83. Yêu c ầu c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ\n\n1. Trong quá trình cung ứng d ịch vụ, bên cung ứng dịch vụ ph ải tuân th ủ những yêu c ầu h ợp lý c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801094-Se5vjINeHDhUR8m95Yis",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 17,
+        "total_tokens": 306,
+        "cost": 0.0001428,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001428,
+          "upstream_inference_prompt_cost": 0.0001156,
+          "upstream_inference_completions_cost": 2.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 9992.902599973604,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801118-4qtNjFwP4zDBaOdEkFYO",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1056,
+        "completion_tokens": 36,
+        "total_tokens": 1092,
+        "cost": 0.00048,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00048,
+          "upstream_inference_prompt_cost": 0.0004224,
+          "upstream_inference_completions_cost": 5.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 22543.223200016655,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 32539.141800021753,
+  "searches": 1,
+  "query_id": "d7-u1",
+  "question": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+  "split": "dev",
+  "config": "baseline",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 23,
+      "text": "2. Trường hợp không có th ỏa thuận về thời hạn hoàn thành d ịch vụ thì bên cung ứng dịch vụ phải hoàn thành d ịch vụ trong m ột thời hạn hợp lý trên c ơ sở tính đến tất cả các điều kiện và hoàn cảnh mà bên cung ứng dịch vụ biết được vào thời điểm giao k ết hợp đồng, bao gồm bất kỳ nhu cầu cụ thể nào c ủa khách hàng có liên quan đến thời gian hoàn thành dịch vụ.\n\n3. Tr ường h ợp m ột d ịch v ụ ch ỉ có th ể được hoàn thành khi khách hàng hoặc bên cung ứng d ịch vụ khác đáp ứng các điều ki ện nh ất định thì bên cung ứng dịch vụ đó không có ngh ĩa vụ hoàn thành d ịch vụ của mình cho đến khi các điều kiện đó được đáp ứng.\n\nĐiều 83. Yêu c ầu c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ\n\n1. Trong quá trình cung ứng d ịch vụ, bên cung ứng dịch vụ ph ải tuân th ủ những yêu c ầu h ợp lý c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 23,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 83"
+      },
+      "score": 0.18793310179075493,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 62,
+      "text": "2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 62,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.16174057888108329,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-b0129d4e5bbc25c8",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 23,
+      "text": "2. Trừ trường hợp có tho ả thuận khác, khách hàng ph ải chịu những chi phí hợp lý cho việc thực hiện những yêu cầu thay đổi của mình.\n\nĐiều 84. Tiếp tục cung ứng dịch vụ sau khi hết thời hạn hoàn thành việc cung ứng dịch vụ Sau khi h ết t hời h ạn hoàn thành vi ệc cung ứng d ịch v ụ mà d ịch v ụ v ẫn chưa hoàn thành, n ếu khách hàng không ph ản đối thì bên cung ứng dịch vụ phải tiếp tục cung ứng theo n ội dung đã thoả thuận và ph ải bồi thường thiệt hại, n ếu có.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 23,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 84"
+      },
+      "score": 0.15364096472846736,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 23]\n2. Trường hợp không có th ỏa thuận về thời hạn hoàn thành d ịch vụ thì bên cung ứng dịch vụ phải hoàn thành d ịch vụ trong m ột thời hạn hợp lý trên c ơ sở tính đến tất cả các điều kiện và hoàn cảnh mà bên cung ứng dịch vụ biết được vào thời điểm giao k ết hợp đồng, bao gồm bất kỳ nhu cầu cụ thể nào c ủa khách hàng có liên quan đến thời gian hoàn thành dịch vụ.\n\n3. Tr ường h ợp m ột d ịch v ụ ch ỉ có th ể được hoàn thành khi khách hàng hoặc bên cung ứng d ịch vụ khác đáp ứng các điều ki ện nh ất định thì bên cung ứng dịch vụ đó không có ngh ĩa vụ hoàn thành d ịch vụ của mình cho đến khi các điều kiện đó được đáp ứng.\n\nĐiều 83. Yêu c ầu c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ\n\n1. Trong quá trình cung ứng d ịch vụ, bên cung ứng dịch vụ ph ải tuân th ủ những yêu c ầu h ợp lý c ủa khách hàng liên quan đến nh ững thay đổi trong quá trình cung ứng dịch vụ.\n\n[luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 62]\n2. Sau thời hạn bốn mươi lăm ngày kể từ ngày thông báo cầm giữ hàng hoá hoặc ch ứng t ừ liên quan đến hàng hoá, n ếu khách hàng không tr ả ti ền n ợ thì thương nhâ n kinh doanh d ịch v ụ logistics có quy ền định đoạt hàng hoá ho ặc chứng từ đó theo quy định của pháp luật; trong trường hợp hàng hoá có d ấu hiệu bị hư hỏng thì thương nhân kinh doanh d ịch vụ logistics có quy ền định đoạt hàng hoá ngay khi có bất kỳ khoản nợ đến hạn nào của khách hàng.\n\n3. Trước khi định đoạt hàng hoá, th ương nhân kinh doanh d ịch vụ logistics phải thông báo ngay cho khách hàng bi ết về việc định đoạt hàng hoá đó.\n\n4. Mọi chi phí cầm giữ, định đoạt hàng hoá do khách hàng chịu.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p23-paragraph-1000-7a18b6d33fa72fe7",
+    "luat-thuong-mai-36-2005-qh11-p62-paragraph-1000-c4b346956b49b44b"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

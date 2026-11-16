@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p051",
+  "image_sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de",
+  "caption": {
+    "summary": "Trang trình bày chiến lược phát triển AI của FPT trong giai đoạn tiếp theo và vai trò của công nghệ chiến lược trong xây dựng chủ quyền số quốc gia.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Nền tảng phục vụ phát triển AI có chủ quyền của FPT",
+        "location": "phải",
+        "description": "Mô hình nền tảng AI gồm các thành phần AI Studio, AI Inferencing, AI Agents, AI Platform, AI Infrastructure với các lớp dữ liệu, tính toán và ứng dụng AI, thể hiện quan hệ giữa các thành phần trong hệ sinh thái AI của FPT."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800721-mhhW7aZJYLnb5CAmGK0w",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 132,
+        "total_tokens": 2694,
+        "cost": 0.001236,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001236,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002112
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3246.738599962555,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

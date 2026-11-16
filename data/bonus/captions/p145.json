@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p145",
+  "image_sha256": "256e49f46978c796aa3a0b63e4b6bac4c81d23783fe4766fe4db2471ef8949e3",
+  "caption": {
+    "summary": "Trang trình bày về quản lý nguồn nguyên liệu của FPT, tập trung vào cam kết sử dụng nguyên vật liệu thân thiện môi trường, bền vững và các nguyên tắc, hành động cụ thể để giảm thiểu tác động tiêu cực đến môi trường và xã hội.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Nguyên tắc và Hành động trong quản lý nguồn nguyên liệu",
+        "location": "dưới",
+        "description": "Bảng liệt kê các nguyên tắc trọng tâm gồm Bền vững là trọng tâm, Giảm thiểu việc sử dụng các chất gây hại, Thúc đẩy hiệu quả sử dụng tài nguyên cùng các hành động tương ứng nhằm ưu tiên sử dụng vật liệu thân thiện môi trường, loại bỏ chất nguy hại, cải tiến quy trình và thu hồi tái sử dụng tài sản."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800783-eiv7e6hq9UqirXpwDGZN",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 179,
+        "total_tokens": 2741,
+        "cost": 0.0013112,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013112,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002864
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4796.499099989887,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

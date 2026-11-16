@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p122",
+  "image_sha256": "1f9a417e90565002f607e0af730c5f58e8d9931193b84c4c45fe42769e549efe",
+  "caption": {
+    "summary": "Trang báo cáo trình bày các chương trình hành động nổi bật và kết quả đạt được năm 2025 liên quan đến cán bộ nhân viên của FPT, tập trung vào môi trường làm việc, minh bạch, phát triển sáng tạo, kế hoạch phát triển nhân lực, chế độ bảo hiểm và phát triển văn hóa.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800767-vZFlieXALf4zknQkveEA",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 75,
+        "total_tokens": 2637,
+        "cost": 0.0011448,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011448,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.00012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3374.756199948024,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

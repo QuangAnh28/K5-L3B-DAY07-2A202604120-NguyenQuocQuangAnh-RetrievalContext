@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p054",
+  "image_sha256": "9c8ea948ee7b4ab514ae49bbb1ab921783d75e10339d1d2aaa9e3ad2838a4186",
+  "caption": {
+    "summary": "Trang trình bày chiến lược phát triển giáo dục của FPT, tập trung vào đổi mới và mở rộng dịch vụ giáo dục từ phổ thông đến đại học, với các điểm nhấn về đào tạo nghiên cứu chuyên sâu, ứng dụng AI trong giáo dục phổ thông và mở rộng quy mô ngành nghề đào tạo.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Hoạt động học tập tại FPT",
+        "location": "dưới",
+        "description": "Hình ảnh sinh viên/người học đang làm việc với máy tính trong môi trường giáo dục hiện đại, thể hiện sự mở rộng danh mục đào tạo theo sát chuỗi công nghệ chiến lược quốc gia."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800723-Ny5ue1vaGK4os9k33NFC",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 141,
+        "total_tokens": 2703,
+        "cost": 0.0012504,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012504,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3922.068399959244,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

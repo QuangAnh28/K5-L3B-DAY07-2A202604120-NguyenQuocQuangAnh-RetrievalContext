@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p032",
+  "image_sha256": "c287642128097416c18dfcd119132d4ba068f3439767dbbf61daffb2d61cb320",
+  "caption": {
+    "summary": "Trang báo cáo trình bày cơ cấu cổ đông của Công ty Cổ phần FPT năm 2025, bao gồm thông tin chi tiết về cổ phiếu và phân loại cổ đông theo số lượng cổ phiếu sở hữu và theo đối tượng sở hữu.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thông tin về cổ phiếu",
+        "location": "trái trên",
+        "description": "Tên cổ phiếu, loại cổ phiếu, mã chứng khoán, mệnh giá, ngày niêm yết, tổng số cổ phiếu lưu hành, cổ phiếu quỹ, số lượng cổ phiếu tự do chuyển nhượng, số lượng cổ phiếu hạn chế chuyển nhượng, tỷ lệ sở hữu tối đa của cổ đông nước ngoài."
+      },
+      {
+        "type": "table",
+        "title": "Cơ cấu cổ đông theo các mức cổ phiếu sở hữu",
+        "location": "phải trên",
+        "description": "Các mức cổ phiếu sở hữu (01-999, 1.000-10.000, 10.001-1.000.000, 1.000.001 trở lên), số lượng cổ đông, tỷ lệ/tổng số cổ đông, số lượng cổ phiếu sở hữu, tỷ lệ/tổng số cổ phiếu đã phát hành."
+      },
+      {
+        "type": "table",
+        "title": "Cơ cấu cổ đông theo đối tượng sở hữu",
+        "location": "phải dưới",
+        "description": "Các đối tượng cổ đông (Nhà nước, cổ đông nội bộ, cổ đông ngoài cá nhân, cổ đông ngoài tổ chức), số lượng cổ đông, tỷ lệ/tổng số cổ đông, số lượng cổ phiếu đang nắm giữ, tỷ lệ/tổng số cổ phiếu đã phát hành."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800707-g7Eh6ILSoLaJicryqD4U",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 348,
+        "total_tokens": 2910,
+        "cost": 0.0015816,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0015816,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0005568
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4520.307600032538,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

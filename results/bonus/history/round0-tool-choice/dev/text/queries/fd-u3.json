@@ -1,0 +1,501 @@
+{
+  "status": "answered",
+  "answer": "Báo cáo thường niên FPT 2025 không ghi rõ số tiền tài trợ cụ thể cho từng hộ gia đình trong Dự án Bếp Xanh – Sống Lành. Báo cáo chỉ nêu dự án giúp hơn 1.000 người dân tiếp cận các giải pháp bếp cải tiến nhằm giảm ô nhiễm không khí trong nhà và cải thiện sức khỏe cộng đồng, nhưng không có thông tin chi tiết về số tiền tài trợ cho từng hộ.\n[FPT2025:p158 — toàn bộ đoạn giới thiệu Dự án Bếp Xanh – Sống Lành tại trang 158]",
+  "citations": [
+    {
+      "id": "FPT2025:p158",
+      "region": "toàn bộ đoạn giới thiệu Dự án Bếp Xanh – Sống Lành tại trang 158"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801549-mNWjZjwwqqOJ9hnBDLgt",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_ivNCJd0pk050OkRSpTgxNMzp",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"Dự án Bếp Xanh – Sống Lành số tiền tài trợ từng hộ gia đình\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Dự án Bếp Xanh – Sống Lành ghi số tiền tài trợ cụ thể cho từng hộ gia đình là bao nhiêu?",
+      "model_queries": [
+        "Dự án Bếp Xanh – Sống Lành số tiền tài trợ từng hộ gia đình"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p158",
+          "page": 158,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "score": 0.029411764705882353,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p189",
+          "page": 189,
+          "score": 0.028949545078577336,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p172",
+          "page": 172,
+          "score": 0.028068137824235385,
+          "component_ranks": {
+            "dense": 22,
+            "tfidf": 3
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Dự án Bếp Xanh – Sống Lành ghi số tiền tài trợ cụ thể cho từng hộ gia đình là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p158",
+        "FPT2025:p171",
+        "FPT2025:p189",
+        "FPT2025:p172"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p158",
+          "page": 158,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Tổ chức World Vision và FPT ký kết Biên bản ghi nhớ hợp tác triển khai Dự án \n“Bếp Xanh – Sống Lành” tại xã Sín Chải, tỉnh Điện Biên. Sự kiện đánh dấu bước tiến \nquan trọng trong nỗ lực thúc đẩy phát triển bền vững, cải thiện sức khỏe \ncộng đồng và tăng cường khả năng thích ứng với biến đổi khí hậu tại khu vực \nnông thôn Việt Nam.\nDự án giúp hơn 1.000 người dân tiếp cận các giải pháp bếp cải tiến nhằm giảm \nô nhiễm không khí trong nhà, cải thiện điều kiện sức khỏe và cắt giảm phát thải khí \nnhà kính. Việc thúc đẩy các giải pháp nấu ăn sạch góp phần bảo vệ tài nguyên \nrừng, nâng cao chất lượng sống và năng lực chống chịu của các cộng đồng dễ bị \ntổn thương trước tác động của biến đổi khí hậu.\n• Dự án \"Bếp Xanh – Sống Lành\", mang sức khỏe đến với mọi nhà\nNgày hội hiến máu nhân đạo được FPT tổ chức thường niên với mong muốn \nnâng cao tinh thần tương thân tương ái, góp phần chia sẻ khó khăn với những \nhoàn cảnh kém may mắn trong xã hội. Với tinh thần “Một giọt máu cho đi, \nmột cuộc đời ở lại”, nghĩa cử hiến máu cứu người của CBNV FPT trở thành một \nnét đẹp trong hoạt động thiện nguyện của FPT hàng năm. \nTrong năm 2025, 2.045 CBNV tham gia 10 đợt hiến máu với 2.910 đơn vị máu \nđược hiến tặng. Hoạt động khích lệ CBNV cùng chia sẻ những giá trị tốt đẹp, \nduy trì tinh thần lạc quan, năng lượng tích cực để cùng nhau tạo nên một \ncộng đồng hạnh phúc.\n• Hiến máu nhân đạo\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025, giới thiệu dự án Bếp Xanh – Sống Lành và hoạt động hiến máu nhân đạo.\nphoto: Lễ ký kết dự án Bếp Xanh – Sống Lành (trên trái) — Ảnh chụp lễ ký kết hợp tác giữa tổ chức World Vision và FPT tại Sơn La, tỉnh Điện Biên\nphoto: Hoạt động hiến máu nhân đạo (trên phải) — Ảnh chụp hai nhân viên FPT tham gia hiến máu với biểu ngữ 'Một giọt máu cho đi, một cuộc đời ở lại'",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ ký kết dự án Bếp Xanh – Sống Lành",
+              "location": "trên trái",
+              "description": "Ảnh chụp lễ ký kết hợp tác giữa tổ chức World Vision và FPT tại Sơn La, tỉnh Điện Biên"
+            },
+            {
+              "type": "photo",
+              "title": "Hoạt động hiến máu nhân đạo",
+              "location": "trên phải",
+              "description": "Ảnh chụp hai nhân viên FPT tham gia hiến máu với biểu ngữ 'Một giọt máu cho đi, một cuộc đời ở lại'"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG KINH DOANH\n01\n02\n03\n04\n05\n06\n08\n09\n10\n11\n12\n14\n15\n17\n20\nLợi nhuận kế toán trước thuế\nĐiều chỉnh cho các khoản:\nKhấu hao tài sản cố định (“TSCĐ”) và phân bổ lợi thế thương mại\nCác khoản dự phòng\n(Lãi)/lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục\ntiền tệ có gốc ngoại tệ\nLãi từ hoạt động đầu tư\nChi phí lãi vay\nLợi nhuận từ hoạt động kinh doanh trước những thay đổi vốn lưu động\nTăng các khoản phải thu\nTăng hàng tồn kho\nTăng các khoản phải trả\nTăng chi phí trả trước\nTiền lãi vay đã trả\nThuế TNDN đã nộp\nTiền chi khác từ hoạt động kinh doanh\nLưu chuyển tiền thuần từ hoạt động kinh doanh\n13.043.632.833.797\n2.914.178.360.732 \n651.406.282.654\n(27.776.460.391)\n(2.575.840.046.010) \n809.759.601.156 \n14.815.360.571.938 \n(2.874.821.969.471)\n(335.071.616.492)\n2.556.427.255.416\n(595.604.484.389)\n(812.474.254.533)\n(2.238.070.257.305)\n(379.701.329.253)\n10.136.043.915.911\n11.069.666.417.819\n2.535.298.475.665\n1.148.951.390.915\n46.311.803.197\n(1.725.022.480.893)\n551.639.361.786\n13.626.844.968.489\n(1.913.663.012.505)\n(265.267.561.842)\n2.875.571.263.689\n(393.964.502.357)\n(607.154.747.076)\n(1.209.921.507.569)\n(408.667.711.961)\n11.703.777.188.868\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nĐơn vị: VNĐ\n21\n22\n23\n24\nTiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác\nTiền thu từ thanh lý, nhượng bán TSCĐ và tài sản dài hạn khác \nTiền chi cho vay, mua các công cụ nợ của đơn vị khác\nTiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác\n(5.097.919.349.856)\n7.314.216.719\n(57.012.522.823.806)\n49.164.792.969.282\n(3.275.312.325.702)\n14.227.383.215\n(41.956.569.113.369)\n36.283.758.374.630\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và hoạt động đầu tư trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p189",
+          "page": 189,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n3. Hợp nhất kinh doanh\nTrong năm, Tập đoàn đã mua lại 65,58% vốn chủ sở hữu của Công ty Cổ phần Giải pháp và Dịch vụ phần mềm Nam Việt (hoạt động kinh doanh: xuất bản phần mềm) và \n65% vốn chủ sở hữu của Công ty TNHH FPT OKI Thường Châu và Công ty TNHH FPT OKI Đại Liên (hoạt động kinh doanh: sản xuất phần mềm). Tập đoàn cũng đã mua lại \ntoàn bộ hoạt động của Công ty Tư vấn David Lamm (hoạt động kinh doanh: tư vấn công nghệ thông tin) và sáp nhập công ty này vào Công ty TNHH FPT Đức. Ngoài ra,\nTập đoàn đã mua và nâng quyền sở hữu tại Công ty TNHH Ví FPT (hoạt động kinh doanh: trung gian thanh toán ví điện tử) từ 30% lên 100%. \nCác việc hợp nhất kinh doanh này đã phát sinh lợi thế thương mại như trình bày ở Thuyết minh 16.\n4. Tiền và các khoản tương đương tiền\n(*) Các khoản tương đương tiền chủ yếu bao gồm các khoản tiền gửi ngân hàng có kỳ hạn gốc không quá 3 tháng. Lãi suất được quy định cụ thể cho từng khoản tiền gửi.\n31/12/2025 31/12/2024\nTiền mặt\nTiền gửi ngân hàng không kỳ hạn\nTiền đang chuyển\nCác khoản tương đương tiền (*)\n3.236.297.367 \n6.713.912.691.054\n8.470.940.868 \n2.589.820.509.595\n9.315.440.438.884\n4.255.375.565\n8.078.385.544.605\n2.110.160.016 \n2.437.354.649.806\n10.522.105.729.992\nĐơn vị: VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày phần thuyết minh báo cáo tài chính hợp nhất năm 2025, bao gồm hợp nhất kinh doanh và bảng số liệu tiền và các khoản tương đương tiền.\ntable: Tiền và các khoản tương đương tiền (dưới) — Bảng số liệu so sánh các khoản tiền mặt, tiền gửi ngân hàng không kỳ hạn, tiền đang chuyển và các khoản tương đương tiền tính đến ngày 31/12/2025 và 31/12/2024, đơn vị tính là VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tiền và các khoản tương đương tiền",
+              "location": "dưới",
+              "description": "Bảng số liệu so sánh các khoản tiền mặt, tiền gửi ngân hàng không kỳ hạn, tiền đang chuyển và các khoản tương đương tiền tính đến ngày 31/12/2025 và 31/12/2024, đơn vị tính là VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p172",
+          "page": 172,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "25\n26\n27\n30\nTiền chi đầu tư góp vốn vào đơn vị khác\nTiền thu hồi đầu tư góp vốn vào đơn vị khác\nTiền thu lãi cho vay, cổ tức và lợi nhuận được chia\nLưu chuyển tiền thuần từ hoạt động đầu tư\n(710.700.052.777)\n23.532.256.656 \n2.000.759.192.153\n(11.624.743.591.629)\n(1.106.193.484.800)\n48.102.486.048\n1.530.174.506.877\n(8.461.812.173.101)\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ (Tiếp theo)\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG TÀI CHÍNH\n31\n33\n34\n35\n36\n40\n50\n60\n61\n70\nTiền thu từ phát hành cổ phiếu\nTiền thu từ đi vay\nTiền chi trả nợ gốc vay\nTiền chi trả nợ gốc thuê tài chính\nTiền cổ tức, lợi nhuận đã trả cho chủ sở hữu\nLưu chuyển tiền thuần từ hoạt động tài chính\nLưu chuyển tiền thuần trong năm\nTiền và tương đương tiền đầu năm\nẢnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ \nTiền và tương đương tiền cuối năm\n1.196.235.184.778 \n43.070.812.885.074 \n(36.890.984.827.601)\n(986.795.056)\n(4.573.753.577.663)\n2.801.322.869.532 \n1.312.623.193.814\n9.315.440.438.884 \n(105.957.902.706)\n10.522.105.729.992\n163.342.989.874\n30.946.282.706.201\n(30.013.226.682.923)\n(2.305.346.865)\n(3.291.859.792.121)\n(2.197.766.125.834)\n1.044.198.889.933\n8.279.156.683.221\n(7.915.134.270)\n9.315.440.438.884\nĐơn vị: VNĐ\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nNgày 18 tháng 3 năm 2026\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\n(Tiếp theo)\n4\n4\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày chi tiết các khoản tiền từ hoạt động đầu tư và hoạt động tài chính trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Bảng liệt kê các khoản mục lưu chuyển tiền từ hoạt động đầu tư và hoạt động tài chính, gồm mã số, thuyết minh, và số liệu năm 2025, 2024, đơn vị VND.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Bảng liệt kê các khoản mục lưu chuyển tiền từ hoạt động đầu tư và hoạt động tài chính, gồm mã số, thuyết minh, và số liệu năm 2025, 2024, đơn vị VND."
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801597-2Nj4AiLAsiUsOjvaNkT1",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_c3javozwP9emz2yaoZjglblo",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"Dự án Bếp Xanh – Sống Lành số tiền tài trợ từng hộ gia đình cụ thể\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Dự án Bếp Xanh – Sống Lành số tiền tài trợ từng hộ gia đình cụ thể",
+      "model_queries": [
+        "Dự án Bếp Xanh – Sống Lành số tiền tài trợ từng hộ gia đình cụ thể"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p158",
+          "page": 158,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p157",
+          "page": 157,
+          "score": 0.031024531024531024,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "score": 0.028782894736842105,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "score": 0.027272727272727275,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 17
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Dự án Bếp Xanh – Sống Lành số tiền tài trợ từng hộ gia đình cụ thể"
+      ],
+      "context_ids": [
+        "FPT2025:p158",
+        "FPT2025:p157",
+        "FPT2025:p171",
+        "FPT2025:p119",
+        "FPT2025:p189",
+        "FPT2025:p172"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p158",
+          "page": 158,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Tổ chức World Vision và FPT ký kết Biên bản ghi nhớ hợp tác triển khai Dự án \n“Bếp Xanh – Sống Lành” tại xã Sín Chải, tỉnh Điện Biên. Sự kiện đánh dấu bước tiến \nquan trọng trong nỗ lực thúc đẩy phát triển bền vững, cải thiện sức khỏe \ncộng đồng và tăng cường khả năng thích ứng với biến đổi khí hậu tại khu vực \nnông thôn Việt Nam.\nDự án giúp hơn 1.000 người dân tiếp cận các giải pháp bếp cải tiến nhằm giảm \nô nhiễm không khí trong nhà, cải thiện điều kiện sức khỏe và cắt giảm phát thải khí \nnhà kính. Việc thúc đẩy các giải pháp nấu ăn sạch góp phần bảo vệ tài nguyên \nrừng, nâng cao chất lượng sống và năng lực chống chịu của các cộng đồng dễ bị \ntổn thương trước tác động của biến đổi khí hậu.\n• Dự án \"Bếp Xanh – Sống Lành\", mang sức khỏe đến với mọi nhà\nNgày hội hiến máu nhân đạo được FPT tổ chức thường niên với mong muốn \nnâng cao tinh thần tương thân tương ái, góp phần chia sẻ khó khăn với những \nhoàn cảnh kém may mắn trong xã hội. Với tinh thần “Một giọt máu cho đi, \nmột cuộc đời ở lại”, nghĩa cử hiến máu cứu người của CBNV FPT trở thành một \nnét đẹp trong hoạt động thiện nguyện của FPT hàng năm. \nTrong năm 2025, 2.045 CBNV tham gia 10 đợt hiến máu với 2.910 đơn vị máu \nđược hiến tặng. Hoạt động khích lệ CBNV cùng chia sẻ những giá trị tốt đẹp, \nduy trì tinh thần lạc quan, năng lượng tích cực để cùng nhau tạo nên một \ncộng đồng hạnh phúc.\n• Hiến máu nhân đạo\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025, giới thiệu dự án Bếp Xanh – Sống Lành và hoạt động hiến máu nhân đạo.\nphoto: Lễ ký kết dự án Bếp Xanh – Sống Lành (trên trái) — Ảnh chụp lễ ký kết hợp tác giữa tổ chức World Vision và FPT tại Sơn La, tỉnh Điện Biên\nphoto: Hoạt động hiến máu nhân đạo (trên phải) — Ảnh chụp hai nhân viên FPT tham gia hiến máu với biểu ngữ 'Một giọt máu cho đi, một cuộc đời ở lại'",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ ký kết dự án Bếp Xanh – Sống Lành",
+              "location": "trên trái",
+              "description": "Ảnh chụp lễ ký kết hợp tác giữa tổ chức World Vision và FPT tại Sơn La, tỉnh Điện Biên"
+            },
+            {
+              "type": "photo",
+              "title": "Hoạt động hiến máu nhân đạo",
+              "location": "trên phải",
+              "description": "Ảnh chụp hai nhân viên FPT tham gia hiến máu với biểu ngữ 'Một giọt máu cho đi, một cuộc đời ở lại'"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p157",
+          "page": 157,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Chiến dịch “Cùng đồng bào vượt lũ” do FPT phát động \nđã thu hút được sự sẻ chia từ hàng nghìn CBNV trong \nvà ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng, giúp \ntái thiết 26 điểm trường tại Nghệ An, Thanh Hóa, \nLào Cai (cũ), Tuyên Quang (cũ) – những điểm trường \nbị thiệt hại nặng sau bão trong năm 2025.\n• Cùng đồng bào vượt lũ tái thiết\n26 điểm trường thiệt hại nặng\nTừ năm 2018, FPT đồng hành cùng chương trình \n“Nâng bước em đến trường” do Quỹ Hy Vọng \nkhởi xướng, tham gia xây dựng các cây cầu bê tông \nkiên cố tại khu vực Đồng bằng sông Cửu Long, góp \nphần đảm bảo an toàn cho học sinh đến trường, đồng \nthời nâng cao chất lượng sống và cải thiện an sinh xã \nhội tại các địa phương. Năm 2025, FPT đã đóng góp \n08 tỷ đồng cho Chương trình.\n• Chương trình Nâng bước em đến trường\nVới ý nghĩa tạo những hiệu ứng tích cực cho xã hội, \nFPT không chỉ chú trọng vào những hoạt động cứu trợ \ntrong tình huống khẩn cấp mà còn tham gia cũng như \ntrực tiếp triển khai nhiều chương trình truyền cảm hứng, \nmang lại lợi ích lâu dài cho cộng đồng. \nKết nối cộng đồng hạnh phúc \nChiến dịch “Cùng đồng bào vượt lũ” do FPT phát động \nđã thu hút được sự sẻ chia từ hàng nghìn CBNV trong \nvà ngoài nước với số tiền hỗ trợ hơn 05 tỷ đồng, \ngiúp tái thiết 26 điểm trường tại Nghệ An, Thanh \nHóa, Lào Cai (cũ), Tuyên Quang (cũ) – những điểm \ntrường bị thiệt hại nặng sau bão trong năm 2025.\n• Đồng hành triển khai Dự án máy khử rung tim\ntự động cho cộng đồng đầu tiên tại Việt Nam \n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động kết nối cộng đồng hạnh phúc của FPT, tập trung vào các chương trình hỗ trợ cộng đồng và phát triển bền vững.\nphoto: Cùng đồng bào vượt lũ tái thiết 26 điểm trường thiệt hại nặng (dưới bên trái) — Ảnh người trao quà cho học sinh, minh họa chiến dịch hỗ trợ tái thiết các điểm trường bị thiệt hại do bão năm 2025.\nphoto: Đồng hành triển khai Dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam (dưới giữa) — Ảnh nhóm người trong phòng họp, minh họa dự án hỗ trợ cộng đồng về y tế với máy khử rung tim tự động.\nphoto: Chương trình Nâng bước em đến trường (dưới bên phải) — Ảnh nhóm người đứng ngoài trời bên bảng hiệu chương trình, minh họa chương trình xây dựng cơ sở vật chất và hỗ trợ học sinh vùng Đồng bằng sông Cửu Long.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Cùng đồng bào vượt lũ tái thiết 26 điểm trường thiệt hại nặng",
+              "location": "dưới bên trái",
+              "description": "Ảnh người trao quà cho học sinh, minh họa chiến dịch hỗ trợ tái thiết các điểm trường bị thiệt hại do bão năm 2025."
+            },
+            {
+              "type": "photo",
+              "title": "Đồng hành triển khai Dự án máy khử rung tim tự động cho cộng đồng đầu tiên tại Việt Nam",
+              "location": "dưới giữa",
+              "description": "Ảnh nhóm người trong phòng họp, minh họa dự án hỗ trợ cộng đồng về y tế với máy khử rung tim tự động."
+            },
+            {
+              "type": "photo",
+              "title": "Chương trình Nâng bước em đến trường",
+              "location": "dưới bên phải",
+              "description": "Ảnh nhóm người đứng ngoài trời bên bảng hiệu chương trình, minh họa chương trình xây dựng cơ sở vật chất và hỗ trợ học sinh vùng Đồng bằng sông Cửu Long."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG KINH DOANH\n01\n02\n03\n04\n05\n06\n08\n09\n10\n11\n12\n14\n15\n17\n20\nLợi nhuận kế toán trước thuế\nĐiều chỉnh cho các khoản:\nKhấu hao tài sản cố định (“TSCĐ”) và phân bổ lợi thế thương mại\nCác khoản dự phòng\n(Lãi)/lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục\ntiền tệ có gốc ngoại tệ\nLãi từ hoạt động đầu tư\nChi phí lãi vay\nLợi nhuận từ hoạt động kinh doanh trước những thay đổi vốn lưu động\nTăng các khoản phải thu\nTăng hàng tồn kho\nTăng các khoản phải trả\nTăng chi phí trả trước\nTiền lãi vay đã trả\nThuế TNDN đã nộp\nTiền chi khác từ hoạt động kinh doanh\nLưu chuyển tiền thuần từ hoạt động kinh doanh\n13.043.632.833.797\n2.914.178.360.732 \n651.406.282.654\n(27.776.460.391)\n(2.575.840.046.010) \n809.759.601.156 \n14.815.360.571.938 \n(2.874.821.969.471)\n(335.071.616.492)\n2.556.427.255.416\n(595.604.484.389)\n(812.474.254.533)\n(2.238.070.257.305)\n(379.701.329.253)\n10.136.043.915.911\n11.069.666.417.819\n2.535.298.475.665\n1.148.951.390.915\n46.311.803.197\n(1.725.022.480.893)\n551.639.361.786\n13.626.844.968.489\n(1.913.663.012.505)\n(265.267.561.842)\n2.875.571.263.689\n(393.964.502.357)\n(607.154.747.076)\n(1.209.921.507.569)\n(408.667.711.961)\n11.703.777.188.868\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nĐơn vị: VNĐ\n21\n22\n23\n24\nTiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác\nTiền thu từ thanh lý, nhượng bán TSCĐ và tài sản dài hạn khác \nTiền chi cho vay, mua các công cụ nợ của đơn vị khác\nTiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác\n(5.097.919.349.856)\n7.314.216.719\n(57.012.522.823.806)\n49.164.792.969.282\n(3.275.312.325.702)\n14.227.383.215\n(41.956.569.113.369)\n36.283.758.374.630\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và hoạt động đầu tư trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường \nlàm việc hướng tới môi trường làm \nviệc xanh, an toàn, lành mạnh.\n• Mục tiêu trung hạn: đến năm 2030, \ngiảm 15,8% tổng lượng phát thải \nkhí nhà kính phù hợp với mục tiêu \nchung của Việt Nam;\n• Mục tiêu dài hạn: đến năm 2040 \nđạt Net Zero như cam kết của \nChính phủ Việt Nam tại COP 26.\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\n nhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và \ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n• 100% số liệu sử dụng năng lượng được giám sát;\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\n sản lượng 842.749 kWh;\n• 100% cơ sở được kiểm kê và giám sát phát thải khí nhà kính \nđịnh kỳ.\nKết quả nổi bật 2025\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nĐào tạo nguồn \nnhân lực công nghệ\nchất lượng cao\nTạo điều kiện\ntốt nhất để trẻ em\nViệt Nam có cơ hội \ntiếp cận giáo dục\nchất lượng và bền vững\nLà đơn vị dẫn đầu trong đào tạo \nnhân lực số có năng lực cạnh tranh \ntoàn cầu.\n• Đào tạo 10.000 kỹ sư bán dẫn vào \nnăm 2030;\n• Đưa AI vào đào tạo người học ở tất \ncả các bậc học thuộc hệ thống \ngiáo dục của FPT.\n• 3.700 sinh viên theo học các chương trình và chuyên ngành \nđào tạo AI, thiết kế vi mạch bán dẫn của hệ thống giáo dục FPT;\n• Nghiên cứu, ứng dụng và phát triển các giải pháp công nghệ \ntiên tiến nhất, gia tăng tương tác và cá nhân hóa trải nghiệm \ncủa người học; đưa AI vào đào tạo từ bậc tiểu học đến\nphổ thông, cao đẳng, đại học và sau đại học; \n• Trao 151 tỷ đồng học bổng Nguyễn Văn Đạo.\nChú trọng hỗ trợ tạo điều kiện \nhọc tập tốt hơn cho các hoàn cảnh \nyếu thế tại các khu vực kinh tế \nkhó khăn, vùng núi, vùng sâu, \nvùng xa.\n• Tiếp tục duy trì quỹ dành cho các \nhoạt động phát triển vì cộng đồng \ntập trung chủ yếu vào các hoạt \nđộng giáo dục.\n• Sử dụng 72,8 tỷ đồng cho các hoạt động trách nhiệm xã hội;\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở \nhạng mục Dự án kịp thời;\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ.\nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p189",
+          "page": 189,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n3. Hợp nhất kinh doanh\nTrong năm, Tập đoàn đã mua lại 65,58% vốn chủ sở hữu của Công ty Cổ phần Giải pháp và Dịch vụ phần mềm Nam Việt (hoạt động kinh doanh: xuất bản phần mềm) và \n65% vốn chủ sở hữu của Công ty TNHH FPT OKI Thường Châu và Công ty TNHH FPT OKI Đại Liên (hoạt động kinh doanh: sản xuất phần mềm). Tập đoàn cũng đã mua lại \ntoàn bộ hoạt động của Công ty Tư vấn David Lamm (hoạt động kinh doanh: tư vấn công nghệ thông tin) và sáp nhập công ty này vào Công ty TNHH FPT Đức. Ngoài ra,\nTập đoàn đã mua và nâng quyền sở hữu tại Công ty TNHH Ví FPT (hoạt động kinh doanh: trung gian thanh toán ví điện tử) từ 30% lên 100%. \nCác việc hợp nhất kinh doanh này đã phát sinh lợi thế thương mại như trình bày ở Thuyết minh 16.\n4. Tiền và các khoản tương đương tiền\n(*) Các khoản tương đương tiền chủ yếu bao gồm các khoản tiền gửi ngân hàng có kỳ hạn gốc không quá 3 tháng. Lãi suất được quy định cụ thể cho từng khoản tiền gửi.\n31/12/2025 31/12/2024\nTiền mặt\nTiền gửi ngân hàng không kỳ hạn\nTiền đang chuyển\nCác khoản tương đương tiền (*)\n3.236.297.367 \n6.713.912.691.054\n8.470.940.868 \n2.589.820.509.595\n9.315.440.438.884\n4.255.375.565\n8.078.385.544.605\n2.110.160.016 \n2.437.354.649.806\n10.522.105.729.992\nĐơn vị: VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày phần thuyết minh báo cáo tài chính hợp nhất năm 2025, bao gồm hợp nhất kinh doanh và bảng số liệu tiền và các khoản tương đương tiền.\ntable: Tiền và các khoản tương đương tiền (dưới) — Bảng số liệu so sánh các khoản tiền mặt, tiền gửi ngân hàng không kỳ hạn, tiền đang chuyển và các khoản tương đương tiền tính đến ngày 31/12/2025 và 31/12/2024, đơn vị tính là VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tiền và các khoản tương đương tiền",
+              "location": "dưới",
+              "description": "Bảng số liệu so sánh các khoản tiền mặt, tiền gửi ngân hàng không kỳ hạn, tiền đang chuyển và các khoản tương đương tiền tính đến ngày 31/12/2025 và 31/12/2024, đơn vị tính là VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p172",
+          "page": 172,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "25\n26\n27\n30\nTiền chi đầu tư góp vốn vào đơn vị khác\nTiền thu hồi đầu tư góp vốn vào đơn vị khác\nTiền thu lãi cho vay, cổ tức và lợi nhuận được chia\nLưu chuyển tiền thuần từ hoạt động đầu tư\n(710.700.052.777)\n23.532.256.656 \n2.000.759.192.153\n(11.624.743.591.629)\n(1.106.193.484.800)\n48.102.486.048\n1.530.174.506.877\n(8.461.812.173.101)\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ (Tiếp theo)\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG TÀI CHÍNH\n31\n33\n34\n35\n36\n40\n50\n60\n61\n70\nTiền thu từ phát hành cổ phiếu\nTiền thu từ đi vay\nTiền chi trả nợ gốc vay\nTiền chi trả nợ gốc thuê tài chính\nTiền cổ tức, lợi nhuận đã trả cho chủ sở hữu\nLưu chuyển tiền thuần từ hoạt động tài chính\nLưu chuyển tiền thuần trong năm\nTiền và tương đương tiền đầu năm\nẢnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ \nTiền và tương đương tiền cuối năm\n1.196.235.184.778 \n43.070.812.885.074 \n(36.890.984.827.601)\n(986.795.056)\n(4.573.753.577.663)\n2.801.322.869.532 \n1.312.623.193.814\n9.315.440.438.884 \n(105.957.902.706)\n10.522.105.729.992\n163.342.989.874\n30.946.282.706.201\n(30.013.226.682.923)\n(2.305.346.865)\n(3.291.859.792.121)\n(2.197.766.125.834)\n1.044.198.889.933\n8.279.156.683.221\n(7.915.134.270)\n9.315.440.438.884\nĐơn vị: VNĐ\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nNgày 18 tháng 3 năm 2026\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\n(Tiếp theo)\n4\n4\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày chi tiết các khoản tiền từ hoạt động đầu tư và hoạt động tài chính trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Bảng liệt kê các khoản mục lưu chuyển tiền từ hoạt động đầu tư và hoạt động tài chính, gồm mã số, thuyết minh, và số liệu năm 2025, 2024, đơn vị VND.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Bảng liệt kê các khoản mục lưu chuyển tiền từ hoạt động đầu tư và hoạt động tài chính, gồm mã số, thuyết minh, và số liệu năm 2025, 2024, đơn vị VND."
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801602-xIghD0R8fhKWmLBoZSG0",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_zpoSLvnV5AzHdKY5gDdiC9N8",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Báo cáo thường niên FPT 2025 không ghi rõ số tiền tài trợ cụ thể cho từng hộ gia đình trong Dự án Bếp Xanh – Sống Lành. Báo cáo chỉ nêu dự án giúp hơn 1.000 người dân tiếp cận các giải pháp bếp cải tiến nhằm giảm ô nhiễm không khí trong nhà và cải thiện sức khỏe cộng đồng, nhưng không có thông tin chi tiết về số tiền tài trợ cho từng hộ.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p158\",\"region\":\"toàn bộ đoạn giới thiệu Dự án Bếp Xanh – Sống Lành tại trang 158\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 2,
+  "context_ids": [
+    "FPT2025:p158",
+    "FPT2025:p157",
+    "FPT2025:p171",
+    "FPT2025:p119",
+    "FPT2025:p189",
+    "FPT2025:p172"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p158",
+      "page": 158,
+      "image": ".bonus/pages/p158.jpg",
+      "image_sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869"
+    },
+    {
+      "id": "FPT2025:p157",
+      "page": 157,
+      "image": ".bonus/pages/p157.jpg",
+      "image_sha256": "d5fe3a28347bf09fd8cd94baa8a0af4a07be8c6e4115072f89f2dd4fd0ac0e62"
+    },
+    {
+      "id": "FPT2025:p171",
+      "page": 171,
+      "image": ".bonus/pages/p171.jpg",
+      "image_sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01"
+    },
+    {
+      "id": "FPT2025:p119",
+      "page": 119,
+      "image": ".bonus/pages/p119.jpg",
+      "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+    },
+    {
+      "id": "FPT2025:p189",
+      "page": 189,
+      "image": ".bonus/pages/p189.jpg",
+      "image_sha256": "a90d34562e46d573e7bcb4b3c6ec48ff3c71c75b6baf5cb975f6b8d48441f36f"
+    },
+    {
+      "id": "FPT2025:p172",
+      "page": 172,
+      "image": ".bonus/pages/p172.jpg",
+      "image_sha256": "3d59a1c3f2cc9be752269f22de053dc4f445f0f88213c2737d0bbda3889e06b3"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801549-mNWjZjwwqqOJ9hnBDLgt",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 460,
+        "completion_tokens": 26,
+        "total_tokens": 486,
+        "cost": 0.0002256,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002256,
+          "upstream_inference_prompt_cost": 0.000184,
+          "upstream_inference_completions_cost": 4.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2382.59900000412,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801597-2Nj4AiLAsiUsOjvaNkT1",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 4180,
+        "completion_tokens": 36,
+        "total_tokens": 4216,
+        "cost": 0.0017296,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0017296,
+          "upstream_inference_prompt_cost": 0.001672,
+          "upstream_inference_completions_cost": 5.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5146.10030001495,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801602-xIghD0R8fhKWmLBoZSG0",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 6161,
+        "completion_tokens": 149,
+        "total_tokens": 6310,
+        "cost": 0.0027028,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0027028,
+          "upstream_inference_prompt_cost": 0.0024644,
+          "upstream_inference_completions_cost": 0.0002384
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4198.798299999908,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 56472.23159996793,
+  "query_id": "fd-u3",
+  "question": "Dự án Bếp Xanh – Sống Lành ghi số tiền tài trợ cụ thể cho từng hộ gia đình là bao nhiêu?",
+  "split": "dev",
+  "config": "text"
+}

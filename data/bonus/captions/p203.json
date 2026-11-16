@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p203",
+  "image_sha256": "f1f6d488bb7a2fdeda6efec2abe12bd2c47bef16298c3d7cf4c414d0d0cc8104",
+  "caption": {
+    "summary": "Chi tiết các khoản vay và nợ thuê tài chính dài hạn theo kỳ hạn gốc hợp đồng vay, thời gian hoàn trả và theo nguyên tệ tính đến ngày 31/12/2025 và 31/12/2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Chi tiết số dư các khoản vay và nợ thuê tài chính dài hạn theo kỳ hạn gốc hợp đồng vay",
+        "location": "trên",
+        "description": "Các khoản vay dài hạn phân theo kỳ hạn gốc không quá 3 năm, từ 3 đến 5 năm, trên 5 năm và nợ thuê tài chính dài hạn, đơn vị VND, so sánh giữa 31/12/2025 và 31/12/2024."
+      },
+      {
+        "type": "table",
+        "title": "Chi tiết số dư các khoản vay dài hạn được hoàn trả theo thời gian",
+        "location": "giữa phải",
+        "description": "Số dư các khoản vay dài hạn phân theo thời gian hoàn trả: trong vòng 1 năm, từ năm thứ 1 đến năm thứ 2, từ năm thứ 2 đến năm thứ 5, sau 5 năm, đơn vị VND, so sánh giữa 31/12/2025 và 31/12/2024."
+      },
+      {
+        "type": "table",
+        "title": "Chi tiết các khoản vay và nợ thuê tài chính theo nguyên tệ",
+        "location": "dưới",
+        "description": "Các khoản vay và nợ thuê tài chính phân theo nguyên tệ Euro, Đô la Mỹ, Yên Nhật Bản, Đồng Việt Nam, thể hiện nguyên tệ và tương đương VND, tính đến ngày 31/12/2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800834-zNp5x9i5Zfb3ExFeTQCr",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 401,
+        "total_tokens": 2963,
+        "cost": 0.0016664,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0016664,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0006416
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 6121.631399961188,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

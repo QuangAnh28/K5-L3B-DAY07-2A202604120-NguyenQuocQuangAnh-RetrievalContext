@@ -1,0 +1,388 @@
+[
+  {
+    "id": "d7-q01",
+    "split": "dev",
+    "question": "Thương nhân chưa đăng ký kinh doanh có còn phải chịu trách nhiệm về hoạt động của mình không?",
+    "expected_answer": "Có, vẫn phải chịu trách nhiệm theo Luật này và quy định khác của pháp luật.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 4,
+        "evidence": "Nghĩa vụ đăng ký kinh doanh của thương nhân Thương nhân có ngh ĩa vụ đăng ký kinh doanh theo quy định của pháp luật. Trường hợp chưa đăng ký kinh doanh, th ương nhân vẫn phải chịu trách nhiệm về mọi hoạt động của mình theo quy định của Luật này và quy định khác c ủa pháp luật."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q02",
+    "split": "dev",
+    "question": "Nguyên tắc bình đẳng áp dụng thế nào với thương nhân thuộc các thành phần kinh tế?",
+    "expected_answer": "Mọi thành phần kinh tế bình đẳng trước pháp luật trong hoạt động thương mại.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 4,
+        "evidence": "Nguyên tắc bình đẳng trước pháp lu ật của th ương nhân trong hoạt động thương mại Thương nhân thuộc mọi thành phần kinh tế bình đẳng trước pháp luật trong hoạt động thương mại."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q03",
+    "split": "dev",
+    "question": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+    "expected_answer": "Khi đáp ứng các điều kiện và tiêu chuẩn kỹ thuật theo quy định pháp luật.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 5,
+        "evidence": "Nguyên t ắc th ừa nh ận giá tr ị pháp lý c ủa thông điệp d ữ li ệu trong hoạt động thương mại Trong hoạt động thương mại, các thông điệp dữ liệu đáp ứng các điều kiện, tiêu chuẩn kỹ thuật theo quy định của pháp luật thì được thừa nhận có giá trị pháp lý tương đương văn bản."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q04",
+    "split": "dev",
+    "question": "Văn phòng đại diện có được hoạt động sinh lợi trực tiếp tại Việt Nam không?",
+    "expected_answer": "Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 6,
+        "evidence": "1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q05",
+    "split": "dev",
+    "question": "Trong phạm vi Chương II, hợp đồng mua bán hàng hóa có những hình thức nào?",
+    "expected_answer": "Lời nói, văn bản hoặc hành vi cụ thể.",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chương Ii"
+    },
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 8,
+        "evidence": "1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q06",
+    "split": "dev",
+    "question": "Mua bán hàng hóa quốc tế phải dựa trên hợp đồng có hình thức nào?",
+    "expected_answer": "Văn bản hoặc hình thức khác có giá trị pháp lý tương đương.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 9,
+        "evidence": "2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q07",
+    "split": "dev",
+    "question": "Nếu đã thỏa thuận địa điểm giao hàng, bên bán phải giao ở đâu?",
+    "expected_answer": "Đúng địa điểm đã thỏa thuận.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 11,
+        "evidence": "1. Bên bán có nghĩa vụ giao hàng đúng địa điểm đã thoả thuận."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q08",
+    "split": "dev",
+    "question": "Chỉ thỏa thuận thời hạn mà không chốt thời điểm giao hàng: bên bán được giao thế nào?",
+    "expected_answer": "Bất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 12,
+        "evidence": "2. Trường hợp chỉ có thỏa thuận về thời hạn giao hàng mà không xác định thời điểm giao hàng c ụ thể thì bên bán có quy ền giao hàng vào b ất kỳ thời điểm nào trong thời hạn đó và phải thông báo trước cho bên mua."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q09",
+    "split": "dev",
+    "question": "Nghĩa vụ cơ bản của bên mua về thanh toán và nhận hàng là gì?",
+    "expected_answer": "Thanh toán tiền mua hàng và nhận hàng theo thỏa thuận.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 15,
+        "evidence": "1. Bên mua có ngh ĩa vụ thanh toán ti ền mua hàng và nh ận hàng theo th ỏa thuận."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q10",
+    "split": "dev",
+    "question": "Nếu không có thỏa thuận khác, khi nào bên mua phải thanh toán cho bên bán?",
+    "expected_answer": "Khi bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hóa.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 16,
+        "evidence": "Thời hạn thanh toán Trừ trường hợp có thoả thuận khác, thời hạn thanh toán được quy định như sau:\n\n1. Bên mua ph ải thanh toán cho bên bán vào th ời điểm bên bán giao hàng hoặc giao chứng từ liên quan đến hàng hoá;"
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q11",
+    "split": "dev",
+    "question": "Nếu không có thỏa thuận khác và đã chốt địa điểm giao, rủi ro được chuyển khi nào?",
+    "expected_answer": "Khi hàng đã giao cho bên mua hoặc người được ủy quyền nhận tại địa điểm đó, kể cả khi bên bán được ủy quyền giữ chứng từ sở hữu.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 16,
+        "evidence": "Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q12",
+    "split": "dev",
+    "question": "Nếu pháp luật và thỏa thuận không quy định khác, quyền sở hữu hàng hóa chuyển khi nào?",
+    "expected_answer": "Kể từ thời điểm hàng hóa được chuyển giao.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 17,
+        "evidence": "Thời điểm chuyển quyền sở hữu hàng hoá Trừ t rường h ợp pháp lu ật có quy định khác ho ặc các bên có th ỏa thu ận khác, quyền sở hữu được chuyển từ bên bán sang bên mua k ể từ thời điểm hàng hóa được chuyển giao."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q13",
+    "split": "dev",
+    "question": "Trong phạm vi Chương III, hợp đồng dịch vụ có thể được thể hiện bằng những hình thức nào?",
+    "expected_answer": "Lời nói, văn bản hoặc hành vi cụ thể.",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chương Iii"
+    },
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 21,
+        "evidence": "1. Hợp đồng dịch vụ được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q14",
+    "split": "dev",
+    "question": "Không có thỏa thuận hay chỉ dẫn về giá dịch vụ thì xác định giá dựa trên căn cứ nào?",
+    "expected_answer": "Giá loại dịch vụ đó trong các điều kiện tương tự về cung ứng, thời điểm, thị trường địa lý, thanh toán và điều kiện khác ảnh hưởng giá.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 24,
+        "evidence": "Giá dịch vụ Trường hợp không có tho ả thuận về giá d ịch v ụ, không có tho ả thuận về phương pháp xác định giá d ịch vụ và c ũng không có b ất k ỳ ch ỉ dẫn nào khác về giá d ịch v ụ thì giá d ịch v ụ được xác định theo giá c ủa loại dịch vụ đó trong các điều ki ện t ương t ự v ề ph ương th ức cung ứng, th ời điểm cung ứng, th ị trường địa lý, ph ương thức thanh toán và các điều kiện khác có ảnh hưởng đến giá d ịch vụ."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-q15",
+    "split": "dev",
+    "question": "Không có thỏa thuận và không có thói quen thanh toán dịch vụ thì thời hạn thanh toán là khi nào?",
+    "expected_answer": "Thời điểm việc cung ứng dịch vụ được hoàn thành.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 24,
+        "evidence": "Thời hạn thanh toán Trường h ợp không có th ỏa thu ận và gi ữa các bên không có b ất k ỳ thói quen nào v ề việc thanh toán thì th ời hạn thanh toán là th ời điểm vi ệc cung ứng dịch vụ được hoàn thành."
+      }
+    ],
+    "origin": "Day 6 dev"
+  },
+  {
+    "id": "d7-u1",
+    "split": "dev",
+    "question": "Cửa hàng Sao Mai đã hoàn tiền cho khách Nguyễn Văn Bình vào ngày nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus không có hồ sơ giao dịch của cửa hàng và khách hàng này.",
+    "absence_check": {
+      "pages_checked": 84,
+      "terms": {
+        "Sao Mai": [],
+        "Nguyễn Văn Bình": []
+      },
+      "reviewer": "Codex AI; full extracted text topic checked, no transaction/company records"
+    },
+    "filter": {}
+  },
+  {
+    "id": "d7-u2",
+    "split": "dev",
+    "question": "Doanh thu bán hàng năm 2025 của Công ty Ánh Dương trong tài liệu là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus là snapshot luật 2005, không có báo cáo doanh thu công ty năm 2025.",
+    "absence_check": {
+      "pages_checked": 84,
+      "terms": {
+        "Ánh Dương": [],
+        "2025": []
+      },
+      "reviewer": "Codex AI; full extracted text topic checked, no transaction/company records"
+    },
+    "filter": {}
+  },
+  {
+    "id": "b2-t23",
+    "split": "test",
+    "question": "Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài phải thực hiện nghĩa vụ gì với Nhà nước, tổ chức và cá nhân liên quan?",
+    "expected_answer": "Thanh toán các khoản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân liên quan tại Việt Nam.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 8,
+        "evidence": "hiện theo quy định của pháp luật chuyên ngành đó.\n\nĐiều 23. Chấm dứt hoạt động tại Việt Nam của thương nhân nước ngoài\n\n1. Th ương nhân n ước ngoài ch ấm d ứt ho ạt động t ại Vi ệt Nam trong các trường hợp sau đây:\n\na) Hết thời hạn hoạt động ghi trong giấy phép;\n\nb) Theo đề ngh ị c ủa th ương nhân và được c ơ quan qu ản lý nhà n ước có thẩm quyền chấp nhận;\n\nc) Theo quy ết định c ủa c ơ quan qu ản lý nhà n ước có th ẩm quy ền do vi phạm pháp luật và quy định của giấy phép;\n\nd) Do thương nhân bị tuyên bố phá sản;\n\nđ) Khi th ương nhân n ước ngoài ch ấm d ứt ho ạt động theo quy định c ủa pháp luật nước ngoài đối với hình th ức Văn phòng đại diện, Chi nh ánh và tham gia hợp đồng hợp tác kinh doanh với bên Việt Nam;\n\ne) Các trường hợp khác theo quy định của pháp luật.\n\n2. Trước khi chấm dứt hoạt động tại Việt Nam, thương nhân nước ngoài có nghĩa vụ thanh toán các kho ản nợ và các nghĩa vụ khác với Nhà nước, tổ chức, cá nhân có liên quan tại Việt Nam."
+      }
+    ],
+    "origin": "Fresh base-v2 test, different questions from all Day 6 and historical Day 7 test"
+  },
+  {
+    "id": "b2-t26",
+    "split": "test",
+    "question": "Hai trường hợp nào có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước?",
+    "expected_answer": "Hàng hóa là nguồn gốc hoặc phương tiện lây truyền dịch bệnh; hoặc xảy ra tình trạng khẩn cấp.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 9,
+        "evidence": "Điều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá"
+      }
+    ],
+    "origin": "Fresh base-v2 test, different questions from all Day 6 and historical Day 7 test"
+  },
+  {
+    "id": "b2-t28",
+    "split": "test",
+    "question": "Theo tài liệu, đưa hàng hóa từ nội địa Việt Nam vào khu vực hải quan riêng nằm trên lãnh thổ Việt Nam có thuộc định nghĩa xuất khẩu không?",
+    "expected_answer": "Có. Xuất khẩu bao gồm đưa hàng ra khỏi lãnh thổ Việt Nam hoặc vào khu vực đặc biệt trên lãnh thổ Việt Nam được coi là khu vực hải quan riêng theo pháp luật.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 9,
+        "evidence": "Điều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá"
+      }
+    ],
+    "origin": "Fresh base-v2 test, different questions from all Day 6 and historical Day 7 test"
+  },
+  {
+    "id": "b2-t56",
+    "split": "test",
+    "question": "Bên mua phải làm gì để nhận hàng và hỗ trợ bên bán giao hàng?",
+    "expected_answer": "Nhận hàng theo thỏa thuận và thực hiện những công việc hợp lý để giúp bên bán giao hàng.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 16,
+        "evidence": "2. Bên mua không có ngh ĩa v ụ thanh toán cho đến khi có th ể ki ểm tra xong hàng hoá trong tr ường h ợp có th ỏa thu ận theo quy định t ại Điều 44 c ủa Luật này.\n\nĐiều 56. Nhận hàng Bên mua có ngh ĩa vụ nhận hàng theo tho ả thuận và th ực hiện những công việc hợp lý để giúp bên bán giao hàng.\n\nĐiều 57. Chuyển rủi ro trong trường hợp có địa điểm giao hàng xác định Trừ tr ường h ợp có tho ả thu ận khác, n ếu bên bán có ngh ĩa v ụ giao hàng cho bên mua t ại một địa điểm nhất định thì rủi ro về mất mát hoặc hư hỏng hàng hoá được chuy ển cho bên mua khi hàng hoá đã được giao cho bên mua ho ặc người được bên mua u ỷ quyền đã nhận hàng t ại địa điểm đó, kể cả trong tr ường hợp bên bán được uỷ quy ền gi ữ lại các ch ứng từ xác l ập quy ền sở hữu đối với hàng hoá."
+      }
+    ],
+    "origin": "Fresh base-v2 test, different questions from all Day 6 and historical Day 7 test"
+  },
+  {
+    "id": "b2-t309",
+    "split": "test",
+    "question": "Khi hợp đồng bị tạm ngừng thực hiện thì hiệu lực hợp đồng và quyền yêu cầu bồi thường của bên bị vi phạm ra sao?",
+    "expected_answer": "Hợp đồng vẫn còn hiệu lực; bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo Luật này.",
+    "answerable": true,
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "luat-thuong-mai-36-2005-qh11",
+        "page": 80,
+        "evidence": "1. X ảy ra hành vi vi ph ạm mà các bên đã tho ả thu ận là điều ki ện để tạm ngừng thực hiện hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 309. Hậu quả pháp lý của việc tạm ngừng thực hiện hợp đồng\n\n1. Khi hợp đồng bị tạm ngừng thực hiện thì hợp đồng vẫn còn hiệu lực.\n\n2. Bên bị vi phạm có quyền yêu cầu bồi thường thiệt hại theo quy định của Luật này.\n\nĐiều 310. Đình chỉ thực hiện hợp đồng Trừ các trường hợp miễn trách nhiệm quy định tại Điều 294 c ủa Luật này, đình ch ỉ th ực hi ện h ợp đồng l à vi ệc m ột bên ch ấm d ứt th ực hi ện ngh ĩa v ụ h ợp đồng thuộc một trong các trường hợp sau đây:\n\n1. X ảy ra hành vi vi ph ạm mà các bên đã thoả thuận là điều kiện để đình chỉ hợp đồng;\n\n2. Một bên vi phạm cơ bản nghĩa vụ hợp đồng.\n\nĐiều 311. Hậu quả pháp lý của việc đình chỉ thực hiện hợp đồng"
+      }
+    ],
+    "origin": "Fresh base-v2 test, different questions from all Day 6 and historical Day 7 test"
+  },
+  {
+    "id": "b2-u1",
+    "split": "test",
+    "question": "Theo tài liệu, lệ phí cấp giấy phép thành lập Văn phòng đại diện của thương nhân nước ngoài là bao nhiêu đồng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Luật quy định quyền/nghĩa vụ, điều kiện hoạt động, không nêu số tiền lệ phí cấp giấy phép; kiểm tra toàn text và quy định liên quan.",
+    "filter": {},
+    "absence_check": {
+      "method": "Read related provisions and whole extracted source; no rate schedule/fee amount in this corpus",
+      "pages_checked": 84,
+      "reviewer": "Codex AI; not student confirmation"
+    }
+  },
+  {
+    "id": "b2-u2",
+    "split": "test",
+    "question": "Theo tài liệu, mức tiền phạt hành chính cụ thể bằng đồng đối với hành vi quảng cáo sai sự thật là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Điều 322 trang 83 giao Chính phủ quy định cụ thể xử phạt hành chính; snapshot không có biểu mức tiền cho hành vi này.",
+    "filter": {},
+    "absence_check": {
+      "method": "Read related provisions and whole extracted source; no rate schedule/fee amount in this corpus",
+      "pages_checked": 84,
+      "reviewer": "Codex AI; not student confirmation"
+    }
+  }
+]

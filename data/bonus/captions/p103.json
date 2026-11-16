@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p103",
+  "image_sha256": "4c88f567b29e72adf9f22a718058612659754373a2c9459c6ce5a5f37ee5bdc9",
+  "caption": {
+    "summary": "Trang trình bày định hướng hoạt động của Hội đồng Quản trị (HĐQT) FPT năm 2026, tập trung vào phát huy vai trò định hướng chiến lược, giám sát, đồng hành cùng Ban Điều hành trong việc triển khai các mục tiêu phát triển công nghệ chiến lược mới và nâng cao năng lực cạnh tranh của Tập đoàn.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "FPT tập trung đầu tư, làm chủ và từng bước thương mại hóa các công nghệ chiến lược mới",
+        "location": "phải",
+        "description": "Ảnh chụp cảnh một nhóm người đang thuyết trình và giới thiệu về an ninh mạng do AI điều khiển, thể hiện sự tập trung vào công nghệ chiến lược mới của FPT."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800756-rLuRNCrSr5FaCVscB5Km",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 166,
+        "total_tokens": 2728,
+        "cost": 0.0012904,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012904,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002656
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3230.7020000298508,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

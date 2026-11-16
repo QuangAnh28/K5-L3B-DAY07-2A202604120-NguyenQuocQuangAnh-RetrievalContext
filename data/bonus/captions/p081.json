@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p081",
+  "image_sha256": "b1c63dfee69fd1fa73b20521f2bd179214d7dae10d53105580c8dc6bd478d43e",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về quản trị công ty FPT năm 2025, nhấn mạnh vai trò quản trị công ty trong việc nâng cao niềm tin nhà đầu tư và phát triển bền vững, cùng các thành tựu và giải thưởng liên quan đến quản trị công ty.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Top 8 doanh nghiệp nhóm vốn hóa lớn có chất lượng quản trị công ty tốt nhất tại Việt Nam",
+        "location": "dưới trái",
+        "description": "Ảnh trao giải cho FPT trong lễ trao giải doanh nghiệp niêm yết 2025, thể hiện vị trí trong top 8 doanh nghiệp có chất lượng quản trị tốt nhất."
+      },
+      {
+        "type": "photo",
+        "title": "FPT được đánh giá cao về định chế tài chính",
+        "location": "dưới phải",
+        "description": "Ảnh trao giải cho FPT về định chế tài chính đánh giá cao hoạt động IR, thể hiện sự minh bạch và quản trị chiến lược rõ ràng."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800741-44tjeqxSJ0W4S7UwRROO",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 210,
+        "total_tokens": 2772,
+        "cost": 0.0013608,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013608,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3731.698099989444,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

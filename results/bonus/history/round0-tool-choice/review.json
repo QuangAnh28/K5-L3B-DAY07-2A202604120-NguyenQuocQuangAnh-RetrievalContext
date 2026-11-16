@@ -1,0 +1,8 @@
+{
+  "phase": "dev only",
+  "test_run": false,
+  "issue": "Tool choice auto allowed plain text after search; strict tool protocol reported errors.",
+  "fix": "Require a function call after retrieval; permit search or finish. Preserve raw failed traces and costs.",
+  "vision_errors": 8,
+  "text_errors": 1
+}

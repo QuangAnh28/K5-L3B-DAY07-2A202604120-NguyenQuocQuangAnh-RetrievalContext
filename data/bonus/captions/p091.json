@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p091",
+  "image_sha256": "6eebb303237cd4e9fb70ffd802deda482fa3600c4ecf4c5eb6ad948c2228ca83",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về nguyên tắc và cam kết của FPT trong việc công bố thông tin minh bạch, chính xác và đúng thời hạn, đồng thời nêu vị trí và uy tín của FPT trong Top 50 công ty đại chúng uy tín và hiệu quả năm 2025.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Lễ công bố Top 50 công ty đại chúng uy tín và hiệu quả năm 2025",
+        "location": "phải",
+        "description": "Ảnh chụp lễ trao giải với ba người đứng trên sân khấu, nền màn hình hiển thị tên sự kiện và logo FPT. Chú thích ảnh nêu FPT lần đầu vượt qua các ngân hàng lớn, đứng vị trí số 1 trong danh sách VIX50."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800750-6ZipriJdNqJedt6PEjv7",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 168,
+        "total_tokens": 2730,
+        "cost": 0.0012936,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012936,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002688
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 7632.408600009512,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

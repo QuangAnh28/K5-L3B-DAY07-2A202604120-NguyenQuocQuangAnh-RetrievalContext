@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p071",
+  "image_sha256": "c7c024445395ece15c3753eba7415456ae4c590fd41c23f423e68bbd3782c5e3",
+  "caption": {
+    "summary": "Trang trình bày về lĩnh vực dịch vụ nội dung số của FPT Online với mục tiêu phát triển hệ sinh thái truyền thông marketing số và kế hoạch tăng trưởng doanh thu, lợi nhuận trong năm 2026.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Hình ảnh minh họa lĩnh vực nội dung số",
+        "location": "giữa",
+        "description": "Hình ảnh minh họa các nội dung số đa dạng trên nền công nghệ số."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800736-kM350i1GQXxPPNXl4CuY",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 98,
+        "total_tokens": 2660,
+        "cost": 0.0011816,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011816,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001568
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2961.4723999984562,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

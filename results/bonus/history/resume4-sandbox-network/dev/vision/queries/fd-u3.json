@@ -1,0 +1,35 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "events": [],
+  "searches": 0,
+  "error": {
+    "type": "RuntimeError",
+    "message": "OpenRouter network/timeout error"
+  },
+  "context_ids": [],
+  "context_sources": [],
+  "usage": [
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 1
+    },
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 2
+    },
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 3
+    }
+  ],
+  "elapsed_ms": 3030.9423999860883,
+  "query_id": "fd-u3",
+  "question": "Dự án Bếp Xanh – Sống Lành ghi số tiền tài trợ cụ thể cho từng hộ gia đình là bao nhiêu?",
+  "split": "dev",
+  "config": "vision"
+}

@@ -1,0 +1,46 @@
+{
+  "stage": "test_complete_audited",
+  "network_calls_stopped": true,
+  "bonus_test_run": true,
+  "bonus_points_claimed": 0,
+  "pilot": "results/bonus/history/round3-gpt41-frozen",
+  "current_model": "anthropic/claude-haiku-5.5",
+  "reasoning_enabled": false,
+  "reason": "Full frozen test completed and original-page reviews saved; AI-assisted labels, no student confirmation or official grading asserted.",
+  "pending_dev_queries": {
+    "text": [],
+    "vision": []
+  },
+  "reused_successful_unchanged_dev_cases": {
+    "text": [
+      "fd-t1",
+      "fd-t2",
+      "fd-t3",
+      "fd-c1",
+      "fd-c2",
+      "fd-c3",
+      "fd-i1",
+      "fd-i2",
+      "fd-i3",
+      "fd-x1",
+      "fd-x2",
+      "fd-x3",
+      "fd-m1",
+      "fd-m2",
+      "fd-m3",
+      "fd-u1",
+      "fd-u2",
+      "fd-u3"
+    ],
+    "vision": []
+  },
+  "next": "Review labels/evidence and submit the repo/ZIP according to SUBMISSION.md. No further API run needed for the recorded experiment.",
+  "reviewer_kind": "AI",
+  "student_confirmed": false,
+  "test_completed_queries": 30,
+  "test_total_queries": 30,
+  "test_passed": 27,
+  "test_rate": 0.9,
+  "meets_numeric_90_percent": true,
+  "new_haiku_cost_usd": 0.18257208
+}

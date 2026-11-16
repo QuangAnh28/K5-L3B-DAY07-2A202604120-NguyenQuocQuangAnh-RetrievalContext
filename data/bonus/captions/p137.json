@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p137",
+  "image_sha256": "4e12ab839fecbf492d6f74ba72be8a9aa66a8fe8d190ceb0bd151fd2fa2080ee",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về môi trường làm việc đa dạng, công bằng và hạnh phúc tại FPT, nhấn mạnh sự đa dạng về văn hóa, tuổi tác, giới tính và cam kết không phân biệt đối xử trong lao động.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Nhân sự nữ của FPT giai đoạn 2021-2025",
+        "location": "phải",
+        "description": "Biểu đồ cột thể hiện số lượng nhân sự nữ qua các năm từ 2021 đến 2025, đơn vị là nhân sự."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800775-U2Q3TQeqVoYyppKvC681",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 122,
+        "total_tokens": 2684,
+        "cost": 0.00122,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00122,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001952
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2974.388600036036,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

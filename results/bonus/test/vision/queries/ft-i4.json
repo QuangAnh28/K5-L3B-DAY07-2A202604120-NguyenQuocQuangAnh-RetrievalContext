@@ -1,0 +1,458 @@
+{
+  "status": "answered",
+  "answer": "Theo sơ đồ \"Quy trình xác định các vấn đề trọng yếu\" ở vùng bên phải trang 125, ba bước được sắp theo thứ tự: Bước 01 – Xác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh của Tập đoàn và lợi ích của các bên liên quan; Bước 02 – Phân tích và xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03 – Phân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan.\n[FPT2025:p125 — Vùng bên phải trang 125, cột \"Quy trình xác định các vấn đề trọng yếu\", gồm ba khối Bước 01, Bước 02, Bước 03 theo thứ tự từ trên xuống]",
+  "citations": [
+    {
+      "id": "FPT2025:p125",
+      "region": "Vùng bên phải trang 125, cột \"Quy trình xác định các vấn đề trọng yếu\", gồm ba khối Bước 01, Bước 02, Bước 03 theo thứ tự từ trên xuống"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805215-1MwoGT9K5u9PCuHaODrb",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01D1vA3rz3kdhj46gvL762Gh",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Trong hình quy trình xác định vấn đề trọng yếu ESG, ba bước được sắp theo thứ tự nào?\",\"quy trình xác định vấn đề trọng yếu ESG các bước\",\"vấn đề trọng yếu ESG sơ đồ quy trình\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong hình quy trình xác định vấn đề trọng yếu ESG, ba bước được sắp theo thứ tự nào?",
+      "model_queries": [
+        "Trong hình quy trình xác định vấn đề trọng yếu ESG, ba bước được sắp theo thứ tự nào?",
+        "quy trình xác định vấn đề trọng yếu ESG các bước",
+        "vấn đề trọng yếu ESG sơ đồ quy trình"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p125",
+          "page": 125,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p113",
+          "page": 113,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p109",
+          "page": 109,
+          "score": 0.0315136476426799,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p075",
+          "page": 75,
+          "score": 0.03149801587301587,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p110",
+          "page": 110,
+          "score": 0.030303030303030304,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p112",
+          "page": 112,
+          "score": 0.030090497737556562,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "score": 0.028083267871170464,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 16
+          }
+        },
+        {
+          "id": "FPT2025:p128",
+          "page": 128,
+          "score": 0.027598020555767037,
+          "component_ranks": {
+            "dense": 11,
+            "tfidf": 14
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong hình quy trình xác định vấn đề trọng yếu ESG, ba bước được sắp theo thứ tự nào?"
+      ],
+      "context_ids": [
+        "FPT2025:p125",
+        "FPT2025:p113",
+        "FPT2025:p109",
+        "FPT2025:p075",
+        "FPT2025:p110",
+        "FPT2025:p112",
+        "FPT2025:p114",
+        "FPT2025:p128"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p125",
+          "page": 125,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Xác định các vấn đề trọng yếu • Quy trình xác định các vấn đề trọng yếu \nCác vấn đề trọng yếu trong hoạt động ESG của FPT được xác định dựa trên \nnguyên tắc: xây dựng chiến lược kinh doanh hướng tới sự phát triển bền vững, đảm \nbảo hài hòa lợi ích và quyền lợi cao nhất cho các bên liên quan và cộng đồng, đồng \nthời tuân thủ các quy định pháp luật liên quan.\n• Vai trò và trách nhiệm của các bên trong quản trị \nphát triển bền vững\nBộ phận chịu trách nhiệm\nHĐQT • Phê duyệt, ban hành chiến lược và định hướng phát triển \nbền vững trong toàn Tập đoàn.\nĐảm bảo việc triển khai chiến lược phát triển bền vững thông \nqua các hoạt động:\n• Xây dựng mục tiêu phát triển bền vững cụ thể cho Tập đoàn \nvà công ty thành viên;\n• Chỉ đạo triển khai các chương trình hiện thực hóa chiến lược \nphát triển bền vững của Tập đoàn;\n• Giám sát kết quả thực hiện mục tiêu phát triển bền vững của \nTập đoàn và công ty thành viên.\n• Đảm bảo hiện thực hóa các mục tiêu phát triển bền vững \ntheo định hướng và chiến lược chung của Tập đoàn;\n• Thực hiện báo cáo định kỳ về tình hình triển khai chiến lược \nphát triển bền vững của đơn vị.\nBan Điều hành\nCông ty \nthành viên\nXác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh \ncủa Tập đoàn và lợi ích của các bên liên quan.\n• Bám sát các diễn biến kinh tế, chính trị, xã hội, môi trường của Việt Nam và thế giới;\n• Nghiên cứu thông tin từ các báo cáo kinh tế-xã hội, báo cáo thị trường, báo cáo \nngành do các tổ chức uy tín đưa ra;\n• Phân tích các báo cáo đánh giá, khảo sát khách hàng của Tập đoàn;\n• Phân tích đặc thù kinh doanh của ngành và các lĩnh vực hoạt động của Tập đoàn;\n• Ghi nhận phản hồi từ cổ đông, nhà đầu tư và các bên liên quan khác;\n• Tìm hiểu các hướng dẫn về xây dựng báo cáo phát triển bền vững.\nBước 01\nPhân tích và xác định các vấn đề trọng yếu được các bên quan tâm.\n• Xác định các vấn đề trọng yếu dựa trên cơ sở tham vấn các bên liên quan và \nđánh giá mức độ tác động đến chiến lược tăng trưởng dài hạn. Các vấn đề trọng \nyếu được xác định tập trung vào quản trị minh bạch, an toàn dữ liệu, cam kết \nchuyển đổi xanh, phát triển nguồn nhân lực chất lượng cao và quản trị chuỗi \ncung ứng bền vững.\nBước 02\nPhân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan.\n• Xây dựng ma trận các vấn đề trọng yếu;\n• Lựa chọn các vấn đề trọng yếu.\nBước 03\nDựa trên nguyên tắc và quy trình xác định các vấn đề trọng yếu nêu trên, FPT lựa \nchọn 04 vấn đề trọng yếu gồm: (1) Quản trị hướng đến phát triển bền vững; (2) Xây \ndựng môi trường làm việc đẳng cấp, hạnh phúc; (3) Hoạt động vì môi trường xanh; \n(4) Song hành vì sự phát triển cộng đồng.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về xác định các vấn đề trọng yếu trong hoạt động ESG của FPT, vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững, cùng quy trình xác định các vấn đề trọng yếu.\ntable: Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững (trái) — Bảng phân chia trách nhiệm của Hội đồng quản trị, Ban Điều hành và Công ty thành viên trong việc phê duyệt, triển khai và giám sát chiến lược phát triển bền vững.\ndiagram: Quy trình xác định các vấn đề trọng yếu (phải) — Quy trình gồm 3 bước: Bước 01 xác định c",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững",
+              "location": "trái",
+              "description": "Bảng phân chia trách nhiệm của Hội đồng quản trị, Ban Điều hành và Công ty thành viên trong việc phê duyệt, triển khai và giám sát chiến lược phát triển bền vững."
+            },
+            {
+              "type": "diagram",
+              "title": "Quy trình xác định các vấn đề trọng yếu",
+              "location": "phải",
+              "description": "Quy trình gồm 3 bước: Bước 01 xác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh và lợi ích các bên liên quan; Bước 02 phân tích và xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03 phân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p113",
+          "page": 113,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Định hướng và các ưu tiên ESG tiếp tục được FPT xác định là một cấu phần quan \ntrọng trong chiến lược phát triển dài hạn, qua đó thể hiện rõ vai trò và trách nhiệm \ncủa Tập đoàn đối với các bên liên quan trọng yếu.\n(*) Tổ chức sử dụng một số tiêu chuẩn hoặc một phần nội dung của tiêu chuẩn GRI để báo cáo các tác động liên quan đến từng chủ đề kinh tế, xã hội hoặc môi trường.\nĐịnh hướng và cam kết về ESG của Tập đoàn\n• Định hướng ESG\nTrên nền tảng bốn trục nội dung xuyên suốt gồm: Quản trị xuất sắc, Môi trường làm \nviệc đẳng cấp và hạnh phúc, Hoạt động vì môi trường xanh và Song hành vì sự phát \ntriển cộng đồng, FPT tăng cường đầu tư vào công nghệ, con người và năng lực \nquản trị nhằm cụ thể hóa các cam kết ESG, bảo đảm tạo lập giá trị bền vững và lâu \ndài cho Tập đoàn.\nCác vấn đề trọng yếu Quản trị xuất sắc Tạo môi trường làm việc\nđẳng cấp, hạnh phúc\n ESG tạo thêm sức mạnh để FPT phát huy giá trị cốt lõi,\ntiếp tục thực hiện sứ mệnh Tập đoàn toàn cầu trường tồn và hạnh phúc.\nHoạt động\nvì môi trường xanh\nVì sự phát triển\ncủa cộng đồng\nTiêu chuẩn GRI (*)\nCam kết của FPT\nQuản trị Công ty\nQuản trị dữ liệu\nQuản trị rủi ro,\nchống tham nhũng\nQuản trị an toàn thông tin\nQuản trị mua sắm\nbền vững\nNơi làm việc hạnh phúc\nTổ chức học tập suốt đời\nBình đẳng và đa dạng\nMục tiêu ngắn hạn đến \nnăm 2030, giảm 15,8% \ntổng lượng khí thải\nkhí nhà kính\nMục tiêu dài hạn đến \nnăm 2040 là Net Zero\nTạo điều kiện tốt nhất để \ntrẻ em Việt Nam có cơ hội \ntiếp cận giáo dục chất lượng\nvà bền vững\nĐào tạo nguồn nhân lực \ncông nghệ chất lượng cao\nPhương pháp\nquản trị\nGRI\n103\nKinh tế\nGRI\n200\nXã hội\nGRI\n400\nXã hội\nGRI\n400\nMôi trường\nGRI\n300\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày định hướng và cam kết về ESG của Tập đoàn FPT, nêu rõ các vấn đề trọng yếu, tiêu chuẩn GRI áp dụng và cam kết cụ thể của FPT trong các lĩnh vực quản trị, môi trường làm việc, môi trường xanh và phát triển cộng đồng.\ntable: Định hướng và cam kết ESG của Tập đoàn (giữa trang) — Bảng thể hiện các vấn đề trọng yếu gồm Quản trị xuất sắc, Tạo môi trường làm việc đẳng cấp, hạnh phúc, Hoạt động vì môi trường xanh và Vì sự phát triển của cộng đồng; kèm theo tiêu chuẩn GRI tương ứng (GRI 103, 200, 300, 400) và các cam kết cụ thể của FPT cho từng lĩnh vực.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Định hướng và cam kết ESG của Tập đoàn",
+              "location": "giữa trang",
+              "description": "Bảng thể hiện các vấn đề trọng yếu gồm Quản trị xuất sắc, Tạo môi trường làm việc đẳng cấp, hạnh phúc, Hoạt động vì môi trường xanh và Vì sự phát triển của cộng đồng; kèm theo tiêu chuẩn GRI tương ứng (GRI 103, 200, 300, 400) và các cam kết cụ thể của FPT cho từng lĩnh vực."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p109",
+          "page": 109,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nMục lục báo cáo ESG của FPT năm 2025, liệt kê các chủ đề chính trong báo cáo về môi trường, xã hội và quản trị.\ndiagram: Mục lục báo cáo ESG (phải) — Danh sách 5 chủ đề chính trong báo cáo ESG gồm: Thông điệp và Định hướng ESG, Quản trị hướng đến phát triển bền vững, Môi trường làm việc đẳng cấp hạnh phúc, Hoạt động vì môi trường xanh, Song hành vì sự phát triển cộng đồng.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Mục lục báo cáo ESG",
+              "location": "phải",
+              "description": "Danh sách 5 chủ đề chính trong báo cáo ESG gồm: Thông điệp và Định hướng ESG, Quản trị hướng đến phát triển bền vững, Môi trường làm việc đẳng cấp hạnh phúc, Hoạt động vì môi trường xanh, Song hành vì sự phát triển cộng đồng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p075",
+          "page": 75,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Hoạt động ESG\nCùng với việc đảm bảo sự tăng trưởng vững chắc về kinh tế, định hướng và những \nưu tiên về ESG được xem là một phần quan trọng trong chiến lược phát triển.\nTheo đó, FPT lựa chọn bốn vấn đề trọng yếu trong phát triển bền vững bao gồm: \nQuản trị hướng đến phát triển bền vững; Xây dựng môi trường làm việc đẳng cấp, \nhạnh phúc; Hoạt động vì môi trường xanh và Song hành vì sự phát triển của cộng đồng.\nCác hoạt động ESG được lồng ghép vào chiến lược kinh doanh, quản trị rủi ro,\nkế hoạch đầu tư trung và dài hạn của Tập đoàn.\nVề môi trường, FPT tập trung triển khai các sáng kiến giảm phát thải khí nhà kính \nvà sử dụng tài nguyên hiệu quả trong toàn bộ hoạt động sản xuất – kinh doanh. \nTrong năm 2025, Tập đoàn tiếp tục đo lường và kiểm kê phát thải khí nhà kính \ntheo phạm vi 1 và phạm vi 2 tại các đơn vị trọng yếu, làm cơ sở xây dựng lộ trình \ngiảm phát thải phù hợp với đặc thù doanh nghiệp công nghệ. Các giải pháp tối ưu\ntiêu thụ năng lượng được đẩy mạnh, bao gồm nâng cấp hệ thống điều hòa trung tâm, \nsử dụng thiết bị tiết kiệm điện, tối ưu vận hành trung tâm dữ liệu và mở rộng tỷ lệ \nsử dụng năng lượng tái tạo tại một số cơ sở lớn.\nĐối với cộng đồng, FPT và hàng chục nghìn CBNV đã triển khai nhiều chương trình\ntrách nhiệm xã hội mang lại những giá trị cả về vật chất và tinh thần thiết thực nhất.\nĐặc biệt, FPT đã kịp thời phát động chiến dịch “Cùng đồng bào vượt lũ” thu hút \nđược sự sẻ chia từ hàng nghìn CBNV trong và ngoài nước giúp tái thiết 26 điểm \ntrường tại Nghệ An, Thanh Hóa, Lào Cai, Tuyên Quang, những điểm trường bị \nthiệt hại nặng sau bão trong năm 2025.\nVề quản trị, FPT duy trì hệ thống quản trị minh bạch, tuân thủ và ngày càng tiệm cận\ncác thông lệ quốc tế. Các yếu tố ESG được tích hợp vào khung quản trị rủi ro và \nquy trình ra quyết định của Ban Điều hành. Công tác quản trị dữ liệu, an toàn \nthông tin và bảo mật được tăng cường nhằm đáp ứng yêu cầu ngày càng cao của \nthị trường và khách hàng toàn cầu.\nNhìn chung, các hoạt động ESG trong năm 2025 cho thấy nỗ lực của FPT trong việc \ncân bằng giữa tăng trưởng kinh doanh và trách nhiệm bền vững, qua đó củng cố \nnền tảng vận hành dài hạn và tạo giá trị ổn định cho cổ đông, khách hàng và xã hội.\nTình hình thực hiện các dự án đầu tư\nKhối Kế hoạch 2025 Giải ngân 2025 So với kế hoạch\nCông nghệ\nViễn thông\nGiáo dục\n6.000\n2.500\n2.500\n 2.823\n1.751\n749\n47,1%\n70,0%\n30,0%\nĐơn vị: Tỷ VNĐ\nTổ hợp giáo dục FPT tại Huế được định hướng phát triển gắn kết đào tạo với các \ncông nghệ mũi nhọn, như STEM, trí tuệ nhân tạo (AI), Robotics... từ bậc phổ thông.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo tình hình thực hiện các dự án đầu tư năm 2025 và hoạt động ESG của FPT trong năm 2025.\ntable: Tình hình thực hiện các dự án đầu tư (trái trên) — Bảng so sánh kế hoạch và giải ngân năm 2025 theo khối Công nghệ, Viễn thông, Giáo dục, đơn vị tỷ VNĐ, tỷ lệ phần trăm so với kế hoạch\nphoto: Tổ hợp giáo dục FPT tại Huế (trái dưới) — Ảnh minh họa tổ hợp giáo dục FPT tại Huế với chú thích về định hướng phát triển gắn kết đào tạo với các công nghệ mũi nhọn như STEM, AI, Robotics\ndiagram: Hoạt động ESG (phải) — Mô tả các ưu tiên và chiến lược ESG của FPT năm 2025, bao gồm quản trị phát triển bền vững, môi",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình thực hiện các dự án đầu tư",
+              "location": "trái trên",
+              "description": "Bảng so sánh kế hoạch và giải ngân năm 2025 theo khối Công nghệ, Viễn thông, Giáo dục, đơn vị tỷ VNĐ, tỷ lệ phần trăm so với kế hoạch"
+            },
+            {
+              "type": "photo",
+              "title": "Tổ hợp giáo dục FPT tại Huế",
+              "location": "trái dưới",
+              "description": "Ảnh minh họa tổ hợp giáo dục FPT tại Huế với chú thích về định hướng phát triển gắn kết đào tạo với các công nghệ mũi nhọn như STEM, AI, Robotics"
+            },
+            {
+              "type": "diagram",
+              "title": "Hoạt động ESG",
+              "location": "phải",
+              "description": "Mô tả các ưu tiên và chiến lược ESG của FPT năm 2025, bao gồm quản trị phát triển bền vững, môi trường làm việc, giảm phát thải khí nhà kính, trách nhiệm xã hội, quản trị minh bạch và bảo mật dữ liệu"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p110",
+          "page": 110,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THÔNG ĐIỆP VÀ ĐỊNH HƯỚNG ESG\nBÁO CÁO ESG\nThông điệp Phó tổng giám đốc\nESG tăng cường tiềm năng của người FPT chúng tôi.\nKính thưa Quý Cổ đông và các bên liên quan khác, \nChúng ta đang sống và làm việc trong kỷ nguyên đầy \nbiến động cùng sự xuất hiện, lớn mạnh và chiếm ưu \nthế ngày càng không thể phủ nhận của AI. Thúc đẩy \ntăng năng suất sản xuất bằng AI, tự động hóa quy \ntrình ngay từ khâu thiết kế, quyết định kinh doanh \nchuyển hướng dựa vào dữ liệu, công nghệ kèm với \nnhững phân tích chuyên sâu về thị trường, khách hàng\nđã định hình một FPT năng động, bản lĩnh và khát \nvọng hơn bao giờ hết về sự phát triển bền vững, \ntrường tồn. \nTiếp tục phát huy thế mạnh trong quản trị công ty và \nluôn đề cao tính minh bạch trong vận hành, năm 2025,\nFPT tiên phong trên thị trường Việt Nam về khẳng \nđịnh cam kết quản trị bền vững bằng việc sở hữu các \nchứng nhận quốc tế về công bằng số, đạo đức AI và \nkiểm kê khí nhà kính.\nCác nguyên tắc ESG của tổ chức về mua sắm bền vững\nvà môi trường xanh đã được tích hợp một cách bài bản,\nlinh hoạt vào chiến lược và các hoạt động của Tập đoàn,\ntừ đầu tư hệ thống điện mặt trời, mua điện xanh/sạch, \nsử dụng chữ ký số, thúc đẩy văn phòng điện tử, không \ngiấy tờ đến cam kết sử dụng nguồn nguyên liệu sạch, \ntăng cường sử dụng xe điện. \nNhững bước đi này tiếp tục củng cố cam kết mạnh mẽ\nvà dài hạn của chúng tôi trên lộ trình hướng tới mục tiêu \nNet Zero vào năm 2040. \nChúng tôi cũng luôn tự hào về những nỗ lực bền bỉ, \nthầm lặng trong việc tạo ra những giá trị dài hạn về \ncuộc sống và môi trường cho trẻ em, cộng đồng và \nxã hội. Đồng thời, FPT không ngừng nâng cao chỉ số \nhạnh phúc của CBNV bằng việc làm giàu cuộc sống \ntinh thần, sức khỏe, trí lực hướng tới một đại gia đình \nFPT gắn kết, dân chủ và nhân văn. \nTôi tin tưởng ESG không chỉ tạo nên sự khác biệt cho \nFPT mà còn khơi dậy khát vọng lớn lao trong việc \ntận dụng sức mạnh công nghệ, tinh thần sáng tạo và \ntrí tuệ của CBNV để khuếch đại tiềm năng, hiện thực \nhóa mục tiêu tăng trưởng bền vững trong dài hạn.\nPHÓ TỔNG GIÁM ĐỐC\nNGUYỄN THẾ PHƯƠNG\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG với thông điệp và định hướng ESG từ Phó tổng giám đốc Nguyễn Thế Phương, nhấn mạnh tiềm năng và cam kết phát triển bền vững của FPT.\nphoto: Ảnh Phó tổng giám đốc Nguyễn Thế Phương (trái) — Ảnh chân dung Phó tổng giám đốc với trang phục vest, tay khoanh trước ngực.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh Phó tổng giám đốc Nguyễn Thế Phương",
+              "location": "trái",
+              "description": "Ảnh chân dung Phó tổng giám đốc với trang phục vest, tay khoanh trước ngực."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p112",
+          "page": 112,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản \ntrị (Báo cáo ESG). Thông qua Báo cáo này, FPT có cơ hội đánh giá toàn diện về các \nhoạt động liên quan môi trường, trách nhiệm xã hội, quản trị, từ đó điều chỉnh và \ncân bằng chiến lược, kế hoạch kinh doanh hướng đến mục tiêu phát triển bền vững \ncho Tập đoàn và cộng đồng. \nBáo cáo được xây dựng trên nguyên tắc đảm bảo các yếu tố sau: tính toàn diện, \ntính rõ ràng, tính cập nhật và tính tin cậy, đồng thời tham chiếu theo bộ tiêu chuẩn \nGRI Standards của Tổ chức Sáng kiến toàn cầu (GRI).\n• Liên hệ\nĐể gửi các câu hỏi, các khuyến nghị liên quan đến hoạt động ESG của FPT cũng \nnhư nội dung chi tiết của Báo cáo ESG, vui lòng liên hệ theo thông tin như sau:\n• Bà: Mai Thị Lan Anh, Người ủy quyền công bố thông tin, Công ty Cổ phần FPT\n• Địa chỉ: Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, Tp.Hà Nội\n• Điện thoại: +84 24 7300 7300\n• Email: fptnews@fpt.com\n• Thời gian báo cáo: 01/01/2025-31/12/2025. \n• Chu kì báo cáo: Thường niên.\n• Phạm vi báo cáo: Báo cáo dựa trên hoạt động của Tập đoàn, công ty thành viên \ntại Việt Nam và một số thị trường trọng yếu.\nThông tin chung về báo cáo\n• Phạm vi báo cáo\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang giới thiệu thông tin chung về báo cáo ESG của FPT năm 2025, bao gồm phạm vi, thời gian, chu kỳ báo cáo và thông tin liên hệ.\nphoto: Ảnh minh họa ESG (phải) — Hình ảnh quả địa cầu với các biểu tượng liên quan đến môi trường, xã hội và quản trị (ESG) nổi bật trên nền xanh thiên nhiên.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh minh họa ESG",
+              "location": "phải",
+              "description": "Hình ảnh quả địa cầu với các biểu tượng liên quan đến môi trường, xã hội và quản trị (ESG) nổi bật trên nền xanh thiên nhiên."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "01\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng, \nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần \nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới \nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải \nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam \nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển \nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý \nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận đường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm \ngiảm phát thải\n02\nXác định mục tiêu giảm phát \nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm \nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng \nlượng sạch, song song với triển \nkhai các giải pháp nâng cao \nhiệu quả năng lượng tại các cơ \nsở vận hành, bao gồm: Tòa nhà \nvăn phòng; Trung tâm dữ liệu.\n• Tối ưu hệ thống điện và ứng \ndụng các giải pháp quản lý \nnăng lượng thông minh;\n• Đẩy mạnh sử dụng điện từ \nnguồn năng lượng tái tạo \nnhư năng lượng mặt trời;\n• Cân nhắc mua chứng chỉ \nnăng lượng tái tạo (REC).\n• Tòa nhà văn phòng: Lắp đặt \nđèn LED, hệ thống cảm biến \nthông minh; tích hợp cảm biến \nnhiệt độ và độ ẩm để điều \nkhiển hệ thống điều hòa tự động;\n• Trung tâm dữ liệu: Tối ưu hệ \nthống làm mát thông qua các \ngiải pháp Liquid Cooling, \nAI-driven Thermal Management.\nSử dụng môi chất lạnh có chỉ số \nGWP thấp; áp dụng cơ chế \nvận hành tiết kiệm năng lượng \ncho hệ thống máy chủ, áp dụng \ntiêu chuẩn xanh cho hạ tầng.\n• Theo dõi các tiêu chuẩn và \nhạn mức phát thải của Việt Nam \nđể triển khai kiểm kê khí nhà kính;\n• Báo cáo, đo lường và xác nhận \nlượng khí nhà kính/khí thải \nđịnh kỳ;\n• Giám sát và theo dõi chặt chẽ các \nhoạt động để đảm bảo hiệu quả \ntrong việc giảm phát thải.\n•\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày lộ trình Net Zero 2040 của tập đoàn FPT, bao gồm các bước và mục tiêu giảm phát thải khí nhà kính đến năm 2030 và hướng tới mục tiêu Net Zero vào năm 2040.\ndiagram: Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040 (giữa trang) — 5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040",
+              "location": "giữa trang",
+              "description": "5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p128",
+          "page": 128,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, Tập đoàn thúc đẩy thực hành mua sắm \nbền vững trong toàn bộ chuỗi cung ứng, với các kết \nquả nổi bật như sau:\n• 42% nhà cung cấp trọng yếu tham gia đánh giá \nCSR trên Cổng Hệ thống mua sắm FPT, tăng mạnh \nso với tỷ lệ 18% của năm 2024;\n• 97% nhà cung cấp đạt yêu cầu theo các tiêu chí \nđánh giá với điểm trung bình trên 04 (thang điểm 05);\n• 18% nhà cung cấp trọng yếu đã ký kết hợp đồng \nnguyên tắc có tích hợp các điều khoản liên quan \nđến môi trường, lao động và nhân quyền.\nHoạt động đánh giá ESG đối với nhà cung cấp là một \ntrong những giải pháp trọng tâm nhằm đẩy mạnh \nmua sắm bền vững trong chuỗi cung ứng của FPT. \nThông qua việc đánh giá định kỳ và minh bạch, FPT \nhỗ trợ các nhà cung cấp rà soát toàn diện quy trình \nquản trị và hoạt động vận hành theo cách tiếp cận \nhệ thống, từng bước nâng cao năng lực thực hành \nESG. Đồng thời, hoạt động này giúp FPT xây dựng cơ \nsở dữ liệu tập trung, phục vụ công tác quản lý, theo \ndõi và báo cáo ESG một cách đầy đủ, nhất quán và \nhiệu quả.\nPhát huy thế mạnh công nghệ, Tập đoàn tiếp tục đẩy \nmạnh số hóa quy trình và ứng dụng AI vào các hoạt \nđộng mua sắm như: hoàn thiện và cải tiến hệ thống \nmua sắm tập trung, đấu thầu online; nhà cung cấp tự \nbáo giá online; tự động hóa các thao tác nội bộ;\nsử dụng AI hỗ trợ giao dịch mua sắm, hỏi đáp nhanh \nvề mua sắm, gợi ý nhà cung cấp, kiểm soát chênh \nlệch giá giúp nâng cao sự minh bạch và đảm bảo \ncông bằng cho nhà cung cấp.\nNhằm góp phần đạt được các mục tiêu về tính bền \nvững của Tập đoàn trên quy mô toàn cầu, FPT hướng \nđến xây dựng chuỗi cung ứng bền vững thông qua \nviệc: thiết lập và tuân thủ nghiêm ngặt các hướng \ndẫn nội bộ về mua sắm xanh. Đồng thời, Tập đoàn \ncam kết không hợp tác với các nhà cung cấp có hoạt \nđộng ảnh hưởng đến sức khỏe, an toàn lao động và \nmôi trường.\nTập đoàn đã ban hành quy trình đánh giá nhà cung \ncấp trọng yếu nhằm đảm bảo nhà cung cấp không \nchỉ đáp ứng yêu cầu về chất lượng, chi phí mà còn \ntuân thủ tiêu chuẩn về đạo đức, lao động, môi trường \nvà quản trị. \nSong song, để đảm bảo công tác mua sắm bền vững, \nFPT tiếp tục duy trì: \n• Chính sách mua sắm bền vững với những nguyên \ntắc cơ bản nhằm tạo tác động tích cực nhất đến \nmôi trường, kinh tế và xã hội, đồng thời đảm bảo sự \ncông bằng, minh bạch và tuân thủ các quy định \ncủa pháp luật cũng như quy định nội bộ của Tập đoàn \ntrong quá trình thực hiện mua sắm;\n• Các tiêu chí đảm bảo tính bền vững khi tìm kiếm, \nđánh giá, lựa chọn nhà cung cấp, trong đó tiêu chí \nđánh giá thông số năng lượng và thân thiện với môi \ntrường chiếm tối đa 5% tổng số điểm đánh giá cho \ncác phương án mua sắm thiết bị tiêu thụ điện;\n• Điều khoản “Cam kết không thực hiện hành vi hối lộ” \nvà tuân thủ nhân quyền, lao động, môi trường trong \ntất cả các hợp đồng mẫu; \n• Khóa học về mục tiêu và chính sách mua sắm bền \nvững cho 100% cán bộ chuyên trách.\nHướng đến mua sắm bền vững\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về hướng đến mua sắm bền vững của Tập đoàn FPT trong năm 2025, bao gồm các chính sách, tiêu chí đánh giá nhà cung cấp và các kết quả nổi bật trong thực hành mua sắm bền vững.\nphoto: Hình ảnh trao đổi tài liệu trong mua sắm (dưới bên phải) — Hình ảnh minh họa t",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Hình ảnh trao đổi tài liệu trong mua sắm",
+              "location": "dưới bên phải",
+              "description": "Hình ảnh minh họa trao đổi tài liệu giữa hai người trong bối cảnh mua sắm, không chứa dữ liệu cụ thể."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p125",
+          "path": ".bonus/pages/p125.jpg",
+          "sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+        },
+        {
+          "id": "FPT2025:p113",
+          "path": ".bonus/pages/p113.jpg",
+          "sha256": "a56b04fa3663a99995c5bccd1ba4ba365c453ba946a3678f681985e95462ee19"
+        },
+        {
+          "id": "FPT2025:p109",
+          "path": ".bonus/pages/p109.jpg",
+          "sha256": "4ae320b6aaa20a5d9b9f87cf384f7bcba749aaa55c3f65f8a023f21e07ee1146"
+        },
+        {
+          "id": "FPT2025:p075",
+          "path": ".bonus/pages/p075.jpg",
+          "sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+        },
+        {
+          "id": "FPT2025:p110",
+          "path": ".bonus/pages/p110.jpg",
+          "sha256": "0814fb504f94bbaaf159dad5e25db5a05043afaca173ba969520060b4c44e797"
+        },
+        {
+          "id": "FPT2025:p112",
+          "path": ".bonus/pages/p112.jpg",
+          "sha256": "f3a85f21c177d32fb81ca62c5fd6e93d8bfc7fced831ad3a255c2eb4a45690d2"
+        },
+        {
+          "id": "FPT2025:p114",
+          "path": ".bonus/pages/p114.jpg",
+          "sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+        },
+        {
+          "id": "FPT2025:p128",
+          "path": ".bonus/pages/p128.jpg",
+          "sha256": "847ea324f08eae37df05820abe8df8f175433aaec864d00fca7560342eff676b"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805226-tJYw0ptHWqtt4GYzIT61",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01PxvFxUQjxKv3J6kL7DpUS5",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo sơ đồ \\\"Quy trình xác định các vấn đề trọng yếu\\\" ở vùng bên phải trang 125, ba bước được sắp theo thứ tự: Bước 01 – Xác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh của Tập đoàn và lợi ích của các bên liên quan; Bước 02 – Phân tích và xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03 – Phân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p125\",\"region\":\"Vùng bên phải trang 125, cột \\\"Quy trình xác định các vấn đề trọng yếu\\\", gồm ba khối Bước 01, Bước 02, Bước 03 theo thứ tự từ trên xuống\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p125",
+    "FPT2025:p113",
+    "FPT2025:p109",
+    "FPT2025:p075",
+    "FPT2025:p110",
+    "FPT2025:p112",
+    "FPT2025:p114",
+    "FPT2025:p128"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p125",
+      "page": 125,
+      "image": ".bonus/pages/p125.jpg",
+      "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+    },
+    {
+      "id": "FPT2025:p113",
+      "page": 113,
+      "image": ".bonus/pages/p113.jpg",
+      "image_sha256": "a56b04fa3663a99995c5bccd1ba4ba365c453ba946a3678f681985e95462ee19"
+    },
+    {
+      "id": "FPT2025:p109",
+      "page": 109,
+      "image": ".bonus/pages/p109.jpg",
+      "image_sha256": "4ae320b6aaa20a5d9b9f87cf384f7bcba749aaa55c3f65f8a023f21e07ee1146"
+    },
+    {
+      "id": "FPT2025:p075",
+      "page": 75,
+      "image": ".bonus/pages/p075.jpg",
+      "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+    },
+    {
+      "id": "FPT2025:p110",
+      "page": 110,
+      "image": ".bonus/pages/p110.jpg",
+      "image_sha256": "0814fb504f94bbaaf159dad5e25db5a05043afaca173ba969520060b4c44e797"
+    },
+    {
+      "id": "FPT2025:p112",
+      "page": 112,
+      "image": ".bonus/pages/p112.jpg",
+      "image_sha256": "f3a85f21c177d32fb81ca62c5fd6e93d8bfc7fced831ad3a255c2eb4a45690d2"
+    },
+    {
+      "id": "FPT2025:p114",
+      "page": 114,
+      "image": ".bonus/pages/p114.jpg",
+      "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+    },
+    {
+      "id": "FPT2025:p128",
+      "page": 128,
+      "image": ".bonus/pages/p128.jpg",
+      "image_sha256": "847ea324f08eae37df05820abe8df8f175433aaec864d00fca7560342eff676b"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805215-1MwoGT9K5u9PCuHaODrb",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1804,
+        "completion_tokens": 130,
+        "total_tokens": 1934,
+        "cost": 0.0002454,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002454,
+          "upstream_inference_prompt_cost": 0.0001804,
+          "upstream_inference_completions_cost": 6.5e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4349.543999996968,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805226-tJYw0ptHWqtt4GYzIT61",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 31314,
+        "completion_tokens": 386,
+        "total_tokens": 31700,
+        "cost": 0.0033244,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0033244,
+          "upstream_inference_prompt_cost": 0.0031314,
+          "upstream_inference_completions_cost": 0.000193
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 12793.94990002038,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 18453.57030001469,
+  "query_id": "ft-i4",
+  "question": "Trong hình quy trình xác định vấn đề trọng yếu ESG, ba bước được sắp theo thứ tự nào?",
+  "split": "test",
+  "config": "vision"
+}

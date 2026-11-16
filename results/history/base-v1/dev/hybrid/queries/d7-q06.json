@@ -1,0 +1,282 @@
+{
+  "status": "answered",
+  "answer": "Hợp đồng mua bán hàng hóa quốc tế có thể được thể hiện bằng lời nói, bằng văn bản hoặc được xác lập bằng hành vi cụ thể. Nếu pháp luật quy định hợp đồng phải lập thành văn bản thì phải tuân theo quy định đó. [luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_gfl0NyRopTKiI7AeQD7FFnEs",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"hình thức hợp đồng mua bán hàng hóa quốc tế\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797583-0uonpbYYBr9aFxfuoonD"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Mua bán hàng hóa quốc tế phải dựa trên hợp đồng có hình thức nào?",
+      "model_query": "hình thức hợp đồng mua bán hàng hóa quốc tế",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 8,
+          "text": "Chương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 8,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "section": "Mục 1",
+            "article": "Điều 24"
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 18,
+          "text": "Điều 64. Hợp đồng mua bán hàng hóa qua Sở giao dịch hàng hoá\n\n1. H ợp đồng mua bán hàng hóa qua S ở giao d ịch hàng hoá bao gồm h ợp đồng kỳ hạn và hợp đồng quyền chọn.\n\n2. H ợp đồng k ỳ h ạn là th ỏa thu ận, theo đó bên bán cam k ết giao và bên mua cam kết nhận hàng hoá tại một thời điểm trong tương lai theo hợp đồng.\n\n3. Hợp đồng về quyền chọn mua ho ặc quyền chọn bán là th ỏa thuận, theo đó bên mua quy ền có quyền được mua hoặc được bán một hàng hóa xác định với mức giá định trước (gọi là giá giao k ết) và ph ải trả một khoản tiền nhất định để mua quyền này (gọi là tiền mua quyền). Bên mua quyền có quyền chọn thực hiện hoặc không thực hiện việc mua hoặc bán hàng hóa đó.\n\nĐiều 65. Quyền và nghĩa vụ của các bên trong hợp đồng kỳ hạn\n\n1. Trường hợp ng ười bán th ực hiện việc giao hàng theo h ợp đồng thì bên mua có nghĩa vụ nhận hàng và thanh toán.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 18,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 64"
+          },
+          "score": 0.030776515151515152,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 17,
+          "text": "1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 17,
+            "year": 2005,
+            "chapter": "Chương Ii"
+          },
+          "score": 0.03021353930031804,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 11
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nChương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\n[luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 18]\nĐiều 64. Hợp đồng mua bán hàng hóa qua Sở giao dịch hàng hoá\n\n1. H ợp đồng mua bán hàng hóa qua S ở giao d ịch hàng hoá bao gồm h ợp đồng kỳ hạn và hợp đồng quyền chọn.\n\n2. H ợp đồng k ỳ h ạn là th ỏa thu ận, theo đó bên bán cam k ết giao và bên mua cam kết nhận hàng hoá tại một thời điểm trong tương lai theo hợp đồng.\n\n3. Hợp đồng về quyền chọn mua ho ặc quyền chọn bán là th ỏa thuận, theo đó bên mua quy ền có quyền được mua hoặc được bán một hàng hóa xác định với mức giá định trước (gọi là giá giao k ết) và ph ải trả một khoản tiền nhất định để mua quyền này (gọi là tiền mua quyền). Bên mua quyền có quyền chọn thực hiện hoặc không thực hiện việc mua hoặc bán hàng hóa đó.\n\nĐiều 65. Quyền và nghĩa vụ của các bên trong hợp đồng kỳ hạn\n\n1. Trường hợp ng ười bán th ực hiện việc giao hàng theo h ợp đồng thì bên mua có nghĩa vụ nhận hàng và thanh toán.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9",
+        "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_uoMBy5jjrohgrvYJyvdYpKwZ",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Hợp đồng mua bán hàng hóa quốc tế có thể được thể hiện bằng lời nói, bằng văn bản hoặc được xác lập bằng hành vi cụ thể. Nếu pháp luật quy định hợp đồng phải lập thành văn bản thì phải tuân theo quy định đó.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797584-Dkp7xeZTO126vc1wQch5"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nChương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\n[luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 18]\nĐiều 64. Hợp đồng mua bán hàng hóa qua Sở giao dịch hàng hoá\n\n1. H ợp đồng mua bán hàng hóa qua S ở giao d ịch hàng hoá bao gồm h ợp đồng kỳ hạn và hợp đồng quyền chọn.\n\n2. H ợp đồng k ỳ h ạn là th ỏa thu ận, theo đó bên bán cam k ết giao và bên mua cam kết nhận hàng hoá tại một thời điểm trong tương lai theo hợp đồng.\n\n3. Hợp đồng về quyền chọn mua ho ặc quyền chọn bán là th ỏa thuận, theo đó bên mua quy ền có quyền được mua hoặc được bán một hàng hóa xác định với mức giá định trước (gọi là giá giao k ết) và ph ải trả một khoản tiền nhất định để mua quyền này (gọi là tiền mua quyền). Bên mua quyền có quyền chọn thực hiện hoặc không thực hiện việc mua hoặc bán hàng hóa đó.\n\nĐiều 65. Quyền và nghĩa vụ của các bên trong hợp đồng kỳ hạn\n\n1. Trường hợp ng ười bán th ực hiện việc giao hàng theo h ợp đồng thì bên mua có nghĩa vụ nhận hàng và thanh toán.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9",
+    "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797583-0uonpbYYBr9aFxfuoonD",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 16,
+        "total_tokens": 306,
+        "cost": 0.0001416,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001416,
+          "upstream_inference_prompt_cost": 0.000116,
+          "upstream_inference_completions_cost": 2.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1232.4113000067882,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797584-Dkp7xeZTO126vc1wQch5",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1167,
+        "completion_tokens": 98,
+        "total_tokens": 1265,
+        "cost": 0.0006236,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006236,
+          "upstream_inference_prompt_cost": 0.0004668,
+          "upstream_inference_completions_cost": 0.0001568
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1586.238100018818,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 2830.072899989318,
+  "searches": 1,
+  "query_id": "d7-q06",
+  "question": "Mua bán hàng hóa quốc tế phải dựa trên hợp đồng có hình thức nào?",
+  "split": "dev",
+  "config": "hybrid",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 8,
+      "text": "Chương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 8,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "section": "Mục 1",
+        "article": "Điều 24"
+      },
+      "score": 0.03149801587301587,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 4,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 18,
+      "text": "Điều 64. Hợp đồng mua bán hàng hóa qua Sở giao dịch hàng hoá\n\n1. H ợp đồng mua bán hàng hóa qua S ở giao d ịch hàng hoá bao gồm h ợp đồng kỳ hạn và hợp đồng quyền chọn.\n\n2. H ợp đồng k ỳ h ạn là th ỏa thu ận, theo đó bên bán cam k ết giao và bên mua cam kết nhận hàng hoá tại một thời điểm trong tương lai theo hợp đồng.\n\n3. Hợp đồng về quyền chọn mua ho ặc quyền chọn bán là th ỏa thuận, theo đó bên mua quy ền có quyền được mua hoặc được bán một hàng hóa xác định với mức giá định trước (gọi là giá giao k ết) và ph ải trả một khoản tiền nhất định để mua quyền này (gọi là tiền mua quyền). Bên mua quyền có quyền chọn thực hiện hoặc không thực hiện việc mua hoặc bán hàng hóa đó.\n\nĐiều 65. Quyền và nghĩa vụ của các bên trong hợp đồng kỳ hạn\n\n1. Trường hợp ng ười bán th ực hiện việc giao hàng theo h ợp đồng thì bên mua có nghĩa vụ nhận hàng và thanh toán.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 18,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 64"
+      },
+      "score": 0.030776515151515152,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 6,
+        "tfidf": 4
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p17-paragraph-1000-eaa344f5941a4c86",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 17,
+      "text": "1. Mua bán hàng hóa qua Sở giao d ịch hàng hóa là ho ạt động thương mại, theo đó các bên th ỏa thuận thực hiện việc mua bán m ột lượng nhất định của một loại hàng hóa nh ất định qua Sở giao dịch hàng hoá theo nh ững tiêu chuẩn của Sở giao d ịch hàng hoá v ới giá được thỏa thuận tại thời điểm giao k ết hợp đồng và thời gian giao hàng được xác định tại một thời điểm trong tương lai.\n\n2. Chính ph ủ quy định chi tiết về hoạt động mua bán hàng hóa qua S ở giao dịch hàng hóa.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 17,
+        "year": 2005,
+        "chapter": "Chương Ii"
+      },
+      "score": 0.03021353930031804,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 11
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 8]\nChương II MUA BÁN HÀNG HÓA\n\nMục 1 CÁC QUY ĐỊNH CHUNG ĐỐI VỚI HOẠT ĐỘNG MUA BÁN HÀNG HÓA\n\nĐiều 24. Hình thức hợp đồng mua bán hàng hoá\n\n1. H ợp đồng mua bán hàng hoá được thể hiện bằng lời nói, b ằng văn bản hoặc được xác lập bằng hành vi cụ thể.\n\n2. Đối với các loại hợp đồng mua bán hàng hoá mà pháp lu ật quy định phải được lập thành văn bản thì phải tuân theo các quy định đó.\n\nĐiều 25. Hàng hoá cấm kinh doanh, hàng hoá h ạn ch ế kinh doanh, hàng hóa kinh doanh có điều kiện\n\n1. Căn cứ vào điều kiện kinh tế - xã hội của từng thời kỳ và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Chính ph ủ quy định cụ thể danh m ục hàng hoá c ấm kinh doanh, hàng hoá h ạn chế kinh doanh, hàng hoá kinh doanh có điều kiện và điều kiện để được kinh doanh hàng hóa đó.\n\n2. Đối với hàng hoá hạn chế kinh doanh, hàng hoá kinh doanh có điều kiện, việc mua bán ch ỉ được thực hiện khi hàng hoá và các bên mua bán hàng hóa đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\n[luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 18]\nĐiều 64. Hợp đồng mua bán hàng hóa qua Sở giao dịch hàng hoá\n\n1. H ợp đồng mua bán hàng hóa qua S ở giao d ịch hàng hoá bao gồm h ợp đồng kỳ hạn và hợp đồng quyền chọn.\n\n2. H ợp đồng k ỳ h ạn là th ỏa thu ận, theo đó bên bán cam k ết giao và bên mua cam kết nhận hàng hoá tại một thời điểm trong tương lai theo hợp đồng.\n\n3. Hợp đồng về quyền chọn mua ho ặc quyền chọn bán là th ỏa thuận, theo đó bên mua quy ền có quyền được mua hoặc được bán một hàng hóa xác định với mức giá định trước (gọi là giá giao k ết) và ph ải trả một khoản tiền nhất định để mua quyền này (gọi là tiền mua quyền). Bên mua quyền có quyền chọn thực hiện hoặc không thực hiện việc mua hoặc bán hàng hóa đó.\n\nĐiều 65. Quyền và nghĩa vụ của các bên trong hợp đồng kỳ hạn\n\n1. Trường hợp ng ười bán th ực hiện việc giao hàng theo h ợp đồng thì bên mua có nghĩa vụ nhận hàng và thanh toán.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p8-paragraph-1000-f8b41be3202cbae9",
+    "luat-thuong-mai-36-2005-qh11-p18-paragraph-1000-ca6f1395a4c285cd"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

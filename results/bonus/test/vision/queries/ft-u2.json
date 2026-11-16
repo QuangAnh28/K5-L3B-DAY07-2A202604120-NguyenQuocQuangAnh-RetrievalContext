@@ -1,0 +1,433 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805593-MAKxOfu7K6nQjpVdtRXw",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01LZwE5KqRSrrq96hcfmabxf",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"lượng phát thải CO2 toàn Tập đoàn từng tháng năm 2025\",\"phát thải CO2 theo tháng 2025 FPT\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo báo cáo, nêu chi tiết lượng phát thải CO2 toàn Tập đoàn của từng tháng trong năm 2025.",
+      "model_queries": [
+        "lượng phát thải CO2 toàn Tập đoàn từng tháng năm 2025",
+        "phát thải CO2 theo tháng 2025 FPT"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "score": 0.03036576949620428,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "FPT2025:p149",
+          "page": 149,
+          "score": 0.030309988518943745,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p112",
+          "page": 112,
+          "score": 0.028577260665441927,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p150",
+          "page": 150,
+          "score": 0.028531243721117136,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p106",
+          "page": 106,
+          "score": 0.027346637102734665,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 22
+          }
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "score": 0.026856524873828405,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 13
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo báo cáo, nêu chi tiết lượng phát thải CO2 toàn Tập đoàn của từng tháng trong năm 2025."
+      ],
+      "context_ids": [
+        "FPT2025:p146",
+        "FPT2025:p114",
+        "FPT2025:p147",
+        "FPT2025:p149",
+        "FPT2025:p112",
+        "FPT2025:p150",
+        "FPT2025:p106",
+        "FPT2025:p119"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế \nđược công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của \nViện Tài nguyên thế giới (WRI) và tiêu chuẩn ISO 14040/14044.\nViệc nâng cao độ chính xác của dữ liệu phát thải được Tập đoàn xác định là một \nquá trình cải tiến liên tục. Trên cơ sở mở rộng nguồn dữ liệu, hoàn thiện phương \npháp tính toán và nâng cao năng lực phân tích, FPT định kỳ rà soát, cập nhật mô hình \nvà điều chỉnh lộ trình giảm phát thải phù hợp với từng giai đoạn phát triển và mức độ \nsẵn sàng của dữ liệu.\nFPT chủ động thực hiện kiểm kê phát thải khí nhà kính tại trụ sở chính, các toà nhà, \nđịa điểm kinh doanh tại Việt Nam của 08 công ty thành viên. Phạm vi xác định dấu \nchân carbon của FPT được xây dựng phù hợp với khuôn khổ GHG Protocol và các \nnguồn phát thải trọng yếu, có liên quan trực tiếp đến hoạt động của Tập đoàn, \ntrên cơ sở mức độ sẵn có và độ tin cậy của dữ liệu. \nCác nguồn phát thải khí nhà kính được FPT thực hiện kiểm kê trên 03 phạm vi bao gồm:\n• Phạm vi 1: Phát thải khí nhà kính trực tiếp phát sinh từ các nguồn do FPT sở hữu hoặc \nkiểm soát, bao gồm: tiêu thụ xăng dầu cho phương tiện đi lại thuộc sở hữu của \nTập đoàn, máy phát điện, thất thoát môi chất lạnh của hệ thống…; \n• Phạm vi 2: Phát thải khí nhà kính gián tiếp phát sinh từ việc sử dụng điện, nước được \nmua từ nhà cung cấp bên ngoài;\n• Phạm vi 3 (đang nghiên cứu): Phát thải khí nhà kính gián tiếp khác do các hoạt động \ncủa Tập đoàn nhưng từ các nguồn mà Tập đoàn không sở hữu.\nQuản lý hiệu quả tiêu thụ năng lượng và kiểm kê khí nhà kính\n• Phạm vi và phương pháp thu thập dữ liệu\nNăm 2025, lượng phát thải khí nhà kính của FPT là 127.952 tấn CO2. Hai nguồn \nphát thải khí nhà kính phát sinh chủ yếu là xăng dầu dùng cho xe, máy phát điện \n(Phạm vi 1) và điện năng phục vụ cho sản xuất, vận hành máy móc thiết bị (Phạm vi \n2) thuộc sở hữu của FPT.\nNăm 2025, lượng phát thải khí nhà kính của FPT giảm so với năm 2024, trong khi \nhoạt động kinh doanh tiếp tục duy trì tăng trưởng cho thấy các nỗ lực tối ưu vận hành, \nứng dụng công nghệ và quản lý năng lượng đã phát huy hiệu quả, ngay cả khi quy mô \nhoạt động không ngừng mở rộng.\nNguồn phát thải khí nhà kính chủ yếu của Tập đoàn phát sinh từ Phạm vi 2, chiếm \nkhoảng 96% tổng lượng phát thải của toàn Tập đoàn. Trong đó, tiêu thụ điện năng \ntại các trung tâm Dữ liệu và tòa nhà văn phòng/ký túc xá là nguồn phát thải chính, \nphản ánh đặc thù hoạt động của FPT trong lĩnh vực công nghệ và dịch vụ. \nTrên hành trình hướng tới mục tiêu Net Zero vào năm 2040, Tập đoàn kiên định \ntập trung đầu tư vào các giải pháp dài hạn, nâng cao hiệu quả vận hành hạ tầng \nvà mạng lưới, đồng hành cùng chuỗi cung ứng trong quá trình giảm phát thải và \nthúc đẩy đổi mới sáng tạo thông qua hợp tác với các đối tác, đặc biệt trong các \nlĩnh vực giảm phát thải. Cách tiếp cận này giúp FPT từng bước xây dựng nền tảng \ntăng trưởng bền vững song hành với trách nhiệm khí hậu.\n• Kết quả thực hiện kiểm kê khí nhà kính\nTổng hợp lượng phát thải khí nhà kính của FPT năm 2025\nPhạm vi Năm 2023 Năm 2024 Năm 2025\nPhạm vi 1 13.217 4.826 4.383\nPhạm vi 2 109.696 138.748 123.569\n122.913 143.574 127.952\nPhạm vi 3\nTổng\nChưa triển kh",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025",
+              "location": "phải",
+              "description": "Bảng tổng hợp lượng phát thải khí nhà kính theo các phạm vi (Phạm vi 1, Phạm vi 2, Phạm vi 3) qua các năm 2023, 2024 và 2025, đơn vị tính là tấn CO2 tương đương."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "01\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng, \nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần \nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới \nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải \nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam \nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển \nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý \nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận đường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm \ngiảm phát thải\n02\nXác định mục tiêu giảm phát \nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm \nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng \nlượng sạch, song song với triển \nkhai các giải pháp nâng cao \nhiệu quả năng lượng tại các cơ \nsở vận hành, bao gồm: Tòa nhà \nvăn phòng; Trung tâm dữ liệu.\n• Tối ưu hệ thống điện và ứng \ndụng các giải pháp quản lý \nnăng lượng thông minh;\n• Đẩy mạnh sử dụng điện từ \nnguồn năng lượng tái tạo \nnhư năng lượng mặt trời;\n• Cân nhắc mua chứng chỉ \nnăng lượng tái tạo (REC).\n• Tòa nhà văn phòng: Lắp đặt \nđèn LED, hệ thống cảm biến \nthông minh; tích hợp cảm biến \nnhiệt độ và độ ẩm để điều \nkhiển hệ thống điều hòa tự động;\n• Trung tâm dữ liệu: Tối ưu hệ \nthống làm mát thông qua các \ngiải pháp Liquid Cooling, \nAI-driven Thermal Management.\nSử dụng môi chất lạnh có chỉ số \nGWP thấp; áp dụng cơ chế \nvận hành tiết kiệm năng lượng \ncho hệ thống máy chủ, áp dụng \ntiêu chuẩn xanh cho hạ tầng.\n• Theo dõi các tiêu chuẩn và \nhạn mức phát thải của Việt Nam \nđể triển khai kiểm kê khí nhà kính;\n• Báo cáo, đo lường và xác nhận \nlượng khí nhà kính/khí thải \nđịnh kỳ;\n• Giám sát và theo dõi chặt chẽ các \nhoạt động để đảm bảo hiệu quả \ntrong việc giảm phát thải.\n•\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày lộ trình Net Zero 2040 của tập đoàn FPT, bao gồm các bước và mục tiêu giảm phát thải khí nhà kính đến năm 2030 và hướng tới mục tiêu Net Zero vào năm 2040.\ndiagram: Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040 (giữa trang) — 5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040",
+              "location": "giữa trang",
+              "description": "5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xây dựng kế hoạch giảm thiểu lượng phát thải khí nhà kính từ hai nguồn phát \nsinh lớn thuộc Phạm vi 1 và Phạm vi 2, cũng như từ tất cả các nguồn phát sinh khác, \ncụ thể như sau:\n• Đối với Phạm vi 1 và Phạm vi 2, FPT triển khai các chương trình tiết kiệm điện và \nnăng lượng, hướng tới việc sử dụng năng lượng xanh và năng lượng tái tạo; \n• Các tòa nhà là nguồn tiêu thụ năng lượng chủ yếu, do đó, Tập đoàn chủ động \ntriển khai các sáng kiến tiết kiệm năng lượng trên nền tảng hạ tầng hiện hữu. \nThông qua việc ứng dụng các công nghệ tiên tiến và tăng cường hợp tác với các \nchuyên gia, FPT từng bước nâng cao hiệu quả sử dụng năng lượng, hướng tới hệ thống \nhạ tầng thân thiện hơn với môi trường;\n• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm: \ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hóa tòa \nnhà, hệ thống UPS, mặt dựng công trình, trung tâm dữ liệu và phòng máy chủ. \nThông qua các sáng kiến này, FPT hướng tới giảm thiểu tác động môi trường \nsong song với việc nâng cao hiệu quả vận hành.\nViệc giảm 8,58% tổng mức tiêu thụ điện so với năm 2024 phản ánh những nỗ lực \nnhất quán và có hệ thống của Tập đoàn trong triển khai các giải pháp tiết kiệm \nnăng lượng. Kết quả này đạt được nhờ việc ứng dụng các giải pháp quản lý và tối ưu \ntiêu thụ điện thông minh, kết hợp với các chương trình truyền thông và đào tạo \nnội bộ nhằm nâng cao nhận thức, thay đổi hành vi sử dụng năng lượng của CBNV \ntrong hoạt động hàng ngày.\nĐặc biệt, việc đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng \nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền \nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong \ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp \nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng, \ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát \nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời \nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra \n842.749 kWh điện. \nBảng tổng hợp so sánh kết quả tiêu thụ điện\n• Biện pháp giảm phát thải khí nhà kính\n Đơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch \n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 tập trung vào các biện pháp giảm phát thải khí nhà kính, đặc biệt là tiết kiệm năng lượng và sử dụng năng lượng tái tạo như điện mặt trời mái nhà.\ntable: Bảng tổng hợp so sánh kết quả tiêu thụ điện (dưới bên trái) — So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh.\nphoto: Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng) (phải) — Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ điện",
+              "location": "dưới bên trái",
+              "description": "So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh."
+            },
+            {
+              "type": "photo",
+              "title": "Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)",
+              "location": "phải",
+              "description": "Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p149",
+          "page": 149,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng \nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô \nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các \nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau: \n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần \nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;\n• Tuyên truyền nâng cao nhận thức của CBNV về tiết kiệm nước, bảo vệ môi trường \nthông qua các bài viết, hình ảnh, video trên các kênh nội bộ, poster dán tại các \nkhu vực công cộng;\n• Tích cực sử dụng nguồn nước ngầm và nước mưa; \n• Định kỳ kiểm tra, bảo trì hệ thống đường ống nước để phát hiện, sửa chữa kịp thời các \nchỗ rò rỉ, tránh thất thoát, đồng thời điều chỉnh áp suất nước phù hợp về kỹ thuật.\nFPT luôn đảm bảo thực hiện các quy định thống nhất trong các tòa nhà.\n Đơn vị tính: m3\nLà doanh nghiệp hoạt động chủ yếu trong lĩnh vực công nghệ và cung cấp dịch vụ, \ncác hoạt động kinh doanh cốt lõi của FPT không phát sinh tác động đáng kể đến \nmôi trường như các doanh nghiệp sản xuất. Tuy nhiên, trong phạm vi hoạt động vận \nhành, đặc biệt tại các trụ sở làm việc và các tòa nhà do FPT sở hữu, FPT cam kết \ntuân thủ nghiêm ngặt các quy định pháp luật và chính sách liên quan đến tài nguyên \nnước, đồng thời triển khai các biện pháp nhằm nâng cao hiệu quả sử dụng nước và \ngiảm cường độ tiêu thụ nước.\nFPT không ghi nhận bất kỳ vi phạm pháp luật nào liên quan đến việc khai thác, \nsử dụng và xả thải nước. Ở cấp độ chính sách, cam kết quản lý tài nguyên nước của \nFPT được áp dụng thống nhất trên toàn bộ các đơn vị, trụ sở và cơ sở thuộc sở hữu \ncủa Tập đoàn, cũng như đối với CBNV, đối tác, nhà cung cấp, nhà thầu và các bên \nliên quan khác.\nKhi thiết kế các tòa nhà, FPT chú trọng xây dựng hệ thống lưu trữ nước mưa, hệ thống \nlọc nước thải để tận dụng tối đa nguồn nước này cho một số mục đích phù hợp như \ntưới cây, giúp tối ưu chi phí tiêu thụ nước, đặc biệt vào mùa khô. Ngoài ra, hệ thống \nhồng ngoại và máy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây \nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển \ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên. \nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo \nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và \nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không \nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên \ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về quản lý nước thải và các nguồn phát thải khác của FPT, tập trung vào quản lý nước và nước thải, các biện pháp tiết kiệ",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ nước",
+              "location": "dưới",
+              "description": "So sánh tiêu thụ nước theo đơn vị m3 trong các năm 2023, 2024, 2025 cùng chênh lệch về mức tiêu thụ và tỷ lệ tăng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p112",
+          "page": 112,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2025 là năm thứ 05, FPT thực hiện Báo cáo Môi trường – Trách nhiệm xã hội – Quản \ntrị (Báo cáo ESG). Thông qua Báo cáo này, FPT có cơ hội đánh giá toàn diện về các \nhoạt động liên quan môi trường, trách nhiệm xã hội, quản trị, từ đó điều chỉnh và \ncân bằng chiến lược, kế hoạch kinh doanh hướng đến mục tiêu phát triển bền vững \ncho Tập đoàn và cộng đồng. \nBáo cáo được xây dựng trên nguyên tắc đảm bảo các yếu tố sau: tính toàn diện, \ntính rõ ràng, tính cập nhật và tính tin cậy, đồng thời tham chiếu theo bộ tiêu chuẩn \nGRI Standards của Tổ chức Sáng kiến toàn cầu (GRI).\n• Liên hệ\nĐể gửi các câu hỏi, các khuyến nghị liên quan đến hoạt động ESG của FPT cũng \nnhư nội dung chi tiết của Báo cáo ESG, vui lòng liên hệ theo thông tin như sau:\n• Bà: Mai Thị Lan Anh, Người ủy quyền công bố thông tin, Công ty Cổ phần FPT\n• Địa chỉ: Số 10 phố Phạm Văn Bạch, phường Cầu Giấy, Tp.Hà Nội\n• Điện thoại: +84 24 7300 7300\n• Email: fptnews@fpt.com\n• Thời gian báo cáo: 01/01/2025-31/12/2025. \n• Chu kì báo cáo: Thường niên.\n• Phạm vi báo cáo: Báo cáo dựa trên hoạt động của Tập đoàn, công ty thành viên \ntại Việt Nam và một số thị trường trọng yếu.\nThông tin chung về báo cáo\n• Phạm vi báo cáo\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang giới thiệu thông tin chung về báo cáo ESG của FPT năm 2025, bao gồm phạm vi, thời gian, chu kỳ báo cáo và thông tin liên hệ.\nphoto: Ảnh minh họa ESG (phải) — Hình ảnh quả địa cầu với các biểu tượng liên quan đến môi trường, xã hội và quản trị (ESG) nổi bật trên nền xanh thiên nhiên.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh minh họa ESG",
+              "location": "phải",
+              "description": "Hình ảnh quả địa cầu với các biểu tượng liên quan đến môi trường, xã hội và quản trị (ESG) nổi bật trên nền xanh thiên nhiên."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p150",
+          "page": 150,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Kết quả quan trắc môi trường nước thải tại FPT Tower \nKết quả\n2025\nQCVN \n14:2008/BTNMT\nTT Thông số Đơn vị\npH\nBOD5\n (20oC)\nTổng chất rắn lơ lửng (TSS) \nTổng chất rắn hòa tan (TDS)\nSunfua (tính theo H²S) \nAmoni (tính theo N)\nNitrat (NO³\n-\n) \nDầu mỡ động, thực vật\nTổng chất\nhoạt động bề mặt\nPhosphat (PO4\n3\n-)\nTổng Coliforms\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n-\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nmg/l\nMPN/100ml\n<0,03*\n8,31\n1.500\n10\n10\n5.000\n6,17\n20,1\n46\n515\n<0,03*\n3,97\n3,84\nKPH\n(MDL= 1,4)\n5 – 9\n50\n100\n1.000\n4,0\n10\n50\n20\nFPT triển khai chương trình quản lý chất thải dựa trên nguyên tắc 3R – Giảm thiểu \n(Reduce), Tái sử dụng (Reuse) và Tái chế (Recycle), nhằm ưu tiên giảm thiểu \ntác động môi trường và bảo đảm quản lý chất thải có trách nhiệm trong toàn bộ \nhoạt động vận hành.\nChất thải phát sinh chủ yếu là chất thải sinh hoạt từ hoạt động văn phòng và \nsinh hoạt hằng ngày, gồm các vật liệu không chứa yếu tố nguy hại như: giấy, bao \nbì, thực phẩm dư thừa, chai lọ và các vật tư tiêu hao tập trung chủ yếu tại các khu \nvực văn phòng làm việc, căng-tin, phòng họp, khu vệ sinh và không gian sinh hoạt \nchung trong các tòa nhà. \nBên cạnh đó, một lượng nhỏ chất thải nguy hại như pin, bóng đèn huỳnh quang, \nhộp mực in và dầu thải phát sinh từ hoạt động bảo trì, bảo dưỡng hệ thống kỹ thuật. \nCác loại chất thải này chiếm tỷ trọng thấp trong tổng lượng chất thải phát sinh và \nđược quản lý theo quy trình riêng, thu gom và xử lý bởi các đơn vị được cấp phép, \nbảo đảm tuân thủ đầy đủ các quy định hiện hành.\nNhằm nâng cao hiệu quả quản lý chất thải và bảo đảm tuân thủ các quy định pháp \nluật hiện hành, FPT triển khai đồng bộ nhiều giải pháp quản lý, bao gồm:\n• Bố trí hệ thống thùng chứa chất thải phân loại ngay tại nguồn;\n• Tổ chức thu gom chất thải sinh hoạt theo lịch trình cố định và vận chuyển về\nkhu vực trung chuyển của tòa nhà;\n• Thực hiện công tác vệ sinh thường xuyên tại các khu vực công cộng như: hành lang, \ncầu thang và khu vệ sinh nhằm hạn chế tình trạng phát sinh chất thải thứ cấp;\n• Hợp tác với các đơn vị có đủ năng lực và chức năng để thực hiện việc thu gom, \nvận chuyển và xử lý chất thải sinh hoạt theo đúng quy định pháp luật;\n• Thiết lập khu vực lưu giữ riêng cho chất thải nguy hại (như pin, bóng đèn, \nhộp mực in…) và gắn biển cảnh báo, tuân thủ đầy đủ các yêu cầu an toàn;\n• Đẩy mạnh công tác truyền thông nội bộ nhằm nâng cao nhận thức của CBNV về \nnhận diện, phân loại và quản lý các loại chất thải phát sinh trong môi trường làm việc;\n• Áp dụng các giải pháp công nghệ nhằm thay thế dần máy tính cá nhân và máy \ntính xách tay bằng các thiết bị có khả năng kéo dài vòng đời sử dụng, qua đó \ngiảm thiểu lượng chất thải công nghệ phát sinh hằng năm. Một trong \nnhững giải pháp trọng tâm là việc triển khai mô hình Thin Client (kiến trúc điện toán \ntập trung), trong đó nhiều thiết bị đầu cuối được kết nối và vận hành thông qua hệ \nthống máy chủ tập trung. Giải pháp này không chỉ giúp tối ưu hiệu suất vận hành, \ntiết kiệm năng lượng mà còn góp phần đáng kể trong việc giảm phát sinh rác thải \nđiện tử. \nKết quả phân tích môi trường nước thải tại vị trí quan trắc của Tập đoàn cho thấy các \nthông số đều nằm trong giới hạn cho phép theo tiêu chuẩn QCVN 14:2008/BTNMT.\n• Quả",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Kết quả quan trắc môi trường nước thải tại FPT Tower",
+              "location": "trái",
+              "description": "Bảng gồm các thông số môi trường nước thải, đơn vị đo, kết quả năm 2025 và giới hạn theo tiêu chuẩn QCVN 14:2008/BTNMT."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p106",
+          "page": 106,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Xem xét và thảo luận về số liệu tài chính quý II năm 2025 và \nbáo cáo dự kiến 6 tháng cuối năm 2025 do Ban Điều hành \ngửi phục vụ nội dung cuộc họp HĐQT ngày 29/07/2025;\n• Xem xét Báo cáo Kết quả kinh doanh 06 tháng đầu năm \n2025 của Tập đoàn;\n• Xem xét số liệu tài chính quý III năm 2025 do Ban Điều hành \ngửi phục vụ nội dung họp HĐQT ngày 13/11/2025; \n• Xem xét Báo cáo Kết quả kinh doanh 09 tháng đầu năm \n2025, đánh giá mức độ hoàn thành kế hoạch cả năm 2025 \ncủa Tập đoàn và công ty thành viên;\n• Kiểm tra báo cáo kết quả chia cổ tức đợt 01 năm 2025 \n(bằng tiền mặt 10%);\n• Lên kế hoạch kiểm soát định kỳ công nợ quá hạn và \nhàng tồn kho quá hạn trong năm.\n• Xem xét phương án tạm ứng cổ tức 2025 đợt 01 bằng tiền \nmặt theo Nghị quyết ĐHĐCĐ thường niên 2025 đã thông qua;\n• Xem xét đánh giá một số tác động của thị trường tài chính, \nbối cảnh kinh tế thế giới và trong khu vực làm ảnh hưởng tới \nhoạt động công ty năm 2025.\nPhiên họp\nPhiên 04\n24/07/2025\n03/03\nPhiên 05\n11/11/2025\n03/03\nSố thành viên \ntham dự\nNội dung họp\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nNội dung trang trình bày lịch họp và nội dung các phiên họp của công ty trong năm 2025, tập trung vào việc xem xét số liệu tài chính, báo cáo kinh doanh và kế hoạch kiểm soát công nợ, hàng tồn kho.\ntable: Lịch họp và nội dung các phiên họp năm 2025 (trên) — Bảng gồm các cột Phiên họp, Số thành viên tham dự, Nội dung họp; các phiên họp được liệt kê gồm Phiên 04 ngày 24/07/2025 và Phiên 05 ngày 11/11/2025 với nội dung chi tiết về tài chính, báo cáo kinh doanh và kế hoạch kiểm soát.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Lịch họp và nội dung các phiên họp năm 2025",
+              "location": "trên",
+              "description": "Bảng gồm các cột Phiên họp, Số thành viên tham dự, Nội dung họp; các phiên họp được liệt kê gồm Phiên 04 ngày 24/07/2025 và Phiên 05 ngày 11/11/2025 với nội dung chi tiết về tài chính, báo cáo kinh doanh và kế hoạch kiểm soát."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường \nlàm việc hướng tới môi trường làm \nviệc xanh, an toàn, lành mạnh.\n• Mục tiêu trung hạn: đến năm 2030, \ngiảm 15,8% tổng lượng phát thải \nkhí nhà kính phù hợp với mục tiêu \nchung của Việt Nam;\n• Mục tiêu dài hạn: đến năm 2040 \nđạt Net Zero như cam kết của \nChính phủ Việt Nam tại COP 26.\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\n nhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và \ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n• 100% số liệu sử dụng năng lượng được giám sát;\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\n sản lượng 842.749 kWh;\n• 100% cơ sở được kiểm kê và giám sát phát thải khí nhà kính \nđịnh kỳ.\nKết quả nổi bật 2025\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nĐào tạo nguồn \nnhân lực công nghệ\nchất lượng cao\nTạo điều kiện\ntốt nhất để trẻ em\nViệt Nam có cơ hội \ntiếp cận giáo dục\nchất lượng và bền vững\nLà đơn vị dẫn đầu trong đào tạo \nnhân lực số có năng lực cạnh tranh \ntoàn cầu.\n• Đào tạo 10.000 kỹ sư bán dẫn vào \nnăm 2030;\n• Đưa AI vào đào tạo người học ở tất \ncả các bậc học thuộc hệ thống \ngiáo dục của FPT.\n• 3.700 sinh viên theo học các chương trình và chuyên ngành \nđào tạo AI, thiết kế vi mạch bán dẫn của hệ thống giáo dục FPT;\n• Nghiên cứu, ứng dụng và phát triển các giải pháp công nghệ \ntiên tiến nhất, gia tăng tương tác và cá nhân hóa trải nghiệm \ncủa người học; đưa AI vào đào tạo từ bậc tiểu học đến\nphổ thông, cao đẳng, đại học và sau đại học; \n• Trao 151 tỷ đồng học bổng Nguyễn Văn Đạo.\nChú trọng hỗ trợ tạo điều kiện \nhọc tập tốt hơn cho các hoàn cảnh \nyếu thế tại các khu vực kinh tế \nkhó khăn, vùng núi, vùng sâu, \nvùng xa.\n• Tiếp tục duy trì quỹ dành cho các \nhoạt động phát triển vì cộng đồng \ntập trung chủ yếu vào các hoạt \nđộng giáo dục.\n• Sử dụng 72,8 tỷ đồng cho các hoạt động trách nhiệm xã hội;\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở \nhạng mục Dự án kịp thời;\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ.\nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.\n",
+          "visuals": []
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p146",
+          "path": ".bonus/pages/p146.jpg",
+          "sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+        },
+        {
+          "id": "FPT2025:p114",
+          "path": ".bonus/pages/p114.jpg",
+          "sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+        },
+        {
+          "id": "FPT2025:p147",
+          "path": ".bonus/pages/p147.jpg",
+          "sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+        },
+        {
+          "id": "FPT2025:p149",
+          "path": ".bonus/pages/p149.jpg",
+          "sha256": "b2c242eff4cc7a91e0f87a77340a7876ece4871c4d92effee0f193a61dc6db63"
+        },
+        {
+          "id": "FPT2025:p112",
+          "path": ".bonus/pages/p112.jpg",
+          "sha256": "f3a85f21c177d32fb81ca62c5fd6e93d8bfc7fced831ad3a255c2eb4a45690d2"
+        },
+        {
+          "id": "FPT2025:p150",
+          "path": ".bonus/pages/p150.jpg",
+          "sha256": "04e39df8fdabcbc8347ac2f971b935e8d8a14e95ea06bd300a3c575c3f8a7a97"
+        },
+        {
+          "id": "FPT2025:p106",
+          "path": ".bonus/pages/p106.jpg",
+          "sha256": "a45a6ead3434835c01007bd72e74371e3a079bff290a3a52e906f01d96ae2fb5"
+        },
+        {
+          "id": "FPT2025:p119",
+          "path": ".bonus/pages/p119.jpg",
+          "sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805597-9V5LbMiYXN1QWsBsySKQ",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01VyxZQLuz1PeWNvh4oYQocM",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Báo cáo không công bố lượng phát thải CO2 theo từng tháng trong năm 2025. Báo cáo chỉ nêu tổng lượng phát thải khí nhà kính cả năm 2025 của FPT là 127.952 tấn CO2 tương đương (Phạm vi 1: 4.383; Phạm vi 2: 123.569; Phạm vi 3: triển khai tại FPT Software), không có số liệu theo tháng.\", \"abstain\": true, \"citations\": [{\"id\":\"FPT2025:p146\",\"region\":\"Bảng \\\"Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025\\\" (bên phải trang) và đoạn văn \\\"Kết quả thực hiện kiểm kê khí nhà kính\\\" nêu tổng 127.952 tấn CO2; không có dữ liệu theo tháng\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "abstain"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p146",
+    "FPT2025:p114",
+    "FPT2025:p147",
+    "FPT2025:p149",
+    "FPT2025:p112",
+    "FPT2025:p150",
+    "FPT2025:p106",
+    "FPT2025:p119"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p146",
+      "page": 146,
+      "image": ".bonus/pages/p146.jpg",
+      "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+    },
+    {
+      "id": "FPT2025:p114",
+      "page": 114,
+      "image": ".bonus/pages/p114.jpg",
+      "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+    },
+    {
+      "id": "FPT2025:p147",
+      "page": 147,
+      "image": ".bonus/pages/p147.jpg",
+      "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+    },
+    {
+      "id": "FPT2025:p149",
+      "page": 149,
+      "image": ".bonus/pages/p149.jpg",
+      "image_sha256": "b2c242eff4cc7a91e0f87a77340a7876ece4871c4d92effee0f193a61dc6db63"
+    },
+    {
+      "id": "FPT2025:p112",
+      "page": 112,
+      "image": ".bonus/pages/p112.jpg",
+      "image_sha256": "f3a85f21c177d32fb81ca62c5fd6e93d8bfc7fced831ad3a255c2eb4a45690d2"
+    },
+    {
+      "id": "FPT2025:p150",
+      "page": 150,
+      "image": ".bonus/pages/p150.jpg",
+      "image_sha256": "04e39df8fdabcbc8347ac2f971b935e8d8a14e95ea06bd300a3c575c3f8a7a97"
+    },
+    {
+      "id": "FPT2025:p106",
+      "page": 106,
+      "image": ".bonus/pages/p106.jpg",
+      "image_sha256": "a45a6ead3434835c01007bd72e74371e3a079bff290a3a52e906f01d96ae2fb5"
+    },
+    {
+      "id": "FPT2025:p119",
+      "page": 119,
+      "image": ".bonus/pages/p119.jpg",
+      "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805593-MAKxOfu7K6nQjpVdtRXw",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1811,
+        "completion_tokens": 86,
+        "total_tokens": 1897,
+        "cost": 0.0002241,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002241,
+          "upstream_inference_prompt_cost": 0.0001811,
+          "upstream_inference_completions_cost": 4.3e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1657.8758000396192,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805597-9V5LbMiYXN1QWsBsySKQ",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 32085,
+        "completion_tokens": 368,
+        "total_tokens": 32453,
+        "cost": 0.0033925,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0033925,
+          "upstream_inference_prompt_cost": 0.0032085,
+          "upstream_inference_completions_cost": 0.000184
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4565.110099967569,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 7782.1343000396155,
+  "query_id": "ft-u2",
+  "question": "Theo báo cáo, nêu chi tiết lượng phát thải CO2 toàn Tập đoàn của từng tháng trong năm 2025.",
+  "split": "test",
+  "config": "vision"
+}

@@ -1,5 +1,9 @@
 # Day 7 — Agentic RAG
 
+> **Bài triển khai cá nhân đã bổ sung:** xem [cách chạy](LAB_RUN.md), [báo cáo](report/individual/2A202604120_NguyenQuocQuangAnh.md), [benchmark](benchmark/cases.json) và [kết quả](results/). Nội dung đề bài gốc ở bên dưới.
+
+> **Bonus FPT 2025 đã đánh giá:** Haiku 5.5 đạt **27/30 test (90%)** theo nhãn AI hỗ trợ đối chiếu nguồn; tổng mới 18 dev + 30 test **0,18257208 USD**. Xem [cách chạy/khôi phục](BONUS_RUN.md), [báo cáo và nhãn từng câu](report/BONUS_REPORT.md), [chi phí](report/MODEL_COST.md). Chưa có xác nhận học viên hoặc điểm chính thức; các lượt cũ được giữ trong history.
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

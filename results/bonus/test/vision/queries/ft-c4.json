@@ -1,0 +1,450 @@
+{
+  "status": "answered",
+  "answer": "Theo biểu đồ \"Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\" (trang 152 của báo cáo, PDF 152): tỷ lệ họp trực tuyến năm 2023 là 67,8%, năm 2025 là 94,0%. Mức tăng = 94,0% − 67,8% = 26,2 điểm phần trăm.\n[FPT2025:p152 — Biểu đồ thanh ngang 'Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025' (phía dưới bên phải), hàng 2023 (họp trực tuyến 67,8%) và hàng 2025 (họp trực tuyến 94,0%), chú giải màu xanh là Họp trực tuyến]",
+  "citations": [
+    {
+      "id": "FPT2025:p152",
+      "region": "Biểu đồ thanh ngang 'Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025' (phía dưới bên phải), hàng 2023 (họp trực tuyến 67,8%) và hàng 2025 (họp trực tuyến 94,0%), chú giải màu xanh là Họp trực tuyến"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805356-Fikyf8nwdixjVmcPVEzh",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_018hXkVTTyfLcBR23ddxshNX",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"biểu đồ họp trực tuyến họp trực tiếp 2023 2025 tỷ lệ\",\"tỷ lệ họp trực tuyến tăng 2023 2024 2025 điểm phần trăm\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo biểu đồ họp trực tuyến/trực tiếp 2023–2025, tỷ lệ họp trực tuyến từ năm 2023 đến 2025 tăng bao nhiêu điểm phần trăm?",
+      "model_queries": [
+        "biểu đồ họp trực tuyến họp trực tiếp 2023 2025 tỷ lệ",
+        "tỷ lệ họp trực tuyến tăng 2023 2024 2025 điểm phần trăm"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p106",
+          "page": 106,
+          "score": 0.03252247488101534,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "score": 0.03252247488101534,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p105",
+          "page": 105,
+          "score": 0.031746031746031744,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p082",
+          "page": 82,
+          "score": 0.03055037313432836,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p085",
+          "page": 85,
+          "score": 0.030536130536130537,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p083",
+          "page": 83,
+          "score": 0.0293236301369863,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 13
+          }
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "score": 0.02877846790890269,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p084",
+          "page": 84,
+          "score": 0.028083267871170464,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 7
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo biểu đồ họp trực tuyến/trực tiếp 2023–2025, tỷ lệ họp trực tuyến từ năm 2023 đến 2025 tăng bao nhiêu điểm phần trăm?"
+      ],
+      "context_ids": [
+        "FPT2025:p106",
+        "FPT2025:p152",
+        "FPT2025:p105",
+        "FPT2025:p082",
+        "FPT2025:p085",
+        "FPT2025:p083",
+        "FPT2025:p011",
+        "FPT2025:p084"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p106",
+          "page": 106,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Xem xét và thảo luận về số liệu tài chính quý II năm 2025 và \nbáo cáo dự kiến 6 tháng cuối năm 2025 do Ban Điều hành \ngửi phục vụ nội dung cuộc họp HĐQT ngày 29/07/2025;\n• Xem xét Báo cáo Kết quả kinh doanh 06 tháng đầu năm \n2025 của Tập đoàn;\n• Xem xét số liệu tài chính quý III năm 2025 do Ban Điều hành \ngửi phục vụ nội dung họp HĐQT ngày 13/11/2025; \n• Xem xét Báo cáo Kết quả kinh doanh 09 tháng đầu năm \n2025, đánh giá mức độ hoàn thành kế hoạch cả năm 2025 \ncủa Tập đoàn và công ty thành viên;\n• Kiểm tra báo cáo kết quả chia cổ tức đợt 01 năm 2025 \n(bằng tiền mặt 10%);\n• Lên kế hoạch kiểm soát định kỳ công nợ quá hạn và \nhàng tồn kho quá hạn trong năm.\n• Xem xét phương án tạm ứng cổ tức 2025 đợt 01 bằng tiền \nmặt theo Nghị quyết ĐHĐCĐ thường niên 2025 đã thông qua;\n• Xem xét đánh giá một số tác động của thị trường tài chính, \nbối cảnh kinh tế thế giới và trong khu vực làm ảnh hưởng tới \nhoạt động công ty năm 2025.\nPhiên họp\nPhiên 04\n24/07/2025\n03/03\nPhiên 05\n11/11/2025\n03/03\nSố thành viên \ntham dự\nNội dung họp\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nNội dung trang trình bày lịch họp và nội dung các phiên họp của công ty trong năm 2025, tập trung vào việc xem xét số liệu tài chính, báo cáo kinh doanh và kế hoạch kiểm soát công nợ, hàng tồn kho.\ntable: Lịch họp và nội dung các phiên họp năm 2025 (trên) — Bảng gồm các cột Phiên họp, Số thành viên tham dự, Nội dung họp; các phiên họp được liệt kê gồm Phiên 04 ngày 24/07/2025 và Phiên 05 ngày 11/11/2025 với nội dung chi tiết về tài chính, báo cáo kinh doanh và kế hoạch kiểm soát.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Lịch họp và nội dung các phiên họp năm 2025",
+              "location": "trên",
+              "description": "Bảng gồm các cột Phiên họp, Số thành viên tham dự, Nội dung họp; các phiên họp được liệt kê gồm Phiên 04 ngày 24/07/2025 và Phiên 05 ngày 11/11/2025 với nội dung chi tiết về tài chính, báo cáo kinh doanh và kế hoạch kiểm soát."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển \nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số \nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường. \nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa, \nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với \nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng. \nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch \nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số \nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ \nmôi trường. Đây là những bước đi quan trọng nhằm tiến gần hơn đến mục tiêu \ntrở thành doanh nghiệp không giấy tờ, giảm thiểu tác động đến môi trường và \nnâng cao hiệu quả công việc.\nViệc tiếp nhận và xử lý văn bản cũng được số hóa hoàn toàn thông qua phần mềm \nquản lý văn bản do Tập đoàn phát triển. Điều này không chỉ rút ngắn thời gian xử lý \nmà còn nâng cao tính chính xác trong công tác quản lý. 100% văn bản nội bộ của \nTập đoàn (ngoại trừ các văn bản quan trọng, mật) đều được phát hành điện tử, tạo ra \nmột quy trình làm việc nhanh chóng và hiệu quả.\n• Văn phòng không giấy tờ\n2022 2023 2024 2025\n7,1%\n92,9%\n17,6%\n82,4%\n78,9% 95,42%\n21,1% 4,58%\nTỷ lệ văn bản phát \nhành điện tử\nTỷ lệ văn bản cứng\nTỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\n2025\n2024\n2023\n0 10 20 30 40 50 60 70 80 90 100\n94,0%\n73,2%\n67,8%\n32,2%\n26,8%\n6,0%\nHọp trực tuyến\nHọp trực tiếp\nBên cạnh đó, Tập đoàn cũng khuyến khích CBNV sử dụng các giải pháp công nghệ \nhỗ trợ họp/trao đổi trực tuyến thay thế cho việc thường xuyên đi công tác để giảm \nlượng khí thải carbon từ phương tiện cá nhân.\nSố liệu biểu đồ phản ánh tỷ lệ các cuộc họp trực tuyến tại FPT tăng đều qua các \nnăm, đạt 94% vào năm 2025, phản ánh nỗ lực đẩy mạnh ứng dụng công nghệ số \ntrong quản trị và vận hành. Việc giảm tỷ lệ họp trực tiếp góp phần hạn chế nhu cầu \ndi chuyển, qua đó giảm tiêu thụ năng lượng và phát thải gián tiếp, phù hợp với \nmục tiêu phát triển bền vững của Tập đoàn.\nTỷ lệ số hoá tài liệu giai đoạn 2022-2025\n100\n80\n60\n40\n20\n0\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày chiến lược văn phòng không giấy tờ của FPT năm 2025, tập trung vào chuyển đổi số nội bộ, sử dụng văn bản điện tử và tăng tỷ lệ họp trực tuyến nhằm giảm tác động môi trường và nâng cao hiệu quả công việc.\nchart: Tỷ lệ số hóa tài liệu giai đoạn 2022-2025 (dưới bên trái) — Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm.\nchart: Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025 (dưới bên phải) — Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tỷ lệ số hóa tài liệu giai đoạn 2022-2025",
+              "location": "dưới bên trái",
+              "description": "Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm."
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025",
+              "location": "dưới bên phải",
+              "description": "Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p105",
+          "page": 105,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Thảo luận về số liệu tài chính quý IV năm 2024 và một số \nthông tin do Ban Điều hành chuẩn bị cho cuộc họp HĐQT \nngày 05/02/2025;\n• Xem xét và cho ý kiến Báo cáo Kết quả kinh doanh quý IV \nnăm 2025 và cả năm 2025 của Tập đoàn và công ty thành viên;\n• Đánh giá các đề xuất của Ban Điều hành về việc tăng vốn \nđiều lệ cho ba công ty thành viên trong năm 2025 gồm:\n◦ FPT Software: tăng từ 6.250 tỷ đồng lên 7.750 tỷ đồng; \n◦ FPT Education: tăng từ 4.000 tỷ đồng lên 4.500 tỷ đồng;\n◦ FPT IS: tăng từ 1.300 tỷ đồng lên 1.500 tỷ đồng.\n• Đánh giá Báo cáo tài chính sơ bộ quý I năm 2025 do \n Ban Điều hành trình bày;\n• Đánh giá Báo cáo tài chính kiểm toán năm 2024 do \nBan Điều hành báo cáo chi tiết trong cuộc họp HĐQT ngày \n20/03/2025;\n• Xem xét công tác chuẩn bị hồ sơ cho ĐHĐCĐ thường niên \n2025 do Ban Điều hành chuẩn bị;\n• Trao đổi và đánh giá công tác giám sát tính tuân thủ của \ncác thành viên HĐQT, thành viên Ban Điều hành và vị trí \nquản lý công ty trong năm 2024 để chuẩn bị cho báo cáo \nBKS trình ĐHĐCĐ thường niên 2025;\n• Xem xét báo cáo công nợ quá hạn và rủi ro tiềm ẩn các \nkhoản nợ quá hạn, nợ khó đòi năm 2024;\n• Thống nhất các nội dung trong Báo cáo của BKS dự kiến sẽ \ntrình ĐHĐCĐ thường niên 2025.\n• Xem xét kế hoạch kinh doanh năm 2025 do Ban Điều hành \ntrình HĐQT;\n• Thảo luận nội bộ và chuẩn bị tổng kết hoạt động của BKS \nnăm 2024 cũng như xây dựng kế hoạch hoạt động BKS năm \n2025 báo cáo trong ĐHĐCĐ thường niên 2025.\nTrong năm 2025 BKS đã tiến hành 05 phiên họp thường kỳ. Không có phát sinh cuộc họp bất thường trong năm. \nNội dung chi tiết các cuộc họp của BKS năm 2025\nPhiên họp\nPhiên 01\nNgày\n03/02/2025\nPhiên 02\nNgày\n17/03/2025\n03/03\n• Đánh giá kết quả ĐHĐCĐ thường niên 2025 ngày \n15/04/2025; xem xét những ý kiến của các cổ đông đã \nphát biểu, chia sẻ trong Đại hội hoặc gửi thư đến Ban Tổ chức \nĐại hội; đánh giá kết quả và tính minh bạch của Đại hội;\nPhiên 03 • Phân công chi tiết công việc các thành viên BKS trong năm 2025.\nNgày\n18/04/2025\n03/03\n03/03\nSố thành viên \ntham dự\nNội dung họp\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nNội dung chi tiết các cuộc họp của Ban Kiểm Soát (BKS) năm 2025 với các phiên họp, số thành viên tham dự và nội dung thảo luận chính liên quan đến tài chính, kế hoạch kinh doanh, báo cáo kiểm toán và phân công công việc.\ntable: Nội dung chi tiết các cuộc họp của BKS năm 2025 (trên) — Bảng gồm các cột Phiên họp, Số thành viên tham dự, Nội dung họp; ghi rõ ngày họp, số thành viên tham dự và các nội dung thảo luận, đánh giá, xem xét liên quan đến tài chính, kế hoạch kinh doanh, báo cáo kiểm toán, công tác giám sát và phân công công việc trong năm 2025.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Nội dung chi tiết các cuộc họp của BKS năm 2025",
+              "location": "trên",
+              "description": "Bảng gồm các cột Phiên họp, Số thành viên tham dự, Nội dung họp; ghi rõ ngày họp, số thành viên tham dự và các nội dung thảo luận, đánh giá, xem xét liên quan đến tài chính, kế hoạch kinh doanh, báo cáo kiểm toán, công tác giám sát và phân công công việc trong năm 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p082",
+          "page": 82,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Mô hình hoạt động, cơ cấu, vai trò, trách nhiệm và thù lao của thành viên HĐQT \nđược quy định rõ trong Điều lệ Công ty và Quy chế Quản trị công ty, đồng thời \nđược công bố công khai trên Báo cáo thường niên và website của Tập đoàn.\n• HĐQT xem xét và phê duyệt định hướng chiến lược của Tập đoàn, kế hoạch kinh \ndoanh hàng năm, các khoản đầu tư không thuộc kế hoạch kinh doanh và ngân \nsách vượt quá 10% giá trị kế hoạch và ngân sách kinh doanh hàng năm. \n• HĐQT đã và đang thể hiện tốt vai trò giám sát tính hiệu quả của công tác quản trị, \nviệc tuân thủ pháp luật của Tập đoàn. Điều này được thể hiện trong nội dung Báo \ncáo Đánh giá của HĐQT về hoạt động của Tập đoàn và Đánh giá của HĐQT về \nBan Điều hành đính kèm trong Báo cáo thường niên.\n• HĐQT đã giao nhiệm vụ cho bộ phận Kiểm toán nội bộ kiểm tra, đánh giá, giám sát\ncác vấn đề quản trị bền vững, báo cáo và đề xuất HĐQT các phương án thực hiện để \nđảm bảo quản trị rủi ro và cơ hội liên quan đến phát triển bền vững.\n• HĐQT cũng đã thực hiện giám sát, thúc đẩy các chuẩn mực cao về đạo đức kinh \ndoanh, cũng như tính liêm chính của Báo cáo tài chính.\n• Tỷ lệ thành viên HĐQT tham gia các cuộc họp định kỳ hàng quý hoặc lấy ý kiến \nbằng văn bản đạt gần 100%. Tài liệu họp được gửi đầy đủ đến các thành viên \nHĐQT tối thiểu bảy ngày trước ngày họp. Trong năm 2025, HĐQT đã tiến hành 07 \ncuộc họp, trong đó, có 04 cuộc họp theo hình thức trực tiếp và 03 cuộc họp xin ý \nkiến bằng văn bản, đảm bảo đúng quy định về số lượng 01 cuộc họp/quý. HĐQT \nđã ban hành 08 Nghị quyết. \nTrách nhiệm của HĐQT\nTrong năm 2025, HĐQT đã hoạt động tích cực và tuân thủ đầy đủ các quy định \nliên quan đối với hoạt động và trách nhiệm của HĐQT đảm bảo các lợi ích của cổ đông. \n• Nguyên tắc 01: Thiết lập rõ vai trò, trách nhiệm và \ncam kết của HĐQT\n01 Cuộc họp/quý\n03 Cuộc họp xin ý kiến \nbằng văn bản 08 Nghị quyết được \nban hành\n04 Cuộc họp \ntrực tiếp\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về trách nhiệm của Hội đồng Quản trị (HĐQT) trong năm 2025, bao gồm nguyên tắc thiết lập vai trò, trách nhiệm và cam kết của HĐQT, các hoạt động họp và ban hành nghị quyết.\ntable: Tổng hợp số liệu hoạt động của HĐQT năm 2025 (phải trên) — Số lượng cuộc họp/quý, cuộc họp trực tiếp, cuộc họp xin ý kiến bằng văn bản và nghị quyết được ban hành trong năm 2025.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tổng hợp số liệu hoạt động của HĐQT năm 2025",
+              "location": "phải trên",
+              "description": "Số lượng cuộc họp/quý, cuộc họp trực tiếp, cuộc họp xin ý kiến bằng văn bản và nghị quyết được ban hành trong năm 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p085",
+          "page": 85,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Thông qua Phương án tạm ứng cổ tức đợt một năm 2025 bằng \ntiền mặt.\nHĐQT: 07/07 thành viên.\nQuan sát viên:\n• Ban kiểm soát: 03/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành Nghị quyết số \n01.11-2025/NQ-HĐQTFPT ngày \n15/11/2025.\nĐã công bố thông tin tại \nvăn bản số 327/FPT-FCC \nngày 14/11/2025.\nPhiên 07\nNgày 13/11/2025\nHĐQT: 07/07 thành viên.\nQuan sát viên:\n• Ban kiểm soát: 02/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành Nghị quyết số \n01.07-2025/NQ-HĐQTFPT ngày \n30/07/2025.\n• Tăng vốn điều lệ cho Công ty Cổ phần FPT;\n• Giao cho Người đại diện theo pháp luật của Công ty tổ chức thực \nhiện việc cập nhật nội dung đăng ký doanh nghiệp tương ứng và \ncác thủ tục khác theo quy định pháp luật.\nĐã công bố thông tin tại \nvăn bản số 228/FPT-FAF \nngày 30/07/2025.\nPhiên 06\nNgày 29/07/2025\nThành viên HĐQT có trách nhiệm tham gia các cuộc họp trong năm và có ý kiến rõ ràng về các vấn đề được đưa ra thảo luận, đồng thời đảm bảo tham gia tối thiểu \n01 cuộc họp/quý. Trong trường hợp không thể tham dự cuộc họp, thành viên HĐQT phải thông báo bằng văn bản cho Văn phòng Chủ tịch HĐQT.\nPhiên họp Thành phần tham dự Nội dung họp và Nghị quyết Ghi chú\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo về các phiên họp Hội đồng Quản trị (HĐQT) Công ty Cổ phần FPT năm 2025, bao gồm thành phần tham dự, nội dung họp và nghị quyết, cùng ghi chú về việc công bố thông tin.\ntable: Thông tin các phiên họp HĐQT năm 2025 (phải) — Bảng gồm các cột: Phiên họp (số và ngày họp), Thành phần tham dự (số lượng thành viên HĐQT, Ban kiểm soát, Ban Điều hành), Nội dung họp và Nghị quyết (tăng vốn điều lệ, giao quyền cập nhật nội dung đăng ký doanh nghiệp, tạm ứng cổ tức tiền mặt), Ghi chú (thông tin công bố văn bản kèm ngày).",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Thông tin các phiên họp HĐQT năm 2025",
+              "location": "phải",
+              "description": "Bảng gồm các cột: Phiên họp (số và ngày họp), Thành phần tham dự (số lượng thành viên HĐQT, Ban kiểm soát, Ban Điều hành), Nội dung họp và Nghị quyết (tăng vốn điều lệ, giao quyền cập nhật nội dung đăng ký doanh nghiệp, tạm ứng cổ tức tiền mặt), Ghi chú (thông tin công bố văn bản kèm ngày)."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p083",
+          "page": 83,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Nội dung các phiên họp và Nghị quyết\nPhiên họp Thành phần tham dự Nội dung họp và Nghị quyết Ghi chú\nPhiên 01\nNgày 05/02/2025\nHĐQT: 06/07 thành viên.\nQuan sát viên:\n• BKS: 03/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành Nghị quyết số \n01.01-2025/NQ-HĐQTFPT ngày \n06/02/2025.\n• Thông qua Kết quả kinh doanh năm 2024;\n• Thông qua Kế hoạch kinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua Định hướng chiến lược 2025-2027, các chương trình \nchiến lược, kinh doanh trọng điểm và trình ĐHĐCĐ phê duyệt;\n• Thông qua ngày chốt danh sách và ngày họp ĐHĐCĐ.\nĐã công bố thông tin tại \nvăn bản số 24/FPT-FCC \nngày 06/02/2025.\nPhiên 02\nNgày 20/03/2025\nHĐQT: 07/07 thành viên.\nQuan sát viên:\n• BKS: 03/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành 02 Nghị quyết: \n• Nghị quyết số \n01.03-2025/NQ-HĐQTFPT ngày \n20/03/2025;\n• Nghị quyết số \n02.03-2025/NQ-HĐQTFPT ngày \n20/03/2025.\n• Thông qua Chương trình ĐHĐCĐ thường niên 2025 và trình ĐHĐCĐ \nphê duyệt;\n• Thông qua Quy chế tổ chức ĐHĐCĐ thường niên 2025;\n• Thông qua Báo cáo của HĐQT năm 2024, định hướng, kế hoạch \nkinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua Ngân sách thu nhập và thù lao của HĐQT năm 2025 và \ntrình ĐHĐCĐ phê duyệt;\n• Thông qua Báo cáo tài chính 2024 đã kiểm toán và trình ĐHĐCĐ \nphê duyệt;\n• Thông qua Phương án phân phối lợi nhuận năm 2024, Phương án \nphát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu \ncho cổ đông, Chính sách chi trả cổ tức tiền mặt năm 2025 và trình \nĐHĐCĐ phê duyệt;\n• Thông qua đề xuất ủy quyền cho HĐQT lựa chọn một trong bốn \ncông ty kiểm toán (Big4) thực hiện kiểm toán Báo cáo tài chính năm \n2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua đề xuất trình ĐHĐCĐ phê duyệt Phương án phát hành \ncổ phần cho cán bộ Quản lý cấp cao giai đoạn 2026-2030;\n• Thông qua việc tái bổ nhiệm Tổng giám đốc Nguyễn Văn Khoa \nnhiệm kỳ ba năm tiếp theo từ 29/03/2025 đến hết ngày \n28/03/2028;\nĐã công bố thông tin tại \nvăn bản số 60/FPT-FMC \nvà 62/FPT-FMC ngày \n21/03/2025.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nNội dung các phiên họp và nghị quyết của Hội đồng Quản trị FPT năm 2025, bao gồm thành phần tham dự, nội dung họp và các nghị quyết được thông qua.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2021 2022 2023 2024 2025\n30\n20\n10\n0\nTỷ suất sinh lời\ntrên vốn chủ sở hữu (ROE)\n28,1%\nTỷ suất sinh lời\ntrên tổng tài sản (ROA) \n14,1%\nROA (%)\nROE (%)\n26,7% 27,7% 27,9% 28,5% 28,1%\n11,4% 11,9% 13,6% 14,4% 14,1%\n1.697 2.011 2.374 2.741 3.185\n2021 2022 2023 2024 2025\n3.500\n3.000\n2.500\n2.000\n1.500\n1.000\n500\n0\n16,2% so với cùng kỳ\nCổ tức bằng tiền mặt\n3.185 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n5.750 7.112 8.167 10.117 11.078\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n9,5% so với cùng kỳ\nĐóng góp Ngân sách Nhà nước\nTỷ VNĐ 11.078\nĐơn vị: Tỷ VNĐ\nĐảm bảo tăng trưởng ổn định (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chỉ số tài chính quan trọng của FPT năm 2025, bao gồm cổ tức tiền mặt, đóng góp ngân sách nhà nước, và tỷ suất sinh lời trên vốn chủ sở hữu và tổng tài sản.\nchart: Cổ tức bằng tiền mặt (trái trên) — Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Đóng góp Ngân sách Nhà nước (phải trên) — Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA) (dưới) — Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cổ tức bằng tiền mặt",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Đóng góp Ngân sách Nhà nước",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA)",
+              "location": "dưới",
+              "description": "Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p084",
+          "page": 84,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Phiên họp Thành phần tham dự Nội dung họp và Nghị quyết Ghi chú\n• Tăng vốn điều lệ cho Công ty Cổ phần FPT;\n• Giao cho Người đại diện theo pháp luật của Công ty tổ chức thực hiện \nviệc cập nhật nội dung đăng ký doanh nghiệp và cập nhật Điều lệ\nCông ty tương ứng.\n• Thông qua Phương án phát hành cổ phiếu theo chương trình lựa\nchọn cho CBNV có thành tích đóng góp trong năm 2024;\n• Thông qua Danh sách CBNV được tham gia chương trình lựa chọn\ncho CBNV có thành tích đóng góp trong năm 2024;\n• Thông qua Phương án phát hành cổ phiếu theo chương trình lựa\nchọn cho cán bộ lãnh đạo cấp cao trong năm 2025;\n• Thông qua Danh sách CBNV được tham gia chương trình lựa chọn\ncho cán bộ lãnh đạo cấp cao trong năm 2025.\nXin ý kiến bằng văn bản.\nBan hành Nghị quyết số \n01.05-2025/NQ-HĐQTFPT ngày \n20/05/2025.\nĐã công bố thông tin tại \nvăn bản số 125/FPT-FCC \nngày 20/05/2025.\nPhiên 03\nTừ ngày 16/05 \nđến 19/05/2025\n• Thông qua việc triển khai thực hiện phương án phát hành cổ phiếu để\ntăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu theo Mục 2\nĐiều 4 Nghị quyết ĐHĐCĐ thường niên 2025;\n• Giao cho Chủ tịch HĐQT triển khai phương án phát hành cổ phiếu để\ntăng vốn từ nguồn vốn chủ sở hữu nêu trên;\n• Thông qua Phương án chi trả cổ tức còn lại năm 2024 bằng tiền mặt.\nXin ý kiến bằng văn bản.\nBan hành Nghị quyết số \n02.05-2025/NQ-HĐQTFPT ngày \n29/05/2025.\nĐã công bố thông tin tại \nvăn bản số 142/FPT-FCC \nngày 29/05/2025\nPhiên 04\nTừ ngày 23/05 \nđến 28/05/2025\n• Lựa chọn Công ty TNHH PwC Việt Nam là đơn vị kiểm toán Báo cáo tài\nchính năm 2025 cho Công ty Cổ phần FPT.\nXin ý kiến bằng văn bản.\nBan hành Nghị quyết số \n01.06-2025/NQ-HĐQTFPT ngày \n17/06/2025.\nĐã công bố thông tin tại \nvăn bản số 168/FPT-FCC \nngày 17/06/2025\nPhiên 05\nTừ ngày 16/06 \nđến 17/06/2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nNội dung các phiên họp của công ty FPT năm 2025 liên quan đến phát hành cổ phiếu, tăng vốn điều lệ, và lựa chọn đơn vị kiểm toán.\ntable: Nội dung họp và Nghị quyết các phiên họp năm 2025 (phải) — Bảng gồm các cột: Phiên họp, Thành phần tham dự, Nội dung họp và Nghị quyết, Ghi chú; trình bày các phiên họp từ Phiên 03 đến Phiên 05 với nội dung chi tiết về phát hành cổ phiếu, tăng vốn điều lệ, và lựa chọn đơn vị kiểm toán.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Nội dung họp và Nghị quyết các phiên họp năm 2025",
+              "location": "phải",
+              "description": "Bảng gồm các cột: Phiên họp, Thành phần tham dự, Nội dung họp và Nghị quyết, Ghi chú; trình bày các phiên họp từ Phiên 03 đến Phiên 05 với nội dung chi tiết về phát hành cổ phiếu, tăng vốn điều lệ, và lựa chọn đơn vị kiểm toán."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p106",
+          "path": ".bonus/pages/p106.jpg",
+          "sha256": "a45a6ead3434835c01007bd72e74371e3a079bff290a3a52e906f01d96ae2fb5"
+        },
+        {
+          "id": "FPT2025:p152",
+          "path": ".bonus/pages/p152.jpg",
+          "sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+        },
+        {
+          "id": "FPT2025:p105",
+          "path": ".bonus/pages/p105.jpg",
+          "sha256": "a94a87865e430212f2824df593212a3df6c4b0104a16b2948e95856688936a0e"
+        },
+        {
+          "id": "FPT2025:p082",
+          "path": ".bonus/pages/p082.jpg",
+          "sha256": "d4ea77d225e23a9361d893ae1c107f010a591ab7cc6101591f33b70c2a6255a6"
+        },
+        {
+          "id": "FPT2025:p085",
+          "path": ".bonus/pages/p085.jpg",
+          "sha256": "f9b9ea6c9ac4de9ff453b0dfec07cbfda569f25b4b2e5339fa076bc789dc083c"
+        },
+        {
+          "id": "FPT2025:p083",
+          "path": ".bonus/pages/p083.jpg",
+          "sha256": "e3cc44958861ed1eb10a73b91bc9c54d3fc9a8c7f11afd9998908042636c2eed"
+        },
+        {
+          "id": "FPT2025:p011",
+          "path": ".bonus/pages/p011.jpg",
+          "sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+        },
+        {
+          "id": "FPT2025:p084",
+          "path": ".bonus/pages/p084.jpg",
+          "sha256": "205d9d2417251a217ec51c4f527221f16ebe122b459a910206d1e650e532b0a3"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805360-JTdZarkQPDopQmlJkiBb",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_014njNAo2CnirBwbWa2J9NAL",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo biểu đồ \\\"Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\\\" (trang 152 của báo cáo, PDF 152): tỷ lệ họp trực tuyến năm 2023 là 67,8%, năm 2025 là 94,0%. Mức tăng = 94,0% − 67,8% = 26,2 điểm phần trăm.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p152\",\"region\":\"Biểu đồ thanh ngang 'Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025' (phía dưới bên phải), hàng 2023 (họp trực tuyến 67,8%) và hàng 2025 (họp trực tuyến 94,0%), chú giải màu xanh là Họp trực tuyến\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p106",
+    "FPT2025:p152",
+    "FPT2025:p105",
+    "FPT2025:p082",
+    "FPT2025:p085",
+    "FPT2025:p083",
+    "FPT2025:p011",
+    "FPT2025:p084"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p106",
+      "page": 106,
+      "image": ".bonus/pages/p106.jpg",
+      "image_sha256": "a45a6ead3434835c01007bd72e74371e3a079bff290a3a52e906f01d96ae2fb5"
+    },
+    {
+      "id": "FPT2025:p152",
+      "page": 152,
+      "image": ".bonus/pages/p152.jpg",
+      "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+    },
+    {
+      "id": "FPT2025:p105",
+      "page": 105,
+      "image": ".bonus/pages/p105.jpg",
+      "image_sha256": "a94a87865e430212f2824df593212a3df6c4b0104a16b2948e95856688936a0e"
+    },
+    {
+      "id": "FPT2025:p082",
+      "page": 82,
+      "image": ".bonus/pages/p082.jpg",
+      "image_sha256": "d4ea77d225e23a9361d893ae1c107f010a591ab7cc6101591f33b70c2a6255a6"
+    },
+    {
+      "id": "FPT2025:p085",
+      "page": 85,
+      "image": ".bonus/pages/p085.jpg",
+      "image_sha256": "f9b9ea6c9ac4de9ff453b0dfec07cbfda569f25b4b2e5339fa076bc789dc083c"
+    },
+    {
+      "id": "FPT2025:p083",
+      "page": 83,
+      "image": ".bonus/pages/p083.jpg",
+      "image_sha256": "e3cc44958861ed1eb10a73b91bc9c54d3fc9a8c7f11afd9998908042636c2eed"
+    },
+    {
+      "id": "FPT2025:p011",
+      "page": 11,
+      "image": ".bonus/pages/p011.jpg",
+      "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+    },
+    {
+      "id": "FPT2025:p084",
+      "page": 84,
+      "image": ".bonus/pages/p084.jpg",
+      "image_sha256": "205d9d2417251a217ec51c4f527221f16ebe122b459a910206d1e650e532b0a3"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805356-Fikyf8nwdixjVmcPVEzh",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1838,
+        "completion_tokens": 107,
+        "total_tokens": 1945,
+        "cost": 0.0002373,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002373,
+          "upstream_inference_prompt_cost": 0.0001838,
+          "upstream_inference_completions_cost": 5.35e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2293.669899983797,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805360-JTdZarkQPDopQmlJkiBb",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 30417,
+        "completion_tokens": 375,
+        "total_tokens": 30792,
+        "cost": 0.0032292,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0032292,
+          "upstream_inference_prompt_cost": 0.0030417,
+          "upstream_inference_completions_cost": 0.0001875
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5868.249399994966,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 9702.904600009788,
+  "query_id": "ft-c4",
+  "question": "Theo biểu đồ họp trực tuyến/trực tiếp 2023–2025, tỷ lệ họp trực tuyến từ năm 2023 đến 2025 tăng bao nhiêu điểm phần trăm?",
+  "split": "test",
+  "config": "vision"
+}

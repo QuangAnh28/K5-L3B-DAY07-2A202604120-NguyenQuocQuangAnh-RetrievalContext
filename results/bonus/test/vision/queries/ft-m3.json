@@ -1,0 +1,452 @@
+{
+  "status": "answered",
+  "answer": "Tỷ lệ paperless năm 2025 của FPT đạt 95,42%, và hợp đồng giao dịch điện tử chiếm khoảng 97% tổng số hợp đồng ký kết. Mục tiêu Net Zero (phát thải ròng bằng 0) được đặt vào năm 2040, với mốc trung hạn giảm 15,8% tổng lượng phát thải khí nhà kính đến năm 2030.\n\nTỷ lệ paperless KHÔNG đồng nghĩa đã đạt Net Zero. Paperless chỉ là tỷ lệ văn bản điện tử trong quản trị nội bộ; còn Net Zero là mục tiêu dài hạn đến 2040. Năm 2025, tổng phát thải khí nhà kính của FPT là 127.952 tấn CO2 (giảm so với 143.574 tấn năm 2024), nhưng đây chỉ là giảm phát thải, chưa phải trung hòa ròng bằng 0.\n[FPT2025:p152 — Mục 'Văn phòng không giấy tờ', đoạn văn nêu tỷ lệ paperless 95,42% và hợp đồng điện tử ~97%; biểu đồ 'Tỷ lệ số hoá tài liệu giai đoạn 2022-2025' (dưới bên trái) cột 2025 với 95,42%] [FPT2025:p114 — Phần 'Lộ trình Net Zero 2040' (đầu trang), khung nổi bật: mục tiêu giảm 15,8% phát thải đến 2030 và Net Zero vào năm 2040] [FPT2025:p146 — Bảng 'Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025' (bên phải), hàng Tổng: 143.574 (2024) và 127.952 (2025), đơn vị tấn CO2 tương đương]",
+  "citations": [
+    {
+      "id": "FPT2025:p152",
+      "region": "Mục 'Văn phòng không giấy tờ', đoạn văn nêu tỷ lệ paperless 95,42% và hợp đồng điện tử ~97%; biểu đồ 'Tỷ lệ số hoá tài liệu giai đoạn 2022-2025' (dưới bên trái) cột 2025 với 95,42%"
+    },
+    {
+      "id": "FPT2025:p114",
+      "region": "Phần 'Lộ trình Net Zero 2040' (đầu trang), khung nổi bật: mục tiêu giảm 15,8% phát thải đến 2030 và Net Zero vào năm 2040"
+    },
+    {
+      "id": "FPT2025:p146",
+      "region": "Bảng 'Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025' (bên phải), hàng Tổng: 143.574 (2024) và 127.952 (2025), đơn vị tấn CO2 tương đương"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805439-0JkkvXAcg4NkMzA4oCFb",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01BUua5NywhtGZQhqpEPrjM3",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"văn phòng không giấy tờ paperless tỷ lệ năm 2025\",\"kiểm kê khí nhà kính mục tiêu Net Zero\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Kết hợp phần văn phòng không giấy tờ và phần kiểm kê khí nhà kính: tỷ lệ paperless năm 2025 và mốc mục tiêu Net Zero là gì? Tỷ lệ paperless có đồng nghĩa đã đạt Net Zero không?",
+      "model_queries": [
+        "văn phòng không giấy tờ paperless tỷ lệ năm 2025",
+        "kiểm kê khí nhà kính mục tiêu Net Zero"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "score": 0.03200204813108039,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "score": 0.03200204813108039,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "score": 0.031009615384615385,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "score": 0.03055037313432836,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p115",
+          "page": 115,
+          "score": 0.02919863597612958,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "FPT2025:p217",
+          "page": 217,
+          "score": 0.028814262023217248,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "FPT2025:p151",
+          "page": 151,
+          "score": 0.02719970792259949,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 23
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Kết hợp phần văn phòng không giấy tờ và phần kiểm kê khí nhà kính: tỷ lệ paperless năm 2025 và mốc mục tiêu Net Zero là gì? Tỷ lệ paperless có đồng nghĩa đã đạt Net Zero không?"
+      ],
+      "context_ids": [
+        "FPT2025:p114",
+        "FPT2025:p146",
+        "FPT2025:p152",
+        "FPT2025:p119",
+        "FPT2025:p147",
+        "FPT2025:p115",
+        "FPT2025:p217",
+        "FPT2025:p151"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "01\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng, \nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần \nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới \nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải \nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam \nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển \nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý \nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận đường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm \ngiảm phát thải\n02\nXác định mục tiêu giảm phát \nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm \nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng \nlượng sạch, song song với triển \nkhai các giải pháp nâng cao \nhiệu quả năng lượng tại các cơ \nsở vận hành, bao gồm: Tòa nhà \nvăn phòng; Trung tâm dữ liệu.\n• Tối ưu hệ thống điện và ứng \ndụng các giải pháp quản lý \nnăng lượng thông minh;\n• Đẩy mạnh sử dụng điện từ \nnguồn năng lượng tái tạo \nnhư năng lượng mặt trời;\n• Cân nhắc mua chứng chỉ \nnăng lượng tái tạo (REC).\n• Tòa nhà văn phòng: Lắp đặt \nđèn LED, hệ thống cảm biến \nthông minh; tích hợp cảm biến \nnhiệt độ và độ ẩm để điều \nkhiển hệ thống điều hòa tự động;\n• Trung tâm dữ liệu: Tối ưu hệ \nthống làm mát thông qua các \ngiải pháp Liquid Cooling, \nAI-driven Thermal Management.\nSử dụng môi chất lạnh có chỉ số \nGWP thấp; áp dụng cơ chế \nvận hành tiết kiệm năng lượng \ncho hệ thống máy chủ, áp dụng \ntiêu chuẩn xanh cho hạ tầng.\n• Theo dõi các tiêu chuẩn và \nhạn mức phát thải của Việt Nam \nđể triển khai kiểm kê khí nhà kính;\n• Báo cáo, đo lường và xác nhận \nlượng khí nhà kính/khí thải \nđịnh kỳ;\n• Giám sát và theo dõi chặt chẽ các \nhoạt động để đảm bảo hiệu quả \ntrong việc giảm phát thải.\n•\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày lộ trình Net Zero 2040 của tập đoàn FPT, bao gồm các bước và mục tiêu giảm phát thải khí nhà kính đến năm 2030 và hướng tới mục tiêu Net Zero vào năm 2040.\ndiagram: Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040 (giữa trang) — 5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040",
+              "location": "giữa trang",
+              "description": "5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế \nđược công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của \nViện Tài nguyên thế giới (WRI) và tiêu chuẩn ISO 14040/14044.\nViệc nâng cao độ chính xác của dữ liệu phát thải được Tập đoàn xác định là một \nquá trình cải tiến liên tục. Trên cơ sở mở rộng nguồn dữ liệu, hoàn thiện phương \npháp tính toán và nâng cao năng lực phân tích, FPT định kỳ rà soát, cập nhật mô hình \nvà điều chỉnh lộ trình giảm phát thải phù hợp với từng giai đoạn phát triển và mức độ \nsẵn sàng của dữ liệu.\nFPT chủ động thực hiện kiểm kê phát thải khí nhà kính tại trụ sở chính, các toà nhà, \nđịa điểm kinh doanh tại Việt Nam của 08 công ty thành viên. Phạm vi xác định dấu \nchân carbon của FPT được xây dựng phù hợp với khuôn khổ GHG Protocol và các \nnguồn phát thải trọng yếu, có liên quan trực tiếp đến hoạt động của Tập đoàn, \ntrên cơ sở mức độ sẵn có và độ tin cậy của dữ liệu. \nCác nguồn phát thải khí nhà kính được FPT thực hiện kiểm kê trên 03 phạm vi bao gồm:\n• Phạm vi 1: Phát thải khí nhà kính trực tiếp phát sinh từ các nguồn do FPT sở hữu hoặc \nkiểm soát, bao gồm: tiêu thụ xăng dầu cho phương tiện đi lại thuộc sở hữu của \nTập đoàn, máy phát điện, thất thoát môi chất lạnh của hệ thống…; \n• Phạm vi 2: Phát thải khí nhà kính gián tiếp phát sinh từ việc sử dụng điện, nước được \nmua từ nhà cung cấp bên ngoài;\n• Phạm vi 3 (đang nghiên cứu): Phát thải khí nhà kính gián tiếp khác do các hoạt động \ncủa Tập đoàn nhưng từ các nguồn mà Tập đoàn không sở hữu.\nQuản lý hiệu quả tiêu thụ năng lượng và kiểm kê khí nhà kính\n• Phạm vi và phương pháp thu thập dữ liệu\nNăm 2025, lượng phát thải khí nhà kính của FPT là 127.952 tấn CO2. Hai nguồn \nphát thải khí nhà kính phát sinh chủ yếu là xăng dầu dùng cho xe, máy phát điện \n(Phạm vi 1) và điện năng phục vụ cho sản xuất, vận hành máy móc thiết bị (Phạm vi \n2) thuộc sở hữu của FPT.\nNăm 2025, lượng phát thải khí nhà kính của FPT giảm so với năm 2024, trong khi \nhoạt động kinh doanh tiếp tục duy trì tăng trưởng cho thấy các nỗ lực tối ưu vận hành, \nứng dụng công nghệ và quản lý năng lượng đã phát huy hiệu quả, ngay cả khi quy mô \nhoạt động không ngừng mở rộng.\nNguồn phát thải khí nhà kính chủ yếu của Tập đoàn phát sinh từ Phạm vi 2, chiếm \nkhoảng 96% tổng lượng phát thải của toàn Tập đoàn. Trong đó, tiêu thụ điện năng \ntại các trung tâm Dữ liệu và tòa nhà văn phòng/ký túc xá là nguồn phát thải chính, \nphản ánh đặc thù hoạt động của FPT trong lĩnh vực công nghệ và dịch vụ. \nTrên hành trình hướng tới mục tiêu Net Zero vào năm 2040, Tập đoàn kiên định \ntập trung đầu tư vào các giải pháp dài hạn, nâng cao hiệu quả vận hành hạ tầng \nvà mạng lưới, đồng hành cùng chuỗi cung ứng trong quá trình giảm phát thải và \nthúc đẩy đổi mới sáng tạo thông qua hợp tác với các đối tác, đặc biệt trong các \nlĩnh vực giảm phát thải. Cách tiếp cận này giúp FPT từng bước xây dựng nền tảng \ntăng trưởng bền vững song hành với trách nhiệm khí hậu.\n• Kết quả thực hiện kiểm kê khí nhà kính\nTổng hợp lượng phát thải khí nhà kính của FPT năm 2025\nPhạm vi Năm 2023 Năm 2024 Năm 2025\nPhạm vi 1 13.217 4.826 4.383\nPhạm vi 2 109.696 138.748 123.569\n122.913 143.574 127.952\nPhạm vi 3\nTổng\nChưa triển kh",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025",
+              "location": "phải",
+              "description": "Bảng tổng hợp lượng phát thải khí nhà kính theo các phạm vi (Phạm vi 1, Phạm vi 2, Phạm vi 3) qua các năm 2023, 2024 và 2025, đơn vị tính là tấn CO2 tương đương."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển \nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số \nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường. \nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa, \nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với \nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng. \nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch \nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số \nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ \nmôi trường. Đây là những bước đi quan trọng nhằm tiến gần hơn đến mục tiêu \ntrở thành doanh nghiệp không giấy tờ, giảm thiểu tác động đến môi trường và \nnâng cao hiệu quả công việc.\nViệc tiếp nhận và xử lý văn bản cũng được số hóa hoàn toàn thông qua phần mềm \nquản lý văn bản do Tập đoàn phát triển. Điều này không chỉ rút ngắn thời gian xử lý \nmà còn nâng cao tính chính xác trong công tác quản lý. 100% văn bản nội bộ của \nTập đoàn (ngoại trừ các văn bản quan trọng, mật) đều được phát hành điện tử, tạo ra \nmột quy trình làm việc nhanh chóng và hiệu quả.\n• Văn phòng không giấy tờ\n2022 2023 2024 2025\n7,1%\n92,9%\n17,6%\n82,4%\n78,9% 95,42%\n21,1% 4,58%\nTỷ lệ văn bản phát \nhành điện tử\nTỷ lệ văn bản cứng\nTỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\n2025\n2024\n2023\n0 10 20 30 40 50 60 70 80 90 100\n94,0%\n73,2%\n67,8%\n32,2%\n26,8%\n6,0%\nHọp trực tuyến\nHọp trực tiếp\nBên cạnh đó, Tập đoàn cũng khuyến khích CBNV sử dụng các giải pháp công nghệ \nhỗ trợ họp/trao đổi trực tuyến thay thế cho việc thường xuyên đi công tác để giảm \nlượng khí thải carbon từ phương tiện cá nhân.\nSố liệu biểu đồ phản ánh tỷ lệ các cuộc họp trực tuyến tại FPT tăng đều qua các \nnăm, đạt 94% vào năm 2025, phản ánh nỗ lực đẩy mạnh ứng dụng công nghệ số \ntrong quản trị và vận hành. Việc giảm tỷ lệ họp trực tiếp góp phần hạn chế nhu cầu \ndi chuyển, qua đó giảm tiêu thụ năng lượng và phát thải gián tiếp, phù hợp với \nmục tiêu phát triển bền vững của Tập đoàn.\nTỷ lệ số hoá tài liệu giai đoạn 2022-2025\n100\n80\n60\n40\n20\n0\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày chiến lược văn phòng không giấy tờ của FPT năm 2025, tập trung vào chuyển đổi số nội bộ, sử dụng văn bản điện tử và tăng tỷ lệ họp trực tuyến nhằm giảm tác động môi trường và nâng cao hiệu quả công việc.\nchart: Tỷ lệ số hóa tài liệu giai đoạn 2022-2025 (dưới bên trái) — Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm.\nchart: Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025 (dưới bên phải) — Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tỷ lệ số hóa tài liệu giai đoạn 2022-2025",
+              "location": "dưới bên trái",
+              "description": "Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm."
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025",
+              "location": "dưới bên phải",
+              "description": "Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường \nlàm việc hướng tới môi trường làm \nviệc xanh, an toàn, lành mạnh.\n• Mục tiêu trung hạn: đến năm 2030, \ngiảm 15,8% tổng lượng phát thải \nkhí nhà kính phù hợp với mục tiêu \nchung của Việt Nam;\n• Mục tiêu dài hạn: đến năm 2040 \nđạt Net Zero như cam kết của \nChính phủ Việt Nam tại COP 26.\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\n nhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và \ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n• 100% số liệu sử dụng năng lượng được giám sát;\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\n sản lượng 842.749 kWh;\n• 100% cơ sở được kiểm kê và giám sát phát thải khí nhà kính \nđịnh kỳ.\nKết quả nổi bật 2025\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nĐào tạo nguồn \nnhân lực công nghệ\nchất lượng cao\nTạo điều kiện\ntốt nhất để trẻ em\nViệt Nam có cơ hội \ntiếp cận giáo dục\nchất lượng và bền vững\nLà đơn vị dẫn đầu trong đào tạo \nnhân lực số có năng lực cạnh tranh \ntoàn cầu.\n• Đào tạo 10.000 kỹ sư bán dẫn vào \nnăm 2030;\n• Đưa AI vào đào tạo người học ở tất \ncả các bậc học thuộc hệ thống \ngiáo dục của FPT.\n• 3.700 sinh viên theo học các chương trình và chuyên ngành \nđào tạo AI, thiết kế vi mạch bán dẫn của hệ thống giáo dục FPT;\n• Nghiên cứu, ứng dụng và phát triển các giải pháp công nghệ \ntiên tiến nhất, gia tăng tương tác và cá nhân hóa trải nghiệm \ncủa người học; đưa AI vào đào tạo từ bậc tiểu học đến\nphổ thông, cao đẳng, đại học và sau đại học; \n• Trao 151 tỷ đồng học bổng Nguyễn Văn Đạo.\nChú trọng hỗ trợ tạo điều kiện \nhọc tập tốt hơn cho các hoàn cảnh \nyếu thế tại các khu vực kinh tế \nkhó khăn, vùng núi, vùng sâu, \nvùng xa.\n• Tiếp tục duy trì quỹ dành cho các \nhoạt động phát triển vì cộng đồng \ntập trung chủ yếu vào các hoạt \nđộng giáo dục.\n• Sử dụng 72,8 tỷ đồng cho các hoạt động trách nhiệm xã hội;\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở \nhạng mục Dự án kịp thời;\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ.\nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xây dựng kế hoạch giảm thiểu lượng phát thải khí nhà kính từ hai nguồn phát \nsinh lớn thuộc Phạm vi 1 và Phạm vi 2, cũng như từ tất cả các nguồn phát sinh khác, \ncụ thể như sau:\n• Đối với Phạm vi 1 và Phạm vi 2, FPT triển khai các chương trình tiết kiệm điện và \nnăng lượng, hướng tới việc sử dụng năng lượng xanh và năng lượng tái tạo; \n• Các tòa nhà là nguồn tiêu thụ năng lượng chủ yếu, do đó, Tập đoàn chủ động \ntriển khai các sáng kiến tiết kiệm năng lượng trên nền tảng hạ tầng hiện hữu. \nThông qua việc ứng dụng các công nghệ tiên tiến và tăng cường hợp tác với các \nchuyên gia, FPT từng bước nâng cao hiệu quả sử dụng năng lượng, hướng tới hệ thống \nhạ tầng thân thiện hơn với môi trường;\n• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm: \ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hóa tòa \nnhà, hệ thống UPS, mặt dựng công trình, trung tâm dữ liệu và phòng máy chủ. \nThông qua các sáng kiến này, FPT hướng tới giảm thiểu tác động môi trường \nsong song với việc nâng cao hiệu quả vận hành.\nViệc giảm 8,58% tổng mức tiêu thụ điện so với năm 2024 phản ánh những nỗ lực \nnhất quán và có hệ thống của Tập đoàn trong triển khai các giải pháp tiết kiệm \nnăng lượng. Kết quả này đạt được nhờ việc ứng dụng các giải pháp quản lý và tối ưu \ntiêu thụ điện thông minh, kết hợp với các chương trình truyền thông và đào tạo \nnội bộ nhằm nâng cao nhận thức, thay đổi hành vi sử dụng năng lượng của CBNV \ntrong hoạt động hàng ngày.\nĐặc biệt, việc đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng \nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền \nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong \ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp \nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng, \ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát \nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời \nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra \n842.749 kWh điện. \nBảng tổng hợp so sánh kết quả tiêu thụ điện\n• Biện pháp giảm phát thải khí nhà kính\n Đơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch \n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 tập trung vào các biện pháp giảm phát thải khí nhà kính, đặc biệt là tiết kiệm năng lượng và sử dụng năng lượng tái tạo như điện mặt trời mái nhà.\ntable: Bảng tổng hợp so sánh kết quả tiêu thụ điện (dưới bên trái) — So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh.\nphoto: Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng) (phải) — Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ điện",
+              "location": "dưới bên trái",
+              "description": "So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh."
+            },
+            {
+              "type": "photo",
+              "title": "Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)",
+              "location": "phải",
+              "description": "Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p115",
+          "page": 115,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Cam kết, mục tiêu và kết quả nổi bật về ESG\nCÁC CHỈ TIÊU ESG CAM KẾT\nTT Chỉ tiêu Cam kết\n2025 Cam kết\nQUẢN TRỊ XUẤT SẮC\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\n0\n100%\n100%\n100%\nMÔI TRƯỜNG LÀM VIỆC ĐẲNG CẤP, HẠNH PHÚC\nHOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nSố lượng sự cố an toàn thông tin ảnh hưởng đến danh tiếng Tập đoàn bằng 0.\n100% CBNV trải qua đào tạo/diễn tập an toàn bảo mật thông tin.\n100% cán bộ mua sắm được đào tạo về mua sắm bền vững.\nKhông ký hợp đồng với các nhà cung cấp có các hoạt động ảnh hưởng đến \nsức khoẻ, an toàn lao động và môi trường. \nTỷ lệ nghỉ việc thấp hơn so với mức trung bình thị trường (Khối Công nghệ).\nHỗ trợ CBNV mua nhà, mua xe.\nĐẩy mạnh và nâng cao số giờ học trung bình CBNV/năm (giờ).\nTỷ lệ nữ giới trong tổng số nhân sự.\nTỷ lệ nữ giới là quản lý trong tổng số nhân sự quản lý.\nTỷ lệ nhân viên được đào tạo nâng cao ý thức về môi trường.\nTỷ lệ túi rác trong văn phòng sử dụng vật liệu tái chế.\nTỷ lệ năng lượng sử dụng được giám sát. \nTỷ lệ sử dụng bóng đèn LED.\n100%\n100% 100% 100%\n100% 100% 100%\n100% đến 2026 88% 100%\n95%\nCán bộ chuyên trách\n100%\nNhân viên mới\nKết quả\n2025\nCam kết\n2026\nQuản trị an toàn thông tin\nQuản trị mua sắm bền vững\nNơi làm việc hạnh phúc\nTổ chức học tập suốt đời\nBình đẳng và đa dạng\nChính sách môi trường\nTiết kiệm điện\nGiám sát số liệu sử dụng \nnăng lượng\n1\n2\n3\n4\n5\n6\n7\n8\nDưới 14%\n5.000\n150\nTrên 1/3\n1/3\n15,4%\n3.904\n151\n37,7%\n36,4%\nDưới 15%\n4.250\n162\nTrên 1/3\n1/3\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày các chỉ tiêu ESG cam kết của FPT, bao gồm các mục về quản trị xuất sắc, môi trường làm việc đẳng cấp, hạnh phúc và hoạt động vì môi trường xanh với các chỉ tiêu cụ thể và kết quả thực hiện năm 2025 cùng mục tiêu năm 2026.\ntable: Các chỉ tiêu ESG cam kết (giữa trang) — Bảng liệt kê các cam kết ESG theo các nhóm: Quản trị xuất sắc, Môi trường làm việc đẳng cấp, hạnh phúc, Hoạt động vì môi trường xanh; các chỉ tiêu cụ thể kèm theo cam kết năm 2025, kết quả năm 2025 và cam kết năm 2026.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Các chỉ tiêu ESG cam kết",
+              "location": "giữa trang",
+              "description": "Bảng liệt kê các cam kết ESG theo các nhóm: Quản trị xuất sắc, Môi trường làm việc đẳng cấp, hạnh phúc, Hoạt động vì môi trường xanh; các chỉ tiêu cụ thể kèm theo cam kết năm 2025, kết quả năm 2025 và cam kết năm 2026."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p217",
+          "page": 217,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Mẫu số B 09 – DN/HN\n39. Các sự kiện phát sinh sau ngày báo cáo tài chính\nhợp nhất\nThành lập công ty con:\nCăn cứ theo Nghị quyết Hội đồng Quản trị số 02.01-2026/NQ-HĐQTFPT ngày \n27/01/2026, Công ty phê duyệt việc thành lập công ty con - Công ty TNHH Hạ tầng \nCông nghệ số FPT để thực hiện Dự án Khu Công viên Công nghệ số và Hỗn hợp với \nvốn điều lệ góp lần đầu là 1.000 tỷ đồng.\nBáo cáo tài chính hợp nhất của Tập đoàn cho năm tài chính kết thúc ngày 31 tháng 12 năm \n2025 đã được Phó Tổng Giám đốc của Công ty phê chuẩn Ngày 18 tháng 3 năm 2026.\n37. Các khoản mục ngoài bảng cân đối kế toán \nhợp nhất\nĐơn vị: VNĐ\n31/12/2025\n729,438,551,433\n31/12/2024\nNợ khó đòi (*) 638,434,100,449\n(*) Số nợ khó đòi đã xử lý chủ yếu là khoản nợ phải thu khách hàng cá nhân sử dụng \ndịch vụ internet bị quá hạn trên 2 năm và được đánh giá không còn khả năng thu hồi.\n38. Nợ tiềm tàng \nNghĩa vụ hoàn nguyên đối với khu đất thuê\nTập đoàn ký hợp đồng thuê các hợp đồng thuê đất và đã thực hiện việc xây dựng \ncông trình và hạ tầng trên các lô đất thuê này. Đa số các hợp đồng thuê đất này \nkhông có quy định rõ về nghĩa vụ hoàn nguyên đối với đất thuê. Ban Tổng Giám đốc \ncủa Công ty đánh giá là Tập đoàn có thể có nghĩa vụ trong tương lai liên quan \nđến việc tháo dỡ, di dời các tài sản của Tập đoàn ra khỏi khu đất thuê và phục hồi \nkhu đất về tình trạng ban đầu tại cuối thời hạn thuê đất. Nghĩa vụ này chỉ có thể \nxác định được khi có thêm các sự kiện trong tương lai, như các trao đổi bổ sung \nvới bên cho thuê đất hay khi cơ quan chức năng ban hành bổ sung các văn bản \npháp luật làm rõ nghĩa vụ của bên đi thuê khi hợp đồng thuê đất không nêu rõ \nđiều khoản hoàn nguyên. Do đó, Tập đoàn không ghi nhận khoản dự phòng chi \nphí hoàn nguyên đối với đất thuê vào báo cáo tài chính hợp nhất của Tập đoàn \ncho năm tài chính kết thúc ngày 31 tháng 12 năm 2025.\nNợ khó đòi đã xử lý\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nGiải thích các khoản mục ngoài bảng cân đối kế toán hợp nhất, nợ khó đòi đã xử lý, nghĩa vụ hoàn nguyên đối với khu đất thuê và các sự kiện phát sinh sau ngày báo cáo tài chính hợp nhất.\ntable: Nợ khó đòi đã xử lý (trên phải) — So sánh số nợ khó đòi đã xử lý giữa ngày 31/12/2025 và 31/12/2024, đơn vị VND",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Nợ khó đòi đã xử lý",
+              "location": "trên phải",
+              "description": "So sánh số nợ khó đòi đã xử lý giữa ngày 31/12/2025 và 31/12/2024, đơn vị VND"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p151",
+          "page": 151,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Các chất độc hại trong không khí như khí CO, SO2\n, NO2, PM2.5, PM10, Ozone... có \nthể gây ra các vấn đề sức khỏe nghiêm trọng. Vì vậy, Tập đoàn đề cao việc theo dõi \nvà kiểm soát môi trường không khí tại nơi làm việc đảm bảo một môi trường làm \nviệc an toàn và lành mạnh cho CBNV giúp nâng cao năng suất, tăng lao động và \ngiảm thiểu các rủi ro pháp lý liên quan đến sức khỏe và an toàn lao động.\nĐịnh kỳ hàng năm, Tập đoàn thuê một đơn vị có chuyên môn thực hiện quan trắc \nmôi trường làm việc và lập báo cáo gửi cho các cơ quan quản lý có liên quan. Năm \n2025, theo kết quả quan trắc định kỳ, chất lượng không khí tại các khu làm việc của \nTập đoàn và công ty thành viên đều nằm trong giới hạn cho phép của tiêu chuẩn \nQCVN 05:2013 /BTNMT, QCVN 26:2010/BTNMT.\nĐơn cử, tại tòa nhà trụ sở chính của Tập đoàn – FPT Tower, kết quả đo lường quan trắc \nkhông khí trong giai đoạn quý II năm 2025 ghi nhận các chỉ số đều nằm trong giới hạn \ncho phép theo quy định. Các chỉ tiêu duy trì ổn định, không ghi nhận biến động\nbất thường, phản ánh hiệu quả của công tác quản lý và vận hành môi trường.\nĐặc biệt, không phát hiện khí CO trong không khí. \nXây dựng môi trường làm việc xanh\n• Theo dõi và kiểm soát môi trường không khí tại nơi làm việc\nKết quả quan trắc môi trường tại FPT Tower\nQuy chuẩn\nQCVN 05:2013/BTNMT và \nQCVN 26:2010/BTNMT\nThông số\nKết quả \nKX01 KX02 KX03\n67,2\n37,2\n57,7\n0,8\n157\n<9000\n132\n118\n70 \n- \n- \n- \n300\n30.000\n350 \n200\n65,8\n35,5\n61,2\n0,8\n121\n<9000\n101\n90\n63,7\n36,9\n58,9\n0,7\n136\n<9000\n108\n94\nTiếng ồn (dBA)\nNhiệt độ (°C)\nĐộ ẩm (%)\nTốc độ gió (m/s)\nTổng bụi lơ lửng\n(µg/m³) \nCO (µg/m³)\nSO2\n (µg/m³)\nNO2 (µg/m³)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo kết quả quan trắc môi trường không khí tại nơi làm việc FPT Tower năm 2025, nhằm xây dựng môi trường làm việc xanh, an toàn và lành mạnh cho cán bộ nhân viên.\ntable: Kết quả quan trắc môi trường tại FPT Tower (dưới bên trái) — Bảng kết quả đo các chỉ số môi trường không khí gồm tiếng ồn (dBA), nhiệt độ (°C), độ ẩm (%), tốc độ gió (m/s), tổng bụi lơ lửng (µg/m³), CO, SO2, NO2 (µg/m³) tại 3 điểm quan trắc KX01, KX02, KX03 so với quy chuẩn QCVN 05:2013/BTNMT và QCVN 26:2010/BTNMT.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Kết quả quan trắc môi trường tại FPT Tower",
+              "location": "dưới bên trái",
+              "description": "Bảng kết quả đo các chỉ số môi trường không khí gồm tiếng ồn (dBA), nhiệt độ (°C), độ ẩm (%), tốc độ gió (m/s), tổng bụi lơ lửng (µg/m³), CO, SO2, NO2 (µg/m³) tại 3 điểm quan trắc KX01, KX02, KX03 so với quy chuẩn QCVN 05:2013/BTNMT và QCVN 26:2010/BTNMT."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p114",
+          "path": ".bonus/pages/p114.jpg",
+          "sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+        },
+        {
+          "id": "FPT2025:p146",
+          "path": ".bonus/pages/p146.jpg",
+          "sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+        },
+        {
+          "id": "FPT2025:p152",
+          "path": ".bonus/pages/p152.jpg",
+          "sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+        },
+        {
+          "id": "FPT2025:p119",
+          "path": ".bonus/pages/p119.jpg",
+          "sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+        },
+        {
+          "id": "FPT2025:p147",
+          "path": ".bonus/pages/p147.jpg",
+          "sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+        },
+        {
+          "id": "FPT2025:p115",
+          "path": ".bonus/pages/p115.jpg",
+          "sha256": "342db08256ad52ca6c73b0854aa7608fdf35ee053241a10d3710ba1857582b77"
+        },
+        {
+          "id": "FPT2025:p217",
+          "path": ".bonus/pages/p217.jpg",
+          "sha256": "be728fae56608e51e139a32f8cd12eb21c467eafc9dc2e6d68aeece20020c589"
+        },
+        {
+          "id": "FPT2025:p151",
+          "path": ".bonus/pages/p151.jpg",
+          "sha256": "f608a256b9a4785e5b43c29c09cbae1898d508b65458a04fac90c5a0a8bb80db"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805444-JBdA1Kehd8KQsSHpTFrc",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01V2eGu4nMYS16gWcU2cU33d",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Tỷ lệ paperless năm 2025 của FPT đạt 95,42%, và hợp đồng giao dịch điện tử chiếm khoảng 97% tổng số hợp đồng ký kết. Mục tiêu Net Zero (phát thải ròng bằng 0) được đặt vào năm 2040, với mốc trung hạn giảm 15,8% tổng lượng phát thải khí nhà kính đến năm 2030.\\n\\nTỷ lệ paperless KHÔNG đồng nghĩa đã đạt Net Zero. Paperless chỉ là tỷ lệ văn bản điện tử trong quản trị nội bộ; còn Net Zero là mục tiêu dài hạn đến 2040. Năm 2025, tổng phát thải khí nhà kính của FPT là 127.952 tấn CO2 (giảm so với 143.574 tấn năm 2024), nhưng đây chỉ là giảm phát thải, chưa phải trung hòa ròng bằng 0.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p152\",\"region\":\"Mục 'Văn phòng không giấy tờ', đoạn văn nêu tỷ lệ paperless 95,42% và hợp đồng điện tử ~97%; biểu đồ 'Tỷ lệ số hoá tài liệu giai đoạn 2022-2025' (dưới bên trái) cột 2025 với 95,42%\"},{\"id\":\"FPT2025:p114\",\"region\":\"Phần 'Lộ trình Net Zero 2040' (đầu trang), khung nổi bật: mục tiêu giảm 15,8% phát thải đến 2030 và Net Zero vào năm 2040\"},{\"id\":\"FPT2025:p146\",\"region\":\"Bảng 'Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025' (bên phải), hàng Tổng: 143.574 (2024) và 127.952 (2025), đơn vị tấn CO2 tương đương\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p114",
+    "FPT2025:p146",
+    "FPT2025:p152",
+    "FPT2025:p119",
+    "FPT2025:p147",
+    "FPT2025:p115",
+    "FPT2025:p217",
+    "FPT2025:p151"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p114",
+      "page": 114,
+      "image": ".bonus/pages/p114.jpg",
+      "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+    },
+    {
+      "id": "FPT2025:p146",
+      "page": 146,
+      "image": ".bonus/pages/p146.jpg",
+      "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+    },
+    {
+      "id": "FPT2025:p152",
+      "page": 152,
+      "image": ".bonus/pages/p152.jpg",
+      "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+    },
+    {
+      "id": "FPT2025:p119",
+      "page": 119,
+      "image": ".bonus/pages/p119.jpg",
+      "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+    },
+    {
+      "id": "FPT2025:p147",
+      "page": 147,
+      "image": ".bonus/pages/p147.jpg",
+      "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+    },
+    {
+      "id": "FPT2025:p115",
+      "page": 115,
+      "image": ".bonus/pages/p115.jpg",
+      "image_sha256": "342db08256ad52ca6c73b0854aa7608fdf35ee053241a10d3710ba1857582b77"
+    },
+    {
+      "id": "FPT2025:p217",
+      "page": 217,
+      "image": ".bonus/pages/p217.jpg",
+      "image_sha256": "be728fae56608e51e139a32f8cd12eb21c467eafc9dc2e6d68aeece20020c589"
+    },
+    {
+      "id": "FPT2025:p151",
+      "page": 151,
+      "image": ".bonus/pages/p151.jpg",
+      "image_sha256": "f608a256b9a4785e5b43c29c09cbae1898d508b65458a04fac90c5a0a8bb80db"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805439-0JkkvXAcg4NkMzA4oCFb",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1863,
+        "completion_tokens": 86,
+        "total_tokens": 1949,
+        "cost": 0.0002293,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002293,
+          "upstream_inference_prompt_cost": 0.0001863,
+          "upstream_inference_completions_cost": 4.3e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1230.6285999948159,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805444-JBdA1Kehd8KQsSHpTFrc",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 32870,
+        "completion_tokens": 764,
+        "total_tokens": 33634,
+        "cost": 0.003669,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003669,
+          "upstream_inference_prompt_cost": 0.003287,
+          "upstream_inference_completions_cost": 0.000382
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 6464.204099960625,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 9825.664600008167,
+  "query_id": "ft-m3",
+  "question": "Kết hợp phần văn phòng không giấy tờ và phần kiểm kê khí nhà kính: tỷ lệ paperless năm 2025 và mốc mục tiêu Net Zero là gì? Tỷ lệ paperless có đồng nghĩa đã đạt Net Zero không?",
+  "split": "test",
+  "config": "vision"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p211",
+  "image_sha256": "601192a42ca0055fce1283de3574f95ef298a30e8743fbe1acbb7376d832c007",
+  "caption": {
+    "summary": "Thuyết minh báo cáo tài chính hợp nhất năm 2025 về thuế thu nhập doanh nghiệp và chi phí sản xuất kinh doanh theo yếu tố.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Biến động góp về thuế TNDN hoãn lại",
+        "location": "trên phải",
+        "description": "Số dư đầu năm, ghi nhận vào báo cáo kết quả hoạt động kinh doanh hợp nhất, bù trừ các số dư liên quan đến cùng một cơ quan thuế, các khoản khác, số dư cuối năm cho các năm 2025 và 2024, đơn vị VND."
+      },
+      {
+        "type": "table",
+        "title": "Thuế TNDN hoãn lại phải trả",
+        "location": "giữa phải",
+        "description": "Số dư đầu năm, ghi nhận vào báo cáo kết quả hoạt động kinh doanh hợp nhất, bù trừ các số dư liên quan đến cùng một cơ quan thuế, đánh giá lại giá trị hợp lý của công ty con tại ngày mua, chênh lệch tỷ giá hối đoái, các khoản khác, số dư cuối năm cho các năm 2025 và 2024, đơn vị VND."
+      },
+      {
+        "type": "table",
+        "title": "Chi phí sản xuất kinh doanh theo yếu tố",
+        "location": "dưới phải",
+        "description": "Chi phí nhân viên, dịch vụ thuê ngoài, nguyên vật liệu, khấu hao TSCĐ và phân bổ LTTM, các khoản khác cho các năm 2025 và 2024, đơn vị VND."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800840-GQWcXbnlxUTdC44zLhsU",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 317,
+        "total_tokens": 2879,
+        "cost": 0.001532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001532,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0005072
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4142.635099997278,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

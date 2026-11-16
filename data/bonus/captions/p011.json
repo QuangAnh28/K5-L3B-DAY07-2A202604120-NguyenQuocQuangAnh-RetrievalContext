@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p011",
+  "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0",
+  "caption": {
+    "summary": "Trang báo cáo trình bày các chỉ số tài chính quan trọng của FPT năm 2025, bao gồm cổ tức tiền mặt, đóng góp ngân sách nhà nước, và tỷ suất sinh lời trên vốn chủ sở hữu và tổng tài sản.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Cổ tức bằng tiền mặt",
+        "location": "trái trên",
+        "description": "Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+      },
+      {
+        "type": "chart",
+        "title": "Đóng góp Ngân sách Nhà nước",
+        "location": "phải trên",
+        "description": "Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+      },
+      {
+        "type": "chart",
+        "title": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA)",
+        "location": "dưới",
+        "description": "Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800693-h8aknhSYmz0J3NXlqMHC",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 231,
+        "total_tokens": 2793,
+        "cost": 0.0013944,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013944,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003696
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3321.4789999765344,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

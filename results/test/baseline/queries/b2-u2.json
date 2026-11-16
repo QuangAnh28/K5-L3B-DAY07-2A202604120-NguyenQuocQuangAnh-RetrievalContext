@@ -1,0 +1,258 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_BkFrJA6r5M6PMd6gRTIrlSVp",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"mức tiền phạt hành chính bằng đồng đối với hành vi quảng cáo sai sự thật\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801611-lLwJhsssUV3qmHB6oQgZ"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Theo tài liệu, mức tiền phạt hành chính cụ thể bằng đồng đối với hành vi quảng cáo sai sự thật là bao nhiêu?",
+      "model_query": "mức tiền phạt hành chính bằng đồng đối với hành vi quảng cáo sai sự thật",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 32,
+          "text": "cáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 32,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "section": "Mục 3",
+            "article": "Điều 115"
+          },
+          "score": 0.34904781867992446,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 31,
+          "text": "doanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 31,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 110"
+          },
+          "score": 0.3314260463877964,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-40adc58b03803efe",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 31,
+          "text": "2. Nhận thù lao dịch vụ quảng cáo thương mại và các chi phí hợp lý khác.\n\nĐiều 114. Nghĩa vụ của bên cung ứng dịch vụ quảng cáo thương mại Trừ tr ường h ợp có th ỏa thu ận khác, b ên cung ứng d ịch v ụ qu ảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Thực hiện sự lựa chọn của bên thuê quảng cáo về người phát hành quảng cáo th ương m ại, hình th ức, n ội dung, ph ương ti ện, ph ạm vi và th ời gian qu ảng",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 31,
+            "year": 2005,
+            "chapter": "Chương Iv",
+            "article": "Điều 114"
+          },
+          "score": 0.282490425349595,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\ncáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 31]\ndoanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+        "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_7NNKH6ykkxprqlm8O0wpc41K",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không tìm thấy mức tiền phạt hành chính cụ thể bằng đồng đối với hành vi quảng cáo sai sự thật trong tài liệu Luật Thương mại 2005.\",\"citations\":[],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801612-OIy5bkp7urMJUXgoXaMC"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\ncáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 31]\ndoanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+    "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801611-lLwJhsssUV3qmHB6oQgZ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 300,
+        "completion_tokens": 23,
+        "total_tokens": 323,
+        "cost": 0.0001568,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001568,
+          "upstream_inference_prompt_cost": 0.00012,
+          "upstream_inference_completions_cost": 3.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2234.512099996209,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801612-OIy5bkp7urMJUXgoXaMC",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1174,
+        "completion_tokens": 48,
+        "total_tokens": 1222,
+        "cost": 0.0005464,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005464,
+          "upstream_inference_prompt_cost": 0.0004696,
+          "upstream_inference_completions_cost": 7.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1644.4778999430127,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3892.4718000344,
+  "searches": 1,
+  "query_id": "b2-u2",
+  "question": "Theo tài liệu, mức tiền phạt hành chính cụ thể bằng đồng đối với hành vi quảng cáo sai sự thật là bao nhiêu?",
+  "split": "test",
+  "config": "baseline",
+  "answerable": false,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 32,
+      "text": "cáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 32,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "section": "Mục 3",
+        "article": "Điều 115"
+      },
+      "score": 0.34904781867992446,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 31,
+      "text": "doanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 31,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 110"
+      },
+      "score": 0.3314260463877964,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-40adc58b03803efe",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 31,
+      "text": "2. Nhận thù lao dịch vụ quảng cáo thương mại và các chi phí hợp lý khác.\n\nĐiều 114. Nghĩa vụ của bên cung ứng dịch vụ quảng cáo thương mại Trừ tr ường h ợp có th ỏa thu ận khác, b ên cung ứng d ịch v ụ qu ảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Thực hiện sự lựa chọn của bên thuê quảng cáo về người phát hành quảng cáo th ương m ại, hình th ức, n ội dung, ph ương ti ện, ph ạm vi và th ời gian qu ảng",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 31,
+        "year": 2005,
+        "chapter": "Chương Iv",
+        "article": "Điều 114"
+      },
+      "score": 0.282490425349595,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 32]\ncáo thương mại;\n\n2. Tổ chức quảng cáo trung th ực, chính xác v ề hoạt động kinh doanh hàng hoá, dịch vụ thương mại theo thông tin mà bên thuê quảng cáo đã cung cấp;\n\n3. Th ực hi ện các ngh ĩa v ụ khác đã tho ả thu ận trong h ợp đồng d ịch v ụ quảng cáo thương mại.\n\nĐiều 115. Người phát hành quảng cáo thương mại Người phát hành qu ảng cáo th ương m ại là ng ười tr ực ti ếp phát hành s ản phẩm quảng cáo thương mại.\n\nĐiều 116. Nghĩa vụ của người phát hành quảng cáo thương mại Người phát hành quảng cáo thương mại có các nghĩa vụ sau đây:\n\n1. Tuân th ủ các quy định v ề s ử d ụng ph ương ti ện qu ảng cáo th ương m ại quy định tại Điều 107 của Luật này;\n\n2. Thực hiện hợp đồng phát hành qu ảng cáo đã giao k ết với bên thuê phát hành quảng cáo;\n\n3. Thực hiện các nghĩa vụ khác theo quy định của pháp luật.\n\nMục 3 TRƯNG BÀY, GIỚI THIỆU HÀNG HÓA, DỊCH VỤ\n\n[luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 31]\ndoanh hàng hoá, dịch vụ cùng loại của thương nhân khác.\n\n7. Qu ảng cáo sai s ự thật về một trong các n ội dung s ố lượng, chất lượng, giá, công d ụng, ki ểu dáng, xu ất x ứ hàng hóa, ch ủng lo ại, bao bì, ph ương th ức phục vụ, thời hạn bảo hành của hàng hoá, dịch vụ.\n\n8. Qu ảng cáo cho ho ạt động kinh doanh c ủa mình b ằng cách s ử dụng sản phẩm quảng cáo vi ph ạm quyền sở hữu trí tu ệ; sử dụng hình ảnh của tổ chức, cá nhân khác để quảng cáo khi chưa được tổ chức, cá nhân đó đồng ý.\n\n9. Quảng cáo nhằm cạnh tranh không lành mạnh theo quy định của pháp luật.\n\nĐiều 110. Hợp đồng dịch vụ quảng cáo thương mại Hợp đồng dịch vụ quảng cáo thương mại phải được lập thành văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 111. Quyền của bên thuê quảng cáo thương mại Trừ trường hợp có tho ả thuận khác, bên thuê qu ảng cáo thương mại có các quyền sau đây:",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p32-paragraph-1000-74c718243dfd6e47",
+    "luat-thuong-mai-36-2005-qh11-p31-paragraph-1000-c2b2a8c2ea3f3d50"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

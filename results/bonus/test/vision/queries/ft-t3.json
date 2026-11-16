@@ -1,0 +1,443 @@
+{
+  "status": "answered",
+  "answer": "Theo bảng \"Kế hoạch đầu tư dự kiến năm 2026\" (đơn vị: tỷ VNĐ):\n- Khối Công nghệ: 4.200 tỷ VNĐ\n- Khối Giáo dục, Đầu tư và Khác: 3.000 tỷ VNĐ\n- Tổng cộng: 7.200 tỷ VNĐ\n\nKhối Công nghệ chiếm 4.200 / 7.200 = 58,33% (làm tròn 58,33%) tổng ngân sách đầu tư dự kiến. Đây là kế hoạch, không phải số thực tế.\n[FPT2025:p055 — Bảng \"Kế hoạch đầu tư dự kiến\" (phía dưới trang), cột Khối, Ngân sách đầu tư và hàng Tổng cộng]",
+  "citations": [
+    {
+      "id": "FPT2025:p055",
+      "region": "Bảng \"Kế hoạch đầu tư dự kiến\" (phía dưới trang), cột Khối, Ngân sách đầu tư và hàng Tổng cộng"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805075-sve2SU0Dslz79Z6lDIrJ",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_019maMEma2BrycsCbfvXKMzv",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Trong kế hoạch đầu tư dự kiến năm 2026, hai khối được phân bổ bao nhiêu vốn, tổng bao nhiêu và Khối Công nghệ chiếm bao nhiêu phần trăm tổng ngân sách?\",\"kế hoạch đầu tư 2026 phân bổ vốn theo khối\",\"Khối Công nghệ vốn đầu tư 2026 tỷ đồng\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong kế hoạch đầu tư dự kiến năm 2026, hai khối được phân bổ bao nhiêu vốn, tổng bao nhiêu và Khối Công nghệ chiếm bao nhiêu phần trăm tổng ngân sách?",
+      "model_queries": [
+        "Trong kế hoạch đầu tư dự kiến năm 2026, hai khối được phân bổ bao nhiêu vốn, tổng bao nhiêu và Khối Công nghệ chiếm bao nhiêu phần trăm tổng ngân sách?",
+        "kế hoạch đầu tư 2026 phân bổ vốn theo khối",
+        "Khối Công nghệ vốn đầu tư 2026 tỷ đồng"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p055",
+          "page": 55,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "score": 0.028782894736842105,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p180",
+          "page": 180,
+          "score": 0.027884615384615386,
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p046",
+          "page": 46,
+          "score": 0.026397515527950312,
+          "component_ranks": {
+            "dense": 24,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "score": 0.026153846153846153,
+          "component_ranks": {
+            "dense": 15,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "FPT2025:p008",
+          "page": 8,
+          "score": 0.025332691999358666,
+          "component_ranks": {
+            "dense": 21,
+            "tfidf": 17
+          }
+        },
+        {
+          "id": "FPT2025:p045",
+          "page": 45,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong kế hoạch đầu tư dự kiến năm 2026, hai khối được phân bổ bao nhiêu vốn, tổng bao nhiêu và Khối Công nghệ chiếm bao nhiêu phần trăm tổng ngân sách?"
+      ],
+      "context_ids": [
+        "FPT2025:p055",
+        "FPT2025:p060",
+        "FPT2025:p057",
+        "FPT2025:p180",
+        "FPT2025:p046",
+        "FPT2025:p058",
+        "FPT2025:p008",
+        "FPT2025:p045"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p055",
+          "page": 55,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đơn vị: Tỷ VNĐ\nKẾ HOẠCH NĂM 2026\nCác mục tiêu chủ yếu\nKhối Ngân sách\nđầu tư\nChú thích\nKhối Công nghệ\nTổng cộng 7.200\nKhối Giáo dục, \nĐầu tư và Khác\nĐầu tư mở rộng các khu tổ hợp văn phòng tại các thành phố lớn như: Hà Nội, Tp.Hồ Chí Minh, Bình Định.\nĐầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại \ncác tỉnh, thành trên toàn quốc.\n(Đối với số liệu năm 2026, Tập đoàn hợp nhất Công ty Cổ phần Viễn thông FPT (FPT Telecom) theo phương pháp vốn chủ sở hữu, số liệu năm 2025 đã được điều chỉnh theo \ncùng phương pháp nhằm đảm bảo tính nhất quán và khả năng so sánh.)\nKế hoạch đầu tư dự kiến\n4.200\n3.000\nso với 15,8% cùng kỳ\nDoanh thu\n58.580Tỷ VNĐ\nKhối Công nghệ\n44.475\n52.650\n6.132\n5.930\nKhối Giáo dục, \nĐầu tư và Khác Đơn vị: Tỷ VNĐ\nNăm 2026\nNăm 2025\n60.000\n50.000\n40.000\n30.000\n20.000\n10.000\n0\n18,4%\n3,3%\nso với 15,0% cùng kỳ\nLợi nhuận trước thuế\nTỷ VNĐ 11.629\nKhối Công nghệ\n5.907\n7.350\n4.206\n4.279\nKhối Giáo dục, \nĐầu tư và Khác Đơn vị: Tỷ VNĐ\nNăm 2026\nNăm 2025\n8000\n7000\n6000\n5000\n4000\n3000\n2000\n1000\n0\n24,4%\n1,7%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày kế hoạch năm 2026 của FPT với các mục tiêu doanh thu, lợi nhuận trước thuế và kế hoạch đầu tư dự kiến cho các khối Công nghệ và Giáo dục, Đầu tư và Khác.\nchart: Doanh thu năm 2026 so với năm 2025 (trên trái) — Trục tung thể hiện doanh thu (đơn vị: Tỷ VNĐ), so sánh doanh thu năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng.\nchart: Lợi nhuận trước thuế năm 2026 so với năm 2025 (trên phải) — Trục tung thể hiện lợi nhuận trước thuế (đơn vị: Tỷ VNĐ), so sánh lợi nhuận năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng.\ntable: Kế hoạch đầu tư dự kiến năm 2026 (dưới) — Bảng kế hoạch đầu tư dự kiến theo khối, ngân sách đầu tư (đơn vị: Tỷ VNĐ) và chú thích chi tiết về mục đích đầu tư mở rộng các khu tổ hợp văn phòng và khuôn viên Đại học tại các thành phố lớn.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu năm 2026 so với năm 2025",
+              "location": "trên trái",
+              "description": "Trục tung thể hiện doanh thu (đơn vị: Tỷ VNĐ), so sánh doanh thu năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận trước thuế năm 2026 so với năm 2025",
+              "location": "trên phải",
+              "description": "Trục tung thể hiện lợi nhuận trước thuế (đơn vị: Tỷ VNĐ), so sánh lợi nhuận năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng."
+            },
+            {
+              "type": "table",
+              "title": "Kế hoạch đầu tư dự kiến năm 2026",
+              "location": "dưới",
+              "description": "Bảng kế hoạch đầu tư dự kiến theo khối, ngân sách đầu tư (đơn vị: Tỷ VNĐ) và chú thích chi tiết về mục đích đầu tư mở rộng các khu tổ hợp văn phòng và khuôn viên Đại học tại các thành phố lớn."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p060",
+          "page": 60,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Cơ cấu lợi nhuận trước thuế theo khối\n13.044\n17,8%\n5.907 45,3%\n12,9%\n2.773 21,2%\n23,1%\n4.364 33,5%\n21,6%\nPhân tích kết quả kinh doanh theo khối\nĐể phản ánh đúng mô hình hoạt động của Tập đoàn, kết quả kinh doanh được phân tích theo từng khối và phân tách theo từng lĩnh vực cụ thể. Cách tiếp cận này giúp đánh giá \nchính xác, hiệu quả vận hành và đóng góp của từng lĩnh vực hoạt động vào tăng trưởng chung của Tập đoàn. Cụ thể, hoạt động kinh doanh của Tập đoàn được chia thành \nba khối chính, bao gồm: khối Công nghệ với hai lĩnh vực là Dịch vụ CNTT cho thị trường nước ngoài và Dịch vụ CNTT cho thị trường trong nước; khối Viễn thông với \nhai lĩnh vực Dịch vụ Viễn thông và Dịch vụ Nội dung số; khối Giáo dục, Đầu tư và Khác.\nCơ cấu doanh thu theo khối\nKhối Công nghệ Khối Viễn thông Khối Giáo dục, Đầu tư và Khác\n70.113\n11,6%\n19.507 27,8% 44.475 63,4%\n10,8%\n6.132 8,8%\n0,05%\n13,7%\nĐơn vị: Tỷ VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nPhân tích kết quả kinh doanh theo khối của Tập đoàn FPT năm 2025, bao gồm cơ cấu doanh thu và cơ cấu lợi nhuận trước thuế theo từng khối chính: Công nghệ, Viễn thông, Giáo dục, Đầu tư và Khác.\nchart: Cơ cấu doanh thu theo khối (trái) — Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.\nchart: Cơ cấu lợi nhuận trước thuế theo khối (phải) — Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cơ cấu doanh thu theo khối",
+              "location": "trái",
+              "description": "Biểu đồ hình tròn thể hiện doanh thu theo ba khối: Khối Công nghệ (44.475 tỷ VNĐ, 63,4%), Khối Viễn thông (19.507 tỷ VNĐ, 27,8%), Khối Giáo dục, Đầu tư và Khác (6.132 tỷ VNĐ, 8,8%). Tỷ lệ tăng trưởng doanh thu từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            },
+            {
+              "type": "chart",
+              "title": "Cơ cấu lợi nhuận trước thuế theo khối",
+              "location": "phải",
+              "description": "Biểu đồ hình tròn thể hiện lợi nhuận trước thuế theo ba khối: Khối Công nghệ (5.907 tỷ VNĐ, 45,3%), Khối Viễn thông (4.364 tỷ VNĐ, 33,5%), Khối Giáo dục, Đầu tư và Khác (2.773 tỷ VNĐ, 21,2%). Tỷ lệ tăng trưởng lợi nhuận từng khối được thể hiện bằng mũi tên màu xanh lá với các giá trị tương ứng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "PHÂN TÍCH HOẠT ĐỘNG KINH DOANH\nBÁO CÁO CỦA BAN ĐIỀU HÀNH VỀ KẾT QUẢ KINH DOANH 2025 VÀ NHẬN ĐỊNH 2026\nĐánh giá chung\n• Bối cảnh • Kết quả kinh doanh\nNăm 2025, kinh tế thế giới tiếp tục vận động trong trạng thái thận trọng khi phải \nđối mặt với nhiều thách thức đan xen, bao gồm biến động địa chính trị, áp lực lạm \nphát kéo dài tại một số nền kinh tế lớn, xu hướng tái cấu trúc chuỗi cung ứng toàn \ncầu và chính sách tiền tệ thắt chặt. Trong bối cảnh đó, các doanh nghiệp và tổ chức\ntrên toàn cầu có xu hướng kiểm soát chặt chẽ hơn quyết định đầu tư, ưu tiên hiệu \nquả, khả năng sinh lời và tính bền vững dài hạn. Tuy nhiên, song hành với những khó \nkhăn là cơ hội mới khi làn sóng chuyển đổi số, ứng dụng AI, tự động hóa và dữ liệu \nlớn tiếp tục được đẩy mạnh nhằm nâng cao năng suất, tối ưu chi phí và tăng cường \nnăng lực cạnh tranh. Công nghệ, đặc biệt là AI, chuyển dịch từ giai đoạn thử nghiệm\nsang triển khai thực tiễn, tạo ra nhu cầu ngày càng rõ nét đối với các giải pháp có\nkhả năng tạo giá trị thực tiễn cho hoạt động sản xuất kinh doanh.\nKinh tế Việt Nam tiếp tục duy trì đà tăng trưởng tích cực nhờ sự ổn định vĩ mô,\nchính sách điều hành linh hoạt và sự phục hồi của các hoạt động sản xuất, xuất khẩu \nvà tiêu dùng trong nước. Chính phủ đẩy mạnh triển khai các chính sách hỗ trợ\ndoanh nghiệp, cải thiện môi trường đầu tư, đồng thời thúc đẩy phát triển khu vực\nkinh tế tư nhân như một động lực quan trọng của tăng trưởng. Đặc biệt, Nghị quyết \n57-NQ/TW về phát triển khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số\nquốc gia tạo hành lang chính sách thuận lợi cho việc ứng dụng công nghệ, AI và\ndữ liệu trong cả khu vực công và khu vực tư nhân. Đây là nền tảng quan trọng thúc đẩy \nnhu cầu về các giải pháp công nghệ toàn diện, mở ra cơ hội tăng trưởng dài hạn cho \ncác doanh nghiệp có năng lực công nghệ và uy tín trên thị trường.\nTrong bối cảnh đó, FPT tiếp tục khẳng định vai trò là doanh nghiệp công nghệ \nhàng đầu, chủ động thích ứng với những thay đổi của môi trường kinh doanh toàn \ncầu và trong nước. Tập đoàn tập trung nguồn lực vào các lĩnh vực công nghệ cốt lõi, \nbao gồm: AI, chuyển đổi số, bán dẫn, công nghệ ô tô số và hạ tầng số, đồng thời \ntừng bước tối ưu hóa danh mục hoạt động theo hướng nâng cao hiệu quả và chất \nlượng tăng trưởng. Việc đẩy mạnh ứng dụng AI không chỉ giới hạn ở việc phát triển\nsản phẩm và dịch vụ mới, mà còn được Tập đoàn triển khai sâu rộng trong vận hành \nnội bộ, quản trị dự án và tối ưu quy trình, qua đó nâng cao năng suất lao động và \nnăng lực cạnh tranh tổng thể. FPT kiên định chiến lược phát triển bền vững, cân bằng \ngiữa mở rộng quy mô và nâng cao hiệu quả sử dụng vốn, từng bước xây dựng lợi thế \ncạnh tranh dài hạn trong bối cảnh cạnh tranh ngày càng gay gắt.\nNăm 2025, trong bối cảnh kinh tế toàn cầu xuất hiện thêm nhiều biến động khó \nlường so với thời điểm xây dựng kế hoạch kinh doanh đầu năm, đặc biệt là những\ntác động từ căng thẳng thương mại và chính sách thuế quan của Mỹ, FPT vẫn duy\ntrì đà tăng trưởng hai chữ số và bám sát kế hoạch kinh doanh được đặt ra từ đầu\nnăm với doanh thu đạt 93%, lợi nhuận trước thuế đạt 97% kế hoạch. Lợi nhuận sau\nthuế thuộc về cổ đông công ty mẹ và thu nhập trên mỗi cổ phiếu (EPS) đạt tư",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Kết quả kinh doanh năm 2025",
+              "location": "phải",
+              "description": "Các chỉ số tài chính gồm doanh thu, lợi nhuận trước thuế, lợi nhuận sau thuế thuộc cổ đông công ty mẹ, thu nhập trên mỗi cổ phiếu; đơn vị tính tỷ VNĐ hoặc VNĐ; tỷ lệ tăng trưởng phần trăm so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p180",
+          "page": 180,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n2.10. Đầu tư tài chính\n(a) Đầu tư nắm giữ đến ngày đáo hạn\nCác khoản đầu tư nắm giữ đến ngày đáo hạn là các khoản đầu tư mà Tập đoàn có \ný định và có khả năng giữ đến ngày đáo hạn.\nCác khoản đầu tư nắm giữ đến ngày đáo hạn bao gồm các khoản tiền gửi ngân \nhàng có kỳ hạn trên ba tháng, và các khoản đầu tư nắm giữ đến ngày đáo hạn \nkhác. Các khoản đầu tư này ban đầu được ghi nhận theo giá gốc. Sau đó, Tập đoàn \nthực hiện việc rà soát đối với tất cả các khoản đầu tư để ghi nhận dự phòng vào cuối \nnăm tài chính.\nDự phòng giảm giá đầu tư nắm giữ đến ngày đáo hạn được lập trên cơ sở có bằng \nchứng chắc chắn cho thấy một phần hoặc toàn bộ khoản đầu tư có thể không thu \nhồi được. Chênh lệch giữa khoản dự phòng lập ở cuối năm tài chính này và khoản \ndự phòng đã lập ở cuối năm tài chính trước được ghi nhận tăng hoặc giảm chi phí \ntài chính trong năm tài chính. Khoản dự phòng được hoàn nhập không vượt quá giá \ntrị ghi sổ ban đầu.\nCác khoản đầu tư nắm giữ đến ngày đáo hạn được phân loại ngắn hạn và dài hạn \ntrên bảng cân đối kế toán hợp nhất căn cứ theo kỳ hạn của các khoản đầu tư nắm \ngiữ đến ngày đáo hạn tại ngày của bảng cân đối kế toán hợp nhất đến ngày đáo hạn.\n(b) Đầu tư vào công ty liên doanh, liên kết\nĐầu tư vào công ty liên doanh, liên kết được trình bày theo phương pháp vốn chủ sở \nhữu trong báo cáo tài chính hợp nhất (Thuyết minh 2.5). \n(c) Đầu tư góp vốn vào đơn vị khác\nĐầu tư góp vốn vào đơn vị khác là các khoản đầu tư vào công cụ vốn của đơn vị \nkhác nhưng không có quyền kiểm soát hoặc đồng kiểm soát, không có ảnh hưởng \nđáng kể đối với bên được đầu tư. Khoản đầu tư góp vốn các đơn vị khác được phản \nánh theo nguyên giá trừ các khoản dự phòng giảm giá đầu tư. \nCho vay là các khoản cho vay với mục đích thu lãi hàng kỳ theo khế ước giữa các \nbên nhưng không được giao dịch mua, bán trên thị trường như chứng khoán.\nCho vay được ghi nhận ban đầu theo giá gốc. Sau đó, Tập đoàn thực hiện việc rà \nsoát đối với tất cả các khoản còn chưa thu để ghi nhận dự phòng các khoản cho \nvay khó đòi vào cuối năm tài chính. Dự phòng các khoản cho vay khó đòi được lập \ncho từng khoản cho vay căn cứ vào thời gian quá hạn trả nợ gốc theo cam kết nợ \nban đầu (không tính đến việc gia hạn nợ giữa các bên), hoặc căn cứ vào mức tổn \nthất ước tính có thể xảy ra. Chênh lệch giữa khoản dự phòng lập ở cuối năm tài \nchính này và khoản dự phòng đã lập ở cuối năm tài chính trước được ghi nhận tăng \nhoặc giảm chi phí trong năm tài chính. Khoản dự phòng được hoàn nhập không vượt \nquá giá trị ghi sổ ban đầu.\nCho vay được phân loại ngắn hạn và dài hạn trên bảng cân đối kế toán hợp nhất \ncăn cứ theo kỳ hạn còn lại của các khoản cho vay tại ngày của bảng cân đối kế \ntoán hợp nhất đến ngày tới hạn thu hồi.\nMẫu số B 09 – DN/HN\n2.11. Cho vay\nDự phòng giảm giá đầu tư góp vốn vào đơn vị khác được lập vào cuối năm tài chính \nkhi có sự giảm giá trị của các khoản đầu tư. Dự phòng giảm giá đầu tư góp vốn vào \nđơn vị khác được tính dựa trên giá trị thị trường nếu giá trị thị trường được xác định \nmột cách tin cậy. Nếu giá trị thị trường không thể được xác đ",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p046",
+          "page": 46,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "BỐI CẢNH CHUNG\nCHIẾN LƯỢC PHÁT TRIỂN\nChi tiêu CNTT toàn cầu dự kiến đạt 6.155 tỷ USD vào năm 2026, tăng 10,8% so với \nnăm 2025 (Nguồn Gartner), tập trung mạnh vào trung tâm dữ liệu (tăng 31,7%) \nvà phần mềm (tăng 14,7%) nhờ nhu cầu xây dựng hạ tầng tính toán phục vụ AI. \nLĩnh vực Dịch vụ CNTT được dự báo đạt 1.867 tỷ USD vào năm 2026 với tốc độ \ntăng trưởng 8,7%, trở thành phân khúc lớn nhất trong tổng chi tiêu CNTT toàn cầu, \nphản ánh xu hướng gia tăng nhu cầu tư vấn, triển khai, hiện đại hóa hệ thống, \nchuyển đổi số và ứng dụng AI trong doanh nghiệp. \nTăng trưởng chi tiêu Dịch vụ Công nghệ thông tin AI bước vào chu kỳ tạo giá trị, động lực mới cho \ntăng trưởng dài hạn\nChi tiêu CNTT toàn cầu năm 2026 (Nguồn: Gartner)\nDịch vụ CNTT\nTrung tâm dữ liệu Đơn vị: Tỷ USD\n6.155\n1.867 30,3%\n836 13,6%\n653 10,6%\n1.365 22,2% 1.434 23,3%\nPhần mềm\nPhần cứng\nDịch vụ viễn thông\nTheo khảo sát của Gartner, hơn 80% CIO dự kiến đầu tư mạnh vào các năng lực \nnền tảng như: an ninh mạng, AI tạo sinh và quản trị dữ liệu. Trong giai đoạn \n2025-2026, các giám đốc Công nghệ (CIO) chuyển trọng tâm từ triển khai dự án \nthử nghiệm sang dự án có giá trị thực tế và tỷ suất lợi nhuận từ AI, đặc biệt là AI tự chủ \n(Agentic AI). Trong đó, A.R.T (Agile Realignment – Risk Readiness – Tenacity) được \nxem là ba năng lực cốt lõi để các tổ chức, doanh nghiệp phát triển và bứt phá trong \nmột thế giới đầy biến động, được dẫn dắt bởi AI.\n• Tái cấu trúc linh hoạt (Agile Realignment): 94% CIO kỳ vọng sẽ có những thay \nđổi lớn trong kế hoạch chi tiêu cho các dự án CNTT trong vòng 24 tháng tới và \nsẵn sàng dừng các dự án kém hiệu quả để dồn lực cho dự án AI.\n• Sẵn sàng trước rủi ro (Risk Readiness): Các CIO đang chuyển từ chiến lược nhà \ncung cấp \"không biên giới\" sang ưu tiên các đối tác khu vực và giải pháp \"chủ \nquyền số\" (Geopatriation) để giảm thiểu rủi ro địa chính trị và tuân thủ quy định \ndữ liệu khắt khe.\n• Sự kiên định về kết quả tài chính (Tenacity): Ưu tiên hàng đầu của các CIO là \nchuyển hóa năng suất từ AI thành lợi nhuận thực tế thông qua việc tối ưu hóa chi \nphí vận hành và tăng trưởng doanh thu.\nMột xu hướng đáng chú ý là sự ưu tiên sử dụng các mô hình AI mã nguồn mở. 76% \ndoanh nghiệp sử dụng mô hình ngôn ngữ lớn (LLM) ưu tiên lựa chọn các mô hình mã \nnguồn mở, kết hợp với các giải pháp độc quyền nhằm tối ưu chi phí, hiệu năng và \nkhả năng kiểm soát dữ liệu. Tỷ lệ doanh nghiệp tự đầu tư phát triển mô hình AI giảm \nmạnh, từ 43% trong năm 2024 xuống còn 24% trong năm 2025. Xu hướng này mở \nra cơ hội phát triển cho các doanh nghiệp công nghệ như FPT trong việc xây dựng \nnền tảng AI dựa trên mã nguồn mở và phát triển các giải pháp AI chuyên biệt, \ntạo dư địa tăng trưởng bền vững trong trung và dài hạn.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược phát triển của FPT với bối cảnh chung về tăng trưởng chi tiêu dịch vụ công nghệ thông tin toàn cầu và vai trò của AI trong chu kỳ tạo giá trị và động lực tăng trưởng dài hạn.\nchart: Chi tiêu CNTT toàn cầu năm 2026 (trái) — Biểu đồ vòng thể hiện phân bổ chi tiêu CNTT toàn cầu theo các lĩnh vực: Dịch vụ CNTT, Phần mềm, Dịch vụ viễn thông, Trung tâm dữ liệu, Phần cứng; đơn vị tính tỷ USD; dữ liệu dự báo năm 20",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Chi tiêu CNTT toàn cầu năm 2026",
+              "location": "trái",
+              "description": "Biểu đồ vòng thể hiện phân bổ chi tiêu CNTT toàn cầu theo các lĩnh vực: Dịch vụ CNTT, Phần mềm, Dịch vụ viễn thông, Trung tâm dữ liệu, Phần cứng; đơn vị tính tỷ USD; dữ liệu dự báo năm 2026 từ Gartner."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Kết quả kinh doanh\n• Các chỉ tiêu tài chính chủ yếu\n(Tiếp theo)\nLĩnh vực Dịch vụ CNTT cho thị trường nước ngoài, động lực tăng trưởng chính của \nTập đoàn, tiếp tục duy trì mức tăng trưởng cao so với mặt bằng chung của ngành, \ntăng 14,3% so với năm trước. Kết quả này đến từ nhu cầu chuyển đổi số và ứng \ndụng AI ngày càng rõ nét tại thị trường Nhật Bản (tăng trưởng 25,4% so với năm \ntrước). Việc tập trung vào các hợp đồng quy mô lớn, dài hạn, có hàm lượng công \nnghệ cao giúp FPT không chỉ mở rộng doanh thu mà còn từng bước nâng cao chất \nlượng tăng trưởng và hiệu quả kinh doanh. Trong bối cảnh ngành dịch vụ CNTT \ntoàn cầu còn thận trọng, nhiều doanh nghiệp Dịch vụ CNTT lớn trên thế giới, bao \ngồm các công ty tại Ấn Độ, chỉ ghi nhận mức tăng trưởng ở mức khiêm tốn, kết quả \ncủa FPT phần nào cho thấy những nỗ lực không ngừng của Tập đoàn trong việc mở \nrộng thị trường, đa dạng hóa danh mục dịch vụ và duy trì đà phát triển ổn định.\nTrong đó, mảng Dịch vụ Chuyển đổi số tiếp tục ghi nhận tăng trưởng nổi bật đạt \n16,8% so với năm trước, chiếm tỷ trọng ngày càng cao trong tổng doanh thu\nDịch vụ CNTT cho thị trường nước ngoài (47,3%). Các giải pháp liên quan đến dữ \nliệu, điện toán đám mây, AI và tự động hóa được khách hàng đẩy mạnh triển khai \nnhằm nâng cao hiệu quả vận hành và năng lực cạnh tranh. Kết quả này không chỉ \nphản ánh xu hướng chuyển dịch mạnh mẽ sang chuyển đổi số thế hệ mới, mà còn \nkhẳng định vị thế và năng lực cung cấp các dịch vụ công nghệ tiên tiến của FPT \ntrên thị trường quốc tế.\nSong song với hoạt động kinh doanh, FPT tiếp tục đẩy mạnh theo cả chiều rộng và \nchiều sâu quan hệ hợp tác chiến lược với các đối tác lớn trên toàn cầu. Việc hợp tác \nkhông chỉ dừng ở cung cấp dịch vụ, mà từng bước mở rộng sang đồng phát triển \ngiải pháp, chuyển giao công nghệ và xây dựng năng lực dài hạn, giúp FPT nâng cao \nkhả năng tham gia sâu hơn vào chuỗi giá trị công nghệ toàn cầu.\nNhờ chủ động ứng dụng công nghệ, đặc biệt là AI, trong tối ưu hóa vận hành và \nquản trị, các khối Viễn thông và khối Giáo dục, Đầu tư và Khác tiếp tục duy trì \ntăng trưởng ổn định. Khối Viễn thông (tăng trưởng doanh thu đạt 10,8%) tập trung \nnâng cao chất lượng dịch vụ và trải nghiệm khách hàng, đồng thời mở rộng độ phủ \nhạ tầng và danh mục sản phẩm, qua đó từng bước gia tăng hiện diện trên thị trường \nvà cải thiện thị phần ở các phân khúc trọng điểm. Trong khi đó, lĩnh vực Giáo dục \nchú trọng nâng cao chất lượng đào tạo, gắn kết chặt chẽ hơn với nhu cầu nhân lực \ncủa các lĩnh vực công nghệ chiến lược được Đảng và Nhà nước ưu tiên như: AI, \nbán dẫn, dữ liệu, điện toán đám mây, an toàn, an ninh thông tin và các công nghệ \nphục vụ chuyển đổi số, chuyển đổi xanh. Định hướng này góp phần củng cố vai trò \ncủa FPT trong cung cấp nguồn nhân lực chất lượng cao cho nền kinh tế số.\nMột số chỉ tiêu hoạt động kinh doanh chính trong năm 2025\nĐơn vị: Tỷ VNĐ\nChỉ tiêu 2024 2025 Tăng/Giảm\nTổng tài sản\nDoanh thu\nLợi nhuận từ hoạt động kinh doanh\nLNTT, lãi vay và khấu hao (EBITDA)\nLNTT\nLNST\nLãi cơ bản trên cổ phiếu (*)\nCổ tức tiền mặt trả trong năm\nTỷ lệ lợi nhuận trả cổ tức\n72.000\n62.849\n11.025\n13.605\n11.070\n9.427\n4.292\n2.741\n34,9%\n88.142\n70.113\n12.952\n15.958\n13.044\n11.232\n5.216\n3.185\n34,",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+              "location": "phải",
+              "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, đơn vị tỷ VNĐ, gồm tổng tài sản, doanh thu, lợi nhuận từ hoạt động kinh doanh, EBITDA, LNTT, LNST, lãi cơ bản trên cổ phiếu, cổ tức tiền mặt trả trong năm và tỷ lệ lợi nhuận trả cổ tức cùng với mức tăng/giảm phần trăm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p008",
+          "page": 8,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lĩnh vực Giáo dục tiếp tục mở rộng hệ thống rộng khắp, mang đến trải nghiệm vượt trội \nvà hạnh phúc cho người học, đồng thời tăng cường hơn nữa việc đưa AI vào chương trình \nđào tạo gắn với mô hình “học – ứng dụng – thử nghiệm” và đẩy mạnh đào tạo nguồn \nnhân lực công nghệ chiến lược như: AI, bán dẫn…\nĐể đạt được mục tiêu đề ra, FPT sẽ tập trung triển khai bốn nhóm hành động trọng tâm. \nThứ nhất là thay đổi nhận thức và nâng cao năng lực dự báo, giúp Tập đoàn chủ động \nnhận diện xu hướng, xác định đúng vị thế và duy trì động lực nội tại. \nThứ hai là nâng cao kỷ cương thực thi chiến lược, coi kỷ luật là yếu tố nền tảng \ntrong quản trị, gắn chặt kết quả thực hiện với hệ thống vận hành và trách nhiệm \ncủa từng cấp quản lý. \nThứ ba là đẩy mạnh hơn nữa việc thu hút, nuôi dưỡng và phát triển nhân tài, \ncoi con người là tài sản quan trọng nhất và là lợi thế cạnh tranh bền vững của FPT. \nThứ tư là quản trị và điều hành dựa trên dữ liệu, xuyên suốt từ cấp Tập đoàn đến các \ncông ty thành viên. Việc này sẽ giúp Tập đoàn kịp thời tháo gỡ điểm nghẽn và đưa ra \nquyết sách nhanh chóng, chính xác trước những thách thức bất định của thị trường.\nVà quan trọng hơn cả, FPT tiếp tục củng cố niềm tin với con người, với công việc, \nvới khách hàng lớn, với Chính phủ và Quốc gia, đồng thời, kiên định theo đuổi chiến \nlược tăng trưởng bền vững, đặt lợi ích dài hạn của cổ đông làm trọng tâm. Với nền \ntảng đã được xây dựng trong nhiều năm qua, chúng tôi tin tưởng FPT sẽ tiếp tục \nduy trì đà tăng trưởng ổn định, nâng cao năng lực cạnh tranh và đóng góp tích cực \nvào sự phát triển của nền kinh tế số Việt Nam.\n2026, năm bản lề cho chu kỳ tăng trưởng mới\nNăm 2026 cũng sẽ không dễ dàng, thậm chí khó hơn 2025. Nhưng đây sẽ là năm \nbản lề cho một chu kỳ phát triển, tăng trưởng mới của FPT. Tập đoàn đặt mục tiêu \ntăng trưởng 15,8% doanh thu và 15,0% lợi nhuận trước thuế. \nKhối Công nghệ tiếp tục là trụ cột tăng trưởng chính với mục tiêu doanh thu \ntăng trưởng 18,4% và lợi nhuận 24,4%, đồng thời tập trung đầu tư vào các \ncông nghệ chiến lược như: AI, Quantum AI, Cybersecurity, UAV, Công nghệ \nđường sắt, Dữ liệu. Lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài tập trung \nvào ba trụ cột chiến lược. Thứ nhất là “AI-First”. AI được xác định là năng lực \nxuyên suốt trong thiết kế giải pháp, phát triển sản phẩm và tổ chức vận hành \ngiúp Tập đoàn gia tăng năng suất và tạo năng lực cạnh tranh khác biệt. Thứ hai \nlà “Mâm trên”. FPT sẽ tập trung các dự án quy mô lớn, khách hàng chiến lược và \ncác hợp đồng có giá trị cao. Thứ ba là “Hợp lực”. Tập đoàn sẽ đẩy mạnh hợp tác \nvới các Big Tech, đồng thời tăng cường phối hợp nội bộ trong Tập đoàn để cung cấp \ncác giải pháp tổng thể, quy mô lớn. Trong lĩnh vực Dịch vụ CNTT cho thị trường trong \nnước, FPT sẽ mở rộng hệ sinh thái sản phẩm Made by FPT và tham gia sâu, rộng vào \ncác bài toán chuyển đổi số của quốc gia, bộ ngành, tỉnh thành. \nĐặc biệt, Tập đoàn tiếp tục duy trì môi trường làm việc hạnh phúc, đa văn hóa, \nnăng động và hòa nhập, qua đó tạo nền tảng vững chắc để thu hút đội ngũ nhân \nsự trẻ, tài năng trên quy mô toàn cầu. Số nhân sự dưới 30 tuổi chiếm 43,9%; \nsố cán bộ quản lý dưới 40 tuổi chiếm 53,2%; 4.124 nhân sự người nước ngoài \nthu",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tỷ lệ nhân sự theo độ tuổi",
+              "location": "giữa trang",
+              "description": "Tỷ lệ nhân sự dưới 30 tuổi chiếm 43,9%, tỷ lệ cán bộ quản lý dưới 40 tuổi chiếm 53,2%."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p045",
+          "page": 45,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Bối cảnh chung\nChiến lược phát triển \ngiai đoạn 2026 - 2028 \n01\n02\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Chiến lược phát triển trong báo cáo thường niên FPT 2025, giới thiệu hai nội dung chính: Bối cảnh chung và Chiến lược phát triển giai đoạn 2026-2028.\n",
+          "visuals": []
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p055",
+          "path": ".bonus/pages/p055.jpg",
+          "sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+        },
+        {
+          "id": "FPT2025:p060",
+          "path": ".bonus/pages/p060.jpg",
+          "sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+        },
+        {
+          "id": "FPT2025:p057",
+          "path": ".bonus/pages/p057.jpg",
+          "sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+        },
+        {
+          "id": "FPT2025:p180",
+          "path": ".bonus/pages/p180.jpg",
+          "sha256": "72a5b2e8017c965fa75048068d4dbf0c5cb6f5d48e56c45f2b56d383018420dd"
+        },
+        {
+          "id": "FPT2025:p046",
+          "path": ".bonus/pages/p046.jpg",
+          "sha256": "05994b7b95e90ec916d31f265ef9fc2c8e1ff63b20e397b72acb14a0bf9d0308"
+        },
+        {
+          "id": "FPT2025:p058",
+          "path": ".bonus/pages/p058.jpg",
+          "sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+        },
+        {
+          "id": "FPT2025:p008",
+          "path": ".bonus/pages/p008.jpg",
+          "sha256": "0bf06a62ba691e40d48bdaae40cd6788390bc54db0ce3244a2393ed3697f2712"
+        },
+        {
+          "id": "FPT2025:p045",
+          "path": ".bonus/pages/p045.jpg",
+          "sha256": "f5d5c6e76795cbb9f177de12d8d10380b9b332cb952ae63d4a6d49dc8849ddbc"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805083-cuYcDct3qUCJ5WUjyodv",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01HaGJW3tYavofHdQ9K6a1gm",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo bảng \\\"Kế hoạch đầu tư dự kiến năm 2026\\\" (đơn vị: tỷ VNĐ):\\n- Khối Công nghệ: 4.200 tỷ VNĐ\\n- Khối Giáo dục, Đầu tư và Khác: 3.000 tỷ VNĐ\\n- Tổng cộng: 7.200 tỷ VNĐ\\n\\nKhối Công nghệ chiếm 4.200 / 7.200 = 58,33% (làm tròn 58,33%) tổng ngân sách đầu tư dự kiến. Đây là kế hoạch, không phải số thực tế.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p055\",\"region\":\"Bảng \\\"Kế hoạch đầu tư dự kiến\\\" (phía dưới trang), cột Khối, Ngân sách đầu tư và hàng Tổng cộng\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p055",
+    "FPT2025:p060",
+    "FPT2025:p057",
+    "FPT2025:p180",
+    "FPT2025:p046",
+    "FPT2025:p058",
+    "FPT2025:p008",
+    "FPT2025:p045"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p055",
+      "page": 55,
+      "image": ".bonus/pages/p055.jpg",
+      "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+    },
+    {
+      "id": "FPT2025:p060",
+      "page": 60,
+      "image": ".bonus/pages/p060.jpg",
+      "image_sha256": "96362bae5d775a71acd934536b5884a2a8ef0c433badec7b725c440e38786834"
+    },
+    {
+      "id": "FPT2025:p057",
+      "page": 57,
+      "image": ".bonus/pages/p057.jpg",
+      "image_sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+    },
+    {
+      "id": "FPT2025:p180",
+      "page": 180,
+      "image": ".bonus/pages/p180.jpg",
+      "image_sha256": "72a5b2e8017c965fa75048068d4dbf0c5cb6f5d48e56c45f2b56d383018420dd"
+    },
+    {
+      "id": "FPT2025:p046",
+      "page": 46,
+      "image": ".bonus/pages/p046.jpg",
+      "image_sha256": "05994b7b95e90ec916d31f265ef9fc2c8e1ff63b20e397b72acb14a0bf9d0308"
+    },
+    {
+      "id": "FPT2025:p058",
+      "page": 58,
+      "image": ".bonus/pages/p058.jpg",
+      "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+    },
+    {
+      "id": "FPT2025:p008",
+      "page": 8,
+      "image": ".bonus/pages/p008.jpg",
+      "image_sha256": "0bf06a62ba691e40d48bdaae40cd6788390bc54db0ce3244a2393ed3697f2712"
+    },
+    {
+      "id": "FPT2025:p045",
+      "page": 45,
+      "image": ".bonus/pages/p045.jpg",
+      "image_sha256": "f5d5c6e76795cbb9f177de12d8d10380b9b332cb952ae63d4a6d49dc8849ddbc"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805075-sve2SU0Dslz79Z6lDIrJ",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 183,
+        "total_tokens": 2033,
+        "cost": 0.0002765,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002765,
+          "upstream_inference_prompt_cost": 0.000185,
+          "upstream_inference_completions_cost": 9.15e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1464.1166999936104,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805083-cuYcDct3qUCJ5WUjyodv",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 32475,
+        "completion_tokens": 378,
+        "total_tokens": 32853,
+        "cost": 0.0034365,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0034365,
+          "upstream_inference_prompt_cost": 0.0032475,
+          "upstream_inference_completions_cost": 0.000189
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 11191.833799995948,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 14948.505999986082,
+  "query_id": "ft-t3",
+  "question": "Trong kế hoạch đầu tư dự kiến năm 2026, hai khối được phân bổ bao nhiêu vốn, tổng bao nhiêu và Khối Công nghệ chiếm bao nhiêu phần trăm tổng ngân sách?",
+  "split": "test",
+  "config": "vision"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "FPT2025:p111",
+  "image_sha256": "1c9f7ec52ac9c58108249ff00f692aa1dd6d29d7c7dbec013ac0bcd5abecf9f0",
+  "caption": {
+    "summary": "Tổng hợp các dấu ấn nổi bật của FPT trong các lĩnh vực môi trường làm việc, hoạt động vì môi trường xanh, trách nhiệm xã hội và quản trị bền vững năm 2025.",
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Môi trường làm việc đẳng cấp",
+        "location": "trái",
+        "description": "Các chỉ số về nơi làm việc tốt nhất Việt Nam, việc làm ổn định, nhân sự người nước ngoài, tỷ lệ cán bộ quản lý nữ, giờ học nâng cao kiến thức kỹ năng AI."
+      },
+      {
+        "type": "diagram",
+        "title": "Hoạt động vì môi trường xanh",
+        "location": "giữa trái",
+        "description": "Số lượng hệ thống điện mặt trời mái nhà và tổng sản lượng điện tạo ra, tỷ lệ cơ sở được giám sát phát thải khí nhà kính định kỳ."
+      },
+      {
+        "type": "diagram",
+        "title": "Trách nhiệm xã hội",
+        "location": "giữa phải",
+        "description": "Số năm liên tiếp triển khai Ngày FPT vì cộng đồng, số điểm trường thiệt hại nặng được tái thiết sau lũ, các giải thưởng và dự án cộng đồng triển khai."
+      },
+      {
+        "type": "diagram",
+        "title": "Quản trị bền vững",
+        "location": "phải",
+        "description": "Xếp hạng doanh nghiệp Việt Nam về chất lượng quản trị công ty, các chứng nhận ISO liên quan đến quản lý an toàn thông tin, môi trường, an toàn sức khỏe, đo lường phát thải khí nhà kính và hệ thống quản lý trí tuệ nhân tạo."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800760-3HHXhdWOi3fpBSqOH29w",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 320,
+        "total_tokens": 2882,
+        "cost": 0.0015368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0015368,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000512
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4359.3966999906115,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

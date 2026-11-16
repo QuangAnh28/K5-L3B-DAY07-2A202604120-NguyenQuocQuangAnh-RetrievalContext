@@ -1,0 +1,17 @@
+{
+  "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+  "test_minimums": {
+    "table": 6,
+    "diagram": 5,
+    "chart": 5,
+    "multi_hop": 4,
+    "text": 4,
+    "unanswerable": 6
+  },
+  "pass_rule": "Answerable: fully correct, all units/conditions/calculations and necessary original evidence page/region citations. Unanswerable: explicit refusal without unsupported claims. Any system error counts fail; denominator all 30.",
+  "split_note": "Created before dev/test agent experiments. Same document, distinct dev/test requested facts; shared pages permitted.",
+  "threshold": "27/30, no rounding",
+  "review_note": "Original-page semantic review by Codex AI; student confirmation remains false.",
+  "dev_revision_note": "Corrected fd-i3 against original page 63 before any bonus test. Prior benchmark and pilot preserved. Test cases unchanged.",
+  "pretest_gold_correction": "ft-c5: original page 152 orange legend is hard copies, peak 2022=92.9%; corrected before any test execution. Dev cases unchanged."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p052",
+  "image_sha256": "b2201f8585b2657ca539a854f2b9b4141417da0c36d848983753bd0078e4ce43",
+  "caption": {
+    "summary": "Trang trình bày các lĩnh vực công nghệ chiến lược và mục tiêu 2026-2030 của FPT, bao gồm AI, công nghệ lượng tử, điện toán đám mây và điện toán biên, chip và thiết kế sản phẩm, an ninh mạng, UAV và blockchain.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800723-wVmxPByccSY3MDbk3j82",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 76,
+        "total_tokens": 2638,
+        "cost": 0.0011464,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011464,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001216
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2740.182999987155,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

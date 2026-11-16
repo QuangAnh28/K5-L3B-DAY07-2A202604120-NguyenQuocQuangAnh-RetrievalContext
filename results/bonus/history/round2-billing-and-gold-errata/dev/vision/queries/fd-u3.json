@@ -1,0 +1,26 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "events": [],
+  "searches": 0,
+  "error": {
+    "type": "RuntimeError",
+    "message": "OpenRouter HTTP 402"
+  },
+  "context_ids": [],
+  "context_sources": [],
+  "usage": [
+    {
+      "endpoint": "chat/completions",
+      "error": "HTTP",
+      "status": 402,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 1442.9503999999724,
+  "query_id": "fd-u3",
+  "question": "Dự án Bếp Xanh – Sống Lành ghi số tiền tài trợ cụ thể cho từng hộ gia đình là bao nhiêu?",
+  "split": "dev",
+  "config": "vision"
+}

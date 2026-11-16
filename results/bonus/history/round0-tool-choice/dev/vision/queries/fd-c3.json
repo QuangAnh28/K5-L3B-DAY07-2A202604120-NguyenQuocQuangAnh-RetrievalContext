@@ -1,0 +1,462 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801615-Upk7E0IAyJdARuHkxUvc",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_hDdovBTFQrJ46KwmcPGn4aYy",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"Biểu đồ Dịch vụ Chuyển đổi số\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Biểu đồ Dịch vụ Chuyển đổi số dùng màu cam cho chỉ tiêu nào và đơn vị trục giá trị là gì?",
+      "model_queries": [
+        "Biểu đồ Dịch vụ Chuyển đổi số"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p053",
+          "page": 53,
+          "score": 0.031099324975891997,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "score": 0.0287391216352965,
+          "component_ranks": {
+            "dense": 21,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p066",
+          "page": 66,
+          "score": 0.028083267871170464,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "score": 0.02712049508554787,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 22
+          }
+        },
+        {
+          "id": "FPT2025:p216",
+          "page": 216,
+          "score": 0.025478740668614087,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "FPT2025:p063",
+          "page": 63,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        },
+        {
+          "id": "FPT2025:p001",
+          "page": 1,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "tfidf": 3
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Biểu đồ Dịch vụ Chuyển đổi số dùng màu cam cho chỉ tiêu nào và đơn vị trục giá trị là gì?"
+      ],
+      "context_ids": [
+        "FPT2025:p053",
+        "FPT2025:p159",
+        "FPT2025:p066",
+        "FPT2025:p209",
+        "FPT2025:p216",
+        "FPT2025:p063",
+        "FPT2025:p171",
+        "FPT2025:p001"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p053",
+          "page": 53,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Chuyển đổi số khối Chính phủ và địa phương: \nThị trường trọng điểm\nLà doanh nghiệp dịch vụ công nghệ có mặt tại hơn 30 quốc gia, đồng thời là đối \ntác chiến lược và đối tác cao cấp của nhiều tập đoàn công nghệ hàng đầu thế giới \nvà khu vực, FPT sở hữu lợi thế kết nối hệ sinh thái công nghệ toàn cầu cùng đội ngũ \nnhân sự chuyên môn cao. Năng lực này cho phép FPT huy động hiệu quả nguồn lực, \ncông nghệ và kinh nghiệm quốc tế để phục vụ trực tiếp cho quá trình chuyển đổi số \nkhu vực công và phát triển đô thị thông minh tại Việt Nam, qua đó góp phần hiện thực \nhóa các mục tiêu xây dựng Chính phủ số, kinh tế số và nâng cao năng lực tự chủ \ncông nghệ quốc gia.\nChuyển đổi số khu vực công được xem là động lực tăng trưởng chiến lược cho FPT \ntrong giai đoạn 03-05 năm tới. \nChính phủ Việt Nam đã phê duyệt Chương trình Chuyển đổi số quốc gia giai đoạn \n2025-2030, đặt mục tiêu 100% dịch vụ công được cung cấp trực tuyến mức độ 04 \nvào năm 2030. Chính phủ chủ trương dành 2% ngân sách nhà nước hàng năm cho \nlĩnh vực công nghệ, công nghệ thông tin và đổi mới sáng tạo. \nNăm 2025, FPT đã đồng hành với nhiều bộ, ngành và địa phương hoàn thành các \nchiến lược dữ liệu, chiến lược chuyển đổi số, kiến trúc chính phủ số cho giai đoạn \n2026-2030.\nFPT tiếp tục đồng hành cùng Chính phủ, bộ, ngành và địa phương:\n• Xây dựng và đưa vào vận hành các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên \nngành, đảm bảo “Đúng – Đủ – Sạch – Sống” làm cơ sở cho dịch vụ số tiện dụng, \nhữu ích trong dịch vụ công đối với người dân;\n• Tích hợp AI và xử lý dữ liệu lớn để tự động hóa thủ tục hành chính, giảm thời gian \nxử lý và cải thiện trải nghiệm công dân;\n• Phát triển nền tảng số, sáng kiến số tích hợp công nghệ AI khai thác các cơ sở dữ \nliệu hiệu quả nâng cao năng lực quản lý nhà nước;\n• Đẩy mạnh ứng dụng IoT, AI và Big Data tại các đô thị lớn, tối ưu hóa giao thông, \nnăng lượng và an ninh hướng đến mô hình thành phố thông minh;\n• Đồng hành phát triển và vận hành các sáng kiến đổi mới sáng tạo trên nền tảng \ncông nghệ số, ứng dụng AI giúp phát triển kinh tế và nâng cao chất lượng cuộc \nsống cho người dân;\n• Đồng hành phát triển nguồn nhân lực mới, đào tạo bổ sung các kỹ năng đáp ứng \nviệc triển khai các nghị quyết đột phá về khoa học công nghệ, đổi mới sáng tạo \nvà công nghệ chiến lược tại địa phương. Thông qua trợ lý AI tại Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án \ndân sự (IOC THADS), lãnh đạo có thể theo dõi tiến độ xử lý ngay trên một màn hình điều \nhành tập trung.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược chuyển đổi số khối Chính phủ và địa phương của FPT, tập trung vào các thị trường trọng điểm và các hoạt động đồng hành cùng Chính phủ, bộ, ngành và địa phương trong giai đoạn 2026-2030.\nphoto: Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS) (phải) — Ảnh một người đang làm việc với hai màn hình máy tính hiển thị bản đồ và biểu đồ liên quan đến dữ liệu giám sát, thể hiện việc theo dõi tiến độ xử lý trên màn hình điều hành tập trung.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS)",
+              "location": "phải",
+              "description": "Ảnh một người đang làm việc với hai màn hình máy tính hiển thị bản đồ và biểu đồ liên quan đến dữ liệu giám sát, thể hiện việc theo dõi tiến độ xử lý trên màn hình điều hành tập trung."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.\ndiagram: Biểu tượng tài chính và biểu đồ (phải) — Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Biểu tượng tài chính và biểu đồ",
+              "location": "phải",
+              "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p066",
+          "page": 66,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Dự án thúc đẩy chuyển đổi số, \nxây dựng cơ sở dữ liệu \ncho các Bộ, ngành\n40\nTỉnh thành hợp tác\nchuyển đổi số\n24\nCông ty tư vấn và cung cấp\nsản phẩm, giải pháp,\ndịch vụ công nghệ\nTop 1\nDự án số đa quy mô\n100.000+\nLĨNH VỰC DỊCH VỤ CNTT CHO THỊ TRƯỜNG TRONG NƯỚC\nNăm 2025, FPT tự hào là đối tác triển khai hàng loạt hệ thống chuyển đổi\nsố quan trọng của Chính phủ, bộ ngành, tỉnh thành, doanh nghiệp. \nFPT tham gia ngay từ giai đoạn sớm của quá trình ban hành, chỉnh sửa \ncác luật định, chính sách giúp khách hàng triển khai và chuẩn bị sẵn sàng\ncác hệ thống công nghệ tương ứng với các thay đổi. Doanh thu ký mới \nvượt mốc 10.000 tỷ đồng, tạo tiền đề phát triển cho năm 2026.\nViệt Nam đang chuyển đổi từ một quốc gia ứng dụng công nghệ sang \nmột quốc gia làm chủ công nghệ chiến lược, trong hành trình đó, FPT sẽ \nlà doanh nghiệp chủ lực cùng Việt Nam trở thành trung tâm phát triển \ntoàn cầu với việc tập trung phát triển hệ sinh thái Made by FPT với các \nsản phẩm chủ lực trong lĩnh vực AI, bán dẫn, an ninh bảo mật, \nBlockchain, Quantum, UAV, công nghệ đường sắt…. FPT sẽ cùng các \ndoanh nghiệp, tổ chức lấy công nghệ, chuyển đổi AI làm sức mạnh \ncạnh tranh cốt lõi, đồng thời đồng hành cùng Chính phủ, bộ ngành,\ntỉnh thành xây dựng và vận hành các nền tảng số hiện đại, thuận tiện, \nlấy người dân và doanh nghiệp làm trung tâm.\nTổng Giám đốc FPT IS\nÔng NGUYỄN HOÀNG MINH\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về lĩnh vực dịch vụ CNTT cho thị trường trong nước của FPT, các dự án chuyển đổi số, và vai trò của FPT trong chuyển đổi số quốc gia năm 2025.\ntable: Các chỉ số chính về dịch vụ CNTT trong nước (trái trên) — Top 1 công ty tư vấn và cung cấp sản phẩm, giải pháp, dịch vụ công nghệ; 40 dự án thúc đẩy chuyển đổi số; hơn 100.000 dự án số đa quy mô; 24 tỉnh thành hợp tác chuyển đổi số.\nphoto: 14 sản phẩm giải pháp Made by FPT được công bố trên Cổng Thông tin Nghị quyết 57 (trái dưới) — Ảnh chụp màn hình trang web Bộ Khoa học và Công nghệ giới thiệu 14 sản phẩm giải pháp công nghệ của FPT.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Các chỉ số chính về dịch vụ CNTT trong nước",
+              "location": "trái trên",
+              "description": "Top 1 công ty tư vấn và cung cấp sản phẩm, giải pháp, dịch vụ công nghệ; 40 dự án thúc đẩy chuyển đổi số; hơn 100.000 dự án số đa quy mô; 24 tỉnh thành hợp tác chuyển đổi số."
+            },
+            {
+              "type": "photo",
+              "title": "14 sản phẩm giải pháp Made by FPT được công bố trên Cổng Thông tin Nghị quyết 57",
+              "location": "trái dưới",
+              "description": "Ảnh chụp màn hình trang web Bộ Khoa học và Công nghệ giới thiệu 14 sản phẩm giải pháp công nghệ của FPT."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "26. Doanh thu thuần về bán hàng và\ncung cấp dịch vụ 28. Doanh thu hoạt động tài chính\nĐơn vị: VNĐ\nĐơn vị: VNĐ\n27. Giá vốn hàng bán và dịch vụ cung cấp\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nDoanh thu \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nCác khoản giảm trừ \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nDoanh thu thuần về bán hàng và cung cấp dịch vụ\nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nGiá vốn của hàng hóa đã bán\nGiá vốn của dịch vụ đã cung cấp\n(Hoàn nhập)/dự phòng giảm giá \nhàng tồn kho\n4.936.911.674.294 39.289.180.693.984 (1.796.779.981)\n44.224.295.588.297 \n4.416.467.377.102 \n34.732.056.916.304 \n1.921.688.045\n39.150.445.981.451 \n \n 5.801.884.142.851 64.405.804.801.702\n70.207.688.944.553\n(732.143.441) \n(94.131.700.402) \n(94.863.843.843) \n5.801.151.999.410 \n64.311.673.101.300\n70.112.825.100.710\n5.162.729.425.317 \n57.799.922.709.318\n62.962.652.134.635 \n(12.000.960.744) \n(101.856.822.524) \n(113.857.783.268) \n5.150.728.464.573 \n57.698.065.886.794\n62.848.794.351.367 \n2025 2024\nLãi tiền gửi, cho vay\nLãi chênh lệch tỷ giá hối đoái\nCổ tức, lợi nhuận được chia\nKhác \n 1.717.721.035.751 952.791.248.844 209.162.913.500 \n97.481.158.678 \n2.977.156.356.773\n1.207.207.618.564 \n575.306.141.560\n103.356.885.500 \n49.878.469.681\n1.935.749.115.305 \n2025 2024\n29. Chi phí tài chính Đơn vị: VNĐ\nLãi tiền vay\nLỗ chênh lệch tỷ giá\nDự phòng giảm giá các khoản \nđầu tư và tổn thất đầu tư tài chính\nKhác\n809.759.601.156 \n474.800.589.595\n384.631.609.873 \n2.856.900.842 \n1.672.048.701.466\n551.639.361.786 \n506.839.495.688 \n738.729.747.218 \n14.338.777.289 \n1.811.547.381.981 \n2025 2024\nĐơn vị: VNĐ\n2025 2024\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng số liệu chi tiết về doanh thu thuần, giá vốn hàng bán và dịch vụ cung cấp, doanh thu hoạt động tài chính và chi phí tài chính của FPT năm 2025 và 2024.\ntable: Doanh thu thuần về bán hàng và cung cấp dịch vụ (trái trên) — Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần\ntable: Giá vốn hàng bán và dịch vụ cung cấp (trái dưới) — Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND\ntable: Doanh thu hoạt động tài chính (phải trên) — Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND\ntable: Chi phí tài chính (phải dưới) — Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+              "location": "trái trên",
+              "description": "Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần"
+            },
+            {
+              "type": "table",
+              "title": "Giá vốn hàng bán và dịch vụ cung cấp",
+              "location": "trái dưới",
+              "description": "Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Doanh thu hoạt động tài chính",
+              "location": "phải trên",
+              "description": "Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Chi phí tài chính",
+              "location": "phải dưới",
+              "description": "Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p216",
+          "page": 216,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "35. Thuyết minh về các bên liên quan (Tiếp theo) 36. Các cam kết\nMẫu số B 09 – DN/HN\n(b) Số dư cuối năm tài chính với các bên liên quan (a) Cam kết thuê hoạt động\n(b) Cam kết vốn\nĐơn vị: VNĐ\n31/12/2025\n39.275.051.776\n54.839.728.652\n375.577.271\n55.215.305.923\n188.899.996.714\n6.654.649.292\n195.554.646.006\n408.107.000.000\n39.275.051.776\n45.188.852.981\n1.285.502.494\n46.474.355.475\n323.041.857.148\n6.228.628.104\n329.270.485.252\n-\n31/12/2024\nCác khoản ủy thác đầu tư \nCông ty Cổ phần Quản lý Quỹ đầu tư FPT\nPhải thu ngắn hạn của khách hàng (Thuyết minh 6)\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nCông ty Cổ phần Synnex FPT\nPhải trả người bán ngắn hạn (Thuyết minh 17)\nCông ty Cổ phần Synnex FPT\nCông ty Cổ phần Bán lẻ Kỹ thuật số FPT\nVay ngắn hạn (Thuyết minh 22)\nCông ty Cổ phần Synnex FPT\nĐơn vị: VNĐ\n31/12/2025\n 1.003.048.814.934\n 1.921.066.175.567\n770.608.131.792\n3.694.723.122.293\n872.479.124.331\n1.655.574.881.552\n771.175.004.322\n3.299.229.010.205\n31/12/2024\nDưới 1 năm\nTừ 1 năm đến 5 năm\nTrên 5 năm\nĐơn vị: VNĐ\n31/12/2025\n1.788.310.602.983 408.935.033.406\n31/12/2024\nCam kết vốn\ni) \nii) \niii) \niv) \nTập đoàn ký các hợp đồng thuê hoạt động (bao gồm: thuê văn phòng, đất, địa điểm \ngiảng dạy, nhà ở và thuê khác). Mức cam kết thanh toán trong tương lai theo hợp \nđồng như sau:\nCác cam kết về chi tiêu tạo lập TSCĐ (bao gồm: các dự án xây dựng trường học, trung \ntâm nghiên cứu, phát triển sản phẩm và mua các TSCĐ khác) đã ký hợp đồng tại ngày \nkết thúc năm tài chính nhưng chưa được hạch toán vào báo cáo tài chính hợp nhất \nnhư sau:\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nThuyết minh báo cáo tài chính hợp nhất năm 2025 về các bên liên quan và các cam kết tài chính của tập đoàn FPT.\ntable: Số dư cuối năm tài chính với các bên liên quan (trái) — Các khoản ủy thác đầu tư, phải thu ngắn hạn của khách hàng, phải trả người bán ngắn hạn, vay ngắn hạn; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024\ntable: Cam kết thuê hoạt động (phải) — Cam kết thuê hoạt động theo thời gian: dưới 1 năm, từ 1 năm đến 5 năm, trên 5 năm; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024\ntable: Cam kết vốn (phải dưới bảng cam kết thuê hoạt động) — Cam kết vốn cho các dự án xây dựng, nghiên cứu, phát triển sản phẩm và mua tài sản cố định; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Số dư cuối năm tài chính với các bên liên quan",
+              "location": "trái",
+              "description": "Các khoản ủy thác đầu tư, phải thu ngắn hạn của khách hàng, phải trả người bán ngắn hạn, vay ngắn hạn; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+            },
+            {
+              "type": "table",
+              "title": "Cam kết thuê hoạt động",
+              "location": "phải",
+              "description": "Cam kết thuê hoạt động theo thời gian: dưới 1 năm, từ 1 năm đến 5 năm, trên 5 năm; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+            },
+            {
+              "type": "table",
+              "title": "Cam kết vốn",
+              "location": "phải dưới bảng cam kết thuê hoạt động",
+              "description": "Cam kết vốn cho các dự án xây dựng, nghiên cứu, phát triển sản phẩm và mua tài sản cố định; đơn vị tính VNĐ; so sánh số liệu giữa 31/12/2025 và 31/12/2024"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p063",
+          "page": 63,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Dịch chuyển danh mục dịch vụ lên phân khúc giá trị cao và dẫn dắt chuyển đổi AI\nTrong bối cảnh ngành dịch vụ CNTT toàn cầu chịu áp lực từ việc thắt chặt \nngân sách và cạnh tranh ngày càng gay gắt, mảng Dịch vụ Chuyển đổi số tiếp tục \nđóng vai trò là động lực tăng trưởng chất lượng của FPT. Doanh thu từ dịch vụ \nchuyển đổi số đạt 16.751 tỷ đồng, tăng 16,8% so với năm trước và chiếm 47,3% tổng \ndoanh thu Dịch vụ CNTT cho thị trường nước ngoài, phản ánh xu hướng khách hàng \nưu tiên các dự án mang tính chiến lược, có tác động trực tiếp đến hiệu quả vận \nhành và năng lực cạnh tranh dài hạn.\nDoanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025\n2021 2022 2023 2024 2025\n40.000\n35.000\n30.000\n25.000\n20.000\n15.000\n10.000\n5.000\n0\nDoanh thu dịch vụ CNTT \ncho thị trường nước ngoài\nDoanh thu dịch vụ \nChuyển đổi số\nĐơn vị: Tỷ VNĐ\nDanh mục dịch vụ chuyển đổi số của FPT tiếp tục được mở rộng, bám sát các xu \nhướng công nghệ chủ đạo trên toàn cầu. Trong đó, Điện toán đám mây tiếp tục \nchiếm tỷ trọng lớn nhất nhờ nhu cầu hiện đại hóa hạ tầng CNTT và tối ưu chi phí \nvận hành của doanh nghiệp, chiếm 36,6% doanh thu mảng Dịch vụ Chuyển đổi \nsố. AI và Phân tích Dữ liệu cũng ghi nhận tốc độ tăng trưởng cao đạt 41% so với \nnăm trước, trong bối cảnh các doanh nghiệp đẩy mạnh ứng dụng AI để nâng \ncao hiệu suất, ra quyết định dựa trên dữ liệu và tái thiết mô hình kinh doanh. \nTrong năm 2025, nhằm đáp ứng với những thay đổi nhanh chóng trong xu thế \ncông nghệ và nhu cầu ứng dụng AI ngày càng sâu rộng của doanh nghiệp toàn \ncầu, FPT đã ra mắt nền tảng FleziPT như một bước đi trọng yếu trong lộ trình \nchuyển đổi FPT thành “AI-First Company”. FleziPT không chỉ giúp nâng cao \nnăng suất và hiệu quả vận hành nội bộ thông qua việc tái định nghĩa các quy \ntrình phát triển và vận hành phần mềm, mà còn tạo nền tảng để FPT cung cấp \ncác giải pháp AI chuyên sâu, phù hợp với đặc thù từng ngành và từng nhóm \n14.541\n5.522\n18.915\n7.349\n24.288\n10.425\n30.953\n14.340\n35.382\n16.751\nkhách hàng. FleziPT đóng vai trò là nền tảng chiến lược giúp FPT hiện thực hóa \nđịnh hướng AI-First ở quy mô lớn, rút ngắn thời gian triển khai và tạo tiền đề gia tăng\ntỷ trọng doanh thu từ các dịch vụ AI-First trong những năm tới.\nViệc kết hợp hiệu quả giữa năng lực công nghệ, hiểu biết theo ngành và lực lượng \nkỹ sư được đào tạo bài bản giúp FPT từng bước khẳng định vai trò là đối tác chuyển \nđổi số chiến lược, đồng hành cùng khách hàng trong các chương trình chuyển đổi \ndài hạn. Trên nền tảng đó, Việt Nam và FPT ngày càng trở thành mắt xích quan trọng\ntrong chuỗi giá trị dịch vụ CNTT toàn cầu, có khả năng cạnh tranh với các tập đoàn \nlớn trong cùng ngành. \nNền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được \nkiểm chứng hiệu quả\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo phân tích hoạt động kinh doanh dịch vụ chuyển đổi số của FPT giai đoạn 2021-2025, tập trung vào doanh thu và nền tảng AI FleziPT.\nchart: Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025 (trái) — Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài (màu cam) và doanh thu dịch vụ chuyển đổi số (màu xanh dương) theo từng năm từ 2021 đến 2025, đơn vị tính tỷ VNĐ.\ndiagram: Nền tảng AI linh ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025",
+              "location": "trái",
+              "description": "Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài (màu cam) và doanh thu dịch vụ chuyển đổi số (màu xanh dương) theo từng năm từ 2021 đến 2025, đơn vị tính tỷ VNĐ."
+            },
+            {
+              "type": "diagram",
+              "title": "Nền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được kiểm chứng hiệu quả",
+              "location": "phải",
+              "description": "Sơ đồ vòng tròn thể hiện cấu trúc nền tảng AI FleziPT gồm các lớp: Flezi Foundation ở trung tâm, Flezi Crew, Flezi Verse và các dịch vụ AI toàn trình, với các thành phần như đội ngũ AI toàn cầu, chuyên gia AI, kỹ sư dữ liệu, phần mềm AI hỗ trợ, các sản phẩm và dịch vụ AI cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG KINH DOANH\n01\n02\n03\n04\n05\n06\n08\n09\n10\n11\n12\n14\n15\n17\n20\nLợi nhuận kế toán trước thuế\nĐiều chỉnh cho các khoản:\nKhấu hao tài sản cố định (“TSCĐ”) và phân bổ lợi thế thương mại\nCác khoản dự phòng\n(Lãi)/lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục\ntiền tệ có gốc ngoại tệ\nLãi từ hoạt động đầu tư\nChi phí lãi vay\nLợi nhuận từ hoạt động kinh doanh trước những thay đổi vốn lưu động\nTăng các khoản phải thu\nTăng hàng tồn kho\nTăng các khoản phải trả\nTăng chi phí trả trước\nTiền lãi vay đã trả\nThuế TNDN đã nộp\nTiền chi khác từ hoạt động kinh doanh\nLưu chuyển tiền thuần từ hoạt động kinh doanh\n13.043.632.833.797\n2.914.178.360.732 \n651.406.282.654\n(27.776.460.391)\n(2.575.840.046.010) \n809.759.601.156 \n14.815.360.571.938 \n(2.874.821.969.471)\n(335.071.616.492)\n2.556.427.255.416\n(595.604.484.389)\n(812.474.254.533)\n(2.238.070.257.305)\n(379.701.329.253)\n10.136.043.915.911\n11.069.666.417.819\n2.535.298.475.665\n1.148.951.390.915\n46.311.803.197\n(1.725.022.480.893)\n551.639.361.786\n13.626.844.968.489\n(1.913.663.012.505)\n(265.267.561.842)\n2.875.571.263.689\n(393.964.502.357)\n(607.154.747.076)\n(1.209.921.507.569)\n(408.667.711.961)\n11.703.777.188.868\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nĐơn vị: VNĐ\n21\n22\n23\n24\nTiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác\nTiền thu từ thanh lý, nhượng bán TSCĐ và tài sản dài hạn khác \nTiền chi cho vay, mua các công cụ nợ của đơn vị khác\nTiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác\n(5.097.919.349.856)\n7.314.216.719\n(57.012.522.823.806)\n49.164.792.969.282\n(3.275.312.325.702)\n14.227.383.215\n(41.956.569.113.369)\n36.283.758.374.630\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và hoạt động đầu tư trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p001",
+          "page": 1,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang bìa báo cáo thường niên FPT 2025 với chủ đề làm chủ công nghệ chiến lược.\nphoto: Biểu tượng FPT và thành phố công nghệ (trái) — Hình ảnh biểu tượng FPT màu vàng cam nổi bật trên nền thành phố công nghệ màu xanh dương với các tòa nhà và mạch điện tử.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Biểu tượng FPT và thành phố công nghệ",
+              "location": "trái",
+              "description": "Hình ảnh biểu tượng FPT màu vàng cam nổi bật trên nền thành phố công nghệ màu xanh dương với các tòa nhà và mạch điện tử."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p053",
+          "path": ".bonus/pages/p053.jpg",
+          "sha256": "781e078d581f673b1ab234e2f0a2ab2bf027c371b9584104866e78fe4bc8e76c"
+        },
+        {
+          "id": "FPT2025:p159",
+          "path": ".bonus/pages/p159.jpg",
+          "sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+        },
+        {
+          "id": "FPT2025:p066",
+          "path": ".bonus/pages/p066.jpg",
+          "sha256": "e101a7f3eed494104189b789cb3d35c0ea84c448797e72aef0bee40c1776de96"
+        },
+        {
+          "id": "FPT2025:p209",
+          "path": ".bonus/pages/p209.jpg",
+          "sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+        },
+        {
+          "id": "FPT2025:p216",
+          "path": ".bonus/pages/p216.jpg",
+          "sha256": "7345206e0f180ddddf4d2dde9c42cf2662880811bd1f2d95eb3fb5dd66836d4a"
+        },
+        {
+          "id": "FPT2025:p063",
+          "path": ".bonus/pages/p063.jpg",
+          "sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+        },
+        {
+          "id": "FPT2025:p171",
+          "path": ".bonus/pages/p171.jpg",
+          "sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01"
+        },
+        {
+          "id": "FPT2025:p001",
+          "path": ".bonus/pages/p001.jpg",
+          "sha256": "524c31049ec9a3c92957587081aa4d31ac6cfb2547a70791f7affe584147f215"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801617-YI2hYUwcELpNMxAhsHju",
+      "message": {
+        "role": "assistant",
+        "content": "Biểu đồ Dịch vụ Chuyển đổi số dùng màu cam cho chỉ tiêu \"Doanh thu dịch vụ CNTT cho thị trường nước ngoài\". Đơn vị trục giá trị của biểu đồ là \"Tỷ VNĐ\".\n\nThông tin này được thể hiện rõ trong trang 63 (PDF 63) của báo cáo thường niên FPT 2025, trong phần mô tả và biểu đồ \"Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025\". Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài dùng màu cam, còn doanh thu dịch vụ chuyển đổi số dùng màu xanh dương. Đơn vị tính trên trục giá trị là tỷ VNĐ. \n\nNguồn: Trang 63, vùng chứa biểu đồ và chú giải màu, đơn vị trục giá trị. (FPT2025:p063)",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "searches": 1,
+  "error": {
+    "type": "ValueError",
+    "message": "Exactly one function call required"
+  },
+  "context_ids": [
+    "FPT2025:p053",
+    "FPT2025:p159",
+    "FPT2025:p066",
+    "FPT2025:p209",
+    "FPT2025:p216",
+    "FPT2025:p063",
+    "FPT2025:p171",
+    "FPT2025:p001"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p053",
+      "page": 53,
+      "image": ".bonus/pages/p053.jpg",
+      "image_sha256": "781e078d581f673b1ab234e2f0a2ab2bf027c371b9584104866e78fe4bc8e76c"
+    },
+    {
+      "id": "FPT2025:p159",
+      "page": 159,
+      "image": ".bonus/pages/p159.jpg",
+      "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+    },
+    {
+      "id": "FPT2025:p066",
+      "page": 66,
+      "image": ".bonus/pages/p066.jpg",
+      "image_sha256": "e101a7f3eed494104189b789cb3d35c0ea84c448797e72aef0bee40c1776de96"
+    },
+    {
+      "id": "FPT2025:p209",
+      "page": 209,
+      "image": ".bonus/pages/p209.jpg",
+      "image_sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+    },
+    {
+      "id": "FPT2025:p216",
+      "page": 216,
+      "image": ".bonus/pages/p216.jpg",
+      "image_sha256": "7345206e0f180ddddf4d2dde9c42cf2662880811bd1f2d95eb3fb5dd66836d4a"
+    },
+    {
+      "id": "FPT2025:p063",
+      "page": 63,
+      "image": ".bonus/pages/p063.jpg",
+      "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+    },
+    {
+      "id": "FPT2025:p171",
+      "page": 171,
+      "image": ".bonus/pages/p171.jpg",
+      "image_sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01"
+    },
+    {
+      "id": "FPT2025:p001",
+      "page": 1,
+      "image": ".bonus/pages/p001.jpg",
+      "image_sha256": "524c31049ec9a3c92957587081aa4d31ac6cfb2547a70791f7affe584147f215"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801615-Upk7E0IAyJdARuHkxUvc",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 459,
+        "completion_tokens": 17,
+        "total_tokens": 476,
+        "cost": 0.0002108,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002108,
+          "upstream_inference_prompt_cost": 0.0001836,
+          "upstream_inference_completions_cost": 2.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1215.098799963016,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801617-YI2hYUwcELpNMxAhsHju",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 27007,
+        "completion_tokens": 190,
+        "total_tokens": 27197,
+        "cost": 0.0111068,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0111068,
+          "upstream_inference_prompt_cost": 0.0108028,
+          "upstream_inference_completions_cost": 0.000304
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 9831.800199986901,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 11118.34699998144,
+  "query_id": "fd-c3",
+  "question": "Biểu đồ Dịch vụ Chuyển đổi số dùng màu cam cho chỉ tiêu nào và đơn vị trục giá trị là gì?",
+  "split": "dev",
+  "config": "vision"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p024",
+  "image_sha256": "8b49bf76f30258828abe09a58187c942dd30d9732b65e046ff0518a66ead9581",
+  "caption": {
+    "summary": "Trang trình bày về sứ mệnh và 6 giá trị cốt lõi của FPT, bao gồm Tôn trọng, Đổi mới, Đồng đội, Chí công, Gương mẫu và Sáng suốt, với mục tiêu phát triển tổ chức và con người theo hướng sáng tạo và bền vững.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Ảnh tượng trưng giá trị cốt lõi FPT",
+        "location": "giữa",
+        "description": "Ảnh chụp tượng trưng với hình cầu và cấu trúc xoắn ốc, biểu tượng cho sự phát triển và sáng tạo."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800703-ZsQ6jju0DCNoLpxYJRaL",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 135,
+        "total_tokens": 2697,
+        "cost": 0.0012408,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012408,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000216
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3296.732400020119,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

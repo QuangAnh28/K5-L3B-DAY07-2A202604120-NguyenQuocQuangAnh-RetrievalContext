@@ -1,0 +1,261 @@
+{
+  "status": "answered",
+  "answer": "Theo sơ đồ tổ chức và bảng trách nhiệm phát triển bền vững trên trang 125 báo cáo thường niên FPT 2025, Hội đồng Quản trị (HĐQT) là cấp phê duyệt chiến lược phát triển bền vững. Ban Điều hành và Công ty thành viên là các cấp triển khai chiến lược này. Về thứ tự sắp xếp, HĐQT đứng đầu, tiếp theo là Ban Điều hành, và cuối cùng là Công ty thành viên.\n[FPT2025:p125 — Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững, bảng trái]",
+  "citations": [
+    {
+      "id": "FPT2025:p125",
+      "region": "Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững, bảng trái"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794802211-R7DGzJMB84hulkbkqfxv",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_GL87XdKajW8PGz9iHvIz9QFx",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"sơ đồ tổ chức phát triển bền vững\",\"bảng trách nhiệm phát triển bền vững\",\"phê duyệt chiến lược phát triển bền vững\",\"triển khai phát triển bền vững\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Đối chiếu sơ đồ tổ chức với bảng trách nhiệm phát triển bền vững: cấp nào phê duyệt chiến lược, cấp nào triển khai, và hai cấp đó được sắp theo thứ tự nào?",
+      "model_queries": [
+        "sơ đồ tổ chức phát triển bền vững",
+        "bảng trách nhiệm phát triển bền vững",
+        "phê duyệt chiến lược phát triển bền vững",
+        "triển khai phát triển bền vững"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p125",
+          "page": 125,
+          "score": 0.03252247488101534,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p083",
+          "page": 83,
+          "score": 0.03128054740957967,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p100",
+          "page": 100,
+          "score": 0.030798389007344232,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p045",
+          "page": 45,
+          "score": 0.029906956136464335,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 14
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Đối chiếu sơ đồ tổ chức với bảng trách nhiệm phát triển bền vững: cấp nào phê duyệt chiến lược, cấp nào triển khai, và hai cấp đó được sắp theo thứ tự nào?"
+      ],
+      "context_ids": [
+        "FPT2025:p125",
+        "FPT2025:p083",
+        "FPT2025:p100",
+        "FPT2025:p045"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p125",
+          "page": 125,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Xác định các vấn đề trọng yếu • Quy trình xác định các vấn đề trọng yếu \nCác vấn đề trọng yếu trong hoạt động ESG của FPT được xác định dựa trên \nnguyên tắc: xây dựng chiến lược kinh doanh hướng tới sự phát triển bền vững, đảm \nbảo hài hòa lợi ích và quyền lợi cao nhất cho các bên liên quan và cộng đồng, đồng \nthời tuân thủ các quy định pháp luật liên quan.\n• Vai trò và trách nhiệm của các bên trong quản trị \nphát triển bền vững\nBộ phận chịu trách nhiệm\nHĐQT • Phê duyệt, ban hành chiến lược và định hướng phát triển \nbền vững trong toàn Tập đoàn.\nĐảm bảo việc triển khai chiến lược phát triển bền vững thông \nqua các hoạt động:\n• Xây dựng mục tiêu phát triển bền vững cụ thể cho Tập đoàn \nvà công ty thành viên;\n• Chỉ đạo triển khai các chương trình hiện thực hóa chiến lược \nphát triển bền vững của Tập đoàn;\n• Giám sát kết quả thực hiện mục tiêu phát triển bền vững của \nTập đoàn và công ty thành viên.\n• Đảm bảo hiện thực hóa các mục tiêu phát triển bền vững \ntheo định hướng và chiến lược chung của Tập đoàn;\n• Thực hiện báo cáo định kỳ về tình hình triển khai chiến lược \nphát triển bền vững của đơn vị.\nBan Điều hành\nCông ty \nthành viên\nXác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh \ncủa Tập đoàn và lợi ích của các bên liên quan.\n• Bám sát các diễn biến kinh tế, chính trị, xã hội, môi trường của Việt Nam và thế giới;\n• Nghiên cứu thông tin từ các báo cáo kinh tế-xã hội, báo cáo thị trường, báo cáo \nngành do các tổ chức uy tín đưa ra;\n• Phân tích các báo cáo đánh giá, khảo sát khách hàng của Tập đoàn;\n• Phân tích đặc thù kinh doanh của ngành và các lĩnh vực hoạt động của Tập đoàn;\n• Ghi nhận phản hồi từ cổ đông, nhà đầu tư và các bên liên quan khác;\n• Tìm hiểu các hướng dẫn về xây dựng báo cáo phát triển bền vững.\nBước 01\nPhân tích và xác định các vấn đề trọng yếu được các bên quan tâm.\n• Xác định các vấn đề trọng yếu dựa trên cơ sở tham vấn các bên liên quan và \nđánh giá mức độ tác động đến chiến lược tăng trưởng dài hạn. Các vấn đề trọng \nyếu được xác định tập trung vào quản trị minh bạch, an toàn dữ liệu, cam kết \nchuyển đổi xanh, phát triển nguồn nhân lực chất lượng cao và quản trị chuỗi \ncung ứng bền vững.\nBước 02\nPhân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan.\n• Xây dựng ma trận các vấn đề trọng yếu;\n• Lựa chọn các vấn đề trọng yếu.\nBước 03\nDựa trên nguyên tắc và quy trình xác định các vấn đề trọng yếu nêu trên, FPT lựa \nchọn 04 vấn đề trọng yếu gồm: (1) Quản trị hướng đến phát triển bền vững; (2) Xây \ndựng môi trường làm việc đẳng cấp, hạnh phúc; (3) Hoạt động vì môi trường xanh; \n(4) Song hành vì sự phát triển cộng đồng.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về xác định các vấn đề trọng yếu trong hoạt động ESG của FPT, vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững, cùng quy trình xác định các vấn đề trọng yếu.\ntable: Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững (trái) — Bảng phân chia trách nhiệm của Hội đồng quản trị, Ban Điều hành và Công ty thành viên trong việc phê duyệt, triển khai và giám sát chiến lược phát triển bền vững.\ndiagram: Quy trình xác định các vấn đề trọng yếu (phải) — Quy trình gồm 3 bước: Bước 01 xác định c",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững",
+              "location": "trái",
+              "description": "Bảng phân chia trách nhiệm của Hội đồng quản trị, Ban Điều hành và Công ty thành viên trong việc phê duyệt, triển khai và giám sát chiến lược phát triển bền vững."
+            },
+            {
+              "type": "diagram",
+              "title": "Quy trình xác định các vấn đề trọng yếu",
+              "location": "phải",
+              "description": "Quy trình gồm 3 bước: Bước 01 xác định các vấn đề chính có ảnh hưởng lớn đến hoạt động kinh doanh và lợi ích các bên liên quan; Bước 02 phân tích và xác định các vấn đề trọng yếu được các bên quan tâm; Bước 03 phân tích các vấn đề trọng yếu trong mối quan hệ với các bên liên quan."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p083",
+          "page": 83,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Nội dung các phiên họp và Nghị quyết\nPhiên họp Thành phần tham dự Nội dung họp và Nghị quyết Ghi chú\nPhiên 01\nNgày 05/02/2025\nHĐQT: 06/07 thành viên.\nQuan sát viên:\n• BKS: 03/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành Nghị quyết số \n01.01-2025/NQ-HĐQTFPT ngày \n06/02/2025.\n• Thông qua Kết quả kinh doanh năm 2024;\n• Thông qua Kế hoạch kinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua Định hướng chiến lược 2025-2027, các chương trình \nchiến lược, kinh doanh trọng điểm và trình ĐHĐCĐ phê duyệt;\n• Thông qua ngày chốt danh sách và ngày họp ĐHĐCĐ.\nĐã công bố thông tin tại \nvăn bản số 24/FPT-FCC \nngày 06/02/2025.\nPhiên 02\nNgày 20/03/2025\nHĐQT: 07/07 thành viên.\nQuan sát viên:\n• BKS: 03/03 thành viên;\n• Ban Điều hành: 03/03 thành viên.\nBan hành 02 Nghị quyết: \n• Nghị quyết số \n01.03-2025/NQ-HĐQTFPT ngày \n20/03/2025;\n• Nghị quyết số \n02.03-2025/NQ-HĐQTFPT ngày \n20/03/2025.\n• Thông qua Chương trình ĐHĐCĐ thường niên 2025 và trình ĐHĐCĐ \nphê duyệt;\n• Thông qua Quy chế tổ chức ĐHĐCĐ thường niên 2025;\n• Thông qua Báo cáo của HĐQT năm 2024, định hướng, kế hoạch \nkinh doanh năm 2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua Ngân sách thu nhập và thù lao của HĐQT năm 2025 và \ntrình ĐHĐCĐ phê duyệt;\n• Thông qua Báo cáo tài chính 2024 đã kiểm toán và trình ĐHĐCĐ \nphê duyệt;\n• Thông qua Phương án phân phối lợi nhuận năm 2024, Phương án \nphát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu \ncho cổ đông, Chính sách chi trả cổ tức tiền mặt năm 2025 và trình \nĐHĐCĐ phê duyệt;\n• Thông qua đề xuất ủy quyền cho HĐQT lựa chọn một trong bốn \ncông ty kiểm toán (Big4) thực hiện kiểm toán Báo cáo tài chính năm \n2025 và trình ĐHĐCĐ phê duyệt;\n• Thông qua đề xuất trình ĐHĐCĐ phê duyệt Phương án phát hành \ncổ phần cho cán bộ Quản lý cấp cao giai đoạn 2026-2030;\n• Thông qua việc tái bổ nhiệm Tổng giám đốc Nguyễn Văn Khoa \nnhiệm kỳ ba năm tiếp theo từ 29/03/2025 đến hết ngày \n28/03/2028;\nĐã công bố thông tin tại \nvăn bản số 60/FPT-FMC \nvà 62/FPT-FMC ngày \n21/03/2025.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nNội dung các phiên họp và nghị quyết của Hội đồng Quản trị FPT năm 2025, bao gồm thành phần tham dự, nội dung họp và các nghị quyết được thông qua.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p100",
+          "page": 100,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Ủy ban Nhân sự và Lương thưởng\nĐánh giá hoạt động của các tiểu ban\nTrong năm 2025, Ủy ban Nhân sự và Lương thưởng tiếp tục phát huy vai trò tham mưu, định hướng và giám sát \ntrong lĩnh vực phát triển nguồn nhân lực, góp phần bảo đảm nguồn nhân lực đáp ứng yêu cầu thực hiện chiến lược\nphát triển của Tập đoàn trong giai đoạn mới.\nVề công tác hoạch định chiến lược nhân sự, Ủy ban đã chỉ đạo Ban Điều hành nghiên cứu, xây dựng Chiến lược \nNhân sự giai đoạn 2026-2028, phù hợp với mục tiêu làm chủ các công nghệ lõi, xây dựng đội ngũ nhân lực chất lượng \ncao, qua đó góp phần thực hiện mục tiêu phát triển bền vững và đóng góp vào chủ quyền công nghệ quốc gia.\nVề công tác quy hoạch, phát triển và luân chuyển cán bộ cấp cao, Ủy ban đã chỉ đạo xây dựng, triển khai các \nchính sách, chương trình phát triển đội ngũ cán bộ nguồn nhằm phát hiện, bồi dưỡng và chuẩn bị lực lượng cán \nbộ sẵn sàng kế cận các vị trí lãnh đạo, quản lý chủ chốt tại Tập đoàn và công ty thành viên. Đồng thời, Ủy ban \nđịnh hướng xây dựng chương trình lãnh đạo toàn cầu, tập trung nâng cao năng lực quản trị, tư duy chiến lược \nvà khả năng điều hành trong môi trường quốc tế cho đội ngũ lãnh đạo kế cận của Tập đoàn.\nỦy ban Nhân sự và Lương thưởng thực hiện đánh giá, xem xét việc tái bổ nhiệm, luân chuyển và bổ nhiệm mới \nđối với các vị trí quản lý, lãnh đạo cấp cao tại Tập đoàn và công ty thành viên, bảo đảm phù hợp với yêu cầu \nphát triển và cơ cấu tổ chức của từng đơn vị. Cụ thể, Ủy ban đã xem xét tái bổ nhiệm các chức danh chủ chốt \nnhư: Tổng giám đốc FPT, Giám đốc Nhân sự FPT, đồng thời đánh giá, xem xét luân chuyển và bổ nhiệm mới đối \nvới một số vị trí quan trọng tại công ty thành viên và thị trường trọng điểm như: Tổng giám đốc FPT IS, \nTổng giám đốc FPT châu Mỹ, Phó tổng giám đốc FPT Software phụ trách thị trường châu Âu và Trung Đông. \nBên cạnh đó, Ủy ban cũng xem xét việc bổ nhiệm lãnh đạo cho các đơn vị chiến lược mới của Tập đoàn \nnhằm đáp ứng yêu cầu phát triển trong các lĩnh vực công nghệ chiến lược.\nVề chính sách nhân sự và chế độ đãi ngộ, Ủy ban tiếp tục định hướng, chỉ đạo xây dựng, ban hành và triển khai \ncác chương trình, chính sách nhân sự quan trọng của Tập đoàn và công ty thành viên. Trọng tâm là việc xây dựng,\nhoàn thiện và cải tiến các chính sách đãi ngộ đặc thù nhằm chăm sóc toàn diện đời sống người lao động, \nthu hút và giữ chân nhân tài, giảm tỷ lệ nghỉ việc, đặc biệt đối với đội ngũ cán bộ công nghệ và các vị trí nhân sự\nđặc thù. Các chính sách được triển khai bao gồm lộ trình phát triển nghề nghiệp cho cán bộ công nghệ, quy định về \nchế độ nghỉ, chế độ hưu trí, cũng như mở rộng các chính sách hỗ trợ vay mua nhà và phương tiện, góp phần \nnâng cao mức độ gắn kết và sự hài lòng của CBNV.\nĐánh giá chung\nBÁO CÁO CỦA HĐQT\nHĐQT tiếp tục phát huy tốt vai trò định hướng, \ngiám sát và tư vấn chiến lược, tuân thủ đầy đủ \ncác quy định của pháp luật, Điều lệ Công ty và các\nchuẩn mực quản trị công ty hiện hành.\nHĐQT duy trì sự chỉ đạo sát sao đối với Ban Điều hành \ntrong việc triển khai Nghị quyết ĐHĐCĐ, thực hiện \nchiến lược phát triển trung và dài hạn của Tập đoàn, \nđặc biệt trong bối cảnh kinh tế thế giới tiếp tục tiềm \nẩn nhiều yếu tố bất ổn và cạnh tranh toàn cầu ngày",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p045",
+          "page": 45,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Bối cảnh chung\nChiến lược phát triển \ngiai đoạn 2026 - 2028 \n01\n02\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Chiến lược phát triển trong báo cáo thường niên FPT 2025, giới thiệu hai nội dung chính: Bối cảnh chung và Chiến lược phát triển giai đoạn 2026-2028.\n",
+          "visuals": []
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794802213-auejc1bl8CIGzAhZLCfr",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_swqWX7GqedPR8epTfSy5AqiK",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo sơ đồ tổ chức và bảng trách nhiệm phát triển bền vững trên trang 125 báo cáo thường niên FPT 2025, Hội đồng Quản trị (HĐQT) là cấp phê duyệt chiến lược phát triển bền vững. Ban Điều hành và Công ty thành viên là các cấp triển khai chiến lược này. Về thứ tự sắp xếp, HĐQT đứng đầu, tiếp theo là Ban Điều hành, và cuối cùng là Công ty thành viên.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p125\",\"region\":\"Vai trò và trách nhiệm của các bên trong quản trị phát triển bền vững, bảng trái\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p125",
+    "FPT2025:p083",
+    "FPT2025:p100",
+    "FPT2025:p045"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p125",
+      "page": 125,
+      "image": ".bonus/pages/p125.jpg",
+      "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+    },
+    {
+      "id": "FPT2025:p083",
+      "page": 83,
+      "image": ".bonus/pages/p083.jpg",
+      "image_sha256": "e3cc44958861ed1eb10a73b91bc9c54d3fc9a8c7f11afd9998908042636c2eed"
+    },
+    {
+      "id": "FPT2025:p100",
+      "page": 100,
+      "image": ".bonus/pages/p100.jpg",
+      "image_sha256": "81299140b8bcb1cc3942d0921f892807d9107c77b0c8c041f16bd8d0915acdf3"
+    },
+    {
+      "id": "FPT2025:p045",
+      "page": 45,
+      "image": ".bonus/pages/p045.jpg",
+      "image_sha256": "f5d5c6e76795cbb9f177de12d8d10380b9b332cb952ae63d4a6d49dc8849ddbc"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794802211-R7DGzJMB84hulkbkqfxv",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 52,
+        "total_tokens": 701,
+        "cost": 0.0003428,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003428,
+          "upstream_inference_prompt_cost": 0.0002596,
+          "upstream_inference_completions_cost": 8.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1376.307700003963,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794802213-auejc1bl8CIGzAhZLCfr",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 4051,
+        "completion_tokens": 160,
+        "total_tokens": 4211,
+        "cost": 0.0018764,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0018764,
+          "upstream_inference_prompt_cost": 0.0016204,
+          "upstream_inference_completions_cost": 0.000256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3210.836999991443,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 4597.395999997389,
+  "query_id": "fd-m2",
+  "question": "Đối chiếu sơ đồ tổ chức với bảng trách nhiệm phát triển bền vững: cấp nào phê duyệt chiến lược, cấp nào triển khai, và hai cấp đó được sắp theo thứ tự nào?",
+  "split": "dev",
+  "config": "text"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p087",
+  "image_sha256": "67b41f4c03a92d9aa8b557880fe747b6d678ac4288490a6db630baef4fafb373",
+  "caption": {
+    "summary": "Thông tin về thành viên Hội đồng Quản trị (HĐQT) FPT, bao gồm chức vụ, kinh nghiệm chuyên môn, tỷ lệ sở hữu, ngày bắt đầu làm thành viên, số buổi họp tham dự và tỷ lệ tham dự họp.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thông tin thành viên Hội đồng Quản trị FPT",
+        "location": "trên",
+        "description": "cột gồm Thành viên HĐQT, Chức vụ tại FPT và các công ty khác, Kinh nghiệm chuyên môn, Tỷ lệ sở hữu, Ngày bắt đầu là thành viên HĐQT, Số buổi họp HĐQT tham dự, Tỷ lệ tham dự họp"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800746-vHVB58sBhcx6aFi0fKO1",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 153,
+        "total_tokens": 2715,
+        "cost": 0.0012696,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012696,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002448
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4524.468699994031,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

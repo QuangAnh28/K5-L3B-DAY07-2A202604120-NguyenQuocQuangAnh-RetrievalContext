@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p056",
+  "image_sha256": "d375a11d07535fcae95dfd47e94986eca37dc8985d67a5250b902e2e9b2bd954",
+  "caption": {
+    "summary": "Trang mục lục phần phân tích hoạt động kinh doanh trong báo cáo thường niên FPT 2025, giới thiệu các nội dung chính về báo cáo kết quả kinh doanh và đánh giá hoạt động của tập đoàn.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Hình ảnh chip AI",
+        "location": "phải",
+        "description": "Hình ảnh minh họa chip AI nổi bật trên nền xanh công nghệ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800724-ixLXpLtoDzPNJEMtXGji",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 90,
+        "total_tokens": 2652,
+        "cost": 0.0011688,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011688,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3329.955500026699,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

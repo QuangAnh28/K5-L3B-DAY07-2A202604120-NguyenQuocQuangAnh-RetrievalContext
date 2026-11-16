@@ -1,0 +1,463 @@
+{
+  "status": "answered",
+  "answer": "Theo bảng \"So sánh kết quả tiêu thụ điện\" (trang 146 PDF / báo cáo trang 146, đơn vị kWh), năm 2025: điện tiêu thụ 187.453.013 kWh; điện từ năng lượng tái tạo 842.749 kWh; tỷ lệ điện tái tạo so với điện tiêu thụ 0,45%.\n[FPT2025:p147 — Bảng \"Bảng tổng hợp so sánh kết quả tiêu thụ điện\" (phía dưới bên trái trang), hàng \"Tiêu thụ điện\" cột Năm 2025 = 187.453.013; hàng \"Điện từ năng lượng tái tạo\" cột Năm 2025 = 842.749; hàng \"Tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ\" cột Năm 2025 = 0,45%]",
+  "citations": [
+    {
+      "id": "FPT2025:p147",
+      "region": "Bảng \"Bảng tổng hợp so sánh kết quả tiêu thụ điện\" (phía dưới bên trái trang), hàng \"Tiêu thụ điện\" cột Năm 2025 = 187.453.013; hàng \"Điện từ năng lượng tái tạo\" cột Năm 2025 = 842.749; hàng \"Tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ\" cột Năm 2025 = 0,45%"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805160-oGdGy0a5Pr6zjuzaRPxK",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01DUACWZDqJBiBVjp8s8fD6j",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Trong bảng tổng hợp tiêu thụ điện, điện tiêu thụ năm 2025, điện từ năng lượng tái tạo và tỷ lệ tái tạo lần lượt là bao nhiêu?\",\"bảng tổng hợp tiêu thụ điện 2025 năng lượng tái tạo\",\"tỷ lệ điện tái tạo tiêu thụ 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong bảng tổng hợp tiêu thụ điện, điện tiêu thụ năm 2025, điện từ năng lượng tái tạo và tỷ lệ tái tạo lần lượt là bao nhiêu?",
+      "model_queries": [
+        "Trong bảng tổng hợp tiêu thụ điện, điện tiêu thụ năm 2025, điện từ năng lượng tái tạo và tỷ lệ tái tạo lần lượt là bao nhiêu?",
+        "bảng tổng hợp tiêu thụ điện 2025 năng lượng tái tạo",
+        "tỷ lệ điện tái tạo tiêu thụ 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p149",
+          "page": 149,
+          "score": 0.03225806451612903,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "score": 0.03036576949620428,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 9
+          }
+        },
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "score": 0.028531243721117136,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "score": 0.027579737335834898,
+          "component_ranks": {
+            "dense": 22,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p047",
+          "page": 47,
+          "score": 0.026838432635534086,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 21
+          }
+        },
+        {
+          "id": "FPT2025:p059",
+          "page": 59,
+          "score": 0.026132699813337858,
+          "component_ranks": {
+            "dense": 23,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "score": 0.015625,
+          "component_ranks": {
+            "dense": 4
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong bảng tổng hợp tiêu thụ điện, điện tiêu thụ năm 2025, điện từ năng lượng tái tạo và tỷ lệ tái tạo lần lượt là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p147",
+        "FPT2025:p149",
+        "FPT2025:p146",
+        "FPT2025:p152",
+        "FPT2025:p058",
+        "FPT2025:p047",
+        "FPT2025:p059",
+        "FPT2025:p011"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xây dựng kế hoạch giảm thiểu lượng phát thải khí nhà kính từ hai nguồn phát \nsinh lớn thuộc Phạm vi 1 và Phạm vi 2, cũng như từ tất cả các nguồn phát sinh khác, \ncụ thể như sau:\n• Đối với Phạm vi 1 và Phạm vi 2, FPT triển khai các chương trình tiết kiệm điện và \nnăng lượng, hướng tới việc sử dụng năng lượng xanh và năng lượng tái tạo; \n• Các tòa nhà là nguồn tiêu thụ năng lượng chủ yếu, do đó, Tập đoàn chủ động \ntriển khai các sáng kiến tiết kiệm năng lượng trên nền tảng hạ tầng hiện hữu. \nThông qua việc ứng dụng các công nghệ tiên tiến và tăng cường hợp tác với các \nchuyên gia, FPT từng bước nâng cao hiệu quả sử dụng năng lượng, hướng tới hệ thống \nhạ tầng thân thiện hơn với môi trường;\n• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm: \ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hóa tòa \nnhà, hệ thống UPS, mặt dựng công trình, trung tâm dữ liệu và phòng máy chủ. \nThông qua các sáng kiến này, FPT hướng tới giảm thiểu tác động môi trường \nsong song với việc nâng cao hiệu quả vận hành.\nViệc giảm 8,58% tổng mức tiêu thụ điện so với năm 2024 phản ánh những nỗ lực \nnhất quán và có hệ thống của Tập đoàn trong triển khai các giải pháp tiết kiệm \nnăng lượng. Kết quả này đạt được nhờ việc ứng dụng các giải pháp quản lý và tối ưu \ntiêu thụ điện thông minh, kết hợp với các chương trình truyền thông và đào tạo \nnội bộ nhằm nâng cao nhận thức, thay đổi hành vi sử dụng năng lượng của CBNV \ntrong hoạt động hàng ngày.\nĐặc biệt, việc đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng \nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền \nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong \ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp \nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng, \ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát \nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời \nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra \n842.749 kWh điện. \nBảng tổng hợp so sánh kết quả tiêu thụ điện\n• Biện pháp giảm phát thải khí nhà kính\n Đơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch \n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 tập trung vào các biện pháp giảm phát thải khí nhà kính, đặc biệt là tiết kiệm năng lượng và sử dụng năng lượng tái tạo như điện mặt trời mái nhà.\ntable: Bảng tổng hợp so sánh kết quả tiêu thụ điện (dưới bên trái) — So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh.\nphoto: Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng) (phải) — Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ điện",
+              "location": "dưới bên trái",
+              "description": "So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh."
+            },
+            {
+              "type": "photo",
+              "title": "Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)",
+              "location": "phải",
+              "description": "Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p149",
+          "page": 149,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Bảng tổng hợp so sánh kết quả tiêu thụ nước\nNăm 2025, chỉ số tiêu thụ nước của FPT chỉ tăng 0,48% so với năm 2024. Mức tăng \nnày được đánh giá là tích cực trong bối cảnh Tập đoàn tiếp tục mở rộng quy mô \nhoạt động và tăng trưởng kinh doanh, đồng thời phản ánh tính hiệu quả của các \nbiện pháp quản lý và sử dụng nước được triển khai đồng bộ như sau: \n• Tuân thủ các quy định của cơ quan quản lý về xử lý và tái chế nước thải;\n• Thực hiện quan trắc chất lượng nước sinh hoạt 1 tháng/lần, nước thải 3 tháng/lần \nvà lập báo cáo gửi cơ quan quản lý theo đúng quy định;\n• Bổ sung chế phẩm vi sinh nhằm nâng cao hiệu quả xử lý nước tại bể tự hoại;\n• Tuyên truyền nâng cao nhận thức của CBNV về tiết kiệm nước, bảo vệ môi trường \nthông qua các bài viết, hình ảnh, video trên các kênh nội bộ, poster dán tại các \nkhu vực công cộng;\n• Tích cực sử dụng nguồn nước ngầm và nước mưa; \n• Định kỳ kiểm tra, bảo trì hệ thống đường ống nước để phát hiện, sửa chữa kịp thời các \nchỗ rò rỉ, tránh thất thoát, đồng thời điều chỉnh áp suất nước phù hợp về kỹ thuật.\nFPT luôn đảm bảo thực hiện các quy định thống nhất trong các tòa nhà.\n Đơn vị tính: m3\nLà doanh nghiệp hoạt động chủ yếu trong lĩnh vực công nghệ và cung cấp dịch vụ, \ncác hoạt động kinh doanh cốt lõi của FPT không phát sinh tác động đáng kể đến \nmôi trường như các doanh nghiệp sản xuất. Tuy nhiên, trong phạm vi hoạt động vận \nhành, đặc biệt tại các trụ sở làm việc và các tòa nhà do FPT sở hữu, FPT cam kết \ntuân thủ nghiêm ngặt các quy định pháp luật và chính sách liên quan đến tài nguyên \nnước, đồng thời triển khai các biện pháp nhằm nâng cao hiệu quả sử dụng nước và \ngiảm cường độ tiêu thụ nước.\nFPT không ghi nhận bất kỳ vi phạm pháp luật nào liên quan đến việc khai thác, \nsử dụng và xả thải nước. Ở cấp độ chính sách, cam kết quản lý tài nguyên nước của \nFPT được áp dụng thống nhất trên toàn bộ các đơn vị, trụ sở và cơ sở thuộc sở hữu \ncủa Tập đoàn, cũng như đối với CBNV, đối tác, nhà cung cấp, nhà thầu và các bên \nliên quan khác.\nKhi thiết kế các tòa nhà, FPT chú trọng xây dựng hệ thống lưu trữ nước mưa, hệ thống \nlọc nước thải để tận dụng tối đa nguồn nước này cho một số mục đích phù hợp như \ntưới cây, giúp tối ưu chi phí tiêu thụ nước, đặc biệt vào mùa khô. Ngoài ra, hệ thống \nhồng ngoại và máy phun xoay chiều tự động được áp dụng trên tất cả khu vực cây \nxanh trong các tòa nhà để giảm thiểu việc sử dụng nước và đảm bảo sự phát triển \ncủa hệ thống cây xanh mang lại môi trường làm việc thân thiện với thiên nhiên. \nĐối với nguồn nước sử dụng từ hệ thống nước sạch của thành phố, FPT luôn đảm bảo \nthực hiện các quy định thống nhất trong các tòa nhà, campus về tiết kiệm và \nsử dụng nước. Các khu vực chung sử dụng vòi nước cảm ứng tự động tắt khi không \nsử dụng và phát động phong trào sử dụng nước tiết kiệm tại các văn phòng trên \ntoàn hệ thống.\nQuản lý nước thải và các nguồn phát thải khác\n• Quản lý nước, nước thải\nChênh lệch\nNăm 2024\n827.940\nNăm 2025\n831.885\nMức tiêu thụ\n3.945\nTỷ lệ\n0,48%\nNăm 2023\n774.152\nDanh mục\nTiêu thụ nước\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về quản lý nước thải và các nguồn phát thải khác của FPT, tập trung vào quản lý nước và nước thải, các biện pháp tiết kiệ",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ nước",
+              "location": "dưới",
+              "description": "So sánh tiêu thụ nước theo đơn vị m3 trong các năm 2023, 2024, 2025 cùng chênh lệch về mức tiêu thụ và tỷ lệ tăng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p146",
+          "page": 146,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT thực hiện kiểm kê và quản lý dấu chân carbon theo các chuẩn mực quốc tế \nđược công nhận, bao gồm Nghị định thư Khí nhà kính (GHG Protocol) của \nViện Tài nguyên thế giới (WRI) và tiêu chuẩn ISO 14040/14044.\nViệc nâng cao độ chính xác của dữ liệu phát thải được Tập đoàn xác định là một \nquá trình cải tiến liên tục. Trên cơ sở mở rộng nguồn dữ liệu, hoàn thiện phương \npháp tính toán và nâng cao năng lực phân tích, FPT định kỳ rà soát, cập nhật mô hình \nvà điều chỉnh lộ trình giảm phát thải phù hợp với từng giai đoạn phát triển và mức độ \nsẵn sàng của dữ liệu.\nFPT chủ động thực hiện kiểm kê phát thải khí nhà kính tại trụ sở chính, các toà nhà, \nđịa điểm kinh doanh tại Việt Nam của 08 công ty thành viên. Phạm vi xác định dấu \nchân carbon của FPT được xây dựng phù hợp với khuôn khổ GHG Protocol và các \nnguồn phát thải trọng yếu, có liên quan trực tiếp đến hoạt động của Tập đoàn, \ntrên cơ sở mức độ sẵn có và độ tin cậy của dữ liệu. \nCác nguồn phát thải khí nhà kính được FPT thực hiện kiểm kê trên 03 phạm vi bao gồm:\n• Phạm vi 1: Phát thải khí nhà kính trực tiếp phát sinh từ các nguồn do FPT sở hữu hoặc \nkiểm soát, bao gồm: tiêu thụ xăng dầu cho phương tiện đi lại thuộc sở hữu của \nTập đoàn, máy phát điện, thất thoát môi chất lạnh của hệ thống…; \n• Phạm vi 2: Phát thải khí nhà kính gián tiếp phát sinh từ việc sử dụng điện, nước được \nmua từ nhà cung cấp bên ngoài;\n• Phạm vi 3 (đang nghiên cứu): Phát thải khí nhà kính gián tiếp khác do các hoạt động \ncủa Tập đoàn nhưng từ các nguồn mà Tập đoàn không sở hữu.\nQuản lý hiệu quả tiêu thụ năng lượng và kiểm kê khí nhà kính\n• Phạm vi và phương pháp thu thập dữ liệu\nNăm 2025, lượng phát thải khí nhà kính của FPT là 127.952 tấn CO2. Hai nguồn \nphát thải khí nhà kính phát sinh chủ yếu là xăng dầu dùng cho xe, máy phát điện \n(Phạm vi 1) và điện năng phục vụ cho sản xuất, vận hành máy móc thiết bị (Phạm vi \n2) thuộc sở hữu của FPT.\nNăm 2025, lượng phát thải khí nhà kính của FPT giảm so với năm 2024, trong khi \nhoạt động kinh doanh tiếp tục duy trì tăng trưởng cho thấy các nỗ lực tối ưu vận hành, \nứng dụng công nghệ và quản lý năng lượng đã phát huy hiệu quả, ngay cả khi quy mô \nhoạt động không ngừng mở rộng.\nNguồn phát thải khí nhà kính chủ yếu của Tập đoàn phát sinh từ Phạm vi 2, chiếm \nkhoảng 96% tổng lượng phát thải của toàn Tập đoàn. Trong đó, tiêu thụ điện năng \ntại các trung tâm Dữ liệu và tòa nhà văn phòng/ký túc xá là nguồn phát thải chính, \nphản ánh đặc thù hoạt động của FPT trong lĩnh vực công nghệ và dịch vụ. \nTrên hành trình hướng tới mục tiêu Net Zero vào năm 2040, Tập đoàn kiên định \ntập trung đầu tư vào các giải pháp dài hạn, nâng cao hiệu quả vận hành hạ tầng \nvà mạng lưới, đồng hành cùng chuỗi cung ứng trong quá trình giảm phát thải và \nthúc đẩy đổi mới sáng tạo thông qua hợp tác với các đối tác, đặc biệt trong các \nlĩnh vực giảm phát thải. Cách tiếp cận này giúp FPT từng bước xây dựng nền tảng \ntăng trưởng bền vững song hành với trách nhiệm khí hậu.\n• Kết quả thực hiện kiểm kê khí nhà kính\nTổng hợp lượng phát thải khí nhà kính của FPT năm 2025\nPhạm vi Năm 2023 Năm 2024 Năm 2025\nPhạm vi 1 13.217 4.826 4.383\nPhạm vi 2 109.696 138.748 123.569\n122.913 143.574 127.952\nPhạm vi 3\nTổng\nChưa triển kh",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tổng hợp lượng phát thải khí nhà kính của FPT năm 2025",
+              "location": "phải",
+              "description": "Bảng tổng hợp lượng phát thải khí nhà kính theo các phạm vi (Phạm vi 1, Phạm vi 2, Phạm vi 3) qua các năm 2023, 2024 và 2025, đơn vị tính là tấn CO2 tương đương."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển \nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số \nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường. \nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa, \nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với \nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng. \nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch \nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số \nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ \nmôi trường. Đây là những bước đi quan trọng nhằm tiến gần hơn đến mục tiêu \ntrở thành doanh nghiệp không giấy tờ, giảm thiểu tác động đến môi trường và \nnâng cao hiệu quả công việc.\nViệc tiếp nhận và xử lý văn bản cũng được số hóa hoàn toàn thông qua phần mềm \nquản lý văn bản do Tập đoàn phát triển. Điều này không chỉ rút ngắn thời gian xử lý \nmà còn nâng cao tính chính xác trong công tác quản lý. 100% văn bản nội bộ của \nTập đoàn (ngoại trừ các văn bản quan trọng, mật) đều được phát hành điện tử, tạo ra \nmột quy trình làm việc nhanh chóng và hiệu quả.\n• Văn phòng không giấy tờ\n2022 2023 2024 2025\n7,1%\n92,9%\n17,6%\n82,4%\n78,9% 95,42%\n21,1% 4,58%\nTỷ lệ văn bản phát \nhành điện tử\nTỷ lệ văn bản cứng\nTỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\n2025\n2024\n2023\n0 10 20 30 40 50 60 70 80 90 100\n94,0%\n73,2%\n67,8%\n32,2%\n26,8%\n6,0%\nHọp trực tuyến\nHọp trực tiếp\nBên cạnh đó, Tập đoàn cũng khuyến khích CBNV sử dụng các giải pháp công nghệ \nhỗ trợ họp/trao đổi trực tuyến thay thế cho việc thường xuyên đi công tác để giảm \nlượng khí thải carbon từ phương tiện cá nhân.\nSố liệu biểu đồ phản ánh tỷ lệ các cuộc họp trực tuyến tại FPT tăng đều qua các \nnăm, đạt 94% vào năm 2025, phản ánh nỗ lực đẩy mạnh ứng dụng công nghệ số \ntrong quản trị và vận hành. Việc giảm tỷ lệ họp trực tiếp góp phần hạn chế nhu cầu \ndi chuyển, qua đó giảm tiêu thụ năng lượng và phát thải gián tiếp, phù hợp với \nmục tiêu phát triển bền vững của Tập đoàn.\nTỷ lệ số hoá tài liệu giai đoạn 2022-2025\n100\n80\n60\n40\n20\n0\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày chiến lược văn phòng không giấy tờ của FPT năm 2025, tập trung vào chuyển đổi số nội bộ, sử dụng văn bản điện tử và tăng tỷ lệ họp trực tuyến nhằm giảm tác động môi trường và nâng cao hiệu quả công việc.\nchart: Tỷ lệ số hóa tài liệu giai đoạn 2022-2025 (dưới bên trái) — Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm.\nchart: Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025 (dưới bên phải) — Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tỷ lệ số hóa tài liệu giai đoạn 2022-2025",
+              "location": "dưới bên trái",
+              "description": "Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm."
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025",
+              "location": "dưới bên phải",
+              "description": "Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p058",
+          "page": 58,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Kết quả kinh doanh\n• Các chỉ tiêu tài chính chủ yếu\n(Tiếp theo)\nLĩnh vực Dịch vụ CNTT cho thị trường nước ngoài, động lực tăng trưởng chính của \nTập đoàn, tiếp tục duy trì mức tăng trưởng cao so với mặt bằng chung của ngành, \ntăng 14,3% so với năm trước. Kết quả này đến từ nhu cầu chuyển đổi số và ứng \ndụng AI ngày càng rõ nét tại thị trường Nhật Bản (tăng trưởng 25,4% so với năm \ntrước). Việc tập trung vào các hợp đồng quy mô lớn, dài hạn, có hàm lượng công \nnghệ cao giúp FPT không chỉ mở rộng doanh thu mà còn từng bước nâng cao chất \nlượng tăng trưởng và hiệu quả kinh doanh. Trong bối cảnh ngành dịch vụ CNTT \ntoàn cầu còn thận trọng, nhiều doanh nghiệp Dịch vụ CNTT lớn trên thế giới, bao \ngồm các công ty tại Ấn Độ, chỉ ghi nhận mức tăng trưởng ở mức khiêm tốn, kết quả \ncủa FPT phần nào cho thấy những nỗ lực không ngừng của Tập đoàn trong việc mở \nrộng thị trường, đa dạng hóa danh mục dịch vụ và duy trì đà phát triển ổn định.\nTrong đó, mảng Dịch vụ Chuyển đổi số tiếp tục ghi nhận tăng trưởng nổi bật đạt \n16,8% so với năm trước, chiếm tỷ trọng ngày càng cao trong tổng doanh thu\nDịch vụ CNTT cho thị trường nước ngoài (47,3%). Các giải pháp liên quan đến dữ \nliệu, điện toán đám mây, AI và tự động hóa được khách hàng đẩy mạnh triển khai \nnhằm nâng cao hiệu quả vận hành và năng lực cạnh tranh. Kết quả này không chỉ \nphản ánh xu hướng chuyển dịch mạnh mẽ sang chuyển đổi số thế hệ mới, mà còn \nkhẳng định vị thế và năng lực cung cấp các dịch vụ công nghệ tiên tiến của FPT \ntrên thị trường quốc tế.\nSong song với hoạt động kinh doanh, FPT tiếp tục đẩy mạnh theo cả chiều rộng và \nchiều sâu quan hệ hợp tác chiến lược với các đối tác lớn trên toàn cầu. Việc hợp tác \nkhông chỉ dừng ở cung cấp dịch vụ, mà từng bước mở rộng sang đồng phát triển \ngiải pháp, chuyển giao công nghệ và xây dựng năng lực dài hạn, giúp FPT nâng cao \nkhả năng tham gia sâu hơn vào chuỗi giá trị công nghệ toàn cầu.\nNhờ chủ động ứng dụng công nghệ, đặc biệt là AI, trong tối ưu hóa vận hành và \nquản trị, các khối Viễn thông và khối Giáo dục, Đầu tư và Khác tiếp tục duy trì \ntăng trưởng ổn định. Khối Viễn thông (tăng trưởng doanh thu đạt 10,8%) tập trung \nnâng cao chất lượng dịch vụ và trải nghiệm khách hàng, đồng thời mở rộng độ phủ \nhạ tầng và danh mục sản phẩm, qua đó từng bước gia tăng hiện diện trên thị trường \nvà cải thiện thị phần ở các phân khúc trọng điểm. Trong khi đó, lĩnh vực Giáo dục \nchú trọng nâng cao chất lượng đào tạo, gắn kết chặt chẽ hơn với nhu cầu nhân lực \ncủa các lĩnh vực công nghệ chiến lược được Đảng và Nhà nước ưu tiên như: AI, \nbán dẫn, dữ liệu, điện toán đám mây, an toàn, an ninh thông tin và các công nghệ \nphục vụ chuyển đổi số, chuyển đổi xanh. Định hướng này góp phần củng cố vai trò \ncủa FPT trong cung cấp nguồn nhân lực chất lượng cao cho nền kinh tế số.\nMột số chỉ tiêu hoạt động kinh doanh chính trong năm 2025\nĐơn vị: Tỷ VNĐ\nChỉ tiêu 2024 2025 Tăng/Giảm\nTổng tài sản\nDoanh thu\nLợi nhuận từ hoạt động kinh doanh\nLNTT, lãi vay và khấu hao (EBITDA)\nLNTT\nLNST\nLãi cơ bản trên cổ phiếu (*)\nCổ tức tiền mặt trả trong năm\nTỷ lệ lợi nhuận trả cổ tức\n72.000\n62.849\n11.025\n13.605\n11.070\n9.427\n4.292\n2.741\n34,9%\n88.142\n70.113\n12.952\n15.958\n13.044\n11.232\n5.216\n3.185\n34,",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Một số chỉ tiêu hoạt động kinh doanh chính trong năm 2025",
+              "location": "phải",
+              "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, đơn vị tỷ VNĐ, gồm tổng tài sản, doanh thu, lợi nhuận từ hoạt động kinh doanh, EBITDA, LNTT, LNST, lãi cơ bản trên cổ phiếu, cổ tức tiền mặt trả trong năm và tỷ lệ lợi nhuận trả cổ tức cùng với mức tăng/giảm phần trăm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p047",
+          "page": 47,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Xu hướng sử dụng các mô hình AI mã nguồn mở được phản ánh rõ nét trong một số \nlĩnh vực kinh tế trọng điểm. Ngành Công nghiệp và Ô tô dẫn đầu trong việc sử dụng \ncác mô hình ngôn ngữ lớn mã nguồn mở để tối ưu hóa chuỗi cung ứng, nâng cao \ncông tác kiểm soát chất lượng và cải thiện hiệu quả vận hành. Mức độ triển khai và \nsử dụng các giải pháp xử lý ngôn ngữ tự nhiên (NLP) trong các ngành này tăng \n148% so với cùng kỳ. Trong khi đó, lĩnh vực Dịch vụ Tài chính dẫn đầu về ứng dụng \nkiến trúc “serverless” (mô hình điện toán đám mây cho phép nhà phát triển xây dựng \nvà chạy ứng dụng mà không cần quản lý cơ sở hạ tầng máy chủ vật lý hay ảo), với \nmức tăng 131%.\nSong song với xu hướng tối ưu hạ tầng và triển khai AI linh hoạt, Agentic AI nổi lên \nnhư một động lực tăng trưởng mới của thị trường với giá trị đạt 7,3 tỷ USD trong \nnăm 2025 và được dự báo tăng từ 9,1 tỷ USD năm 2026 lên 139,2 tỷ USD vào năm \n2034. Xu hướng này cho thấy sự chuyển dịch mạnh mẽ sang các hệ thống tự động \nthực thi nhiệm vụ với sự can thiệp của con người ở mức tối thiểu, qua đó tái định \nhình cách doanh nghiệp vận hành, từ tự động hóa quy trình đến hỗ trợ ra quyết định \nthông minh.\nTrong bối cảnh thị trường AI tự chủ tăng trưởng nhanh, quy mô chi tiêu cho AI toàn cầu cũng \ntăng trưởng mạnh mẽ. Theo Gartner, chi tiêu cho AI toàn cầu đạt khoảng 1.757 tỷ USD \nnăm 2025, tăng hơn 50% so với 2024 và sẽ đạt 3.335 tỷ USD vào năm 2027. \nSự bùng nổ của AI mang lại hiệu suất nhưng cũng đặt ngành dịch vụ CNTT trước \nnhững thách thức về mô hình kinh doanh và phương thức tạo ra giá trị. Theo báo cáo \ncủa J.P. Morgan, các công ty Dịch vụ CNTT phải đối mặt với áp lực \"tái chứng \nminh\" giá trị trong một môi trường bất định.\n• Rủi ro về mô hình định giá và sự thay đổi cấu trúc doanh thu: Ngành Dịch vụ \nCNTT chủ yếu vận hành theo mô hình tính phí dựa trên thời gian và nguồn lực (Time & \nMaterial). Tuy nhiên, khả năng tự động hóa và tối ưu hóa của AI đang trực tiếp \nđe dọa mô hình này. Khi năng suất lao động tăng 30-50% nhờ các công cụ AI, \nsố lượng giờ công cần thiết cho cùng một khối lượng công việc sẽ giảm mạnh, \ncác doanh nghiệp không kịp chuyển dịch sang mô hình định giá dựa trên kết quả \nđầu ra (outcome-based) hoặc dựa trên đăng ký dịch vụ (subscription) sẽ đối mặt \nvới rủi ro sụt giảm doanh thu.\n• Động lực P*Q và rủi ro phân mảnh ngân sách: J.P. Morgan chỉ ra một nghịch lý, \nmặc dù đơn giá mỗi đơn vị công việc (P) giảm do AI nhưng tổng chi tiêu CNTT vẫn \ncó thể duy trì ổn định nhờ gia tăng nhu cầu (Q) xử lý “nợ kỹ thuật” (Technical debt),\nước đạt 8.000 tỷ USD. Tuy nhiên, rủi ro phát sinh từ xu hướng “tiết kiệm để tái \nđầu tư”, khách hàng tạm dừng dự án không cấp thiết để dồn ngân sách cho AI sẽ \ngây khó khăn trong ngắn hạn cho tăng trưởng của doanh nghiệp dịch vụ CNTT.\n• Thách thức về quản trị, tuân thủ và niềm tin: Việc triển khai AI ở quy mô lớn đòi hỏi \nkhung quản trị chặt chẽ, đảm bảo an toàn dữ liệu, tính minh bạch và độ tin cậy \ncủa thuật toán. Điều này đòi hỏi các doanh nghiệp CNTT không chỉ cần giỏi kỹ \nthuật mà còn phải đóng vai trò là chuyên gia tư vấn về pháp lý và đạo đức AI.\nChuyển dịch của ngành dịch vụ CNTT: Rủi ro và \ncơ hội mới từ AI\nChi tiêu cho AI giai đoạn 2025-2027 Đơ",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi tiêu cho AI giai đoạn 2025-2027",
+              "location": "dưới bên trái",
+              "description": "Bảng chi tiêu dự kiến cho các lĩnh vực AI (Dịch vụ AI, An ninh mạng AI, Phần mềm AI, Mô hình AI, Nền tảng AI cho khoa học dữ liệu và học máy, Nền tảng phát triển ứng dụng AI, Dữ liệu AI, Hạ tầng AI) theo đơn vị tỷ USD cho các năm 2025, 2026, 2027."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p059",
+          "page": 59,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Các chỉ tiêu tài chính chủ yếu\nChỉ tiêu về cơ cấu vốn \nFPT chủ động gia tăng đầu tư công nghệ, đặc biệt là hạ tầng tính toán và hệ \nsinh thái giải pháp AI, nhằm đảm bảo năng lực triển khai các dự án quy mô lớn \ntrên toàn cầu. Theo đó, các chỉ tiêu Nợ/Tổng tài sản và Nợ/Vốn chủ sở hữu tăng \nlên mức 23,9% và 48,2%, phản ánh chiến lược sử dụng đòn bẩy tài chính ở mức \nhợp lý để hỗ trợ cho tăng trưởng. Đáng chú ý, Tập đoàn vẫn duy trì trạng thái tiền mặt \nròng dương, bảo đảm an toàn tài chính và duy trì dư địa vốn cho các cơ hội đầu tư \nchiến lược trong tương lai.\nChỉ tiêu về năng lực hoạt động \nHiệu quả vận hành tiếp tục được duy trì ở mức cao. Vòng quay hàng tồn kho tăng, \nđạt 20,5 lần, cho thấy công tác quản lý tồn kho hiệu quả hơn. Vòng quay các \nkhoản phải thu được giữ ổn định, trong khi vòng quay các khoản phải trả \ncải thiện, phản ánh sự tối ưu trong quản trị vốn lưu động. Chu kỳ tiền mặt ở mức \n49,0 ngày, duy trì ổn định trong bối cảnh Tập đoàn mở rộng quy mô và gia \ntăng đầu tư, qua đó đảm bảo hoạt động kinh doanh thông suốt và bền vững.\nChỉ tiêu về khả năng sinh lời\nCác chỉ tiêu biên lợi nhuận tiếp tục cải thiện so với năm trước. Tỷ suất lợi nhuận \ntừ hoạt động kinh doanh đạt 18,5%, tỷ suất lợi nhuận trước thuế đạt 18,6% và tỷ suất \nlợi nhuận sau thuế đạt 16,0% phản ánh hiệu quả của Tập đoàn trong việc nâng cao\nchất lượng doanh thu và tối ưu chi phí, đồng thời, thể hiện xu hướng dịch chuyển\nmạnh mẽ của Tập đoàn lên các phân khúc có hàm lượng công nghệ và giá trị\ngia tăng cao hơn. Tỷ suất sinh lời/Vốn chủ sở hữu đạt 28,1%, duy trì ở mức hấp dẫn\ntrong bối cảnh FPT chủ động mở rộng quy mô tài sản và tăng cường đầu tư cho\nnền tảng công nghệ lõi. Các chỉ tiêu sinh lời trên Tài sản và Vốn đầu tư điều chỉnh\ngiảm nhẹ so với cùng kỳ năm trước phù hợp với chiến lược đầu tư dài hạn, tạo nền\ntảng tăng trưởng bền vững và củng cố vị thế của FPT trong chu kỳ công nghệ\nmới, đặc biệt trong lĩnh vực AI.\n(Tiếp theo)\nChỉ tiêu 2024 2025\n1. Chỉ tiêu về khả năng thanh toán\nHệ số thanh toán ngắn hạn (lần)\nHệ số thanh toán nhanh (lần)\n2. Chỉ tiêu về cơ cấu vốn và đảm bảo lãi vay\nHệ số Nợ/Tổng tài sản \nHệ số Nợ/Vốn chủ sở hữu\nHệ số Nợ thuần/Vốn chủ sở hữu\n3. Chỉ tiêu về năng lực hoạt động\nVòng quay hàng tồn kho (lần) \nVòng quay khoản phải thu (lần)\nVòng quay khoản phải trả (lần)\nVòng quay tiền mặt (ngày)\n4. Chỉ tiêu về khả năng sinh lời\nTỷ suất lợi nhuận từ hoạt động kinh doanh \nTỷ suất lợi nhuận trước thuế\nTỷ suất lợi nhuận sau thuế\nTỷ suất sinh lời trên vốn chủ sở hữu (ROE)\nTỷ suất sinh lời trên vốn đầu tư (ROCE)\nTỷ suất sinh lời trên tổng tài sản (ROA)\n1,31\n1,25\n20,8%\n41,8%\n-45,2%\n19,7\n6,2\n11,9\n47,1\n17,5%\n17,6%\n15,0%\n28,5%\n22,9%\n14,4%\n1,40\n1,35\n23,9%\n48,2%\n-43,6%\n20,5\n6,1\n12,7\n49,0\n18,5%\n18,6%\n16,0%\n28,1%\n21,9%\n14,1%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày các chỉ tiêu tài chính chủ yếu của FPT, bao gồm các chỉ tiêu về khả năng thanh toán, cơ cấu vốn và đảm bảo lãi vay, năng lực hoạt động và khả năng sinh lời, với số liệu so sánh giữa năm 2024 và 2025.\ntable: Các chỉ tiêu tài chính chủ yếu (phải) — Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, gồm các nhóm chỉ tiêu: khả năng thanh toán, cơ cấu vốn và đảm bảo lãi v",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Các chỉ tiêu tài chính chủ yếu",
+              "location": "phải",
+              "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, gồm các nhóm chỉ tiêu: khả năng thanh toán, cơ cấu vốn và đảm bảo lãi vay, năng lực hoạt động và khả năng sinh lời, với các chỉ số cụ thể như hệ số thanh toán ngắn hạn, hệ số nợ/tổng tài sản, vòng quay hàng tồn kho, tỷ suất lợi nhuận từ hoạt động kinh doanh, ROE, ROCE, ROA."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2021 2022 2023 2024 2025\n30\n20\n10\n0\nTỷ suất sinh lời\ntrên vốn chủ sở hữu (ROE)\n28,1%\nTỷ suất sinh lời\ntrên tổng tài sản (ROA) \n14,1%\nROA (%)\nROE (%)\n26,7% 27,7% 27,9% 28,5% 28,1%\n11,4% 11,9% 13,6% 14,4% 14,1%\n1.697 2.011 2.374 2.741 3.185\n2021 2022 2023 2024 2025\n3.500\n3.000\n2.500\n2.000\n1.500\n1.000\n500\n0\n16,2% so với cùng kỳ\nCổ tức bằng tiền mặt\n3.185 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n5.750 7.112 8.167 10.117 11.078\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n9,5% so với cùng kỳ\nĐóng góp Ngân sách Nhà nước\nTỷ VNĐ 11.078\nĐơn vị: Tỷ VNĐ\nĐảm bảo tăng trưởng ổn định (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chỉ số tài chính quan trọng của FPT năm 2025, bao gồm cổ tức tiền mặt, đóng góp ngân sách nhà nước, và tỷ suất sinh lời trên vốn chủ sở hữu và tổng tài sản.\nchart: Cổ tức bằng tiền mặt (trái trên) — Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Đóng góp Ngân sách Nhà nước (phải trên) — Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA) (dưới) — Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cổ tức bằng tiền mặt",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Đóng góp Ngân sách Nhà nước",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA)",
+              "location": "dưới",
+              "description": "Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p147",
+          "path": ".bonus/pages/p147.jpg",
+          "sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+        },
+        {
+          "id": "FPT2025:p149",
+          "path": ".bonus/pages/p149.jpg",
+          "sha256": "b2c242eff4cc7a91e0f87a77340a7876ece4871c4d92effee0f193a61dc6db63"
+        },
+        {
+          "id": "FPT2025:p146",
+          "path": ".bonus/pages/p146.jpg",
+          "sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+        },
+        {
+          "id": "FPT2025:p152",
+          "path": ".bonus/pages/p152.jpg",
+          "sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+        },
+        {
+          "id": "FPT2025:p058",
+          "path": ".bonus/pages/p058.jpg",
+          "sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+        },
+        {
+          "id": "FPT2025:p047",
+          "path": ".bonus/pages/p047.jpg",
+          "sha256": "b0a13ca0d4df8e603e23565c41ed7eb3f3f2e62d368eb348a30ccc641e98945e"
+        },
+        {
+          "id": "FPT2025:p059",
+          "path": ".bonus/pages/p059.jpg",
+          "sha256": "dee0427eb6e459edd683166879b7127ce462e51654110dc70657c3623d71a596"
+        },
+        {
+          "id": "FPT2025:p011",
+          "path": ".bonus/pages/p011.jpg",
+          "sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805168-nzpLlFfXOaI2KzVt8MGK",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01VSYMLLUmjxB9riukhCcrHh",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo bảng \\\"So sánh kết quả tiêu thụ điện\\\" (trang 146 PDF / báo cáo trang 146, đơn vị kWh), năm 2025: điện tiêu thụ 187.453.013 kWh; điện từ năng lượng tái tạo 842.749 kWh; tỷ lệ điện tái tạo so với điện tiêu thụ 0,45%.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p147\",\"region\":\"Bảng \\\"Bảng tổng hợp so sánh kết quả tiêu thụ điện\\\" (phía dưới bên trái trang), hàng \\\"Tiêu thụ điện\\\" cột Năm 2025 = 187.453.013; hàng \\\"Điện từ năng lượng tái tạo\\\" cột Năm 2025 = 842.749; hàng \\\"Tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ\\\" cột Năm 2025 = 0,45%\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p147",
+    "FPT2025:p149",
+    "FPT2025:p146",
+    "FPT2025:p152",
+    "FPT2025:p058",
+    "FPT2025:p047",
+    "FPT2025:p059",
+    "FPT2025:p011"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p147",
+      "page": 147,
+      "image": ".bonus/pages/p147.jpg",
+      "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+    },
+    {
+      "id": "FPT2025:p149",
+      "page": 149,
+      "image": ".bonus/pages/p149.jpg",
+      "image_sha256": "b2c242eff4cc7a91e0f87a77340a7876ece4871c4d92effee0f193a61dc6db63"
+    },
+    {
+      "id": "FPT2025:p146",
+      "page": 146,
+      "image": ".bonus/pages/p146.jpg",
+      "image_sha256": "b2c7e766c2de5a39783a7e9bf4ba6edce5ee721ff74ed71d14df2c16d4781ef6"
+    },
+    {
+      "id": "FPT2025:p152",
+      "page": 152,
+      "image": ".bonus/pages/p152.jpg",
+      "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+    },
+    {
+      "id": "FPT2025:p058",
+      "page": 58,
+      "image": ".bonus/pages/p058.jpg",
+      "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+    },
+    {
+      "id": "FPT2025:p047",
+      "page": 47,
+      "image": ".bonus/pages/p047.jpg",
+      "image_sha256": "b0a13ca0d4df8e603e23565c41ed7eb3f3f2e62d368eb348a30ccc641e98945e"
+    },
+    {
+      "id": "FPT2025:p059",
+      "page": 59,
+      "image": ".bonus/pages/p059.jpg",
+      "image_sha256": "dee0427eb6e459edd683166879b7127ce462e51654110dc70657c3623d71a596"
+    },
+    {
+      "id": "FPT2025:p011",
+      "page": 11,
+      "image": ".bonus/pages/p011.jpg",
+      "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805160-oGdGy0a5Pr6zjuzaRPxK",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1837,
+        "completion_tokens": 171,
+        "total_tokens": 2008,
+        "cost": 0.0002692,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002692,
+          "upstream_inference_prompt_cost": 0.0001837,
+          "upstream_inference_completions_cost": 8.55e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2350.720899994485,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805168-nzpLlFfXOaI2KzVt8MGK",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 34696,
+        "completion_tokens": 408,
+        "total_tokens": 35104,
+        "cost": 0.0036736,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0036736,
+          "upstream_inference_prompt_cost": 0.0034696,
+          "upstream_inference_completions_cost": 0.000204
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 11113.357499998529,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 14778.358999988995,
+  "query_id": "ft-t6",
+  "question": "Trong bảng tổng hợp tiêu thụ điện, điện tiêu thụ năm 2025, điện từ năng lượng tái tạo và tỷ lệ tái tạo lần lượt là bao nhiêu?",
+  "split": "test",
+  "config": "vision"
+}

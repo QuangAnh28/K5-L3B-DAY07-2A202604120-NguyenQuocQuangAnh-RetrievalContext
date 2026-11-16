@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p099",
+  "image_sha256": "04127111ec96cf6230c1157b5aeb604b98c2c337512b598f532431075c4bd6d2",
+  "caption": {
+    "summary": "Trang trình bày về quan hệ với các bên có quyền lợi liên quan, nêu nguyên tắc tăng cường tham gia hiệu quả của các bên liên quan và cam kết của FPT với từng nhóm bên liên quan.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Cam kết của FPT với các bên liên quan",
+        "location": "trái",
+        "description": "Bảng liệt kê các bên liên quan gồm khách hàng, cổ đông, nhà đầu tư, cán bộ nhân viên, cộng đồng, chính phủ, bộ ban ngành, tỉnh thành, đối tác, nhà cung cấp, báo chí và cơ quan truyền thông cùng các cam kết tương ứng của FPT đối với từng nhóm."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800753-jEqTrPTy8fQpvrrDffW9",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 146,
+        "total_tokens": 2708,
+        "cost": 0.0012584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012584,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3234.5589000033215,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

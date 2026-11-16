@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p065",
+  "image_sha256": "596b5b72c6e504a2d423769e79674258ae1231445c52620f5f7976e8c8ba9d51",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về nhân lực chất lượng cao và động lực cho công nghệ mũi nhọn của FPT, doanh thu từ dịch vụ AI/Data Analytics qua các năm và nhân sự bình quân cùng năng suất lao động trong lĩnh vực dịch vụ CNTT cho thị trường nước ngoài.",
+    "visuals": [
+      {
+        "type": "chart",
+        "title": "Doanh thu từ Dịch vụ AI/Data Analytics",
+        "location": "trái giữa",
+        "description": "Doanh thu tính theo tỷ VNĐ, giai đoạn 2022 đến 2025 với các giá trị lần lượt là 980, 1.221, 1.856 và 2.612 tỷ VNĐ."
+      },
+      {
+        "type": "table",
+        "title": "Nhân sự bình quân của lĩnh vực Dịch vụ CNTT cho thị trường nước ngoài và năng suất lao động",
+        "location": "phải trên",
+        "description": "Bảng so sánh các tiêu chí năm 2024 và 2025 gồm tổng nhân sự bình quân (người), tổng nhân sự bình quân sản xuất (người), doanh thu/người (triệu VNĐ) cùng tỷ lệ tăng trưởng phần trăm."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800730-O7M5qUH6wh1BcpTXICat",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 238,
+        "total_tokens": 2800,
+        "cost": 0.0014056,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014056,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003808
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4325.295400049072,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

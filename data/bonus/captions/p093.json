@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p093",
+  "image_sha256": "dfbc365ee368b0b9af67e933e4420b17d9eeac6bcc3e796f24b4038bc4443066",
+  "caption": {
+    "summary": "Bảng giao dịch cổ phiếu của cổ đông lớn và cổ đông nội bộ FPT năm 2025, thể hiện số lượng cổ phiếu sở hữu đầu kỳ, cuối kỳ và lý do tăng giảm cổ phiếu.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Giao dịch cổ phiếu của cổ đông lớn và cổ đông nội bộ",
+        "location": "phải",
+        "description": "Bảng gồm các cột: STT, Người thực hiện giao dịch, Quan hệ với người nội bộ, Số cổ phiếu sở hữu đầu kỳ (Số cổ phiếu, Tỷ lệ), Số cổ phiếu sở hữu cuối kỳ (Số cổ phiếu, Tỷ lệ), Lý do tăng giảm (mua, bán, chuyển đổi, thưởng...)"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800749-yEBS1El72n6rqcPORQU2",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 164,
+        "total_tokens": 2726,
+        "cost": 0.0012872,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012872,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002624
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3969.9520000140183,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

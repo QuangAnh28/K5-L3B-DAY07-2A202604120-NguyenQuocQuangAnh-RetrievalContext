@@ -1,0 +1,292 @@
+{
+  "status": "answered",
+  "answer": "Theo bảng \"Tình hình thực hiện các dự án đầu tư\" trong Báo cáo thường niên FPT 2025, Khối Viễn thông giải ngân năm 2025 là 1.751 tỷ VNĐ, đạt 70,0% kế hoạch đề ra.\n[FPT2025:p075 — Bảng Tình hình thực hiện các dự án đầu tư, trái trên, hàng Khối Viễn thông, cột Giải ngân 2025 và cột So với kế hoạch]",
+  "citations": [
+    {
+      "id": "FPT2025:p075",
+      "region": "Bảng Tình hình thực hiện các dự án đầu tư, trái trên, hàng Khối Viễn thông, cột Giải ngân 2025 và cột So với kế hoạch"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801826-taJM6iirTmHyYKpuki2R",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_7iSMYtsBq6r3KjzXdOOJllpd",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"Khối Viễn thông giải ngân năm 2025\",\"Khối Viễn thông thực hiện dự án đầu tư 2025\",\"Khối Viễn thông giải ngân và kế hoạch 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Bảng thực hiện dự án đầu tư cho biết Khối Viễn thông giải ngân năm 2025 bao nhiêu và đạt bao nhiêu phần trăm kế hoạch?",
+      "model_queries": [
+        "Khối Viễn thông giải ngân năm 2025",
+        "Khối Viễn thông thực hiện dự án đầu tư 2025",
+        "Khối Viễn thông giải ngân và kế hoạch 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p055",
+          "page": 55,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p075",
+          "page": 75,
+          "score": 0.031024531024531024,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p121",
+          "page": 121,
+          "score": 0.029827662395050816,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 13
+          }
+        },
+        {
+          "id": "FPT2025:p180",
+          "page": 180,
+          "score": 0.027651515151515153,
+          "component_ranks": {
+            "dense": 20,
+            "tfidf": 6
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Bảng thực hiện dự án đầu tư cho biết Khối Viễn thông giải ngân năm 2025 bao nhiêu và đạt bao nhiêu phần trăm kế hoạch?"
+      ],
+      "context_ids": [
+        "FPT2025:p055",
+        "FPT2025:p075",
+        "FPT2025:p121",
+        "FPT2025:p180"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p055",
+          "page": 55,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đơn vị: Tỷ VNĐ\nKẾ HOẠCH NĂM 2026\nCác mục tiêu chủ yếu\nKhối Ngân sách\nđầu tư\nChú thích\nKhối Công nghệ\nTổng cộng 7.200\nKhối Giáo dục, \nĐầu tư và Khác\nĐầu tư mở rộng các khu tổ hợp văn phòng tại các thành phố lớn như: Hà Nội, Tp.Hồ Chí Minh, Bình Định.\nĐầu tư mở rộng các khuôn viên Đại học tại Hà Nội, Tp.Hồ Chí Minh và Đà Nẵng, đồng thời mở rộng thêm cơ sở đào tạo mới tại \ncác tỉnh, thành trên toàn quốc.\n(Đối với số liệu năm 2026, Tập đoàn hợp nhất Công ty Cổ phần Viễn thông FPT (FPT Telecom) theo phương pháp vốn chủ sở hữu, số liệu năm 2025 đã được điều chỉnh theo \ncùng phương pháp nhằm đảm bảo tính nhất quán và khả năng so sánh.)\nKế hoạch đầu tư dự kiến\n4.200\n3.000\nso với 15,8% cùng kỳ\nDoanh thu\n58.580Tỷ VNĐ\nKhối Công nghệ\n44.475\n52.650\n6.132\n5.930\nKhối Giáo dục, \nĐầu tư và Khác Đơn vị: Tỷ VNĐ\nNăm 2026\nNăm 2025\n60.000\n50.000\n40.000\n30.000\n20.000\n10.000\n0\n18,4%\n3,3%\nso với 15,0% cùng kỳ\nLợi nhuận trước thuế\nTỷ VNĐ 11.629\nKhối Công nghệ\n5.907\n7.350\n4.206\n4.279\nKhối Giáo dục, \nĐầu tư và Khác Đơn vị: Tỷ VNĐ\nNăm 2026\nNăm 2025\n8000\n7000\n6000\n5000\n4000\n3000\n2000\n1000\n0\n24,4%\n1,7%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày kế hoạch năm 2026 của FPT với các mục tiêu doanh thu, lợi nhuận trước thuế và kế hoạch đầu tư dự kiến cho các khối Công nghệ và Giáo dục, Đầu tư và Khác.\nchart: Doanh thu năm 2026 so với năm 2025 (trên trái) — Trục tung thể hiện doanh thu (đơn vị: Tỷ VNĐ), so sánh doanh thu năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng.\nchart: Lợi nhuận trước thuế năm 2026 so với năm 2025 (trên phải) — Trục tung thể hiện lợi nhuận trước thuế (đơn vị: Tỷ VNĐ), so sánh lợi nhuận năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng.\ntable: Kế hoạch đầu tư dự kiến năm 2026 (dưới) — Bảng kế hoạch đầu tư dự kiến theo khối, ngân sách đầu tư (đơn vị: Tỷ VNĐ) và chú thích chi tiết về mục đích đầu tư mở rộng các khu tổ hợp văn phòng và khuôn viên Đại học tại các thành phố lớn.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu năm 2026 so với năm 2025",
+              "location": "trên trái",
+              "description": "Trục tung thể hiện doanh thu (đơn vị: Tỷ VNĐ), so sánh doanh thu năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận trước thuế năm 2026 so với năm 2025",
+              "location": "trên phải",
+              "description": "Trục tung thể hiện lợi nhuận trước thuế (đơn vị: Tỷ VNĐ), so sánh lợi nhuận năm 2026 và 2025 của Khối Công nghệ và Khối Giáo dục, Đầu tư và Khác, với tỷ lệ tăng trưởng tương ứng."
+            },
+            {
+              "type": "table",
+              "title": "Kế hoạch đầu tư dự kiến năm 2026",
+              "location": "dưới",
+              "description": "Bảng kế hoạch đầu tư dự kiến theo khối, ngân sách đầu tư (đơn vị: Tỷ VNĐ) và chú thích chi tiết về mục đích đầu tư mở rộng các khu tổ hợp văn phòng và khuôn viên Đại học tại các thành phố lớn."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p075",
+          "page": 75,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Hoạt động ESG\nCùng với việc đảm bảo sự tăng trưởng vững chắc về kinh tế, định hướng và những \nưu tiên về ESG được xem là một phần quan trọng trong chiến lược phát triển.\nTheo đó, FPT lựa chọn bốn vấn đề trọng yếu trong phát triển bền vững bao gồm: \nQuản trị hướng đến phát triển bền vững; Xây dựng môi trường làm việc đẳng cấp, \nhạnh phúc; Hoạt động vì môi trường xanh và Song hành vì sự phát triển của cộng đồng.\nCác hoạt động ESG được lồng ghép vào chiến lược kinh doanh, quản trị rủi ro,\nkế hoạch đầu tư trung và dài hạn của Tập đoàn.\nVề môi trường, FPT tập trung triển khai các sáng kiến giảm phát thải khí nhà kính \nvà sử dụng tài nguyên hiệu quả trong toàn bộ hoạt động sản xuất – kinh doanh. \nTrong năm 2025, Tập đoàn tiếp tục đo lường và kiểm kê phát thải khí nhà kính \ntheo phạm vi 1 và phạm vi 2 tại các đơn vị trọng yếu, làm cơ sở xây dựng lộ trình \ngiảm phát thải phù hợp với đặc thù doanh nghiệp công nghệ. Các giải pháp tối ưu\ntiêu thụ năng lượng được đẩy mạnh, bao gồm nâng cấp hệ thống điều hòa trung tâm, \nsử dụng thiết bị tiết kiệm điện, tối ưu vận hành trung tâm dữ liệu và mở rộng tỷ lệ \nsử dụng năng lượng tái tạo tại một số cơ sở lớn.\nĐối với cộng đồng, FPT và hàng chục nghìn CBNV đã triển khai nhiều chương trình\ntrách nhiệm xã hội mang lại những giá trị cả về vật chất và tinh thần thiết thực nhất.\nĐặc biệt, FPT đã kịp thời phát động chiến dịch “Cùng đồng bào vượt lũ” thu hút \nđược sự sẻ chia từ hàng nghìn CBNV trong và ngoài nước giúp tái thiết 26 điểm \ntrường tại Nghệ An, Thanh Hóa, Lào Cai, Tuyên Quang, những điểm trường bị \nthiệt hại nặng sau bão trong năm 2025.\nVề quản trị, FPT duy trì hệ thống quản trị minh bạch, tuân thủ và ngày càng tiệm cận\ncác thông lệ quốc tế. Các yếu tố ESG được tích hợp vào khung quản trị rủi ro và \nquy trình ra quyết định của Ban Điều hành. Công tác quản trị dữ liệu, an toàn \nthông tin và bảo mật được tăng cường nhằm đáp ứng yêu cầu ngày càng cao của \nthị trường và khách hàng toàn cầu.\nNhìn chung, các hoạt động ESG trong năm 2025 cho thấy nỗ lực của FPT trong việc \ncân bằng giữa tăng trưởng kinh doanh và trách nhiệm bền vững, qua đó củng cố \nnền tảng vận hành dài hạn và tạo giá trị ổn định cho cổ đông, khách hàng và xã hội.\nTình hình thực hiện các dự án đầu tư\nKhối Kế hoạch 2025 Giải ngân 2025 So với kế hoạch\nCông nghệ\nViễn thông\nGiáo dục\n6.000\n2.500\n2.500\n 2.823\n1.751\n749\n47,1%\n70,0%\n30,0%\nĐơn vị: Tỷ VNĐ\nTổ hợp giáo dục FPT tại Huế được định hướng phát triển gắn kết đào tạo với các \ncông nghệ mũi nhọn, như STEM, trí tuệ nhân tạo (AI), Robotics... từ bậc phổ thông.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo tình hình thực hiện các dự án đầu tư năm 2025 và hoạt động ESG của FPT trong năm 2025.\ntable: Tình hình thực hiện các dự án đầu tư (trái trên) — Bảng so sánh kế hoạch và giải ngân năm 2025 theo khối Công nghệ, Viễn thông, Giáo dục, đơn vị tỷ VNĐ, tỷ lệ phần trăm so với kế hoạch\nphoto: Tổ hợp giáo dục FPT tại Huế (trái dưới) — Ảnh minh họa tổ hợp giáo dục FPT tại Huế với chú thích về định hướng phát triển gắn kết đào tạo với các công nghệ mũi nhọn như STEM, AI, Robotics\ndiagram: Hoạt động ESG (phải) — Mô tả các ưu tiên và chiến lược ESG của FPT năm 2025, bao gồm quản trị phát triển bền vững, môi",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình thực hiện các dự án đầu tư",
+              "location": "trái trên",
+              "description": "Bảng so sánh kế hoạch và giải ngân năm 2025 theo khối Công nghệ, Viễn thông, Giáo dục, đơn vị tỷ VNĐ, tỷ lệ phần trăm so với kế hoạch"
+            },
+            {
+              "type": "photo",
+              "title": "Tổ hợp giáo dục FPT tại Huế",
+              "location": "trái dưới",
+              "description": "Ảnh minh họa tổ hợp giáo dục FPT tại Huế với chú thích về định hướng phát triển gắn kết đào tạo với các công nghệ mũi nhọn như STEM, AI, Robotics"
+            },
+            {
+              "type": "diagram",
+              "title": "Hoạt động ESG",
+              "location": "phải",
+              "description": "Mô tả các ưu tiên và chiến lược ESG của FPT năm 2025, bao gồm quản trị phát triển bền vững, môi trường làm việc, giảm phát thải khí nhà kính, trách nhiệm xã hội, quản trị minh bạch và bảo mật dữ liệu"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p121",
+          "page": 121,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "• Cổ đông và Nhà đầu tư\nChương trình hành động nổi bật Kết quả năm 2025\nMinh bạch công bố và chia sẻ thông tin\nĐối thoại và tương tác với cộng đồng đầu tư\n• Đảm bảo công bố thông tin đầy đủ theo đúng quy định của Sở Giao dịch Chứng khoán Tp.Hồ Chí Minh, UBCKNN;\n Công bố thông tin song ngữ (Việt – Anh) trên website và các kênh chính thức nhằm tiếp cận cộng đồng đầu tư toàn cầu;\n• Cung cấp thông tin kịp thời, minh bạch và nhất quán cho nhà đầu tư, cổ đông và các bên liên quan về kết quả\n kinh doanh, định hướng chiến lược và các xu hướng công nghệ trọng điểm của Tập đoàn.\n• Chủ động duy trì đối thoại hai chiều với nhà đầu tư tổ chức, cá nhân và chuyên viên phân tích trong và ngoài nước \nvới hơn 200 cuộc gặp gỡ và trao đổi trong năm 2025;\n• Chủ động hợp tác với các định chế tài chính và công ty chứng khoán nhằm mở rộng cơ hội tiếp cận nhà đầu tư\n toàn cầu thông qua các hội thảo đầu tư trong và ngoài nước.\nĐảm bảo quyền lợi của cổ đông • Tổ chức ĐHĐCĐ 2025 theo hình thức kết hợp trực tiếp và trực tuyến, tạo điều kiện thuận lợi cho cổ đông tham gia. \nCổ đông được đặt câu hỏi trực tiếp với Ban lãnh đạo và tiếp cận đầy đủ tài liệu Đại hội; Tổ chức triển lãm công nghệ \ntại ĐHĐCĐ, giúp cổ đông trực tiếp trải nghiệm các công nghệ chiến lược của FPT như: AI và công nghệ ô tô;\n• Tổng tiền chi trả cổ tức: 3.184.837.243.000 VNĐ;\n• Lãi cơ bản trên cổ phiếu đạt 5.216 đồng, tăng 21,4% so với cùng kỳ, tiếp tục khẳng định hiệu quả hoạt động và\n cam kết tạo giá trị bền vững cho cổ đông.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày các chương trình hành động nổi bật và kết quả năm 2025 liên quan đến cổ đông và nhà đầu tư của FPT, tập trung vào minh bạch thông tin, đối thoại với cộng đồng đầu tư và đảm bảo quyền lợi cổ đông.\ntable: Chương trình hành động nổi bật và Kết quả năm 2025 (phải) — Bảng gồm các mục: Minh bạch công bố và chia sẻ thông tin, Đối thoại và tương tác với cộng đồng đầu tư, Đảm bảo quyền lợi của cổ đông; mô tả các hoạt động và kết quả thực hiện trong năm 2025.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chương trình hành động nổi bật và Kết quả năm 2025",
+              "location": "phải",
+              "description": "Bảng gồm các mục: Minh bạch công bố và chia sẻ thông tin, Đối thoại và tương tác với cộng đồng đầu tư, Đảm bảo quyền lợi của cổ đông; mô tả các hoạt động và kết quả thực hiện trong năm 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p180",
+          "page": 180,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n2.10. Đầu tư tài chính\n(a) Đầu tư nắm giữ đến ngày đáo hạn\nCác khoản đầu tư nắm giữ đến ngày đáo hạn là các khoản đầu tư mà Tập đoàn có \ný định và có khả năng giữ đến ngày đáo hạn.\nCác khoản đầu tư nắm giữ đến ngày đáo hạn bao gồm các khoản tiền gửi ngân \nhàng có kỳ hạn trên ba tháng, và các khoản đầu tư nắm giữ đến ngày đáo hạn \nkhác. Các khoản đầu tư này ban đầu được ghi nhận theo giá gốc. Sau đó, Tập đoàn \nthực hiện việc rà soát đối với tất cả các khoản đầu tư để ghi nhận dự phòng vào cuối \nnăm tài chính.\nDự phòng giảm giá đầu tư nắm giữ đến ngày đáo hạn được lập trên cơ sở có bằng \nchứng chắc chắn cho thấy một phần hoặc toàn bộ khoản đầu tư có thể không thu \nhồi được. Chênh lệch giữa khoản dự phòng lập ở cuối năm tài chính này và khoản \ndự phòng đã lập ở cuối năm tài chính trước được ghi nhận tăng hoặc giảm chi phí \ntài chính trong năm tài chính. Khoản dự phòng được hoàn nhập không vượt quá giá \ntrị ghi sổ ban đầu.\nCác khoản đầu tư nắm giữ đến ngày đáo hạn được phân loại ngắn hạn và dài hạn \ntrên bảng cân đối kế toán hợp nhất căn cứ theo kỳ hạn của các khoản đầu tư nắm \ngiữ đến ngày đáo hạn tại ngày của bảng cân đối kế toán hợp nhất đến ngày đáo hạn.\n(b) Đầu tư vào công ty liên doanh, liên kết\nĐầu tư vào công ty liên doanh, liên kết được trình bày theo phương pháp vốn chủ sở \nhữu trong báo cáo tài chính hợp nhất (Thuyết minh 2.5). \n(c) Đầu tư góp vốn vào đơn vị khác\nĐầu tư góp vốn vào đơn vị khác là các khoản đầu tư vào công cụ vốn của đơn vị \nkhác nhưng không có quyền kiểm soát hoặc đồng kiểm soát, không có ảnh hưởng \nđáng kể đối với bên được đầu tư. Khoản đầu tư góp vốn các đơn vị khác được phản \nánh theo nguyên giá trừ các khoản dự phòng giảm giá đầu tư. \nCho vay là các khoản cho vay với mục đích thu lãi hàng kỳ theo khế ước giữa các \nbên nhưng không được giao dịch mua, bán trên thị trường như chứng khoán.\nCho vay được ghi nhận ban đầu theo giá gốc. Sau đó, Tập đoàn thực hiện việc rà \nsoát đối với tất cả các khoản còn chưa thu để ghi nhận dự phòng các khoản cho \nvay khó đòi vào cuối năm tài chính. Dự phòng các khoản cho vay khó đòi được lập \ncho từng khoản cho vay căn cứ vào thời gian quá hạn trả nợ gốc theo cam kết nợ \nban đầu (không tính đến việc gia hạn nợ giữa các bên), hoặc căn cứ vào mức tổn \nthất ước tính có thể xảy ra. Chênh lệch giữa khoản dự phòng lập ở cuối năm tài \nchính này và khoản dự phòng đã lập ở cuối năm tài chính trước được ghi nhận tăng \nhoặc giảm chi phí trong năm tài chính. Khoản dự phòng được hoàn nhập không vượt \nquá giá trị ghi sổ ban đầu.\nCho vay được phân loại ngắn hạn và dài hạn trên bảng cân đối kế toán hợp nhất \ncăn cứ theo kỳ hạn còn lại của các khoản cho vay tại ngày của bảng cân đối kế \ntoán hợp nhất đến ngày tới hạn thu hồi.\nMẫu số B 09 – DN/HN\n2.11. Cho vay\nDự phòng giảm giá đầu tư góp vốn vào đơn vị khác được lập vào cuối năm tài chính \nkhi có sự giảm giá trị của các khoản đầu tư. Dự phòng giảm giá đầu tư góp vốn vào \nđơn vị khác được tính dựa trên giá trị thị trường nếu giá trị thị trường được xác định \nmột cách tin cậy. Nếu giá trị thị trường không thể được xác đ",
+          "visuals": []
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801828-BW8ChuOQtiwYfFEMeDMX",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_48uAGJD53QFNGZ5BCsN3uDkE",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Theo bảng \\\"Tình hình thực hiện các dự án đầu tư\\\" trong Báo cáo thường niên FPT 2025, Khối Viễn thông giải ngân năm 2025 là 1.751 tỷ VNĐ, đạt 70,0% kế hoạch đề ra.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p075\",\"region\":\"Bảng Tình hình thực hiện các dự án đầu tư, trái trên, hàng Khối Viễn thông, cột Giải ngân 2025 và cột So với kế hoạch\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p055",
+    "FPT2025:p075",
+    "FPT2025:p121",
+    "FPT2025:p180"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p055",
+      "page": 55,
+      "image": ".bonus/pages/p055.jpg",
+      "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+    },
+    {
+      "id": "FPT2025:p075",
+      "page": 75,
+      "image": ".bonus/pages/p075.jpg",
+      "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+    },
+    {
+      "id": "FPT2025:p121",
+      "page": 121,
+      "image": ".bonus/pages/p121.jpg",
+      "image_sha256": "22e15841475eb7bf89b3744203867bf50476f1e7085d92c625b2ef7d473fa3ae"
+    },
+    {
+      "id": "FPT2025:p180",
+      "page": 180,
+      "image": ".bonus/pages/p180.jpg",
+      "image_sha256": "72a5b2e8017c965fa75048068d4dbf0c5cb6f5d48e56c45f2b56d383018420dd"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801826-taJM6iirTmHyYKpuki2R",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 466,
+        "completion_tokens": 46,
+        "total_tokens": 512,
+        "cost": 0.00026,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00026,
+          "upstream_inference_prompt_cost": 0.0001864,
+          "upstream_inference_completions_cost": 7.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 16769.132099987473,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801828-BW8ChuOQtiwYfFEMeDMX",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 4757,
+        "completion_tokens": 131,
+        "total_tokens": 4888,
+        "cost": 0.0021124,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0021124,
+          "upstream_inference_prompt_cost": 0.0019028,
+          "upstream_inference_completions_cost": 0.0002096
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2640.43499995023,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 19418.11729996698,
+  "query_id": "fd-t3",
+  "question": "Bảng thực hiện dự án đầu tư cho biết Khối Viễn thông giải ngân năm 2025 bao nhiêu và đạt bao nhiêu phần trăm kế hoạch?",
+  "split": "dev",
+  "config": "text"
+}

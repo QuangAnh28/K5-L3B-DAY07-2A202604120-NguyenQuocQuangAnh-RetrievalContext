@@ -1,0 +1,467 @@
+{
+  "status": "answered",
+  "answer": "Cuối năm 2025: Tổng tài sản là 88.142 tỷ VNĐ (bảng tài chính 2021–2025, trang 12); Vốn chủ sở hữu là 43.748 tỷ VNĐ (cùng bảng). Đối chiếu: Bảng cân đối kế toán hợp nhất cho thấy vốn chủ sở hữu (mã 400) 43.748.040.747.539 VNĐ và tổng nguồn vốn 88.141.991.634.625 VNĐ, tương đương khoảng 43.748 tỷ VNĐ và 88.142 tỷ VNĐ.\n[FPT2025:p012 — Bảng 'Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025', hàng 'Vốn chủ sở hữu' (STT 1) và 'Tổng tài sản' (STT 2), cột 2025; đơn vị Tỷ VNĐ] [FPT2025:p168 — Bảng cân đối kế toán hợp nhất (tiếp theo), mã số 400 'VỐN CHỦ SỞ HỮU' và mã số 440 'TỔNG NGUỒN VỐN', cột 2025; đơn vị VNĐ]",
+  "citations": [
+    {
+      "id": "FPT2025:p012",
+      "region": "Bảng 'Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025', hàng 'Vốn chủ sở hữu' (STT 1) và 'Tổng tài sản' (STT 2), cột 2025; đơn vị Tỷ VNĐ"
+    },
+    {
+      "id": "FPT2025:p168",
+      "region": "Bảng cân đối kế toán hợp nhất (tiếp theo), mã số 400 'VỐN CHỦ SỞ HỮU' và mã số 440 'TỔNG NGUỒN VỐN', cột 2025; đơn vị VNĐ"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805024-OLYkcm1SaXSpWb3VIgC1",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_0147rWdvMvbKgpGzYKwEDqjo",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Trong bảng tài chính giai đoạn 2021–2025, tổng tài sản và vốn chủ sở hữu cuối năm 2025 lần lượt là bao nhiêu? Ghi đúng đơn vị.\",\"bảng tổng tài sản vốn chủ sở hữu 2021-2025\",\"tổng tài sản vốn chủ sở hữu năm 2025 tỷ đồng\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong bảng tài chính giai đoạn 2021–2025, tổng tài sản và vốn chủ sở hữu cuối năm 2025 lần lượt là bao nhiêu? Ghi đúng đơn vị.",
+      "model_queries": [
+        "Trong bảng tài chính giai đoạn 2021–2025, tổng tài sản và vốn chủ sở hữu cuối năm 2025 lần lượt là bao nhiêu? Ghi đúng đơn vị.",
+        "bảng tổng tài sản vốn chủ sở hữu 2021-2025",
+        "tổng tài sản vốn chủ sở hữu năm 2025 tỷ đồng"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p012",
+          "page": 12,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "score": 0.031746031746031744,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p205",
+          "page": 205,
+          "score": 0.02919863597612958,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p207",
+          "page": 207,
+          "score": 0.02878726010616578,
+          "component_ranks": {
+            "dense": 19,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p206",
+          "page": 206,
+          "score": 0.027984344422700584,
+          "component_ranks": {
+            "dense": 13,
+            "tfidf": 10
+          }
+        },
+        {
+          "id": "FPT2025:p180",
+          "page": 180,
+          "score": 0.027730294396961064,
+          "component_ranks": {
+            "dense": 21,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p168",
+          "page": 168,
+          "score": 0.02651914295749912,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 13
+          }
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "score": 0.023952954675846242,
+          "component_ranks": {
+            "dense": 23,
+            "tfidf": 24
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong bảng tài chính giai đoạn 2021–2025, tổng tài sản và vốn chủ sở hữu cuối năm 2025 lần lượt là bao nhiêu? Ghi đúng đơn vị."
+      ],
+      "context_ids": [
+        "FPT2025:p012",
+        "FPT2025:p011",
+        "FPT2025:p205",
+        "FPT2025:p207",
+        "FPT2025:p206",
+        "FPT2025:p180",
+        "FPT2025:p168",
+        "FPT2025:p036"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p012",
+          "page": 12,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Số liệu tài chính trong Báo cáo này được trích xuất từ Báo cáo tài chính hợp nhất đã kiểm toán bao gồm Báo cáo tài chính Công ty mẹ, Báo cáo tài chính của các công ty \ndo Tập đoàn nắm quyền kiểm soát (Công ty con) và kết quả kinh doanh hợp nhất của các công ty liên kết theo phương pháp vốn chủ.\n(*): Tiền mặt chi trả trong năm bao gồm cổ tức tiền mặt còn lại của năm liền trước và tạm ứng cổ tức tiền mặt của năm hiện tại nếu có.\nSTT Chỉ tiêu 2021 +/- 2022 +/- 2023 +/- 2024 +/- 2025 +/-\n21.418\n53.698\n35.657\n6.228\n7.981\n6.337\n6.337\n5.349\n4.337\n1.697\n25.356\n51.650\n44.010\n7.589\n9.495\n7.662\n7.662\n6.491\n5.310\n2.011\n15,1%\n28,7%\n19,5%\n20,0%\n18,2%\n20,4%\n20,4%\n20,9%\n22,6%\n15,8%\n18,4%\n-3,8%\n23,4%\n21,8%\n19,0%\n20,9%\n20,9%\n21,3%\n22,4%\n18,5%\n18,1%\n16,7%\n19,6%\n20,1%\n21,0%\n20,1%\n20,1%\n20,0%\n21,8%\n18,1%\n29.933\n60.283\n52.618\n9.112\n11.490\n9.203\n9.203\n7.788\n6.465\n2.374\n35.728\n72.000\n62.849\n11.025\n13.605\n11.070\n11.070\n9.427\n7.857\n2.741\n19,4%\n19,4%\n19,4%\n21,0%\n18,4%\n20,3%\n20,3%\n21,0%\n21,5%\n15,4%\n43.748\n88.142\n70.113\n12.952\n15.958\n13.044\n13.044\n11.232\n9.376\n3.185\n22,4%\n22,4%\n11,6%\n17,5%\n17,3%\n17,8%\n17,8%\n19,1%\n19,3%\n16,2%\nVốn chủ sở hữu\nTổng tài sản\nTổng doanh thu \nLợi nhuận thuần từ hoạt động kinh doanh\nLợi nhuận trước thuế, lãi vay và khấu hao\nLợi nhuận trước thuế và lãi vay\nLợi nhuận trước thuế\nLợi nhuận sau thuế\nLợi nhuận sau thuế thuộc về cổ đông công ty mẹ\nChi trả cổ tức bằng tiền mặt (*)\nTình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025\nĐơn vị: Tỷ VNĐ\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng tổng hợp tình hình tài chính và kết quả kinh doanh nổi bật của FPT giai đoạn 2021-2025, thể hiện các chỉ tiêu tài chính chính và tỷ lệ tăng trưởng hàng năm.\ntable: Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025 (phải) — Bảng gồm các chỉ tiêu tài chính như vốn chủ sở hữu, tổng tài sản, tổng doanh thu, lợi nhuận các loại, chi trả cổ tức bằng tiền mặt; dữ liệu theo năm từ 2021 đến 2025 với tỷ lệ tăng trưởng phần trăm từng năm; đơn vị tính là tỷ VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025",
+              "location": "phải",
+              "description": "Bảng gồm các chỉ tiêu tài chính như vốn chủ sở hữu, tổng tài sản, tổng doanh thu, lợi nhuận các loại, chi trả cổ tức bằng tiền mặt; dữ liệu theo năm từ 2021 đến 2025 với tỷ lệ tăng trưởng phần trăm từng năm; đơn vị tính là tỷ VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2021 2022 2023 2024 2025\n30\n20\n10\n0\nTỷ suất sinh lời\ntrên vốn chủ sở hữu (ROE)\n28,1%\nTỷ suất sinh lời\ntrên tổng tài sản (ROA) \n14,1%\nROA (%)\nROE (%)\n26,7% 27,7% 27,9% 28,5% 28,1%\n11,4% 11,9% 13,6% 14,4% 14,1%\n1.697 2.011 2.374 2.741 3.185\n2021 2022 2023 2024 2025\n3.500\n3.000\n2.500\n2.000\n1.500\n1.000\n500\n0\n16,2% so với cùng kỳ\nCổ tức bằng tiền mặt\n3.185 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n5.750 7.112 8.167 10.117 11.078\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n9,5% so với cùng kỳ\nĐóng góp Ngân sách Nhà nước\nTỷ VNĐ 11.078\nĐơn vị: Tỷ VNĐ\nĐảm bảo tăng trưởng ổn định (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chỉ số tài chính quan trọng của FPT năm 2025, bao gồm cổ tức tiền mặt, đóng góp ngân sách nhà nước, và tỷ suất sinh lời trên vốn chủ sở hữu và tổng tài sản.\nchart: Cổ tức bằng tiền mặt (trái trên) — Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Đóng góp Ngân sách Nhà nước (phải trên) — Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA) (dưới) — Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cổ tức bằng tiền mặt",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Đóng góp Ngân sách Nhà nước",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA)",
+              "location": "dưới",
+              "description": "Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p205",
+          "page": 205,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "23. Vốn góp của chủ sở hữu (Tiếp theo)\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nĐơn vị: VNĐ\nĐơn vị: VNĐ\nTổng Công ty Đầu tư và Kinh doanh \nvốn Nhà nước\nÔng Trương Gia Bình\nCổ đông khác\nSố lượng cổ phiếu đang lưu hành\n96.585.637\n117.347.966\n1.489.573.518\n1.703.507.121\n83.987.511\n102.041.710\n1.285.039.962\n1.471.069.183\n5,71\n6,94\n87,35\n100\n5,67\n6,89\n87,44\n100\n31/12/2025\n(b) Chi tiết vốn góp của chủ sở hữu\nCổ phiếu phổ thông %\n31/12/2024\nCổ phiếu phổ thông %\nTại ngày 1 tháng 1 năm 2024\nPhát hành cổ phiếu mới\nTăng vốn từ nguồn vốn chủ sở hữu cho \ncổ đông hiện hữu \nTại ngày 31 tháng 12 năm 2024\nPhát hành cổ phiếu mới\nTăng vốn từ nguồn vốn chủ sở hữu cho \ncổ đông hiện hữu\nTại ngày 31 tháng 12 năm 2025\n1.269.968.875\n10.621.117 \n190.479.191 \n1.471.069.183 \n10.260.939\n222.176.999\n1.703.507.121\n12.699.688.750.000\n106.211.170.000\n1.904.791.910.000\n14.710.691.830.000\n102.609.390.000\n2.221.769.990.000\n17.035.071.210.000\n(c) Tình hình biến động của vốn cổ phần\nSố cổ phiếu Cổ phiếu phổ thông\n12.699.688.750.000\n106.211.170.000\n1.904.791.910.000\n14.710.691.830.000\n102.609.390.000\n2.221.769.990.000\n17.035.071.210.000\nTổng cộng\nMệnh giá cổ phiếu: 10.000 đồng trên một cổ phiếu.\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nChi tiết vốn góp của chủ sở hữu và tình hình biến động vốn cổ phần của FPT trong các năm tài chính 2024 và 2025.\ntable: Chi tiết vốn góp của chủ sở hữu (trên) — Bảng thể hiện số lượng cổ phiếu phổ thông và tỷ lệ phần trăm vốn góp của các nhóm cổ đông tại ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ.\ntable: Tình hình biến động của vốn cổ phần (dưới) — Bảng thể hiện số cổ phiếu, cổ phiếu phổ thông và tổng cộng vốn cổ phần tại các mốc thời gian: 01/01/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, 31/12/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, và 31/12/2025, đơn vị VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi tiết vốn góp của chủ sở hữu",
+              "location": "trên",
+              "description": "Bảng thể hiện số lượng cổ phiếu phổ thông và tỷ lệ phần trăm vốn góp của các nhóm cổ đông tại ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Tình hình biến động của vốn cổ phần",
+              "location": "dưới",
+              "description": "Bảng thể hiện số cổ phiếu, cổ phiếu phổ thông và tổng cộng vốn cổ phần tại các mốc thời gian: 01/01/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, 31/12/2024, phát hành cổ phiếu mới, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, và 31/12/2025, đơn vị VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p207",
+          "page": 207,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "(i) Phát hành cổ phiếu trong năm: \nCăn cứ theo Nghị quyết Đại hội đồng Cổ đông thường niên năm 2020 ngày 8 tháng 4 năm \n2020, Nghị quyết Đại hội đồng Cổ đông thường niên năm 2023 ngày 6 tháng 4 năm 2023 \nvà Nghị quyết Hội đồng Quản trị số 02.03-2025/NQ-HĐQTFPT ngày 20 tháng 3 năm \n2025, Công ty đã phát hành cổ phiếu theo “Chương trình phát hành cổ phiếu cho cán bộ \nnhân viên có thành tích đóng góp trong năm 2024” và “Chương trình phát hành cổ phiếu \ncho cán bộ lãnh đạo cấp cao trong năm 2025”. Theo đó, Công ty đã phát hành tổng cộng \n10.260.939 cổ phiếu theo mệnh giá 10.000 Đồng/cổ phiếu.\nĐơn vị: VNĐ\nSố dư đầu năm\nTăng vốn trong năm (iv)\nLợi nhuận thuần trong năm\nTrích lập quỹ khen thưởng, phúc lợi\nChia cổ tức bằng tiền\nKhác\nSố dư cuối năm\n5.933.309.621.004 \n1.119.017.757.220 \n1.856.211.821.233 \n(194.482.425.402)\n(1.392.147.355.000)\n(56.812.616.288)\n7.265.096.802.767\n4.958.854.855.687 \n57.131.819.874\n1.570.654.718.266\n(156.081.719.685) \n(553.843.649.346) \n56.593.596.208 \n5.933.309.621.004 \nTại ngày 31/12/2024\nTại ngày 31/12/2025\n2.792.973.085.293 \n5.248.044.273.002 \n122.415.334.866\n 122.415.334.866 \n30.113.842.695\n 30.113.833.045 \n6.066.292.299\n (71.701.140.381)\n1.153.220.275.158\n315.538.546.255\n-\n 8.320.427.997 \n1.828.520.790.693\n 1.612.365.527.983 \n5.933.309.621.004\n7.265.096.802.767\nVốn góp\n2025 2024\nThặng dư\nvốn cổ phần\nVốn khác của \nchủ sở hữu\nChênh lệch \ntỷ giá hối đoái\nQuỹ đầu tư\n phát triển\nQuỹ khác thuộc \nvốn chủ sở hữu\nLNST chưa\nphân phối\nTổng cộng\n24. Tình hình tăng giảm nguồn vốn chủ sở hữu (Tiếp theo)\nCổ đông không kiểm soát (trình bày theo cấu phần vốn chủ sở hữu tại các công ty con): \nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nĐơn vị: VNĐ\nBiến động về lợi ích cổ đông không kiểm soát trong năm tài chính như sau:\nMẫu số B 09 – DN/HN\n(ii) Tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu và chia cổ tức trong năm:\nCăn cứ theo Nghị quyết Đại hội đồng Cổ đông thường niên năm 2025 ngày 15 tháng 4 năm \n2025 và Nghị quyết Hội đồng Quản trị số 02.05-2025/NQ-HĐQTFPT ngày 29 tháng 5 \nnăm 2025, Công ty đã phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ \nđông hiện hữu theo tỷ lệ 15% trên mệnh giá với giá trị là 2.221.769.990.000 Đồng và chi trả \ncổ tức còn lại năm 2024 bằng tiền mặt theo tỷ lệ 10% trên mệnh giá với giá trị là \n1.481.330.122.000 Đồng. \nCăn cứ theo Nghị quyết Đại hội đồng Cổ đông thường niên năm 2025 ngày 15 tháng 4 năm \n2025 và Nghị quyết Hội đồng Quản trị số 01.11-2025/NQ-HĐQTFPT ngày 13 tháng 11 năm \n2025, Công ty đã tạm ứng cổ tức đợt 1 năm 2025 bằng tiền mặt theo tỷ lệ 10% trên mệnh \ngiá với giá trị là 1.703.507.121.000 Đồng.\nCăn cứ theo các Nghị quyết Đại hội đồng cổ đông thường niên/Hội đồng Quản trị của các \ncông ty con, các công ty con tăng vốn từ nguồn vốn chủ sở hữu thông qua phát hành cổ \nphiếu cho cổ đông hiện hữu. \n(iii) Trích quỹ trong năm\nCăn cứ theo các Nghị quyết Đại hội đồng cổ đông thường niên/Hội đồng Quản trị của từng \ncông ty con, các công ty con trích quỹ khen thưởng, phúc lợi, và trích/sử dụng quỹ đầu tư \nphát triển. \n(iv) Trong năm, Công ty TNHH FPT Smart Cloud Nhật Bản, công ty con trong Tập đoàn, đã \nnhận thêm vốn góp từ các cổ đông",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình tăng giảm nguồn vốn chủ sở hữu",
+              "location": "trên giữa",
+              "description": "Bảng số liệu vốn góp, thặng dư vốn cổ phần, vốn khác của chủ sở hữu, chênh lệch tỷ giá hối đoái, quỹ đầu tư phát triển, quỹ khác thuộc vốn chủ sở hữu, LNST chưa phân phối và tổng cộng tại ngày 31/12/2024 và 31/12/2025, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Biến động lợi ích cổ đông không kiểm soát năm 2025 và 2024",
+              "location": "giữa bên trái",
+              "description": "Bảng số liệu chi tiết biến động lợi ích cổ đông không kiểm soát gồm số dư đầu năm, tăng vốn trong năm, lợi nhuận thuần trong năm, trích lập quỹ khen thưởng, phúc lợi, chia cổ tức bằng tiền, các khoản khác và số dư cuối năm, đơn vị VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p206",
+          "page": 206,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "24. Tình hình tăng giảm nguồn vốn chủ sở hữu \nTại ngày 1/1/2024\nPhát hành cổ phiếu\nLợi nhuận thuần trong năm\nTrích quỹ khen thưởng, phúc lợi\nTrích và sử dụng quỹ đầu tư \nphát triển\nTăng vốn từ nguồn vốn chủ sở \nhữu cho cổ đông hiện hữu\nChia cổ tức bằng tiền\nKhác\nTại ngày 31/12/2024\nPhát hành cổ phiếu (i)\nTăng vốn từ nguồn vốn chủ sở \nhữu cho cổ đông hiện hữu (ii)\nLợi nhuận thuần trong năm \nChia cổ tức bằng tiền (ii)\nTrích quỹ khen thưởng, \nphúc lợi (iii)\nTrích và sử dụng quỹ đầu tư \nphát triển (iii)\nKhác\nTại ngày 31/12/2025\n12.699.688.750.000\n106.211.170.000 \n-\n-\n-\n1.904.791.910.000 \n-\n-\n14.710.691.830.000 \n102.609.390.000 \n2.221.769.990.000\n - \n - \n- \n - \n - \n17.035.071.210.000 \n49.713.213.411\n-\n-\n-\n-\n-\n-\n-\n49.713.213.411 \n \n - \n \n - \n \n - \n \n - \n \n - \n \n - \n \n - \n 49.713.213.411 \n1.928.602.158.147\n-\n-\n-\n-\n-\n-\n410.545.307 \n1.929.012.703.454 \n \n - \n \n1.570.534.666.498 \n \n - \n \n - \n \n - \n \n - \n \n - \n 3.499.547.369.952 \n(17.778.502.626)\n-\n-\n-\n-\n-\n-\n(31.707.058.234)\n(49.485.560.860) \n \n - \n \n - \n \n - \n \n - \n \n - \n \n - \n \n (20.700.295.726)\n(70.185.856.586)\n1.549.850.939.920\n-\n-\n-\n483.438.201.615 \n-\n-\n-\n2.033.289.141.535 \n \n - \n \n (968.864.144.515)\n \n - \n \n - \n \n - \n \n510.942.590.152 \n \n - \n1.575.367.587.172 \n87.203.093.024\n-\n-\n-\n-\n-\n-\n527.391.801 \n87.730.484.825 \n \n - \n \n - \n \n - \n \n - \n \n - \n \n - \n \n533.144.062 \n 88.263.628.887 \n8.674.126.708.670\n-\n7.856.767.812.178\n(624.987.179.579)\n(188.268.828.315)\n(1.904.791.910.000)\n(2.741.038.058.000)\n(41.279.873.523)\n11.030.528.671.431 \n \n - \n \n (2.823.440.511.983)\n \n 9.376.127.629.501\n \n(3.184.837.243.000)\n(510.167.707.669)\n \n(265.095.862.269)\n \n679.301.815.925 \n 14.302.416.791.936 \n24.971.406.360.546\n106.211.170.000\n7.856.767.812.178\n(624.987.179.579)\n295.169.373.300\n-\n(2.741.038.058.000)\n(72.048.994.649)\n29.791.480.483.796 \n \n102.609.390.000 \n \n - \n9.376.127.629.501\n \n(3.184.837.243.000)\n \n (510.167.707.669)\n \n 245.846.727.883\n659.134.664.261\n 36.480.193.944.772\nVốn góp của\nchủ sở hữu\nThặng dư\nvốn cổ phần\nVốn khác của \nchủ sở hữu\nChênh lệch \ntỷ giá hối đoái\nQuỹ đầu tư\n phát triển\nQuỹ khác thuộc \nvốn chủ sở hữu\nLNST chưa\nphân phối\nTổng cộng\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nĐơn vị: VNĐ\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng thuyết minh về tình hình tăng giảm nguồn vốn chủ sở hữu của FPT trong năm tài chính kết thúc ngày 31/12/2025, thể hiện các khoản mục vốn góp, thặng dư vốn cổ phần, quỹ đầu tư phát triển, lợi nhuận chưa phân phối và các thay đổi liên quan.\ntable: Tình hình tăng giảm nguồn vốn chủ sở hữu (giữa trang) — Bảng thể hiện các khoản mục vốn góp của chủ sở hữu, thặng dư vốn cổ phần, vốn khác của chủ sở hữu, chênh lệch tỷ giá hối đoái, quỹ đầu tư phát triển, quỹ khác thuộc vốn chủ sở hữu, lợi nhuận sau thuế chưa phân phối và tổng cộng theo các mốc thời gian từ 1/1/2024 đến 31/12/2025 cùng các biến động trong năm như phát hành cổ phiếu, lợi nhuận thuần, trích quỹ khen thưởng, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, chia cổ tức bằng tiền, và các khoản khác. Đơn vị tính: VND.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình tăng giảm nguồn vốn chủ sở hữu",
+              "location": "giữa trang",
+              "description": "Bảng thể hiện các khoản mục vốn góp của chủ sở hữu, thặng dư vốn cổ phần, vốn khác của chủ sở hữu, chênh lệch tỷ giá hối đoái, quỹ đầu tư phát triển, quỹ khác thuộc vốn chủ sở hữu, lợi nhuận sau thuế chưa phân phối và tổng cộng theo các mốc thời gian từ 1/1/2024 đến 31/12/2025 cùng các biến động trong năm như phát hành cổ phiếu, lợi nhuận thuần, trích quỹ khen thưởng, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, chia cổ tức bằng tiền, và các khoản khác. Đơn vị tính: VND."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p180",
+          "page": 180,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "THUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT\nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\n2. Các chính sách kế toán chủ yếu (Tiếp theo)\n2.10. Đầu tư tài chính\n(a) Đầu tư nắm giữ đến ngày đáo hạn\nCác khoản đầu tư nắm giữ đến ngày đáo hạn là các khoản đầu tư mà Tập đoàn có \ný định và có khả năng giữ đến ngày đáo hạn.\nCác khoản đầu tư nắm giữ đến ngày đáo hạn bao gồm các khoản tiền gửi ngân \nhàng có kỳ hạn trên ba tháng, và các khoản đầu tư nắm giữ đến ngày đáo hạn \nkhác. Các khoản đầu tư này ban đầu được ghi nhận theo giá gốc. Sau đó, Tập đoàn \nthực hiện việc rà soát đối với tất cả các khoản đầu tư để ghi nhận dự phòng vào cuối \nnăm tài chính.\nDự phòng giảm giá đầu tư nắm giữ đến ngày đáo hạn được lập trên cơ sở có bằng \nchứng chắc chắn cho thấy một phần hoặc toàn bộ khoản đầu tư có thể không thu \nhồi được. Chênh lệch giữa khoản dự phòng lập ở cuối năm tài chính này và khoản \ndự phòng đã lập ở cuối năm tài chính trước được ghi nhận tăng hoặc giảm chi phí \ntài chính trong năm tài chính. Khoản dự phòng được hoàn nhập không vượt quá giá \ntrị ghi sổ ban đầu.\nCác khoản đầu tư nắm giữ đến ngày đáo hạn được phân loại ngắn hạn và dài hạn \ntrên bảng cân đối kế toán hợp nhất căn cứ theo kỳ hạn của các khoản đầu tư nắm \ngiữ đến ngày đáo hạn tại ngày của bảng cân đối kế toán hợp nhất đến ngày đáo hạn.\n(b) Đầu tư vào công ty liên doanh, liên kết\nĐầu tư vào công ty liên doanh, liên kết được trình bày theo phương pháp vốn chủ sở \nhữu trong báo cáo tài chính hợp nhất (Thuyết minh 2.5). \n(c) Đầu tư góp vốn vào đơn vị khác\nĐầu tư góp vốn vào đơn vị khác là các khoản đầu tư vào công cụ vốn của đơn vị \nkhác nhưng không có quyền kiểm soát hoặc đồng kiểm soát, không có ảnh hưởng \nđáng kể đối với bên được đầu tư. Khoản đầu tư góp vốn các đơn vị khác được phản \nánh theo nguyên giá trừ các khoản dự phòng giảm giá đầu tư. \nCho vay là các khoản cho vay với mục đích thu lãi hàng kỳ theo khế ước giữa các \nbên nhưng không được giao dịch mua, bán trên thị trường như chứng khoán.\nCho vay được ghi nhận ban đầu theo giá gốc. Sau đó, Tập đoàn thực hiện việc rà \nsoát đối với tất cả các khoản còn chưa thu để ghi nhận dự phòng các khoản cho \nvay khó đòi vào cuối năm tài chính. Dự phòng các khoản cho vay khó đòi được lập \ncho từng khoản cho vay căn cứ vào thời gian quá hạn trả nợ gốc theo cam kết nợ \nban đầu (không tính đến việc gia hạn nợ giữa các bên), hoặc căn cứ vào mức tổn \nthất ước tính có thể xảy ra. Chênh lệch giữa khoản dự phòng lập ở cuối năm tài \nchính này và khoản dự phòng đã lập ở cuối năm tài chính trước được ghi nhận tăng \nhoặc giảm chi phí trong năm tài chính. Khoản dự phòng được hoàn nhập không vượt \nquá giá trị ghi sổ ban đầu.\nCho vay được phân loại ngắn hạn và dài hạn trên bảng cân đối kế toán hợp nhất \ncăn cứ theo kỳ hạn còn lại của các khoản cho vay tại ngày của bảng cân đối kế \ntoán hợp nhất đến ngày tới hạn thu hồi.\nMẫu số B 09 – DN/HN\n2.11. Cho vay\nDự phòng giảm giá đầu tư góp vốn vào đơn vị khác được lập vào cuối năm tài chính \nkhi có sự giảm giá trị của các khoản đầu tư. Dự phòng giảm giá đầu tư góp vốn vào \nđơn vị khác được tính dựa trên giá trị thị trường nếu giá trị thị trường được xác định \nmột cách tin cậy. Nếu giá trị thị trường không thể được xác đ",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p168",
+          "page": 168,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "BẢNG CÂN ĐỐI KẾ TOÁN HỢP NHẤT (Tiếp theo) Mẫu số B 01 – DN/HN\nMã số Nguồn vốn Thuyết minh 2025 2024\nTại ngày 31 tháng 12 năm\n400 VỐN CHỦ SỞ HỮU\n410\n411\n411a\n412\n414\n417\n418\n420\n421\n421a\n421b\n429\n430\n431\nVốn chủ sở hữu\nVốn góp của chủ sở hữu\n• Cổ phiếu phổ thông có quyền biểu quyết\nThặng dư vốn cổ phần\nVốn khác của chủ sở hữu\nChênh lệch tỷ giá hối đoái\nQuỹ đầu tư phát triển\nQuỹ khác thuộc vốn chủ sở hữu\nLợi nhuận sau thuế (“LNST”) chưa phân phối\n• LNST chưa phân phối lũy kế của các năm trước\n• LNST chưa phân phối của năm nay\nLợi ích cổ đông không kiểm soát\nNguồn kinh phí và quỹ khác\nNguồn kinh phí\n23,24\n24\n24\n24\n24\n24\n24\n24\n43.745.290.747.539\n17.035.071.210.000 \n17.035.071.210.000\n49.713.213.411\n3.499.547.369.952 \n(70.185.856.586)\n1.575.367.587.172 \n88.263.628.887 \n14.302.416.791.936\n7.369.582.215.178 \n6.932.834.576.758\n7.265.096.802.767\n2.750.000.000 \n2.750.000.000\n35.724.790.104.800\n14.710.691.830.000\n14.710.691.830.000\n49.713.213.411\n1.929.012.703.454\n(49.485.560.860)\n2.033.289.141.535\n87.730.484.825\n11.030.528.671.431\n5.458.228.109.134\n5.572.300.562.297\n5.933.309.621.004\n2.750.000.000\n2.750.000.000\n43.748.040.747.539 35.727.540.104.800\n440 TỔNG NGUỒN VỐN 88.141.991.634.625 71.999.995.678.620\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nNgày 18 tháng 3 năm 2026\nĐơn vị: VNĐ\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày bảng cân đối kế toán hợp nhất của FPT, thể hiện nguồn vốn và các khoản mục vốn chủ sở hữu tính đến ngày 31 tháng 12 năm 2025 và 2024.\ntable: Bảng cân đối kế toán hợp nhất (trên) — Bảng liệt kê các mã số, nguồn vốn, thuyết minh và giá trị vốn chủ sở hữu, nguồn kinh phí và tổng nguồn vốn cho các năm 2025 và 2024, đơn vị tính bằng VND.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng cân đối kế toán hợp nhất",
+              "location": "trên",
+              "description": "Bảng liệt kê các mã số, nguồn vốn, thuyết minh và giá trị vốn chủ sở hữu, nguồn kinh phí và tổng nguồn vốn cho các năm 2025 và 2024, đơn vị tính bằng VND."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lần Thời điểm\nphát hành\nVốn điều lệ\nsau khi phát hành\nLý do\nGiá cao nhất Giá thấp nhất Khối lượng giao dịch/Ngày Khối lượng giao dịch nhiều nhất Khối lượng giao dịch ít nhất\n38\n39\n40\n41\n42\n43\n05/2023\n07/2023\n06/2024\n10/2024\n05/2025\n07/2025\n11.043.316.220.000\n12.699.688.750.000\n14.604.480.660.000\n14.710.691.830.000\n14.813.301.220.000\n17.035.071.210.000\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có \nthành tích đóng góp trong năm 2022; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu \ncho đối tượng là cán bộ lãnh đạo cấp cao năm 2023.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2022.\nTăng vốn điều lệ sau phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu \ntheo tỷ lệ 15%.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV \ncó thành tích đóng góp trong năm 2023 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2024.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng CBNV có \nthành tích đóng góp trong năm 2024 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2025.\nTăng vốn điều lệ sau đợt phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông \nĐơn vị: VNĐ\n• Thống kê giao dịch và giá cổ phiếu năm 2025 Tính từ ngày 01/01/2025-31/12/2025\n131.708\nVNĐ/Cổ phiếu\n86.104\nVNĐ/Cổ phiếu\n7.594.874\nCổ phiếu\n23.514.300\nCổ phiếu\n1.005.400\nCổ phiếu\n• Tình hình thay đổi vốn điều lệ (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo về tình hình thay đổi vốn điều lệ của FPT từ năm 2023 đến 2025 và thống kê giao dịch, giá cổ phiếu năm 2025.\ntable: Tình hình thay đổi vốn điều lệ (trên) — Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ.\ntable: Thống kê giao dịch và giá cổ phiếu năm 2025 (dưới) — Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình thay đổi vốn điều lệ",
+              "location": "trên",
+              "description": "Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Thống kê giao dịch và giá cổ phiếu năm 2025",
+              "location": "dưới",
+              "description": "Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p012",
+          "path": ".bonus/pages/p012.jpg",
+          "sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+        },
+        {
+          "id": "FPT2025:p011",
+          "path": ".bonus/pages/p011.jpg",
+          "sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+        },
+        {
+          "id": "FPT2025:p205",
+          "path": ".bonus/pages/p205.jpg",
+          "sha256": "667c9d370986a919d824daa2be125408928d15a3e64929845496ad1a3c2768be"
+        },
+        {
+          "id": "FPT2025:p207",
+          "path": ".bonus/pages/p207.jpg",
+          "sha256": "f6267080a2f47583309d9e044d343647a347e5990a4d167506f74252c98378a8"
+        },
+        {
+          "id": "FPT2025:p206",
+          "path": ".bonus/pages/p206.jpg",
+          "sha256": "2c23ff5206deae3a6683255ae806cb99d2a8d79533b2c8fe9bc219d1d0169a80"
+        },
+        {
+          "id": "FPT2025:p180",
+          "path": ".bonus/pages/p180.jpg",
+          "sha256": "72a5b2e8017c965fa75048068d4dbf0c5cb6f5d48e56c45f2b56d383018420dd"
+        },
+        {
+          "id": "FPT2025:p168",
+          "path": ".bonus/pages/p168.jpg",
+          "sha256": "71de502f1a73da904667814efb8eff7db0f57915bf7961e7000cc1f764198222"
+        },
+        {
+          "id": "FPT2025:p036",
+          "path": ".bonus/pages/p036.jpg",
+          "sha256": "06aaab3a983a58eab3d6003f6c5d95c2adc17e82483aac6d719ed3fa7b7ee2f8"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805056-5ENgbggRiCt9YHlGOygf",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01DC5QPDJhr9Dco7S4U4mMvx",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Cuối năm 2025: Tổng tài sản là 88.142 tỷ VNĐ (bảng tài chính 2021–2025, trang 12); Vốn chủ sở hữu là 43.748 tỷ VNĐ (cùng bảng). Đối chiếu: Bảng cân đối kế toán hợp nhất cho thấy vốn chủ sở hữu (mã 400) 43.748.040.747.539 VNĐ và tổng nguồn vốn 88.141.991.634.625 VNĐ, tương đương khoảng 43.748 tỷ VNĐ và 88.142 tỷ VNĐ.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p012\",\"region\":\"Bảng 'Tình hình tài chính và kết quả kinh doanh nổi bật giai đoạn 2021-2025', hàng 'Vốn chủ sở hữu' (STT 1) và 'Tổng tài sản' (STT 2), cột 2025; đơn vị Tỷ VNĐ\"},{\"id\":\"FPT2025:p168\",\"region\":\"Bảng cân đối kế toán hợp nhất (tiếp theo), mã số 400 'VỐN CHỦ SỞ HỮU' và mã số 440 'TỔNG NGUỒN VỐN', cột 2025; đơn vị VNĐ\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p012",
+    "FPT2025:p011",
+    "FPT2025:p205",
+    "FPT2025:p207",
+    "FPT2025:p206",
+    "FPT2025:p180",
+    "FPT2025:p168",
+    "FPT2025:p036"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p012",
+      "page": 12,
+      "image": ".bonus/pages/p012.jpg",
+      "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+    },
+    {
+      "id": "FPT2025:p011",
+      "page": 11,
+      "image": ".bonus/pages/p011.jpg",
+      "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+    },
+    {
+      "id": "FPT2025:p205",
+      "page": 205,
+      "image": ".bonus/pages/p205.jpg",
+      "image_sha256": "667c9d370986a919d824daa2be125408928d15a3e64929845496ad1a3c2768be"
+    },
+    {
+      "id": "FPT2025:p207",
+      "page": 207,
+      "image": ".bonus/pages/p207.jpg",
+      "image_sha256": "f6267080a2f47583309d9e044d343647a347e5990a4d167506f74252c98378a8"
+    },
+    {
+      "id": "FPT2025:p206",
+      "page": 206,
+      "image": ".bonus/pages/p206.jpg",
+      "image_sha256": "2c23ff5206deae3a6683255ae806cb99d2a8d79533b2c8fe9bc219d1d0169a80"
+    },
+    {
+      "id": "FPT2025:p180",
+      "page": 180,
+      "image": ".bonus/pages/p180.jpg",
+      "image_sha256": "72a5b2e8017c965fa75048068d4dbf0c5cb6f5d48e56c45f2b56d383018420dd"
+    },
+    {
+      "id": "FPT2025:p168",
+      "page": 168,
+      "image": ".bonus/pages/p168.jpg",
+      "image_sha256": "71de502f1a73da904667814efb8eff7db0f57915bf7961e7000cc1f764198222"
+    },
+    {
+      "id": "FPT2025:p036",
+      "page": 36,
+      "image": ".bonus/pages/p036.jpg",
+      "image_sha256": "06aaab3a983a58eab3d6003f6c5d95c2adc17e82483aac6d719ed3fa7b7ee2f8"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805024-OLYkcm1SaXSpWb3VIgC1",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1837,
+        "completion_tokens": 173,
+        "total_tokens": 2010,
+        "cost": 0.0002702,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002702,
+          "upstream_inference_prompt_cost": 0.0001837,
+          "upstream_inference_completions_cost": 8.65e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4881.851100013591,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805056-5ENgbggRiCt9YHlGOygf",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 32857,
+        "completion_tokens": 537,
+        "total_tokens": 33394,
+        "cost": 0.0035542,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0035542,
+          "upstream_inference_prompt_cost": 0.0032857,
+          "upstream_inference_completions_cost": 0.0002685
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 13831.393700034823,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 41163.82519999752,
+  "query_id": "ft-t1",
+  "question": "Trong bảng tài chính giai đoạn 2021–2025, tổng tài sản và vốn chủ sở hữu cuối năm 2025 lần lượt là bao nhiêu? Ghi đúng đơn vị.",
+  "split": "test",
+  "config": "vision"
+}

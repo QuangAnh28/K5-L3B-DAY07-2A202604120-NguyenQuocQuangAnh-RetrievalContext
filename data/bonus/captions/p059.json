@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p059",
+  "image_sha256": "dee0427eb6e459edd683166879b7127ce462e51654110dc70657c3623d71a596",
+  "caption": {
+    "summary": "Trang trình bày các chỉ tiêu tài chính chủ yếu của FPT, bao gồm các chỉ tiêu về khả năng thanh toán, cơ cấu vốn và đảm bảo lãi vay, năng lực hoạt động và khả năng sinh lời, với số liệu so sánh giữa năm 2024 và 2025.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Các chỉ tiêu tài chính chủ yếu",
+        "location": "phải",
+        "description": "Bảng so sánh các chỉ tiêu tài chính chính của FPT năm 2024 và 2025, gồm các nhóm chỉ tiêu: khả năng thanh toán, cơ cấu vốn và đảm bảo lãi vay, năng lực hoạt động và khả năng sinh lời, với các chỉ số cụ thể như hệ số thanh toán ngắn hạn, hệ số nợ/tổng tài sản, vòng quay hàng tồn kho, tỷ suất lợi nhuận từ hoạt động kinh doanh, ROE, ROCE, ROA."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800726-RGgFiPEwLvkrPPrBowYt",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 197,
+        "total_tokens": 2759,
+        "cost": 0.00134,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00134,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3362.5426999642514,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

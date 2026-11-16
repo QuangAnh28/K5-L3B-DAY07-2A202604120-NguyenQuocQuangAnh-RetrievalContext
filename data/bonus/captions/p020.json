@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p020",
+  "image_sha256": "70dfe183fadc602687375ace1667540dd9688bcd065b1918002fbabf5933a36e",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về dự án AI nổi bật của FPT trong việc hiện đại hóa hệ thống máy tính quy mô lớn với AI, tập trung vào chuyển đổi các hệ thống CNTT di sản sử dụng ngôn ngữ COBOL.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Các chỉ số chính về hệ thống CNTT di sản và AI",
+        "location": "trái",
+        "description": "Các chỉ số gồm số tỷ đồng mã COBOL đang vận hành toàn cầu, tỷ lệ ngân sách CNTT dành cho hệ thống di sản, tỷ lệ giao dịch kinh doanh xử lý bởi hệ thống COBOL."
+      },
+      {
+        "type": "diagram",
+        "title": "Giải pháp AI cho hệ thống xMainframe",
+        "location": "giữa phải",
+        "description": "Mô tả khả năng tự động phân tích, hiểu và chuyển đổi hệ thống mainframe bằng AI, kỹ thuật đảo ngược logic hệ thống, hỗ trợ trích xuất dữ liệu và tạo báo cáo tự động."
+      },
+      {
+        "type": "table",
+        "title": "Hiệu quả khai thác hệ thống CNTT di sản của FPT",
+        "location": "phải",
+        "description": "Số liệu về hệ thống CNTT di sản được khai thác hiệu quả, số doanh nghiệp toàn cầu và dòng mã nguồn được chuyển đổi."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800700-b8hWMj8DjzAXMbPEmpJj",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 262,
+        "total_tokens": 2824,
+        "cost": 0.001444,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001444,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004192
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4086.104999994859,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

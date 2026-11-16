@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p132",
+  "image_sha256": "385badfd52bed1ee956ceeeac7745db457304d9d99528e9ae6ba0a491b15aa9d",
+  "caption": {
+    "summary": "Trang trình bày về các rủi ro hoạt động của FPT và các biện pháp quản trị tương ứng.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Rủi ro hoạt động và biện pháp quản trị",
+        "location": "trên",
+        "description": "Bảng gồm ba cột: Tên rủi ro, Nội dung mô tả rủi ro, Biện pháp quản trị tương ứng nhằm giảm thiểu rủi ro. Các rủi ro gồm: rủi ro về công bố thông tin, rủi ro về nguồn nhân lực, rủi ro về danh tiếng/thương hiệu, rủi ro về bảo mật thông tin và an ninh mạng."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800772-q0poeoW98ZpkOeWAm40M",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 153,
+        "total_tokens": 2715,
+        "cost": 0.0012696,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012696,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002448
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3897.6449000183493,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

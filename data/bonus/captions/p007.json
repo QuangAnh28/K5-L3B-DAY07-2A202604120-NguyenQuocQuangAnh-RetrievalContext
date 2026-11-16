@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p007",
+  "image_sha256": "a43a69a7fdf0b57e8fa3a96eac471af19abce3f398fe1377cfd2d9f4f9d4337b",
+  "caption": {
+    "summary": "Tổng quan kết quả kinh doanh năm 2025 của FPT với doanh thu và lợi nhuận sau thuế tăng trưởng hai chữ số, phân tích chi tiết các lĩnh vực dịch vụ CNTT trong và ngoài nước, dịch vụ viễn thông và giáo dục.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Doanh thu và Lợi nhuận sau thuế năm 2025",
+        "location": "giữa trang",
+        "description": "Doanh thu 70.113 tỷ VNĐ tăng 11,6%; Lợi nhuận sau thuế 11.232 tỷ VNĐ tăng 19,1% so với năm trước."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800692-kHRvA34GkHP9YzTYGBVj",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 136,
+        "total_tokens": 2698,
+        "cost": 0.0012424,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012424,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002176
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3083.718699985184,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p164",
+  "image_sha256": "c07a2338d5094a9d434140f75f1fde1d2ecd6d85d4f1ba2990f314ef19cda48d",
+  "caption": {
+    "summary": "Trang báo cáo kiểm toán độc lập gửi cổ đông của Công ty Cổ phần FPT, trình bày ý kiến của kiểm toán viên và vấn đề cần nhấn mạnh liên quan đến báo cáo tài chính hợp nhất năm 2025.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800804-jtQAY71P4iq5W8j8H5iu",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 57,
+        "total_tokens": 2619,
+        "cost": 0.001116,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001116,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 9.12e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2198.6837000004016,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

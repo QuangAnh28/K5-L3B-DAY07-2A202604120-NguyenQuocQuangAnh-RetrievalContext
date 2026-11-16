@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p206",
+  "image_sha256": "2c23ff5206deae3a6683255ae806cb99d2a8d79533b2c8fe9bc219d1d0169a80",
+  "caption": {
+    "summary": "Bảng thuyết minh về tình hình tăng giảm nguồn vốn chủ sở hữu của FPT trong năm tài chính kết thúc ngày 31/12/2025, thể hiện các khoản mục vốn góp, thặng dư vốn cổ phần, quỹ đầu tư phát triển, lợi nhuận chưa phân phối và các thay đổi liên quan.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tình hình tăng giảm nguồn vốn chủ sở hữu",
+        "location": "giữa trang",
+        "description": "Bảng thể hiện các khoản mục vốn góp của chủ sở hữu, thặng dư vốn cổ phần, vốn khác của chủ sở hữu, chênh lệch tỷ giá hối đoái, quỹ đầu tư phát triển, quỹ khác thuộc vốn chủ sở hữu, lợi nhuận sau thuế chưa phân phối và tổng cộng theo các mốc thời gian từ 1/1/2024 đến 31/12/2025 cùng các biến động trong năm như phát hành cổ phiếu, lợi nhuận thuần, trích quỹ khen thưởng, tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu, chia cổ tức bằng tiền, và các khoản khác. Đơn vị tính: VND."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800837-BOMWz0eaBMFO3oiIymtd",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 254,
+        "total_tokens": 2816,
+        "cost": 0.0014312,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014312,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004064
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4014.998900005594,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

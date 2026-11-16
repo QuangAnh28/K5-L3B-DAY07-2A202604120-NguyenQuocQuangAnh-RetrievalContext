@@ -1,0 +1,12 @@
+{
+  "model": "anthropic/claude-haiku-5.5",
+  "dev_queries": 18,
+  "test_queries": 30,
+  "dev_chat_cost_usd": 0.0665848,
+  "test_chat_and_query_embedding_cost_usd": 0.11598728,
+  "total_new_run_cost_usd": 0.18257208,
+  "successful_chat_requests": 97,
+  "batches": 10,
+  "unknown_failed_attempt_cost": false,
+  "note": "Actual provider-reported usage for the new Haiku dev/test batches only. Historical runs/captions/document embeddings excluded; no paid request for review or packaging."
+}

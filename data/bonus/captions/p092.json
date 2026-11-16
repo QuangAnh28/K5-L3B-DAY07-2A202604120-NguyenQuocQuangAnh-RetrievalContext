@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p092",
+  "image_sha256": "a5dabfe1ae2a88e7037a2dd274d0865932ff3c0b9da37d349f7af45c4de00600",
+  "caption": {
+    "summary": "Trang trình bày về quyền của cổ đông trong Tập đoàn FPT, bao gồm nguyên tắc thiết lập khuôn khổ thực hiện quyền cổ đông, chi trả cổ tức, tổ chức Đại hội đồng cổ đông, và các quy định liên quan đến quyền biểu quyết và minh bạch thông tin.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800749-AySa0jOWwbES5q1s8u1v",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 71,
+        "total_tokens": 2633,
+        "cost": 0.0011384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011384,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4426.393700006884,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

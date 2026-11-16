@@ -1,0 +1,16 @@
+{
+  "source_id": "FPT-annual-report-2025",
+  "title": "FPT Báo cáo thường niên 2025 — Làm chủ công nghệ chiến lược",
+  "source_url": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+  "publication_page": "https://fpt.com/vi/nha-dau-tu/bao-cao-thuong-nien",
+  "local_pdf": ".bonus/BCTN-2025.pdf",
+  "pdf_sha256": "9449a7251d126b635988974dbc72c2773c7fff39f4e5e858b5f7d3928b4e0e6c",
+  "pages": 232,
+  "text_pages": 227,
+  "indexed_pages": 232,
+  "excluded_pages": [],
+  "permission": "User supplied for this lab; official report publicly published by FPT. No open redistribution licence asserted. Original PDF and page images kept local; grader obtains original from FPT/user with matching hash.",
+  "extraction": "PDFium text from body x>=20.5% for pages >=3; full original page image retained. Cover/low-text pages handled by vision captions.",
+  "limitations": "Sidebar intentionally removed from text index; images preserve it. Caption output is model-generated, not guaranteed accurate; answer audit must use originals.",
+  "created_at": "2026-11-16T03:44:24.588918+00:00"
+}

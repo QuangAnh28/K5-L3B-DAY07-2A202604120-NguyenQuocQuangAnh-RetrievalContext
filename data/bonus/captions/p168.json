@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p168",
+  "image_sha256": "71de502f1a73da904667814efb8eff7db0f57915bf7961e7000cc1f764198222",
+  "caption": {
+    "summary": "Trang báo cáo trình bày bảng cân đối kế toán hợp nhất của FPT, thể hiện nguồn vốn và các khoản mục vốn chủ sở hữu tính đến ngày 31 tháng 12 năm 2025 và 2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Bảng cân đối kế toán hợp nhất",
+        "location": "trên",
+        "description": "Bảng liệt kê các mã số, nguồn vốn, thuyết minh và giá trị vốn chủ sở hữu, nguồn kinh phí và tổng nguồn vốn cho các năm 2025 và 2024, đơn vị tính bằng VND."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800806-p8fS6VgyWNdOyIhhideq",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 127,
+        "total_tokens": 2689,
+        "cost": 0.001228,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001228,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2620.511799992528,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

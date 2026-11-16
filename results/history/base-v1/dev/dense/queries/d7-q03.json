@@ -1,0 +1,254 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_34e4dzMzPElrrRBMRTpUzo8z",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Thông điệp dữ liệu có giá trị pháp lý tương đương văn bản khi nào?\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797564-ZbtUFTT3KzTllmlwmIH8"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+      "model_query": "Thông điệp dữ liệu có giá trị pháp lý tương đương văn bản khi nào?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 53,
+          "text": "6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 53,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 202"
+          },
+          "score": 0.45170458149543247,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 54,
+          "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 54,
+            "year": 2005,
+            "chapter": "Chương Vi",
+            "article": "Điều 207"
+          },
+          "score": 0.4336527025293586,
+          "strategy": "dense"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 53,
+          "text": "d) Tên, địa chỉ của người mua hàng;\n\nđ) Thời gian, địa điểm đấu giá;\n\ne) Hàng hoá bán đấu giá;\n\ng) Giá đã bán;\n\nh) Tên, địa chỉ của hai người chứng kiến.\n\n2. Văn bản bán đấu giá hàng hoá ph ải được gửi đến người bán hàng, người mua hàng và các bên có liên quan.\n\n3. Tr ường h ợp đấu giá không thành, trong v ăn b ản bán đấu giá hàng hoá phải nêu rõ k ết quả là đấu giá không thành và ph ải có các n ội dung quy định tại",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 53,
+            "year": 2005,
+            "chapter": "Chương Vi"
+          },
+          "score": 0.42629053754172674,
+          "strategy": "dense"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\n6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+        "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_EETiVWBzIT4XqiME1BKX2rI4",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Không tìm thấy quy định cụ thể về khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản trong đoạn trích đã cho.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953\",\"luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b\"],\"abstain\":true}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797565-v4e378bSADpor4okIIxw"
+    },
+    {
+      "event": "abstain",
+      "reason": "model_abstain"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\n6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+    "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797564-ZbtUFTT3KzTllmlwmIH8",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 291,
+        "completion_tokens": 23,
+        "total_tokens": 314,
+        "cost": 0.0001532,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001532,
+          "upstream_inference_prompt_cost": 0.0001164,
+          "upstream_inference_completions_cost": 3.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1521.0151000064798,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797565-v4e378bSADpor4okIIxw",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1125,
+        "completion_tokens": 112,
+        "total_tokens": 1237,
+        "cost": 0.0006292,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006292,
+          "upstream_inference_prompt_cost": 0.00045,
+          "upstream_inference_completions_cost": 0.0001792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1917.1064000111073,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3446.9514000229537,
+  "searches": 1,
+  "query_id": "d7-q03",
+  "question": "Khi nào thông điệp dữ liệu có giá trị pháp lý tương đương văn bản?",
+  "split": "dev",
+  "config": "dense",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 53,
+      "text": "6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 53,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 202"
+      },
+      "score": 0.45170458149543247,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 54,
+      "text": "2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 54,
+        "year": 2005,
+        "chapter": "Chương Vi",
+        "article": "Điều 207"
+      },
+      "score": 0.4336527025293586,
+      "strategy": "dense"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-28478dbd33fc16b7",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 53,
+      "text": "d) Tên, địa chỉ của người mua hàng;\n\nđ) Thời gian, địa điểm đấu giá;\n\ne) Hàng hoá bán đấu giá;\n\ng) Giá đã bán;\n\nh) Tên, địa chỉ của hai người chứng kiến.\n\n2. Văn bản bán đấu giá hàng hoá ph ải được gửi đến người bán hàng, người mua hàng và các bên có liên quan.\n\n3. Tr ường h ợp đấu giá không thành, trong v ăn b ản bán đấu giá hàng hoá phải nêu rõ k ết quả là đấu giá không thành và ph ải có các n ội dung quy định tại",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 53,
+        "year": 2005,
+        "chapter": "Chương Vi"
+      },
+      "score": 0.42629053754172674,
+      "strategy": "dense"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 53]\n6. Người điều hành đấu giá phải lập văn bản bán đấu giá hàng hoá ngay t ại cuộc đấu giá, k ể cả trong tr ường hợp đấu giá không thành. V ăn bản bán đấu giá phải ghi rõ k ết quả đấu giá, có ch ữ ký c ủa người điều hành đấu giá, ng ười mua hàng và hai ng ười ch ứng ki ến trong s ố nh ững ng ười tham gia đấu giá; đối v ới hàng hoá bán đấu giá ph ải có công ch ứng nhà n ước theo quy định của pháp lu ật thì văn bản bán đấu giá cũng phải được công chứng.\n\nĐiều 202. Đấu giá không thành Cuộc đấu giá được coi là không thành trong các trường hợp sau đây:\n\n1. Không có người tham gia đấu giá, trả giá;\n\n2. Giá cao nh ất đã trả thấp hơn mức giá khởi điểm đối với phương thức trả giá lên.\n\nĐiều 203. Văn bản bán đấu giá hàng hoá\n\n1. V ăn bản bán đấu giá hàng hoá là v ăn bản xác nh ận việc mua bán. Văn bản bán đấu giá hàng hoá phải có các nội dung sau đây:\n\na) Tên, địa chỉ của người tổ chức đấu giá;\n\nb) Tên, địa chỉ của người điều hành đấu giá;\n\nc) Tên, địa chỉ của người bán hàng;\n\n[luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 54]\n2. Căn cứ vào văn bản bán đấu giá hàng hoá và các gi ấy tờ hợp lệ khác, cơ quan nhà n ước có th ẩm quy ền có trách nhi ệm đăng ký quy ền sở h ữu hàng hoá cho người mua hàng theo quy định của pháp luật.\n\n3. Ng ười bán hàng và ng ười t ổ ch ức đấu giá có nghĩa v ụ làm th ủ t ục chuyển quyền sở hữu hàng hoá cho ng ười mua hàng. Chi phí làm th ủ tục chuyển quyền sở hữu được trừ vào tiền bán hàng hoá, trừ trường hợp có thoả thuận khác.\n\nĐiều 207. Thời điểm thanh toán tiền mua hàng hoá Thời điểm thanh toán tiền mua hàng hoá do người tổ chức đấu giá và người mua hàng hoá đấu giá tho ả thuận; nếu không có tho ả thuận thì th ời điểm thanh toán tiền mua hàng hoá là thời điểm theo quy định tại Điều 55 của Luật này.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p53-paragraph-1000-9a2d2d18a9520953",
+    "luat-thuong-mai-36-2005-qh11-p54-paragraph-1000-7402f538d667ce6b"
+  ],
+  "original_hit1": false,
+  "original_hit3": false,
+  "original_context_hit": false,
+  "final_context_hit": false
+}

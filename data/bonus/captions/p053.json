@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p053",
+  "image_sha256": "781e078d581f673b1ab234e2f0a2ab2bf027c371b9584104866e78fe4bc8e76c",
+  "caption": {
+    "summary": "Trang trình bày chiến lược chuyển đổi số khối Chính phủ và địa phương của FPT, tập trung vào các thị trường trọng điểm và các hoạt động đồng hành cùng Chính phủ, bộ, ngành và địa phương trong giai đoạn 2026-2030.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS)",
+        "location": "phải",
+        "description": "Ảnh một người đang làm việc với hai màn hình máy tính hiển thị bản đồ và biểu đồ liên quan đến dữ liệu giám sát, thể hiện việc theo dõi tiến độ xử lý trên màn hình điều hành tập trung."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800723-Ww5wP8RpF0yzEol72K9C",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 152,
+        "total_tokens": 2714,
+        "cost": 0.001268,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001268,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002432
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3135.6709000538103,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

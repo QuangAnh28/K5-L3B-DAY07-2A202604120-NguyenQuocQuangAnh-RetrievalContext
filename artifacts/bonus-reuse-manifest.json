@@ -1,0 +1,13 @@
+{
+  "sha256": "41c5df60c7e69892f7776f0a873b71b304be41f599b8335d486d409903443449",
+  "pages": 232,
+  "model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "contains": [
+    "Qdrant FPT2025",
+    "embedding cache"
+  ],
+  "original_pdf_included": false,
+  "images_included": false,
+  "credentials_included": false
+}

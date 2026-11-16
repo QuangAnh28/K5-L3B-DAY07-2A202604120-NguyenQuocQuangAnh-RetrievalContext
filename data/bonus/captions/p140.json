@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p140",
+  "image_sha256": "3730a036497a885a575263bba0a24b561f9a1098199b516d42f0bc51e28b6fe4",
+  "caption": {
+    "summary": "Trang trình bày về duy trì và phát triển văn hóa sáng tạo tại FPT, nhấn mạnh các hoạt động, chương trình và sáng kiến nhằm thúc đẩy đổi mới sáng tạo trong tập đoàn.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Akabot - nền tảng tự động hóa thông minh",
+        "location": "phải trên",
+        "description": "Ảnh minh họa giao diện và ứng dụng của nền tảng Akabot trong tự động hóa quy trình nghiệp vụ với các công nghệ như AI, OCR, IDP, RPA, triển khai tại hơn 21 quốc gia."
+      },
+      {
+        "type": "photo",
+        "title": "Kyta Platform - nền tảng số hóa Lowcode",
+        "location": "phải dưới",
+        "description": "Ảnh minh họa sự kiện giới thiệu Kyta Platform, nền tảng số hóa Lowcode tích hợp AI và tự động hóa, được sử dụng bởi hơn 4.500 doanh nghiệp và phối hợp với Bộ Tư pháp trong số hóa thi hành án dân sự."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800778-PsHKLJbP0B9HVLvWxFBS",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 209,
+        "total_tokens": 2771,
+        "cost": 0.0013592,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013592,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003344
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3897.436300001573,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

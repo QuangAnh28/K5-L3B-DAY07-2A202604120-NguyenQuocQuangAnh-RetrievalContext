@@ -1,0 +1,404 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801703-l3u0Xbh8tvIs4qURqGH7",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_GQHBuCiSiOZ22TzgxQ0h6YFC",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"AI-Native\",\"FleziPT\",\"AI trong vận hành FPT\",\"FleziPT giúp FPT mô hình AI-Native\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Kết hợp thông điệp AI-Native và phần giới thiệu FleziPT: AI được định vị thế nào trong vận hành, và FleziPT giúp FPT tiến tới mô hình đó bằng cách nào?",
+      "model_queries": [
+        "AI-Native",
+        "FleziPT",
+        "AI trong vận hành FPT",
+        "FleziPT giúp FPT mô hình AI-Native"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p063",
+          "page": 63,
+          "score": 0.03252247488101534,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p051",
+          "page": 51,
+          "score": 0.032018442622950824,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "score": 0.031746031746031744,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p003",
+          "page": 3,
+          "score": 0.0315136476426799,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "score": 0.029857397504456328,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 8
+          }
+        },
+        {
+          "id": "FPT2025:p004",
+          "page": 4,
+          "score": 0.02964426877470356,
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p068",
+          "page": 68,
+          "score": 0.029211087420042643,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "FPT2025:p077",
+          "page": 77,
+          "score": 0.028814262023217248,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 12
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Kết hợp thông điệp AI-Native và phần giới thiệu FleziPT: AI được định vị thế nào trong vận hành, và FleziPT giúp FPT tiến tới mô hình đó bằng cách nào?"
+      ],
+      "context_ids": [
+        "FPT2025:p063",
+        "FPT2025:p051",
+        "FPT2025:p050",
+        "FPT2025:p003",
+        "FPT2025:p005",
+        "FPT2025:p004",
+        "FPT2025:p068",
+        "FPT2025:p077"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p063",
+          "page": 63,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Dịch chuyển danh mục dịch vụ lên phân khúc giá trị cao và dẫn dắt chuyển đổi AI\nTrong bối cảnh ngành dịch vụ CNTT toàn cầu chịu áp lực từ việc thắt chặt \nngân sách và cạnh tranh ngày càng gay gắt, mảng Dịch vụ Chuyển đổi số tiếp tục \nđóng vai trò là động lực tăng trưởng chất lượng của FPT. Doanh thu từ dịch vụ \nchuyển đổi số đạt 16.751 tỷ đồng, tăng 16,8% so với năm trước và chiếm 47,3% tổng \ndoanh thu Dịch vụ CNTT cho thị trường nước ngoài, phản ánh xu hướng khách hàng \nưu tiên các dự án mang tính chiến lược, có tác động trực tiếp đến hiệu quả vận \nhành và năng lực cạnh tranh dài hạn.\nDoanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025\n2021 2022 2023 2024 2025\n40.000\n35.000\n30.000\n25.000\n20.000\n15.000\n10.000\n5.000\n0\nDoanh thu dịch vụ CNTT \ncho thị trường nước ngoài\nDoanh thu dịch vụ \nChuyển đổi số\nĐơn vị: Tỷ VNĐ\nDanh mục dịch vụ chuyển đổi số của FPT tiếp tục được mở rộng, bám sát các xu \nhướng công nghệ chủ đạo trên toàn cầu. Trong đó, Điện toán đám mây tiếp tục \nchiếm tỷ trọng lớn nhất nhờ nhu cầu hiện đại hóa hạ tầng CNTT và tối ưu chi phí \nvận hành của doanh nghiệp, chiếm 36,6% doanh thu mảng Dịch vụ Chuyển đổi \nsố. AI và Phân tích Dữ liệu cũng ghi nhận tốc độ tăng trưởng cao đạt 41% so với \nnăm trước, trong bối cảnh các doanh nghiệp đẩy mạnh ứng dụng AI để nâng \ncao hiệu suất, ra quyết định dựa trên dữ liệu và tái thiết mô hình kinh doanh. \nTrong năm 2025, nhằm đáp ứng với những thay đổi nhanh chóng trong xu thế \ncông nghệ và nhu cầu ứng dụng AI ngày càng sâu rộng của doanh nghiệp toàn \ncầu, FPT đã ra mắt nền tảng FleziPT như một bước đi trọng yếu trong lộ trình \nchuyển đổi FPT thành “AI-First Company”. FleziPT không chỉ giúp nâng cao \nnăng suất và hiệu quả vận hành nội bộ thông qua việc tái định nghĩa các quy \ntrình phát triển và vận hành phần mềm, mà còn tạo nền tảng để FPT cung cấp \ncác giải pháp AI chuyên sâu, phù hợp với đặc thù từng ngành và từng nhóm \n14.541\n5.522\n18.915\n7.349\n24.288\n10.425\n30.953\n14.340\n35.382\n16.751\nkhách hàng. FleziPT đóng vai trò là nền tảng chiến lược giúp FPT hiện thực hóa \nđịnh hướng AI-First ở quy mô lớn, rút ngắn thời gian triển khai và tạo tiền đề gia tăng\ntỷ trọng doanh thu từ các dịch vụ AI-First trong những năm tới.\nViệc kết hợp hiệu quả giữa năng lực công nghệ, hiểu biết theo ngành và lực lượng \nkỹ sư được đào tạo bài bản giúp FPT từng bước khẳng định vai trò là đối tác chuyển \nđổi số chiến lược, đồng hành cùng khách hàng trong các chương trình chuyển đổi \ndài hạn. Trên nền tảng đó, Việt Nam và FPT ngày càng trở thành mắt xích quan trọng\ntrong chuỗi giá trị dịch vụ CNTT toàn cầu, có khả năng cạnh tranh với các tập đoàn \nlớn trong cùng ngành. \nNền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được \nkiểm chứng hiệu quả\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo phân tích hoạt động kinh doanh dịch vụ chuyển đổi số của FPT giai đoạn 2021-2025, tập trung vào doanh thu và nền tảng AI FleziPT.\nchart: Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025 (trái) — Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài (màu cam) và doanh thu dịch vụ chuyển đổi số (màu xanh dương) theo từng năm từ 2021 đến 2025, đơn vị tính tỷ VNĐ.\ndiagram: Nền tảng AI linh ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu Dịch vụ Chuyển đổi số giai đoạn 2021-2025",
+              "location": "trái",
+              "description": "Biểu đồ cột thể hiện doanh thu dịch vụ CNTT cho thị trường nước ngoài (màu cam) và doanh thu dịch vụ chuyển đổi số (màu xanh dương) theo từng năm từ 2021 đến 2025, đơn vị tính tỷ VNĐ."
+            },
+            {
+              "type": "diagram",
+              "title": "Nền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được kiểm chứng hiệu quả",
+              "location": "phải",
+              "description": "Sơ đồ vòng tròn thể hiện cấu trúc nền tảng AI FleziPT gồm các lớp: Flezi Foundation ở trung tâm, Flezi Crew, Flezi Verse và các dịch vụ AI toàn trình, với các thành phần như đội ngũ AI toàn cầu, chuyên gia AI, kỹ sư dữ liệu, phần mềm AI hỗ trợ, các sản phẩm và dịch vụ AI cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p051",
+          "page": 51,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Làm chủ công nghệ chiến lược góp phần xây dựng \nchủ quyền số\nTrong bối cảnh căng thẳng địa chính trị leo thang, chủ quyền số trở thành ưu tiên \nan ninh quốc gia. Nghiên cứu từ St. Louis Fed cho thấy các biện pháp hạn chế công \nnghệ đã tạo ra sự phân mảnh đáng kể trong chuỗi cung ứng toàn cầu, buộc các \nquốc gia phải phát triển năng lực công nghệ nội địa. Nghị quyết 57-NQ/TW định \nhướng Việt Nam phát triển nhanh và bền vững trên nền tảng khoa học công nghệ, \nđổi mới sáng tạo và chuyển đổi số; từng bước nâng cao năng lực tự chủ công nghệ, \nđặc biệt trong các công nghệ chiến lược. Nhà nước ưu tiên nguồn lực quốc gia cho \nphát triển công nghệ lõi, hạ tầng số trọng yếu và hệ sinh thái doanh nghiệp công nghệ \nsố trong nước. Nghị quyết đồng thời nhấn mạnh yêu cầu bảo đảm chủ quyền \nquốc gia trên không gian mạng, tăng cường an ninh mạng, an ninh dữ liệu và an toàn\nthông tin, tạo dư địa phát triển dài hạn cho các doanh nghiệp công nghệ có năng lực \ncung cấp giải pháp nền tảng và dịch vụ bảo mật.\nBCG nhấn mạnh, các công ty AI-First không chỉ áp dụng AI mà còn tái cấu trúc \ntoàn bộ tổ chức xung quanh AI, từ năng lực công nghệ cốt lõi, chiến lược sản phẩm \nđến văn hóa và tài năng. Điều này đòi hỏi FPT đầu tư vào nền tảng công nghệ \ncốt lõi, phát triển tài năng nội bộ, thu hút nhân tài, tăng cường đào tạo và xây dựng \nhệ sinh thái đối tác chiến lược. \nGiai đoạn tiếp theo, FPT tiếp tục đầu tư mạnh mẽ vào:\n• Phát triển, hoàn thiện hệ sinh thái AI với AI Studio, AI Inferencing, AI Agents và \ncác nền tảng dữ liệu giúp tăng tốc quá trình phát triển ứng dụng AI; tiếp tục \nđầu tư phát triển hạ tầng trung tâm dữ liệu và năng lực tính toán AI;\n• Áp dụng triệt để nền tảng AI linh hoạt - FleziPT với phương pháp, quy trình và \ngiải pháp đã được kiểm chứng hiệu quả trong thực tiễn. Nền tảng này liên tục \nđược cập nhật và hoàn thiện thông qua quá trình triển khai các dự án AI, đảm bảo \nkhả năng thích ứng và tiến hóa theo nhu cầu thực tế của khách hàng và thị trường. \nFleziPT là kết quả của quá trình tích lũy và chuẩn hóa các kinh nghiệm triển khai \nAI tại FPT, nhằm tạo ra giá trị vượt trội cho khách hàng. FleziPT được xây dựng \ntheo mô hình nhiều lớp, trong đó, lớp năng lực cốt lõi gồm: Flezi Workforce và \nFlezi Foundation tập hợp các thực tiễn, công cụ, phương pháp luận và nguồn lực \n(bao gồm cả nhân sự và nhân sự số) đã được kiểm chứng qua các dự án thực tế;\n• Phát triển ứng dụng AI, LLM tùy chỉnh, sản phẩm và dịch vụ trong các lĩnh vực \nchuyên sâu như: Y tế, Dược, Tài chính – Bảo hiểm, Quản trị nhân sự, Giáo dục \nđào tạo…;\n• Triển khai mô hình đồng hành cùng đầu tư phát triển các giải pháp đột phá, ứng dụng\nAI nâng cao hiệu quả trong hoạt động kinh doanh, vận hành của khách hàng;\n• Ứng dụng AI tăng trưởng năng suất vận hành nội bộ, tập trung vào phát triển \nphần mềm, quản trị hệ thống nhằm tăng tốc quá trình phát triển sản phẩm, nâng cao \nhiệu suất lao động, phát hiện sớm các sai sót, lỗi dịch vụ…;\n• Tiếp nối các hợp tác về hạ tầng tính toán hiệu năng cao, FPT định hướng mở rộng \nhệ sinh thái công nghệ lõi và các giải pháp AI theo từng ngành trọng điểm thông \nqua việc mở rộng hợp tác với các doanh nghiệp và startup quốc tế phát triển \nsản phẩm, nền tảng AI chuyên bi",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Nền tảng phục vụ phát triển AI có chủ quyền của FPT",
+              "location": "phải",
+              "description": "Mô hình nền tảng AI gồm các thành phần AI Studio, AI Inferencing, AI Agents, AI Platform, AI Infrastructure với các lớp dữ liệu, tính toán và ứng dụng AI, thể hiện quan hệ giữa các thành phần trong hệ sinh thái AI của FPT."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p050",
+          "page": 50,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Trong kỷ nguyên mới, AI-First là điều kiện tiên quyết \nđể doanh nghiệp tồn tại và bứt phá. Dữ liệu từ \nMcKinsey cho thấy các công ty dẫn đầu trong tích hợp\nAI toàn diện ghi nhận doanh thu cao hơn 15% và \nhiệu quả vận hành cải thiện 20-25% so với đối thủ. \nĐối với FPT, xu hướng này đòi hỏi sự chuyển dịch từ \nmô hình cung cấp dịch vụ CNTT truyền thống sang \nnền tảng AI-native, trong đó, AI được tích hợp xuyên \nsuốt vào toàn bộ giải pháp và quy trình vận hành. \nThị trường AI tự chủ dự kiến tăng từ 5,1 tỷ USD năm \n2024 lên 47,1 tỷ USD năm 2030, cho thấy sự chuyển \ndịch mạnh mẽ sang các hệ thống tự động thực thi \nnhiệm vụ phức tạp với sự can thiệp tối thiểu của \ncon người. Theo đó, FPT chú trọng phát triển AI Agents\nchuyên biệt cho các ngành như: tài chính, sản xuất, \ny tế và logistics, giúp khách hàng tự động hóa quy trình,\nhỗ trợ ra quyết định và tối ưu hóa nguồn lực vận hành. \nSong song, với lợi thế sở hữu hệ thống đào tạo nội bộ \nquy mô lớn, đa trình độ, FPT nhanh chóng chuyển đổi, \nmở rộng lực lượng kỹ sư AI đáp ứng đồng thời các yêu cầu \nvề nghiên cứu, phát triển và điềuphối vận hành AI Agents \nở quy mô lớn. \nChiến lược hợp tác mô hình mã nguồn mở là chìa \nkhóa để cân bằng chi phí và kiểm soát. 76% doanh \nnghiệp chọn mô hình mã nguồn mở, kết hợp với các \ngiải pháp độc quyền để tối ưu hiệu năng và kiểm soát \ndữ liệu. Đối với FPT, điều này có nghĩa là xây dựng \nnền tảng AI tích hợp các mô hình mã nguồn mở \n(như: LLaMA, Mistral) với các giải pháp công nghệ \ncủa FPT, tạo ra lợi thế cạnh tranh bền vững trong \nviệc cung cấp giải pháp AI tùy chỉnh cho thị trường \nViệt Nam và khu vực. \nNăm 2025, FPT đã đầu tư mạnh mẽ phát triển hệ sinh thái AI và ứng dụng AI trong hoạt động kinh doanh, \nsản xuất và dịch vụ. Hệ sinh thái AI của FPT dần định hình với nền tảng hạ tầng tính toán hiệu năng cao AI Factory \ntại Việt Nam và Nhật Bản như: FPT.AI, FPT AI Agents, FleziPT….\nTrước đó, FPT cũng đã khởi công Trung tâm Trí tuệ nhân tạo và Đô thị phụ trợ với tổng vốn hơn 4.300 tỷ đồng. \nĐây không chỉ là một trung tâm công nghệ, mà được thiết kế như một không gian tích hợp giữa nghiên cứu – đào tạo\n– triển khai – đô thị phụ trợ, phản ánh tư duy coi AI là một ngành công nghiệp hoàn chỉnh, gắn với phát triển nhân \nlực, thu hút chuyên gia và hình thành cộng đồng đổi mới sáng tạo.\nAI-First\nCHIẾN LƯỢC PHÁT TRIỂN GIAI ĐOẠN 2026-2028 \n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược phát triển giai đoạn 2026-2028 của FPT tập trung vào AI-First, đầu tư phát triển hệ sinh thái AI và ứng dụng AI trong kinh doanh, sản xuất và dịch vụ.\nphoto: Lễ khởi công Trung tâm nghiên cứu trí tuệ nhân tạo (phải) — Ảnh chụp sự kiện khởi công Trung tâm nghiên cứu trí tuệ nhân tạo với sự tham gia của nhiều đại biểu, nền sân khấu có dòng chữ liên quan đến dự án.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ khởi công Trung tâm nghiên cứu trí tuệ nhân tạo",
+              "location": "phải",
+              "description": "Ảnh chụp sự kiện khởi công Trung tâm nghiên cứu trí tuệ nhân tạo với sự tham gia của nhiều đại biểu, nền sân khấu có dòng chữ liên quan đến dự án."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p003",
+          "page": 3,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lợi thế cạnh tranh trong kỷ nguyên AI không còn đến từ quy mô hay \nkinh nghiệm, mà đến từ khả năng thích ứng và tái tạo chính mình bằng \ncông nghệ. Và để làm được điều này, các doanh nghiệp buộc phải tiến \ntới mô hình AI-Native.\nKính thưa Quý Cổ đông, Khách hàng, Đối tác và toàn thể Cán bộ nhân viên FPT,\nThế giới đang trải qua những biến động sâu sắc, những thử thách khốc liệt chưa từng \nthấy. Chiến tranh, khan hiếm năng lượng, lạm phát, đứt gãy chuỗi cung ứng, chỉ số chứng \nkhoán tụt giảm… Các doanh nghiệp, tổ chức và thậm chí là cả các quốc gia phải đối mặt \nvới một trạng thái “bình thường mới” khắc nghiệt, sự ổn định không còn là điểm tựa. \nNhưng cũng chính trạng thái “bình thường mới” đầy khắc nghiệt này lại làm trỗi dậy một \nsức mạnh chưa từng có. Chúng ta đang đứng trước một “cơn sóng thần công nghệ”, mà \ntrung tâm của nó là AI. AI đang phát triển như vũ bão. Công nghệ này không chỉ thay đổi \ncách chúng ta sống, làm việc và giao tiếp, mà còn tái định hình cách các doanh nghiệp \nvận hành, cách các tổ chức quản trị và cách các quốc gia cạnh tranh. Khi chiến tranh, \nbất ổn và công nghệ cùng lúc tác động thì sự thay đổi của thế giới được gia tốc mạnh mẽ \nhơn bao giờ hết.\nTrong bối cảnh đó, mọi doanh nghiệp, tổ chức, quốc gia đều đứng trước một lựa chọn \nmang tính sinh tồn: thay đổi quyết liệt để tồn tại, hoặc chậm thay đổi để bị bỏ lại phía sau.\nTHÔNG ĐIỆP CHỦ TỊCH HĐQT\nTHÔNG ĐIỆP BAN LÃNH ĐẠO\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thông điệp của Chủ tịch Hội đồng Quản trị FPT về lợi thế cạnh tranh trong kỷ nguyên AI và những thách thức toàn cầu hiện nay.\nphoto: Ảnh Chủ tịch Hội đồng Quản trị (trái) — Ảnh chân dung Chủ tịch Hội đồng Quản trị FPT, mặc vest xanh, tay khoanh trước ngực.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh Chủ tịch Hội đồng Quản trị",
+              "location": "trái",
+              "description": "Ảnh chân dung Chủ tịch Hội đồng Quản trị FPT, mặc vest xanh, tay khoanh trước ngực."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Thông qua việc xây dựng hệ sinh thái công nghệ và nguồn nhân lực chất lượng cao, \nFPT khẳng định vị thế của một doanh nghiệp công nghệ có năng lực cạnh tranh \nquốc tế, tham gia và dẫn dắt các dự án công nghệ quy mô hàng trăm triệu đến \nhàng tỷ USD, trở thành đối tác chiến lược cấp cao trong các chương trình chuyển \nđổi số và AI dài hạn của các quốc gia và các tập đoàn lớn.\nTrước những biến động nhanh chóng của thế giới, con đường phía trước chắc chắn \ncòn nhiều thách thức. Nhưng với tinh thần tiên phong và khát vọng đổi mới, FPT sẽ \nchủ động nắm bắt cơ hội, phụng sự quốc gia, nâng tầm vị thế trên thị trường công \nnghệ toàn cầu để kiến tạo giá trị bền vững, lâu dài cho Tập đoàn, Quý Cổ đông. \nXin trân trọng cảm ơn!\nCHỦ TỊCH HĐQT\nTRƯƠNG GIA BÌNH\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí\ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh \ntrong dài hạn.\nLợi thế riêng có thứ hai của chúng tôi là hiện diện toàn cầu ở mọi múi giờ, \ncho phép đội ngũ nhân sự phối hợp làm việc liên tục 24/24 theo mô hình “follow \nthe sun”, từ đó rút ngắn đáng kể thời gian phát triển và triển khai các dự án \ncông nghệ cho khách hàng. Không chỉ dừng lại ở tốc độ, FPT đồng thời đầu tư \nmạnh vào năng lực công nghệ AI quy mô lớn, nhằm nâng cao năng suất, mở rộng \nquy mô triển khai và giải quyết những bài toán phức tạp mà trước đây không thể \nthực hiện được. Trong năm qua chúng tôi cũng đã đưa vào vận hành hai nhà máy \nAI tại Việt Nam và Nhật Bản, tạo nền tảng cho việc phát triển và triển khai \ncác giải pháp AI ở quy mô lớn. Chỉ sau một năm, các nhà máy này đã được khai thác \nkhoảng 70% công suất, xử lý hơn 1.100 tỷ token, tinh chỉnh 70 mô hình AI theo \nnhu cầu khách hàng và phát triển 10 mô hình ngôn ngữ lớn từ FPT AI Factory.\nThứ ba là hệ sinh thái hợp tác chiến lược với các tập đoàn công nghệ hàng đầu thế giới,\nđặc biệt là các nhà cung cấp dịch vụ lớn như: Microsoft, IBM…. Những quan hệ hợp tác \nnày giúp FPT tiếp cận những công nghệ tiên tiến nhất, đồng thời mang lại cho \nkhách hàng các giải pháp toàn diện, từ hạ tầng, nền tảng đến ứng dụng.\nSong song với phát triển công nghệ, FPT cũng đang thúc đẩy một cuộc cách mạng \ntrong giáo dục. FPT đã luôn tiên phong trong việc đưa công nghệ, AI vào giảng dạy \nvà sẽ chuyển đổi mạnh mẽ mô hình đào tạo truyền thống sang phương pháp \n“lớp học đảo ngược”, nơi mà nhờ AI, người học được chủ động tiếp cận trước kiến \nthức và dành thời gian trên lớp để giải quyết các bài toán thực tế. Trong mô hình \nđó, AI không chỉ là công cụ mà còn trở thành người phụ đạo, hỗ trợ cá nhân hóa \nquá trình học tập.\nLàm chủ công nghệ chiến lược\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí \ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh trong dài \nhạn. Nếu trước kia FPT chủ yếu được biết đến như một công ty cung cấp dịch vụ \ncông nghệ, thì từ năm 2026 và những năm tiếp theo, FPT sẽ chuyển mình thành \ndoanh nghiệp sáng tạo công nghệ, làm chủ các công nghệ chiến lược như AI, \nQuantum AI & Cybersecurity, UAV, công nghệ đường sắt, an ninh mạng và dữ liệu...\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nThông điệp của Chủ tịch Hội đồng Quản tr",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p004",
+          "page": 4,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Ba yếu tố sống còn trong kỷ nguyên AI\nĐể không bị bỏ lại phía sau trong kỷ nguyên AI, các doanh nghiệp, tổ chức buộc \nphải giải được ba bài toán sống còn: thời gian, chi phí và năng suất lao động.\nThứ nhất là về thời gian. Trong một thế giới thay đổi theo từng ngày, thậm chí từng \ngiờ, doanh nghiệp nào đưa sản phẩm, dịch vụ ra thị trường nhanh hơn sẽ là doanh \nnghiệp chiến thắng.\nThứ hai là về chi phí. Công nghệ, đặc biệt là AI, đang mở ra khả năng giảm mạnh \nchi phí phát triển, và vận hành. Những công việc trước đây cần nhiều nguồn lực, \nnhiều thời gian, giờ đây có thể được thực hiện với hiệu quả cao hơn nhiều lần. Theo \nnghiên cứu của McKinsey, AI có thể giúp doanh nghiệp giảm 20-30% chi phí trong \nnhiều quy trình, trong khi Microsoft ghi nhận các công cụ AI hỗ trợ lập trình giúp \ntăng năng suất lên tới 55%.\nVà cuối cùng là năng suất lao động, yếu tố mang tính quyết định. AI cho phép tự \nđộng hóa ngày càng nhiều công việc liên quan đến tri thức – từ phân tích dữ liệu, \nphát triển phần mềm cho đến vận hành hệ thống. Điều này cho phép năng suất lao \nđộng tăng lên không phải vài phần trăm như trước đây, mà tăng theo nhiều lần. \nMột ví dụ rất cụ thể là bài toán hiện đại hóa các hệ thống công nghệ thông tin di \nsản trên thế giới, đặc biệt là các hệ thống viết bằng ngôn ngữ COBOL. Theo thống \nkê, có khoảng 300 tỷ dòng mã COBOL đang được vận hành trên toàn cầu và \n70-80% giao dịch kinh doanh trên thế giới vẫn được xử lý bởi các hệ thống này. \nViệc chuyển đổi các hệ thống này sang nền tảng hiện đại là một khối lượng công \nviệc khổng lồ và có thể kéo dài nhiều năm. Với các nền tảng AI như xMainframe mà \nFPT đang phát triển, quá trình phân tích, chuyển đổi và tái cấu trúc các hệ thống \nnày được tự động hóa giúp giảm 30% khối lượng công việc thủ công. \nTổng hòa của ba yếu tố này cho thấy một thực tế: lợi thế cạnh tranh trong kỷ \nnguyên AI không còn đến từ quy mô hay kinh nghiệm, mà đến từ khả năng thích \nứng và tái tạo chính mình bằng công nghệ. Và để làm được điều này, các doanh \nnghiệp buộc phải tiến tới mô hình AI thuần (AI-Native). Đây không còn là một lựa \nchọn mang tính chiến lược, mà là một yêu cầu mang tính sống còn. AI sẽ không chỉ \nlà công cụ hỗ trợ, mà sẽ trở thành nền tảng vận hành cốt lõi của tổ chức.\nLợi thế cạnh tranh khác biệt của FPT\nTrong làn sóng chuyển đổi mang tính lịch sử đó, FPT tin rằng mình đang sở hữu một \nsố lợi thế cạnh tranh mà không nhiều doanh nghiệp có được.\nTrước hết là lực lượng nhân lực công nghệ đông đảo. Với hàng chục nghìn kỹ sư \nđang làm việc trên khắp thế giới, đây chính là nguồn lực quan trọng để FPT triển \nkhai những chương trình chuyển đổi công nghệ quy mô lớn và kéo dài nhiều năm \ncho khách hàng toàn cầu.\nNhưng trong kỷ nguyên công nghệ mới, không chỉ đông mà còn phải tinh nhuệ. Với \nhơn 54.000 nhân sự làm việc tại trên 30 quốc gia, trong đó có hơn 4.000 chuyên \ngia quốc tế đến từ 82 quốc tịch, FPT đang từng bước xây dựng một đội ngũ công \nnghệ mang tính toàn cầu, đa dạng và có khả năng triển khai những bài toán phức \ntạp ở quy mô lớn. Chúng tôi cũng đã thành lập Viện Quantum AI & Cybersecurity, \nđặt mục tiêu đào tạo 100 tiến sĩ, phát triển 2.000 chuyên gia công nghệ trình độ \ncao và công bố 500 công trình k",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p068",
+          "page": 68,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Khẳng định vị thế dẫn đầu về AI – Bán dẫn, tạo động lực tăng trưởng dài hạn\nNhờ định hướng đúng đắn và những nỗ lực không ngừng của đội ngũ nghiên cứu và \nphát triển, FPT ghi nhận tăng trưởng vượt bậc trong các mảng công nghệ chiến lược, \nđặc biệt là AI và Cloud, qua đó đóng góp tích cực vào kết quả kinh doanh chung của \nTập đoàn. Doanh thu ký mới từ các giải pháp AI và Cloud đạt hơn 1.540 tỷ đồng, \ndoanh thu thực nhận đạt 913 tỷ đồng, tăng trưởng 48,4% so với năm 2024, phản ánh \nrõ nét nhu cầu ngày càng gia tăng của doanh nghiệp đối với các nền tảng công nghệ \ntiên tiến cũng như năng lực triển khai và thương mại hóa hiệu quả của FPT. \nTăng trưởng doanh thu đi kèm với biên lợi nhuận cải thiện, góp phần nâng cao chất \nlượng tăng trưởng và củng cố vai trò của AI, Cloud như các động lực dài hạn cho lợi \nnhuận của FPT trong giai đoạn tới.\nĐến nay, FPT đã sở hữu hơn 10 mô hình ngôn ngữ lớn và trên 70 mô hình AI \nđược tinh chỉnh theo đặc thù khách hàng, trong đó việc phát triển thành công \nLLM tiếng Nhật đã mở rộng năng lực phục vụ đa ngôn ngữ, tạo nền tảng cho \nviệc mở rộng thị trường quốc tế. Trên cơ sở đó, FPT tiếp tục đưa ra thị trường \nnhiều sản phẩm AI chiến lược như: FPT AI Voice Agents, AI Adjust và AI Camera Agent\n(Video Compliance). Các giải pháp AI của FPT đã hỗ trợ hơn 15 triệu phút gọi \nqua tổng đài, đảm nhiệm khối lượng công việc tương đương 3.500 nhân sự, trong \nkhi các AI Agents tiếp tục mở rộng khả năng tự động hóa nhiều nghiệp vụ chuyên \nsâu, từ chăm sóc khách hàng, tư vấn đến đào tạo. Hiện nay, các AI Agents của \nFPT đang phục vụ hơn 200 khách hàng doanh nghiệp và đảm nhiệm khối lượng \ncông việc tương đương 8.000 nhân sự, giúp khách hàng tối ưu chi phí vận hành \nvà nâng cao hiệu quả hoạt động.\nSong song với phát triển sản phẩm, FPT đưa vào vận hành hai Nhà máy AI tại \nNhật Bản và Việt Nam, lần lượt xếp hạng 36 và 38 trong Top 500 siêu máy tính \nhiệu năng cao toàn cầu. Chỉ sau 6 tháng vận hành, AI Factory đã tạo ra hơn 111 \ntỷ tokens, tích hợp trên 25 mô hình LLM và được tin tưởng sử dụng bởi hơn \n25.000 chuyên gia AI trên toàn cầu, qua đó khẳng định năng lực làm chủ hạ tầng \nAI quy mô lớn và từng bước nâng tầm công nghệ Việt trên bản đồ AI thế giới.\nTrong lĩnh vực bán dẫn, năm 2025 đánh dấu bước ngoặt quan trọng khi FPT bàn giao\nlô chip nguồn đầu tiên cho Restar, trở thành doanh nghiệp Việt Nam đầu tiên đưa\nchip thương mại vào thị trường Nhật Bản. Song song với hoạt động thương mại hóa,\nFPT tiếp tục đẩy mạnh hợp tác quốc tế, đầu tư trung tâm R&D và ươm tạo bán dẫn,\ntừng bước hình thành hệ sinh thái “FPT chip inside”, hướng tới mục tiêu xuất khẩu \n10 triệu chip sang thị trường châu Á-Thái Bình Dương trong ba năm tới, tạo động lực\ntăng trưởng mới trong trung và dài hạn.\nSong hành cùng Chính phủ và quốc gia dẫn dắt chuyển đổi số và xây dựng \nhạ tầng dữ liệu số\nVới tinh thần “Vì quốc gia số, FPT sẵn sàng”, năm 2025 FPT tiếp tục khẳng định vai trò \nđối tác chiến lược, đơn vị chủ lực trong nhiều chương trình chuyển đổi số cấp quốc gia, \nthực hiện đúng tinh thần chỉ đạo tại Nghị quyết 214/NQ-CP của Chính phủ.\nThông qua việc huy động đội ngũ chuyên gia cấp cao, FPT trực tiếp đồng hành cùng \nnhiều bộ, ngành và địa phương trong quá trình x",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p077",
+          "page": 77,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Kết quả thực hiện các chiến lược đề ra\nNăm 2025, trong bối cảnh kinh tế thế giới và Việt Nam tiếp tục đối mặt với nhiều \nthách thức từ biến động địa chính trị, dịch chuyển thương mại toàn cầu, áp lực \nlạm phát kéo dài và xu hướng thận trọng trong chi tiêu công nghệ thông tin, \nTập đoàn đã triển khai các chiến lược phát triển theo hướng chủ động, linh hoạt \nvà có trọng tâm. Trên cơ sở các định hướng chiến lược đã xác lập, FPT ưu tiên các \nlĩnh vực công nghệ lõi, mở rộng thị trường và đối tác theo hướng đa dạng hóa rủi ro, \nđồng thời gắn kết hoạt động kinh doanh với các chương trình, mục tiêu phát triển \nlớn của quốc gia.\nNăm 2025 ghi nhận nhiều kết quả nổi bật trong hoạt động hợp tác kinh doanh \nquốc tế của FPT, phản ánh rõ nét chiến lược nâng tầm từ nhà cung cấp dịch vụ \nsang đối tác chiến lược chuyển đổi số toàn diện. FPT hợp tác cùng Sumitomo và \nSBI Holdings đầu tư và đưa vào vận hành nhà máy AI tại Nhật Bản. Cùng với \nnhà máy tại Việt Nam, hai nhà máy này lần lượt xếp hạng 36 và 38 trong TOP500 \nsiêu máy tính toàn cầu.\n• Đồng hành triển khai các chương trình chuyển đổi số quốc gia và\n chính quyền địa phương\n• Kết quả nổi bật trong hợp tác kinh doanh toàn cầu\nThực hiện chủ trương của Đảng và Nhà nước trong việc phát triển khoa học công nghệ,\nđổi mới sáng tạo, chuyển đổi số, đặc biệt là định hướng, chỉ đạo của Nghị quyết \n57-NQ/TW, Kế hoạch số 01-KH/BCĐTW, Kế hoạch 02-KH/BCĐTW, Nghị quyết \n214/NQ-CP của Chính phủ về Kế hoạch hành động của Chính phủ về thúc đẩy tạo lập\ndữ liệu phục vụ chuyển đổi số toàn diện, trong năm 2025, FPT tiếp tục đồng hành, \nphối hợp chuyển đổi số toàn diện cho các bộ, ngành, địa phương. Trong đó, \nFPT phối hợp với 06 Bộ được phân công cùng Ủy ban Trung ương Mặt trận Tổ quốc \nViệt Nam trong việc triển khai và hoàn thành đúng tiến độ các nhiệm vụ xây dựng \nChiến lược Chuyển đổi số, Chiến lược dữ liệu, cơ sở dữ liệu và các hệ thống thông tin \ntrọng điểm.\nSong song với đó, FPT phối hợp cùng các địa phương khẩn trương triển khai các\nhệ thống thông tin phù hợp với mô hình chính quyền địa phương hai cấp, đáp ứng \nyêu cầu của Kế hoạch số 02-KH/BCĐTW, bảo đảm các hệ thống dịch vụ công được \nvận hành liên tục, không gián đoạn và sẵn sàng phục vụ người dân ngay từ ngày \n01/07/2025. Các hệ thống được triển khai đúng tiến độ, đáp ứng yêu cầu kỹ thuật, \nbảo đảm khả năng vận hành ổn định, an toàn, qua đó góp phần thúc đẩy cải cách \nhành chính, nâng cao hiệu quả quản lý nhà nước và chất lượng cung cấp dịch vụ công.\nViệc tham gia triển khai các chương trình này tiếp tục khẳng định vai trò của FPT \nlà doanh nghiệp công nghệ chủ lực, có năng lực triển khai các hệ thống quy mô lớn, \nphức tạp và có yêu cầu cao về an toàn, bảo mật.\nBám sát các định hướng phát triển lớn của đất nước như Nghị quyết 71-NQ/TW \nngày 22/8/2025 của Bộ Chính trị về đột phá phát triển giáo dục và đào tạo, FPT \nđã chủ động triển khai nhiều sáng kiến và mô hình hợp tác nhằm thúc đẩy phát triển \nkhoa học công nghệ, đào tạo nguồn nhân lực chất lượng cao và phát huy vai trò \ncủa khu vực kinh tế tư nhân, góp phần đẩy mạnh mô hình “ba nhà” gồm Nhà nước – \nNhà trường – Doanh nghiệp. Tập đoàn đã triển khai đào tạo 3.700 sinh viên \nchuyên ngành AI và thiết kế vi mạch bán d",
+          "visuals": []
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p063",
+          "path": ".bonus/pages/p063.jpg",
+          "sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+        },
+        {
+          "id": "FPT2025:p051",
+          "path": ".bonus/pages/p051.jpg",
+          "sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de"
+        },
+        {
+          "id": "FPT2025:p050",
+          "path": ".bonus/pages/p050.jpg",
+          "sha256": "3191eab840913a291ec7db04b15b5357712eff91623965778ff93d05765149a5"
+        },
+        {
+          "id": "FPT2025:p003",
+          "path": ".bonus/pages/p003.jpg",
+          "sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408"
+        },
+        {
+          "id": "FPT2025:p005",
+          "path": ".bonus/pages/p005.jpg",
+          "sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+        },
+        {
+          "id": "FPT2025:p004",
+          "path": ".bonus/pages/p004.jpg",
+          "sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+        },
+        {
+          "id": "FPT2025:p068",
+          "path": ".bonus/pages/p068.jpg",
+          "sha256": "0cf2ca80fe5c992a994cf2f8b4bdb644c89a15d0a0ed3a3f918caf024f1d003d"
+        },
+        {
+          "id": "FPT2025:p077",
+          "path": ".bonus/pages/p077.jpg",
+          "sha256": "5783f8110d0afcba3e9c8ccae2a6afccd17de9b9574a301d0eaaeacc838650b8"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801705-KZm9Gd9tyYhoEnUGogFd",
+      "message": {
+        "role": "assistant",
+        "content": "AI được định vị trong vận hành của FPT theo mô hình AI-Native, tức là AI không chỉ là công cụ hỗ trợ mà trở thành nền tảng vận hành cốt lõi của tổ chức. FPT nhận thấy lợi thế cạnh tranh trong kỷ nguyên AI không còn dựa trên quy mô hay kinh nghiệm mà là khả năng thích ứng và tái tạo chính mình bằng công nghệ AI. Mô hình AI-Native đòi hỏi AI được tích hợp xuyên suốt vào toàn bộ giải pháp và quy trình vận hành, giúp doanh nghiệp tồn tại và bứt phá trong bối cảnh thay đổi nhanh chóng và cạnh tranh gay gắt.\n\nFleziPT được giới thiệu như một nền tảng AI linh hoạt, đóng vai trò chiến lược trọng yếu giúp FPT tiến tới mô hình AI-First (AI-Native) ở quy mô lớn. FleziPT không chỉ nâng cao năng suất và hiệu quả vận hành nội bộ bằng cách tái định nghĩa các quy trình phát triển và vận hành phần mềm, mà còn tạo nền tảng để FPT cung cấp các giải pháp AI chuyên sâu, phù hợp với đặc thù từng ngành và từng nhóm khách hàng. Nền tảng này được xây dựng theo mô hình nhiều lớp, trong đó lớp năng lực cốt lõi gồm Flezi Workforce và Flezi Foundation tập hợp các thực tiễn, công cụ, phương pháp luận và nguồn lực đã được kiểm chứng qua các dự án thực tế. FleziPT liên tục được cập nhật và hoàn thiện thông qua quá trình triển khai các dự án AI, đảm bảo khả năng thích ứng và tiến hóa theo nhu cầu thực tế của khách hàng và thị trường.\n\nTóm lại, AI trong vận hành được FPT định vị là nền tảng cốt lõi xuyên suốt, và FleziPT là nền tảng chiến lược giúp FPT hiện thực hóa mô hình AI-Native bằng cách nâng cao năng suất vận hành nội bộ và cung cấp các giải pháp AI chuyên sâu, linh hoạt, phù hợp với từng ngành và khách hàng.\n\nNguồn trích dẫn:\n- Trang 63 (FPT2025:p063): phần \"Dịch chuyển danh mục dịch vụ lên phân khúc giá trị cao và dẫn dắt chuyển đổi AI\" và \"Nền tảng AI linh hoạt FleziPT với phương pháp, quy trình và giải pháp đã được kiểm chứng hiệu quả\"\n- Trang 51 (FPT2025:p051): phần \"Làm chủ công nghệ chiến lược góp phần xây dựng chủ quyền số\" mô tả chi tiết về FleziPT và chiến lược AI của FPT\n- Trang 50 (FPT2025:p050): phần \"AI-First\" mô tả định hướng AI-Native trong vận hành và phát triển AI Agents chuyên biệt\n- Trang 3 (FPT2025:p003): phần \"Lợi thế cạnh tranh trong kỷ nguyên AI\" nêu rõ mô hình AI-Native là yêu cầu sống còn và nền tảng vận hành cốt lõi của tổ chức\n\nTrích dẫn chi tiết:\n- \"AI sẽ không chỉ là công cụ hỗ trợ, mà sẽ trở thành nền tảng vận hành cốt lõi của tổ chức.\" (p3)\n- \"FleziPT không chỉ giúp nâng cao năng suất và hiệu quả vận hành nội bộ thông qua việc tái định nghĩa các quy trình phát triển và vận hành phần mềm, mà còn tạo nền tảng để FPT cung cấp các giải pháp AI chuyên sâu, phù hợp với đặc thù từng ngành và từng nhóm khách hàng.\" (p63)\n- \"FleziPT đóng vai trò là nền tảng chiến lược giúp FPT hiện thực hóa định hướng AI-First ở quy mô lớn, rút ngắn thời gian triển khai và tạo tiền đề gia tăng tỷ trọng doanh thu từ các dịch vụ AI-First trong những năm tới.\" (p63)\n- \"Áp dụng triệt để nền tảng AI linh hoạt - FleziPT với phương pháp, quy trình và giải pháp đã được kiểm chứng hiệu quả trong thực tiễn... FleziPT là kết quả của quá trình tích lũy và chuẩn hóa các kinh nghiệm triển khai AI tại FPT, nhằm tạo ra giá trị vượt trội cho khách hàng.\" (p51)\n\nNếu cần, tôi có thể trích dẫn chính xác đoạn văn hoặc mô tả sơ đồ FleziPT.",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "searches": 1,
+  "error": {
+    "type": "ValueError",
+    "message": "Exactly one function call required"
+  },
+  "context_ids": [
+    "FPT2025:p063",
+    "FPT2025:p051",
+    "FPT2025:p050",
+    "FPT2025:p003",
+    "FPT2025:p005",
+    "FPT2025:p004",
+    "FPT2025:p068",
+    "FPT2025:p077"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p063",
+      "page": 63,
+      "image": ".bonus/pages/p063.jpg",
+      "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+    },
+    {
+      "id": "FPT2025:p051",
+      "page": 51,
+      "image": ".bonus/pages/p051.jpg",
+      "image_sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de"
+    },
+    {
+      "id": "FPT2025:p050",
+      "page": 50,
+      "image": ".bonus/pages/p050.jpg",
+      "image_sha256": "3191eab840913a291ec7db04b15b5357712eff91623965778ff93d05765149a5"
+    },
+    {
+      "id": "FPT2025:p003",
+      "page": 3,
+      "image": ".bonus/pages/p003.jpg",
+      "image_sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408"
+    },
+    {
+      "id": "FPT2025:p005",
+      "page": 5,
+      "image": ".bonus/pages/p005.jpg",
+      "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+    },
+    {
+      "id": "FPT2025:p004",
+      "page": 4,
+      "image": ".bonus/pages/p004.jpg",
+      "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+    },
+    {
+      "id": "FPT2025:p068",
+      "page": 68,
+      "image": ".bonus/pages/p068.jpg",
+      "image_sha256": "0cf2ca80fe5c992a994cf2f8b4bdb644c89a15d0a0ed3a3f918caf024f1d003d"
+    },
+    {
+      "id": "FPT2025:p077",
+      "page": 77,
+      "image": ".bonus/pages/p077.jpg",
+      "image_sha256": "5783f8110d0afcba3e9c8ccae2a6afccd17de9b9574a301d0eaaeacc838650b8"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801703-l3u0Xbh8tvIs4qURqGH7",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 474,
+        "completion_tokens": 34,
+        "total_tokens": 508,
+        "cost": 0.000244,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000244,
+          "upstream_inference_prompt_cost": 0.0001896,
+          "upstream_inference_completions_cost": 5.44e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 22384.073199995328,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801705-KZm9Gd9tyYhoEnUGogFd",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 27526,
+        "completion_tokens": 916,
+        "total_tokens": 28442,
+        "cost": 0.012476,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.012476,
+          "upstream_inference_prompt_cost": 0.0110104,
+          "upstream_inference_completions_cost": 0.0014656
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 15422.73649998242,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 37869.85700001242,
+  "query_id": "fd-m3",
+  "question": "Kết hợp thông điệp AI-Native và phần giới thiệu FleziPT: AI được định vị thế nào trong vận hành, và FleziPT giúp FPT tiến tới mô hình đó bằng cách nào?",
+  "split": "dev",
+  "config": "vision"
+}

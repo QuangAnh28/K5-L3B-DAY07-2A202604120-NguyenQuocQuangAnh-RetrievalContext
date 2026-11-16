@@ -1,0 +1,101 @@
+[
+  {
+    "query_id": "d7-t129",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.261020+00:00",
+    "trace_sha256": "896a35499153356f2e0c8e80cd85f50bf2345478c976c74d65acac2fde272b82",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 129 trang 35: trưng bày/giới thiệu hàng hóa dịch vụ để thúc đẩy, tìm cơ hội giao kết hợp đồng mua bán/dịch vụ."
+  },
+  {
+    "query_id": "d7-t223",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.284105+00:00",
+    "trace_sha256": "803e328d710c3a3ad0a83714bf039e4ebae2fe872124d0f2dcd78de0d5109bae",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 223 trang 58 có cả bảo mật hồ sơ dự thầu và thông tin liên quan tổ chức/xét chọn đấu thầu."
+  },
+  {
+    "query_id": "d7-t323",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.308511+00:00",
+    "trace_sha256": "07127897e84512e7a6620e62c1a5c8b2ad28e48891dcb46737c4fa8a6e3dd8dc",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 323 trang 83 xác nhận đủ hai mốc 01/01/2006 và thay thế luật 10/05/1997."
+  },
+  {
+    "query_id": "d7-t53",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.332413+00:00",
+    "trace_sha256": "d0d3a1ef892909c317e74cede8eebd9fda9b830e27247f70e76fcc2d9b2850b6",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 53 trang 16: trọng lượng tịnh, giữ điều kiện trừ thỏa thuận khác."
+  },
+  {
+    "query_id": "d7-t60",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.358994+00:00",
+    "trace_sha256": "3aeea241a56ffc150e9cf0a2b224a8b2d06b7c3d4f4791edc98be0173ac12c40",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 60 trang 17: hàng đang vận chuyển, chuyển rủi ro kể từ giao kết, trừ thỏa thuận khác."
+  },
+  {
+    "query_id": "d7-u3",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.381194+00:00",
+    "trace_sha256": "6aad75bd9ac08bd8060a3b89b19d80e694eef000056aca5eb10af40605da91a5",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đọc lời từ chối: không nêu số tài khoản/địa chỉ hay thông tin suy đoán. Corpus toàn bộ đã kiểm tra không có mã hợp đồng hoặc công ty/sự kiện cụ thể như absence_check trong benchmark."
+  },
+  {
+    "query_id": "d7-u4",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T03:00:35.406523+00:00",
+    "trace_sha256": "0ac8fbeaff5fa35a304506fba443b8a48af3f9c8c11d3211be59c8c9a46485e4",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đọc lời từ chối: không nêu số tài khoản/địa chỉ hay thông tin suy đoán. Corpus toàn bộ đã kiểm tra không có mã hợp đồng hoặc công ty/sự kiện cụ thể như absence_check trong benchmark."
+  }
+]

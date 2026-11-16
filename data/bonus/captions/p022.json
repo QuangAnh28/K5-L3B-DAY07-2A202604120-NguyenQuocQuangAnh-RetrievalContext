@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p022",
+  "image_sha256": "44ef0dc2b337b31dea2c7eccfa775b5a4da070a9bd98bc5d3f28e246a989d12b",
+  "caption": {
+    "summary": "Trang mục lục phần Tổng quan về FPT trong báo cáo thường niên 2025, liệt kê các mục nội dung chính của phần này.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800701-o3qe6WByH3wBL7dBjRF9",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 40,
+        "total_tokens": 2602,
+        "cost": 0.0010888,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010888,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 6.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2585.3069000295363,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "query_id": "d7-q01",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.368646+00:00",
+    "trace_sha256": "4cf28149e0539843de60788cba3c040b0c1f9f6e2844cb690acf9ffe671127c8",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 7 trang 4 xác nhận chưa đăng ký vẫn chịu trách nhiệm mọi hoạt động theo luật và quy định khác."
+  },
+  {
+    "query_id": "d7-q02",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.389160+00:00",
+    "trace_sha256": "ce0148fe2098e18048269114f4fe88c6473e50c53a6f4c04c8e1ed97b98cf8c0",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 10 trang 4 quy định thương nhân mọi thành phần kinh tế bình đẳng trước pháp luật trong hoạt động thương mại."
+  },
+  {
+    "query_id": "d7-q03",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.413512+00:00",
+    "trace_sha256": "c08e462cfaaab9cb54eb8f3f2984d35a6bfce1a5961a7e73e9028ba08a23eff9",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 15 trang 5 yêu cầu điều kiện và tiêu chuẩn kỹ thuật theo pháp luật để tương đương văn bản."
+  },
+  {
+    "query_id": "d7-q04",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.436923+00:00",
+    "trace_sha256": "aeababba4fa2cecd49a82dc7ab7d6f43f8a91aafcef9956ea328472d2c3334fc",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 18 trang 6 cấm Văn phòng đại diện sinh lợi trực tiếp tại Việt Nam."
+  },
+  {
+    "query_id": "d7-q05",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.460753+00:00",
+    "trace_sha256": "4b48d7418bc4abac58739d617626033a95d3e8cfd97a8557bf6b503f7c746b88",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Điều 24 trang 8 liệt kê lời nói, văn bản, hành vi và trường hợp bắt buộc văn bản; Điều 64 trang 18 hỗ trợ phần bổ sung về kỳ hạn/quyền chọn nếu được dẫn."
+  },
+  {
+    "query_id": "d7-q06",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.462805+00:00",
+    "trace_sha256": "838fbd5287562615cba94651762b853cae5514fd37ebc2c56adf0ebce0c88393",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 27 trang 9 yêu cầu hợp đồng quốc tế bằng văn bản hoặc hình thức có giá trị pháp lý tương đương."
+  },
+  {
+    "query_id": "d7-q07",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.494414+00:00",
+    "trace_sha256": "15a3f5fe142ef715710e9ff93656b80a9b4a69b3ede526047426a76a6580dc90",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [
+      false
+    ],
+    "reason": "Context có đủ Điều 35 nhưng model dẫn chunk Điều 42 giao chứng từ trang 13; câu đúng ý, citation không hỗ trợ giao hàng Điều 35."
+  },
+  {
+    "query_id": "d7-q08",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.519319+00:00",
+    "trace_sha256": "074f01a705347c1eca7ca29141e2a4c7a69c7d12869ebae53a3c07893f471d6b",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 37 trang 12 khoản 2 cho phép bất kỳ thời điểm trong thời hạn, phải thông báo trước."
+  },
+  {
+    "query_id": "d7-q09",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.545962+00:00",
+    "trace_sha256": "5eec18bcb1f9356bcc49174fa46a106437e0716447c7480c54528bfc33ba25ce",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      false
+    ],
+    "reason": "Nội dung trả lời được Điều 50 và 56 hỗ trợ; citation thứ ba Điều 51 ngừng thanh toán không hỗ trợ khẳng định nào trong câu trả lời."
+  },
+  {
+    "query_id": "d7-q10",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.547937+00:00",
+    "trace_sha256": "862268d5fe3d953d66b8d09b1496013ca04ba132f0ac723a149972de19a37d0a",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 55 trang 16 khoản 1 nêu thời điểm giao hàng hoặc giao chứng từ, trừ thỏa thuận khác; giá hàng thừa và quyền ngừng thanh toán không trả lời được thời hạn này."
+  },
+  {
+    "query_id": "d7-q11",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.569475+00:00",
+    "trace_sha256": "d2133562218012999acf432dea04c234271dd9e8fa790f80b7c269d088ebf677",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng thời điểm/địa điểm Điều 57 nhưng bỏ điều kiện kể cả bên bán được giữ chứng từ sở hữu trong đáp án chuẩn; context có đủ điều kiện này."
+  },
+  {
+    "query_id": "d7-q12",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.571642+00:00",
+    "trace_sha256": "28aa1d740b482166a353eceff746e0d6248be55c3f0fc9c8e9b1569f14335dbd",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 62 trang 17 nêu thời điểm chuyển giao hàng, trừ luật hoặc thỏa thuận khác."
+  },
+  {
+    "query_id": "d7-q13",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.595337+00:00",
+    "trace_sha256": "ca1a0328b3e4c93f28db95d07a305317f19ea058c743021c2ccac0989f5685a6",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 74 trang 21 nêu lời nói, văn bản, hành vi cụ thể và trường hợp phải văn bản."
+  },
+  {
+    "query_id": "d7-q14",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.621007+00:00",
+    "trace_sha256": "3e8380e03806a9771b203ea749b9189caf2c9007a2efd0be265eb820a8d72462",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 86 trang 24 liệt kê phương thức/thời điểm cung ứng, thị trường địa lý, thanh toán, điều kiện ảnh hưởng giá."
+  },
+  {
+    "query_id": "d7-q15",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.643985+00:00",
+    "trace_sha256": "2c031c8c57b1304895559f4a3a51881e52662179d24b4b40905b2795f8ad0dfb",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Điều 87 trang 24 nêu thời điểm hoàn thành cung ứng dịch vụ khi không có thỏa thuận/thói quen thanh toán."
+  },
+  {
+    "query_id": "d7-u1",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.667996+00:00",
+    "trace_sha256": "433ad3692b0f304c8d45d6953cfcfdf7142df1b1b38b94c6316b1ff77f9c1312",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc lời từ chối: không trả lời ngày hoàn tiền/doanh thu, không thêm phỏng đoán. Kiểm tra corpus toàn bộ trang và absence_reason ghi trong benchmark; corpus không có hồ sơ giao dịch/công ty được hỏi."
+  },
+  {
+    "query_id": "d7-u2",
+    "reviewer": "Codex",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T02:57:17.695734+00:00",
+    "trace_sha256": "b9841069c3729dd78867ff79184483957f7f606d6e612fc78ab3d91fc42b44fc",
+    "benchmark_sha256": "7878c8331a6d5de0c1dd819d129c726c8e3ff78010b270f670281010a81263a8",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Đã đọc lời từ chối: không trả lời ngày hoàn tiền/doanh thu, không thêm phỏng đoán. Kiểm tra corpus toàn bộ trang và absence_reason ghi trong benchmark; corpus không có hồ sơ giao dịch/công ty được hỏi."
+  }
+]

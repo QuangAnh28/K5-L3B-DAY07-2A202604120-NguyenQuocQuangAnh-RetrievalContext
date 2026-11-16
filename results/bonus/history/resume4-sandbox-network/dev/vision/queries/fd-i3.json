@@ -1,0 +1,35 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "events": [],
+  "searches": 0,
+  "error": {
+    "type": "RuntimeError",
+    "message": "OpenRouter network/timeout error"
+  },
+  "context_ids": [],
+  "context_sources": [],
+  "usage": [
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 1
+    },
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 2
+    },
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 3
+    }
+  ],
+  "elapsed_ms": 3006.323400011752,
+  "query_id": "fd-i3",
+  "question": "Vòng ngoài cùng của hình nền tảng FleziPT thể hiện năm lợi ích nào?",
+  "split": "dev",
+  "config": "vision"
+}

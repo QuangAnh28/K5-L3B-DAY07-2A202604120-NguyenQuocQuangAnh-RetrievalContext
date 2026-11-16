@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p200",
+  "image_sha256": "1d60ae7663c67d7a41e9ee6a5391622aeb53a858c9ce5e9fe07cc0831a7c0eee",
+  "caption": {
+    "summary": "Bảng chi tiết các khoản phải trả người bán ngắn hạn, người mua trả tiền trước ngắn hạn và chi phí phải trả ngắn hạn của FPT cho năm tài chính kết thúc ngày 31/12/2025 và 31/12/2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Phải trả người bán ngắn hạn",
+        "location": "trên phải",
+        "description": "Danh sách các nhà cung cấp bên thứ ba với số dư phải trả tính đến 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+      },
+      {
+        "type": "table",
+        "title": "Người mua trả tiền trước ngắn hạn",
+        "location": "giữa phải",
+        "description": "Số dư người mua trả tiền trước ngắn hạn từ bên thứ ba và chi tiết các khách hàng bên thứ ba chiếm từ 10% tổng số dư tính đến 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+      },
+      {
+        "type": "table",
+        "title": "Chi phí phải trả ngắn hạn",
+        "location": "dưới phải",
+        "description": "Chi phí liên quan đến các dự án tích hợp hệ thống, lãi vay phải trả và các chi phí khác phải trả ngắn hạn tính đến 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800833-Ukh4F4zMiiF4u2hHqv1H",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 282,
+        "total_tokens": 2844,
+        "cost": 0.001476,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001476,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004512
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4426.050600013696,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

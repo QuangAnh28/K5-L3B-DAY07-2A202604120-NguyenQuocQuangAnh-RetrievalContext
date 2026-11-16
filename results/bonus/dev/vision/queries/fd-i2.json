@@ -1,0 +1,441 @@
+{
+  "status": "answered",
+  "answer": "Mốc 1998 trên dòng thời gian \"Hành trình khẳng định năng lực và vị thế\" ghi nhận: triển khai thành công Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế của Việt Nam, với 61 máy chủ và hơn 500 máy trạm.\n[FPT2025:p028 — Dòng thời gian phía trên (ô 1998, góc trên bên phải trang), mô tả triển khai Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế]",
+  "citations": [
+    {
+      "id": "FPT2025:p028",
+      "region": "Dòng thời gian phía trên (ô 1998, góc trên bên phải trang), mô tả triển khai Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794804835-hKpXY5KbhyPoDRt4rLvV",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01Hg3vh7do5ib46jTY5SVsEe",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"dòng thời gian hành trình FPT 1998 triển khai hệ thống cục thuế\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trên dòng thời gian hành trình FPT, mốc 1998 ghi nhận triển khai hệ thống gì, cho bao nhiêu cục thuế?",
+      "model_queries": [
+        "dòng thời gian hành trình FPT 1998 triển khai hệ thống cục thuế"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p028",
+          "page": 28,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p068",
+          "page": 68,
+          "score": 0.028790389395194696,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 11
+          }
+        },
+        {
+          "id": "FPT2025:p067",
+          "page": 67,
+          "score": 0.02871794871794872,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 15
+          }
+        },
+        {
+          "id": "FPT2025:p030",
+          "page": 30,
+          "score": 0.02817460317460317,
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 12
+          }
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "score": 0.025353016688061617,
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 22
+          }
+        },
+        {
+          "id": "FPT2025:p070",
+          "page": 70,
+          "score": 0.024096385542168676,
+          "component_ranks": {
+            "dense": 23,
+            "tfidf": 23
+          }
+        },
+        {
+          "id": "FPT2025:p020",
+          "page": 20,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p197",
+          "page": 197,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trên dòng thời gian hành trình FPT, mốc 1998 ghi nhận triển khai hệ thống gì, cho bao nhiêu cục thuế?"
+      ],
+      "context_ids": [
+        "FPT2025:p028",
+        "FPT2025:p068",
+        "FPT2025:p067",
+        "FPT2025:p030",
+        "FPT2025:p057",
+        "FPT2025:p070",
+        "FPT2025:p020",
+        "FPT2025:p197"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p028",
+          "page": 28,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Trong nhiều năm qua, FPT kiên định với con đường trở thành tổ chức kiểu mới, hùng mạnh dựa trên sáng tạo trong khoa học kỹ thuật và công nghệ góp phần hưng thịnh \nquốc gia. Thông qua đầu tư bài bản cho R&D, xây dựng nguồn nhân lực chất lượng cao và tham gia sâu vào các dự án trọng điểm trong nước và quốc tế, FPT đã tích lũy \nđược kinh nghiệm, tri thức và năng lực công nghệ vững chắc, tạo nền tảng cho tăng trưởng dài hạn.\n1988 \nHình thành tổ chức kiểu mới, sáng tạo \ntrong khoa học kỹ thuật và công nghệ.\n1996 \nCông ty tin học số một Việt Nam với \nnăng lực phát triển hệ thống CNTT \ncho các lĩnh vực trọng yếu như: \ntài chính – ngân hàng, thuế, hải quan, \nhàng không, chính phủ điện tử.\n1997 \nMột trong bốn nhà cung cấp dịch vụ \nInternet đầu tiên được cấp phép, \ntạo bước phát triển đột phá cho thị \ntrường này tại Việt Nam.\n1998\nTriển khai thành công Hệ thống \nQuản lý đối tượng nộp thuế VAT cho \n61 cục Thuế của Việt Nam với 61 \nmáy chủ và hơn 500 máy trạm.\n2002\nNhận giấy phép cung cấp dịch vụ \nkết nối Internet (IXP) phá vỡ thế \nđộc quyền của thị trường này.\n2005\nCông ty CNTT Việt Nam đầu tiên \nthành lập pháp nhân tại Nhật Bản.\nĐược cấp phép đầu tư tại khu Công \nnghệ cao Hòa Lạc (Tp.Hà Nội) và khu \nCông nghệ cao (Tp.Hồ Chí Minh) \nkhởi đầu cho việc xây dựng hệ thống \ncác tổ hợp giáo dục và công viên \nphần mềm trên toàn quốc.\n2006\nNhà thầu chính tại thị trường nước \nngoài với hợp đồng phần mềm trị giá \n6,5 triệu USD cho Petronas (Malaysia).\n2008\nTổng thầu Dự án Quản lý Thuế thu nhập \ncá nhân quản lý 13 triệu đối tượng nộp \nthuế – Dự án có quy mô lớn nhất khu vực \nĐông Nam Á tại thời điểm này.\nHÀNH TRÌNH KHẲNG ĐỊNH NĂNG LỰC VÀ VỊ THẾ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày hành trình khẳng định năng lực và vị thế của FPT qua các mốc thời gian quan trọng từ năm 1988 đến 2008.\ndiagram: Hành trình khẳng định năng lực và vị thế của FPT (giữa trang) — Các mốc thời gian quan trọng từ 1988 đến 2008, mô tả các sự kiện nổi bật của FPT trong từng năm như thành lập tổ chức, phát triển hệ thống CNTT, cung cấp dịch vụ Internet, triển khai hệ thống quản lý thuế, và các dự án lớn trong nước và quốc tế.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Hành trình khẳng định năng lực và vị thế của FPT",
+              "location": "giữa trang",
+              "description": "Các mốc thời gian quan trọng từ 1988 đến 2008, mô tả các sự kiện nổi bật của FPT trong từng năm như thành lập tổ chức, phát triển hệ thống CNTT, cung cấp dịch vụ Internet, triển khai hệ thống quản lý thuế, và các dự án lớn trong nước và quốc tế."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p068",
+          "page": 68,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Khẳng định vị thế dẫn đầu về AI – Bán dẫn, tạo động lực tăng trưởng dài hạn\nNhờ định hướng đúng đắn và những nỗ lực không ngừng của đội ngũ nghiên cứu và \nphát triển, FPT ghi nhận tăng trưởng vượt bậc trong các mảng công nghệ chiến lược, \nđặc biệt là AI và Cloud, qua đó đóng góp tích cực vào kết quả kinh doanh chung của \nTập đoàn. Doanh thu ký mới từ các giải pháp AI và Cloud đạt hơn 1.540 tỷ đồng, \ndoanh thu thực nhận đạt 913 tỷ đồng, tăng trưởng 48,4% so với năm 2024, phản ánh \nrõ nét nhu cầu ngày càng gia tăng của doanh nghiệp đối với các nền tảng công nghệ \ntiên tiến cũng như năng lực triển khai và thương mại hóa hiệu quả của FPT. \nTăng trưởng doanh thu đi kèm với biên lợi nhuận cải thiện, góp phần nâng cao chất \nlượng tăng trưởng và củng cố vai trò của AI, Cloud như các động lực dài hạn cho lợi \nnhuận của FPT trong giai đoạn tới.\nĐến nay, FPT đã sở hữu hơn 10 mô hình ngôn ngữ lớn và trên 70 mô hình AI \nđược tinh chỉnh theo đặc thù khách hàng, trong đó việc phát triển thành công \nLLM tiếng Nhật đã mở rộng năng lực phục vụ đa ngôn ngữ, tạo nền tảng cho \nviệc mở rộng thị trường quốc tế. Trên cơ sở đó, FPT tiếp tục đưa ra thị trường \nnhiều sản phẩm AI chiến lược như: FPT AI Voice Agents, AI Adjust và AI Camera Agent\n(Video Compliance). Các giải pháp AI của FPT đã hỗ trợ hơn 15 triệu phút gọi \nqua tổng đài, đảm nhiệm khối lượng công việc tương đương 3.500 nhân sự, trong \nkhi các AI Agents tiếp tục mở rộng khả năng tự động hóa nhiều nghiệp vụ chuyên \nsâu, từ chăm sóc khách hàng, tư vấn đến đào tạo. Hiện nay, các AI Agents của \nFPT đang phục vụ hơn 200 khách hàng doanh nghiệp và đảm nhiệm khối lượng \ncông việc tương đương 8.000 nhân sự, giúp khách hàng tối ưu chi phí vận hành \nvà nâng cao hiệu quả hoạt động.\nSong song với phát triển sản phẩm, FPT đưa vào vận hành hai Nhà máy AI tại \nNhật Bản và Việt Nam, lần lượt xếp hạng 36 và 38 trong Top 500 siêu máy tính \nhiệu năng cao toàn cầu. Chỉ sau 6 tháng vận hành, AI Factory đã tạo ra hơn 111 \ntỷ tokens, tích hợp trên 25 mô hình LLM và được tin tưởng sử dụng bởi hơn \n25.000 chuyên gia AI trên toàn cầu, qua đó khẳng định năng lực làm chủ hạ tầng \nAI quy mô lớn và từng bước nâng tầm công nghệ Việt trên bản đồ AI thế giới.\nTrong lĩnh vực bán dẫn, năm 2025 đánh dấu bước ngoặt quan trọng khi FPT bàn giao\nlô chip nguồn đầu tiên cho Restar, trở thành doanh nghiệp Việt Nam đầu tiên đưa\nchip thương mại vào thị trường Nhật Bản. Song song với hoạt động thương mại hóa,\nFPT tiếp tục đẩy mạnh hợp tác quốc tế, đầu tư trung tâm R&D và ươm tạo bán dẫn,\ntừng bước hình thành hệ sinh thái “FPT chip inside”, hướng tới mục tiêu xuất khẩu \n10 triệu chip sang thị trường châu Á-Thái Bình Dương trong ba năm tới, tạo động lực\ntăng trưởng mới trong trung và dài hạn.\nSong hành cùng Chính phủ và quốc gia dẫn dắt chuyển đổi số và xây dựng \nhạ tầng dữ liệu số\nVới tinh thần “Vì quốc gia số, FPT sẵn sàng”, năm 2025 FPT tiếp tục khẳng định vai trò \nđối tác chiến lược, đơn vị chủ lực trong nhiều chương trình chuyển đổi số cấp quốc gia, \nthực hiện đúng tinh thần chỉ đạo tại Nghị quyết 214/NQ-CP của Chính phủ.\nThông qua việc huy động đội ngũ chuyên gia cấp cao, FPT trực tiếp đồng hành cùng \nnhiều bộ, ngành và địa phương trong quá trình x",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p067",
+          "page": 67,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Doanh thu lĩnh vực Dịch vụ CNTT cho thị trường trong nước đạt 9.093 tỷ đồng,\ntăng trưởng 11,5% so với cùng kỳ. Tăng trưởng doanh thu được dẫn dắt đồng thời \ntừ cả khối khách hàng Chính phủ và khu vực công, khối khách hàng doanh nghiệp, \nngân hàng, trong bối cảnh nhu cầu triển khai các nền tảng số, hệ thống quản trị \nquốc gia, hệ thống dữ liệu và chuyển đổi AI ngày càng gia tăng. \nLợi nhuận trước thuế ghi nhận 440 tỷ đồng, giảm 4,5% so với cùng kỳ do chủ động \ngia tăng đầu tư cho các nền tảng công nghệ lõi và năng lực hạ tầng chiến lược, bao \ngồm việc phát triển hạ tầng nhà máy AI tại Việt Nam, với định hướng dài hạn nhằm \ncủng cố năng lực cạnh tranh, mở rộng hệ sinh thái sản phẩm, dịch vụ trong các \nnăm tới.\nNăm 2025 đánh dấu những thay đổi lớn của Việt Nam với hàng loạt các hành động\nmạnh mẽ trong thực thi Nghị quyết số 57-NQ/TWvà các nghị quyếttrụ cột. Trong đó, \nNghị quyết số 214/NQ-CP ban hành kế hoạch hành động của Chính phủ về thúc \nđẩy tạo lập dữ liệu phục vụ chuyển đổi số toàn diện đã xác lập một cách tiếp \ncận mới, tổng thể và dài hạn hơn cho chương trình chuyển đổi số quốc gia. \nCác định hướng này không chỉthúc đẩy nhu cầu đầu tư CNTT trong khu vực công mà \ncòn mở ra hành lang pháp lý và cơ chế phối hợp rõ nét hơn, tạo điều kiện để các \ndoanh nghiệp công nghệ trong nước như FPT tham gia sớm và sâu, đóng vai trò \nđối tác chiến lược và song hành cùng Chính phủ, bộ ngành trong quá trình hiện thực hóa \ncác mục tiêu chuyển đổi số quốc gia.\nLàm chủ công nghệ lõi, hiện thực hóa chiến lược quốc gia\nFPT ghi dấu bước phát triển quan trọng của hệ sinh thái Made by FPT, thể hiện rõ \nnăng lực làm chủ công nghệ lõi và vai trò tiên phong của Tập đoàn trong việc hiện \nthực hóa các định hướng lớn của Đảng và Chính phủ tại Nghị quyết 57-NQ/TW và \nQuyết định 1131/QĐ-TTg. \nThông qua chiến lược đầu tư bài bản cho nghiên cứu và phát triển, FPT không \nngừng mở rộng danh mục sản phẩm Made by FPT, từng bước chuyển dịch từ cung \ncấp dịch vụ sang làm chủ và thương mại hóa các nền tảng, giải pháp công nghệ \ncó giá trị gia tăng cao. Trong đó, doanh thu từ hệ sinh thái Made by FPT ghi nhận \nmức tăng trưởng 19,1%, đạt doanh thu 2.672 tỷ đồng, với 10 giải pháp đạt doanh số \nký trên 100 tỷ đồng, phản ánh rõ khả năng thương mại hóa và quy mô hóa sản phẩm \ncông nghệ do FPT phát triển.\nSong song với kết quả kinh doanh tích cực, hệ sinh thái Made by FPT tiếp tục được \nghi nhận mạnh mẽ ở cấp độ quốc gia khi 14 sản phẩm được Bộ Khoa học và\nCông nghệ công bố trên Cổng Nghị quyết 57; nhiều giải pháp được công nhận là \nSản phẩm Công nghiệp chủ lực, Sản phẩm công nghệ số xuất sắc, đồng thời trực \ntiếp tham gia giải quyết các bài toán chuyển đổi số quy mô quốc gia, khẳng định \nvai trò của FPT trong việc phát triển các nền tảng công nghệ chiến lược cho đất nước.\nTrong số đó, AkaBot tiếp tục củng cố vị thế nền tảng tự động hóa hàng đầu khi \nđược triển khai tại nhiều ngân hàng Big4, mở rộng thành công tại thị trường Nhật Bản\nvà là sản phẩm công nghệ Việt Nam duy nhất góp mặt trong Everest Peak Matrix. \nCác nền tảng mới như FPT Culture Tech trong lĩnh vực di sản số và FPT eID, giải pháp\nđịnh danh số đạt các chứng nhận sinh trắc học quốc tế, sẵn sàng đáp ứng các \nyêu cầu khắt khe ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Doanh thu hệ sinh thái Made by FPT giai đoạn 2021-2025",
+              "location": "phải",
+              "description": "Biểu đồ cột thể hiện doanh thu theo từng năm từ 2021 đến 2025, đơn vị tỷ VNĐ, doanh thu tăng dần qua các năm từ 746 tỷ năm 2021 lên 2.672 tỷ năm 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p030",
+          "page": 30,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2022 \nThành lập công ty FPT Semiconductor\nvà ra mắt chip bán dẫn đầu tiên của \nViệt Nam.\nĐồng hành cùng Bộ Công an nghiên \ncứu, triển khai Đề án 06 Phát triển ứng \ndụng dữ liệu về dân cư, định danh và \nxác thực điện tử phục vụ chuyển đổi số \nquốc gia giai đoạn 2022-2025, tầm nhìn\nđến năm 2030; tiên phong phát triển \ngiải pháp chống giả mạo căn cước \ncông dân gắn chip.\nĐược cấp bằng sáng chế tại Mỹ về \nMạng nơ-ron tích chập đẳng biến với \ncác phép biến đổi nhóm để xử lý đám \nmây điểm 3D.\nCán mốc 01 tỷ USD doanh thu dịch vụ\nCNTT từ thị trường nước ngoài, gia nhập \nnhóm doanh nghiệp CNTT tỷ USD.\nPhát triển 31 mô hình góp phần đưa \nĐề án Phát triển ứng dụng dữ liệu về \ndân cư, định danh và xác thực điện tử \nphục vụ chuyển đổi số quốc gia giai \nđoạn 2022-2025, tầm nhìn 2030 đi vào \nthực tiễn tại các lĩnh vực và tỉnh thành.\nVận hành Hệ thống thông tin giải quyết \nthủ tục hành chính cung cấp dịch vụ \ncông trực tuyến mức độ cao cho \nTp.Hà Nội với hơn 2,8 triệu hồ sơ được \ngiải quyết.\nThành lập FPT Automotive – Công ty \nchuyên về dịch vụ và sản phẩm phần\nmềm cho ngành công nghiệp ô tô.\nĐược cấp 02 bằng sáng chế liên quan \nđến công nghệ AI tại Nhật Bản và Mỹ.\nCông bố chiến lược tập trung vào 05 \nlĩnh vực cốt lõi gồm: AI, Bán dẫn, \nCông nghệ ô tô số, Chuyển đổi số và \nChuyển đổi xanh.\nHợp tác toàn diện với NVIDIA xây \ndựng 02 nhà máy AI tại Việt Nam, \nNhật Bản và trở thành đối tác phát \ntriển dịch vụ của NVIDIA.\nThực hiện thương vụ M&A đầu tiên tại \nNhật Bản thông qua việc mua Next \nAdvanced Communications NAC Co., \nLtd. (NAC).\nThành lập Ban Chỉ đạo Công nghệ chiến \nlược gồm 05 đơn vị: Viện Quantum AI và\nCybersecurity, FPT UAV, Công nghệ\nĐường sắt FPT, FPT Cybersecurity \nvà DC5.\nKhánh thành Trung tâm Dữ liệu FPT \nFornix HCM02 quy mô lớn nhất \nViệt Nam với 3.600 tủ rack.\nKhai trương Trung tâm R&D 3.000 m2\nvề công nghệ cao và chip bán dẫn tại \nCông viên phần mềm số 2 Tp. Đà Nẵng.\nKý hợp đồng chuyển đổi số toàn diện \nứng dụng AI quy mô 256 triệu USD với \ntập đoàn năng lượng hàng đầu châu Á.\nTop 40 Công ty Dịch vụ CNTT châu Á.\nHÀNH TRÌNH KHẲNG ĐỊNH NĂNG LỰC VÀ VỊ THẾ (Tiếp theo)\n2023 2024 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nHành trình khẳng định năng lực và vị thế của FPT qua các năm 2022 đến 2025 với các mốc phát triển công nghệ, thành lập công ty con, hợp tác chiến lược và mở rộng quy mô.\ndiagram: Hành trình khẳng định năng lực và vị thế (trên) — Các mốc thời gian 2022, 2023, 2024, 2025 với các sự kiện và thành tựu tương ứng của FPT trong từng năm.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Hành trình khẳng định năng lực và vị thế",
+              "location": "trên",
+              "description": "Các mốc thời gian 2022, 2023, 2024, 2025 với các sự kiện và thành tựu tương ứng của FPT trong từng năm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p057",
+          "page": 57,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "PHÂN TÍCH HOẠT ĐỘNG KINH DOANH\nBÁO CÁO CỦA BAN ĐIỀU HÀNH VỀ KẾT QUẢ KINH DOANH 2025 VÀ NHẬN ĐỊNH 2026\nĐánh giá chung\n• Bối cảnh • Kết quả kinh doanh\nNăm 2025, kinh tế thế giới tiếp tục vận động trong trạng thái thận trọng khi phải \nđối mặt với nhiều thách thức đan xen, bao gồm biến động địa chính trị, áp lực lạm \nphát kéo dài tại một số nền kinh tế lớn, xu hướng tái cấu trúc chuỗi cung ứng toàn \ncầu và chính sách tiền tệ thắt chặt. Trong bối cảnh đó, các doanh nghiệp và tổ chức\ntrên toàn cầu có xu hướng kiểm soát chặt chẽ hơn quyết định đầu tư, ưu tiên hiệu \nquả, khả năng sinh lời và tính bền vững dài hạn. Tuy nhiên, song hành với những khó \nkhăn là cơ hội mới khi làn sóng chuyển đổi số, ứng dụng AI, tự động hóa và dữ liệu \nlớn tiếp tục được đẩy mạnh nhằm nâng cao năng suất, tối ưu chi phí và tăng cường \nnăng lực cạnh tranh. Công nghệ, đặc biệt là AI, chuyển dịch từ giai đoạn thử nghiệm\nsang triển khai thực tiễn, tạo ra nhu cầu ngày càng rõ nét đối với các giải pháp có\nkhả năng tạo giá trị thực tiễn cho hoạt động sản xuất kinh doanh.\nKinh tế Việt Nam tiếp tục duy trì đà tăng trưởng tích cực nhờ sự ổn định vĩ mô,\nchính sách điều hành linh hoạt và sự phục hồi của các hoạt động sản xuất, xuất khẩu \nvà tiêu dùng trong nước. Chính phủ đẩy mạnh triển khai các chính sách hỗ trợ\ndoanh nghiệp, cải thiện môi trường đầu tư, đồng thời thúc đẩy phát triển khu vực\nkinh tế tư nhân như một động lực quan trọng của tăng trưởng. Đặc biệt, Nghị quyết \n57-NQ/TW về phát triển khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số\nquốc gia tạo hành lang chính sách thuận lợi cho việc ứng dụng công nghệ, AI và\ndữ liệu trong cả khu vực công và khu vực tư nhân. Đây là nền tảng quan trọng thúc đẩy \nnhu cầu về các giải pháp công nghệ toàn diện, mở ra cơ hội tăng trưởng dài hạn cho \ncác doanh nghiệp có năng lực công nghệ và uy tín trên thị trường.\nTrong bối cảnh đó, FPT tiếp tục khẳng định vai trò là doanh nghiệp công nghệ \nhàng đầu, chủ động thích ứng với những thay đổi của môi trường kinh doanh toàn \ncầu và trong nước. Tập đoàn tập trung nguồn lực vào các lĩnh vực công nghệ cốt lõi, \nbao gồm: AI, chuyển đổi số, bán dẫn, công nghệ ô tô số và hạ tầng số, đồng thời \ntừng bước tối ưu hóa danh mục hoạt động theo hướng nâng cao hiệu quả và chất \nlượng tăng trưởng. Việc đẩy mạnh ứng dụng AI không chỉ giới hạn ở việc phát triển\nsản phẩm và dịch vụ mới, mà còn được Tập đoàn triển khai sâu rộng trong vận hành \nnội bộ, quản trị dự án và tối ưu quy trình, qua đó nâng cao năng suất lao động và \nnăng lực cạnh tranh tổng thể. FPT kiên định chiến lược phát triển bền vững, cân bằng \ngiữa mở rộng quy mô và nâng cao hiệu quả sử dụng vốn, từng bước xây dựng lợi thế \ncạnh tranh dài hạn trong bối cảnh cạnh tranh ngày càng gay gắt.\nNăm 2025, trong bối cảnh kinh tế toàn cầu xuất hiện thêm nhiều biến động khó \nlường so với thời điểm xây dựng kế hoạch kinh doanh đầu năm, đặc biệt là những\ntác động từ căng thẳng thương mại và chính sách thuế quan của Mỹ, FPT vẫn duy\ntrì đà tăng trưởng hai chữ số và bám sát kế hoạch kinh doanh được đặt ra từ đầu\nnăm với doanh thu đạt 93%, lợi nhuận trước thuế đạt 97% kế hoạch. Lợi nhuận sau\nthuế thuộc về cổ đông công ty mẹ và thu nhập trên mỗi cổ phiếu (EPS) đạt tư",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Kết quả kinh doanh năm 2025",
+              "location": "phải",
+              "description": "Các chỉ số tài chính gồm doanh thu, lợi nhuận trước thuế, lợi nhuận sau thuế thuộc cổ đông công ty mẹ, thu nhập trên mỗi cổ phiếu; đơn vị tính tỷ VNĐ hoặc VNĐ; tỷ lệ tăng trưởng phần trăm so với năm trước."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p070",
+          "page": 70,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lĩnh vực Dịch vụ Viễn thông ghi nhận doanh thu đạt 18.702 tỷ đồng và lợi nhuận trước \nthuế đạt 4.167 tỷ đồng, tăng trưởng tương ứng 10,6% và 21,9% so với năm trước.\nKết quả này phản ánh hiệu quả của chiến lược mở rộng quy mô song song với tối ưu \nhóa vận hành, giúp biên lợi nhuận cải thiện rõ rệt. \nĐộng lực tăng trưởng chủ yếu đến từ mảng Dịch vụ Broadband, khi doanh nghiệp \ntiếp tục gia tăng thị phần trên cả thị trường đô thị và khu vực tỉnh thành, đồng thời \nnâng cao chất lượng hạ tầng và trải nghiệm khách hàng.\nBứt phá với Dịch vụ Broadband\nMảng Dịch vụ Broadband của FPT tiếp tục duy trì đà tăng trưởng tích cực, ghi nhận\ndoanh thu 10.007 tỷ đồng (tăng trưởng 13,7% so với năm trước), được dẫn dắt bởi \nchiến lược đầu tư hạ tầng và tiên phong công nghệ. FPT là doanh nghiệp đầu tiên \ntại Việt Nam triển khai Internet thế hệ mới XGS-PON kết hợp Wi-Fi 7, cung cấp \ntốc độ đối xứng lên tới 10 Gbps, giảm độ trễ 50%, mở rộng vùng phủ thêm 20% \nvà hỗ trợ gần 100 thiết bị kết nối đồng thời. Việc sớm thương mại hóa các công \nnghệ truy cập tiên tiến không chỉ nâng cao trải nghiệm người dùng, mà còn giúp \nFPT cải thiện khả năng giữ chân khách hàng, thúc đẩy nâng cấp gói dịch vụ và tối \nưu hóa giá trị doanh thu trên mỗi thuê bao, qua đó củng cố vững chắc vị thế trên \nthị trường băng thông rộng toàn quốc.\nDẫn đầu công nghệ truyền hình và nội dung số\nỞ mảng truyền hình và nội dung số, FPT tiếp tục gia tăng lợi thế cạnh tranh thông \nqua chiến lược đầu tư dài hạn vào nội dung bản quyền chất lượng cao. Việc FPT Play \nsở hữu bản quyền Giải Ngoại hạng Anh tại Việt Nam từ giữa mùa giải 2025-2026 \nđến hết mùa 2030-2031 đánh dấu bước ngoặt quan trọng, đưa FPT Play trở thành \nTop of Mind (Thương hiệu hàng đầu trong tâm trí khách hàng) trong lĩnh vực giải \ntrí và thể thao, đặc biệt là nội dung bóng đá. Các nội dung độc quyền có sức hút \nlớn tiếp tục đóng vai trò là động lực thúc đẩy tăng trưởng người dùng, gia tăng \nthời gian sử dụng dịch vụ và tạo hiệu ứng cộng hưởng tích cực cho hệ sinh thái \nviễn thông – giải trí của FPT.\nTrung tâm dữ liệu – Nền tảng cho tăng trưởng dài hạn\nFPT tiếp tục đẩy mạnh đầu tư hạ tầng dữ liệu nhằm đón đầu nhu cầu gia tăng \nnhanh chóng từ AI, Cloud và Chuyển đổi số. Trong năm 2025, FPT chính thức \nđưa vào vận hành Trung tâm Dữ liệu FPT Fornix HCM02 tại Khu Công nghệ cao\nTp. Hồ Chí Minh với diện tích gần 10.000 m² và sức chứa lên tới 3.600 racks, được \nthiết kế theo tiêu chuẩn quốc tế và kiến trúc dự phòng cao. Trung tâm dữ liệu này \nđóng vai trò hạ tầng trọng yếu cho các nền tảng công nghệ chiến lược của FPT, \nFPT chính thức đưa vào vận hành Trung tâm Dữ liệu FPT Fornix HCM02 tại \nKhu Công nghệ cao Tp. Hồ Chí Minh với diện tích gần 10.000 m².\ntạo điều kiện để doanh nghiệp mở rộng hệ sinh thái AI và Cloud, gia tăng tỷ trọng \ndoanh thu dịch vụ hạ tầng số có tính lặp lại, qua đó củng cố nền tảng tăng trưởng \ndoanh thu và lợi nhuận ổn định trong trung và dài hạn, đồng thời phù hợp với định \nhướng phát triển Việt Nam thành Digital Hub của khu vực.\nChuyển giao quyền đại diện vốn Nhà nước – Dấu mốc chiến lược cho giai đoạn \nphát triển mới\nViệc chuyển giao quyền đại diện chủ sở hữu phần vốn Nhà nước tại FPT Telecom \ntừ Tổng công ty Đầu tư và Kinh d",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Lễ khai trương Trung tâm Dữ liệu FPT Fornix HCM02",
+              "location": "dưới bên phải",
+              "description": "Ảnh sự kiện khai trương Trung tâm Dữ liệu FPT Fornix HCM02 tại Khu Công nghệ cao Tp. Hồ Chí Minh với diện tích gần 10.000 m²."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p020",
+          "page": 20,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Để giải quyết thách thức trên, FPT cung cấp bộ \ngiải pháp và dịch vụ hiện đại hóa hệ thống toàn \ntrình, kết hợp năng lực tư vấn, triển khai và các \ncông nghệ AI chuyên biệt. Trong đó, nổi bật là \nxMainframe, giải pháp ứng dụng AI và \nGenerative AI hỗ trợ phân tích, hiểu và chuyển \nđổi các hệ thống mainframe. xMainframe có khả \nnăng tự động phân tích mã nguồn “di sản”, tái dựng \nlogic hệ thống thông qua kỹ thuật đảo ngược \n(Reverse engineering), xác định các mối quan hệ \nphụ thuộc giữa các ứng dụng, đồng thời hỗ trợ \ntrích xuất dữ liệu và tự động tạo báo cáo. \nxMainframe được triển khai thành công tại nhiều \ndoanh nghiệp lớn. Đơn cử, tại tập đoàn sản xuất \nthép hàng đầu Nhật Bản, xMainframe đã được \nFPT sử dụng để phân tích và hợp nhất hơn 06 \ntriệu dòng mã nguồn của hệ thống legacy, giúp \ngiảm khoảng 30% khối lượng công việc thủ công \ntrong giai đoạn đánh giá ban đầu. \nĐến nay, bộ giải pháp hiện đại hóa hệ thống CNTT \n“di sản” của FPT đã giúp hơn 40 doanh nghiệp trên \ntoàn cầu, hiện đại hóa trên 300 hệ thống và chuyển \nđổi hơn 200 triệu dòng mã nguồn, khai thác hiệu quả \ngiá trị của hệ thống legacy hiện có, đồng thời tạo nền \ntảng linh hoạt cho quá trình chuyển đổi số và ứng \ndụng AI trong tương lai.\nDỰ ÁN AI NỔI BẬT\nHiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”\nDù công nghệ phát triển mạnh mẽ, nhiều doanh nghiệp \nlớn trên thế giới trong lĩnh vực tài chính, sản xuất, \nlogistics, bất động sản vẫn đang vận hành các hệ thống \nmáy tính quy mô lớn (mainframe) dựa trên ngôn ngữ \nCOBOL được xây dựng từ hàng thập kỷ trước. \nTrong hơn 1.100 khách hàng toàn cầu của FPT có \nmột tỷ lệ đáng kể vẫn đang hoạt động phụ thuộc vào \ncác hệ thống CNTT “di sản” (Legacy), đặc biệt là các \ndoanh nghiệp Nhật Bản. Bộ Kinh tế, Thương mại và \nCông nghiệp Nhật Bản (METI) đã đưa ra khái niệm \n“Vách đá số 2025” (2025 Digital Cliff) nhằm cảnh \nbáo mối đe dọa nghiêm trọng đối với năng lực cạnh \ntranh kinh tế trong tương lai nếu doanh nghiệp không \nkịp thời hiện đại hóa các hệ thống CNTT “di sản”. \nđang được vận hành trên toàn cầu\n220-300 Tỷ dòng mã \nCOBOL\n70-80% Giao dịch \nkinh doanh\ncủa doanh nghiệp dành cho duy trì\nhệ thống CNTT “di sản”\n60-80% Ngân sách \nCNTT\nHệ thống CNTT di sản 300 được khai thác hiệu quả\nDòng mã nguồn\nđược chuyển đổi\n200triệu\nDoanh nghiệp\ntoàn cầu\n40\ntrên thế giới được xử lý bởi các\nhệ thống COBOL\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về dự án AI nổi bật của FPT trong việc hiện đại hóa hệ thống máy tính quy mô lớn với AI, tập trung vào chuyển đổi các hệ thống CNTT di sản sử dụng ngôn ngữ COBOL.\ntable: Các chỉ số chính về hệ thống CNTT di sản và AI (trái) — Các chỉ số gồm số tỷ đồng mã COBOL đang vận hành toàn cầu, tỷ lệ ngân sách CNTT dành cho hệ thống di sản, tỷ lệ giao dịch kinh doanh xử lý bởi hệ thống COBOL.\ndiagram: Giải pháp AI cho hệ thống xMainframe (giữa phải) — Mô tả khả năng tự động phân tích, hiểu và chuyển đổi hệ thống mainframe bằng AI, kỹ thuật đảo ngược logic hệ thống, hỗ trợ trích xuất dữ liệu và tạo báo cáo tự động.\ntable: Hiệu quả khai thác hệ thống CNTT di sản của FPT (phải) — Số liệu về hệ thống CNTT di sản được khai thác hiệu quả, số doanh nghiệp t",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Các chỉ số chính về hệ thống CNTT di sản và AI",
+              "location": "trái",
+              "description": "Các chỉ số gồm số tỷ đồng mã COBOL đang vận hành toàn cầu, tỷ lệ ngân sách CNTT dành cho hệ thống di sản, tỷ lệ giao dịch kinh doanh xử lý bởi hệ thống COBOL."
+            },
+            {
+              "type": "diagram",
+              "title": "Giải pháp AI cho hệ thống xMainframe",
+              "location": "giữa phải",
+              "description": "Mô tả khả năng tự động phân tích, hiểu và chuyển đổi hệ thống mainframe bằng AI, kỹ thuật đảo ngược logic hệ thống, hỗ trợ trích xuất dữ liệu và tạo báo cáo tự động."
+            },
+            {
+              "type": "table",
+              "title": "Hiệu quả khai thác hệ thống CNTT di sản của FPT",
+              "location": "phải",
+              "description": "Số liệu về hệ thống CNTT di sản được khai thác hiệu quả, số doanh nghiệp toàn cầu và dòng mã nguồn được chuyển đổi."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p197",
+          "page": 197,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Nguyên giá\nTại ngày 1 tháng 1 năm 2025\nTăng do mua sắm\nTăng do XDCB hoàn thành\nThanh lý, xóa sổ\nTăng/(giảm) khác\nTại ngày 31 tháng 12 năm 2025\nGiá trị khấu hao lũy kế\nTại ngày 1 tháng 1 năm 2025\nKhấu hao trong năm\nThanh lý, xóa sổ\nKhác\nTại ngày 31 tháng 12 năm 2025\nGiá trị còn lại\nTại ngày 1 tháng 1 năm 2025\nTại ngày 31 tháng 12 năm 2025\n8.265.939.787.012 119.067.059.843 1.224.183.255.879 (3.937.344.462) 3.690.681.274 9.608.943.439.546 \n(1.567.093.008.084) (387.496.756.736) 2.838.465.617 (2.116.254.818) \n(1.953.867.554.021) \n6.698.846.778.928\n7.655.075.885.525 \n15.156.680.967.209 707.329.941.448 2.841.168.287.490 (288.250.587.887)\n(57.874.868.179)\n18.359.053.740.081\n(9.438.763.122.818) (1.842.296.879.481) 242.855.644.566 7.850.012.695\n (11.030.354.345.038) \n5.717.917.844.391 7.328.699.395.043\n118.603.134.649 25.025.113.921 - (12.683.987.343) 486.431.758 131.430.692.985 \n(74.827.360.524) (13.341.770.988) 6.596.525.683 (924.654.210) (82.497.260.039) \n43.775.774.125 48.933.432.946 \n797.137.596.070\n89.666.718.493 1.477.140.590 (24.689.790.896) 40.558.987.412 \n904.150.651.669\n(556.069.538.066) (84.126.291.020) 24.281.895.523 (26.685.478.077) (642.599.411.640) \n241.068.058.004 261.551.240.029\n119.372.181.571 5.053.984.206 856.231.509 (7.683.166.634) 864.617.069 \n118.463.847.721 \n(46.412.675.301) (9.117.709.848) 2.506.361.816 (531.293.872) \n (53.555.317.205) \n72.959.506.270\n64.908.530.516 \n24.457.733.666.511 946.142.817.911 4.067.684.915.468 (337.244.877.222) (12.274.150.666) 29.122.042.372.002 \n(11.683.165.704.793) (2.336.379.408.073) 279.078.893.205 (22.407.668.282) \n(13.762.873.887.943) \n12.774.567.961.718\n15.359.168.484.059 \nNhà cửa, \nvật kiến trúc\nMáy móc, \nthiết bị \nPhương tiện \nvận tải\nThiết bị \nquản lý\nKhác Tổng cộng\n14. Tài sản cố định\nĐơn vị: VNĐ\nNguyên giá TSCĐ hữu hình của Tập đoàn đã khấu hao hết nhưng còn sử dụng tại ngày 31 tháng 12 năm 2025 là 6.815.954.018.495 Đồng\n(tại ngày 31 tháng 12 năm 2024: 5.591.901.368.382 Đồng).\n(a) Tài sản cố định hữu hình\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng thuyết minh tài sản cố định hữu hình của FPT cho năm tài chính kết thúc ngày 31/12/2025, bao gồm nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại theo các loại tài sản.\ntable: Tài sản cố định hữu hình (giữa trang) — Bảng liệt kê nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại của các loại tài sản cố định hữu hình gồm Nhà cửa, vật kiến trúc; Máy móc, thiết bị; Phương tiện vận tải; Thiết bị quản lý; Khác; Tổng cộng, đơn vị tính bằng VNĐ, dữ liệu cho các mốc thời gian 1/1/2025 và 31/12/2025 cùng các biến động trong năm.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tài sản cố định hữu hình",
+              "location": "giữa trang",
+              "description": "Bảng liệt kê nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại của các loại tài sản cố định hữu hình gồm Nhà cửa, vật kiến trúc; Máy móc, thiết bị; Phương tiện vận tải; Thiết bị quản lý; Khác; Tổng cộng, đơn vị tính bằng VNĐ, dữ liệu cho các mốc thời gian 1/1/2025 và 31/12/2025 cùng các biến động trong năm."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p028",
+          "path": ".bonus/pages/p028.jpg",
+          "sha256": "deaa84b66973faea6593261d349d0f310773e65fcb242176db75b72d8eeab036"
+        },
+        {
+          "id": "FPT2025:p068",
+          "path": ".bonus/pages/p068.jpg",
+          "sha256": "0cf2ca80fe5c992a994cf2f8b4bdb644c89a15d0a0ed3a3f918caf024f1d003d"
+        },
+        {
+          "id": "FPT2025:p067",
+          "path": ".bonus/pages/p067.jpg",
+          "sha256": "101f983082e9411f347ecf32e446b106540b51e0ac448cc3f5ec9fffc7dd33fb"
+        },
+        {
+          "id": "FPT2025:p030",
+          "path": ".bonus/pages/p030.jpg",
+          "sha256": "36acfc5f879bb16ee24b7da31e2bb9c110fc77f9be2d25af7f5d612b82fe3ce3"
+        },
+        {
+          "id": "FPT2025:p057",
+          "path": ".bonus/pages/p057.jpg",
+          "sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+        },
+        {
+          "id": "FPT2025:p070",
+          "path": ".bonus/pages/p070.jpg",
+          "sha256": "a22f74a11737666b37662f252b3173b6d4a561e3b7e877006a2ae5fe50a21684"
+        },
+        {
+          "id": "FPT2025:p020",
+          "path": ".bonus/pages/p020.jpg",
+          "sha256": "70dfe183fadc602687375ace1667540dd9688bcd065b1918002fbabf5933a36e"
+        },
+        {
+          "id": "FPT2025:p197",
+          "path": ".bonus/pages/p197.jpg",
+          "sha256": "1ed789f08060d39812e09a8c5d8d5d5517c443ca5a8f56230849c04055d42550"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794804837-fIIJoPook9Bitmtmosox",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01SjwYJsdPKtbgCYxfMKtzz8",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Mốc 1998 trên dòng thời gian \\\"Hành trình khẳng định năng lực và vị thế\\\" ghi nhận: triển khai thành công Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế của Việt Nam, với 61 máy chủ và hơn 500 máy trạm.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p028\",\"region\":\"Dòng thời gian phía trên (ô 1998, góc trên bên phải trang), mô tả triển khai Hệ thống Quản lý đối tượng nộp thuế VAT cho 61 cục Thuế\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p028",
+    "FPT2025:p068",
+    "FPT2025:p067",
+    "FPT2025:p030",
+    "FPT2025:p057",
+    "FPT2025:p070",
+    "FPT2025:p020",
+    "FPT2025:p197"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p028",
+      "page": 28,
+      "image": ".bonus/pages/p028.jpg",
+      "image_sha256": "deaa84b66973faea6593261d349d0f310773e65fcb242176db75b72d8eeab036"
+    },
+    {
+      "id": "FPT2025:p068",
+      "page": 68,
+      "image": ".bonus/pages/p068.jpg",
+      "image_sha256": "0cf2ca80fe5c992a994cf2f8b4bdb644c89a15d0a0ed3a3f918caf024f1d003d"
+    },
+    {
+      "id": "FPT2025:p067",
+      "page": 67,
+      "image": ".bonus/pages/p067.jpg",
+      "image_sha256": "101f983082e9411f347ecf32e446b106540b51e0ac448cc3f5ec9fffc7dd33fb"
+    },
+    {
+      "id": "FPT2025:p030",
+      "page": 30,
+      "image": ".bonus/pages/p030.jpg",
+      "image_sha256": "36acfc5f879bb16ee24b7da31e2bb9c110fc77f9be2d25af7f5d612b82fe3ce3"
+    },
+    {
+      "id": "FPT2025:p057",
+      "page": 57,
+      "image": ".bonus/pages/p057.jpg",
+      "image_sha256": "91d9429b19bf98734f64cad97a28a45f14160a355ba2fc8bff5fa1770571e37d"
+    },
+    {
+      "id": "FPT2025:p070",
+      "page": 70,
+      "image": ".bonus/pages/p070.jpg",
+      "image_sha256": "a22f74a11737666b37662f252b3173b6d4a561e3b7e877006a2ae5fe50a21684"
+    },
+    {
+      "id": "FPT2025:p020",
+      "page": 20,
+      "image": ".bonus/pages/p020.jpg",
+      "image_sha256": "70dfe183fadc602687375ace1667540dd9688bcd065b1918002fbabf5933a36e"
+    },
+    {
+      "id": "FPT2025:p197",
+      "page": 197,
+      "image": ".bonus/pages/p197.jpg",
+      "image_sha256": "1ed789f08060d39812e09a8c5d8d5d5517c443ca5a8f56230849c04055d42550"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794804835-hKpXY5KbhyPoDRt4rLvV",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1817,
+        "completion_tokens": 65,
+        "total_tokens": 1882,
+        "cost": 0.0002142,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002142,
+          "upstream_inference_prompt_cost": 0.0001817,
+          "upstream_inference_completions_cost": 3.25e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1147.1434000413865,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794804837-fIIJoPook9Bitmtmosox",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 33573,
+        "completion_tokens": 292,
+        "total_tokens": 33865,
+        "cost": 0.0035033,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0035033,
+          "upstream_inference_prompt_cost": 0.0033573,
+          "upstream_inference_completions_cost": 0.000146
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5291.81670001708,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 6488.617900002282,
+  "query_id": "fd-i2",
+  "question": "Trên dòng thời gian hành trình FPT, mốc 1998 ghi nhận triển khai hệ thống gì, cho bao nhiêu cục thuế?",
+  "split": "dev",
+  "config": "vision"
+}

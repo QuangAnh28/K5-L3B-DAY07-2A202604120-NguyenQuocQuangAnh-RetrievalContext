@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p066",
+  "image_sha256": "e101a7f3eed494104189b789cb3d35c0ea84c448797e72aef0bee40c1776de96",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về lĩnh vực dịch vụ CNTT cho thị trường trong nước của FPT, các dự án chuyển đổi số, và vai trò của FPT trong chuyển đổi số quốc gia năm 2025.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Các chỉ số chính về dịch vụ CNTT trong nước",
+        "location": "trái trên",
+        "description": "Top 1 công ty tư vấn và cung cấp sản phẩm, giải pháp, dịch vụ công nghệ; 40 dự án thúc đẩy chuyển đổi số; hơn 100.000 dự án số đa quy mô; 24 tỉnh thành hợp tác chuyển đổi số."
+      },
+      {
+        "type": "photo",
+        "title": "14 sản phẩm giải pháp Made by FPT được công bố trên Cổng Thông tin Nghị quyết 57",
+        "location": "trái dưới",
+        "description": "Ảnh chụp màn hình trang web Bộ Khoa học và Công nghệ giới thiệu 14 sản phẩm giải pháp công nghệ của FPT."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800732-BPs475gNjd2u6q1CVY6J",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 205,
+        "total_tokens": 2767,
+        "cost": 0.0013528,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013528,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5225.0946999993175,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

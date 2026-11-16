@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p023",
+  "image_sha256": "fea767c1fc1be3b3924da6b29b1e247bfd5f6aeb40fbcb5de7234a6705592714",
+  "caption": {
+    "summary": "Trang tổng quan về FPT cung cấp thông tin chung về công ty, bao gồm tên, mã chứng khoán, ngày thành lập, giấy chứng nhận đăng ký kinh doanh, vốn điều lệ, vốn chủ sở hữu, giá trị vốn hóa, trụ sở chính và thông tin liên hệ.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Trụ sở chính FPT",
+        "location": "giữa",
+        "description": "Ảnh chụp tòa nhà trụ sở chính của FPT với logo FPT ở phía trước."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800701-IAMnwHh7gdKzTjSdhlFe",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 113,
+        "total_tokens": 2675,
+        "cost": 0.0012056,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012056,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001808
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2716.8288999819197,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

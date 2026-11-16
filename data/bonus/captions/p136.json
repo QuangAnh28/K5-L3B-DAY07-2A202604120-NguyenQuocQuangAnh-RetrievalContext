@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p136",
+  "image_sha256": "124d8065ab3783be999295ae3c64cd294438045c598d468c58fce965718b2726",
+  "caption": {
+    "summary": "Trang trình bày về kiểm soát nội bộ của Tập đoàn FPT, bao gồm mô hình kiểm soát nội bộ với các chủ thể và trách nhiệm cụ thể, cùng các hoạt động kiểm soát trọng điểm trong năm.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Mô hình kiểm soát nội bộ",
+        "location": "giữa trang",
+        "description": "Bảng liệt kê các chủ thể gồm Tổng giám đốc, Trưởng Ban Giám sát tuân thủ, Giám đốc Ban Đảm bảo chất lượng, Trưởng các bộ phận chức năng ngành dọc và trách nhiệm tương ứng của từng chủ thể trong việc kiểm soát nội bộ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800777-mNKzs82v3djVdiWu4V6h",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 145,
+        "total_tokens": 2707,
+        "cost": 0.0012568,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012568,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000232
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 7195.491199963726,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

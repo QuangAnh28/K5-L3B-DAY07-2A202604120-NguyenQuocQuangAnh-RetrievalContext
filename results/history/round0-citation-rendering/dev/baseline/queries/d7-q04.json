@@ -1,0 +1,256 @@
+{
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_IZwrlbLNGqqOh5RbCmYPFGjY",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"Văn phòng đại diện hoạt động sinh lợi trực tiếp tại Việt Nam\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797309-ChAFLyPk5TdkpxXKty5B"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Văn phòng đại diện có được hoạt động sinh lợi trực tiếp tại Việt Nam không?",
+      "model_query": "Văn phòng đại diện hoạt động sinh lợi trực tiếp tại Việt Nam",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 17"
+          },
+          "score": 0.5352990623432808,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 6,
+          "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 6,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 18"
+          },
+          "score": 0.5185034156404913,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-fcec1f331803a01f",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 40,
+          "text": "1. Thông báo ngay cho bên đại diện về việc giao k ết hợp đồng mà bên đại diện đã giao dịch, việc thực hiện hợp đồng mà bên đại diện đã giao kết, việc chấp nhận hay không ch ấp nhận các hoạt động ngoài phạm vi đại diện mà bên đại diện thực hiện;\n\n2. Cung c ấp tài s ản, tài li ệu, thông tin c ần thi ết để bên đại diện thực hiện hoạt động đại diện;\n\n3. Trả thù lao và các chi phí h ợp lý khác cho bên đại diện;\n\n4. Thông báo k ịp thời cho bên đại diện về khả năng không giao k ết được, không thực hiện được hợp đồng trong phạm vi đại diện.\n\nĐiều 147. Quyền hưởng thù lao đại diện\n\n1. Bên đại diện được hưởng thù lao đối với hợp đồng được giao k ết trong phạm vi đại diện. Quyền được hưởng thù lao phát sinh t ừ thời điểm do các bên thoả thuận trong hợp đồng đại diện.\n\n2. Trường hợp không có thỏa thuận, mức thù lao cho bên đại diện được xác định theo quy định tại Điều 86 của Luật này.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 40,
+            "year": 2005,
+            "chapter": "Chương V",
+            "article": "Điều 147"
+          },
+          "score": 0.36818423731392763,
+          "strategy": "tfidf"
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+        "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_5nzO2MKBjytF2JaXwlx7lQgR",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Văn phòng đại diện không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794797314-Rx4phywYFt9A57wnNtpj"
+    },
+    {
+      "event": "abstain",
+      "reason": "invalid_citations"
+    }
+  ],
+  "context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794797309-ChAFLyPk5TdkpxXKty5B",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 19,
+        "total_tokens": 309,
+        "cost": 0.0001464,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001464,
+          "upstream_inference_prompt_cost": 0.000116,
+          "upstream_inference_completions_cost": 3.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1971.995399973821,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794797314-Rx4phywYFt9A57wnNtpj",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1206,
+        "completion_tokens": 65,
+        "total_tokens": 1271,
+        "cost": 0.0005864,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005864,
+          "upstream_inference_prompt_cost": 0.0004824,
+          "upstream_inference_completions_cost": 0.000104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4793.249200040009,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 6770.4414000036195,
+  "searches": 1,
+  "query_id": "d7-q04",
+  "question": "Văn phòng đại diện có được hoạt động sinh lợi trực tiếp tại Việt Nam không?",
+  "split": "dev",
+  "config": "baseline",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 6,
+      "text": "nhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 6,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 17"
+      },
+      "score": 0.5352990623432808,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 6,
+      "text": "5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 6,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 18"
+      },
+      "score": 0.5185034156404913,
+      "strategy": "tfidf"
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p40-paragraph-1000-fcec1f331803a01f",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 40,
+      "text": "1. Thông báo ngay cho bên đại diện về việc giao k ết hợp đồng mà bên đại diện đã giao dịch, việc thực hiện hợp đồng mà bên đại diện đã giao kết, việc chấp nhận hay không ch ấp nhận các hoạt động ngoài phạm vi đại diện mà bên đại diện thực hiện;\n\n2. Cung c ấp tài s ản, tài li ệu, thông tin c ần thi ết để bên đại diện thực hiện hoạt động đại diện;\n\n3. Trả thù lao và các chi phí h ợp lý khác cho bên đại diện;\n\n4. Thông báo k ịp thời cho bên đại diện về khả năng không giao k ết được, không thực hiện được hợp đồng trong phạm vi đại diện.\n\nĐiều 147. Quyền hưởng thù lao đại diện\n\n1. Bên đại diện được hưởng thù lao đối với hợp đồng được giao k ết trong phạm vi đại diện. Quyền được hưởng thù lao phát sinh t ừ thời điểm do các bên thoả thuận trong hợp đồng đại diện.\n\n2. Trường hợp không có thỏa thuận, mức thù lao cho bên đại diện được xác định theo quy định tại Điều 86 của Luật này.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 40,
+        "year": 2005,
+        "chapter": "Chương V",
+        "article": "Điều 147"
+      },
+      "score": 0.36818423731392763,
+      "strategy": "tfidf"
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\nnhân n ước ngoài ph ải ch ịu trách nhi ệm tr ước pháp lu ật Vi ệt Nam v ề toàn b ộ hoạt động của Văn phòng đại diện, Chi nhánh của mình tại Việt Nam.\n\n4. Doanh nghi ệp có v ốn đầu tư nước ngoài được thương nhân n ước ngoài thành l ập t ại Vi ệt Nam theo quy định c ủa pháp lu ật Vi ệt Nam ho ặc điều ước quốc tế mà C ộng hoà xã h ội ch ủ ngh ĩa Vi ệt Nam là thành viên thì được coi là thương nhân Việt Nam.\n\nĐiều 17. Quyền của Văn phòng đại diện\n\n1. Hoạt động đúng mục đích, phạm vi và thời hạn được quy định trong giấy phép thành lập Văn phòng đại diện.\n\n2. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Văn phòng đại diện.\n\n3. Tuyển dụng lao động là người Việt Nam, ng ười nước ngoài để làm việc tại Văn phòng đại diện theo quy định của pháp luật Việt Nam.\n\n4. M ở tài kho ản b ằng ngo ại t ệ, b ằng đồng Vi ệt Nam có g ốc ngo ại t ệ t ại ngân hàng được phép hoạt động tại Việt Nam và ch ỉ được sử dụng tài khoản này vào hoạt động của Văn phòng đại diện.\n\n[luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 6]\n5. Có con d ấu mang tên V ăn phòng đại diện theo quy định c ủa pháp lu ật Việt Nam.\n\n6. Các quyền khác theo quy định của pháp luật.\n\nĐiều 18. Nghĩa vụ của Văn phòng đại diện\n\n1. Không được thực hiện hoạt động sinh lợi trực tiếp tại Việt Nam.\n\n2. Chỉ được thực hiện các hoạt động xúc tiến thương mại trong phạm vi mà Luật này cho phép.\n\n3. Không được giao k ết hợp đồng, sửa đổi, bổ sung h ợp đồng đã giao k ết của thương nhân nước ngoài, trừ trường hợp Trưởng Văn phòng đại diện có gi ấy uỷ quyền hợp pháp của thương nhân nước ngoài hoặc các trường hợp quy định tại các khoản 2, 3 và 4 Điều 17 của Luật này.\n\n4. Nộp thuế, phí, l ệ phí và th ực hiện các ngh ĩa vụ tài chính khác theo quy định của pháp luật Việt Nam.\n\n5. Báo cáo hoạt động của Văn phòng đại diện theo quy định của pháp lu ật Việt Nam.\n\n6. Các nghĩa vụ khác theo quy định của pháp luật.\n\nĐiều 19. Quyền của Chi nhánh\n\n1. Thuê trụ sở, thuê, mua các phương tiện, vật dụng cần thiết cho hoạt động của Chi nhánh.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-dcde253fd75c547e",
+    "luat-thuong-mai-36-2005-qh11-p6-paragraph-1000-d1af2689902a5a44"
+  ],
+  "original_hit1": false,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

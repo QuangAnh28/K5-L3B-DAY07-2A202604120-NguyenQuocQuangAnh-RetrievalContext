@@ -1,0 +1,458 @@
+{
+  "status": "answered",
+  "answer": "Theo biểu đồ \"Tỷ lệ số hoá tài liệu giai đoạn 2022-2025\" (trang 152), tỷ lệ văn bản cứng cao nhất là năm 2022 với 92,9% (tỷ lệ văn bản phát hành điện tử là 7,1%). Tỷ lệ văn bản cứng năm 2025 là 4,58% (tỷ lệ phát hành điện tử 95,42%).\n[FPT2025:p152 — Biểu đồ cột \"Tỷ lệ số hoá tài liệu giai đoạn 2022-2025\" (dưới bên trái), nhãn tỷ lệ văn bản cứng (màu cam) các năm 2022 = 92,9%, 2025 = 4,58%]",
+  "citations": [
+    {
+      "id": "FPT2025:p152",
+      "region": "Biểu đồ cột \"Tỷ lệ số hoá tài liệu giai đoạn 2022-2025\" (dưới bên trái), nhãn tỷ lệ văn bản cứng (màu cam) các năm 2022 = 92,9%, 2025 = 4,58%"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805412-FqjDtr258ZSijahWCx4D",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01BnZBQYp8qGCSRJ9RS4kcgd",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"biểu đồ số hóa tài liệu 2022-2025 tỷ lệ văn bản cứng\",\"tỷ lệ văn bản cứng năm 2025 số hóa tài liệu\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trong biểu đồ số hóa tài liệu 2022–2025, tỷ lệ văn bản cứng cao nhất ở năm nào và tỷ lệ văn bản cứng năm 2025 là bao nhiêu?",
+      "model_queries": [
+        "biểu đồ số hóa tài liệu 2022-2025 tỷ lệ văn bản cứng",
+        "tỷ lệ văn bản cứng năm 2025 số hóa tài liệu"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "score": 0.031024531024531024,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "score": 0.028438886647841874,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 14
+          }
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p172",
+          "page": 172,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        },
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p035",
+          "page": 35,
+          "score": 0.015625,
+          "component_ranks": {
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "score": 0.015625,
+          "component_ranks": {
+            "dense": 4
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trong biểu đồ số hóa tài liệu 2022–2025, tỷ lệ văn bản cứng cao nhất ở năm nào và tỷ lệ văn bản cứng năm 2025 là bao nhiêu?"
+      ],
+      "context_ids": [
+        "FPT2025:p152",
+        "FPT2025:p011",
+        "FPT2025:p036",
+        "FPT2025:p159",
+        "FPT2025:p172",
+        "FPT2025:p031",
+        "FPT2025:p035",
+        "FPT2025:p171"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p152",
+          "page": 152,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Năm 2025, FPT không chỉ tập trung vào việc hỗ trợ các doanh nghiệp khác chuyển \nmình thành doanh nghiệp xanh mà còn mạnh mẽ thúc đẩy quá trình chuyển đổi số \nnội bộ để tối ưu hóa hoạt động và gián tiếp giảm thiểu tác động tiêu cực đến môi trường. \nĐặc biệt, hầu hết các quy trình quản trị và vận hành của Tập đoàn được số hóa, \nchuyển sang mô hình doanh nghiệp thông minh và hiệu quả hơn.\nNgoài ra, FPT triển khai kế hoạch sử dụng văn bản điện tử (Paperless), bắt đầu với \nviệc rà soát toàn bộ tài liệu và phân loại các tài liệu cần ký số hoặc ký bản cứng. \nNăm 2025, tỷ lệ sử dụng paperless tại FPT đạt 95,42%, đặc biệt, hợp đồng giao dịch \nđiện tử chiếm khoảng 97% tổng số hợp đồng ký kết. So với năm 2024, các chỉ số \nnày ghi nhận mức cải thiện rõ rệt, giúp tiết kiệm chi phí, thời gian và góp phần bảo vệ \nmôi trường. Đây là những bước đi quan trọng nhằm tiến gần hơn đến mục tiêu \ntrở thành doanh nghiệp không giấy tờ, giảm thiểu tác động đến môi trường và \nnâng cao hiệu quả công việc.\nViệc tiếp nhận và xử lý văn bản cũng được số hóa hoàn toàn thông qua phần mềm \nquản lý văn bản do Tập đoàn phát triển. Điều này không chỉ rút ngắn thời gian xử lý \nmà còn nâng cao tính chính xác trong công tác quản lý. 100% văn bản nội bộ của \nTập đoàn (ngoại trừ các văn bản quan trọng, mật) đều được phát hành điện tử, tạo ra \nmột quy trình làm việc nhanh chóng và hiệu quả.\n• Văn phòng không giấy tờ\n2022 2023 2024 2025\n7,1%\n92,9%\n17,6%\n82,4%\n78,9% 95,42%\n21,1% 4,58%\nTỷ lệ văn bản phát \nhành điện tử\nTỷ lệ văn bản cứng\nTỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025\n2025\n2024\n2023\n0 10 20 30 40 50 60 70 80 90 100\n94,0%\n73,2%\n67,8%\n32,2%\n26,8%\n6,0%\nHọp trực tuyến\nHọp trực tiếp\nBên cạnh đó, Tập đoàn cũng khuyến khích CBNV sử dụng các giải pháp công nghệ \nhỗ trợ họp/trao đổi trực tuyến thay thế cho việc thường xuyên đi công tác để giảm \nlượng khí thải carbon từ phương tiện cá nhân.\nSố liệu biểu đồ phản ánh tỷ lệ các cuộc họp trực tuyến tại FPT tăng đều qua các \nnăm, đạt 94% vào năm 2025, phản ánh nỗ lực đẩy mạnh ứng dụng công nghệ số \ntrong quản trị và vận hành. Việc giảm tỷ lệ họp trực tiếp góp phần hạn chế nhu cầu \ndi chuyển, qua đó giảm tiêu thụ năng lượng và phát thải gián tiếp, phù hợp với \nmục tiêu phát triển bền vững của Tập đoàn.\nTỷ lệ số hoá tài liệu giai đoạn 2022-2025\n100\n80\n60\n40\n20\n0\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày chiến lược văn phòng không giấy tờ của FPT năm 2025, tập trung vào chuyển đổi số nội bộ, sử dụng văn bản điện tử và tăng tỷ lệ họp trực tuyến nhằm giảm tác động môi trường và nâng cao hiệu quả công việc.\nchart: Tỷ lệ số hóa tài liệu giai đoạn 2022-2025 (dưới bên trái) — Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm.\nchart: Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025 (dưới bên phải) — Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tỷ lệ số hóa tài liệu giai đoạn 2022-2025",
+              "location": "dưới bên trái",
+              "description": "Biểu đồ cột thể hiện tỷ lệ văn bản phát hành điện tử (màu xanh) và văn bản cứng (màu cam) qua các năm 2022, 2023, 2024, 2025 với tỷ lệ phần trăm cụ thể từng năm."
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ lệ các cuộc họp trực tuyến và trực tiếp giai đoạn 2023-2025",
+              "location": "dưới bên phải",
+              "description": "Biểu đồ thanh ngang so sánh tỷ lệ phần trăm các cuộc họp trực tuyến (màu xanh) và họp trực tiếp (màu cam) trong các năm 2023, 2024, 2025."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2021 2022 2023 2024 2025\n30\n20\n10\n0\nTỷ suất sinh lời\ntrên vốn chủ sở hữu (ROE)\n28,1%\nTỷ suất sinh lời\ntrên tổng tài sản (ROA) \n14,1%\nROA (%)\nROE (%)\n26,7% 27,7% 27,9% 28,5% 28,1%\n11,4% 11,9% 13,6% 14,4% 14,1%\n1.697 2.011 2.374 2.741 3.185\n2021 2022 2023 2024 2025\n3.500\n3.000\n2.500\n2.000\n1.500\n1.000\n500\n0\n16,2% so với cùng kỳ\nCổ tức bằng tiền mặt\n3.185 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n5.750 7.112 8.167 10.117 11.078\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n9,5% so với cùng kỳ\nĐóng góp Ngân sách Nhà nước\nTỷ VNĐ 11.078\nĐơn vị: Tỷ VNĐ\nĐảm bảo tăng trưởng ổn định (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chỉ số tài chính quan trọng của FPT năm 2025, bao gồm cổ tức tiền mặt, đóng góp ngân sách nhà nước, và tỷ suất sinh lời trên vốn chủ sở hữu và tổng tài sản.\nchart: Cổ tức bằng tiền mặt (trái trên) — Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Đóng góp Ngân sách Nhà nước (phải trên) — Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA) (dưới) — Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cổ tức bằng tiền mặt",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Đóng góp Ngân sách Nhà nước",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA)",
+              "location": "dưới",
+              "description": "Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p036",
+          "page": 36,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lần Thời điểm\nphát hành\nVốn điều lệ\nsau khi phát hành\nLý do\nGiá cao nhất Giá thấp nhất Khối lượng giao dịch/Ngày Khối lượng giao dịch nhiều nhất Khối lượng giao dịch ít nhất\n38\n39\n40\n41\n42\n43\n05/2023\n07/2023\n06/2024\n10/2024\n05/2025\n07/2025\n11.043.316.220.000\n12.699.688.750.000\n14.604.480.660.000\n14.710.691.830.000\n14.813.301.220.000\n17.035.071.210.000\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có \nthành tích đóng góp trong năm 2022; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu \ncho đối tượng là cán bộ lãnh đạo cấp cao năm 2023.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2022.\nTăng vốn điều lệ sau phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông hiện hữu \ntheo tỷ lệ 15%.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV \ncó thành tích đóng góp trong năm 2023 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2024.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng CBNV có \nthành tích đóng góp trong năm 2024 và phát hành cổ phiếu theo chương trình lựa chọn cho đối \ntượng là cán bộ lãnh đạo cấp cao năm 2025.\nTăng vốn điều lệ sau đợt phát hành cổ phiếu để tăng vốn từ nguồn vốn chủ sở hữu cho cổ đông \nĐơn vị: VNĐ\n• Thống kê giao dịch và giá cổ phiếu năm 2025 Tính từ ngày 01/01/2025-31/12/2025\n131.708\nVNĐ/Cổ phiếu\n86.104\nVNĐ/Cổ phiếu\n7.594.874\nCổ phiếu\n23.514.300\nCổ phiếu\n1.005.400\nCổ phiếu\n• Tình hình thay đổi vốn điều lệ (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo về tình hình thay đổi vốn điều lệ của FPT từ năm 2023 đến 2025 và thống kê giao dịch, giá cổ phiếu năm 2025.\ntable: Tình hình thay đổi vốn điều lệ (trên) — Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ.\ntable: Thống kê giao dịch và giá cổ phiếu năm 2025 (dưới) — Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình thay đổi vốn điều lệ",
+              "location": "trên",
+              "description": "Bảng liệt kê các lần phát hành cổ phiếu với thời điểm phát hành, vốn điều lệ sau phát hành và lý do phát hành từ lần 38 đến lần 43, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Thống kê giao dịch và giá cổ phiếu năm 2025",
+              "location": "dưới",
+              "description": "Bảng thống kê giá cổ phiếu cao nhất, thấp nhất, khối lượng giao dịch trung bình/ngày, khối lượng giao dịch nhiều nhất và ít nhất trong năm 2025, đơn vị VNĐ/cổ phiếu và số lượng cổ phiếu."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.\ndiagram: Biểu tượng tài chính và biểu đồ (phải) — Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Biểu tượng tài chính và biểu đồ",
+              "location": "phải",
+              "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p172",
+          "page": 172,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "25\n26\n27\n30\nTiền chi đầu tư góp vốn vào đơn vị khác\nTiền thu hồi đầu tư góp vốn vào đơn vị khác\nTiền thu lãi cho vay, cổ tức và lợi nhuận được chia\nLưu chuyển tiền thuần từ hoạt động đầu tư\n(710.700.052.777)\n23.532.256.656 \n2.000.759.192.153\n(11.624.743.591.629)\n(1.106.193.484.800)\n48.102.486.048\n1.530.174.506.877\n(8.461.812.173.101)\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ (Tiếp theo)\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG TÀI CHÍNH\n31\n33\n34\n35\n36\n40\n50\n60\n61\n70\nTiền thu từ phát hành cổ phiếu\nTiền thu từ đi vay\nTiền chi trả nợ gốc vay\nTiền chi trả nợ gốc thuê tài chính\nTiền cổ tức, lợi nhuận đã trả cho chủ sở hữu\nLưu chuyển tiền thuần từ hoạt động tài chính\nLưu chuyển tiền thuần trong năm\nTiền và tương đương tiền đầu năm\nẢnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ \nTiền và tương đương tiền cuối năm\n1.196.235.184.778 \n43.070.812.885.074 \n(36.890.984.827.601)\n(986.795.056)\n(4.573.753.577.663)\n2.801.322.869.532 \n1.312.623.193.814\n9.315.440.438.884 \n(105.957.902.706)\n10.522.105.729.992\n163.342.989.874\n30.946.282.706.201\n(30.013.226.682.923)\n(2.305.346.865)\n(3.291.859.792.121)\n(2.197.766.125.834)\n1.044.198.889.933\n8.279.156.683.221\n(7.915.134.270)\n9.315.440.438.884\nĐơn vị: VNĐ\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nNgày 18 tháng 3 năm 2026\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\n(Tiếp theo)\n4\n4\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày chi tiết các khoản tiền từ hoạt động đầu tư và hoạt động tài chính trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Bảng liệt kê các khoản mục lưu chuyển tiền từ hoạt động đầu tư và hoạt động tài chính, gồm mã số, thuyết minh, và số liệu năm 2025, 2024, đơn vị VND.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Bảng liệt kê các khoản mục lưu chuyển tiền từ hoạt động đầu tư và hoạt động tài chính, gồm mã số, thuyết minh, và số liệu năm 2025, 2024, đơn vị VND."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p031",
+          "page": 31,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CƠ CẤU QUẢN TRỊ VÀ BỘ MÁY QUẢN LÝ\nFPT hoạt động theo mô hình được quy \nđịnh tại Mục a, Khoản 1, Điều 137 của \nLuật Doanh nghiệp bao gồm: Đại hội \nđồng cổ đông (ĐHĐCĐ), Hội đồng \nquản trị (HĐQT), Ban Kiểm soát (BKS) \nvà Tổng giám đốc. \nTheo Báo cáo tài chính hợp nhất, tính \nđến thời điểm 31/12/2025, mô hình \nhoạt động của Tập đoàn gồm 08 công \nty con trực tiếp và 02 công ty liên kết \nchính. Xem thông tin chi tiết về các \ncông ty con, công ty liên kết chính tại \nmục Báo cáo tài chính hợp nhất.\nSơ đồ tổ chức\nHỘI ĐỒNG QUẢN TRỊ\nTỔNG GIÁM ĐỐC \nVÀ BAN ĐIỀU HÀNH\nỦY BAN NHÂN SỰ VÀ \nLƯƠNG THƯỞNG\nỦY BAN CHÍNH SÁCH \nPHÁT TRIỂN\nVĂN PHÒNG \nCHỦ TỊCH HĐQT\nBỘ PHẬN KIỂM \nTOÁN NỘI BỘ\nĐẠI HỘI ĐỒNG CỔ ĐÔNG\nBAN KIỂM SOÁT\nCÔNG TY LIÊN KẾT\nKHỐI CÔNG NGHỆ\nKHỐI VIỄN THÔNG\nCÔNG TY CON\nTẬP ĐOÀN\nFPT Smart Cloud\nFPT Telecom\nFPT Education\nFPT Digital\nFPT Online\nFPT Investment\nFPT Software FPT IS\nChi nhánh Tp.HCM\nBan Công nghệ\nBan Công nghệ thông tin\nVăn phòng Chuyển đổi số\nBan Nhân sự\nBan Đảm bảo chất lượng\nBan Tài chính Kế hoạch\nBan Giám sát Tuân thủ\nBan Truyền thông\nBan Mua sắm \nBan Văn hóa Đoàn thể\nVăn phòng\nBộ phận phát triển\ncác dự án chiến lược \nSynnex FPT\nFPT Retail\nKHỐI GIÁO DỤC,\nĐẦU TƯ VÀ KHÁC \nVốn điều lệ \n7.750.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n60.000.000.000 VNĐ \nTỷ lệ sở hữu: 100%\nVốn điều lệ \n184.712.750.000 VNĐ\nTỷ lệ sở hữu: 49,52%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n4.500.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n7.387.634.630.000 VNĐ\nTỷ lệ sở hữu: 45,66%\nVốn điều lệ \n1.000.000.000.000 VNĐ\nTỷ lệ sở hữu: 100%\nVốn điều lệ \n1.188.400.000.000 VNĐ\nTỷ lệ sở hữu: 48,00%\nVốn điều lệ \n1.703.017.850.000 VNĐ\nTỷ lệ sở hữu: 46,54%\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày sơ đồ tổ chức và cơ cấu quản trị của Tập đoàn FPT, bao gồm các cấp quản lý từ Đại hội đồng cổ đông đến các công ty con và công ty liên kết, cùng các ban và bộ phận chức năng.\ndiagram: Sơ đồ tổ chức quản trị và bộ máy quản lý FPT (phải) — Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Sơ đồ tổ chức quản trị và bộ máy quản lý FPT",
+              "location": "phải",
+              "description": "Các cấp quản lý từ Đại hội đồng cổ đông, Hội đồng quản trị, Ban kiểm soát, Tổng giám đốc và Ban điều hành, đến các công ty con, công ty liên kết và các ban chức năng. Có phân chia các khối công nghệ, viễn thông, giáo dục, đầu tư và khác. Thể hiện vốn điều lệ và tỷ lệ sở hữu của các công ty con và liên kết."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p035",
+          "page": 35,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lần Thời điểm\nphát hành\nVốn điều lệ\nsau khi phát hành\nLý do\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n04/2015\n06/2015\n04/2016\n06/2016\n04/2017\n06/2017\n04/2018\n06/2018\n04/2019\n06/2019\n04/2020\n06/2020\n04/2021\n06/2021\n05/2022\n07/2022\n3.456.959.170.000\n3.975.316.400.000\n3.995.184.690.000\n4.594.266.840.000\n4.617.230.540.000\n5.309.611.050.000\n5.336.156.610.000\n6.136.367.720.000\n6.167.039.720.000\n6.783.586.880.000\n6.817.504.780.000\n7.839.874.860.000\n7.891.972.540.000\n9.075.516.490.000\n9.141.959.140.000\n10.970.265.720.000\nTăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2014.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2014.\nTăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2015.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2015.\nTăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2016.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2016.\nTăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2017.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2017.\nTăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2018.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 10% từ kết quả kinh doanh năm 2018.\nTăng vốn điều lệ thông qua phát hành cổ phiếu cho CBNV có thành tích đóng góp trong năm 2019.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2019.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có \nthành tích đóng góp trong năm 2020; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu \ncho đối tượng là cán bộ lãnh đạo cấp cao năm 2021.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 15% từ kết quả kinh doanh năm 2020.\nTăng vốn điều lệ thông qua phát hành cổ phiếu theo chương trình lựa chọn cho đối tượng là CBNV có \nthành tích đóng góp trong năm 2021; phát hành cổ phiếu mới theo chương trình phát hành cổ phiếu \ncho đối tượng là cán bộ lãnh đạo cấp cao năm 2022.\nTăng vốn điều lệ thông qua trả cổ tức bằng cổ phiếu theo tỷ lệ 20% từ kết quả kinh doanh năm 2021.\n• Tình hình thay đổi vốn điều lệ (Tiếp theo) Đơn vị: VNĐ\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng thể hiện tình hình thay đổi vốn điều lệ của FPT qua các lần phát hành cổ phiếu từ năm 2015 đến năm 2022, kèm theo lý do tăng vốn.\ntable: Tình hình thay đổi vốn điều lệ (phải) — Bảng gồm các cột: Lần phát hành, Thời điểm phát hành, Vốn điều lệ sau khi phát hành (đơn vị VNĐ), Lý do tăng vốn điều lệ qua các năm từ 2015 đến 2022.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Tình hình thay đổi vốn điều lệ",
+              "location": "phải",
+              "description": "Bảng gồm các cột: Lần phát hành, Thời điểm phát hành, Vốn điều lệ sau khi phát hành (đơn vị VNĐ), Lý do tăng vốn điều lệ qua các năm từ 2015 đến 2022."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p171",
+          "page": 171,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "LƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG ĐẦU TƯ\nLƯU CHUYỂN TIỀN TỪ HOẠT ĐỘNG KINH DOANH\n01\n02\n03\n04\n05\n06\n08\n09\n10\n11\n12\n14\n15\n17\n20\nLợi nhuận kế toán trước thuế\nĐiều chỉnh cho các khoản:\nKhấu hao tài sản cố định (“TSCĐ”) và phân bổ lợi thế thương mại\nCác khoản dự phòng\n(Lãi)/lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục\ntiền tệ có gốc ngoại tệ\nLãi từ hoạt động đầu tư\nChi phí lãi vay\nLợi nhuận từ hoạt động kinh doanh trước những thay đổi vốn lưu động\nTăng các khoản phải thu\nTăng hàng tồn kho\nTăng các khoản phải trả\nTăng chi phí trả trước\nTiền lãi vay đã trả\nThuế TNDN đã nộp\nTiền chi khác từ hoạt động kinh doanh\nLưu chuyển tiền thuần từ hoạt động kinh doanh\n13.043.632.833.797\n2.914.178.360.732 \n651.406.282.654\n(27.776.460.391)\n(2.575.840.046.010) \n809.759.601.156 \n14.815.360.571.938 \n(2.874.821.969.471)\n(335.071.616.492)\n2.556.427.255.416\n(595.604.484.389)\n(812.474.254.533)\n(2.238.070.257.305)\n(379.701.329.253)\n10.136.043.915.911\n11.069.666.417.819\n2.535.298.475.665\n1.148.951.390.915\n46.311.803.197\n(1.725.022.480.893)\n551.639.361.786\n13.626.844.968.489\n(1.913.663.012.505)\n(265.267.561.842)\n2.875.571.263.689\n(393.964.502.357)\n(607.154.747.076)\n(1.209.921.507.569)\n(408.667.711.961)\n11.703.777.188.868\nBÁO CÁO LƯU CHUYỂN TIỀN TỆ HỢP NHẤT Mẫu số B 03 – DN/HN\n(Theo phương pháp gián tiếp)\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\nĐơn vị: VNĐ\n21\n22\n23\n24\nTiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác\nTiền thu từ thanh lý, nhượng bán TSCĐ và tài sản dài hạn khác \nTiền chi cho vay, mua các công cụ nợ của đơn vị khác\nTiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác\n(5.097.919.349.856)\n7.314.216.719\n(57.012.522.823.806)\n49.164.792.969.282\n(3.275.312.325.702)\n14.227.383.215\n(41.956.569.113.369)\n36.283.758.374.630\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo lưu chuyển tiền tệ hợp nhất theo phương pháp gián tiếp, trình bày các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và hoạt động đầu tư trong năm tài chính 2025 và 2024.\ntable: Báo cáo lưu chuyển tiền tệ hợp nhất (trên) — Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo lưu chuyển tiền tệ hợp nhất",
+              "location": "trên",
+              "description": "Các khoản mục lưu chuyển tiền từ hoạt động kinh doanh và đầu tư, đơn vị VND, so sánh năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p152",
+          "path": ".bonus/pages/p152.jpg",
+          "sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+        },
+        {
+          "id": "FPT2025:p011",
+          "path": ".bonus/pages/p011.jpg",
+          "sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+        },
+        {
+          "id": "FPT2025:p036",
+          "path": ".bonus/pages/p036.jpg",
+          "sha256": "06aaab3a983a58eab3d6003f6c5d95c2adc17e82483aac6d719ed3fa7b7ee2f8"
+        },
+        {
+          "id": "FPT2025:p159",
+          "path": ".bonus/pages/p159.jpg",
+          "sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+        },
+        {
+          "id": "FPT2025:p172",
+          "path": ".bonus/pages/p172.jpg",
+          "sha256": "3d59a1c3f2cc9be752269f22de053dc4f445f0f88213c2737d0bbda3889e06b3"
+        },
+        {
+          "id": "FPT2025:p031",
+          "path": ".bonus/pages/p031.jpg",
+          "sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+        },
+        {
+          "id": "FPT2025:p035",
+          "path": ".bonus/pages/p035.jpg",
+          "sha256": "e321b88a3768cf5ef63a01072245f3f67f2bd40493eb32fbd62d79ccdc343111"
+        },
+        {
+          "id": "FPT2025:p171",
+          "path": ".bonus/pages/p171.jpg",
+          "sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805416-KF42ngiLcW3voCFQxGlC",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01DtZYZzpFFFjvr3dyJ6WenK",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo biểu đồ \\\"Tỷ lệ số hoá tài liệu giai đoạn 2022-2025\\\" (trang 152), tỷ lệ văn bản cứng cao nhất là năm 2022 với 92,9% (tỷ lệ văn bản phát hành điện tử là 7,1%). Tỷ lệ văn bản cứng năm 2025 là 4,58% (tỷ lệ phát hành điện tử 95,42%).\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p152\",\"region\":\"Biểu đồ cột \\\"Tỷ lệ số hoá tài liệu giai đoạn 2022-2025\\\" (dưới bên trái), nhãn tỷ lệ văn bản cứng (màu cam) các năm 2022 = 92,9%, 2025 = 4,58%\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p152",
+    "FPT2025:p011",
+    "FPT2025:p036",
+    "FPT2025:p159",
+    "FPT2025:p172",
+    "FPT2025:p031",
+    "FPT2025:p035",
+    "FPT2025:p171"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p152",
+      "page": 152,
+      "image": ".bonus/pages/p152.jpg",
+      "image_sha256": "10b7f4e8034cca5de28a2bee685a6e23ad93e4ea7c4ed8759544c7c658e57b90"
+    },
+    {
+      "id": "FPT2025:p011",
+      "page": 11,
+      "image": ".bonus/pages/p011.jpg",
+      "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+    },
+    {
+      "id": "FPT2025:p036",
+      "page": 36,
+      "image": ".bonus/pages/p036.jpg",
+      "image_sha256": "06aaab3a983a58eab3d6003f6c5d95c2adc17e82483aac6d719ed3fa7b7ee2f8"
+    },
+    {
+      "id": "FPT2025:p159",
+      "page": 159,
+      "image": ".bonus/pages/p159.jpg",
+      "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+    },
+    {
+      "id": "FPT2025:p172",
+      "page": 172,
+      "image": ".bonus/pages/p172.jpg",
+      "image_sha256": "3d59a1c3f2cc9be752269f22de053dc4f445f0f88213c2737d0bbda3889e06b3"
+    },
+    {
+      "id": "FPT2025:p031",
+      "page": 31,
+      "image": ".bonus/pages/p031.jpg",
+      "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+    },
+    {
+      "id": "FPT2025:p035",
+      "page": 35,
+      "image": ".bonus/pages/p035.jpg",
+      "image_sha256": "e321b88a3768cf5ef63a01072245f3f67f2bd40493eb32fbd62d79ccdc343111"
+    },
+    {
+      "id": "FPT2025:p171",
+      "page": 171,
+      "image": ".bonus/pages/p171.jpg",
+      "image_sha256": "41eb8f6758e95d900b60b88fe1ade5d80153b941a910ad85d805c8d386e63f01"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805412-FqjDtr258ZSijahWCx4D",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1839,
+        "completion_tokens": 100,
+        "total_tokens": 1939,
+        "cost": 0.0002339,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002339,
+          "upstream_inference_prompt_cost": 0.0001839,
+          "upstream_inference_completions_cost": 5e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1492.644099984318,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805416-KF42ngiLcW3voCFQxGlC",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 30618,
+        "completion_tokens": 353,
+        "total_tokens": 30971,
+        "cost": 0.0032383,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0032383,
+          "upstream_inference_prompt_cost": 0.0030618,
+          "upstream_inference_completions_cost": 0.0001765
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4719.288500025868,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 7658.824999991339,
+  "query_id": "ft-c5",
+  "question": "Trong biểu đồ số hóa tài liệu 2022–2025, tỷ lệ văn bản cứng cao nhất ở năm nào và tỷ lệ văn bản cứng năm 2025 là bao nhiêu?",
+  "split": "test",
+  "config": "vision"
+}

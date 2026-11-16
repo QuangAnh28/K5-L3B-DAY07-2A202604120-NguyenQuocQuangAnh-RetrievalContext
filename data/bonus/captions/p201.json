@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p201",
+  "image_sha256": "ef0df4370cbb7e8bdfbd29b2377fc7fed1fe64554f7044dfe7a1f09ea31a138b",
+  "caption": {
+    "summary": "Bảng thuyết minh báo cáo tài chính hợp nhất năm 2025 về doanh thu chưa thực hiện và các khoản phải trả khác, phân chia theo ngắn hạn và dài hạn với số liệu so sánh năm 2024 và 2025.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Doanh thu chưa thực hiện",
+        "location": "trái",
+        "description": "Bảng số liệu doanh thu chưa thực hiện phân loại ngắn hạn và dài hạn, đơn vị VNĐ, so sánh ngày 31/12/2025 và 31/12/2024"
+      },
+      {
+        "type": "table",
+        "title": "Phải trả khác",
+        "location": "phải",
+        "description": "Bảng số liệu các khoản phải trả khác phân loại ngắn hạn và dài hạn, đơn vị VNĐ, so sánh ngày 31/12/2025 và 31/12/2024"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800833-Sp9A5RPkTw6tijDrs20i",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 186,
+        "total_tokens": 2748,
+        "cost": 0.0013224,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013224,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002976
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4130.215700017288,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

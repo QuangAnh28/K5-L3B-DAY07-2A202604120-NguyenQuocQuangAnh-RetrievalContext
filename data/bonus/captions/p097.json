@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p097",
+  "image_sha256": "538c841027314bc6ebafafa9a54cc64869f6c305c78b33b8a106e93d10d30bb1",
+  "caption": {
+    "summary": "Bảng thông tin giao dịch giữa công ty FPT với các công ty con trong cùng tập đoàn năm 2025, bao gồm các loại giao dịch, tổng giá trị và ghi chú về tần suất giao dịch.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Thông tin giao dịch giữa công ty FPT với các công ty con trong cùng tập đoàn",
+        "location": "phải",
+        "description": "Bảng gồm các cột: STT, Tên tổ chức, Mối quan hệ liên quan với công ty, Số giấy NSH, ngày cấp, nơi cấp, Địa chỉ trụ sở chính, Thời điểm giao dịch, Số nghị quyết/quyết định của ĐHĐCĐ/HĐQT thông qua, Nội dung và tổng giá trị giao dịch (Giao dịch, Tổng giá trị VNĐ), Ghi chú. Thông tin chi tiết về giao dịch với Công ty TNHH FPT Smart Cloud và Công ty TNHH FPT Digital năm 2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800753-w4G6fRbg1kwliJI8bM8q",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 211,
+        "total_tokens": 2773,
+        "cost": 0.0013624,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013624,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003376
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3521.058400045149,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

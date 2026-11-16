@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p223",
+  "image_sha256": "2c74769b9c7f0426cf23bd99d655890d054fa2474ae99b522346f8f7f716751f",
+  "caption": {
+    "summary": "Danh sách công ty con khác mà công ty sở hữu gián tiếp tính đến ngày 31/12/2025, bao gồm tên công ty, hoạt động chính, nơi thành lập và tỷ lệ sở hữu, tỷ lệ biểu quyết tại các thời điểm 31/12/2025 và 31/12/2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Danh sách công ty con khác",
+        "location": "giữa trang",
+        "description": "Bảng gồm các cột: STT, Công ty, Hoạt động chính, Nơi thành lập, đăng ký hoạt động, Tỷ lệ sở hữu và Tỷ lệ biểu quyết tại ngày 31/12/2025 và 31/12/2024. Các công ty chủ yếu hoạt động trong lĩnh vực giáo dục, đào tạo và công nghệ, tất cả đều thành lập tại Việt Nam."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800851-E5l4gkRHKPPFSWAU8gBJ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 184,
+        "total_tokens": 2746,
+        "cost": 0.0013192,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013192,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002944
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 6854.248900024686,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

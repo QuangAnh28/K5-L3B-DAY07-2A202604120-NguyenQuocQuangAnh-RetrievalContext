@@ -1,0 +1,363 @@
+[
+  {
+    "query_id": "fd-t1",
+    "passed": true,
+    "reason": "Đúng 12.952 tỷ VNĐ và 17,5%; hàng 4 trang 12. Các citation bổ sung trang 58 và 169 hỗ trợ số đã làm tròn và số VNĐ gốc; trang 57 trong prose là số trang in, tương ứng PDF 58.",
+    "original_page_check": [
+      {
+        "page": 12,
+        "region": "Vùng bảng, hàng/cột hoặc sơ đồ được hỏi và được trích trong trace",
+        "image_sha256": "768854b828f12f330bc3912c517234b0a8ce08c6646824e304f742a0b59b1185"
+      },
+      {
+        "page": 58,
+        "region": "Vùng bảng, hàng/cột hoặc sơ đồ được hỏi và được trích trong trace",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      },
+      {
+        "page": 169,
+        "region": "Vùng bảng, hàng/cột hoặc sơ đồ được hỏi và được trích trong trace",
+        "image_sha256": "df66bf15419362fccf294a42b88e9de6757435c39c12b21755ec928f4a90d744"
+      }
+    ],
+    "trace_sha256": "45d0403e4083cf74ce713961b1b6459dbd04e8bcd59938af95387713ad5b7612",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:51:10.414448+00:00"
+  },
+  {
+    "query_id": "fd-i3",
+    "passed": true,
+    "reason": "Chép đúng đủ năm nhãn ở vòng ngoài ảnh gốc, gồm Nhân rộng hơn; citation xác định sơ đồ và vòng ngoài.",
+    "original_page_check": [
+      {
+        "page": 63,
+        "region": "Vùng bảng, hàng/cột hoặc sơ đồ được hỏi và được trích trong trace",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "ab362e5b2f69bbc5e52c0b80904fcbc5b3941c4bfdd1fca5a044072eb3aeaa32",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:51:10.416273+00:00"
+  },
+  {
+    "query_id": "fd-m2",
+    "passed": false,
+    "reason": "Đúng vai trò trong bảng nhưng không tìm/trích sơ đồ trang 31; model tự ghi chỉ suy thứ tự từ hàng bảng, chưa hoàn thành đối chiếu sơ đồ với bảng như câu hỏi yêu cầu.",
+    "original_page_check": [
+      {
+        "page": 31,
+        "region": "Vùng bảng, hàng/cột hoặc sơ đồ được hỏi và được trích trong trace",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      },
+      {
+        "page": 125,
+        "region": "Vùng bảng, hàng/cột hoặc sơ đồ được hỏi và được trích trong trace",
+        "image_sha256": "c4806555bbc90204da4b4a323a9b36c0b276dd92e70136d33a883613aabdcf1a"
+      }
+    ],
+    "trace_sha256": "5a5f0913555a17c3dce791e0447b237d14a6cfa43b4855a3e9ef5db0d11f3665",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:51:10.418122+00:00"
+  },
+  {
+    "query_id": "fd-t2",
+    "passed": true,
+    "reason": "Đúng 49%, đúng dòng bảng sở hữu nước ngoài, phân biệt trang in 31 và PDF 32.",
+    "original_page_check": [
+      {
+        "page": 32,
+        "region": "Vùng evidence/citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "c287642128097416c18dfcd119132d4ba068f3439767dbbf61daffb2d61cb320"
+      }
+    ],
+    "trace_sha256": "7cca45d9db5e849092ac42756178e6fb0d9682b8ec1e6405fbe598e324dd4ca5",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:55:00.863874+00:00"
+  },
+  {
+    "query_id": "fd-t3",
+    "passed": true,
+    "reason": "Đúng giải ngân 1.751 tỷ VNĐ, kế hoạch 2.500 tỷ VNĐ và 70,0%; citation đúng hàng Viễn thông.",
+    "original_page_check": [
+      {
+        "page": 75,
+        "region": "Vùng evidence/citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "c32c818447bb70184214d41bbc53e019ac8c07565b5647db7eb15b4e8c7a228e"
+      }
+    ],
+    "trace_sha256": "a0774c8909320470ea45739b2c192fea4851c2c5f80972af3758a8fde6b4dff1",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:55:00.864520+00:00"
+  },
+  {
+    "query_id": "fd-c1",
+    "passed": false,
+    "reason": "Kết luận ROE và phép tính đúng; citation phụ p058 được mô tả là bảng ROE nhưng ảnh gốc trang đó không có hàng ROE, chỉ có bảng kết quả kinh doanh và đoạn thanh khoản. Không đạt tiêu chí tất cả citation hỗ trợ.",
+    "original_page_check": [
+      {
+        "page": 11,
+        "region": "Vùng evidence/citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+      },
+      {
+        "page": 58,
+        "region": "Vùng evidence/citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "519a9443321dba6592b6a8cc047f6aa73dcdbdd1f503bf311ef7eb3355730b27"
+      }
+    ],
+    "trace_sha256": "bb812d1e4ce3d3d843d2017b537e6963dcb6041165f3873a2c201624c40672bb",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:55:00.865243+00:00"
+  },
+  {
+    "query_id": "fd-c2",
+    "passed": true,
+    "reason": "Đúng Việt Nam 48,9%, các tỷ trọng bổ sung phù hợp biểu đồ/chú giải.",
+    "original_page_check": [
+      {
+        "page": 27,
+        "region": "Vùng evidence/citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "95e6ebcbc57b8fb739f6a2f6b5d6e87612f28ba4555bb9e12ed8c741ae37226d"
+      }
+    ],
+    "trace_sha256": "ef301d14d6f9c7ef85bb24e45c77f22bdb48b5cfcb29da2fb8684c99efb14c41",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:55:00.866000+00:00"
+  },
+  {
+    "query_id": "fd-c3",
+    "passed": false,
+    "reason": "Từ chối dù nguồn có chú giải màu cam và đơn vị tỷ VNĐ; câu có đáp án nên không đạt.",
+    "original_page_check": [
+      {
+        "page": 63,
+        "region": "Vùng evidence/citation được kiểm tra trong ảnh gốc",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "529c247eaa822ee09e55700537d57084d9d57d26804f50dbd9cb8fed28138f4e",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:55:00.867007+00:00"
+  },
+  {
+    "query_id": "fd-i1",
+    "passed": true,
+    "reason": "Đúng đường chính Đại hội đồng cổ đông → HĐQT → Tổng Giám đốc/Ban Điều hành; tách đúng Ban Kiểm soát là nhánh ngang.",
+    "original_page_check": [
+      {
+        "page": 31,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "4783edc630633806a16232560a0b8de0c6ca6f7c5f9aa143a1b14b37b154b2c3"
+      }
+    ],
+    "trace_sha256": "d5c136fceaa5000d7ba305da18f5951846b6eb08364b169f60ccbb2e7a112f26",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.725059+00:00"
+  },
+  {
+    "query_id": "fd-i2",
+    "passed": true,
+    "reason": "Đúng mốc 1998, hệ thống VAT, 61 cục Thuế; các số 61 máy chủ và hơn 500 máy trạm phù hợp ảnh.",
+    "original_page_check": [
+      {
+        "page": 28,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "deaa84b66973faea6593261d349d0f310773e65fcb242176db75b72d8eeab036"
+      }
+    ],
+    "trace_sha256": "0c5d026f3a0c0eaaca82e6b2f7a6b1aa742dbdc759c393e8c01753869ca8edb0",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.726172+00:00"
+  },
+  {
+    "query_id": "fd-x1",
+    "passed": true,
+    "reason": "Đủ ba bài toán thời gian, chi phí, năng suất; ví dụ McKinsey 20–30% và AI-Native đều ở cột trái nguồn.",
+    "original_page_check": [
+      {
+        "page": 4,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+      }
+    ],
+    "trace_sha256": "8af636a9ffdf38e5c64c5db81092a15205bcced9f7e13da6569d0ae181646e2d",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.727247+00:00"
+  },
+  {
+    "query_id": "fd-x2",
+    "passed": true,
+    "reason": "Đúng 3R và tiếng Anh/Vietnamese; các giải pháp phân loại, thu gom, Thin Client bổ sung có trong cột phải nguồn.",
+    "original_page_check": [
+      {
+        "page": 150,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "04e39df8fdabcbc8347ac2f971b935e8d8a14e95ea06bd300a3c575c3f8a7a97"
+      }
+    ],
+    "trace_sha256": "c8695d9a9ba2aafaedc0f7515822b6ef6eaec49745be7ead6d323a2c36bfe312",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.728497+00:00"
+  },
+  {
+    "query_id": "fd-x3",
+    "passed": true,
+    "reason": "Đúng 42%, 97% và điểm trên 04/thang 05; nguồn không nêu số lượng tuyệt đối nên nêu tỷ lệ là phù hợp.",
+    "original_page_check": [
+      {
+        "page": 128,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "847ea324f08eae37df05820abe8df8f175433aaec864d00fca7560342eff676b"
+      }
+    ],
+    "trace_sha256": "788c7516e2d4c07847e3113a68560c7e2be04a235c328d0475f7a3d1a4b039e2",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.730063+00:00"
+  },
+  {
+    "query_id": "fd-m1",
+    "passed": true,
+    "reason": "Đủ hai địa điểm điện mặt trời, 842.749 kWh và FPT Complex Đà Nẵng đạt EDGE; trích đủ hai nguồn.",
+    "original_page_check": [
+      {
+        "page": 147,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+      },
+      {
+        "page": 153,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+      }
+    ],
+    "trace_sha256": "4b8aff971d4e7433e9c9c16b5039134c78f8ddf34663b9675efbef4fb2895628",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.731708+00:00"
+  },
+  {
+    "query_id": "fd-m3",
+    "passed": true,
+    "reason": "Đủ AI là nền tảng vận hành, vai trò FleziPT tái định nghĩa quy trình và cung cấp giải pháp; chi tiết Workforce/Foundation ở trang 51, ba lớp hình ở trang 63 được hỗ trợ.",
+    "original_page_check": [
+      {
+        "page": 3,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408"
+      },
+      {
+        "page": 4,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+      },
+      {
+        "page": 50,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "3191eab840913a291ec7db04b15b5357712eff91623965778ff93d05765149a5"
+      },
+      {
+        "page": 51,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de"
+      },
+      {
+        "page": 63,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "3833275b32129e130f798941edeaa494b184bc733edcee714d1b3ca1b29ca716"
+      }
+    ],
+    "trace_sha256": "35aeaca6bc21a24edf2348279453a7414bb241f2248712ceb251d1b67773962f",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.733972+00:00"
+  },
+  {
+    "query_id": "fd-u1",
+    "passed": true,
+    "reason": "Từ chối đúng: phần 2026 là kế hoạch, không có doanh thu thực tế cả năm 2026.",
+    "original_page_check": [
+      {
+        "page": 55,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "4ea10a7096459338737e8bc33afe27fee1effead69bb73acac0e54bd5b3ea1ef"
+      }
+    ],
+    "trace_sha256": "406716299fe2a8be9098371dc5d47c5b732bf3da1d0ddec2b565c55db2cf1917",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.735673+00:00"
+  },
+  {
+    "query_id": "fd-u2",
+    "passed": true,
+    "reason": "Từ chối đúng: các phần AI Factory nêu năng lực, không có bảng đơn giá giờ GPU theo loại; giữ kiểm tra thiếu bằng chứng toàn tài liệu trong benchmark.",
+    "original_page_check": [
+      {
+        "page": 5,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+      },
+      {
+        "page": 50,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "3191eab840913a291ec7db04b15b5357712eff91623965778ff93d05765149a5"
+      },
+      {
+        "page": 51,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de"
+      }
+    ],
+    "trace_sha256": "d267cd2b29c410853e9994f02e895057df5c2cddac9b1927eff3b7ab0ab1dbde",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.737261+00:00"
+  },
+  {
+    "query_id": "fd-u3",
+    "passed": true,
+    "reason": "Từ chối đúng: nguồn chỉ nêu hơn 1.000 người dân và mục đích, không nêu tiền tài trợ từng hộ; giữ kiểm tra thiếu bằng chứng toàn tài liệu.",
+    "original_page_check": [
+      {
+        "page": 158,
+        "region": "Vùng evidence và các citation đã đối chiếu trong ảnh gốc",
+        "image_sha256": "9accc73d22e2e6a849d356ec4bb82caf4ed1ed3ae163453a1e41b3db5e893869"
+      }
+    ],
+    "trace_sha256": "04e5f661facc71170ac69a35f27cceda931d6e2db475cd0f3e7ddbfbb46295d0",
+    "benchmark_sha256": "a7c11cb8ff3ec9af381e551770a806678024f01f999a5a881886d2cb01f666ad",
+    "reviewer_kind": "AI",
+    "student_confirmed": false,
+    "reviewed_at": "2026-11-16T04:56:50.738415+00:00"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p142",
+  "image_sha256": "9821a0b0741db7d6c1d48208fecd35ce798a4cf7d3b21bba080c4692f65383bd",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về việc chăm sóc sức khỏe thể chất và tinh thần của CBNV tại FPT thông qua xây dựng văn hóa doanh nghiệp đặc sắc và các hoạt động thể thao đa dạng.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "Hoạt động thể thao của CBNV FPT",
+        "location": "phải",
+        "description": "Ảnh chụp hoạt động thể thao ngoài trời với các CBNV mặc đồng phục xanh, sân cỏ và các tòa nhà cao tầng phía sau."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800781-SdRe0393hbfYyIsQ49mV",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 112,
+        "total_tokens": 2674,
+        "cost": 0.001204,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001204,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4608.457099995576,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

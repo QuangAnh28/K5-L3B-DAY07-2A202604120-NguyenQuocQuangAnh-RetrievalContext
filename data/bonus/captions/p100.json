@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p100",
+  "image_sha256": "81299140b8bcb1cc3942d0921f892807d9107c77b0c8c041f16bd8d0915acdf3",
+  "caption": {
+    "summary": "Trang báo cáo của Hội đồng Quản trị (HĐQT) với đánh giá chung về vai trò, hoạt động và chiến lược của HĐQT trong việc chỉ đạo, giám sát và phát triển công ty. Đồng thời đánh giá hoạt động của Ủy ban Nhân sự và Lương thưởng trong năm 2025, tập trung vào phát triển nguồn nhân lực và chiến lược nhân sự giai đoạn 2026-2028.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800755-GPQHZmns750tF4s7BKAp",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 102,
+        "total_tokens": 2664,
+        "cost": 0.001188,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001188,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0001632
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3132.393800013233,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

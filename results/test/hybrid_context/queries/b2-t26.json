@@ -1,0 +1,415 @@
+{
+  "status": "answered",
+  "answer": "Hai trường hợp có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước là: (a) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh; (b) Khi xảy ra tình trạng khẩn cấp. [luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5]",
+  "citations": [
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5"
+  ],
+  "events": [
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_SlYoGkG29LYGd3Yc4cHnUBMI",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước\"}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801621-ncamSP4pTjNn5vK0TBFb"
+    },
+    {
+      "event": "search",
+      "tool": "search",
+      "query": "Hai trường hợp nào có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước?",
+      "model_query": "biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 6,
+      "results": [
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 9,
+          "text": "Điều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 9,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 26"
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 20,
+          "text": "Điều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 20,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 72"
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 10,
+          "text": "Điều 31. Áp d ụng các bi ện pháp kh ẩn c ấp đối v ới hoạt động mua bán hàng hóa quốc tế Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các l ợi ích quốc gia khác phù hợp với pháp luật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Th ủ tướng Chính phủ quyết định áp d ụng các biện pháp khẩn cấp đối với hoạt động mua bán hàng hóa quốc tế.\n\nĐiều 32. Nhãn hàng hóa l ưu thông trong n ước và hàng hóa xu ất khẩu, nhập khẩu\n\n1. Nhãn hàng hoá là b ản vi ết, b ản in, b ản vẽ, b ản ch ụp c ủa chữ, hình v ẽ, hình ảnh được dán, in, đính, đúc, ch ạm, kh ắc tr ực ti ếp trên hàng hoá, bao bì thương ph ẩm c ủa hàng hoá ho ặc trên các ch ất liệu khác được gắn lên hàng hoá, bao bì thương phẩm của hàng hoá.\n\n2. Hàng hóa l ưu thông trong n ước, hàng hóa xuất khẩu, nhập khẩu phải có nhãn hàng hóa, trừ một số trường hợp theo quy định của pháp luật.\n\n3. Các n ội dung c ần ghi trên nhãn hàng hóa và vi ệc ghi nhãn hàng hóa được thực hiện theo quy định của Chính phủ.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 10,
+            "year": 2005,
+            "chapter": "Chương Ii",
+            "article": "Điều 31"
+          },
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 22,
+          "text": "thể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 22,
+            "year": 2005,
+            "chapter": "Chương Iii",
+            "article": "Điều 77"
+          },
+          "score": 0.029877369007803793,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 3,
+          "text": "15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 3,
+            "year": 2005,
+            "chapter": "Chương I",
+            "article": "Điều 4"
+          },
+          "score": 0.028258706467661692,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 15,
+            "tfidf": 7
+          }
+        },
+        {
+          "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd",
+          "source_id": "luat-thuong-mai-36-2005-qh11",
+          "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+          "page": 36,
+          "text": "a) Hàng hóa, d ịch vụ thuộc diện cấm kinh doanh, hạn chế kinh doanh, chưa được phép lưu thông theo quy định của pháp luật;\n\nb) Hàng hóa, d ịch v ụ do th ương nhân ở n ước ngoài cung ứng thuộc di ện cấm nhập khẩu theo quy định của pháp luật;\n\nc) Hàng gi ả, hàng vi ph ạm quyền sở hữu trí tuệ, trừ trường hợp trưng bày, giới thiệu để so sánh với hàng thật.\n\n2. Ngoài vi ệc tuân th ủ các quy định về hội chợ, triển lãm th ương m ại của Luật này, hàng hóa, d ịch vụ thuộc diện quản lý chuyên ngành ph ải tuân th ủ các",
+          "metadata": {
+            "document_id": "luat-thuong-mai-36-2005-qh11",
+            "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+            "page": 36,
+            "year": 2005,
+            "chapter": "Chương Iv"
+          },
+          "score": 0.027583600982429624,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 19
+          }
+        }
+      ],
+      "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\nĐiều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nĐiều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.\n\n[luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 10]\nĐiều 31. Áp d ụng các bi ện pháp kh ẩn c ấp đối v ới hoạt động mua bán hàng hóa quốc tế Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các l ợi ích quốc gia khác phù hợp với pháp luật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Th ủ tướng Chính phủ quyết định áp d ụng các biện pháp khẩn cấp đối với hoạt động mua bán hàng hóa quốc tế.\n\nĐiều 32. Nhãn hàng hóa l ưu thông trong n ước và hàng hóa xu ất khẩu, nhập khẩu\n\n1. Nhãn hàng hoá là b ản vi ết, b ản in, b ản vẽ, b ản ch ụp c ủa chữ, hình v ẽ, hình ảnh được dán, in, đính, đúc, ch ạm, kh ắc tr ực ti ếp trên hàng hoá, bao bì thương ph ẩm c ủa hàng hoá ho ặc trên các ch ất liệu khác được gắn lên hàng hoá, bao bì thương phẩm của hàng hoá.\n\n2. Hàng hóa l ưu thông trong n ước, hàng hóa xuất khẩu, nhập khẩu phải có nhãn hàng hóa, trừ một số trường hợp theo quy định của pháp luật.\n\n3. Các n ội dung c ần ghi trên nhãn hàng hóa và vi ệc ghi nhãn hàng hóa được thực hiện theo quy định của Chính phủ.\n\n[luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 22]\nthể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+      "context_ids": [
+        "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+        "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467",
+        "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05",
+        "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4",
+        "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+      ]
+    },
+    {
+      "event": "model",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_optRTZtDDHzHgtfZmTmQh5wo",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Hai trường hợp có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước là: (a) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh; (b) Khi xảy ra tình trạng khẩn cấp.\",\"citations\":[\"luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5\"],\"abstain\":false}"
+            }
+          }
+        ]
+      },
+      "response_id": "gen-1794801622-rb1aCGFB6LxkZMaxXldZ"
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citation_rendering": "Append validated structured IDs absent from raw answer",
+  "context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\nĐiều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nĐiều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.\n\n[luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 10]\nĐiều 31. Áp d ụng các bi ện pháp kh ẩn c ấp đối v ới hoạt động mua bán hàng hóa quốc tế Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các l ợi ích quốc gia khác phù hợp với pháp luật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Th ủ tướng Chính phủ quyết định áp d ụng các biện pháp khẩn cấp đối với hoạt động mua bán hàng hóa quốc tế.\n\nĐiều 32. Nhãn hàng hóa l ưu thông trong n ước và hàng hóa xu ất khẩu, nhập khẩu\n\n1. Nhãn hàng hoá là b ản vi ết, b ản in, b ản vẽ, b ản ch ụp c ủa chữ, hình v ẽ, hình ảnh được dán, in, đính, đúc, ch ạm, kh ắc tr ực ti ếp trên hàng hoá, bao bì thương ph ẩm c ủa hàng hoá ho ặc trên các ch ất liệu khác được gắn lên hàng hoá, bao bì thương phẩm của hàng hoá.\n\n2. Hàng hóa l ưu thông trong n ước, hàng hóa xuất khẩu, nhập khẩu phải có nhãn hàng hóa, trừ một số trường hợp theo quy định của pháp luật.\n\n3. Các n ội dung c ần ghi trên nhãn hàng hóa và vi ệc ghi nhãn hàng hóa được thực hiện theo quy định của Chính phủ.\n\n[luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 22]\nthể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+  "context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+    "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467",
+    "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05",
+    "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4",
+    "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+  ],
+  "model_usage": [
+    {
+      "id": "gen-1794801621-ncamSP4pTjNn5vK0TBFb",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 301,
+        "completion_tokens": 22,
+        "total_tokens": 323,
+        "cost": 0.0001556,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001556,
+          "upstream_inference_prompt_cost": 0.0001204,
+          "upstream_inference_completions_cost": 3.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1300.473899987992,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801622-rb1aCGFB6LxkZMaxXldZ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2472,
+        "completion_tokens": 121,
+        "total_tokens": 2593,
+        "cost": 0.0011824,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011824,
+          "upstream_inference_prompt_cost": 0.0009888,
+          "upstream_inference_completions_cost": 0.0001936
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2064.0022000297904,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3384.3196999514475,
+  "searches": 1,
+  "query_id": "b2-t26",
+  "question": "Hai trường hợp nào có thể dẫn tới việc áp dụng biện pháp khẩn cấp đối với hàng hóa đang lưu thông hợp pháp trong nước?",
+  "split": "test",
+  "config": "hybrid_context",
+  "answerable": true,
+  "original_results": [
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 9,
+      "text": "Điều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 9,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 26"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 1,
+        "tfidf": 1
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 20,
+      "text": "Điều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 20,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 72"
+      },
+      "score": 0.03225806451612903,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 2,
+        "tfidf": 2
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 10,
+      "text": "Điều 31. Áp d ụng các bi ện pháp kh ẩn c ấp đối v ới hoạt động mua bán hàng hóa quốc tế Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các l ợi ích quốc gia khác phù hợp với pháp luật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Th ủ tướng Chính phủ quyết định áp d ụng các biện pháp khẩn cấp đối với hoạt động mua bán hàng hóa quốc tế.\n\nĐiều 32. Nhãn hàng hóa l ưu thông trong n ước và hàng hóa xu ất khẩu, nhập khẩu\n\n1. Nhãn hàng hoá là b ản vi ết, b ản in, b ản vẽ, b ản ch ụp c ủa chữ, hình v ẽ, hình ảnh được dán, in, đính, đúc, ch ạm, kh ắc tr ực ti ếp trên hàng hoá, bao bì thương ph ẩm c ủa hàng hoá ho ặc trên các ch ất liệu khác được gắn lên hàng hoá, bao bì thương phẩm của hàng hoá.\n\n2. Hàng hóa l ưu thông trong n ước, hàng hóa xuất khẩu, nhập khẩu phải có nhãn hàng hóa, trừ một số trường hợp theo quy định của pháp luật.\n\n3. Các n ội dung c ần ghi trên nhãn hàng hóa và vi ệc ghi nhãn hàng hóa được thực hiện theo quy định của Chính phủ.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 10,
+        "year": 2005,
+        "chapter": "Chương Ii",
+        "article": "Điều 31"
+      },
+      "score": 0.031746031746031744,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 3,
+        "tfidf": 3
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 22,
+      "text": "thể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 22,
+        "year": 2005,
+        "chapter": "Chương Iii",
+        "article": "Điều 77"
+      },
+      "score": 0.029877369007803793,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 9,
+        "tfidf": 5
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 3,
+      "text": "15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 3,
+        "year": 2005,
+        "chapter": "Chương I",
+        "article": "Điều 4"
+      },
+      "score": 0.028258706467661692,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 15,
+        "tfidf": 7
+      }
+    },
+    {
+      "id": "luat-thuong-mai-36-2005-qh11-p36-paragraph-1000-cc5ea7c224aeffbd",
+      "source_id": "luat-thuong-mai-36-2005-qh11",
+      "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+      "page": 36,
+      "text": "a) Hàng hóa, d ịch vụ thuộc diện cấm kinh doanh, hạn chế kinh doanh, chưa được phép lưu thông theo quy định của pháp luật;\n\nb) Hàng hóa, d ịch v ụ do th ương nhân ở n ước ngoài cung ứng thuộc di ện cấm nhập khẩu theo quy định của pháp luật;\n\nc) Hàng gi ả, hàng vi ph ạm quyền sở hữu trí tuệ, trừ trường hợp trưng bày, giới thiệu để so sánh với hàng thật.\n\n2. Ngoài vi ệc tuân th ủ các quy định về hội chợ, triển lãm th ương m ại của Luật này, hàng hóa, d ịch vụ thuộc diện quản lý chuyên ngành ph ải tuân th ủ các",
+      "metadata": {
+        "document_id": "luat-thuong-mai-36-2005-qh11",
+        "source": "https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e",
+        "page": 36,
+        "year": 2005,
+        "chapter": "Chương Iv"
+      },
+      "score": 0.027583600982429624,
+      "strategy": "hybrid",
+      "component_ranks": {
+        "dense": 7,
+        "tfidf": 19
+      }
+    }
+  ],
+  "original_context": "[luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 9]\nĐiều 26. Áp dụng biện pháp khẩn cấp đối với hàng hóa lưu thông trong nước\n\n1. Hàng hóa đang được l ưu thông h ợp pháp trong n ước b ị áp d ụng m ột hoặc các bi ện pháp buộc phải thu h ồi, cấm lưu thông, t ạm ngừng lưu thông, l ưu thông có điều kiện hoặc phải có gi ấy phép đối với một trong các tr ường hợp sau đây:\n\na) Hàng hóa đó là nguồn gốc hoặc phương tiện lây truyền các loại dịch bệnh;\n\nb) Khi xảy ra tình trạng khẩn cấp.\n\n2. Các điều ki ện c ụ th ể, trình t ự, th ủ t ục và th ẩm quy ền công b ố vi ệc áp dụng biện pháp kh ẩn cấp đối với hàng hóa l ưu thông trong n ước được thực hiện theo quy định của pháp luật.\n\nĐiều 27. Mua bán hàng hoá quốc tế\n\n1. Mua bán hàng hoá qu ốc tế được thực hiện dưới các hình thức xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập và chuyển khẩu.\n\n2. Mua bán hàng hoá quốc tế phải được thực hiện trên cơ sở hợp đồng bằng văn bản hoặc bằng hình thức khác có giá trị pháp lý tương đương.\n\nĐiều 28. Xuất khẩu, nhập khẩu hàng hoá\n\n[luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 20]\nĐiều 72. Thực hiện biện pháp quản lý trong trường hợp khẩn cấp\n\n1. Trường hợp khẩn cấp là trường hợp xảy ra hiện tượng rối loạn thị trường hàng hoá làm cho giao d ịch qua S ở giao d ịch hàng hóa không ph ản ánh được chính xác quan hệ cung cầu.\n\n2. Trong tr ường hợp khẩn cấp, Bộ trưởng B ộ Thương m ại có quy ền th ực hiện các biện pháp sau đây:\n\na) Tạm ngừng việc giao dịch qua Sở giao dịch hàng hoá;\n\nb) Hạn chế các giao dịch ở một khung giá hoặc một số lượng hàng hóa nhất định;\n\nc) Thay đổi lịch giao dịch;\n\nd) Thay đổi Điều lệ hoạt động của Sở giao dịch hàng hoá;\n\nđ) Các biện pháp cần thiết khác theo quy định của Chính phủ.\n\nĐiều 73. Quy ền ho ạt động mua bán hàng hóa qua S ở giao d ịch hàng hóa ở nước ngoài Thương nhân Vi ệt Nam được quy ền ho ạt động mua bán hàng hóa qua S ở giao dịch hàng hóa ở nước ngoài theo quy định của Chính phủ.\n\n[luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 10]\nĐiều 31. Áp d ụng các bi ện pháp kh ẩn c ấp đối v ới hoạt động mua bán hàng hóa quốc tế Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các l ợi ích quốc gia khác phù hợp với pháp luật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Th ủ tướng Chính phủ quyết định áp d ụng các biện pháp khẩn cấp đối với hoạt động mua bán hàng hóa quốc tế.\n\nĐiều 32. Nhãn hàng hóa l ưu thông trong n ước và hàng hóa xu ất khẩu, nhập khẩu\n\n1. Nhãn hàng hoá là b ản vi ết, b ản in, b ản vẽ, b ản ch ụp c ủa chữ, hình v ẽ, hình ảnh được dán, in, đính, đúc, ch ạm, kh ắc tr ực ti ếp trên hàng hoá, bao bì thương ph ẩm c ủa hàng hoá ho ặc trên các ch ất liệu khác được gắn lên hàng hoá, bao bì thương phẩm của hàng hoá.\n\n2. Hàng hóa l ưu thông trong n ước, hàng hóa xuất khẩu, nhập khẩu phải có nhãn hàng hóa, trừ một số trường hợp theo quy định của pháp luật.\n\n3. Các n ội dung c ần ghi trên nhãn hàng hóa và vi ệc ghi nhãn hàng hóa được thực hiện theo quy định của Chính phủ.\n\n[luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4 | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 22]\nthể danh m ục dịch vụ cấm kinh doanh, d ịch vụ hạn chế kinh doanh, d ịch vụ kinh doanh có điều kiện và điều kiện để được kinh doanh dịch vụ đó.\n\n2. Đối với dịch v ụ hạn ch ế kinh doanh, d ịch v ụ kinh doanh có điều ki ện, việc cung ứng dịch vụ chỉ được thực hiện khi dịch vụ và các bên tham gia hoạt động cung ứng dịch vụ đáp ứng đầy đủ các điều kiện theo quy định của pháp luật.\n\nĐiều 77. Áp d ụng các bi ện pháp kh ẩn c ấp đối với hoạt động cung ứng hoặc sử dụng dịch vụ Trong trường hợp cần thiết, để bảo vệ an ninh quốc gia và các lợi ích quốc gia khác phù h ợp với pháp lu ật Việt Nam và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, Thủ tướng Chính ph ủ quyết định áp d ụng các bi ện pháp kh ẩn c ấp đối với ho ạt động cung ứng ho ặc sử dụng d ịch v ụ, bao gồm việc tạm thời cấm cung ứng hoặc sử dụng đối với một hoặc một số loại dịch vụ hoặc các bi ện pháp kh ẩn cấp khác đối với một hoặc một số thị trường cụ thể trong một thời gian nhất định.\n\n[luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae | https://ipvietnam.gov.vn/documents/20182/1226838/5.11.+Luat+Thuong+mai+2005.pdf/abd363d4-2646-48d5-a2db-4d42f231578e | page 3]\n15. Các hình thức có giá tr ị tương đương văn bản bao gồm điện báo, telex, fax, thông điệp dữ liệu và các hình thức khác theo quy định của pháp luật.\n\nĐiều 4. Áp dụng Luật thương mại và pháp luật có liên quan\n\n1. Ho ạt động thương m ại phải tuân theo Lu ật thương m ại và pháp lu ật có liên quan.\n\n2. Hoạt động thương mại đặc thù được quy định trong luật khác thì áp dụng quy định của luật đó.\n\n3. Ho ạt động thương m ại không được quy định trong Lu ật thương mại và trong các luật khác thì áp dụng quy định của Bộ luật dân sự.\n\nĐiều 5. Áp d ụng điều ước qu ốc t ế, pháp lu ật n ước ngoài và t ập quán thương mại quốc tế\n\n1. Trường hợp điều ước quốc tế mà C ộng hoà xã h ội chủ nghĩa Việt Nam là thành viên có quy định áp d ụng pháp lu ật n ước ngoài, t ập quán th ương m ại quốc tế hoặc có quy định khác v ới quy định của Luật này thì áp d ụng quy định của điều ước quốc tế đó.",
+  "original_context_ids": [
+    "luat-thuong-mai-36-2005-qh11-p9-paragraph-1000-3f6e4ce1a1f1cac5",
+    "luat-thuong-mai-36-2005-qh11-p20-paragraph-1000-0c864255dda6e467",
+    "luat-thuong-mai-36-2005-qh11-p10-paragraph-1000-5f959036571cae05",
+    "luat-thuong-mai-36-2005-qh11-p22-paragraph-1000-c597f608136458e4",
+    "luat-thuong-mai-36-2005-qh11-p3-paragraph-1000-99a00f32656f40ae"
+  ],
+  "original_hit1": true,
+  "original_hit3": true,
+  "original_context_hit": true,
+  "final_context_hit": true
+}

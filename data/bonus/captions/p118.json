@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p118",
+  "image_sha256": "52ab668e33b18a3e0f4899ab341c42d7131e732ecb156566470b900c2264aa9e",
+  "caption": {
+    "summary": "Trang trình bày cam kết, mục tiêu và kết quả nổi bật năm 2025 về việc tạo môi trường làm việc đẳng cấp, hạnh phúc tại FPT.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Cam kết, mục tiêu và kết quả nổi bật 2025 về môi trường làm việc",
+        "location": "trái",
+        "description": "Bảng gồm các cột: Vấn đề trọng yếu, Cam kết, Mục tiêu, Kết quả nổi bật 2025; các vấn đề trọng yếu gồm: Nơi làm việc hạnh phúc, Tổ chức học tập suốt đời, Bình đẳng và đa dạng; nội dung chi tiết về cam kết duy trì môi trường làm việc, mục tiêu phát triển và kết quả thực hiện trong năm 2025."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800764-Er2GvhjR0Lbej7NdMNuG",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 169,
+        "total_tokens": 2731,
+        "cost": 0.0012952,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012952,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002704
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3632.5048999860883,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

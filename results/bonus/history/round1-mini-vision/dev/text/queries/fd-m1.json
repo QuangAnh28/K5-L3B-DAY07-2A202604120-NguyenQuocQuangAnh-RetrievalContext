@@ -1,0 +1,289 @@
+{
+  "status": "answered",
+  "answer": "Hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 là tòa nhà F-Complex tại Đà Nẵng và Data Center tại Tp. Hồ Chí Minh. Công trình được nêu là đầu tiên ở Việt Nam đạt chứng chỉ EDGE là FPT Complex Đà Nẵng, với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\n[FPT2025:p147 — đoạn văn cuối trang, bảng tổng hợp so sánh kết quả tiêu thụ điện, ảnh hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)] [FPT2025:p153 — đoạn văn giữa trang, ảnh FPT Complex Đà Nẵng đạt chứng chỉ EDGE]",
+  "citations": [
+    {
+      "id": "FPT2025:p147",
+      "region": "đoạn văn cuối trang, bảng tổng hợp so sánh kết quả tiêu thụ điện, ảnh hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)"
+    },
+    {
+      "id": "FPT2025:p153",
+      "region": "đoạn văn giữa trang, ảnh FPT Complex Đà Nẵng đạt chứng chỉ EDGE"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794801835-e7HTo0Vs43Otiwx7ZXGP",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_VFrIJd0zTUq0z6JdLDy3zUml",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\":[\"địa điểm hệ thống điện mặt trời mái nhà năm 2025\",\"công trình đầu tiên đạt EDGE Việt Nam\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Nêu hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 và xác định công trình nào được nêu là đầu tiên ở Việt Nam đạt EDGE.",
+      "model_queries": [
+        "địa điểm hệ thống điện mặt trời mái nhà năm 2025",
+        "công trình đầu tiên đạt EDGE Việt Nam"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p153",
+          "page": 153,
+          "score": 0.031754032258064516,
+          "component_ranks": {
+            "dense": 2,
+            "tfidf": 4
+          }
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "score": 0.03149801587301587,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "score": 0.03036576949620428,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 9
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Nêu hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 và xác định công trình nào được nêu là đầu tiên ở Việt Nam đạt EDGE."
+      ],
+      "context_ids": [
+        "FPT2025:p147",
+        "FPT2025:p153",
+        "FPT2025:p119",
+        "FPT2025:p114"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p147",
+          "page": 147,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "FPT xây dựng kế hoạch giảm thiểu lượng phát thải khí nhà kính từ hai nguồn phát \nsinh lớn thuộc Phạm vi 1 và Phạm vi 2, cũng như từ tất cả các nguồn phát sinh khác, \ncụ thể như sau:\n• Đối với Phạm vi 1 và Phạm vi 2, FPT triển khai các chương trình tiết kiệm điện và \nnăng lượng, hướng tới việc sử dụng năng lượng xanh và năng lượng tái tạo; \n• Các tòa nhà là nguồn tiêu thụ năng lượng chủ yếu, do đó, Tập đoàn chủ động \ntriển khai các sáng kiến tiết kiệm năng lượng trên nền tảng hạ tầng hiện hữu. \nThông qua việc ứng dụng các công nghệ tiên tiến và tăng cường hợp tác với các \nchuyên gia, FPT từng bước nâng cao hiệu quả sử dụng năng lượng, hướng tới hệ thống \nhạ tầng thân thiện hơn với môi trường;\n• Các lĩnh vực trọng tâm trong triển khai các biện pháp tiết kiệm năng lượng bao gồm: \ntối ưu hệ thống chiếu sáng, hệ thống điều hòa không khí (HVAC), tự động hóa tòa \nnhà, hệ thống UPS, mặt dựng công trình, trung tâm dữ liệu và phòng máy chủ. \nThông qua các sáng kiến này, FPT hướng tới giảm thiểu tác động môi trường \nsong song với việc nâng cao hiệu quả vận hành.\nViệc giảm 8,58% tổng mức tiêu thụ điện so với năm 2024 phản ánh những nỗ lực \nnhất quán và có hệ thống của Tập đoàn trong triển khai các giải pháp tiết kiệm \nnăng lượng. Kết quả này đạt được nhờ việc ứng dụng các giải pháp quản lý và tối ưu \ntiêu thụ điện thông minh, kết hợp với các chương trình truyền thông và đào tạo \nnội bộ nhằm nâng cao nhận thức, thay đổi hành vi sử dụng năng lượng của CBNV \ntrong hoạt động hàng ngày.\nĐặc biệt, việc đầu tư và từng bước xây dựng các hệ thống năng lượng sạch đã đóng \nvai trò quan trọng, không chỉ giúp giảm nhu cầu sử dụng điện từ nguồn truyền \nthống mà còn tạo nền tảng cho quá trình chuyển dịch năng lượng bền vững trong \ndài hạn. Các nỗ lực này cho thấy cách tiếp cận toàn diện của Tập đoàn, kết hợp \nđồng thời giữa giải pháp công nghệ, yếu tố con người và định hướng đầu tư hạ tầng, \ngóp phần hiện thực hóa các mục tiêu sử dụng năng lượng hiệu quả và giảm phát \nthải trong lộ trình Net Zero.\nTrong năm 2025, FPT hoàn thành và đưa vào hoạt động hai hệ thống điện mặt trời \nmái nhà tại tòa nhà F-Complex (Đà Nẵng) và Data Center (Tp.Hồ Chí Minh) tạo ra \n842.749 kWh điện. \nBảng tổng hợp so sánh kết quả tiêu thụ điện\n• Biện pháp giảm phát thải khí nhà kính\n Đơn vị: kWh\nĐiện mặt trời mái nhà\nChênh lệch \n-8,58%\n-\n-\nNăm 2025\n187.453.013\n842.749\n0,45%\nNăm 2024\n205.053.314\n0\n0%\nDanh mục\nTiêu thụ điện\nĐiện từ năng lượng tái tạo\nTỷ lệ điện từ năng lượng tái\ntạo so với điện tiêu thụ\nHệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng).\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 tập trung vào các biện pháp giảm phát thải khí nhà kính, đặc biệt là tiết kiệm năng lượng và sử dụng năng lượng tái tạo như điện mặt trời mái nhà.\ntable: Bảng tổng hợp so sánh kết quả tiêu thụ điện (dưới bên trái) — So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh.\nphoto: Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng) (phải) — Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Bảng tổng hợp so sánh kết quả tiêu thụ điện",
+              "location": "dưới bên trái",
+              "description": "So sánh tiêu thụ điện, điện từ năng lượng tái tạo và tỷ lệ điện từ năng lượng tái tạo so với điện tiêu thụ giữa năm 2024 và 2025, đơn vị kWh."
+            },
+            {
+              "type": "photo",
+              "title": "Hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)",
+              "location": "phải",
+              "description": "Ảnh chụp hệ thống điện mặt trời mái nhà dạng hình xoắn ốc trên tòa nhà F-Complex tại Đà Nẵng."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p153",
+          "page": 153,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Với hệ thống văn phòng trải rộng trên toàn quốc, FPT \nxác định mô hình văn phòng xanh không chỉ góp phần \ntiết kiệm năng lượng, tối ưu chi phí vận hành mà còn \ntạo dựng môi trường làm việc sáng tạo, từ đó thúc \nđẩy tăng trưởng bền vững trong dài hạn.\nTrong quá trình đầu tư xây dựng các khu văn phòng, \nFPT thực hiện đầy đủ báo cáo đánh giá tác động môi \ntrường và tuân thủ nghiêm các quy định pháp luật \nliên quan đến bảo vệ môi trường, sử dụng năng lượng \nvà quản lý chất thải, khí thải. Ngay từ khâu thiết kế, \nTập đoàn ưu tiên ứng dụng công nghệ mới, vật liệu \nthân thiện với môi trường, đồng thời tận dụng tối đa \ncác nguồn năng lượng tự nhiên nhằm giảm thiểu \ntiêu thụ năng lượng và tác động đến môi trường.\nCác tổ hợp đào tạo và công viên phần mềm của FPT\ntại Hà Nội, Đà Nẵng, Bình Định (cũ), Tp. Hồ Chí Minh\nvà Cần Thơ được phát triển theo mô hình campus xanh,\ntích hợp không gian làm việc, đào tạo, vui chơi giải trí \nvà cảnh quan sinh thái. Nhiều công trình đã được các \ntổ chức trong và ngoài nước ghi nhận về kiến trúc xanh \nvà hiệu quả sử dụng tài nguyên.\nSong song, FPT ưu tiên sử dụng năng lượng mặt trời \nđể cung cấp nước nóng cho các tòa nhà, đặc biệt tại \nkhu vực miền Bắc, qua đó giảm tiêu thụ điện năng và \ngóp phần thực hiện các cam kết bảo vệ môi trường.\nTrong vận hành hằng ngày, Tập đoàn đẩy mạnh sử \ndụng các vật dụng thân thiện với môi trường tại văn \nphòng và cơ sở đào tạo như cốc, ống hút từ bã mía; \nbao bì và túi từ vật liệu có khả năng tái chế, từng \nbước hình thành thói quen tiêu dùng bền vững trong \ntoàn hệ thống.\nTòa nhà Hiệu bộ FPT tại Hòa Lạc được vinh \ndanh tại World Architecture Festival ở hạng \nmục Giáo dục tương lai và đạt giải Nhất \nKiến trúc xanh do Hội Kiến trúc sư Việt Nam \ntổ chức.\nFPT Complex Đà Nẵng là công trình đầu tiên \ntại Việt Nam đạt chứng chỉ EDGE nhờ các \ngiải pháp tiết kiệm năng lượng, thu hồi nước \nmưa, xử lý nước thải và hệ thống điều hòa, \nchiếu sáng hiệu suất cao.\n• Văn phòng làm việc gần gũi với thiên nhiên và tiết kiệm năng lượng\nF-Town 3 được Wallpaper – tạp chí hàng đầu \ncủa Anh về kiến trúc và thiết kế xếp vào nhóm \ncông trình tiêu biểu cho kiến trúc sinh khí hậu \n(bioclimatic), trong đó hơn 40% không gian \nkhông cần sử dụng điều hòa.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo ESG của FPT năm 2025 trình bày về mô hình văn phòng xanh, tiết kiệm năng lượng và thân thiện với môi trường, cùng các công trình kiến trúc tiêu biểu đạt giải thưởng và chứng chỉ xanh.\nphoto: F-Town 3 - công trình kiến trúc sinh khí hậu (dưới bên trái) — Ảnh công trình F-Town 3 với thiết kế không gian xanh, hơn 40% không gian không cần sử dụng điều hòa.\nphoto: Tòa nhà Hiệu bộ FPT tại Hòa Lạc (dưới giữa) — Ảnh tòa nhà Hiệu bộ FPT với kiến trúc xanh được vinh danh tại World Architecture Festival và giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức.\nphoto: FPT Complex Đà Nẵng (dưới bên phải) — Ảnh công trình FPT Complex Đà Nẵng đạt chứng chỉ EDGE với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "F-Town 3 - công trình kiến trúc sinh khí hậu",
+              "location": "dưới bên trái",
+              "description": "Ảnh công trình F-Town 3 với thiết kế không gian xanh, hơn 40% không gian không cần sử dụng điều hòa."
+            },
+            {
+              "type": "photo",
+              "title": "Tòa nhà Hiệu bộ FPT tại Hòa Lạc",
+              "location": "dưới giữa",
+              "description": "Ảnh tòa nhà Hiệu bộ FPT với kiến trúc xanh được vinh danh tại World Architecture Festival và giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức."
+            },
+            {
+              "type": "photo",
+              "title": "FPT Complex Đà Nẵng",
+              "location": "dưới bên phải",
+              "description": "Ảnh công trình FPT Complex Đà Nẵng đạt chứng chỉ EDGE với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường \nlàm việc hướng tới môi trường làm \nviệc xanh, an toàn, lành mạnh.\n• Mục tiêu trung hạn: đến năm 2030, \ngiảm 15,8% tổng lượng phát thải \nkhí nhà kính phù hợp với mục tiêu \nchung của Việt Nam;\n• Mục tiêu dài hạn: đến năm 2040 \nđạt Net Zero như cam kết của \nChính phủ Việt Nam tại COP 26.\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\n nhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và \ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n• 100% số liệu sử dụng năng lượng được giám sát;\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\n sản lượng 842.749 kWh;\n• 100% cơ sở được kiểm kê và giám sát phát thải khí nhà kính \nđịnh kỳ.\nKết quả nổi bật 2025\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nĐào tạo nguồn \nnhân lực công nghệ\nchất lượng cao\nTạo điều kiện\ntốt nhất để trẻ em\nViệt Nam có cơ hội \ntiếp cận giáo dục\nchất lượng và bền vững\nLà đơn vị dẫn đầu trong đào tạo \nnhân lực số có năng lực cạnh tranh \ntoàn cầu.\n• Đào tạo 10.000 kỹ sư bán dẫn vào \nnăm 2030;\n• Đưa AI vào đào tạo người học ở tất \ncả các bậc học thuộc hệ thống \ngiáo dục của FPT.\n• 3.700 sinh viên theo học các chương trình và chuyên ngành \nđào tạo AI, thiết kế vi mạch bán dẫn của hệ thống giáo dục FPT;\n• Nghiên cứu, ứng dụng và phát triển các giải pháp công nghệ \ntiên tiến nhất, gia tăng tương tác và cá nhân hóa trải nghiệm \ncủa người học; đưa AI vào đào tạo từ bậc tiểu học đến\nphổ thông, cao đẳng, đại học và sau đại học; \n• Trao 151 tỷ đồng học bổng Nguyễn Văn Đạo.\nChú trọng hỗ trợ tạo điều kiện \nhọc tập tốt hơn cho các hoàn cảnh \nyếu thế tại các khu vực kinh tế \nkhó khăn, vùng núi, vùng sâu, \nvùng xa.\n• Tiếp tục duy trì quỹ dành cho các \nhoạt động phát triển vì cộng đồng \ntập trung chủ yếu vào các hoạt \nđộng giáo dục.\n• Sử dụng 72,8 tỷ đồng cho các hoạt động trách nhiệm xã hội;\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở \nhạng mục Dự án kịp thời;\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ.\nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.\n",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p114",
+          "page": 114,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "01\n• Lộ trình Net Zero 2040\nLà tập đoàn công nghệ toàn cầu với quy mô và phạm vi hoạt động ngày càng mở rộng, \nFPT nhận thức rõ vai trò và trách nhiệm của mình không chỉ dừng ở cam kết mà cần \nthúc đẩy các hành động cụ thể trong lộ trình giảm phát thải khí nhà kính, hướng tới \nmục tiêu Net Zero vào năm 2040.\nNăm 2025, FPT thực hiện chuẩn hóa và triển khai phương pháp tính toán phát thải \nkhí nhà kính dựa trên các nghiên cứu, hướng dẫn, quy định liên quan của Việt Nam \nvà thế giới, qua đó khẳng định nỗ lực chung trong quản trị chuyển đổi xanh và phát triển \nbền vững. FPT xác định đây là những dữ liệu kiểm kê khởi đầu cho hành trình quản lý \nvà giảm phát thải khí nhà kính trong những năm tiếp theo.\nTập đoàn triển khai xây dựng lộ trình giảm phát thải khí nhà kính dựa trên việc tự tính toán và xác nhận đường cơ sở phát thải,\nđặt mục tiêu đến năm 2030 giảm 15,8% tổng lượng phát thải khí nhà kính và hướng tới mục tiêu Net Zero vào năm 2040.\nXác định lĩnh vực trọng tâm \ngiảm phát thải\n02\nXác định mục tiêu giảm phát \nthải cho từng lĩnh vực\n03\nThiết lập các giải pháp giảm \nphát thải khả thi và hiệu quả\n04\nXác định các giải pháp ưu tiên\n05\nKiểm soát và đánh giá định kỳ\n• Tiêu thụ điện trong Phạm vi 2. Chuyển đổi sang sử dụng năng \nlượng sạch, song song với triển \nkhai các giải pháp nâng cao \nhiệu quả năng lượng tại các cơ \nsở vận hành, bao gồm: Tòa nhà \nvăn phòng; Trung tâm dữ liệu.\n• Tối ưu hệ thống điện và ứng \ndụng các giải pháp quản lý \nnăng lượng thông minh;\n• Đẩy mạnh sử dụng điện từ \nnguồn năng lượng tái tạo \nnhư năng lượng mặt trời;\n• Cân nhắc mua chứng chỉ \nnăng lượng tái tạo (REC).\n• Tòa nhà văn phòng: Lắp đặt \nđèn LED, hệ thống cảm biến \nthông minh; tích hợp cảm biến \nnhiệt độ và độ ẩm để điều \nkhiển hệ thống điều hòa tự động;\n• Trung tâm dữ liệu: Tối ưu hệ \nthống làm mát thông qua các \ngiải pháp Liquid Cooling, \nAI-driven Thermal Management.\nSử dụng môi chất lạnh có chỉ số \nGWP thấp; áp dụng cơ chế \nvận hành tiết kiệm năng lượng \ncho hệ thống máy chủ, áp dụng \ntiêu chuẩn xanh cho hạ tầng.\n• Theo dõi các tiêu chuẩn và \nhạn mức phát thải của Việt Nam \nđể triển khai kiểm kê khí nhà kính;\n• Báo cáo, đo lường và xác nhận \nlượng khí nhà kính/khí thải \nđịnh kỳ;\n• Giám sát và theo dõi chặt chẽ các \nhoạt động để đảm bảo hiệu quả \ntrong việc giảm phát thải.\n•\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày lộ trình Net Zero 2040 của tập đoàn FPT, bao gồm các bước và mục tiêu giảm phát thải khí nhà kính đến năm 2030 và hướng tới mục tiêu Net Zero vào năm 2040.\ndiagram: Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040 (giữa trang) — 5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Lộ trình giảm phát thải khí nhà kính của FPT đến năm 2040",
+              "location": "giữa trang",
+              "description": "5 bước chính trong lộ trình giảm phát thải: 01 - Xác định lĩnh vực trọng tâm giảm phát thải; 02 - Xác định mục tiêu giảm phát thải cho từng lĩnh vực; 03 - Thiết lập các giải pháp giảm phát thải khả thi và hiệu quả; 04 - Xác định các giải pháp ưu tiên; 05 - Kiểm soát và đánh giá định kỳ. Mỗi bước có mô tả chi tiết các hoạt động liên quan."
+            }
+          ]
+        }
+      ],
+      "images": []
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794801837-fkpSKCN0qX7xTDVpSdSe",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_tzQfuovBq9lf2APwqDMq2z2P",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\":\"Hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 là tòa nhà F-Complex tại Đà Nẵng và Data Center tại Tp. Hồ Chí Minh. Công trình được nêu là đầu tiên ở Việt Nam đạt chứng chỉ EDGE là FPT Complex Đà Nẵng, với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao.\",\"abstain\":false,\"citations\":[{\"id\":\"FPT2025:p147\",\"region\":\"đoạn văn cuối trang, bảng tổng hợp so sánh kết quả tiêu thụ điện, ảnh hệ thống điện mặt trời mái nhà tại tòa nhà F-Complex (Đà Nẵng)\"},{\"id\":\"FPT2025:p153\",\"region\":\"đoạn văn giữa trang, ảnh FPT Complex Đà Nẵng đạt chứng chỉ EDGE\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p147",
+    "FPT2025:p153",
+    "FPT2025:p119",
+    "FPT2025:p114"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p147",
+      "page": 147,
+      "image": ".bonus/pages/p147.jpg",
+      "image_sha256": "86baf2d9bdcb79f14d07358320970151432a8889b5185018be413c2323d3f36c"
+    },
+    {
+      "id": "FPT2025:p153",
+      "page": 153,
+      "image": ".bonus/pages/p153.jpg",
+      "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf"
+    },
+    {
+      "id": "FPT2025:p119",
+      "page": 119,
+      "image": ".bonus/pages/p119.jpg",
+      "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+    },
+    {
+      "id": "FPT2025:p114",
+      "page": 114,
+      "image": ".bonus/pages/p114.jpg",
+      "image_sha256": "e82df822ac7f11d3dd95502a689b7b79fd82f37729f2b4bc664a0459fd91a1b9"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794801835-e7HTo0Vs43Otiwx7ZXGP",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 471,
+        "completion_tokens": 30,
+        "total_tokens": 501,
+        "cost": 0.0002364,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002364,
+          "upstream_inference_prompt_cost": 0.0001884,
+          "upstream_inference_completions_cost": 4.8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1317.2893000300974,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794801837-fkpSKCN0qX7xTDVpSdSe",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 4989,
+        "completion_tokens": 212,
+        "total_tokens": 5201,
+        "cost": 0.0023348,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0023348,
+          "upstream_inference_prompt_cost": 0.0019956,
+          "upstream_inference_completions_cost": 0.0003392
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2636.3468999625184,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 3978.300800023135,
+  "query_id": "fd-m1",
+  "question": "Nêu hai địa điểm có hệ thống điện mặt trời mái nhà được đưa vào hoạt động năm 2025 và xác định công trình nào được nêu là đầu tiên ở Việt Nam đạt EDGE.",
+  "split": "dev",
+  "config": "text"
+}

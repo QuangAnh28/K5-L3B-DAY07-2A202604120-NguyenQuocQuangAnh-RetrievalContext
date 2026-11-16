@@ -1,0 +1,60 @@
+{
+  "id": "FPT2025:p153",
+  "image_sha256": "addb6e03cc0a5cec065cf834798a533646a74a69f4ce105479ee60a0a5c1ecdf",
+  "caption": {
+    "summary": "Trang báo cáo ESG của FPT năm 2025 trình bày về mô hình văn phòng xanh, tiết kiệm năng lượng và thân thiện với môi trường, cùng các công trình kiến trúc tiêu biểu đạt giải thưởng và chứng chỉ xanh.",
+    "visuals": [
+      {
+        "type": "photo",
+        "title": "F-Town 3 - công trình kiến trúc sinh khí hậu",
+        "location": "dưới bên trái",
+        "description": "Ảnh công trình F-Town 3 với thiết kế không gian xanh, hơn 40% không gian không cần sử dụng điều hòa."
+      },
+      {
+        "type": "photo",
+        "title": "Tòa nhà Hiệu bộ FPT tại Hòa Lạc",
+        "location": "dưới giữa",
+        "description": "Ảnh tòa nhà Hiệu bộ FPT với kiến trúc xanh được vinh danh tại World Architecture Festival và giải Nhất Kiến trúc xanh do Hội Kiến trúc sư Việt Nam tổ chức."
+      },
+      {
+        "type": "photo",
+        "title": "FPT Complex Đà Nẵng",
+        "location": "dưới bên phải",
+        "description": "Ảnh công trình FPT Complex Đà Nẵng đạt chứng chỉ EDGE với các giải pháp tiết kiệm năng lượng, thu hồi nước mưa, xử lý nước thải và hệ thống điều hòa, chiếu sáng hiệu suất cao."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800793-nmAF7W7GP3gHQDKUnXx9",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 271,
+        "total_tokens": 2833,
+        "cost": 0.0014584,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014584,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 6256.364000029862,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

@@ -1,0 +1,365 @@
+{
+  "selected": "hybrid_context",
+  "frozen_at": "2026-11-16T03:59:53.133664+00:00",
+  "fingerprint": {
+    "benchmark_sha256": "d26a2ff9019f2412f3243ca0dfcee276d826ccfe30c6ffa8f6bcf7206ad4a6b9",
+    "chunks_sha256": "83dafd94ea1813da227b8a929669c57217b24f3cbafc3eedb0875526c5dcf4a3",
+    "agent_sha256": "82d377e7124e5d4e969e699113d8a36d69509a2096be1b65b7a63e79ada6ceb9",
+    "retrieval_sha256": "8629b78e9b2d73de27327dffaf7e0cab3fc120c2bc9581ef4664bebe30551e3b",
+    "provider_sha256": "d3ed492e37448181a71eb1c10e4894fbc88335def7b91b4cc7f2feacf6ef16d1",
+    "experiments_sha256": "3d5cb182e5e7db34f34182ef1aa1733f7399166b147807a76bc42d2b00852478",
+    "agent_model": "openai/gpt-4.1-mini"
+  },
+  "configs": {
+    "baseline": {
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 2400,
+      "max_searches": 1,
+      "hypothesis": "Lexical baseline with one search."
+    },
+    "dense": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 2400,
+      "max_searches": 1,
+      "hypothesis": "Semantic retrieval can match wording variants; compare with lexical."
+    },
+    "hybrid": {
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 2400,
+      "max_searches": 1,
+      "hypothesis": "Improvement 1: RRF combines semantic and lexical rankings (20 candidates each, k=60)."
+    },
+    "hybrid_context": {
+      "method": "hybrid",
+      "top_k": 6,
+      "budget": 6000,
+      "max_searches": 3,
+      "hypothesis": "Improvement 2: larger context/top-k and multiple searches may recover missing evidence; bundled change, no attribution to one factor."
+    }
+  },
+  "criteria": [
+    "dev audited grounded answer mean",
+    "dev original-query Context Evidence Rate",
+    "dev Evidence Hit@3",
+    "dev Hit@1",
+    "lower median agent latency",
+    "config name"
+  ],
+  "dev_summaries": {
+    "baseline": {
+      "cases": 17,
+      "errors": 0,
+      "hit1": {
+        "n": 8,
+        "N": 15,
+        "rate": 0.5333333333333333
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "original_context_evidence": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "final_context_evidence": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "searches_distribution": {
+        "0": 0,
+        "1": 17,
+        "2": 0,
+        "3": 0
+      },
+      "median_ms": 5888.551299984101,
+      "model_cost_usd": 0.0106448,
+      "cost_missing_requests": 0,
+      "note": "Grounding/citation/abstention correctness require reading reviews; not inferred from IDs."
+    },
+    "dense": {
+      "cases": 17,
+      "errors": 0,
+      "hit1": {
+        "n": 7,
+        "N": 15,
+        "rate": 0.4666666666666667
+      },
+      "hit3": {
+        "n": 10,
+        "N": 15,
+        "rate": 0.6666666666666666
+      },
+      "original_context_evidence": {
+        "n": 9,
+        "N": 15,
+        "rate": 0.6
+      },
+      "final_context_evidence": {
+        "n": 9,
+        "N": 15,
+        "rate": 0.6
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "searches_distribution": {
+        "0": 0,
+        "1": 17,
+        "2": 0,
+        "3": 0
+      },
+      "median_ms": 26985.73870002292,
+      "model_cost_usd": 0.010952,
+      "cost_missing_requests": 0,
+      "note": "Grounding/citation/abstention correctness require reading reviews; not inferred from IDs."
+    },
+    "hybrid": {
+      "cases": 17,
+      "errors": 0,
+      "hit1": {
+        "n": 8,
+        "N": 15,
+        "rate": 0.5333333333333333
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "original_context_evidence": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "final_context_evidence": {
+        "n": 12,
+        "N": 15,
+        "rate": 0.8
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "searches_distribution": {
+        "0": 0,
+        "1": 17,
+        "2": 0,
+        "3": 0
+      },
+      "median_ms": 24078.770700027235,
+      "model_cost_usd": 0.0109888,
+      "cost_missing_requests": 0,
+      "note": "Grounding/citation/abstention correctness require reading reviews; not inferred from IDs."
+    },
+    "hybrid_context": {
+      "cases": 17,
+      "errors": 0,
+      "hit1": {
+        "n": 8,
+        "N": 15,
+        "rate": 0.5333333333333333
+      },
+      "hit3": {
+        "n": 14,
+        "N": 15,
+        "rate": 0.9333333333333333
+      },
+      "original_context_evidence": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "final_context_evidence": {
+        "n": 15,
+        "N": 15,
+        "rate": 1.0
+      },
+      "tool_use": {
+        "n": 17,
+        "N": 17,
+        "rate": 1.0
+      },
+      "searches_distribution": {
+        "0": 0,
+        "1": 17,
+        "2": 0,
+        "3": 0
+      },
+      "median_ms": 4574.24779998837,
+      "model_cost_usd": 0.0148704,
+      "cost_missing_requests": 0,
+      "note": "Grounding/citation/abstention correctness require reading reviews; not inferred from IDs."
+    }
+  },
+  "dev_audits": {
+    "baseline": {
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 3,
+        "1": 1,
+        "2": 11,
+        "N": 15,
+        "mean": 1.5333333333333334
+      },
+      "citation_validity": {
+        "n": 13,
+        "N": 14
+      },
+      "answer_citation_coverage": {
+        "n": 13,
+        "N": 13
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 2,
+        "N": 15
+      },
+      "context_grades": {
+        "0": 3,
+        "1": 0,
+        "2": 12
+      },
+      "review_note": "AI-assisted semantic audit; not an independent human judgment or student confirmation."
+    },
+    "dense": {
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 5,
+        "1": 1,
+        "2": 9,
+        "N": 15,
+        "mean": 1.2666666666666666
+      },
+      "citation_validity": {
+        "n": 12,
+        "N": 16
+      },
+      "answer_citation_coverage": {
+        "n": 13,
+        "N": 13
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 2,
+        "N": 15
+      },
+      "context_grades": {
+        "0": 3,
+        "1": 3,
+        "2": 9
+      },
+      "review_note": "AI-assisted semantic audit; not an independent human judgment or student confirmation."
+    },
+    "hybrid": {
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 3,
+        "1": 0,
+        "2": 12,
+        "N": 15,
+        "mean": 1.6
+      },
+      "citation_validity": {
+        "n": 14,
+        "N": 16
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "context_grades": {
+        "0": 2,
+        "1": 1,
+        "2": 12
+      },
+      "review_note": "AI-assisted semantic audit; not an independent human judgment or student confirmation."
+    },
+    "hybrid_context": {
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 1,
+        "1": 2,
+        "2": 12,
+        "N": 15,
+        "mean": 1.7333333333333334
+      },
+      "citation_validity": {
+        "n": 14,
+        "N": 15
+      },
+      "answer_citation_coverage": {
+        "n": 14,
+        "N": 14
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 1,
+        "N": 15
+      },
+      "context_grades": {
+        "0": 0,
+        "1": 0,
+        "2": 15
+      },
+      "review_note": "AI-assisted semantic audit; not an independent human judgment or student confirmation."
+    }
+  },
+  "reviews_sha256": {
+    "baseline": "d1c26f7beb94eabe95278259acda52b37550b119b56286feda4fefcc0f495bda",
+    "dense": "74286fa2f09dd1f5e1a376892171ae5cb7d3df8158060b8eb78f0880ebbd46d3",
+    "hybrid": "81719851c7e6cdd71d0d64b8cfac05ce30f5dd97485c3468facc9d5758ba2191",
+    "hybrid_context": "43f4247a55cf2ccda1d5b3b0508e6eda33de00287b4e095502d2118943de5b8f"
+  }
+}

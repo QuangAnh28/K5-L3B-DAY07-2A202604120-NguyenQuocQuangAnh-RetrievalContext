@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p068",
+  "image_sha256": "0cf2ca80fe5c992a994cf2f8b4bdb644c89a15d0a0ed3a3f918caf024f1d003d",
+  "caption": {
+    "summary": "Trang báo cáo trình bày về vị thế dẫn đầu của FPT trong lĩnh vực AI và chiến lược đồng hành cùng Chính phủ trong chuyển đổi số và xây dựng hạ tầng dữ liệu số quốc gia.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800733-vrHnxMMzjA9xK3xLgFJN",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 51,
+        "total_tokens": 2613,
+        "cost": 0.0011064,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011064,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 8.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4145.498299971223,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

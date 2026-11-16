@@ -1,0 +1,481 @@
+{
+  "status": "answered",
+  "answer": "Trên biểu đồ đường ROA (trang 10 báo cáo, PDF trang 11), mức cao nhất là năm 2024 với 14,4%. Năm 2025 ROA là 14,1%, giảm 0,3 điểm phần trăm so với năm 2024 (14,4% − 14,1% = 0,3).\n[FPT2025:p011 — Biểu đồ đường tỷ suất sinh lời ROE và ROA (góc dưới trái), dòng ROA (%) màu cam, các nhãn 2021–2025: 11,4%; 11,9%; 13,6%; 14,4%; 14,1%]",
+  "citations": [
+    {
+      "id": "FPT2025:p011",
+      "region": "Biểu đồ đường tỷ suất sinh lời ROE và ROA (góc dưới trái), dòng ROA (%) màu cam, các nhãn 2021–2025: 11,4%; 11,9%; 13,6%; 14,4%; 14,1%"
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805283-nQi3PX55NIx0MmisrFci",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01ErLop3mHJ1N6uvz9BDYMRf",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"ROA biểu đồ 2021-2025 FPT\",\"biểu đồ ROA đường xu hướng 2021 2022 2023 2024 2025\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Trên đường ROA trong biểu đồ 2021–2025, mức cao nhất thuộc năm nào và năm 2025 giảm bao nhiêu điểm phần trăm so với năm 2024?",
+      "model_queries": [
+        "ROA biểu đồ 2021-2025 FPT",
+        "biểu đồ ROA đường xu hướng 2021 2022 2023 2024 2025"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "score": 0.03278688524590164,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p048",
+          "page": 48,
+          "score": 0.027425373134328357,
+          "component_ranks": {
+            "dense": 7,
+            "tfidf": 20
+          }
+        },
+        {
+          "id": "FPT2025:p170",
+          "page": 170,
+          "score": 0.024099883855981417,
+          "component_ranks": {
+            "dense": 24,
+            "tfidf": 22
+          }
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p195",
+          "page": 195,
+          "score": 0.016129032258064516,
+          "component_ranks": {
+            "dense": 2
+          }
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "score": 0.015873015873015872,
+          "component_ranks": {
+            "dense": 3
+          }
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "score": 0.015625,
+          "component_ranks": {
+            "dense": 4
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Trên đường ROA trong biểu đồ 2021–2025, mức cao nhất thuộc năm nào và năm 2025 giảm bao nhiêu điểm phần trăm so với năm 2024?"
+      ],
+      "context_ids": [
+        "FPT2025:p011",
+        "FPT2025:p048",
+        "FPT2025:p170",
+        "FPT2025:p159",
+        "FPT2025:p195",
+        "FPT2025:p010",
+        "FPT2025:p209",
+        "FPT2025:p119"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p011",
+          "page": 11,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "2021 2022 2023 2024 2025\n30\n20\n10\n0\nTỷ suất sinh lời\ntrên vốn chủ sở hữu (ROE)\n28,1%\nTỷ suất sinh lời\ntrên tổng tài sản (ROA) \n14,1%\nROA (%)\nROE (%)\n26,7% 27,7% 27,9% 28,5% 28,1%\n11,4% 11,9% 13,6% 14,4% 14,1%\n1.697 2.011 2.374 2.741 3.185\n2021 2022 2023 2024 2025\n3.500\n3.000\n2.500\n2.000\n1.500\n1.000\n500\n0\n16,2% so với cùng kỳ\nCổ tức bằng tiền mặt\n3.185 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n5.750 7.112 8.167 10.117 11.078\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n9,5% so với cùng kỳ\nĐóng góp Ngân sách Nhà nước\nTỷ VNĐ 11.078\nĐơn vị: Tỷ VNĐ\nĐảm bảo tăng trưởng ổn định (Tiếp theo)\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các chỉ số tài chính quan trọng của FPT năm 2025, bao gồm cổ tức tiền mặt, đóng góp ngân sách nhà nước, và tỷ suất sinh lời trên vốn chủ sở hữu và tổng tài sản.\nchart: Cổ tức bằng tiền mặt (trái trên) — Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Đóng góp Ngân sách Nhà nước (phải trên) — Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ\nchart: Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA) (dưới) — Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Cổ tức bằng tiền mặt",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện cổ tức tiền mặt qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Đóng góp Ngân sách Nhà nước",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện đóng góp ngân sách nhà nước qua các năm 2021 đến 2025, đơn vị tỷ VNĐ"
+            },
+            {
+              "type": "chart",
+              "title": "Tỷ suất sinh lời trên vốn chủ sở hữu (ROE) và tổng tài sản (ROA)",
+              "location": "dưới",
+              "description": "Biểu đồ đường thể hiện tỷ suất sinh lời ROE và ROA qua các năm 2021 đến 2025, đơn vị phần trăm (%)"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p048",
+          "page": 48,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Ở chiều ngược lại, làn sóng ứng dụng AI bùng nổ đang mở ra những cơ hội tăng trưởng \nmới, gắn với sự trỗi dậy của lực lượng kỹ sư AI và mô hình vận hành tác nhân (Agent \nOperations – AgentOps). Theo Gartner, đến năm 2028, nhu cầu về kỹ sư AI sẽ vượt \nxa nhu cầu về các lập trình viên truyền thống khi có sự dịch chuyển trọng tâm công \nviệc sang điều phối các AI đa tác nhân và quản trị mô hình AgentOps. \nSong song, việc AI làm giảm chi phí phát triển phần mềm cũng đang thúc đẩy \ndoanh nghiệp mở rộng quy mô ứng dụng, xây dựng nhiều phần mềm thông minh để \ngiải quyết các bài toán của doanh nghiệp. Điều này mở ra dư địa lớn cho các dự án \nhiện đại hóa hệ thống cũ và xây dựng ứng dụng thông minh (Intelligent Apps) \ntích hợp AI sâu rộng. Trong bối cảnh đó, sức cạnh tranh khác biệt của doanh nghiệp \ncông nghệ không còn nằm ở hoạt động lập trình thuần túy mà chuyển sang khả năng\nthấu hiểu bối cảnh kinh doanh, đặc thù ngành nghề và năng lực tư vấn giải pháp \ntổng thể. \nBáo cáo của Gartner cho thấy, quy mô thị trường AI doanh nghiệp toàn cầu tăng \ntrưởng 3,2 lần, từ 11,5 tỷ USD năm 2024 lên 37 tỷ USD năm 2025, trở thành phân khúc\nphát triển nhanh nhất. Đáng chú ý, số lượng mô hình AI được triển khai trực tiếp \ntrong hoạt động vận hành để phục vụ hoạt động kinh doanh và hỗ trợ ra quyết định \ntăng gấp 11 lần so với năm trước, phản ánh mức độ chín muồi của năng lực triển khai \nAI ở quy mô lớn.\nXung đột địa chính trị và chiến tranh thương mại \nđịnh hình chuỗi giá trị công nghệ toàn cầu\nQuy mô thị trường AI doanh nghiệp\nCăng thẳng địa chính trị toàn cầu tạo ra sự chia rẽ sâu sắc trong thương mại công \nnghệ. Trong một thế giới đa cực, các quốc gia nỗ lực thoát khỏi sự phụ thuộc vào \ncác nền tảng công nghệ của nước ngoài thông qua chiến lược hạ tầng toàn diện. \nBán dẫn là \"dầu mỏ\" của thế kỷ 21, thúc đẩy các khu vực nội địa hóa chuỗi cung \nứng. Đạo luật chip của Mỹ phản ánh chiến lược giảm phụ thuộc vào Trung Quốc, \nđẩy nhanh cuộc đua công nghệ AI, sinh học và chất bán dẫn. Mỹ đã áp đặt hạn chế \nxuất khẩu thiết bị viễn thông tiên tiến và chất bán dẫn, ảnh hưởng đến chip sản \nxuất nước ngoài sử dụng công nghệ Mỹ, dẫn tới việc tái cấu trúc sâu rộng ngành \nbán dẫn toàn cầu. \nAI trở thành sức mạnh quốc gia. Các nước đang đầu tư mạnh để xây dựng hạ tầng \ntính toán riêng và mô hình AI dựa trên dữ liệu bản địa. Hàn Quốc ra mắt \nAI Champions trị giá 530 tỷ Won để phát triển LLM bản địa như: HyperCLOVA X \ncủa Naver và Exaone của LG nhằm giảm sự phụ thuộc vào OpenAI và Google. \nCanada cam kết đầu tư 02 tỷ USD cho chiến lược tính toán AI chủ quyền. Chính phủ \nNhật Bản hỗ trợ phát triển LLM tập trung vào tiếng Nhật và dữ liệu công nghiệp \nđặc thù để bảo vệ văn hóa và an ninh dữ liệu. Ấn Độ triển khai chương trình \nIndiaAI Mission trị giá 1,25 tỷ USD để xây dựng năng lực tính toán trong nước.\nBối cảnh này tạo ra cơ hội chiến lược cho Việt Nam. Khi các tập đoàn đa quốc gia \nphải đa dạng hóa chuỗi cung ứng, Việt Nam với vị trí địa chính trị ổn định, lực lượng \nlao động công nghệ trẻ và chính sách mở cửa trở thành điểm đến hấp dẫn. Xu hướng\n\"Trung Quốc+1\" trong chuỗi cung ứng công nghệ mở ra không gian cho các công ty\ncông nghệ Việt Nam tham gia sâu hơn vào chuỗi giá trị công ",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Quy mô thị trường AI doanh nghiệp",
+              "location": "dưới trái",
+              "description": "Biểu đồ đường thể hiện quy mô thị trường AI doanh nghiệp toàn cầu từ năm 2022 đến 2025, đơn vị tỷ USD, với các mốc 0 (2022), 1,7 (2023), 11,5 (2024), 37,0 (2025) và tỷ lệ tăng trưởng tương ứng 6,8x và 3,2x."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p170",
+          "page": 170,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lợi nhuận sau thuế TNDN (60 = 50 – 51 – 52)\nPhân bổ cho:\nCổ đông của công ty mẹ\nCổ đông không kiểm soát\nLãi cơ bản trên cổ phiếu\nLãi suy giảm trên cổ phiếu\nBÁO CÁO KẾT QUẢ HOẠT ĐỘNG KINH DOANH HỢP NHẤT Mẫu số B 02 – DN/HN\nMã số Thuyết minh 2025 2024\nNăm tài chính kết thúc ngày 31 tháng 12 năm\n60\n61\n62\n70\n71\n11.232.339.450.734\n9.376.127.629.501\n1.856.211.821.233\n5.216\n5.216\n9.427.422.530.444\n7.856.767.812.178\n1.570.654.718.266\n4.292\n4.292\n25(a)\n25(b)\nHOÀNG NGỌC BÍCH\nNgười lập\nHOÀNG HỮU CHIẾN\nKế toán trưởng\nNGUYỄN THẾ PHƯƠNG\nPhó Tổng Giám đốc\nChữ ký được ủy quyền\nNgày 18 tháng 3 năm 2026\nĐơn vị: VNĐ\n(Tiếp theo)\nCác thuyết minh từ trang 172 đến trang 225 là một phần cấu thành báo cáo tài chính hợp nhất.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBáo cáo kết quả hoạt động kinh doanh hợp nhất năm 2025 và 2024 của FPT, thể hiện lợi nhuận sau thuế và phân bổ lợi nhuận cho cổ đông.\ntable: Báo cáo kết quả hoạt động kinh doanh hợp nhất (trên) — Các chỉ tiêu tài chính gồm lợi nhuận sau thuế TNDN, cổ đông công ty mẹ, cổ đông không kiểm soát, lãi cơ bản và lãi suy giảm trên cổ phiếu; đơn vị tính VNĐ; so sánh năm tài chính kết thúc ngày 31/12/2025 và 2024.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Báo cáo kết quả hoạt động kinh doanh hợp nhất",
+              "location": "trên",
+              "description": "Các chỉ tiêu tài chính gồm lợi nhuận sau thuế TNDN, cổ đông công ty mẹ, cổ đông không kiểm soát, lãi cơ bản và lãi suy giảm trên cổ phiếu; đơn vị tính VNĐ; so sánh năm tài chính kết thúc ngày 31/12/2025 và 2024."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p159",
+          "page": 159,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang mục lục phần Báo cáo tài chính hợp nhất trong báo cáo thường niên FPT 2025.\ndiagram: Biểu tượng tài chính và biểu đồ (phải) — Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể.",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Biểu tượng tài chính và biểu đồ",
+              "location": "phải",
+              "description": "Biểu tượng đồng đô la kết hợp với biểu đồ thanh và biểu đồ đường thể hiện dữ liệu tài chính, không có nhãn trục hay đơn vị cụ thể."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p195",
+          "page": 195,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Đơn vị: VNĐ\n(a) Ngắn hạn\nChi phí thuê (bản quyền, văn phòng, \nkênh, đường truyền, cáp quang)\nKhác\n(b) Dài hạn\nChi phí triển khai dịch vụ viễn thông \ncho thuê bao mới\nChi phí thuê đất, cải tạo văn phòng\nvà nội thất\nKhác\nHàng mua đang đi trên đường\nNguyên vật liệu\nCông cụ, dụng cụ\nChi phí sản xuất kinh doanh dở dang\nHàng hóa\nHàng gửi bán\n 101.979.270.758 \n 1.158.827.230.634 \n59.140.726.673\n \n 686.445.326.982 \n \n 270.576.279.561 \n \n 424.775.569\n2.277.393.610.177 \n - \n \n (14.779.501.765)\n \n - \n \n(62.230.314.918)\n \n (6.613.991.155)\n \n - \n(83.623.807.838)\n74.651.331.133\n965.653.469.626\n63.703.537.780\n571.889.493.134\n313.880.711.271\n445.943.569\n1.990.224.486.513\n-\n(17.126.007.656)\n-\n(62.230.314.918)\n(54.111.214.909)\n-\n(133.467.537.483)\n31/12/2025 31/12/2024\n 2.055.454.565.292 \n 1.264.281.458.521 \n880.494.359.253 \n4.200.230.383.066\n1.804.520.929.972\n1.144.461.379.441\n816.205.316.004\n3.765.187.625.417\n270.003.093.644 \n 371.970.942.125\n641.974.035.769\n218.659.614.027\n261.047.604.531\n479.707.218.558\nGiá gốc\n31/12/2025\nDự phòng Giá gốc\n31/12/2024\nDự phòng\n11. Hàng tồn kho\n12. Chi phí trả trước Đơn vị: VNĐ\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thuyết minh báo cáo tài chính hợp nhất năm 2025, tập trung vào mục hàng tồn kho và chi phí trả trước với số liệu so sánh giữa năm 2025 và 2024.\ntable: Hàng tồn kho (trên) — Bảng số liệu giá gốc và dự phòng hàng tồn kho các loại tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ.\ntable: Chi phí trả trước (dưới) — Bảng số liệu chi phí trả trước ngắn hạn và dài hạn tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ.",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Hàng tồn kho",
+              "location": "trên",
+              "description": "Bảng số liệu giá gốc và dự phòng hàng tồn kho các loại tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+            },
+            {
+              "type": "table",
+              "title": "Chi phí trả trước",
+              "location": "dưới",
+              "description": "Bảng số liệu chi phí trả trước ngắn hạn và dài hạn tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VNĐ."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p010",
+          "page": 10,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "CON SỐ NỔI BẬT\nDẤU ẤN 2025\nĐảm bảo tăng trưởng ổn định\n35.657 44.010 52.618 62.849 70.113\n2021 2022 2023 2024 2025\n75.000\n60.000\n45.000\n30.000\n15.000\n0\n11,6% so với cùng kỳ\nTổng doanh thu\nTỷ VNĐ 70.113\nĐơn vị: Tỷ VNĐ\n5.349 6.491 7.788 9.427 11.232\n2021 2022 2023 2024 2025\n12.000\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,1% so với cùng kỳ\nLợi nhuận sau thuế\nTỷ VNĐ 11.232\nĐơn vị: Tỷ VNĐ\n4.337 5.310 6.465 7.857 9.376\n2021 2022 2023 2024 2025\n10.000\n8.000\n6.000\n4.000\n2.000\n0\n19,3% so với cùng kỳ\nLợi nhuận sau thuế thuộc về\ncổ đông công ty mẹ\n9.376 Tỷ VNĐ\nĐơn vị: Tỷ VNĐ\n2.367 2.910 3.518 4.292 5.216\n2021 2022 2023 2024 2025\n5.500\n4.500\n3.500\n2.500\n1.500\n0\n21,5% so với cùng kỳ (*)\nThu nhập trên cổ phiếu (EPS)\n5.216 VNĐ\nĐơn vị: VNĐ\n(*) EPS từ năm 2021-2024 được điều \nchỉnh hồi tố theo tỷ lệ chi trả cổ tức \nbằng cổ phiếu 15% trong năm 2025 và \nquy định về cách tính EPS theo thông \ntư 200/2014/TT-BTC.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các con số nổi bật của FPT năm 2025 với các chỉ tiêu tài chính chính như tổng doanh thu, lợi nhuận sau thuế, lợi nhuận sau thuế thuộc về cổ đông công ty mẹ và thu nhập trên cổ phiếu (EPS), đồng thời so sánh với các năm trước từ 2021 đến 2024.\nchart: Tổng doanh thu (trái trên) — Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm.\nchart: Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ (phải trên) — Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm.\nchart: Lợi nhuận sau thuế (trái dưới) — Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm.\nchart: Thu nhập trên cổ phiếu (EPS) (phải dưới) — Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm.",
+          "visuals": [
+            {
+              "type": "chart",
+              "title": "Tổng doanh thu",
+              "location": "trái trên",
+              "description": "Biểu đồ cột thể hiện tổng doanh thu theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có giá trị tăng dần qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế thuộc về cổ đông công ty mẹ",
+              "location": "phải trên",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế thuộc về cổ đông công ty mẹ theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, có xu hướng tăng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Lợi nhuận sau thuế",
+              "location": "trái dưới",
+              "description": "Biểu đồ cột thể hiện lợi nhuận sau thuế theo năm từ 2021 đến 2025, đơn vị tỷ VNĐ, tăng trưởng qua các năm."
+            },
+            {
+              "type": "chart",
+              "title": "Thu nhập trên cổ phiếu (EPS)",
+              "location": "phải dưới",
+              "description": "Biểu đồ cột thể hiện thu nhập trên cổ phiếu (EPS) theo năm từ 2021 đến 2025, đơn vị VNĐ, có điều chỉnh EPS từ 2021-2024 theo quy định, giá trị tăng qua các năm."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p209",
+          "page": 209,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "26. Doanh thu thuần về bán hàng và\ncung cấp dịch vụ 28. Doanh thu hoạt động tài chính\nĐơn vị: VNĐ\nĐơn vị: VNĐ\n27. Giá vốn hàng bán và dịch vụ cung cấp\nTHUYẾT MINH BÁO CÁO TÀI CHÍNH HỢP NHẤT \nCHO NĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2025\nDoanh thu \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nCác khoản giảm trừ \nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nDoanh thu thuần về bán hàng và cung cấp dịch vụ\nDoanh thu bán hàng hóa\nDoanh thu cung cấp dịch vụ\nGiá vốn của hàng hóa đã bán\nGiá vốn của dịch vụ đã cung cấp\n(Hoàn nhập)/dự phòng giảm giá \nhàng tồn kho\n4.936.911.674.294 39.289.180.693.984 (1.796.779.981)\n44.224.295.588.297 \n4.416.467.377.102 \n34.732.056.916.304 \n1.921.688.045\n39.150.445.981.451 \n \n 5.801.884.142.851 64.405.804.801.702\n70.207.688.944.553\n(732.143.441) \n(94.131.700.402) \n(94.863.843.843) \n5.801.151.999.410 \n64.311.673.101.300\n70.112.825.100.710\n5.162.729.425.317 \n57.799.922.709.318\n62.962.652.134.635 \n(12.000.960.744) \n(101.856.822.524) \n(113.857.783.268) \n5.150.728.464.573 \n57.698.065.886.794\n62.848.794.351.367 \n2025 2024\nLãi tiền gửi, cho vay\nLãi chênh lệch tỷ giá hối đoái\nCổ tức, lợi nhuận được chia\nKhác \n 1.717.721.035.751 952.791.248.844 209.162.913.500 \n97.481.158.678 \n2.977.156.356.773\n1.207.207.618.564 \n575.306.141.560\n103.356.885.500 \n49.878.469.681\n1.935.749.115.305 \n2025 2024\n29. Chi phí tài chính Đơn vị: VNĐ\nLãi tiền vay\nLỗ chênh lệch tỷ giá\nDự phòng giảm giá các khoản \nđầu tư và tổn thất đầu tư tài chính\nKhác\n809.759.601.156 \n474.800.589.595\n384.631.609.873 \n2.856.900.842 \n1.672.048.701.466\n551.639.361.786 \n506.839.495.688 \n738.729.747.218 \n14.338.777.289 \n1.811.547.381.981 \n2025 2024\nĐơn vị: VNĐ\n2025 2024\nMẫu số B 09 – DN/HN\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nBảng số liệu chi tiết về doanh thu thuần, giá vốn hàng bán và dịch vụ cung cấp, doanh thu hoạt động tài chính và chi phí tài chính của FPT năm 2025 và 2024.\ntable: Doanh thu thuần về bán hàng và cung cấp dịch vụ (trái trên) — Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần\ntable: Giá vốn hàng bán và dịch vụ cung cấp (trái dưới) — Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND\ntable: Doanh thu hoạt động tài chính (phải trên) — Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND\ntable: Chi phí tài chính (phải dưới) — Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+              "location": "trái trên",
+              "description": "Bảng số liệu doanh thu bán hàng hóa và cung cấp dịch vụ năm 2025 và 2024, đơn vị VND, gồm doanh thu, các khoản giảm trừ và doanh thu thuần"
+            },
+            {
+              "type": "table",
+              "title": "Giá vốn hàng bán và dịch vụ cung cấp",
+              "location": "trái dưới",
+              "description": "Bảng số liệu giá vốn hàng hóa đã bán, giá vốn dịch vụ đã cung cấp và dự phòng giảm giá hàng tồn kho năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Doanh thu hoạt động tài chính",
+              "location": "phải trên",
+              "description": "Bảng số liệu doanh thu hoạt động tài chính gồm lãi tiền gửi, cho vay, lãi chênh lệch tỷ giá hối đoái, cổ tức, lợi nhuận được chia và các khoản khác năm 2025 và 2024, đơn vị VND"
+            },
+            {
+              "type": "table",
+              "title": "Chi phí tài chính",
+              "location": "phải dưới",
+              "description": "Bảng số liệu chi phí tài chính gồm lãi tiền vay, lỗ chênh lệch tỷ giá, dự phòng giảm giá các khoản đầu tư và tổn thất đầu tư tài chính, và các khoản khác năm 2025 và 2024, đơn vị VND"
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p119",
+          "page": 119,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "HOẠT ĐỘNG VÌ MÔI TRƯỜNG XANH\nVÌ SỰ PHÁT TRIỂN CỦA CỘNG ĐỒNG\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nBảo vệ\nmôi trường\nKhông ngừng cải thiện môi trường \nlàm việc hướng tới môi trường làm \nviệc xanh, an toàn, lành mạnh.\n• Mục tiêu trung hạn: đến năm 2030, \ngiảm 15,8% tổng lượng phát thải \nkhí nhà kính phù hợp với mục tiêu \nchung của Việt Nam;\n• Mục tiêu dài hạn: đến năm 2040 \nđạt Net Zero như cam kết của \nChính phủ Việt Nam tại COP 26.\n• Chuẩn hóa phương pháp kiểm kê số liệu phát thải khí\n nhà kính cho Phạm vi 1 và Phạm vi 2; thực hiện kiểm kê và \ntheo dõi số liệu toàn Tập đoàn định kỳ theo quý;\n• 100% số liệu sử dụng năng lượng được giám sát;\n• Triển khai 02 hệ thống điện mặt trời mái nhà với tổng\n sản lượng 842.749 kWh;\n• 100% cơ sở được kiểm kê và giám sát phát thải khí nhà kính \nđịnh kỳ.\nKết quả nổi bật 2025\nCam kết Mục tiêu Vấn đề\ntrọng yếu\nĐào tạo nguồn \nnhân lực công nghệ\nchất lượng cao\nTạo điều kiện\ntốt nhất để trẻ em\nViệt Nam có cơ hội \ntiếp cận giáo dục\nchất lượng và bền vững\nLà đơn vị dẫn đầu trong đào tạo \nnhân lực số có năng lực cạnh tranh \ntoàn cầu.\n• Đào tạo 10.000 kỹ sư bán dẫn vào \nnăm 2030;\n• Đưa AI vào đào tạo người học ở tất \ncả các bậc học thuộc hệ thống \ngiáo dục của FPT.\n• 3.700 sinh viên theo học các chương trình và chuyên ngành \nđào tạo AI, thiết kế vi mạch bán dẫn của hệ thống giáo dục FPT;\n• Nghiên cứu, ứng dụng và phát triển các giải pháp công nghệ \ntiên tiến nhất, gia tăng tương tác và cá nhân hóa trải nghiệm \ncủa người học; đưa AI vào đào tạo từ bậc tiểu học đến\nphổ thông, cao đẳng, đại học và sau đại học; \n• Trao 151 tỷ đồng học bổng Nguyễn Văn Đạo.\nChú trọng hỗ trợ tạo điều kiện \nhọc tập tốt hơn cho các hoàn cảnh \nyếu thế tại các khu vực kinh tế \nkhó khăn, vùng núi, vùng sâu, \nvùng xa.\n• Tiếp tục duy trì quỹ dành cho các \nhoạt động phát triển vì cộng đồng \ntập trung chủ yếu vào các hoạt \nđộng giáo dục.\n• Sử dụng 72,8 tỷ đồng cho các hoạt động trách nhiệm xã hội;\n• Trường Hy Vọng nhận giải thưởng Hành động vì cộng đồng ở \nhạng mục Dự án kịp thời;\n• 26 điểm trường thiệt hại nặng được tái thiết kịp thời sau lũ.\nKết quả nổi bật 2025\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày các hoạt động vì môi trường xanh và vì sự phát triển của cộng đồng của FPT, bao gồm các cam kết, mục tiêu và kết quả nổi bật năm 2025 trong các lĩnh vực bảo vệ môi trường, đào tạo nguồn nhân lực công nghệ chất lượng cao và tạo điều kiện học tập cho trẻ em Việt Nam.\n",
+          "visuals": []
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p011",
+          "path": ".bonus/pages/p011.jpg",
+          "sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+        },
+        {
+          "id": "FPT2025:p048",
+          "path": ".bonus/pages/p048.jpg",
+          "sha256": "9fb6df40f11c90e110b3b303070326bcc2d269bc19f1f181f6f9cb2725911a98"
+        },
+        {
+          "id": "FPT2025:p170",
+          "path": ".bonus/pages/p170.jpg",
+          "sha256": "464a6e7afa86b2a17435297338fe9fd002c9f26c89a7975934cb6dcc3afe941a"
+        },
+        {
+          "id": "FPT2025:p159",
+          "path": ".bonus/pages/p159.jpg",
+          "sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+        },
+        {
+          "id": "FPT2025:p195",
+          "path": ".bonus/pages/p195.jpg",
+          "sha256": "a5098516d0495b6560a4a7ad867305ebe275e54064186e7ddc58d3086b031a4a"
+        },
+        {
+          "id": "FPT2025:p010",
+          "path": ".bonus/pages/p010.jpg",
+          "sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+        },
+        {
+          "id": "FPT2025:p209",
+          "path": ".bonus/pages/p209.jpg",
+          "sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+        },
+        {
+          "id": "FPT2025:p119",
+          "path": ".bonus/pages/p119.jpg",
+          "sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805300-5stxTDkElXbm8fRJfuzD",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01XNW9XKQq6ic2w3S68aPVh3",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Trên biểu đồ đường ROA (trang 10 báo cáo, PDF trang 11), mức cao nhất là năm 2024 với 14,4%. Năm 2025 ROA là 14,1%, giảm 0,3 điểm phần trăm so với năm 2024 (14,4% − 14,1% = 0,3).\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p011\",\"region\":\"Biểu đồ đường tỷ suất sinh lời ROE và ROA (góc dưới trái), dòng ROA (%) màu cam, các nhãn 2021–2025: 11,4%; 11,9%; 13,6%; 14,4%; 14,1%\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p011",
+    "FPT2025:p048",
+    "FPT2025:p170",
+    "FPT2025:p159",
+    "FPT2025:p195",
+    "FPT2025:p010",
+    "FPT2025:p209",
+    "FPT2025:p119"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p011",
+      "page": 11,
+      "image": ".bonus/pages/p011.jpg",
+      "image_sha256": "0e19afde5701cc691aa07845a514fe44bf075429b988a293296783a37d60fdc0"
+    },
+    {
+      "id": "FPT2025:p048",
+      "page": 48,
+      "image": ".bonus/pages/p048.jpg",
+      "image_sha256": "9fb6df40f11c90e110b3b303070326bcc2d269bc19f1f181f6f9cb2725911a98"
+    },
+    {
+      "id": "FPT2025:p170",
+      "page": 170,
+      "image": ".bonus/pages/p170.jpg",
+      "image_sha256": "464a6e7afa86b2a17435297338fe9fd002c9f26c89a7975934cb6dcc3afe941a"
+    },
+    {
+      "id": "FPT2025:p159",
+      "page": 159,
+      "image": ".bonus/pages/p159.jpg",
+      "image_sha256": "1f7ab596e720da30b3ee2b95d6f0962bef1cdf5cf47fd0711a6303eac3e23457"
+    },
+    {
+      "id": "FPT2025:p195",
+      "page": 195,
+      "image": ".bonus/pages/p195.jpg",
+      "image_sha256": "a5098516d0495b6560a4a7ad867305ebe275e54064186e7ddc58d3086b031a4a"
+    },
+    {
+      "id": "FPT2025:p010",
+      "page": 10,
+      "image": ".bonus/pages/p010.jpg",
+      "image_sha256": "60ad91364203c175cfe2b42cb788ecc5b80f7d5aaf2e2e6002797a50b570cff5"
+    },
+    {
+      "id": "FPT2025:p209",
+      "page": 209,
+      "image": ".bonus/pages/p209.jpg",
+      "image_sha256": "4fae439126f5a7d2a73dd0cd7a269b8081af3a8abc2c5100e0a93b2b030ae2d1"
+    },
+    {
+      "id": "FPT2025:p119",
+      "page": 119,
+      "image": ".bonus/pages/p119.jpg",
+      "image_sha256": "51e7c817cf73a95c0496f7ccaa7acdbf8316123b317c1f8b70030cf8ebc72469"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805283-nQi3PX55NIx0MmisrFci",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1830,
+        "completion_tokens": 85,
+        "total_tokens": 1915,
+        "cost": 0.0002255,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002255,
+          "upstream_inference_prompt_cost": 0.000183,
+          "upstream_inference_completions_cost": 4.25e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4765.945199993439,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805300-5stxTDkElXbm8fRJfuzD",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 29814,
+        "completion_tokens": 304,
+        "total_tokens": 30118,
+        "cost": 0.0031334,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0031334,
+          "upstream_inference_prompt_cost": 0.0029814,
+          "upstream_inference_completions_cost": 0.000152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 11310.654400032945,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 24529.607000004034,
+  "query_id": "ft-c1",
+  "question": "Trên đường ROA trong biểu đồ 2021–2025, mức cao nhất thuộc năm nào và năm 2025 giảm bao nhiêu điểm phần trăm so với năm 2024?",
+  "split": "test",
+  "config": "vision"
+}

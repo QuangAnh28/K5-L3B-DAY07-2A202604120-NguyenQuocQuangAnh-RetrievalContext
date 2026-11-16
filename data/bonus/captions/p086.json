@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p086",
+  "image_sha256": "d536d576d05a231e24d6edc669e17190a57b6e44a551f767d44bc0f6371c9089",
+  "caption": {
+    "summary": "Danh sách thành viên Hội đồng Quản trị (HĐQT) nhiệm kỳ 2022-2027 và số cuộc họp tham dự trong năm 2025 của từng thành viên.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Danh sách Thành viên HĐQT nhiệm kỳ 2022-2027 và số cuộc họp tham dự trong năm 2025",
+        "location": "trên",
+        "description": "Bảng gồm các cột: Thành viên HĐQT, Chức vụ tại FPT và các công ty khác, Kinh nghiệm chuyên môn, Tỷ lệ sở hữu, Ngày bắt đầu là thành viên HĐQT, Số buổi họp HĐQT tham dự, Tỷ lệ tham dự họp."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800744-p25mLB7jSQK2YYj6zdih",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 158,
+        "total_tokens": 2720,
+        "cost": 0.0012776,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012776,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002528
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2908.486200030893,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

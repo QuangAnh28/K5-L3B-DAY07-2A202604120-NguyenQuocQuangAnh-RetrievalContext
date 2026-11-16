@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p190",
+  "image_sha256": "bbb9ef5bfeb2c25cf4b1d4894bc293ec8ff96b9df69033be9d9a0d17ae82511a",
+  "caption": {
+    "summary": "Thuyết minh báo cáo tài chính hợp nhất về đầu tư tài chính, chi tiết các khoản đầu tư nắm giữ đến ngày đáo hạn phân loại ngắn hạn và dài hạn, cùng chi tiết số dư các khoản tiền gửi có kỳ hạn ngắn hạn theo nguyên tệ.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Đầu tư nắm giữ đến ngày đáo hạn",
+        "location": "trên",
+        "description": "So sánh giá gốc và giá trị ghi sổ các khoản đầu tư ngắn hạn và dài hạn tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VND."
+      },
+      {
+        "type": "table",
+        "title": "Chi tiết số dư các khoản tiền gửi có kỳ hạn ngắn hạn theo nguyên tệ",
+        "location": "dưới",
+        "description": "Số dư tiền gửi có kỳ hạn ngắn hạn phân theo nguyên tệ (VNĐ, USD, JPY, EUR) và tương đương tính đến ngày 31/12/2025 và 31/12/2024, đơn vị VND."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800821-GAIPIg27aFHlGhIOQwU6",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 229,
+        "total_tokens": 2791,
+        "cost": 0.0013912,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013912,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4684.314700018149,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

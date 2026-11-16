@@ -1,0 +1,51 @@
+{
+  "api_requests_made_by_this_command": 0,
+  "selected": "vision",
+  "model": "anthropic/claude-haiku-5.5",
+  "test_total": 30,
+  "saved_test_queries": 30,
+  "pending_queries": 0,
+  "saved_errors_not_automatically_retried": [],
+  "minimum_chat_requests_if_successful": 0,
+  "maximum_successful_chat_requests_without_retries": 0,
+  "original_query_embeddings_missing": 0,
+  "pending_dev_queries": 0,
+  "price_checked_on": "2026-11-16",
+  "usage_reference": "results/bonus/dev/vision/traces.json",
+  "normalized_token_volume_price_scenarios": {
+    "anthropic/claude-haiku-5.5": {
+      "pending_dev_usd": 0.0,
+      "test_usd": 0.0,
+      "dev_plus_test_usd": 0.0
+    },
+    "openai/gpt-4.1-mini": {
+      "pending_dev_usd": 0.0,
+      "test_usd": 0.0,
+      "dev_plus_test_usd": 0.0
+    },
+    "openai/gpt-4.1": {
+      "pending_dev_usd": 0.0,
+      "test_usd": 0.0,
+      "dev_plus_test_usd": 0.0
+    },
+    "anthropic/claude-sonnet-5.5": {
+      "pending_dev_usd": 0.0,
+      "test_usd": 0.0,
+      "dev_plus_test_usd": 0.0
+    }
+  },
+  "note_embeddings": "Rewrites may add queries. Reuse all existing document captions/vectors; never ingest again to run test.",
+  "measured_dev_chat_requests": 36,
+  "measured_dev_chat_cost_usd": 0.0665848,
+  "estimated_test_chat_cost_usd_at_same_mean": 0.0,
+  "estimate_warning": "Hypothetical same token volume as saved reference dev. Different model tokenizers/image counting, reasoning, rewrites, retries and cache discounts change cost. Not a quote or spending cap. Query embeddings and credit-purchase fees excluded.",
+  "zero_additional_api_option": "Run offline unit tests and submit the completed base lab; disclose bonus test pending, no bonus claimed.",
+  "cheap_model_option": "New dev experiment required before test; retain original selection and results separately. No quality guarantee.",
+  "do_not_repeat": [
+    "caption 232 pages",
+    "embed document again",
+    "completed dev queries",
+    "completed test queries"
+  ],
+  "no_test_sampling_for_bonus": "A full published 30-question test must be evaluated to claim the bonus."
+}

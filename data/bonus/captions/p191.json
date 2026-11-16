@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p191",
+  "image_sha256": "9cf8972a6b50cd48b4b8c71aa6d23368a51f265ee6c2f8457a930bc16383df04",
+  "caption": {
+    "summary": "Bảng thuyết minh đầu tư tài chính vào các đơn vị khác, bao gồm đầu tư vào công ty liên doanh, liên kết và đầu tư góp vốn vào đơn vị khác, với giá trị ghi sổ và giá trị hợp lý tại các thời điểm 31/12/2025 và 31/12/2024.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Đầu tư vào công ty liên doanh, liên kết",
+        "location": "trên",
+        "description": "Giá trị ghi sổ và giá trị hợp lý tính theo VNĐ, so sánh giữa 31/12/2025 và 31/12/2024 cho các công ty Synnex FPT, Bán lẻ Kỹ thuật số FPT và các khoản khác."
+      },
+      {
+        "type": "table",
+        "title": "Đầu tư góp vốn vào đơn vị khác",
+        "location": "dưới",
+        "description": "Giá trị ghi sổ, giá trị hợp lý và dự phòng tính theo VNĐ, so sánh giữa 31/12/2025 và 31/12/2024 cho Ngân hàng TMCP Tiên Phong, Công ty Cổ phần Chứng khoán FPT và các khoản khác."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800821-UVb4AabsFjkQnC41uwoq",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 254,
+        "total_tokens": 2816,
+        "cost": 0.0014312,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014312,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0004064
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3709.881899994798,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

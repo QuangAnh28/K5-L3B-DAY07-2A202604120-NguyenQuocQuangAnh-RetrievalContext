@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p165",
+  "image_sha256": "57cf533caea6979023e3cec19b4fce8cf521eb575af8477a11014e113de4ca9a",
+  "caption": {
+    "summary": "Bảng cân đối kế toán hợp nhất thể hiện tài sản ngắn hạn của FPT tại ngày 31 tháng 12 năm 2025 và 2024, bao gồm các khoản tiền, đầu tư tài chính ngắn hạn, các khoản phải thu ngắn hạn, hàng tồn kho và tài sản ngắn hạn khác.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Bảng cân đối kế toán hợp nhất - Tài sản ngắn hạn",
+        "location": "trên",
+        "description": "Các mục tài sản ngắn hạn với mã số, thuyết minh, giá trị năm 2025 và 2024, đơn vị VND"
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800804-st05ZbmjtHyj6c2quOaT",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 137,
+        "total_tokens": 2699,
+        "cost": 0.001244,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001244,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002192
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 2703.775100002531,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

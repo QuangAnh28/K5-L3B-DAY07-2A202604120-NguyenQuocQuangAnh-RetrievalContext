@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p198",
+  "image_sha256": "14c191c048e6331ae2e31774ebe3842d2f36a81a1967d94b8a516da01077d79b",
+  "caption": {
+    "summary": "Bảng thuyết minh chi tiết về tài sản cố định vô hình của FPT năm 2025, bao gồm nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại của các loại tài sản như quyền sử dụng đất, phần mềm máy vi tính, giấy phép và các quyền liên quan.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Tài sản cố định vô hình",
+        "location": "giữa trang",
+        "description": "Bảng gồm các cột: Quyền sử dụng đất, Phần mềm máy vi tính, Giấy phép, quyền khai thác, quyền phát hành và bản quyền, Khác, Tổng cộng; các dòng thể hiện nguyên giá, giá trị khấu hao lũy kế và giá trị còn lại tại các mốc thời gian 1/1/2025 và 31/12/2025, cùng các biến động trong năm như tăng do mua sắm, tăng do xây dựng cơ bản hoàn thành, thanh lý, nhượng bán, và các thay đổi khác. Đơn vị tính: VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800829-q5M2GPaYzXStj2S5TuN6",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 227,
+        "total_tokens": 2789,
+        "cost": 0.001388,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.001388,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003632
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5252.385399944615,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

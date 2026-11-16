@@ -1,0 +1,429 @@
+{
+  "status": "answered",
+  "answer": "Theo thông điệp Chủ tịch HĐQT (trang 4 của báo cáo), sau một năm vận hành hai nhà máy AI tại Việt Nam và Nhật Bản đã khai thác khoảng 70% công suất và xử lý hơn 1.100 tỷ token. Ngoài ra, các nhà máy này đã tinh chỉnh 70 mô hình AI theo nhu cầu khách hàng và phát triển 10 mô hình ngôn ngữ lớn từ FPT AI Factory.\n[FPT2025:p005 — Đoạn văn cột trái, giữa trang (đoạn bắt đầu \"Lợi thế riêng có thứ hai...\"), câu \"Chỉ sau một năm, các nhà máy này đã được khai thác khoảng 70% công suất, xử lý hơn 1.100 tỷ token...\"]",
+  "citations": [
+    {
+      "id": "FPT2025:p005",
+      "region": "Đoạn văn cột trái, giữa trang (đoạn bắt đầu \"Lợi thế riêng có thứ hai...\"), câu \"Chỉ sau một năm, các nhà máy này đã được khai thác khoảng 70% công suất, xử lý hơn 1.100 tỷ token...\""
+    }
+  ],
+  "events": [
+    {
+      "event": "model",
+      "response_id": "gen-1794805497-46iKZ815OsPyBr2feeSI",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01MTz9GUf5DJprkbgusUKegg",
+            "function": {
+              "name": "search",
+              "arguments": "{\"queries\": [\"Theo thông điệp Chủ tịch, sau một năm các nhà máy AI đã khai thác khoảng bao nhiêu công suất và xử lý bao nhiêu token?\"]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "retrieval",
+      "query": "Theo thông điệp Chủ tịch, sau một năm các nhà máy AI đã khai thác khoảng bao nhiêu công suất và xử lý bao nhiêu token?",
+      "model_queries": [
+        "Theo thông điệp Chủ tịch, sau một năm các nhà máy AI đã khai thác khoảng bao nhiêu công suất và xử lý bao nhiêu token?"
+      ],
+      "results": [
+        {
+          "id": "FPT2025:p003",
+          "page": 3,
+          "score": 0.03200204813108039,
+          "component_ranks": {
+            "dense": 3,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "FPT2025:p047",
+          "page": 47,
+          "score": 0.03177805800756621,
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 5
+          }
+        },
+        {
+          "id": "FPT2025:p004",
+          "page": 4,
+          "score": 0.030776515151515152,
+          "component_ranks": {
+            "dense": 4,
+            "tfidf": 6
+          }
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "score": 0.03028233151183971,
+          "component_ranks": {
+            "dense": 12,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "FPT2025:p053",
+          "page": 53,
+          "score": 0.028693528693528692,
+          "component_ranks": {
+            "dense": 18,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "FPT2025:p051",
+          "page": 51,
+          "score": 0.028205128205128206,
+          "component_ranks": {
+            "dense": 5,
+            "tfidf": 18
+          }
+        },
+        {
+          "id": "FPT2025:p020",
+          "page": 20,
+          "score": 0.02813852813852814,
+          "component_ranks": {
+            "dense": 6,
+            "tfidf": 17
+          }
+        },
+        {
+          "id": "FPT2025:p116",
+          "page": 116,
+          "score": 0.02786377708978328,
+          "component_ranks": {
+            "dense": 8,
+            "tfidf": 16
+          }
+        }
+      ]
+    },
+    {
+      "event": "search",
+      "queries": [
+        "Theo thông điệp Chủ tịch, sau một năm các nhà máy AI đã khai thác khoảng bao nhiêu công suất và xử lý bao nhiêu token?"
+      ],
+      "context_ids": [
+        "FPT2025:p003",
+        "FPT2025:p047",
+        "FPT2025:p004",
+        "FPT2025:p005",
+        "FPT2025:p053",
+        "FPT2025:p051",
+        "FPT2025:p020",
+        "FPT2025:p116"
+      ],
+      "context": [
+        {
+          "id": "FPT2025:p003",
+          "page": 3,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Lợi thế cạnh tranh trong kỷ nguyên AI không còn đến từ quy mô hay \nkinh nghiệm, mà đến từ khả năng thích ứng và tái tạo chính mình bằng \ncông nghệ. Và để làm được điều này, các doanh nghiệp buộc phải tiến \ntới mô hình AI-Native.\nKính thưa Quý Cổ đông, Khách hàng, Đối tác và toàn thể Cán bộ nhân viên FPT,\nThế giới đang trải qua những biến động sâu sắc, những thử thách khốc liệt chưa từng \nthấy. Chiến tranh, khan hiếm năng lượng, lạm phát, đứt gãy chuỗi cung ứng, chỉ số chứng \nkhoán tụt giảm… Các doanh nghiệp, tổ chức và thậm chí là cả các quốc gia phải đối mặt \nvới một trạng thái “bình thường mới” khắc nghiệt, sự ổn định không còn là điểm tựa. \nNhưng cũng chính trạng thái “bình thường mới” đầy khắc nghiệt này lại làm trỗi dậy một \nsức mạnh chưa từng có. Chúng ta đang đứng trước một “cơn sóng thần công nghệ”, mà \ntrung tâm của nó là AI. AI đang phát triển như vũ bão. Công nghệ này không chỉ thay đổi \ncách chúng ta sống, làm việc và giao tiếp, mà còn tái định hình cách các doanh nghiệp \nvận hành, cách các tổ chức quản trị và cách các quốc gia cạnh tranh. Khi chiến tranh, \nbất ổn và công nghệ cùng lúc tác động thì sự thay đổi của thế giới được gia tốc mạnh mẽ \nhơn bao giờ hết.\nTrong bối cảnh đó, mọi doanh nghiệp, tổ chức, quốc gia đều đứng trước một lựa chọn \nmang tính sinh tồn: thay đổi quyết liệt để tồn tại, hoặc chậm thay đổi để bị bỏ lại phía sau.\nTHÔNG ĐIỆP CHỦ TỊCH HĐQT\nTHÔNG ĐIỆP BAN LÃNH ĐẠO\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày thông điệp của Chủ tịch Hội đồng Quản trị FPT về lợi thế cạnh tranh trong kỷ nguyên AI và những thách thức toàn cầu hiện nay.\nphoto: Ảnh Chủ tịch Hội đồng Quản trị (trái) — Ảnh chân dung Chủ tịch Hội đồng Quản trị FPT, mặc vest xanh, tay khoanh trước ngực.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Ảnh Chủ tịch Hội đồng Quản trị",
+              "location": "trái",
+              "description": "Ảnh chân dung Chủ tịch Hội đồng Quản trị FPT, mặc vest xanh, tay khoanh trước ngực."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p047",
+          "page": 47,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Xu hướng sử dụng các mô hình AI mã nguồn mở được phản ánh rõ nét trong một số \nlĩnh vực kinh tế trọng điểm. Ngành Công nghiệp và Ô tô dẫn đầu trong việc sử dụng \ncác mô hình ngôn ngữ lớn mã nguồn mở để tối ưu hóa chuỗi cung ứng, nâng cao \ncông tác kiểm soát chất lượng và cải thiện hiệu quả vận hành. Mức độ triển khai và \nsử dụng các giải pháp xử lý ngôn ngữ tự nhiên (NLP) trong các ngành này tăng \n148% so với cùng kỳ. Trong khi đó, lĩnh vực Dịch vụ Tài chính dẫn đầu về ứng dụng \nkiến trúc “serverless” (mô hình điện toán đám mây cho phép nhà phát triển xây dựng \nvà chạy ứng dụng mà không cần quản lý cơ sở hạ tầng máy chủ vật lý hay ảo), với \nmức tăng 131%.\nSong song với xu hướng tối ưu hạ tầng và triển khai AI linh hoạt, Agentic AI nổi lên \nnhư một động lực tăng trưởng mới của thị trường với giá trị đạt 7,3 tỷ USD trong \nnăm 2025 và được dự báo tăng từ 9,1 tỷ USD năm 2026 lên 139,2 tỷ USD vào năm \n2034. Xu hướng này cho thấy sự chuyển dịch mạnh mẽ sang các hệ thống tự động \nthực thi nhiệm vụ với sự can thiệp của con người ở mức tối thiểu, qua đó tái định \nhình cách doanh nghiệp vận hành, từ tự động hóa quy trình đến hỗ trợ ra quyết định \nthông minh.\nTrong bối cảnh thị trường AI tự chủ tăng trưởng nhanh, quy mô chi tiêu cho AI toàn cầu cũng \ntăng trưởng mạnh mẽ. Theo Gartner, chi tiêu cho AI toàn cầu đạt khoảng 1.757 tỷ USD \nnăm 2025, tăng hơn 50% so với 2024 và sẽ đạt 3.335 tỷ USD vào năm 2027. \nSự bùng nổ của AI mang lại hiệu suất nhưng cũng đặt ngành dịch vụ CNTT trước \nnhững thách thức về mô hình kinh doanh và phương thức tạo ra giá trị. Theo báo cáo \ncủa J.P. Morgan, các công ty Dịch vụ CNTT phải đối mặt với áp lực \"tái chứng \nminh\" giá trị trong một môi trường bất định.\n• Rủi ro về mô hình định giá và sự thay đổi cấu trúc doanh thu: Ngành Dịch vụ \nCNTT chủ yếu vận hành theo mô hình tính phí dựa trên thời gian và nguồn lực (Time & \nMaterial). Tuy nhiên, khả năng tự động hóa và tối ưu hóa của AI đang trực tiếp \nđe dọa mô hình này. Khi năng suất lao động tăng 30-50% nhờ các công cụ AI, \nsố lượng giờ công cần thiết cho cùng một khối lượng công việc sẽ giảm mạnh, \ncác doanh nghiệp không kịp chuyển dịch sang mô hình định giá dựa trên kết quả \nđầu ra (outcome-based) hoặc dựa trên đăng ký dịch vụ (subscription) sẽ đối mặt \nvới rủi ro sụt giảm doanh thu.\n• Động lực P*Q và rủi ro phân mảnh ngân sách: J.P. Morgan chỉ ra một nghịch lý, \nmặc dù đơn giá mỗi đơn vị công việc (P) giảm do AI nhưng tổng chi tiêu CNTT vẫn \ncó thể duy trì ổn định nhờ gia tăng nhu cầu (Q) xử lý “nợ kỹ thuật” (Technical debt),\nước đạt 8.000 tỷ USD. Tuy nhiên, rủi ro phát sinh từ xu hướng “tiết kiệm để tái \nđầu tư”, khách hàng tạm dừng dự án không cấp thiết để dồn ngân sách cho AI sẽ \ngây khó khăn trong ngắn hạn cho tăng trưởng của doanh nghiệp dịch vụ CNTT.\n• Thách thức về quản trị, tuân thủ và niềm tin: Việc triển khai AI ở quy mô lớn đòi hỏi \nkhung quản trị chặt chẽ, đảm bảo an toàn dữ liệu, tính minh bạch và độ tin cậy \ncủa thuật toán. Điều này đòi hỏi các doanh nghiệp CNTT không chỉ cần giỏi kỹ \nthuật mà còn phải đóng vai trò là chuyên gia tư vấn về pháp lý và đạo đức AI.\nChuyển dịch của ngành dịch vụ CNTT: Rủi ro và \ncơ hội mới từ AI\nChi tiêu cho AI giai đoạn 2025-2027 Đơ",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Chi tiêu cho AI giai đoạn 2025-2027",
+              "location": "dưới bên trái",
+              "description": "Bảng chi tiêu dự kiến cho các lĩnh vực AI (Dịch vụ AI, An ninh mạng AI, Phần mềm AI, Mô hình AI, Nền tảng AI cho khoa học dữ liệu và học máy, Nền tảng phát triển ứng dụng AI, Dữ liệu AI, Hạ tầng AI) theo đơn vị tỷ USD cho các năm 2025, 2026, 2027."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p004",
+          "page": 4,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Ba yếu tố sống còn trong kỷ nguyên AI\nĐể không bị bỏ lại phía sau trong kỷ nguyên AI, các doanh nghiệp, tổ chức buộc \nphải giải được ba bài toán sống còn: thời gian, chi phí và năng suất lao động.\nThứ nhất là về thời gian. Trong một thế giới thay đổi theo từng ngày, thậm chí từng \ngiờ, doanh nghiệp nào đưa sản phẩm, dịch vụ ra thị trường nhanh hơn sẽ là doanh \nnghiệp chiến thắng.\nThứ hai là về chi phí. Công nghệ, đặc biệt là AI, đang mở ra khả năng giảm mạnh \nchi phí phát triển, và vận hành. Những công việc trước đây cần nhiều nguồn lực, \nnhiều thời gian, giờ đây có thể được thực hiện với hiệu quả cao hơn nhiều lần. Theo \nnghiên cứu của McKinsey, AI có thể giúp doanh nghiệp giảm 20-30% chi phí trong \nnhiều quy trình, trong khi Microsoft ghi nhận các công cụ AI hỗ trợ lập trình giúp \ntăng năng suất lên tới 55%.\nVà cuối cùng là năng suất lao động, yếu tố mang tính quyết định. AI cho phép tự \nđộng hóa ngày càng nhiều công việc liên quan đến tri thức – từ phân tích dữ liệu, \nphát triển phần mềm cho đến vận hành hệ thống. Điều này cho phép năng suất lao \nđộng tăng lên không phải vài phần trăm như trước đây, mà tăng theo nhiều lần. \nMột ví dụ rất cụ thể là bài toán hiện đại hóa các hệ thống công nghệ thông tin di \nsản trên thế giới, đặc biệt là các hệ thống viết bằng ngôn ngữ COBOL. Theo thống \nkê, có khoảng 300 tỷ dòng mã COBOL đang được vận hành trên toàn cầu và \n70-80% giao dịch kinh doanh trên thế giới vẫn được xử lý bởi các hệ thống này. \nViệc chuyển đổi các hệ thống này sang nền tảng hiện đại là một khối lượng công \nviệc khổng lồ và có thể kéo dài nhiều năm. Với các nền tảng AI như xMainframe mà \nFPT đang phát triển, quá trình phân tích, chuyển đổi và tái cấu trúc các hệ thống \nnày được tự động hóa giúp giảm 30% khối lượng công việc thủ công. \nTổng hòa của ba yếu tố này cho thấy một thực tế: lợi thế cạnh tranh trong kỷ \nnguyên AI không còn đến từ quy mô hay kinh nghiệm, mà đến từ khả năng thích \nứng và tái tạo chính mình bằng công nghệ. Và để làm được điều này, các doanh \nnghiệp buộc phải tiến tới mô hình AI thuần (AI-Native). Đây không còn là một lựa \nchọn mang tính chiến lược, mà là một yêu cầu mang tính sống còn. AI sẽ không chỉ \nlà công cụ hỗ trợ, mà sẽ trở thành nền tảng vận hành cốt lõi của tổ chức.\nLợi thế cạnh tranh khác biệt của FPT\nTrong làn sóng chuyển đổi mang tính lịch sử đó, FPT tin rằng mình đang sở hữu một \nsố lợi thế cạnh tranh mà không nhiều doanh nghiệp có được.\nTrước hết là lực lượng nhân lực công nghệ đông đảo. Với hàng chục nghìn kỹ sư \nđang làm việc trên khắp thế giới, đây chính là nguồn lực quan trọng để FPT triển \nkhai những chương trình chuyển đổi công nghệ quy mô lớn và kéo dài nhiều năm \ncho khách hàng toàn cầu.\nNhưng trong kỷ nguyên công nghệ mới, không chỉ đông mà còn phải tinh nhuệ. Với \nhơn 54.000 nhân sự làm việc tại trên 30 quốc gia, trong đó có hơn 4.000 chuyên \ngia quốc tế đến từ 82 quốc tịch, FPT đang từng bước xây dựng một đội ngũ công \nnghệ mang tính toàn cầu, đa dạng và có khả năng triển khai những bài toán phức \ntạp ở quy mô lớn. Chúng tôi cũng đã thành lập Viện Quantum AI & Cybersecurity, \nđặt mục tiêu đào tạo 100 tiến sĩ, phát triển 2.000 chuyên gia công nghệ trình độ \ncao và công bố 500 công trình k",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p005",
+          "page": 5,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Thông qua việc xây dựng hệ sinh thái công nghệ và nguồn nhân lực chất lượng cao, \nFPT khẳng định vị thế của một doanh nghiệp công nghệ có năng lực cạnh tranh \nquốc tế, tham gia và dẫn dắt các dự án công nghệ quy mô hàng trăm triệu đến \nhàng tỷ USD, trở thành đối tác chiến lược cấp cao trong các chương trình chuyển \nđổi số và AI dài hạn của các quốc gia và các tập đoàn lớn.\nTrước những biến động nhanh chóng của thế giới, con đường phía trước chắc chắn \ncòn nhiều thách thức. Nhưng với tinh thần tiên phong và khát vọng đổi mới, FPT sẽ \nchủ động nắm bắt cơ hội, phụng sự quốc gia, nâng tầm vị thế trên thị trường công \nnghệ toàn cầu để kiến tạo giá trị bền vững, lâu dài cho Tập đoàn, Quý Cổ đông. \nXin trân trọng cảm ơn!\nCHỦ TỊCH HĐQT\nTRƯƠNG GIA BÌNH\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí\ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh \ntrong dài hạn.\nLợi thế riêng có thứ hai của chúng tôi là hiện diện toàn cầu ở mọi múi giờ, \ncho phép đội ngũ nhân sự phối hợp làm việc liên tục 24/24 theo mô hình “follow \nthe sun”, từ đó rút ngắn đáng kể thời gian phát triển và triển khai các dự án \ncông nghệ cho khách hàng. Không chỉ dừng lại ở tốc độ, FPT đồng thời đầu tư \nmạnh vào năng lực công nghệ AI quy mô lớn, nhằm nâng cao năng suất, mở rộng \nquy mô triển khai và giải quyết những bài toán phức tạp mà trước đây không thể \nthực hiện được. Trong năm qua chúng tôi cũng đã đưa vào vận hành hai nhà máy \nAI tại Việt Nam và Nhật Bản, tạo nền tảng cho việc phát triển và triển khai \ncác giải pháp AI ở quy mô lớn. Chỉ sau một năm, các nhà máy này đã được khai thác \nkhoảng 70% công suất, xử lý hơn 1.100 tỷ token, tinh chỉnh 70 mô hình AI theo \nnhu cầu khách hàng và phát triển 10 mô hình ngôn ngữ lớn từ FPT AI Factory.\nThứ ba là hệ sinh thái hợp tác chiến lược với các tập đoàn công nghệ hàng đầu thế giới,\nđặc biệt là các nhà cung cấp dịch vụ lớn như: Microsoft, IBM…. Những quan hệ hợp tác \nnày giúp FPT tiếp cận những công nghệ tiên tiến nhất, đồng thời mang lại cho \nkhách hàng các giải pháp toàn diện, từ hạ tầng, nền tảng đến ứng dụng.\nSong song với phát triển công nghệ, FPT cũng đang thúc đẩy một cuộc cách mạng \ntrong giáo dục. FPT đã luôn tiên phong trong việc đưa công nghệ, AI vào giảng dạy \nvà sẽ chuyển đổi mạnh mẽ mô hình đào tạo truyền thống sang phương pháp \n“lớp học đảo ngược”, nơi mà nhờ AI, người học được chủ động tiếp cận trước kiến \nthức và dành thời gian trên lớp để giải quyết các bài toán thực tế. Trong mô hình \nđó, AI không chỉ là công cụ mà còn trở thành người phụ đạo, hỗ trợ cá nhân hóa \nquá trình học tập.\nLàm chủ công nghệ chiến lược\nFPT đã xác lập mục tiêu chiến lược: đầu tư và làm chủ công nghệ lõi để giữ vị trí \ntrung tâm trên bản đồ công nghệ Việt Nam và xây dựng lợi thế cạnh tranh trong dài \nhạn. Nếu trước kia FPT chủ yếu được biết đến như một công ty cung cấp dịch vụ \ncông nghệ, thì từ năm 2026 và những năm tiếp theo, FPT sẽ chuyển mình thành \ndoanh nghiệp sáng tạo công nghệ, làm chủ các công nghệ chiến lược như AI, \nQuantum AI & Cybersecurity, UAV, công nghệ đường sắt, an ninh mạng và dữ liệu...\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nThông điệp của Chủ tịch Hội đồng Quản tr",
+          "visuals": []
+        },
+        {
+          "id": "FPT2025:p053",
+          "page": 53,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Chuyển đổi số khối Chính phủ và địa phương: \nThị trường trọng điểm\nLà doanh nghiệp dịch vụ công nghệ có mặt tại hơn 30 quốc gia, đồng thời là đối \ntác chiến lược và đối tác cao cấp của nhiều tập đoàn công nghệ hàng đầu thế giới \nvà khu vực, FPT sở hữu lợi thế kết nối hệ sinh thái công nghệ toàn cầu cùng đội ngũ \nnhân sự chuyên môn cao. Năng lực này cho phép FPT huy động hiệu quả nguồn lực, \ncông nghệ và kinh nghiệm quốc tế để phục vụ trực tiếp cho quá trình chuyển đổi số \nkhu vực công và phát triển đô thị thông minh tại Việt Nam, qua đó góp phần hiện thực \nhóa các mục tiêu xây dựng Chính phủ số, kinh tế số và nâng cao năng lực tự chủ \ncông nghệ quốc gia.\nChuyển đổi số khu vực công được xem là động lực tăng trưởng chiến lược cho FPT \ntrong giai đoạn 03-05 năm tới. \nChính phủ Việt Nam đã phê duyệt Chương trình Chuyển đổi số quốc gia giai đoạn \n2025-2030, đặt mục tiêu 100% dịch vụ công được cung cấp trực tuyến mức độ 04 \nvào năm 2030. Chính phủ chủ trương dành 2% ngân sách nhà nước hàng năm cho \nlĩnh vực công nghệ, công nghệ thông tin và đổi mới sáng tạo. \nNăm 2025, FPT đã đồng hành với nhiều bộ, ngành và địa phương hoàn thành các \nchiến lược dữ liệu, chiến lược chuyển đổi số, kiến trúc chính phủ số cho giai đoạn \n2026-2030.\nFPT tiếp tục đồng hành cùng Chính phủ, bộ, ngành và địa phương:\n• Xây dựng và đưa vào vận hành các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên \nngành, đảm bảo “Đúng – Đủ – Sạch – Sống” làm cơ sở cho dịch vụ số tiện dụng, \nhữu ích trong dịch vụ công đối với người dân;\n• Tích hợp AI và xử lý dữ liệu lớn để tự động hóa thủ tục hành chính, giảm thời gian \nxử lý và cải thiện trải nghiệm công dân;\n• Phát triển nền tảng số, sáng kiến số tích hợp công nghệ AI khai thác các cơ sở dữ \nliệu hiệu quả nâng cao năng lực quản lý nhà nước;\n• Đẩy mạnh ứng dụng IoT, AI và Big Data tại các đô thị lớn, tối ưu hóa giao thông, \nnăng lượng và an ninh hướng đến mô hình thành phố thông minh;\n• Đồng hành phát triển và vận hành các sáng kiến đổi mới sáng tạo trên nền tảng \ncông nghệ số, ứng dụng AI giúp phát triển kinh tế và nâng cao chất lượng cuộc \nsống cho người dân;\n• Đồng hành phát triển nguồn nhân lực mới, đào tạo bổ sung các kỹ năng đáp ứng \nviệc triển khai các nghị quyết đột phá về khoa học công nghệ, đổi mới sáng tạo \nvà công nghệ chiến lược tại địa phương. Thông qua trợ lý AI tại Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án \ndân sự (IOC THADS), lãnh đạo có thể theo dõi tiến độ xử lý ngay trên một màn hình điều \nhành tập trung.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày chiến lược chuyển đổi số khối Chính phủ và địa phương của FPT, tập trung vào các thị trường trọng điểm và các hoạt động đồng hành cùng Chính phủ, bộ, ngành và địa phương trong giai đoạn 2026-2030.\nphoto: Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS) (phải) — Ảnh một người đang làm việc với hai màn hình máy tính hiển thị bản đồ và biểu đồ liên quan đến dữ liệu giám sát, thể hiện việc theo dõi tiến độ xử lý trên màn hình điều hành tập trung.",
+          "visuals": [
+            {
+              "type": "photo",
+              "title": "Trung tâm Giám sát, Điều hành thông minh Hệ thống Thi hành án dân sự (IOC THADS)",
+              "location": "phải",
+              "description": "Ảnh một người đang làm việc với hai màn hình máy tính hiển thị bản đồ và biểu đồ liên quan đến dữ liệu giám sát, thể hiện việc theo dõi tiến độ xử lý trên màn hình điều hành tập trung."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p051",
+          "page": 51,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Làm chủ công nghệ chiến lược góp phần xây dựng \nchủ quyền số\nTrong bối cảnh căng thẳng địa chính trị leo thang, chủ quyền số trở thành ưu tiên \nan ninh quốc gia. Nghiên cứu từ St. Louis Fed cho thấy các biện pháp hạn chế công \nnghệ đã tạo ra sự phân mảnh đáng kể trong chuỗi cung ứng toàn cầu, buộc các \nquốc gia phải phát triển năng lực công nghệ nội địa. Nghị quyết 57-NQ/TW định \nhướng Việt Nam phát triển nhanh và bền vững trên nền tảng khoa học công nghệ, \nđổi mới sáng tạo và chuyển đổi số; từng bước nâng cao năng lực tự chủ công nghệ, \nđặc biệt trong các công nghệ chiến lược. Nhà nước ưu tiên nguồn lực quốc gia cho \nphát triển công nghệ lõi, hạ tầng số trọng yếu và hệ sinh thái doanh nghiệp công nghệ \nsố trong nước. Nghị quyết đồng thời nhấn mạnh yêu cầu bảo đảm chủ quyền \nquốc gia trên không gian mạng, tăng cường an ninh mạng, an ninh dữ liệu và an toàn\nthông tin, tạo dư địa phát triển dài hạn cho các doanh nghiệp công nghệ có năng lực \ncung cấp giải pháp nền tảng và dịch vụ bảo mật.\nBCG nhấn mạnh, các công ty AI-First không chỉ áp dụng AI mà còn tái cấu trúc \ntoàn bộ tổ chức xung quanh AI, từ năng lực công nghệ cốt lõi, chiến lược sản phẩm \nđến văn hóa và tài năng. Điều này đòi hỏi FPT đầu tư vào nền tảng công nghệ \ncốt lõi, phát triển tài năng nội bộ, thu hút nhân tài, tăng cường đào tạo và xây dựng \nhệ sinh thái đối tác chiến lược. \nGiai đoạn tiếp theo, FPT tiếp tục đầu tư mạnh mẽ vào:\n• Phát triển, hoàn thiện hệ sinh thái AI với AI Studio, AI Inferencing, AI Agents và \ncác nền tảng dữ liệu giúp tăng tốc quá trình phát triển ứng dụng AI; tiếp tục \nđầu tư phát triển hạ tầng trung tâm dữ liệu và năng lực tính toán AI;\n• Áp dụng triệt để nền tảng AI linh hoạt - FleziPT với phương pháp, quy trình và \ngiải pháp đã được kiểm chứng hiệu quả trong thực tiễn. Nền tảng này liên tục \nđược cập nhật và hoàn thiện thông qua quá trình triển khai các dự án AI, đảm bảo \nkhả năng thích ứng và tiến hóa theo nhu cầu thực tế của khách hàng và thị trường. \nFleziPT là kết quả của quá trình tích lũy và chuẩn hóa các kinh nghiệm triển khai \nAI tại FPT, nhằm tạo ra giá trị vượt trội cho khách hàng. FleziPT được xây dựng \ntheo mô hình nhiều lớp, trong đó, lớp năng lực cốt lõi gồm: Flezi Workforce và \nFlezi Foundation tập hợp các thực tiễn, công cụ, phương pháp luận và nguồn lực \n(bao gồm cả nhân sự và nhân sự số) đã được kiểm chứng qua các dự án thực tế;\n• Phát triển ứng dụng AI, LLM tùy chỉnh, sản phẩm và dịch vụ trong các lĩnh vực \nchuyên sâu như: Y tế, Dược, Tài chính – Bảo hiểm, Quản trị nhân sự, Giáo dục \nđào tạo…;\n• Triển khai mô hình đồng hành cùng đầu tư phát triển các giải pháp đột phá, ứng dụng\nAI nâng cao hiệu quả trong hoạt động kinh doanh, vận hành của khách hàng;\n• Ứng dụng AI tăng trưởng năng suất vận hành nội bộ, tập trung vào phát triển \nphần mềm, quản trị hệ thống nhằm tăng tốc quá trình phát triển sản phẩm, nâng cao \nhiệu suất lao động, phát hiện sớm các sai sót, lỗi dịch vụ…;\n• Tiếp nối các hợp tác về hạ tầng tính toán hiệu năng cao, FPT định hướng mở rộng \nhệ sinh thái công nghệ lõi và các giải pháp AI theo từng ngành trọng điểm thông \nqua việc mở rộng hợp tác với các doanh nghiệp và startup quốc tế phát triển \nsản phẩm, nền tảng AI chuyên bi",
+          "visuals": [
+            {
+              "type": "diagram",
+              "title": "Nền tảng phục vụ phát triển AI có chủ quyền của FPT",
+              "location": "phải",
+              "description": "Mô hình nền tảng AI gồm các thành phần AI Studio, AI Inferencing, AI Agents, AI Platform, AI Infrastructure với các lớp dữ liệu, tính toán và ứng dụng AI, thể hiện quan hệ giữa các thành phần trong hệ sinh thái AI của FPT."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p020",
+          "page": 20,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "Để giải quyết thách thức trên, FPT cung cấp bộ \ngiải pháp và dịch vụ hiện đại hóa hệ thống toàn \ntrình, kết hợp năng lực tư vấn, triển khai và các \ncông nghệ AI chuyên biệt. Trong đó, nổi bật là \nxMainframe, giải pháp ứng dụng AI và \nGenerative AI hỗ trợ phân tích, hiểu và chuyển \nđổi các hệ thống mainframe. xMainframe có khả \nnăng tự động phân tích mã nguồn “di sản”, tái dựng \nlogic hệ thống thông qua kỹ thuật đảo ngược \n(Reverse engineering), xác định các mối quan hệ \nphụ thuộc giữa các ứng dụng, đồng thời hỗ trợ \ntrích xuất dữ liệu và tự động tạo báo cáo. \nxMainframe được triển khai thành công tại nhiều \ndoanh nghiệp lớn. Đơn cử, tại tập đoàn sản xuất \nthép hàng đầu Nhật Bản, xMainframe đã được \nFPT sử dụng để phân tích và hợp nhất hơn 06 \ntriệu dòng mã nguồn của hệ thống legacy, giúp \ngiảm khoảng 30% khối lượng công việc thủ công \ntrong giai đoạn đánh giá ban đầu. \nĐến nay, bộ giải pháp hiện đại hóa hệ thống CNTT \n“di sản” của FPT đã giúp hơn 40 doanh nghiệp trên \ntoàn cầu, hiện đại hóa trên 300 hệ thống và chuyển \nđổi hơn 200 triệu dòng mã nguồn, khai thác hiệu quả \ngiá trị của hệ thống legacy hiện có, đồng thời tạo nền \ntảng linh hoạt cho quá trình chuyển đổi số và ứng \ndụng AI trong tương lai.\nDỰ ÁN AI NỔI BẬT\nHiện đại hóa hệ thống máy tính quy mô lớn với AI, tăng tốc chuyển đổi các hệ thống CNTT “di sản”\nDù công nghệ phát triển mạnh mẽ, nhiều doanh nghiệp \nlớn trên thế giới trong lĩnh vực tài chính, sản xuất, \nlogistics, bất động sản vẫn đang vận hành các hệ thống \nmáy tính quy mô lớn (mainframe) dựa trên ngôn ngữ \nCOBOL được xây dựng từ hàng thập kỷ trước. \nTrong hơn 1.100 khách hàng toàn cầu của FPT có \nmột tỷ lệ đáng kể vẫn đang hoạt động phụ thuộc vào \ncác hệ thống CNTT “di sản” (Legacy), đặc biệt là các \ndoanh nghiệp Nhật Bản. Bộ Kinh tế, Thương mại và \nCông nghiệp Nhật Bản (METI) đã đưa ra khái niệm \n“Vách đá số 2025” (2025 Digital Cliff) nhằm cảnh \nbáo mối đe dọa nghiêm trọng đối với năng lực cạnh \ntranh kinh tế trong tương lai nếu doanh nghiệp không \nkịp thời hiện đại hóa các hệ thống CNTT “di sản”. \nđang được vận hành trên toàn cầu\n220-300 Tỷ dòng mã \nCOBOL\n70-80% Giao dịch \nkinh doanh\ncủa doanh nghiệp dành cho duy trì\nhệ thống CNTT “di sản”\n60-80% Ngân sách \nCNTT\nHệ thống CNTT di sản 300 được khai thác hiệu quả\nDòng mã nguồn\nđược chuyển đổi\n200triệu\nDoanh nghiệp\ntoàn cầu\n40\ntrên thế giới được xử lý bởi các\nhệ thống COBOL\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang báo cáo trình bày về dự án AI nổi bật của FPT trong việc hiện đại hóa hệ thống máy tính quy mô lớn với AI, tập trung vào chuyển đổi các hệ thống CNTT di sản sử dụng ngôn ngữ COBOL.\ntable: Các chỉ số chính về hệ thống CNTT di sản và AI (trái) — Các chỉ số gồm số tỷ đồng mã COBOL đang vận hành toàn cầu, tỷ lệ ngân sách CNTT dành cho hệ thống di sản, tỷ lệ giao dịch kinh doanh xử lý bởi hệ thống COBOL.\ndiagram: Giải pháp AI cho hệ thống xMainframe (giữa phải) — Mô tả khả năng tự động phân tích, hiểu và chuyển đổi hệ thống mainframe bằng AI, kỹ thuật đảo ngược logic hệ thống, hỗ trợ trích xuất dữ liệu và tạo báo cáo tự động.\ntable: Hiệu quả khai thác hệ thống CNTT di sản của FPT (phải) — Số liệu về hệ thống CNTT di sản được khai thác hiệu quả, số doanh nghiệp t",
+          "visuals": [
+            {
+              "type": "table",
+              "title": "Các chỉ số chính về hệ thống CNTT di sản và AI",
+              "location": "trái",
+              "description": "Các chỉ số gồm số tỷ đồng mã COBOL đang vận hành toàn cầu, tỷ lệ ngân sách CNTT dành cho hệ thống di sản, tỷ lệ giao dịch kinh doanh xử lý bởi hệ thống COBOL."
+            },
+            {
+              "type": "diagram",
+              "title": "Giải pháp AI cho hệ thống xMainframe",
+              "location": "giữa phải",
+              "description": "Mô tả khả năng tự động phân tích, hiểu và chuyển đổi hệ thống mainframe bằng AI, kỹ thuật đảo ngược logic hệ thống, hỗ trợ trích xuất dữ liệu và tạo báo cáo tự động."
+            },
+            {
+              "type": "table",
+              "title": "Hiệu quả khai thác hệ thống CNTT di sản của FPT",
+              "location": "phải",
+              "description": "Số liệu về hệ thống CNTT di sản được khai thác hiệu quả, số doanh nghiệp toàn cầu và dòng mã nguồn được chuyển đổi."
+            }
+          ]
+        },
+        {
+          "id": "FPT2025:p116",
+          "page": 116,
+          "source": "https://fpt.com/vi/tin-tuc/fpt-cong-bo-bao-cao-thuong-nien-2025",
+          "text": "QUẢN TRỊ XUẤT SẮC\nHoạt động trọng yếu Cam kết Mục tiêu\nQuản trị công ty Quản trị công ty xuất sắc \nhướng tới phát triển\nbền vững.\nKhông ngừng nâng cao năng lực \nquản trị đáp ứng lợi ích của tất cả \ncác bên liên quan.\n• Top 5 Doanh nghiệp Việt Nam có chất lượng quản trị công ty tốt \nnhất ASEAN, Top 8 Doanh nghiệp vốn hóa lớn có quản trị công ty \ntốt nhất;\n• Tiên phong nghiên cứu và ứng dụng AI trong quản lý tài chính, \nbán hàng – marketing và tối ưu hệ thống CRM nhằm nâng cao \nhiệu quả vận hành và kiểm soát rủi ro;\n• Ứng dụng AI trong quản trị, phát triển và triển khai phần mềm,\n từ thiết kế, lập trình, kiểm thử đến đảm bảo chất lượng sản phẩm;\n• Triển khai hệ thống quản lý năng lượng thông minh trên nền tảng \nđám mây, tích hợp AI dự báo tiêu thụ và chi phí năng lượng, \nhướng tới mục tiêu phát thải ròng bằng không.\nQuản trị dữ liệu Đảm bảo an toàn và \nquyền riêng tư dữ liệu. \nTuân thủ 100% quy định của\nluật pháp về quyền riêng tư của\nkhách hàng.\n• Hướng dẫn, tư vấn triển khai tuân thủ quy định pháp luật và\n quy định nội bộ về bảo vệ dữ liệu cá nhân cho công ty thành viên; \n• Triển khai công cụ phân quyền, kiểm duyệt sử dụng dữ liệu giữa \ncác đơn vị trong Tập đoàn; \n• Đạt ISO/IEC 42001:2023 – Tiêu chuẩn dành cho hệ thống\n quản lý trí tuệ nhân tạo (AIMS).\nKết quả nổi bật 2025\nQuản trị rủi ro,\nchống tham nhũng\n• Cam kết tuân thủ pháp \nluật và duy trì tiêu chuẩn \nđạo đức cao nhất trong \ntất cả các hoạt động kinh \ndoanh; \n• Không chấp nhận hành vi \nvi phạm các quy định về \nđạo đức của bất kỳ cá \nnhân nào trong tổ chức.\n• 100% cán bộ quản lý thực hiện\n kê khai chống xung đột lợi ích;\n• 100% các trường hợp liên quan \nđến xung đột lợi ích và gian lận \nđược xử lý;\n• Triển khai AI trong quản trị lĩnh vực \ntrọng yếu: tài chính, mua sắm. \n• Đẩy mạnh đào tạo, truyền thông để duy trì văn hóa chống\n tham nhũng;\n• Tổ chức bộ máy, xây dựng quy trình quy định, chế tài xử lý các\n vấn đề liên quan đến xung đột lợi ích và tham nhũng; \n• Ứng dụng AI trong mua sắm giúp kiểm soát chênh lệch giá;\n• Đẩy mạnh kênh iNghe – Nền tảng ghi nhận mọi ý kiến và đóng góp \nthẳng thắn của CBNV khi phát hiện những vấn đề tiêu cực; \n• Xử lý nghiêm minh với các trường hợp vi phạm.\n\nMÔ TẢ TRỰC QUAN (AI; phải kiểm tra ảnh gốc):\nTrang trình bày về quản trị xuất sắc của FPT năm 2025, bao gồm các hoạt động trọng yếu, cam kết, mục tiêu và kết quả nổi bật trong các lĩnh vực quản trị công ty, quản trị dữ liệu và quản trị rủi ro, chống tham nhũng.\n",
+          "visuals": []
+        }
+      ],
+      "images": [
+        {
+          "id": "FPT2025:p003",
+          "path": ".bonus/pages/p003.jpg",
+          "sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408"
+        },
+        {
+          "id": "FPT2025:p047",
+          "path": ".bonus/pages/p047.jpg",
+          "sha256": "b0a13ca0d4df8e603e23565c41ed7eb3f3f2e62d368eb348a30ccc641e98945e"
+        },
+        {
+          "id": "FPT2025:p004",
+          "path": ".bonus/pages/p004.jpg",
+          "sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+        },
+        {
+          "id": "FPT2025:p005",
+          "path": ".bonus/pages/p005.jpg",
+          "sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+        },
+        {
+          "id": "FPT2025:p053",
+          "path": ".bonus/pages/p053.jpg",
+          "sha256": "781e078d581f673b1ab234e2f0a2ab2bf027c371b9584104866e78fe4bc8e76c"
+        },
+        {
+          "id": "FPT2025:p051",
+          "path": ".bonus/pages/p051.jpg",
+          "sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de"
+        },
+        {
+          "id": "FPT2025:p020",
+          "path": ".bonus/pages/p020.jpg",
+          "sha256": "70dfe183fadc602687375ace1667540dd9688bcd065b1918002fbabf5933a36e"
+        },
+        {
+          "id": "FPT2025:p116",
+          "path": ".bonus/pages/p116.jpg",
+          "sha256": "4ef59453022fee003a6376856805ec118b7f8c91ec002277ca8c0d411fc9897d"
+        }
+      ]
+    },
+    {
+      "event": "model",
+      "response_id": "gen-1794805501-5CwRlknK73iNJeFX2O8G",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_01HkmJM27FF5eZ1bf2iRpt1w",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"answer\": \"Theo thông điệp Chủ tịch HĐQT (trang 4 của báo cáo), sau một năm vận hành hai nhà máy AI tại Việt Nam và Nhật Bản đã khai thác khoảng 70% công suất và xử lý hơn 1.100 tỷ token. Ngoài ra, các nhà máy này đã tinh chỉnh 70 mô hình AI theo nhu cầu khách hàng và phát triển 10 mô hình ngôn ngữ lớn từ FPT AI Factory.\", \"abstain\": false, \"citations\": [{\"id\":\"FPT2025:p005\",\"region\":\"Đoạn văn cột trái, giữa trang (đoạn bắt đầu \\\"Lợi thế riêng có thứ hai...\\\"), câu \\\"Chỉ sau một năm, các nhà máy này đã được khai thác khoảng 70% công suất, xử lý hơn 1.100 tỷ token...\\\"\"}]}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event": "answered"
+    }
+  ],
+  "searches": 1,
+  "context_ids": [
+    "FPT2025:p003",
+    "FPT2025:p047",
+    "FPT2025:p004",
+    "FPT2025:p005",
+    "FPT2025:p053",
+    "FPT2025:p051",
+    "FPT2025:p020",
+    "FPT2025:p116"
+  ],
+  "context_sources": [
+    {
+      "id": "FPT2025:p003",
+      "page": 3,
+      "image": ".bonus/pages/p003.jpg",
+      "image_sha256": "935bf3f3c420f765b9782e9ef4c5e8232726b0d4a2e929085a693aec9a012408"
+    },
+    {
+      "id": "FPT2025:p047",
+      "page": 47,
+      "image": ".bonus/pages/p047.jpg",
+      "image_sha256": "b0a13ca0d4df8e603e23565c41ed7eb3f3f2e62d368eb348a30ccc641e98945e"
+    },
+    {
+      "id": "FPT2025:p004",
+      "page": 4,
+      "image": ".bonus/pages/p004.jpg",
+      "image_sha256": "c535865d594e0f3276306cbd7c4aa2fd790925b59b0513868c9b18f9306baa1c"
+    },
+    {
+      "id": "FPT2025:p005",
+      "page": 5,
+      "image": ".bonus/pages/p005.jpg",
+      "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5"
+    },
+    {
+      "id": "FPT2025:p053",
+      "page": 53,
+      "image": ".bonus/pages/p053.jpg",
+      "image_sha256": "781e078d581f673b1ab234e2f0a2ab2bf027c371b9584104866e78fe4bc8e76c"
+    },
+    {
+      "id": "FPT2025:p051",
+      "page": 51,
+      "image": ".bonus/pages/p051.jpg",
+      "image_sha256": "a9595fa961f08f4ccd4917009bf0ebd8d388aeb12f1787d496b51935b01031de"
+    },
+    {
+      "id": "FPT2025:p020",
+      "page": 20,
+      "image": ".bonus/pages/p020.jpg",
+      "image_sha256": "70dfe183fadc602687375ace1667540dd9688bcd065b1918002fbabf5933a36e"
+    },
+    {
+      "id": "FPT2025:p116",
+      "page": 116,
+      "image": ".bonus/pages/p116.jpg",
+      "image_sha256": "4ef59453022fee003a6376856805ec118b7f8c91ec002277ca8c0d411fc9897d"
+    }
+  ],
+  "usage": [
+    {
+      "id": "gen-1794805497-46iKZ815OsPyBr2feeSI",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 1822,
+        "completion_tokens": 96,
+        "total_tokens": 1918,
+        "cost": 0.0002302,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002302,
+          "upstream_inference_prompt_cost": 0.0001822,
+          "upstream_inference_completions_cost": 4.8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 1297.9166999575682,
+      "attempt": 1
+    },
+    {
+      "id": "gen-1794805501-5CwRlknK73iNJeFX2O8G",
+      "model": "anthropic/claude-haiku-5.5",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 32851,
+        "completion_tokens": 391,
+        "total_tokens": 33242,
+        "cost": 0.0034806,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0034806,
+          "upstream_inference_prompt_cost": 0.0032851,
+          "upstream_inference_completions_cost": 0.0001955
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 5525.618200015742,
+      "attempt": 1
+    }
+  ],
+  "elapsed_ms": 8256.07519998448,
+  "query_id": "ft-x1",
+  "question": "Theo thông điệp Chủ tịch, sau một năm các nhà máy AI đã khai thác khoảng bao nhiêu công suất và xử lý bao nhiêu token?",
+  "split": "test",
+  "config": "vision"
+}

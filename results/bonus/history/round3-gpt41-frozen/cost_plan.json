@@ -1,0 +1,26 @@
+{
+  "api_requests_made_by_this_command": 0,
+  "selected": "vision",
+  "model": "openai/gpt-4.1",
+  "test_total": 30,
+  "saved_test_queries": 0,
+  "pending_queries": 30,
+  "saved_errors_not_automatically_retried": [],
+  "minimum_chat_requests_if_successful": 60,
+  "maximum_successful_chat_requests_without_retries": 120,
+  "original_query_embeddings_missing": 30,
+  "note_embeddings": "Rewrites may add queries. Reuse all existing document captions/vectors; never ingest again to run test.",
+  "measured_dev_chat_requests": 40,
+  "measured_dev_chat_cost_usd": 0.898914,
+  "estimated_test_chat_cost_usd_at_same_mean": 1.49819,
+  "estimate_warning": "Extrapolation from saved dev usage only, not a quote or spending cap. Images, rewrites, retries and token lengths vary; query embeddings excluded.",
+  "zero_additional_api_option": "Run offline unit tests and submit the completed base lab; disclose bonus test pending, no bonus claimed.",
+  "cheap_model_option": "New dev experiment required before test; retain original selection and results separately. No quality guarantee.",
+  "do_not_repeat": [
+    "caption 232 pages",
+    "embed document again",
+    "completed dev queries",
+    "completed test queries"
+  ],
+  "no_test_sampling_for_bonus": "A full published 30-question test must be evaluated to claim the bonus."
+}

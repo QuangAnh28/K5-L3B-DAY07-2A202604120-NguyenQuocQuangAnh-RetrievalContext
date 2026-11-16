@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p106",
+  "image_sha256": "a45a6ead3434835c01007bd72e74371e3a079bff290a3a52e906f01d96ae2fb5",
+  "caption": {
+    "summary": "Nội dung trang trình bày lịch họp và nội dung các phiên họp của công ty trong năm 2025, tập trung vào việc xem xét số liệu tài chính, báo cáo kinh doanh và kế hoạch kiểm soát công nợ, hàng tồn kho.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Lịch họp và nội dung các phiên họp năm 2025",
+        "location": "trên",
+        "description": "Bảng gồm các cột Phiên họp, Số thành viên tham dự, Nội dung họp; các phiên họp được liệt kê gồm Phiên 04 ngày 24/07/2025 và Phiên 05 ngày 11/11/2025 với nội dung chi tiết về tài chính, báo cáo kinh doanh và kế hoạch kiểm soát."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800758-D6O9I9T9rRaBYj7wGSDQ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 171,
+        "total_tokens": 2733,
+        "cost": 0.0012984,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012984,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0002736
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3412.8285000333562,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

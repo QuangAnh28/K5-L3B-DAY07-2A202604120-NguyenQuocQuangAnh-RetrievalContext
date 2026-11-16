@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p089",
+  "image_sha256": "b906ca9db8a63dda6526bbd3e9d370fb52259e0dc8a2b0835e511f28235bcd01",
+  "caption": {
+    "summary": "Trang trình bày nguyên tắc đảm bảo vai trò lãnh đạo hiệu quả và tính độc lập của Hội đồng Quản trị (HĐQT) FPT, cùng với việc thành lập các ủy ban thuộc HĐQT và danh sách các ủy ban, chức năng, thành viên chủ chốt.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Danh sách các ủy ban thuộc HĐQT",
+        "location": "phải",
+        "description": "Bảng gồm các cột STT, Ủy ban, Họ và tên, Chức danh, liệt kê 3 ủy ban: Nhân sự và Lương thưởng, Chính sách phát triển, Văn phòng Chủ tịch HĐQT cùng tên và chức danh người phụ trách."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800745-jtCdEs076XLgGd6534vZ",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 160,
+        "total_tokens": 2722,
+        "cost": 0.0012808,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0012808,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.000256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4024.2647000122815,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

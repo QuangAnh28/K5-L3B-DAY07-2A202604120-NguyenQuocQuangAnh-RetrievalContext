@@ -1,0 +1,48 @@
+{
+  "id": "FPT2025:p202",
+  "image_sha256": "65d15393287e541f7d5a6a9af6d3f95e8bc33d99ab257b7bcbaa2f2c87685fa8",
+  "caption": {
+    "summary": "Bảng chi tiết vay và nợ thuê tài chính của FPT tính đến ngày 31/12/2025, phân loại theo ngắn hạn và dài hạn, thể hiện giá trị, số có khả năng trả nợ, các phát sinh tăng, giảm và chênh lệch tỷ giá hối đoái trong năm.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Bảng vay và nợ thuê tài chính",
+        "location": "giữa trang",
+        "description": "Bảng gồm các cột: Giá trị, Số có khả năng trả nợ tại ngày 1/1/2025; Tăng, Giảm, Chênh lệch tỷ giá hối đoái trong năm; Giá trị, Số có khả năng trả nợ tại ngày 31/12/2025. Các dòng phân loại vay ngắn hạn (vay ngân hàng, vay bên liên quan), vay và nợ thuê tài chính dài hạn đến hạn trả (vay ngân hàng, nợ thuê tài chính), và vay dài hạn (vay ngân hàng, nợ thuê tài chính). Đơn vị tính: VNĐ."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800833-tahq5XAvPfvtp25UGVNe",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 239,
+        "total_tokens": 2801,
+        "cost": 0.0014072,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0014072,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003824
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3903.433400031645,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

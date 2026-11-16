@@ -1,0 +1,37 @@
+{
+  "passed": 15,
+  "total": 18,
+  "rate": 0.8333333333333334,
+  "meets_90_percent": false,
+  "groups": {
+    "chart": {
+      "passed": 3,
+      "total": 3
+    },
+    "diagram": {
+      "passed": 1,
+      "total": 3
+    },
+    "multi_hop": {
+      "passed": 2,
+      "total": 3
+    },
+    "table": {
+      "passed": 3,
+      "total": 3
+    },
+    "unanswerable": {
+      "passed": 3,
+      "total": 3
+    },
+    "text": {
+      "passed": 3,
+      "total": 3
+    }
+  },
+  "system_errors": 0,
+  "median_ms": 30367.10684999707,
+  "chat_cost_usd": 0.898914,
+  "missing_cost_requests": 0,
+  "reviewer_note": "Codex AI-assisted original-page review. No student confirmation or independent human audit asserted."
+}

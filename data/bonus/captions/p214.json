@@ -1,0 +1,54 @@
+{
+  "id": "FPT2025:p214",
+  "image_sha256": "90f38d3576239004b53276b5d836d74e8afb1056fb46562de8870d229d2ff29d",
+  "caption": {
+    "summary": "Trang trình bày thuyết minh báo cáo tài chính hợp nhất năm 2025, bao gồm báo cáo bộ phận theo khu vực địa lý và các giao dịch với bên liên quan.",
+    "visuals": [
+      {
+        "type": "table",
+        "title": "Báo cáo bộ phận theo khu vực địa lý của Tập đoàn",
+        "location": "trái",
+        "description": "Doanh thu thuần phân theo Việt Nam và nước ngoài cho năm tài chính kết thúc ngày 31 tháng 12 năm 2025 và 2024, đơn vị triệu VNĐ."
+      },
+      {
+        "type": "table",
+        "title": "Giao dịch với các bên liên quan",
+        "location": "phải",
+        "description": "Các giao dịch chủ yếu với các bên liên quan trong năm tài chính 2025 và 2024, đơn vị VNĐ, bao gồm bán hàng và cung cấp dịch vụ, mua hàng hóa và dịch vụ, nhận cổ tức bằng tiền, vay mới, thanh toán các khoản vay và lãi đi vay."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "id": "gen-1794800842-L6p5ODisWDgJQNpz69q8",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 206,
+        "total_tokens": 2768,
+        "cost": 0.0013544,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0013544,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.0003296
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 4965.72889998788,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}

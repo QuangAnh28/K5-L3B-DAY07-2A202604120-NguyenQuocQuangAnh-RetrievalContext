@@ -1,0 +1,35 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "events": [],
+  "searches": 0,
+  "error": {
+    "type": "RuntimeError",
+    "message": "OpenRouter network/timeout error"
+  },
+  "context_ids": [],
+  "context_sources": [],
+  "usage": [
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 1
+    },
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 2
+    },
+    {
+      "endpoint": "chat/completions",
+      "error": "network",
+      "attempt": 3
+    }
+  ],
+  "elapsed_ms": 3024.9776000273414,
+  "query_id": "fd-m2",
+  "question": "Đối chiếu sơ đồ tổ chức với bảng trách nhiệm phát triển bền vững: cấp nào phê duyệt chiến lược, cấp nào triển khai, và hai cấp đó được sắp theo thứ tự nào?",
+  "split": "dev",
+  "config": "vision"
+}

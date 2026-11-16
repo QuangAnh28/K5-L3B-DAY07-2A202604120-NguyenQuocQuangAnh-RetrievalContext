@@ -1,0 +1,41 @@
+{
+  "id": "FPT2025:p005",
+  "image_sha256": "c66b4c57dc2491b91aa60eb5ac8fcf277b8d710b376240639db7dd80d8f334b5",
+  "caption": {
+    "summary": "Thông điệp của Chủ tịch Hội đồng Quản trị về chiến lược công nghệ của FPT trong năm 2025, nhấn mạnh lợi thế toàn cầu, hệ sinh thái hợp tác chiến lược, và mục tiêu làm chủ công nghệ lõi để giữ vị trí trung tâm trên bản đồ công nghệ Việt Nam.",
+    "visuals": []
+  },
+  "usage": [
+    {
+      "id": "gen-1794800690-MmmOjWSUhf0cd5FsNKAo",
+      "model": "openai/gpt-4.1-mini",
+      "endpoint": "chat/completions",
+      "usage": {
+        "prompt_tokens": 2562,
+        "completion_tokens": 75,
+        "total_tokens": 2637,
+        "cost": 0.0011448,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011448,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.00012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "elapsed_ms": 3445.1703999657184,
+      "attempt": 1
+    }
+  ],
+  "review_status": "model_generated; original page image retained for verification"
+}
