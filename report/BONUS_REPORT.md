@@ -33,6 +33,13 @@ Kết quả: 27/30 (90.00%), lỗi hệ thống 0.
 
 Ngưỡng bonus: ít nhất 27/30 test đạt, không làm tròn; mẫu số gồm cả lỗi/timeout.
 
+### Đính chính số trang sau rà soát
+
+- **ft-t6:** bảng tiêu thụ điện ở **trang PDF 147, số trang in 146**. Cụm “trang 146 PDF” trong output gốc sai; citation `FPT2025:p147` đúng.
+- **ft-i3:** sơ đồ FleziPT ở **trang PDF 63, số trang in 62**. Cụm “ảnh gốc trang PDF 62” trong output gốc sai; citation `FPT2025:p063` đúng.
+
+Đây là đính chính do người rà soát bổ sung sau test, không phải output mới của model. Các câu trả lời, trace và nhãn gốc được giữ để kiểm chứng. Kết quả 27/30 là theo nhãn đã lưu trước đính chính; hai câu trên có lỗi số trang trong prose và cần người chấm quyết định có chấp nhận hay không. Không coi đính chính này là bằng chứng chắc chắn được cộng 15 điểm bonus.
+
 | Nhóm | Đạt / tổng | Tỷ lệ |
 |---|---|---:|
 | chart | 5/5 | 100.0% |
